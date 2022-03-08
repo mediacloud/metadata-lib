@@ -2,7 +2,7 @@ import unittest
 import datetime as dt
 
 from .. import extract
-from .. import content as content
+from .. import content
 
 
 class TestExtract(unittest.TestCase):

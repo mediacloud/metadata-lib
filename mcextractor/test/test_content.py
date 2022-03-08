@@ -1,14 +1,15 @@
 import unittest
+from typing import Optional
 
-from .. import content as content
-from .. import http
+from .. import content
+from .. import webpages
 
 
 class TestContentFromUrl(unittest.TestCase):
 
     @staticmethod
-    def _fetch_and_validate(url: str, expected_method: str):
-        html_text = http.fetch(url)
+    def _fetch_and_validate(url: str, expected_method: Optional[str]):
+        html_text = webpages.fetch(url)
         results = content.from_html(url, html_text)
         assert results['url'] == url
         assert len(results['text']) > content.MINIMUM_CONTENT_LENGTH

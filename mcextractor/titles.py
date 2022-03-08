@@ -1,10 +1,13 @@
 from typing import Optional
 import re
+import logging
 
 from . import html as html
 
+logger = logging.getLogger(__name__)
 
-def article_title(html_text: str, fallback_title: str = None, trim_to_length: int = 0) -> Optional[str]:
+
+def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 0) -> Optional[str]:
     """
     Parse the content for tags that might indicate the story's title.
     stc: https://github.com/mediacloud/backend/blob/master/apps/common/src/python/mediawords/util/parse_html.py#L160

@@ -5,7 +5,7 @@ import tldextract
 logger = logging.getLogger(__name__)
 
 
-def get_canonical(url: str) -> str:
+def from_url(url: str) -> str:
     """
     Return a useful canonical domain name given a url. In general this is the logical unique part of the domain.
     However, to support news-based media research, this takes into account a list of exceptinos where this isn't the

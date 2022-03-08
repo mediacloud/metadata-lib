@@ -8,7 +8,7 @@ dateparser
 tldextract
 
 # for languge detection
-py3langid
+cld2-cffi
 
 # various content extractors we try to use
 newspaper3k
