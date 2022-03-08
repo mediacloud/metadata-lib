@@ -1,0 +1,19 @@
+requests
+
+# for date guessing
+htmldate
+dateparser
+
+# for domain name extractio
+tldextract
+
+# for languge detection
+py3langid
+
+# various content extractors we try to use
+newspaper3k
+goose3
+BeautifulSoup4
+readability-lxml
+trafilatura
+boilerpy3
