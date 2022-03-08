@@ -1,12 +1,16 @@
 import unittest
+from typing import Optional
 
-import helpers.content as content
+from .. import content
+from .. import webpages
 
 
 class TestContentFromUrl(unittest.TestCase):
 
-    def _fetch_and_validate(self, url: str, expected_method: str):
-        results = content.from_url(url)
+    @staticmethod
+    def _fetch_and_validate(url: str, expected_method: Optional[str]):
+        html_text = webpages.fetch(url)
+        results = content.from_html(url, html_text)
         assert results['url'] == url
         assert len(results['text']) > content.MINIMUM_CONTENT_LENGTH
         assert results['extraction_method'] == expected_method
@@ -29,10 +33,10 @@ class TestContentFromUrl(unittest.TestCase):
             assert True
 
     def test_lanacion(self):
+        # this one has a "Javascript required" check, which readability-lxml doesn't support but Trifilatura does
         url = 'https://www.lanacion.com.ar/seguridad/cordoba-en-marzo-asesinaron-a-tres-mujeres-nid1884942/'
-        results = self._fetch_and_validate(url, content.METHOD_BOILER_PIPE_3)
-        assert "Cuando llegaron los agentes encontraron a la mujer en el dormitorio" in results['text']
-        assert "2016-03-31" == results['publish_date']
+        results = self._fetch_and_validate(url, content.METHOD_TRIFILATURA)
+        assert "Por segunda vez esta semana la provincia se ve sacudida" in results['text']
 
     def test_cnn(self):
         url = "https://www.cnn.com/2021/04/30/politics/mcconnell-1619-project-education-secretary/index.html"
@@ -45,18 +49,11 @@ class TestContentFromUrl(unittest.TestCase):
         assert "En este sentido se trabaja en la construcción de sendos canales a cielo abierto" in results['text']
 
     def test_from_url_página_12(self):
+        # this one has a "Javascript required" check, which readability-lxml doesn't support but Trifilatura does
         url = "https://www.pagina12.com.ar/338796-coronavirus-en-argentina-se-registraron-26-053-casos-y-561-m"
         results = self._fetch_and_validate(url, content.METHOD_TRIFILATURA)
         assert "Por otro lado, fueron realizados en el día 84.085 tests" in results['text']
 
-
-'''
-    # disabled because it doesn't seem to exist anymore
-    def test_from_url_ahora_noticias(self):
-        url = "https://www.ahoranoticias.com.uy/2021/03/son-falsas-las-afirmaciones-de-la-inmunologa-roxana-bruno-integrante-de-la-agrupacion-epidemiologos-argentinos/"
-        results = self._fetch_and_validate(url, content.METHOD_READABILITY)
-        assert "Sobre el final de la entrevista Bruno mencionó a distintas" in results['text']
-'''
 
 if __name__ == "__main__":
     unittest.main()
