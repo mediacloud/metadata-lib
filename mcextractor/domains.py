@@ -12,8 +12,11 @@ def from_url(url: str) -> str:
     case (wordpress.com, substack.com, etc). This also handles Google AMP domains appropriately.
     Created by James O'Toole with input from Emily Ndulue, Linas Valiukas, Anissa Piere, and Fernando Bermejo.
     :param url: the full URL to extract a unique domain from
+    :param headers: optionally helpful for pulling our archived URLs
     :return:
     """
+
+
     parsed_domain = tldextract.extract(url)
 
     is_blogging_subdomain = re.search(

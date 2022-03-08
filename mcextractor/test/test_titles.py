@@ -8,7 +8,7 @@ class TestTitle(unittest.TestCase):
 
     @staticmethod
     def _fetch_and_validate(url: str, expected_title: str):
-        html_text = webpages.fetch(url)
+        html_text, _ = webpages.fetch(url)
         assert titles.from_html(html_text) == expected_title
 
     def test_india_times(self):

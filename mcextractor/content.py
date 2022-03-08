@@ -25,7 +25,7 @@ METHOD_READABILITY = 'readability'
 METHOD_TRIFILATURA = 'trifilatura'
 
 
-def from_html(url: str, html_text: str = None) -> Dict:
+def from_html(url: str, html_text: str) -> Dict:
     """
     Try a series of extractors to pull content out of HTML. The idea is to try as hard as can to get
     good content, but fallback to at least get something useful. The writeup at this site was very helpful:

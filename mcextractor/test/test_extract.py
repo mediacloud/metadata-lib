@@ -22,6 +22,16 @@ class TestExtract(unittest.TestCase):
         assert results['article_title'] == 'African migrants trapped in Mexico protest for right to travel to USA'
         assert 'language' in results
         assert results['language'] == 'en'
+        assert 'original_url' in results
+        assert results['original_url'] == 'https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey'
+
+    def test_archived_url(self):
+        test_url = "https://web.archive.org/web/20220308173050/https://example.com/"
+        results = extract(test_url)
+        assert 'canonical_domain' in results
+        assert results['canonical_domain'] == 'example.com'
+        assert 'original_url' in results
+        assert results['original_url'] == 'https://example.com/'
 
 
 if __name__ == "__main__":

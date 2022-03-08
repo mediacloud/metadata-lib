@@ -12,7 +12,7 @@ DEFAULT_TIMEOUT_SECS = 3
 DEFAULT_USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:78.0) Gecko/20100101 Firefox/78.0'
 
 
-def fetch(url: str, user_agent: str = None, timeout: int = None) -> str:
+def fetch(url: str, user_agent: str = None, timeout: int = None) -> tuple:
     custom_user_agent = user_agent or DEFAULT_USER_AGENT
     custom_timeout = timeout or DEFAULT_TIMEOUT_SECS
     # grab HTML only once so each library doesn't have to do it
@@ -23,4 +23,4 @@ def fetch(url: str, user_agent: str = None, timeout: int = None) -> str:
         raise RuntimeError("Webpage didn't return html content ({}) from {}".format(
             response.headers["content-type"], url))
     html_text = response.text
-    return html_text
+    return html_text, response

@@ -9,7 +9,7 @@ class TestContentFromUrl(unittest.TestCase):
 
     @staticmethod
     def _fetch_and_validate(url: str, expected_method: Optional[str]):
-        html_text = webpages.fetch(url)
+        html_text, _ = webpages.fetch(url)
         results = content.from_html(url, html_text)
         assert results['url'] == url
         assert len(results['text']) > content.MINIMUM_CONTENT_LENGTH

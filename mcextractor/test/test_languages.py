@@ -1,6 +1,7 @@
 import unittest
 
 from .. import content
+from .. import webpages
 from .. import languages
 
 
@@ -8,7 +9,8 @@ class TestLanguage(unittest.TestCase):
 
     @staticmethod
     def _fetch_and_validate(url: str, expected_language_code: str):
-        article = content.from_html(url)
+        html_text, _ = webpages.fetch(url)
+        article = content.from_html(url, html_text)
         lang_code = languages.from_text(article['text'])
         assert lang_code == expected_language_code
 
