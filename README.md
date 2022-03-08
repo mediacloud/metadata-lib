@@ -11,5 +11,13 @@ Usage
 
 ```python
 from mcextractor import extract
-metadata = extract("https://my.awesome.news/story-path")
+metadata = extract(url="https://my.awesome.news/story-path")
 ```
+
+or 
+
+```python
+from mcextractor import extract
+metadata = extract(html_text="<html><head><title>my webpage ... </html>")
+```
+
