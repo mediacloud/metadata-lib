@@ -7,6 +7,12 @@ from .. import content
 
 class TestExtract(unittest.TestCase):
 
+    def test_no_date(self):
+        # Fail gracefully for webpages that aren't news articles, and thus don't have publication dates
+        results = extract(url="https://example.com/")
+        assert 'publication_date' in results
+        assert results['publication_date'] is None
+
     def test_observers(self):
         test_url = "https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
         results = extract(test_url)
@@ -26,6 +32,7 @@ class TestExtract(unittest.TestCase):
         assert results['original_url'] == 'https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey'
 
     def test_archived_url(self):
+        # properly handle pages at web archives (via memento headers)
         test_url = "https://web.archive.org/web/20220308173050/https://example.com/"
         results = extract(test_url)
         assert 'canonical_domain' in results
