@@ -28,10 +28,7 @@ def extract(url: str, html_text: str = None) -> Dict:
     article = content.from_html(true_url, raw_html)
     canonical_domain = domains.from_url(true_url)
     article_title = titles.from_html(raw_html, article['title'])
-    try:
-        language_code = languages.from_text(article['text'])
-    except Exception as _:
-        language_code = None
+    language_code = languages.from_text(article['text'])
     return dict(
         original_url=true_url,
         canonical_domain=canonical_domain,
