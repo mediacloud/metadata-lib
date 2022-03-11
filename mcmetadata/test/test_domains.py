@@ -21,6 +21,14 @@ class TestCanonicalDomain(unittest.TestCase):
         d = domains.from_url(test_url)
         assert d == "kenya-today.com"
 
+    def test_case(self):
+        test_url = "https://rahul.wordpress.com/2021/12/12/awesome-made-up-post"
+        d = domains.from_url(test_url)
+        assert d == "rahul.wordpress.com"
+        test_url = "https://rahuL.WoRdPrEsS.cOm/2021/12/12/awesome-made-up-post"
+        d = domains.from_url(test_url)
+        assert d == "rahul.wordpress.com"
+
 
 if __name__ == "__main__":
     unittest.main()
