@@ -15,6 +15,11 @@ but also build on numerous 3rd party  libraries. The metadata extracted includes
 * the name of the library used to extract the article content
 
 
+Installation
+------------
+
+`pip install mediacloud-metadata`
+
 Usage
 -----
 
@@ -48,7 +53,8 @@ Distribution
 Version History
 ---------------
 
-* __v0.1.1__: first packaging for testing with collaborators
+* __v0.2.0__: first packaging release for use in other places
+* __v0.1.1__: first version for testing with collaborators
 
 
 Authors
