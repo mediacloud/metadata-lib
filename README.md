@@ -14,13 +14,14 @@ but also build on numerous 3rd party  libraries. The metadata extracted includes
 * the text content of the news article
 * the name of the library used to extract the article content
 
+
 Usage
 -----
 
 If you pass in a URL, it will follow redirects and fetch the HTML for you.
 
 ```python
-from mcextractor import extract
+from mcmetadata import extract
 metadata = extract(url="https://my.awesome.news/story-path")
 ```
 
@@ -28,8 +29,31 @@ You can also pass in HTML you already have on hand. Note that in this case it is
 because that is used for some for some of the metadata extraction.
 
 ```python
-from mcextractor import extract
+from mcmetadata import extract
 metadata = extract(url="https://my.awesome.news/story-path",
                    html_text="<html><head><title>my webpage ... </html>")
 ```
 
+
+Distribution
+------------
+1. Run `pytest` to make sure all the test pass
+2. Update the version number in `mcextractor/__init__.py`
+3. Make a brief note in the version history section below about the changes
+4. Run `python setup.py sdist` to create an install package
+5. Run `twine upload --repository-url https://test.pypi.org/legacy/ dist/*` to upload it to PyPI's test platform
+6. Run `twine upload dist/*` to upload it to PyPI
+
+
+Version History
+---------------
+
+* __v0.1.1__: first packaging for testing with collaborators
+
+
+Authors
+-------
+
+Created as part of the Media Cloud Project:
+* Tyler Horan
+* Rahul Bhargava
