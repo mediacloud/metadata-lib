@@ -8,6 +8,7 @@ from boilerpy3 import extractors as bp3_extractors
 import readability
 import trafilatura
 import regex as re
+import collections
 
 from .exceptions import UnableToExtractError
 
@@ -23,6 +24,9 @@ METHOD_BOILER_PIPE_3 = 'boilerpipe3'
 METHOD_DRAGNET = 'dragnet'
 METHOD_READABILITY = 'readability'
 METHOD_TRIFILATURA = 'trifilatura'
+
+# track stats on how frequently each method succeeds (keyed by the METHOD_XYZ constants)
+method_success_stats = collections.Counter()
 
 
 def from_html(url: str, html_text: str) -> Dict:
@@ -48,6 +52,7 @@ def from_html(url: str, html_text: str) -> Dict:
             extractor = extractor_class()
             extractor.extract(url, html_text)
             if extractor.worked():
+                method_success_stats[extractor.content['extraction_method']] += 1
                 return extractor.content
         except Exception as e:
             # if the extractor fails for any reason, just continue on to the next one

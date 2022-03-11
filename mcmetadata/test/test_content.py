@@ -54,6 +54,16 @@ class TestContentFromUrl(unittest.TestCase):
         results = self._fetch_and_validate(url, content.METHOD_TRIFILATURA)
         assert "Por otro lado, fueron realizados en el día 84.085 tests" in results['text']
 
+    def test_method_success_stats(self):
+        url = "https://www.pagina12.com.ar/338796-coronavirus-en-argentina-se-registraron-26-053-casos-y-561-m"
+        _ = self._fetch_and_validate(url, content.METHOD_TRIFILATURA)
+        url = "http://www.informecorrientes.com/vernota.asp?id_noticia=44619"
+        _ = self._fetch_and_validate(url, content.METHOD_READABILITY)
+        stats = content.method_success_stats
+        assert stats[content.METHOD_TRIFILATURA] >= 1
+        assert stats[content.METHOD_READABILITY] >= 1
+        assert stats[content.METHOD_DRAGNET] == 0
+
 
 if __name__ == "__main__":
     unittest.main()
