@@ -1,19 +1,19 @@
-requests
+requests==2.27.1
 
 # for date guessing
-htmldate
-dateparser
+htmldate==1.2.0
+dateparser==1.1.1
 
 # for domain name extractio
-tldextract
+tldextract==3.2.0
 
 # for languge detection
-py3langid
+py3langid==0.2.0
 
 # various content extractors we try to use
-newspaper3k
-goose3
-BeautifulSoup4
-readability-lxml
-trafilatura
-boilerpy3
+newspaper3k==0.2.8
+goose3==3.1.11
+BeautifulSoup4==4.10.0
+readability-lxml==0.8.1
+trafilatura==1.2.0
+boilerpy3==1.0.6
