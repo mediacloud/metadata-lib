@@ -53,6 +53,7 @@ Distribution
 Version History
 ---------------
 
+* __v0.3.0__: more fault tolerant, faster regex's, track extration rates, update requirements
 * __v0.2.0__: first packaging release for use in other places
 * __v0.1.1__: first version for testing with collaborators
 
