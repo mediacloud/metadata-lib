@@ -23,8 +23,12 @@ def extract(url: str, html_text: str = None) -> Dict:
         true_url = url
         raw_html = html_text
     # parse out the metadata we care about
-    pub_date_str = htmldate.find_date(raw_html, url=true_url, original_date=True)
-    pub_date = dateparser.parse(pub_date_str) if pub_date_str else None
+    try:
+        pub_date_str = htmldate.find_date(raw_html, url=true_url, original_date=True)
+        pub_date = dateparser.parse(pub_date_str)
+    except Exception as _:
+        # if there is no date found, or it is in a format that can't be parsed, ignore and just keep going
+        pub_date = None
     article = content.from_html(true_url, raw_html)
     canonical_domain = domains.from_url(true_url)
     article_title = titles.from_html(raw_html, article['title'])
