@@ -5,15 +5,15 @@ htmldate==1.2.1
 dateparser==1.1.1
 
 # for domain name extractio
-tldextract==3.2.0
+tldextract==3.2.1
 
 # for languge detection
-py3langid==0.2.0
+py3langid==0.2.1
 
 # various content extractors we try to use
 newspaper3k==0.2.8
 goose3==3.1.11
-BeautifulSoup4==4.10.0
+BeautifulSoup4==4.11.1
 readability-lxml==0.8.1
 trafilatura==1.2.0
 boilerpy3==1.0.6
