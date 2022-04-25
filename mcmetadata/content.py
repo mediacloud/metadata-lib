@@ -165,15 +165,9 @@ class RawHtmlExtractor(AbstractExtractor):
 
     def __init__(self):
         super(RawHtmlExtractor, self).__init__()
-        self.is_html = None
-
-    def worked(self) -> bool:
-        if self.is_html:
-            return super().worked()
-        return False
 
     def extract(self, url: str, html_text: str):
-        soup = BeautifulSoup(html_text, 'html.parser')
+        soup = BeautifulSoup(html_text, 'lxml')
         text = soup.find_all(text=True)
         output = ''
         for t in text:
