@@ -11,13 +11,11 @@ class TestTitle(unittest.TestCase):
         html_text, _ = webpages.fetch(url)
         assert titles.from_html(html_text) == expected_title
 
-    def test_india_times(self):
+    def test_meta_og_title(self):
         self._fetch_and_validate(
             "https://www.indiatimes.com/explainers/news/united-nations-climate-report-means-for-india-wet-bulb-temperature-563318.html",
             "Explained: What Does The New United Nations &#x27;Alarming&#x27; Climate Report Mean For India?"
         )
-
-    def test_corriere_della_sera(self):
         self._fetch_and_validate(
             "https://www.corriere.it/esteri/22_marzo_07/bombe-ucraine-donbass-soldati-russi-azioni-umanitarie-mondo-parallelo-mosca-176a20ea-9e41-11ec-aa45-e6507f140451.shtml",
             "Cosa sanno&#44; davvero&#44; i cittadini russi su quello che sta accadendo in Ucraina&#63;"
