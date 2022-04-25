@@ -1,8 +1,10 @@
 import unittest
 from typing import Optional
+import requests
 
 from .. import content
 from .. import webpages
+from ..exceptions import UnableToExtractError
 
 
 class TestContentParsers(unittest.TestCase):
@@ -54,11 +56,29 @@ class TestContentFromUrl(unittest.TestCase):
         assert results['extraction_method'] == expected_method
         return results
 
+    def test_failure_javascript_alert(self):
+        url = "http://www.prigepp.org/aula-foro-answer.php?idcomentario=301c4&idforo=cc0&idcrso=467&CodigoUni=100190"
+        try:
+            results = self._fetch_and_validate(url, content.METHOD_TRIFILATURA)
+            assert False
+        except UnableToExtractError as _:
+            assert True
+
+    def test_failure_all_javascript(self):
+        # this is rendered all by JS, so we can't do anything
+        url = "https://nbcmontana.com/news/local/2-women-killed-children-hurt-in-western-nebraska-crash"
+        try:
+            results = self._fetch_and_validate(url, content.METHOD_TRIFILATURA)
+            assert False
+        except UnableToExtractError as _:
+            assert True
+
     def test_failing_url(self):
         url = "chrome://newtab/"
         try:
             self._fetch_and_validate(url, None)
-        except Exception:
+            assert False
+        except requests.exceptions.InvalidSchema as _:
             # this is an image, so it should return nothing
             assert True
 

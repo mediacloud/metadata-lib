@@ -161,7 +161,7 @@ class ReadabilityExtractor(AbstractExtractor):
 
 class RawHtmlExtractor(AbstractExtractor):
 
-    REMOVE_LIST = {'[document]', 'noscript', 'header', 'html', 'meta', 'head', 'input', 'script'}
+    REMOVE_LIST = {'[document]', 'noscript', 'header', 'html', 'meta', 'head', 'input', 'script', 'style'}
 
     def __init__(self):
         super(RawHtmlExtractor, self).__init__()
