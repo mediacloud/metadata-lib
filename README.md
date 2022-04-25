@@ -45,14 +45,16 @@ Distribution
 1. Run `pytest` to make sure all the test pass
 2. Update the version number in `mcextractor/__init__.py`
 3. Make a brief note in the version history section below about the changes
-4. Run `python setup.py sdist` to create an installation package
-5. Run `twine upload --repository-url https://test.pypi.org/legacy/ dist/*` to upload it to PyPI's test platform
-6. Run `twine upload dist/*` to upload it to PyPI
+4. Commit, tag, and push to repo 
+5. Run `python setup.py sdist` to create an installation package
+6. Run `twine upload --repository-url https://test.pypi.org/legacy/ dist/*` to upload it to PyPI's test platform
+7. Run `twine upload dist/*` to upload it to PyPI
 
 
 Version History
 ---------------
 
+* __v0.4.0__: performance improvements, depedency updates
 * __v0.3.1__: update dependencies
 * __v0.3.0__: more fault tolerant, faster regex's, track extraction rates, update requirements
 * __v0.2.0__: first packaging release for use in other places
@@ -63,5 +65,4 @@ Authors
 -------
 
 Created as part of the Media Cloud Project:
-* Tyler Horan
 * Rahul Bhargava
