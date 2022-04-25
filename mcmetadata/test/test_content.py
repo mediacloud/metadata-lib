@@ -5,6 +5,44 @@ from .. import content
 from .. import webpages
 
 
+class TestContentParsers(unittest.TestCase):
+
+    URL = "https://www.cnn.com/2021/04/30/politics/mcconnell-1619-project-education-secretary/index.html"
+
+    def setUp(self) -> None:
+        self.content, _ = webpages.fetch(self.URL)
+
+    def test_readability(self):
+        extractor = content.ReadabilityExtractor()
+        results = extractor.extract(self.URL, self.content)
+        assert extractor.worked() is True
+
+    def test_trafilatura(self):
+        extractor = content.TrafilaturaExtractor()
+        results = extractor.extract(self.URL, self.content)
+        assert extractor.worked() is True
+
+    def test_boilerpipe3(self):
+        extractor = content.BoilerPipe3Extractor()
+        results = extractor.extract(self.URL, self.content)
+        assert extractor.worked() is True
+
+    def test_goose(self):
+        extractor = content.GooseExtractor()
+        results = extractor.extract(self.URL, self.content)
+        assert extractor.worked() is True
+
+    def test_newspaper3k(self):
+        extractor = content.Newspaper3kExtractor()
+        results = extractor.extract(self.URL, self.content)
+        assert extractor.worked() is True
+
+    def test_rawhtml(self):
+        extractor = content.RawHtmlExtractor()
+        results = extractor.extract(self.URL, self.content)
+        assert extractor.worked() is True
+
+
 class TestContentFromUrl(unittest.TestCase):
 
     @staticmethod
