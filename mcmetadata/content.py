@@ -7,10 +7,10 @@ from bs4 import BeautifulSoup
 from boilerpy3 import extractors as bp3_extractors
 import readability
 import trafilatura
-import regex as re
 import collections
 
 from .exceptions import UnableToExtractError
+from .html import strip_tags
 
 logger = logging.getLogger(__name__)
 
@@ -24,6 +24,7 @@ METHOD_BOILER_PIPE_3 = 'boilerpipe3'
 METHOD_DRAGNET = 'dragnet'
 METHOD_READABILITY = 'readability'
 METHOD_TRIFILATURA = 'trifilatura'
+METHOD_FAILED = 'failed'  # placeholder for stats
 
 # track stats on how frequently each method succeeds (keyed by the METHOD_XYZ constants)
 method_success_stats = collections.Counter()
@@ -57,6 +58,7 @@ def from_html(url: str, html_text: str) -> Dict:
         except Exception as e:
             # if the extractor fails for any reason, just continue on to the next one
             pass
+    method_success_stats[METHOD_FAILED] += 1  # track how many failures we've had too
     raise UnableToExtractError(url)
 
 
@@ -70,7 +72,11 @@ class AbstractExtractor(ABC):
         pass
 
     def worked(self) -> bool:
-        return (self.content is not None) and (len(self.content['text']) > MINIMUM_CONTENT_LENGTH)
+        # if there was some reasonable amount of none-tag content then we'll assume things worked
+        if self.content is None:
+            return False
+        text_no_tags = strip_tags(self.content['text'])
+        return len(text_no_tags) > MINIMUM_CONTENT_LENGTH
 
 
 class Newspaper3kExtractor(AbstractExtractor):
@@ -144,7 +150,7 @@ class ReadabilityExtractor(AbstractExtractor):
         doc = readability.Document(html_text)
         self.content = {
             'url': url,
-            'text': re.sub('<[^<]+?>', '', doc.summary()),  # need to remove any tags
+            'text': strip_tags(doc.summary()),  # remove any tags that readability leaves in place (links)
             'title': doc.title(),
             'potential_publish_date': None,
             'top_image_url': None,
@@ -154,6 +160,8 @@ class ReadabilityExtractor(AbstractExtractor):
 
 
 class RawHtmlExtractor(AbstractExtractor):
+
+    REMOVE_LIST = {'[document]', 'noscript', 'header', 'html', 'meta', 'head', 'input', 'script'}
 
     def __init__(self):
         super(RawHtmlExtractor, self).__init__()
@@ -168,18 +176,8 @@ class RawHtmlExtractor(AbstractExtractor):
         soup = BeautifulSoup(html_text, 'html.parser')
         text = soup.find_all(text=True)
         output = ''
-        remove_list = [
-            '[document]',
-            'noscript',
-            'header',
-            'html',
-            'meta',
-            'head',
-            'input',
-            'script',
-        ]
         for t in text:
-            if t.parent.name not in remove_list:
+            if t.parent.name not in self.REMOVE_LIST:
                 output += '{} '.format(t)
         self.content = {
             'url': url,
