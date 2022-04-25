@@ -54,6 +54,7 @@ Distribution
 Version History
 ---------------
 
+* __v0.4.1__: work on deployment
 * __v0.4.0__: performance improvements, depedency updates
 * __v0.3.1__: update dependencies
 * __v0.3.0__: more fault tolerant, faster regex's, track extraction rates, update requirements
