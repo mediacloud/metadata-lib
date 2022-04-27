@@ -42,13 +42,23 @@ metadata = extract(url="https://my.awesome.news/story-path",
 
 Distribution
 ------------
+
+This is setup to automatically publish new releases to PyPi via GitHub Actions:
+
 1. Run `pytest` to make sure all the test pass
 2. Update the version number in `mcextractor/__init__.py`
 3. Make a brief note in the version history section below about the changes
-4. Commit, tag, and push to repo 
-5. Run `python setup.py sdist` to create an installation package
-6. Run `twine upload --repository-url https://test.pypi.org/legacy/ dist/*` to upload it to PyPI's test platform
-7. Run `twine upload dist/*` to upload it to PyPI
+4. Commit the changes
+5. Tag the commit with a semantic version number - 'v*.*.*'
+6. Push to repo to GitHub
+
+### Manual Release
+
+If, for some reason, you need to push a release manually then you can do this:
+
+1. Run `python setup.py sdist` to create an installation package
+2. Run `twine upload --repository-url https://test.pypi.org/legacy/ dist/*` to upload it to PyPI's test platform
+3. Run `twine upload dist/*` to upload it to PyPI
 
 
 Version History
