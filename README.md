@@ -54,6 +54,7 @@ Distribution
 Version History
 ---------------
 
+* __v0.4.2__: work on title regex bug
 * __v0.4.1__: work on deployment
 * __v0.4.0__: performance improvements, depedency updates
 * __v0.3.1__: update dependencies
