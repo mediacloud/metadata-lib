@@ -7,16 +7,16 @@ from . import html as html
 logger = logging.getLogger(__name__)
 
 title_meta_pattern = "(?:og:title|hdl|twitter:title|dc.title|dcterms.title|title)"
-meta_tag_pattern_1 = re.compile("<meta[^>]*(?:name|property)=.%s.[^>]*content=\"([^\"]+)\"" % title_meta_pattern,
+meta_tag_pattern_1 = re.compile(r"<meta[^>]*(?:name|property)=.%s.[^>]*content=\"([^\"]+)\"" % title_meta_pattern,
                                 re.S | re.I)
-meta_tag_pattern_2 = re.compile("<meta[^>]*(?:name|property)=.%s.[^>]*content=\'([^\']+)\'" % title_meta_pattern,
+meta_tag_pattern_2 = re.compile(r"<meta[^>]*(?:name|property)=.%s.[^>]*content=\'([^\']+)\'" % title_meta_pattern,
                                 re.S | re.I)
 
-title_tag_pattern = re.compile("<title(?: [^>]*)?>(.*?)</title>", re.S | re.I)
+title_tag_pattern = re.compile(r"<title(?: [^>]*)?>(.*?)</title>", re.S | re.I)
 
-whitespace_pattern = re.compile('\s+')
+whitespace_pattern = re.compile(r'\s+')
 
-home_pattern = re.compile('^\W*home\W*', re.I)
+home_pattern = re.compile(r'^\W*home\W*', re.I)
 
 
 def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 0) -> Optional[str]:
