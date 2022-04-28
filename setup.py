@@ -36,6 +36,7 @@ setup(name='mediacloud-metadata',
       test_suite="mediacloud.test",
       packages=['mcmetadata'],
       package_data={'': ['LICENSE']},
+      python_requires='>3.7',
       install_requires=REQUIRED_PACKAGES,
       project_urls={  # Optional
               'Bug Reports': 'https://github.com/mediacloud/meta-extractor/issues',
