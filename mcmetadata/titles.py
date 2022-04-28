@@ -46,7 +46,7 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
     if title:
         title = html.strip_tags(title)
         title = title.strip()
-        title = whitespace_pattern.sub(title, ' ')
+        title = whitespace_pattern.sub(' ', title)
         # Moved from _get_medium_title_from_response()
         title = home_pattern.sub('', title)
 
