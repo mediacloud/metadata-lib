@@ -64,9 +64,10 @@ If, for some reason, you need to push a release manually then you can do this:
 Version History
 ---------------
 
+* __v0.4.3__: *more* work on title regex bug
 * __v0.4.2__: work on title regex bug
 * __v0.4.1__: work on deployment
-* __v0.4.0__: performance improvements, depedency updates
+* __v0.4.0__: performance improvements, dependency updates
 * __v0.3.1__: update dependencies
 * __v0.3.0__: more fault tolerant, faster regex's, track extraction rates, update requirements
 * __v0.2.0__: first packaging release for use in other places
