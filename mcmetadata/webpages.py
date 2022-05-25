@@ -1,6 +1,7 @@
 import logging
 import requests
 
+
 logger = logging.getLogger(__name__)
 
 MINIMUM_CONTENT_LENGTH = 200  # less than this and it doesn't count as working extraction (experimentally determined)
