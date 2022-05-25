@@ -1,6 +1,7 @@
 from typing import Optional
 import re
 import logging
+import string
 
 from . import html as html
 
@@ -59,3 +60,33 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
         title = title[0:trim_to_length]
 
     return title
+
+
+params_pattern = re.compile(r'\&#?[a-z0-9]*', re.I)
+separator_pattern = re.compile(r'(?:\- )|[:|]')
+MAX_TITLE_LENGTH = 1024
+
+
+def normalize_title(title: str, publication_name: Optional[str] = None) -> str:
+    """
+    Clean up the news article title, and also try to remove any publication name embedded in it.
+    """
+    new_title = title
+    new_title = html.strip_tags(new_title)
+    new_title = params_pattern.sub(" ", new_title)
+    new_title = new_title.lower()
+    new_title = separator_pattern.sub(" ", new_title)
+    new_title = new_title.strip(string.punctuation)
+    new_title = whitespace_pattern.sub(" ", new_title)
+    new_title = new_title[:MAX_TITLE_LENGTH]
+    if publication_name is None:
+        return new_title
+    new_title_parts = new_title.split(publication_name.lower())
+    first_part = new_title_parts[0].strip()
+    if first_part == new_title:
+        return new_title
+    if len(first_part) < 32:
+        return new_title
+    if publication_name == first_part:
+        return new_title
+    return first_part

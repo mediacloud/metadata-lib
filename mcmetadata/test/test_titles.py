@@ -34,5 +34,20 @@ class TestTitle(unittest.TestCase):
         self._load_and_validate("bloomberg-no-meta.html", "Elon Got His Deal - Bloomberg")
 
 
+class TestNormalizeTitle(unittest.TestCase):
+
+    def test_with_tags(self):
+        title = "This is my <b>awesome article</b>"
+        assert titles.normalize_title(title) == "this is my awesome article"
+
+    def test_with_separator(self):
+        title = "My article - My Media"
+        assert titles.normalize_title(title) == "my article my media"
+
+    def test_with_pub_name(self):
+        title = "My article about something awesome that happened - My Media"
+        assert titles.normalize_title(title, "My Media") == "my article about something awesome that happened"
+
+
 if __name__ == "__main__":
     unittest.main()

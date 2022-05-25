@@ -7,10 +7,12 @@ This is a package to extract a domain, title, publication date, text, and langua
 online news story. The methods for each are extracted from the larger [Media Cloud project](https://mediacloud.org), 
 but also build on numerous 3rd party  libraries. The metadata extracted includes:
 * the original URL of publication
+* a normalized URL useful for de-duplication
 * the canonical domain published on
 * the date of publication
 * the primary language used in the article text
 * the title of the article
+* a normalized title useful for de-duplication 
 * the text content of the news article
 * the name of the library used to extract the article content
 
@@ -64,6 +66,7 @@ If, for some reason, you need to push a release manually then you can do this:
 Version History
 ---------------
 
+* __v0.5.0__: add normalized URL and normalized title
 * __v0.4.3__: *more* work on title regex bug
 * __v0.4.2__: work on title regex bug
 * __v0.4.1__: work on deployment

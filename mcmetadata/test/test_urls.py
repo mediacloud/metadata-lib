@@ -63,15 +63,15 @@ class TestNormalizeUrl(unittest.TestCase):
         normalized_url = urls.normalize_url(url)
         assert normalized_url == "http://mysite.com/"
 
-    def missing_port(self):
+    def test_missing_port(self):
         url = "https://www.gpo.gov:/fdsys/pkg/PL"
         normalized_url = urls.normalize_url(url)
-        assert normalized_url == "https://gpo.gov/fdsys/pkg/PL"
+        assert normalized_url == "http://gpo.gov/fdsys/pkg/pl"
 
-    def missing_trailing_slash(self):
+    def test_missing_trailing_slash(self):
         url = "http://newsmachete.com?page=2"
         normalized_url = urls.normalize_url(url)
-        assert normalized_url == "http://newsmachete.com/"
+        assert normalized_url == "http://newsmachete.com/?page=2"
 
 
 if __name__ == "__main__":
