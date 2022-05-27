@@ -66,6 +66,7 @@ If, for some reason, you need to push a release manually then you can do this:
 Version History
 ---------------
 
+* __v0.5.1__: fix small bug related to use of BeautifulSoup
 * __v0.5.0__: add normalized URL and normalized title
 * __v0.4.3__: *more* work on title regex bug
 * __v0.4.2__: work on title regex bug

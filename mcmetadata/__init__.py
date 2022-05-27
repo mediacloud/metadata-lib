@@ -8,7 +8,7 @@ from . import urls
 from . import titles
 from . import languages
 
-__version__ = "0.5.0"
+__version__ = "0.5.1"
 
 
 def extract(url: str, html_text: str = None) -> Dict:
