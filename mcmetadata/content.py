@@ -168,7 +168,7 @@ class RawHtmlExtractor(AbstractExtractor):
 
     def extract(self, url: str, html_text: str):
         soup = BeautifulSoup(html_text, 'lxml')
-        text = soup.find_all(text=True)
+        text = soup.find_all(string=True)
         output = ''
         for t in text:
             if t.parent.name not in self.REMOVE_LIST:
