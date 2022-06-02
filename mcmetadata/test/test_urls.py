@@ -21,17 +21,22 @@ class TestCanonicalDomain(unittest.TestCase):
         assert d == "kenya-today.com"
 
     def test_wordpress(self):
-        test_url = "https://rahulb.wordpress.com/"
+        test_url = "https://datatherapy.wordpress.com/2019/03/13/aligning-your-data-and-methods-your-mission/"
         d = urls.canonical_domain(test_url)
-        assert d == "rahulb.wordpress.com"
+        assert d == "datatherapy.wordpress.com"
+        test_url = "https://wordpress.com/blog/2022/05/19/your-website-looks-great-so-should-your-emails/"
+        d = urls.canonical_domain(test_url)
+        assert d == "wordpress.com"
 
-    def test_case(self):
-        test_url = "https://rahul.wordpress.com/2021/12/12/awesome-made-up-post"
+    def test_amp_cdn(self):
+        test_url = "https://www-example-com.cdn.ampproject.org/c/www.example.com/amp/doc.html"
         d = urls.canonical_domain(test_url)
-        assert d == "rahul.wordpress.com"
-        test_url = "https://rahuL.WoRdPrEsS.cOm/2021/12/12/awesome-made-up-post"
+        assert d == "www.example.com"
+
+    def test_biz_journals(self):
+        test_url = "https://www.bizjournals.com/bizjournals/news/2022/06/02/remote-raise-salary-promotion-pwc-hiring.html"
         d = urls.canonical_domain(test_url)
-        assert d == "rahul.wordpress.com"
+        assert d == "bizjournals.com"
 
 
 class TestNormalizeUrl(unittest.TestCase):

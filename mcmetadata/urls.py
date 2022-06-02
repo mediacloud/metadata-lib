@@ -20,43 +20,36 @@ blog_domain_pattern = re.compile(
         r'|\.windows\.net|\.wix\.com|\.googleblog\.com|\.hubpages\.com|\.gitlab\.io|\.blogs\.com'
         r'|\.shinyapps\.io', re.I)
 
-relative_path_pattern = re.compile(r'bizjournals\.com|stuff\.co\.nz', re.I)
 
-
-def canonical_domain(url: str) -> str:
+def canonical_domain(raw_url: str) -> str:
     """
     Return a useful canonical domain name given a url. In general this is the logical unique part of the domain.
     However, to support news-based media research, this takes into account a list of exceptinos where this isn't the
     case (wordpress.com, substack.com, etc). This also handles Google AMP domains appropriately.
     Created by James O'Toole with input from Emily Ndulue, Linas Valiukas, Anissa Piere, and Fernando Bermejo.
-    :param url: the full URL to extract a unique domain from
-    :param headers: optionally helpful for pulling our archived URLs
+    :param raw_url: the full URL to extract a unique domain from
     :return:
     """
-
-
+    url = normalize_url(raw_url)
     parsed_domain = tldextract.extract(url)
-
+    # treat certain domains differently
     is_blogging_subdomain = blog_domain_pattern.search(url)
-
-    is_relative_path = relative_path_pattern.search(url)
-
     if is_blogging_subdomain:
-        canonical_domain = parsed_domain.subdomain.lower() + '.' + parsed_domain.registered_domain.lower()
-    elif is_relative_path:
-        canonical_domain = parsed_domain.registered_domain.lower() + '/' + url + url.split('/')[3]
+        # treat the subdomain as part of the official domain for blogging-like domains
+        candidate_domain = parsed_domain.subdomain.lower() + '.' + parsed_domain.registered_domain.lower()
     else:
-        canonical_domain = parsed_domain.registered_domain.lower()
+        # default to "registered domain" the URL is attributed to
+        candidate_domain = parsed_domain.registered_domain.lower()
 
-    if 'cdn.ampproject.org' in canonical_domain:
-        canonical_domain = canonical_domain.replace('.cdn.ampproject.org', '').\
+    # also handle amp URLs smartly
+    if 'cdn.ampproject.org' in candidate_domain:
+        candidate_domain = candidate_domain.replace('.cdn.ampproject.org', '').\
             replace('amp-', '').\
-            replace('/','').\
+            replace('/', '').\
             replace('--', '-')
-        last_dash_index = canonical_domain.rfind('-')
-        canonical_domain = canonical_domain[:last_dash_index] + '.' + canonical_domain[last_dash_index + 1:]
+        candidate_domain = candidate_domain.replace("-", ".")
 
-    return canonical_domain
+    return candidate_domain
 
 
 # broken URLs that look like this: http://http://www.al-monitor.com/pulse
@@ -129,7 +122,7 @@ http_url_pattern = re.compile(r'^https:', re.I)
 trailing_slash_url_pattern = re.compile(r'https?://[^/]*$', re.I)
 
 
-def normalize_url(url:str) -> Optional[str]:
+def normalize_url(url: str) -> Optional[str]:
     """
     Support later deduplicaton of URLs by applying a simple set of transformations on a URL to make it match other
     equivalent URLs as well as possible. This normalization is "lossy":
@@ -162,7 +155,7 @@ def normalize_url(url:str) -> Optional[str]:
     try:
         url = url_normalize.url_normalize(url)
     except Exception as ex:
-        logger.warning("Unable to get canonical URL for URL %s: %s" % (url, str(ex),))
+        logger.warning("Unable to get normalized URL for %s: %s" % (url, str(ex),))
     # add trailing slash
     if trailing_slash_url_pattern.search(url):
         url += '/'
