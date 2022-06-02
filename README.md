@@ -56,7 +56,7 @@ This is setup to automatically publish new releases to PyPi via GitHub Actions:
 
 ### Manual Release
 
-If, for some reason, you need to push a release manually then you can do this:
+If you need to push a release manually then you can do this:
 
 1. Run `python setup.py sdist` to create an installation package
 2. Run `twine upload --repository-url https://test.pypi.org/legacy/ dist/*` to upload it to PyPI's test platform
@@ -66,6 +66,7 @@ If, for some reason, you need to push a release manually then you can do this:
 Version History
 ---------------
 
+* __v0.5.2__: more efficient parsing of dates from HTML, remove failing over-specified canonical domain case
 * __v0.5.1__: fix small bug related to use of BeautifulSoup
 * __v0.5.0__: add normalized URL and normalized title
 * __v0.4.3__: *more* work on title regex bug
@@ -78,8 +79,9 @@ Version History
 * __v0.1.1__: first version for testing with collaborators
 
 
-Authors
--------
+Contributors
+------------
 
 Created as part of the Media Cloud Project:
-* Rahul Bhargava
+* Rahul Bhargava (Media Cloud, Northeastern University)
+* Vangelis Banos (Internet Archive)
