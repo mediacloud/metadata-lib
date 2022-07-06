@@ -42,11 +42,16 @@ class TestNormalizeTitle(unittest.TestCase):
 
     def test_with_separator(self):
         title = "My article - My Media"
-        assert titles.normalize_title(title) == "my article my media"
+        assert titles.normalize_title(title) == ("my article " + titles.SEPARATOR_PLACEHOLDER + "my media")
 
-    def test_with_pub_name(self):
+    def test_multi_part_title(self):
         title = "My article about something awesome that happened - My Media"
         assert titles.normalize_title(title, "My Media") == "my article about something awesome that happened"
+
+    def test_first_part_pub_name(self):
+        media_name = "Washington Post"
+        title = media_name + " - My article about something awesome that happened"
+        assert titles.normalize_title(title, media_name) == "my article about something awesome that happened"
 
 
 if __name__ == "__main__":

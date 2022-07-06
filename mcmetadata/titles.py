@@ -65,28 +65,38 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
 params_pattern = re.compile(r'\&#?[a-z0-9]*', re.I)
 separator_pattern = re.compile(r'(?:\- )|[:|]')
 MAX_TITLE_LENGTH = 1024
+SEPARATOR_PLACEHOLDER = "| "
 
 
-def normalize_title(title: str, publication_name: Optional[str] = None) -> str:
+def normalize_title(story_title: str, publication_name: Optional[str] = None) -> str:
     """
     Clean up the news article title, and also try to remove any publication name embedded in it.
+    Useful for comparing hashes to identify duplicate stories at different URLs.
     """
-    new_title = title
-    new_title = html.strip_tags(new_title)
-    new_title = params_pattern.sub(" ", new_title)
-    new_title = new_title.lower()
-    new_title = separator_pattern.sub(" ", new_title)
-    new_title = new_title.strip(string.punctuation)
-    new_title = whitespace_pattern.sub(" ", new_title)
-    new_title = new_title[:MAX_TITLE_LENGTH]
+    new_story_title = _normalize_text_for_comparison(story_title)
     if publication_name is None:
-        return new_title
-    new_title_parts = new_title.split(publication_name.lower())
-    first_part = new_title_parts[0].strip()
-    if first_part == new_title:
-        return new_title
+        return new_story_title
+    new_story_title_parts = new_story_title.split(SEPARATOR_PLACEHOLDER)
+    if len(new_story_title_parts) == 1:
+        return new_story_title_parts
+    first_part = new_story_title_parts[0].strip()
+    if first_part == new_story_title:
+        return new_story_title
+    normalized_pub_name = _normalize_text_for_comparison(publication_name)
+    if first_part == normalized_pub_name:
+        return (" {} ".format(SEPARATOR_PLACEHOLDER)).join(new_story_title_parts[1:])
     if len(first_part) < 32:
-        return new_title
-    if publication_name == first_part:
-        return new_title
+        return new_story_title
     return first_part
+
+
+def _normalize_text_for_comparison(title_part: str) -> str:
+    new_title = title_part
+    new_title = html.strip_tags(new_title)  # junk HTML
+    new_title = params_pattern.sub(" ", new_title)  # URL params
+    new_title = new_title.lower()
+    new_title = separator_pattern.sub(SEPARATOR_PLACEHOLDER, new_title)  # keep all separators
+    new_title = new_title.strip(string.punctuation)  # ditch all punctuation
+    new_title = whitespace_pattern.sub(" ", new_title)  # cleanup remaining whitespace
+    new_title = new_title[:MAX_TITLE_LENGTH]
+    return new_title.strip()
