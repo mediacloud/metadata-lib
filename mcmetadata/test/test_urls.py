@@ -58,7 +58,7 @@ class TestNormalizeUrl(unittest.TestCase):
         normalized_url = urls.normalize_url(url)
         assert normalized_url == "http://mysite.com/"
 
-    def test_missing_slash(self):
+    def test_missing_protocol(self):
         url = "//www.mysite.com/"
         normalized_url = urls.normalize_url(url)
         assert normalized_url == "http://mysite.com/"
