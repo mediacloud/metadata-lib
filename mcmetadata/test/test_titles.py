@@ -33,6 +33,9 @@ class TestTitle(unittest.TestCase):
     def test_title_tag(self):
         self._load_and_validate("bloomberg-no-meta.html", "Elon Got His Deal - Bloomberg")
 
+    def test_title_fail(self):
+        self._fetch_and_validate("https://ura.news/news/1052317323", "Нюша поддержала Putin Team")
+
 
 class TestNormalizeTitle(unittest.TestCase):
 

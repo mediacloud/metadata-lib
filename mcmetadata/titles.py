@@ -8,9 +8,9 @@ from . import html as html
 logger = logging.getLogger(__name__)
 
 title_meta_pattern = "(?:og:title|hdl|twitter:title|dc.title|dcterms.title|title)"
-meta_tag_pattern_1 = re.compile(r"<meta[^>]*(?:name|property)=.%s.[^>]*content=\"([^\"]+)\"" % title_meta_pattern,
+meta_tag_pattern_1 = re.compile(r"<meta[^>]*(?:name|property)=.%s.[^>]* content=\"([^\"]+)\"" % title_meta_pattern,
                                 re.S | re.I)
-meta_tag_pattern_2 = re.compile(r"<meta[^>]*(?:name|property)=.%s.[^>]*content=\'([^\']+)\'" % title_meta_pattern,
+meta_tag_pattern_2 = re.compile(r"<meta[^>]*(?:name|property)=.%s.[^>]* content=\'([^\']+)\'" % title_meta_pattern,
                                 re.S | re.I)
 
 title_tag_pattern = re.compile(r"<title(?: [^>]*)?>(.*?)</title>", re.S | re.I)
