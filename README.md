@@ -66,6 +66,7 @@ If you need to push a release manually then you can do this:
 Version History
 ---------------
 
+* __v0.5.5__: turn off aggresive date finding mode, which was making lots of 1/1 date guesses
 * __v0.5.4__: bug in regex that parses og:title properties into titles
 * __v0.5.3__: bug fixes in title normalization
 * __v0.5.2__: more efficient parsing of dates from HTML, remove failing over-specified canonical domain case
