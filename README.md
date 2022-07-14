@@ -1,5 +1,5 @@
-Meta Extractor
-==============
+Media Cloud Metadata Extractor
+==============================
 
 🚧 _under construction_ 🚧
 
