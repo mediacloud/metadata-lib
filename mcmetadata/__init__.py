@@ -10,7 +10,7 @@ from . import urls
 from . import titles
 from . import languages
 
-__version__ = "0.5.4"
+__version__ = "0.5.5"
 
 logger = logging.getLogger(__name__)
 
@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 def _parse_pub_date(html=str, url=str) -> Optional[dt.datetime]:
     pub_date = None
     try:
-        pub_date_str = htmldate.find_date(html, url=url, original_date=True)
+        pub_date_str = htmldate.find_date(html, url=url, original_date=True, extensive_search=False)
         if pub_date_str:
             pub_date = dateparser.parse(pub_date_str)
     except:
