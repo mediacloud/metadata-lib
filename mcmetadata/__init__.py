@@ -28,9 +28,10 @@ def _parse_pub_date(html=str, url=str) -> Optional[dt.datetime]:
 
 
 def extract(url: str, html_text: str = None) -> Dict:
-    # first fetch the content if we need to
+    # first fetch the real content (if we need to)
     if html_text is None:
         raw_html, response = webpages.fetch(url)
+        # check for archived URLs
         if 'memento-datetime' in response.headers:
             true_url = response.links['original']['url']  # the original url archived
         else:
@@ -47,7 +48,7 @@ def extract(url: str, html_text: str = None) -> Dict:
         normalized_url=urls.normalize_url(url),
         canonical_domain=urls.canonical_domain(true_url),
         publication_date=pub_date,
-        language=languages.from_text(article['text']),
+        language=languages.from_html(raw_html, article['text']),
         text_extraction_method=article['extraction_method'],
         article_title=article_title,
         normalized_article_title=titles.normalize_title(article_title),

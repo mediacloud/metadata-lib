@@ -40,6 +40,12 @@ class TestExtract(unittest.TestCase):
         assert 'original_url' in results
         assert results['original_url'] == 'http://example.com/'
 
+    def test_language(self):
+        url = "https://www.mk.co.kr/news/society/view/2020/07/693939/"
+        results = extract(url)
+        assert 'language' in results
+        assert results['language'] == 'ko'
+
 
 if __name__ == "__main__":
     unittest.main()

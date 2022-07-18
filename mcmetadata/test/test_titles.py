@@ -36,6 +36,12 @@ class TestTitle(unittest.TestCase):
     def test_title_fail(self):
         self._fetch_and_validate("https://ura.news/news/1052317323", "Нюша поддержала Putin Team")
 
+    def test_title_encoding(self):
+        self._fetch_and_validate(
+            "https://hindi.oneindia.com/amphtml/news/india/aam-aadmi-party-reaction-on-amit-shah-statement-on-corona-case-in-delhi-567287.html",
+            "अमित शाह के बयान पर AAP का पलटवार- अनलॉक से बढ़े मामले, इस वजह से मांगी केंद्र सरकार से मदद | aam aadmi party reaction on amit shah statement on corona case in delhi - Hindi Oneindia"
+        )
+
 
 class TestNormalizeTitle(unittest.TestCase):
 
