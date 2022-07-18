@@ -42,6 +42,12 @@ class TestTitle(unittest.TestCase):
             "अमित शाह के बयान पर AAP का पलटवार- अनलॉक से बढ़े मामले, इस वजह से मांगी केंद्र सरकार से मदद | aam aadmi party reaction on amit shah statement on corona case in delhi - Hindi Oneindia"
         )
 
+    def test_title_encoding2(self):
+        self._fetch_and_validate(
+            "https://www.elimpulso.com/tag/tregua/",
+            "▷ Archivos de Tregua - El Impulso"
+        )
+
 
 class TestNormalizeTitle(unittest.TestCase):
 
