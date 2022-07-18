@@ -8,7 +8,7 @@ from .. import languages
 class TestLanguageFromText(unittest.TestCase):
 
     @staticmethod
-    def _fetch_and_validate(url: str, expected_language_code: str, not_desired_language_code: str):
+    def _fetch_and_validate(url: str, expected_language_code: str, not_desired_language_code: str = False):
         html_text, _ = webpages.fetch(url)
         article = content.from_html(url, html_text)
         lang_code = languages._from_text(article['text'])
@@ -42,14 +42,14 @@ class TestLanguageFromText(unittest.TestCase):
 
     def test_korean_failure(self):
         self._fetch_and_validate(
-            "https://www.mk.co.kr/news/society/view/2020/07/693939/", "qu", "ko"
+            "https://www.mk.co.kr/news/society/view/2020/07/693939/", "ko", "qu"
         )
 
 
 class TestLanguageFromHtml(unittest.TestCase):
 
     @staticmethod
-    def _fetch_and_validate(url: str, expected_language_code: str, not_desired_language_code: str):
+    def _fetch_and_validate(url: str, expected_language_code: str, not_desired_language_code: str = None):
         html_text, _ = webpages.fetch(url)
         lang_code = languages.from_html(html_text)
         assert lang_code == expected_language_code

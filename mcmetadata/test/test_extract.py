@@ -21,7 +21,7 @@ class TestExtract(unittest.TestCase):
         assert 'text_content' in results
         assert len(results['text_content']) > 7000
         assert 'text_extraction_method' in results
-        assert results['text_extraction_method'] == content.METHOD_READABILITY
+        assert results['text_extraction_method'] == content.METHOD_TRIFILATURA
         assert 'canonical_domain' in results
         assert results['canonical_domain'] == 'france24.com'
         assert 'article_title' in results

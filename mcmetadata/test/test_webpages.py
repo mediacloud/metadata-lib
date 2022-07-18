@@ -13,11 +13,16 @@ class TestFetch(unittest.TestCase):
         assert "Boston Globe" in html
         assert response.encoding == "utf-8"
 
-    def test_non_utf8(self):
+    def test_non_utf8_encoding_fix(self):
         url = "https://www.mk.co.kr/news/society/view/2020/07/693939/"
-        html, response = webpages.fetch(url)
+        html, response = webpages.fetch(url, fix_encoding=False)
         assert response.status_code == 200
         assert response.encoding == "ISO-8859-1"
+        assert response.apparent_encoding == "EUC-KR"
+        html, response = webpages.fetch(url, fix_encoding=True)
+        assert response.status_code == 200
+        assert response.encoding == "EUC-KR"
+        assert response.apparent_encoding == "EUC-KR"
 
     def test_bad_domain(self):
         try:

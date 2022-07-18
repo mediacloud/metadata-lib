@@ -12,36 +12,36 @@ class TestContentParsers(unittest.TestCase):
     URL = "https://www.cnn.com/2021/04/30/politics/mcconnell-1619-project-education-secretary/index.html"
 
     def setUp(self) -> None:
-        self.content, _ = webpages.fetch(self.URL)
+        self.html_content, _ = webpages.fetch(self.URL)
 
     def test_readability(self):
         extractor = content.ReadabilityExtractor()
-        results = extractor.extract(self.URL, self.content)
+        results = extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
 
     def test_trafilatura(self):
         extractor = content.TrafilaturaExtractor()
-        results = extractor.extract(self.URL, self.content)
+        results = extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
 
     def test_boilerpipe3(self):
         extractor = content.BoilerPipe3Extractor()
-        results = extractor.extract(self.URL, self.content)
+        results = extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
 
     def test_goose(self):
         extractor = content.GooseExtractor()
-        results = extractor.extract(self.URL, self.content)
+        results = extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
 
     def test_newspaper3k(self):
         extractor = content.Newspaper3kExtractor()
-        results = extractor.extract(self.URL, self.content)
+        results = extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
 
     def test_rawhtml(self):
         extractor = content.RawHtmlExtractor()
-        results = extractor.extract(self.URL, self.content)
+        results = extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
 
 
@@ -58,11 +58,8 @@ class TestContentFromUrl(unittest.TestCase):
 
     def test_failure_javascript_alert(self):
         url = "http://www.prigepp.org/aula-foro-answer.php?idcomentario=301c4&idforo=cc0&idcrso=467&CodigoUni=100190"
-        try:
-            results = self._fetch_and_validate(url, content.METHOD_TRIFILATURA)
-            assert False
-        except UnableToExtractError as _:
-            assert True
+        results = self._fetch_and_validate(url, content.METHOD_TRIFILATURA)
+        assert "Dirigido a Operadores de Justicia de toda la región" in results['text']
 
     def test_failure_all_javascript(self):
         # this is rendered all by JS, so we can't do anything
@@ -98,7 +95,7 @@ class TestContentFromUrl(unittest.TestCase):
 
     def test_cnn(self):
         url = "https://www.cnn.com/2021/04/30/politics/mcconnell-1619-project-education-secretary/index.html"
-        results = self._fetch_and_validate(url, content.METHOD_READABILITY)
+        results = self._fetch_and_validate(url, content.METHOD_TRIFILATURA)
         assert "McConnell is calling on the education secretary to abandon the idea." in results['text']
 
     def test_from_url_informe_correintes(self):
@@ -121,6 +118,12 @@ class TestContentFromUrl(unittest.TestCase):
         assert stats[content.METHOD_TRIFILATURA] >= 1
         assert stats[content.METHOD_READABILITY] >= 1
         assert stats[content.METHOD_DRAGNET] == 0
+
+    def test_encoding_fix(self):
+        url = "https://www.mk.co.kr/news/society/view/2020/07/693939/"
+        results = self._fetch_and_validate(url, content.METHOD_TRIFILATURA)
+        assert "Á" not in results['text']
+        assert "수도권과" in results['text']
 
 
 if __name__ == "__main__":

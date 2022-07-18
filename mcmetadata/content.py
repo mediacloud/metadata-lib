@@ -40,9 +40,9 @@ def from_html(url: str, html_text: str) -> Dict:
     :return: a dict of with url, text, title, publish_date, top_image_url, authors, and extraction_method keys
     """
     # now try each extractor against the same HTML
-    order = [  # based by findings from trifilatura paper, but customized to performance on EN and ES sources (see test)
-        ReadabilityExtractor,
+    order = [  # based by findings from trifilatura paper, but customized to performance on EN and ES sources (see tests)
         TrafilaturaExtractor,
+        ReadabilityExtractor,
         BoilerPipe3Extractor,
         GooseExtractor,
         Newspaper3kExtractor,
