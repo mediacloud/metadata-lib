@@ -78,6 +78,16 @@ class TestNormalizeUrl(unittest.TestCase):
         normalized_url = urls.normalize_url(url)
         assert normalized_url == "http://newsmachete.com/?page=2"
 
+    def test_case_insensitive(self):
+        url = "http://cnn.COM/my-story"
+        normalized_url = urls.normalize_url(url)
+        assert normalized_url == "http://cnn.com/my-story"
+
+    def test_youtube_url(self):
+        url = "https://www.youtube.com/watch?v=aFCO6WidGVM"
+        normalized_url = urls.normalize_url(url)
+        assert normalized_url == "http://youtube.com/watch?v=aFCO6WidGVM"
+
 
 if __name__ == "__main__":
     unittest.main()

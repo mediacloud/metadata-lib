@@ -95,19 +95,19 @@ def normalize_youtube_url(url: str) -> str:
     for the same video, which matters because YouTube has a tight API quota so you don't want to be hittig it when
     for content you have already.
     """
-    watch_match = yt_watch_pattern.match(url, re.IGNORECASE)
+    watch_match = yt_watch_pattern.match(url)
     if watch_match:
         return f'https://www.youtube.com/watch?v={watch_match.group(1)}'
-    embed_match = yt_embed_pattern.match(url, re.IGNORECASE)
+    embed_match = yt_embed_pattern.match(url)
     if embed_match:
         return f'https://www.youtube.com/watch?v={embed_match.group(1)}'
-    channel_match = yt_channel_pattern.match(url, re.IGNORECASE)
+    channel_match = yt_channel_pattern.match(url)
     if channel_match:
         return f'https://www.youtube.com/channel/{channel_match.group(1)}'
-    user_match = yt_channel_pattern.match(url, re.IGNORECASE)
+    user_match = yt_channel_pattern.match(url)
     if user_match:
         return f'https://www.youtube.com/user/{user_match.group(1)}'
-    generic_match = yt_generic_pattern.match(url, re.IGNORECASE)
+    generic_match = yt_generic_pattern.match(url)
     if generic_match:
         return f'https://www.youtube.com/{generic_match.group(1)}'
     return url
@@ -134,8 +134,10 @@ def normalize_url(url: str) -> Optional[str]:
     if len(url) == 0:
         return None
     url = _fix_common_url_mistakes(url)
-    url = url.lower()
-    url = normalize_youtube_url(url)
+    if yt_generic_pattern.match(url):  # YouTube URLs video IDs are case sensitive
+        url = normalize_youtube_url(url)
+    else:
+        url = url.lower()
     # make archive.is links look like the destination link
     url = archive_url_pattern.sub(r'\1', url)
     if not url.startswith('http'):
