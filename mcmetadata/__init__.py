@@ -1,6 +1,4 @@
-import htmldate
-import dateparser
-from typing import Dict, Optional
+from typing import Dict
 import logging
 import datetime as dt
 
@@ -9,22 +7,14 @@ from . import content
 from . import urls
 from . import titles
 from . import languages
+from . import dates
 
 __version__ = "0.6.0"
 
 logger = logging.getLogger(__name__)
 
-
-def _parse_pub_date(html=str, url=str) -> Optional[dt.datetime]:
-    pub_date = None
-    try:
-        pub_date_str = htmldate.find_date(html, url=url, original_date=True, extensive_search=False)
-        if pub_date_str:
-            pub_date = dateparser.parse(pub_date_str)
-    except:
-        # if there is no date found, or it is in a format that can't be parsed, ignore and just keep going
-        logger.error('Publication date parsing failed', exc_info=1)
-    return pub_date
+# Publication dates more than this many days in the future will be ignored (because they are probably bad guesses)
+MAX_FUTURE_PUB_DATE = 90
 
 
 def extract(url: str, html_text: str = None) -> Dict:
@@ -40,7 +30,8 @@ def extract(url: str, html_text: str = None) -> Dict:
         true_url = url
         raw_html = html_text
     # parse out the metadata we care about
-    pub_date = _parse_pub_date(raw_html, true_url)
+    max_pub_date = dt.datetime.now() + dt.timedelta(days=+MAX_FUTURE_PUB_DATE)
+    pub_date = dates.guess_publication_date(raw_html, true_url, max_date=max_pub_date)
     article = content.from_html(true_url, raw_html)
     article_title = titles.from_html(raw_html, article['title'])
     return dict(
