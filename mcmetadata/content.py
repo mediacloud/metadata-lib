@@ -131,8 +131,11 @@ class BoilerPipe3Extractor(AbstractExtractor):
 class TrafilaturaExtractor(AbstractExtractor):
 
     def extract(self, url: str, html_text: str):
-        # don't fallback to readability/justext because we have our own hierarchy of things to try
-        text = trafilatura.extract(html_text, no_fallback=True)
+        text = trafilatura.extract(html_text,
+                                   no_fallback=True,  # we have our own fallback chain
+                                   include_comments=False,  # we don't want comments as part of the content
+                                   deduplicate=True,  # be aggressive in removing duplicate content on a page
+                                   )
         self.content = {
             'url': url,
             'text': text,
