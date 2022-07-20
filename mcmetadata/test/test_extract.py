@@ -33,12 +33,12 @@ class TestExtract(unittest.TestCase):
 
     def test_archived_url(self):
         # properly handle pages at web archives (via memento headers)
-        test_url = "https://web.archive.org/web/20220713083114/http://example.com/"
+        test_url = "https://web.archive.org/web/20220706030500/https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"
         results = extract(test_url)
         assert 'canonical_domain' in results
-        assert results['canonical_domain'] == 'example.com'
+        assert results['canonical_domain'] == 'nytimes.com'
         assert 'original_url' in results
-        assert results['original_url'] == 'http://example.com/'
+        assert results['original_url'] == 'https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html'
 
     def test_language(self):
         url = "https://www.mk.co.kr/news/society/view/2020/07/693939/"
