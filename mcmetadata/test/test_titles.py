@@ -31,7 +31,7 @@ class TestTitle(unittest.TestCase):
         self._load_and_validate("bloomberg-original.html", "Elon Got His Deal")
 
     def test_title_tag(self):
-        self._load_and_validate("bloomberg-no-meta.html", "Elon Got His Deal - Bloomberg")
+        self._load_and_validate("bloomberg-no-meta.html", "Elon Got His Deal")
 
     def test_title_fail(self):
         self._fetch_and_validate("https://ura.news/news/1052317323", "Нюша поддержала Putin Team")
@@ -39,13 +39,13 @@ class TestTitle(unittest.TestCase):
     def test_title_encoding(self):
         self._fetch_and_validate(
             "https://hindi.oneindia.com/amphtml/news/india/aam-aadmi-party-reaction-on-amit-shah-statement-on-corona-case-in-delhi-567287.html",
-            "अमित शाह के बयान पर AAP का पलटवार- अनलॉक से बढ़े मामले, इस वजह से मांगी केंद्र सरकार से मदद | aam aadmi party reaction on amit shah statement on corona case in delhi - Hindi Oneindia"
+            "अमित शाह के बयान पर AAP का पलटवार- अनलॉक से बढ़े मामले, इस वजह से मांगी केंद्र सरकार से मदद | aam aadmi party reaction on amit shah statement on corona case in delhi"
         )
 
     def test_title_encoding2(self):
         self._fetch_and_validate(
             "https://www.elimpulso.com/tag/tregua/",
-            "▷ Archivos de Tregua - El Impulso"
+            "▷ Archivos de Tregua"
         )
 
     def test_remove_media_source_name_suffix(self):
@@ -79,16 +79,16 @@ class TestNormalizeTitle(unittest.TestCase):
 
     def test_with_separator(self):
         title = "My article - My Media"
-        assert titles.normalize_title(title) == ("my article " + titles.SEPARATOR_PLACEHOLDER + "my media")
+        assert titles.normalize_title(title) == ("my article - my media")
 
     def test_multi_part_title(self):
         title = "My article about something awesome that happened - My Media"
-        assert titles.normalize_title(title, "My Media") == "my article about something awesome that happened"
+        assert titles.normalize_title(title) == "my article about something awesome that happened - my media"
 
     def test_first_part_pub_name(self):
         media_name = "Washington Post"
         title = media_name + " - My article about something awesome that happened"
-        assert titles.normalize_title(title, media_name) == "my article about something awesome that happened"
+        assert titles.normalize_title(title) == "washington post - my article about something awesome that happened"
 
 
 if __name__ == "__main__":

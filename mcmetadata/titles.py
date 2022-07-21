@@ -72,7 +72,10 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
             title = normalized_title[0:-end_str_index]
     elif len(title_parts) > 1:  # there is a single prefix or suffix we might want to remove
         if len(title_parts[0]) < 32:  # this is probably a prefix
-            title = normalized_title[len(title_parts[0])+2:]
+            if len(title_parts[1]) < 32:  # if both short, then probable a suffixed title
+                title = normalized_title[:-len(title_parts[1]) - 2:]
+            else:  # second part is long, so consider it a prefixed title
+                title = normalized_title[len(title_parts[0])+2:]
         else:  # probably one or more suffixes
             title = title_parts[0]
 

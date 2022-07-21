@@ -62,9 +62,3 @@ class TestDates(unittest.TestCase):
         raw_html, response = webpages.fetch(u)
         date = dates.guess_publication_date(raw_html, u)
         assert date.date() == dt.date(2019, 7, 30)
-
-    def test_real_date2(self):
-        u = "https://www.ksal.com/high-wheat-quality-expected-despite-yield-drop/"
-        raw_html, response = webpages.fetch(u)
-        date = dates.guess_publication_date(raw_html, u)
-        assert date.date() == dt.date(2022, 6, 15)
