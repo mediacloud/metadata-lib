@@ -2,6 +2,7 @@ from typing import Optional
 import py3langid as langid
 import re
 import logging
+import trafilatura.utils
 
 logger = logging.getLogger(__name__)
 
@@ -18,9 +19,9 @@ def from_html(html: str, content: Optional[str] = None) -> Optional[str]:
     dc_language_tag_matches = meta_tag_pattern1.search(html)
     if dc_language_tag_matches:
         return dc_language_tag_matches.group(1)
-    http_equv_language_tag_matches = meta_tag_pattern2.search(html)
-    if http_equv_language_tag_matches:
-        return http_equv_language_tag_matches.group(1)
+    http_equiv_language_tag_matches = meta_tag_pattern2.search(html)
+    if http_equiv_language_tag_matches:
+        return http_equiv_language_tag_matches.group(1)
     # fall back to HTML-level language
     html_language_matches = html_tag_pattern.search(html)
     if html_language_matches:
@@ -32,9 +33,11 @@ def from_html(html: str, content: Optional[str] = None) -> Optional[str]:
     return None
 
 
-def _from_text(text: str) -> Optional[str]:
+def _from_text(content: str) -> Optional[str]:
+    # make sure a misleading encoding doesn't mess us up
+    decoded_content = trafilatura.utils.decode_file(content)
     try:
-        lang, prob = langid.classify(text)
+        lang, prob = langid.classify(decoded_content)
         return lang
     except Exception as _:
         return None

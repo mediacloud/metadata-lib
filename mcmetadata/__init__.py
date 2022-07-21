@@ -34,12 +34,14 @@ def extract(url: str, html_text: str = None) -> Dict:
     pub_date = dates.guess_publication_date(raw_html, true_url, max_date=max_pub_date)
     article = content.from_html(true_url, raw_html)
     article_title = titles.from_html(raw_html, article['title'])
+    full_langauge = languages.from_html(raw_html, article['text'])  # could be something like "pt-br"
     return dict(
         original_url=true_url,
         normalized_url=urls.normalize_url(url),
         canonical_domain=urls.canonical_domain(true_url),
         publication_date=pub_date,
-        language=languages.from_html(raw_html, article['text']),
+        language=full_langauge[:2] if full_langauge else full_langauge,  # keep this as a two-letter code, like "en"
+        full_langauge=full_langauge,  # could be a full region language code, like "en-AU"
         text_extraction_method=article['extraction_method'],
         article_title=article_title,
         normalized_article_title=titles.normalize_title(article_title),

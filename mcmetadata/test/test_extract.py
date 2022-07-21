@@ -46,6 +46,12 @@ class TestExtract(unittest.TestCase):
         assert 'language' in results
         assert results['language'] == 'ko'
 
+    def test_regionalized_language(self):
+        url = "http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm"
+        results = extract(url)
+        assert "pt" == results['language']
+        assert "pt-br" == results['full_langauge']
+
 
 if __name__ == "__main__":
     unittest.main()

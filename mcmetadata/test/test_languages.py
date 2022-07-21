@@ -45,6 +45,12 @@ class TestLanguageFromText(unittest.TestCase):
             "https://www.mk.co.kr/news/society/view/2020/07/693939/", "ko", "qu"
         )
 
+    def test_language_without_region(self):
+        self._fetch_and_validate(
+            "http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm",
+            "pt"
+        )
+
 
 class TestLanguageFromHtml(unittest.TestCase):
 
@@ -90,6 +96,12 @@ class TestLanguageFromHtml(unittest.TestCase):
     def test_korean_failure(self):
         self._fetch_and_validate(
             "https://www.mk.co.kr/news/society/view/2020/07/693939/", "ko", "qu"
+        )
+
+    def test_language_without_region(self):
+        self._fetch_and_validate(
+            "http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm",
+            "pt-br"
         )
 
 
