@@ -34,7 +34,8 @@ class TestTitle(unittest.TestCase):
         self._load_and_validate("bloomberg-no-meta.html", "Elon Got His Deal")
 
     def test_title_fail(self):
-        self._fetch_and_validate("https://web.archive.org/web/https://ura.news/news/1052317323", "Нюша поддержала Putin Team")
+        self._fetch_and_validate("https://web.archive.org/web/https://ura.news/news/1052317323",
+                                 "Нюша поддержала Putin Team и поздравила больных детей с новым годом")
 
     def test_title_encoding(self):
         self._fetch_and_validate(
