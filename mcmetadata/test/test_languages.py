@@ -8,46 +8,41 @@ from .. import languages
 class TestLanguageFromText(unittest.TestCase):
 
     @staticmethod
-    def _fetch_and_validate(url: str, expected_language_code: str, not_desired_language_code: str = False):
+    def _fetch_and_validate(url: str, expected_language_code: str):
         html_text, _ = webpages.fetch(url)
         article = content.from_html(url, html_text)
         lang_code = languages._from_text(article['text'])
         assert lang_code == expected_language_code
-        if not_desired_language_code:
-            assert lang_code != not_desired_language_code
 
     def test_india_times(self):
         self._fetch_and_validate(
-            "https://www.indiatimes.com/explainers/news/united-nations-climate-report-means-for-india-wet-bulb-temperature-563318.html",
+            "https://web.archive.org/web/https://www.indiatimes.com/explainers/news/united-nations-climate-report-means-for-india-wet-bulb-temperature-563318.html",
             "en"
         )
 
     def test_corriere_della_sera(self):
         self._fetch_and_validate(
-            "https://www.corriere.it/esteri/22_marzo_07/bombe-ucraine-donbass-soldati-russi-azioni-umanitarie-mondo-parallelo-mosca-176a20ea-9e41-11ec-aa45-e6507f140451.shtml",
+            "https://web.archive.org/web/https://www.corriere.it/esteri/22_marzo_07/bombe-ucraine-donbass-soldati-russi-azioni-umanitarie-mondo-parallelo-mosca-176a20ea-9e41-11ec-aa45-e6507f140451.shtml",
             "it"
         )
 
     def test_urdu(self):
-        self._fetch_and_validate(
-            "https://naibaat.pk/amp/2022/04/08/49027/",
-            "ur"
-        )
+        self._fetch_and_validate("https://web.archive.org/web/https://naibaat.pk/amp/2022/04/08/49027/", "ur")
 
     def test_hindi(self):
         self._fetch_and_validate(
-            "https://hindi.oneindia.com/amphtml/news/india/aam-aadmi-party-reaction-on-amit-shah-statement-on-corona-case-in-delhi-567287.html",\
+            "https://web.archive.org/web/https://hindi.oneindia.com/amphtml/news/india/aam-aadmi-party-reaction-on-amit-shah-statement-on-corona-case-in-delhi-567287.html",
             "hi"
         )
 
     def test_korean_failure(self):
         self._fetch_and_validate(
-            "https://www.mk.co.kr/news/society/view/2020/07/693939/", "ko", "qu"
+            "https://web.archive.org/web/https://www.mk.co.kr/news/society/view/2020/07/693939/", "ko"
         )
 
     def test_language_without_region(self):
         self._fetch_and_validate(
-            "http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm",
+            "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm",
             "pt"
         )
 
@@ -100,40 +95,35 @@ class TestLanguageFromHtml(unittest.TestCase):
 
     def test_language_without_region(self):
         self._fetch_and_validate(
-            "http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm",
+            "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm",
             "pt-br"
         )
 
     def test_chinese_example(self):
         # webpage says 'en', but actually content is 'zh'
-        self._fetch_and_validate(
-            "http://world.huanqiu.com/hot/2016-08/9334639.html",
-            "zh"
-        )
+        self._fetch_and_validate("https://web.archive.org/web/http://world.huanqiu.com/hot/2016-08/9334639.html", "zh")
 
     def test_mixed(self):
         # content is in both 'DE' and 'EN'... but more is in EN
         self._fetch_and_validate(
-            "https://www.finanznachrichten.de/nachrichten-2016-08/38189388-bittium-oyj-bittium-corporation-s-half-year-financial-report-january-june-2016-004.htm",
+            "https://web.archive.org/web/https://www.finanznachrichten.de/nachrichten-2016-08/38189388-bittium-oyj-bittium-corporation-s-half-year-financial-report-january-june-2016-004.htm",
             "en"
         )
 
     def test_spanish(self):
         self._fetch_and_validate(
-            "https://www.sdpnoticias.com/enelshow/musica/integrante-queda-u-t-t.html",
+            "https://web.archive.org/web/https://www.sdpnoticias.com/enelshow/musica/integrante-queda-u-t-t.html",
             "es"
         )
 
     def test_albanian(self):
         self._fetch_and_validate(
-            "http://telegraf.al/bota-rajoni/mancester-sulm-i-tmerrshem-plagosen-pese-persona/",
+            "https://web.archive.org/web/http://telegraf.al/bota-rajoni/mancester-sulm-i-tmerrshem-plagosen-pese-persona/",
             "sq"
         )
 
     def test_russian_blog(self):
-        self._fetch_and_validate(
-            "http://aptsvet.livejournal.com/", "ru"
-        )
+        self._fetch_and_validate("https://web.archive.org/web/http://aptsvet.livejournal.com/", "ru")
 
 
 class TestLangaugePicking(unittest.TestCase):

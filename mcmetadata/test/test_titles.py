@@ -19,12 +19,12 @@ class TestTitle(unittest.TestCase):
 
     def test_meta_og_title(self):
         self._fetch_and_validate(
-            "https://www.indiatimes.com/explainers/news/united-nations-climate-report-means-for-india-wet-bulb-temperature-563318.html",
-            "Explained: What Does The New United Nations &#x27;Alarming&#x27; Climate Report Mean For India?"
+            "https://web.archive.org/web/https://www.indiatimes.com/explainers/news/united-nations-climate-report-means-for-india-wet-bulb-temperature-563318.html",
+            "Explained: What Does The New United Nations 'Alarming' Climate Report Mean For India?"
         )
         self._fetch_and_validate(
-            "https://www.corriere.it/esteri/22_marzo_07/bombe-ucraine-donbass-soldati-russi-azioni-umanitarie-mondo-parallelo-mosca-176a20ea-9e41-11ec-aa45-e6507f140451.shtml",
-            "Cosa sanno&#44; davvero&#44; i cittadini russi su quello che sta accadendo in Ucraina&#63;"
+            "https://web.archive.org/web/https://www.corriere.it/esteri/22_marzo_07/bombe-ucraine-donbass-soldati-russi-azioni-umanitarie-mondo-parallelo-mosca-176a20ea-9e41-11ec-aa45-e6507f140451.shtml",
+            "Cosa sanno, davvero, i cittadini russi su quello che sta accadendo in Ucraina?"
         )
 
     def test_meta_og_title2(self):
@@ -34,47 +34,54 @@ class TestTitle(unittest.TestCase):
         self._load_and_validate("bloomberg-no-meta.html", "Elon Got His Deal")
 
     def test_title_fail(self):
-        self._fetch_and_validate("https://ura.news/news/1052317323", "Нюша поддержала Putin Team")
+        self._fetch_and_validate("https://web.archive.org/web/https://ura.news/news/1052317323", "Нюша поддержала Putin Team")
 
     def test_title_encoding(self):
         self._fetch_and_validate(
-            "https://hindi.oneindia.com/amphtml/news/india/aam-aadmi-party-reaction-on-amit-shah-statement-on-corona-case-in-delhi-567287.html",
+            "https://web.archive.org/web/https://hindi.oneindia.com/amphtml/news/india/aam-aadmi-party-reaction-on-amit-shah-statement-on-corona-case-in-delhi-567287.html",
             "अमित शाह के बयान पर AAP का पलटवार- अनलॉक से बढ़े मामले, इस वजह से मांगी केंद्र सरकार से मदद | aam aadmi party reaction on amit shah statement on corona case in delhi"
         )
 
     def test_title_encoding2(self):
         self._fetch_and_validate(
-            "https://www.elimpulso.com/tag/tregua/",
+            "https://web.archive.org/web/https://www.elimpulso.com/tag/tregua/",
             "▷ Archivos de Tregua"
         )
 
     def test_remove_media_source_name_suffix(self):
-        url = "http://timesofindia.indiatimes.com/videos/news/punjab-exit-poll-c-voter-predicts-majority-for-aap/videoshow/57559218.cms"
+        url = "https://web.archive.org/web/http://timesofindia.indiatimes.com/videos/news/punjab-exit-poll-c-voter-predicts-majority-for-aap/videoshow/57559218.cms"
         self._fetch_and_validate(
             url, "Punjab exit poll: C-Voter predicts majority for AAP"
         )
-        url = "https://www.cbc.ca/news/canada/kitchener-waterloo/teen-driver-charged-following-collision-near-shakespeare-opp-say-1.5230335?cmp=rss"
+        url = "https://web.archive.org/web/https://www.cbc.ca/news/canada/kitchener-waterloo/teen-driver-charged-following-collision-near-shakespeare-opp-say-1.5230335?cmp=rss"
         self._fetch_and_validate(
             url, "Teen driver charged following collision near Shakespeare: OPP"
         )
 
     def test_remove_section_prefix(self):
-        url = "https://www.thestar.com/business/economy/opinion/2019/08/23/what-the-fed-could-learn-from-canada.html"
+        url = "https://web.archive.org/web/https://www.thestar.com/business/economy/opinion/2019/08/23/what-the-fed-could-learn-from-canada.html"
         self._fetch_and_validate(
             url, "What the Fed could learn from Canada"
         )
 
     def test_prefix_and_suffix(self):
-        url = "http://www.ozap.com/actu/invites-salut-les-terriens-recoit-florent-pagny-et-frederic-lopez/544047"
+        url = "https://web.archive.org/web/http://www.ozap.com/actu/invites-salut-les-terriens-recoit-florent-pagny-et-frederic-lopez/544047"
         self._fetch_and_validate(
             url, 'Invités : "Salut les Terriens !" reçoit Florent Pagny et Frédéric Lopez'
         )
 
     def test_special_chars(self):
-        url = "https://www.lanacion.com.ar/agencias/iran-promete-una-respuesta-inmediata-ante-cualquier-accion-politica-de-oiea-ministerio-nid03062022/"
+        url = "https://web.archive.org/web/https://www.lanacion.com.ar/agencias/iran-promete-una-respuesta-inmediata-ante-cualquier-accion-politica-de-oiea-ministerio-nid03062022/"
         self._fetch_and_validate(
             url, 'Irán promete una respuesta "inmediata" ante cualquier acción "política" de OIEA (ministerio)'
         )
+
+    def test_another_real(self):
+        url = "https://www.jpnn.com/news/kamrussamad-ppkm-darurat-dihentikan-angka-kematian-berpotensi-tembus-5000-per-hari"
+        self._fetch_and_validate(
+            url, 'Kamrussamad: PPKM Darurat Dihentikan, Angka Kematian Berpotensi Tembus 5.000 per Hari'
+        )
+
 
 class TestNormalizeTitle(unittest.TestCase):
 
