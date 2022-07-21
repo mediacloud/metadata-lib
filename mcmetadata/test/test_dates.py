@@ -57,3 +57,14 @@ class TestDates(unittest.TestCase):
         date = dates.guess_publication_date(raw_html, u, max_date=dt.datetime(2020, 1, 1))
         assert date is None
 
+    def test_real_date1(self):
+        u = "https://www.atv.hu/belfold/20190730/gyarfas-ugyvedje-aki-a-vadiratot-alkotta-nem-biztos-hogy-az-ugy-minden-reszletet-megismerte"
+        raw_html, response = webpages.fetch(u)
+        date = dates.guess_publication_date(raw_html, u)
+        assert date.date() == dt.date(2019, 7, 30)
+
+    def test_real_date2(self):
+        u = "https://www.ksal.com/high-wheat-quality-expected-despite-yield-drop/"
+        raw_html, response = webpages.fetch(u)
+        date = dates.guess_publication_date(raw_html, u)
+        assert date.date() == dt.date(2022, 6, 15)
