@@ -41,9 +41,9 @@ def _pick_between_languages(indication: Optional[str], guess: Optional[str]) -> 
             return guess
         if indication.startswith(guess):
             return indication
-        # prefer the detected language if both are set, because the indication often comes from an unconfiured CMS
-        # for instance, many chinese language sites indicate EN, but are actually in ZH
-        logger.warning("Language mismatch - indicated {} but guessed {}".format(indication, guess))
+        # Prefer the detected language if both are set, because the indication often comes from an unconfiured CMS
+        # This happens a lot in non-english langauges
+        logger.debug("Language mismatch - indicated {} but guessed {}".format(indication, guess))
         return guess
     elif (indication is None) and (guess is not None):
         return guess
