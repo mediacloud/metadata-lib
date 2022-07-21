@@ -76,8 +76,8 @@ class TestTitle(unittest.TestCase):
             url, 'Irán promete una respuesta "inmediata" ante cualquier acción "política" de OIEA (ministerio)'
         )
 
-    def test_another_real(self):
-        url = "https://www.jpnn.com/news/kamrussamad-ppkm-darurat-dihentikan-angka-kematian-berpotensi-tembus-5000-per-hari"
+    def test_short_meta_long_content_title(self):
+        url = "https://web.archive.org/web/https://www.jpnn.com/news/kamrussamad-ppkm-darurat-dihentikan-angka-kematian-berpotensi-tembus-5000-per-hari"
         self._fetch_and_validate(
             url, 'Kamrussamad: PPKM Darurat Dihentikan, Angka Kematian Berpotensi Tembus 5.000 per Hari'
         )
