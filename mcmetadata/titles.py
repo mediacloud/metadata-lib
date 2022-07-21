@@ -8,6 +8,8 @@ from . import html as html
 
 logger = logging.getLogger(__name__)
 
+SHORT_TITLE_THRESHOLD = 32
+
 title_meta_pattern = "(?:og:title|hdl|twitter:title|dc.title|dcterms.title|title)"
 meta_tag_pattern_1 = re.compile(r"<meta[^>]*(?:name|property)=.%s.[^>]* content=\"([^\"]+)\"" % title_meta_pattern,
                                 re.S | re.I)
@@ -35,12 +37,12 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
     # looks for meta tag titles first
     match = meta_tag_pattern_1.search(html_text)
     title = match.group(1) if match else None
-    if title is None:  # check for same pattern in single quotes
+    if (title is None) or (len(title) < SHORT_TITLE_THRESHOLD):  # check for same pattern in single quotes
         match = meta_tag_pattern_2.search(html_text)
         title = match.group(1) if match else None
 
     # if no meta tag, check for title tags
-    if title is None:
+    if title is None or (len(title) < SHORT_TITLE_THRESHOLD):
         match = title_tag_pattern.search(html_text)
         title = match.group(1) if match else None
 
@@ -63,18 +65,18 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
     # title_parts = normalized_title.split(SEPARATOR_PLACEHOLDER)
     if len(title_parts) > 2:  # there are multiple parts, could be prefix, suffice, content, or some combo
         # we see media-name suffixes a lot more than prefixes, so err on the side of removing suffix and keeping prefix
-        if len(title_parts[0]) < 32:
+        if len(title_parts[0]) < SHORT_TITLE_THRESHOLD:
             title = normalized_title[0: -len(title_parts[-1])-2]
         else:
             # but it could be multiple suffixes, so check by length
             last_part_index = len(title_parts) - 1
-            while len(title_parts[last_part_index]) < 32:
+            while len(title_parts[last_part_index]) < SHORT_TITLE_THRESHOLD:
                 last_part_index -= 1
             end_str_index = sum([len(title_parts[i]) + 3 for i in range(last_part_index+1, len(title_parts))])
             title = normalized_title[0:-end_str_index]
     elif len(title_parts) > 1:  # there is a single prefix or suffix we might want to remove
-        if len(title_parts[0]) < 32:  # this is probably a prefix
-            if len(title_parts[1]) < 32:  # if both short, then probable a suffixed title
+        if len(title_parts[0]) < SHORT_TITLE_THRESHOLD:  # this is probably a prefix
+            if len(title_parts[1]) < SHORT_TITLE_THRESHOLD:  # if both short, then probable a suffixed title
                 title = normalized_title[:-len(title_parts[1]) - 2:]
             else:  # second part is long, so consider it a prefixed title
                 title = normalized_title[len(title_parts[0])+2:]
