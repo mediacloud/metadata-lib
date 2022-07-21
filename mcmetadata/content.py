@@ -8,6 +8,7 @@ from boilerpy3 import extractors as bp3_extractors
 import readability
 import trafilatura
 import collections
+from lxml.html.clean import Cleaner
 
 from .exceptions import UnableToExtractError
 from .html import strip_tags
@@ -15,6 +16,13 @@ from .html import strip_tags
 logger = logging.getLogger(__name__)
 
 MINIMUM_CONTENT_LENGTH = 200  # less than this and it doesn't count as working extraction (experimentally determined)
+
+# customize readability to remove all tags
+everything_cleaner = Cleaner(scripts=True, javascript=True, comments=True, style=True, links=True, meta=True,
+                             add_nofollow=False, page_structure=True, processing_instructions=True, embedded=True,
+                             frames=True, forms=True, annoying_tags=True, remove_tags=[], remove_unknown_tags=True,
+                             safe_attrs_only=False)
+readability.readability.html_cleaner = everything_cleaner
 
 
 METHOD_NEWSPAPER_3k = 'newspaper3k'
@@ -75,7 +83,7 @@ class AbstractExtractor(ABC):
         # if there was some reasonable amount of none-tag content then we'll assume things worked
         if self.content is None:
             return False
-        text_no_tags = strip_tags(self.content['text'])
+        text_no_tags = self.content['text']
         return len(text_no_tags) > MINIMUM_CONTENT_LENGTH
 
 

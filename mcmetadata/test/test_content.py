@@ -1,6 +1,7 @@
 import unittest
 from typing import Optional
 import requests
+import lxml.html
 
 from .. import content
 from .. import webpages
@@ -12,36 +13,39 @@ class TestContentParsers(unittest.TestCase):
     URL = "https://www.cnn.com/2021/04/30/politics/mcconnell-1619-project-education-secretary/index.html"
 
     def setUp(self) -> None:
-        self.html_content, _ = webpages.fetch(self.URL)
+        self.html_content, self.response = webpages.fetch(self.URL)
 
     def test_readability(self):
         extractor = content.ReadabilityExtractor()
-        results = extractor.extract(self.URL, self.html_content)
+        extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
+        # verify result has no tags as well, since we have to remove them by hand
+        text_has_html = lxml.html.fromstring(extractor.content['text']).find('.//*') is not None
+        assert text_has_html is False
 
     def test_trafilatura(self):
         extractor = content.TrafilaturaExtractor()
-        results = extractor.extract(self.URL, self.html_content)
+        extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
 
     def test_boilerpipe3(self):
         extractor = content.BoilerPipe3Extractor()
-        results = extractor.extract(self.URL, self.html_content)
+        extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
 
     def test_goose(self):
         extractor = content.GooseExtractor()
-        results = extractor.extract(self.URL, self.html_content)
+        extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
 
     def test_newspaper3k(self):
         extractor = content.Newspaper3kExtractor()
-        results = extractor.extract(self.URL, self.html_content)
+        extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
 
     def test_rawhtml(self):
         extractor = content.RawHtmlExtractor()
-        results = extractor.extract(self.URL, self.html_content)
+        extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
 
 
@@ -65,7 +69,7 @@ class TestContentFromUrl(unittest.TestCase):
         # this is rendered all by JS, so we can't do anything
         url = "https://nbcmontana.com/news/local/2-women-killed-children-hurt-in-western-nebraska-crash"
         try:
-            results = self._fetch_and_validate(url, content.METHOD_TRIFILATURA)
+            self._fetch_and_validate(url, content.METHOD_TRIFILATURA)
             assert False
         except UnableToExtractError as _:
             assert True
@@ -111,9 +115,9 @@ class TestContentFromUrl(unittest.TestCase):
 
     def test_method_success_stats(self):
         url = "https://www.pagina12.com.ar/338796-coronavirus-en-argentina-se-registraron-26-053-casos-y-561-m"
-        _ = self._fetch_and_validate(url, content.METHOD_TRIFILATURA)
+        self._fetch_and_validate(url, content.METHOD_TRIFILATURA)
         url = "http://www.informecorrientes.com/vernota.asp?id_noticia=44619"
-        _ = self._fetch_and_validate(url, content.METHOD_READABILITY)
+        self._fetch_and_validate(url, content.METHOD_READABILITY)
         stats = content.method_success_stats
         assert stats[content.METHOD_TRIFILATURA] >= 1
         assert stats[content.METHOD_READABILITY] >= 1
