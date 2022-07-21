@@ -2,6 +2,7 @@ from typing import Optional
 import re
 import logging
 import string
+from html import unescape
 
 from . import html as html
 
@@ -46,6 +47,7 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
     # if we found one, clean it up
     if title:
         title = html.strip_tags(title)
+        title = unescape(title)
         title = title.strip()
         title = whitespace_pattern.sub(' ', title)
         # Moved from _get_medium_title_from_response()
@@ -94,7 +96,6 @@ SEPARATOR_PLACEHOLDER = "| "
 
 def normalize_title(story_title: str) -> str:
     """
-    Clean up the news article title, and also try to remove any publication name embedded in it.
     Useful for comparing hashes to identify duplicate stories at different URLs.
     """
     new_story_title = _normalize_text_for_comparison(story_title)

@@ -70,11 +70,20 @@ class TestTitle(unittest.TestCase):
             url, 'Invités : "Salut les Terriens !" reçoit Florent Pagny et Frédéric Lopez'
         )
 
+    def test_special_chars(self):
+        url = "https://www.lanacion.com.ar/agencias/iran-promete-una-respuesta-inmediata-ante-cualquier-accion-politica-de-oiea-ministerio-nid03062022/"
+        self._fetch_and_validate(
+            url, 'Irán promete una respuesta "inmediata" ante cualquier acción "política" de OIEA (ministerio)'
+        )
 
 class TestNormalizeTitle(unittest.TestCase):
 
     def test_with_tags(self):
         title = "This is my <b>awesome article</b>"
+        assert titles.normalize_title(title) == "this is my awesome article"
+
+    def test_whitespace(self):
+        title = "  This is my <b>awesome article</b>"
         assert titles.normalize_title(title) == "this is my awesome article"
 
     def test_with_separator(self):
