@@ -15,20 +15,40 @@ def from_html(html: str, content: Optional[str] = None) -> Optional[str]:
     """
     Try to guess document langauge from metadata, falling back to text-based guess if desired
     """
+    language_indication = None  # the language metadata suggests
+    language_guess = None  # the detected language from an algorithm
     # first check for document-level tags
     dc_language_tag_matches = meta_tag_pattern1.search(html)
-    if dc_language_tag_matches:
-        return dc_language_tag_matches.group(1)
     http_equiv_language_tag_matches = meta_tag_pattern2.search(html)
-    if http_equiv_language_tag_matches:
-        return http_equiv_language_tag_matches.group(1)
-    # fall back to HTML-level language
-    html_language_matches = html_tag_pattern.search(html)
-    if html_language_matches:
-        return html_language_matches.group(1)
-    # now try text if included
+    html_language_matches = html_tag_pattern.search(html)   # fall back to HTML-level language
+    if dc_language_tag_matches:
+        language_indication = dc_language_tag_matches.group(1)
+    elif http_equiv_language_tag_matches:
+        language_indication = http_equiv_language_tag_matches.group(1)
+    elif html_language_matches:
+        language_indication = html_language_matches.group(1)
+    # also try to guess the language
     if content:
-        return _from_text(content)
+        language_guess = _from_text(content)
+    # not make a decision based on the two language pieces of info
+    return _pick_between_languages(language_indication, language_guess)
+
+
+def _pick_between_languages(indication: Optional[str], guess: Optional[str]) -> Optional[str]:
+    if (indication is not None) and (guess is not None):
+        # if they are the same language then return the one with higher resolution
+        if guess.startswith(indication):
+            return guess
+        if indication.startswith(guess):
+            return indication
+        # prefer the detected language if both are set, because the indication often comes from an unconfiured CMS
+        # for instance, many chinese language sites indicate EN, but are actually in ZH
+        logger.warning("Language mismatch - indicated {} but guessed {}".format(indication, guess))
+        return guess
+    elif (indication is None) and (guess is not None):
+        return guess
+    elif (indication is not None) and (guess is None):
+        return indication
     # can't find a language
     return None
 

@@ -55,12 +55,11 @@ class TestLanguageFromText(unittest.TestCase):
 class TestLanguageFromHtml(unittest.TestCase):
 
     @staticmethod
-    def _fetch_and_validate(url: str, expected_language_code: str, not_desired_language_code: str = None):
+    def _fetch_and_validate(url: str, expected_language_code: str):
         html_text, _ = webpages.fetch(url)
-        lang_code = languages.from_html(html_text)
+        article = content.from_html(url, html_text)
+        lang_code = languages.from_html(html_text, article['text'])
         assert lang_code == expected_language_code
-        if not_desired_language_code:
-            assert lang_code != not_desired_language_code
 
     def test_meta_tag_pattern1(self):
         sample_str = '<meta NOT_name="dc.language" content="es" />'
@@ -94,8 +93,9 @@ class TestLanguageFromHtml(unittest.TestCase):
         assert matches.group(1) == 'es'
 
     def test_korean_failure(self):
+        # encoding is wrong, content is actually 'ko'
         self._fetch_and_validate(
-            "https://www.mk.co.kr/news/society/view/2020/07/693939/", "ko", "qu"
+            "https://www.mk.co.kr/news/society/view/2020/07/693939/", "ko"
         )
 
     def test_language_without_region(self):
@@ -103,6 +103,54 @@ class TestLanguageFromHtml(unittest.TestCase):
             "http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm",
             "pt-br"
         )
+
+    def test_chinese_example(self):
+        # webpage says 'en', but actually content is 'zh'
+        self._fetch_and_validate(
+            "http://world.huanqiu.com/hot/2016-08/9334639.html",
+            "zh"
+        )
+
+    def test_mixed(self):
+        # content is in both 'DE' and 'EN'... but more is in EN
+        self._fetch_and_validate(
+            "https://www.finanznachrichten.de/nachrichten-2016-08/38189388-bittium-oyj-bittium-corporation-s-half-year-financial-report-january-june-2016-004.htm",
+            "en"
+        )
+
+    def test_spanish(self):
+        self._fetch_and_validate(
+            "https://www.sdpnoticias.com/enelshow/musica/integrante-queda-u-t-t.html",
+            "es"
+        )
+
+    def test_albanian(self):
+        self._fetch_and_validate(
+            "http://telegraf.al/bota-rajoni/mancester-sulm-i-tmerrshem-plagosen-pese-persona/",
+            "sq"
+        )
+
+    def test_russian_blog(self):
+        self._fetch_and_validate(
+            "http://aptsvet.livejournal.com/", "ru"
+        )
+
+
+class TestLangaugePicking(unittest.TestCase):
+
+    def test_more_specific(self):
+        assert languages._pick_between_languages('pt-br', 'pt') == 'pt-br'
+
+    def test_prefer_detected(self):
+        assert languages._pick_between_languages('en', 'zh') == 'zh'
+
+    def test_same(self):
+        assert languages._pick_between_languages('es', 'es') == 'es'
+
+    def test_missing(self):
+        assert languages._pick_between_languages(None, 'zh') == 'zh'
+        assert languages._pick_between_languages('zh', None) == 'zh'
+        assert languages._pick_between_languages(None, None) is None
 
 
 if __name__ == "__main__":
