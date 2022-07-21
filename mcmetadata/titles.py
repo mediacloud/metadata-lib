@@ -55,47 +55,55 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
     if title is None or title == '':
         title = fallback_title
 
+    # clean off any prefix/suffix
+    normalized_title = _normalize_text_for_comparison(title)
+    title_parts = separator_pattern.split(normalized_title)
+    # title_parts = normalized_title.split(SEPARATOR_PLACEHOLDER)
+    if len(title_parts) > 2:  # there are multiple parts, could be prefix, suffice, content, or some combo
+        # we see media-name suffixes a lot more than prefixes, so err on the side of removing suffix and keeping prefix
+        if len(title_parts[0]) < 32:
+            title = normalized_title[0: -len(title_parts[-1])-2]
+        else:
+            # but it could be multiple suffixes, so check by length
+            last_part_index = len(title_parts) - 1
+            while len(title_parts[last_part_index]) < 32:
+                last_part_index -= 1
+            end_str_index = sum([len(title_parts[i]) + 3 for i in range(last_part_index+1, len(title_parts))])
+            title = normalized_title[0:-end_str_index]
+    elif len(title_parts) > 1:  # there is a single prefix or suffix we might want to remove
+        if len(title_parts[0]) < 32:  # this is probably a prefix
+            title = normalized_title[len(title_parts[0])+2:]
+        else:  # probably one or more suffixes
+            title = title_parts[0]
+
     # optionally trim to a max length
     if trim_to_length > 0:
         title = title[0:trim_to_length]
 
-    return title
+    return title.strip()  # strip again here because there might be dangling spaces from prefix/suffix cleaning
 
 
 params_pattern = re.compile(r'\&#?[a-z0-9]*', re.I)
-separator_pattern = re.compile(r'(?:\- )|[:|]')
+separator_pattern = re.compile(r' [:\|-] ')
 MAX_TITLE_LENGTH = 1024
 SEPARATOR_PLACEHOLDER = "| "
 
 
-def normalize_title(story_title: str, publication_name: Optional[str] = None) -> str:
+def normalize_title(story_title: str) -> str:
     """
     Clean up the news article title, and also try to remove any publication name embedded in it.
     Useful for comparing hashes to identify duplicate stories at different URLs.
     """
     new_story_title = _normalize_text_for_comparison(story_title)
-    if publication_name is None:
-        return new_story_title
-    new_story_title_parts = new_story_title.split(SEPARATOR_PLACEHOLDER)
-    if len(new_story_title_parts) == 1:
-        return new_story_title_parts
-    first_part = new_story_title_parts[0].strip()
-    if first_part == new_story_title:
-        return new_story_title
-    normalized_pub_name = _normalize_text_for_comparison(publication_name)
-    if first_part == normalized_pub_name:
-        return (" {} ".format(SEPARATOR_PLACEHOLDER)).join(new_story_title_parts[1:])
-    if len(first_part) < 32:
-        return new_story_title
-    return first_part
+    new_story_title = new_story_title.lower()
+    return new_story_title
 
 
 def _normalize_text_for_comparison(title_part: str) -> str:
     new_title = title_part
     new_title = html.strip_tags(new_title)  # junk HTML
     new_title = params_pattern.sub(" ", new_title)  # URL params
-    new_title = new_title.lower()
-    new_title = separator_pattern.sub(SEPARATOR_PLACEHOLDER, new_title)  # keep all separators
+    #new_title = separator_pattern.sub(SEPARATOR_PLACEHOLDER, new_title)  # keep all separators
     new_title = new_title.strip(string.punctuation)  # ditch all punctuation
     new_title = whitespace_pattern.sub(" ", new_title)  # cleanup remaining whitespace
     new_title = new_title[:MAX_TITLE_LENGTH]

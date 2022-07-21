@@ -48,6 +48,28 @@ class TestTitle(unittest.TestCase):
             "▷ Archivos de Tregua - El Impulso"
         )
 
+    def test_remove_media_source_name_suffix(self):
+        url = "http://timesofindia.indiatimes.com/videos/news/punjab-exit-poll-c-voter-predicts-majority-for-aap/videoshow/57559218.cms"
+        self._fetch_and_validate(
+            url, "Punjab exit poll: C-Voter predicts majority for AAP"
+        )
+        url = "https://www.cbc.ca/news/canada/kitchener-waterloo/teen-driver-charged-following-collision-near-shakespeare-opp-say-1.5230335?cmp=rss"
+        self._fetch_and_validate(
+            url, "Teen driver charged following collision near Shakespeare: OPP"
+        )
+
+    def test_remove_section_prefix(self):
+        url = "https://www.thestar.com/business/economy/opinion/2019/08/23/what-the-fed-could-learn-from-canada.html"
+        self._fetch_and_validate(
+            url, "What the Fed could learn from Canada"
+        )
+
+    def test_prefix_and_suffix(self):
+        url = "http://www.ozap.com/actu/invites-salut-les-terriens-recoit-florent-pagny-et-frederic-lopez/544047"
+        self._fetch_and_validate(
+            url, 'Invités : "Salut les Terriens !" reçoit Florent Pagny et Frédéric Lopez'
+        )
+
 
 class TestNormalizeTitle(unittest.TestCase):
 
