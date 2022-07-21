@@ -66,8 +66,10 @@ If you need to push a release manually then you can do this:
 Version History
 ---------------
 
+* __v0.6.1__: fix YouTube url normalization, better Trafilatura defaults, limit to pub dates within 90 days of today,
+              ensure language is 2 letters, content extraction performance improvements, fix some title parsing bugs 
 * __v0.6.0__: prefer language from metadata over guessing, try Trafilatura as first parser, encoding fixes
-* __v0.5.5__: turn off aggresive date finding mode, which was making lots of 1/1 date guesses
+* __v0.5.5__: turn off aggressive date finding mode, which was making lots of 1/1 date guesses
 * __v0.5.4__: bug in regex that parses og:title properties into titles
 * __v0.5.3__: bug fixes in title normalization
 * __v0.5.2__: more efficient parsing of dates from HTML, remove failing over-specified canonical domain case
