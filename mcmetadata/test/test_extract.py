@@ -52,6 +52,16 @@ class TestExtract(unittest.TestCase):
         assert "pt" == results['language']
         assert "pt-br" == results['full_langauge']
 
+    def test_redirected_url(self):
+        url = "https://api.follow.it/track-rss-story-click/v3/ecuhSAhRa8kTTPWTA7xaXioxzwoq1nFt"
+        results = extract(url)
+        assert url == results['original_url']
+        final_url = "https://www.trussvilletribune.com/2022/03/02/three-students-from-center-point-receive-academic-scholarships/"
+        assert final_url == results['url']
+        assert "trussvilletribune.com" == results['canonical_domain']
+        assert results['normalized_url'] == "http://trussvilletribune.com/2022/03/02/three-students-from-center-point-receive-academic-scholarships/"
+        assert results['language'] == 'en'
+
 
 if __name__ == "__main__":
     unittest.main()
