@@ -66,7 +66,7 @@ If you need to push a release manually then you can do this:
 Version History
 ---------------
 
-* __v0.7.1__: fix bug in url normalization
+* __v0.7.1__: fix bug in url normalization, increase robustness in extractor chain
 * __v0.7.0__: fix YouTube url normalization, better Trafilatura defaults, limit to pub dates within 90 days of today,
               ensure language is 2 letters, content extraction performance improvements, fix some title parsing bugs,
               add more test cases, add script to compare results to older Media Cloud code (which this stuff is
