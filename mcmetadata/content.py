@@ -8,6 +8,7 @@ from boilerpy3 import extractors as bp3_extractors
 import readability
 import trafilatura
 import collections
+import lxml.etree
 from lxml.html.clean import Cleaner
 
 from .exceptions import UnableToExtractError
@@ -123,17 +124,21 @@ class GooseExtractor(AbstractExtractor):
 class BoilerPipe3Extractor(AbstractExtractor):
 
     def extract(self, url: str, html_text: str):
-        extractor = bp3_extractors.ArticleExtractor()
-        bp_doc = extractor.get_doc(html_text)
-        self.content = {
-            'url': url,
-            'text': bp_doc.content,
-            'title': bp_doc.title,
-            'potential_publish_date': None,
-            'top_image_url': None,
-            'authors': None,
-            'extraction_method': METHOD_BOILER_PIPE_3,
-        }
+        try:
+            extractor = bp3_extractors.ArticleExtractor()
+            bp_doc = extractor.get_doc(html_text)
+            self.content = {
+                'url': url,
+                'text': bp_doc.content,
+                'title': bp_doc.title,
+                'potential_publish_date': None,
+                'top_image_url': None,
+                'authors': None,
+                'extraction_method': METHOD_BOILER_PIPE_3,
+            }
+        except AttributeError:
+            # getting some None errors on tag parsing, which suggests invalid HTML so let the next one try
+            pass
 
 
 class TrafilaturaExtractor(AbstractExtractor):
@@ -158,16 +163,20 @@ class TrafilaturaExtractor(AbstractExtractor):
 class ReadabilityExtractor(AbstractExtractor):
 
     def extract(self, url: str, html_text: str):
-        doc = readability.Document(html_text)
-        self.content = {
-            'url': url,
-            'text': strip_tags(doc.summary()),  # remove any tags that readability leaves in place (links)
-            'title': doc.title(),
-            'potential_publish_date': None,
-            'top_image_url': None,
-            'authors': None,
-            'extraction_method': METHOD_READABILITY,
-        }
+        try:
+            doc = readability.Document(html_text)
+            self.content = {
+                'url': url,
+                'text': strip_tags(doc.summary()),  # remove any tags that readability leaves in place (links)
+                'title': doc.title(),
+                'potential_publish_date': None,
+                'top_image_url': None,
+                'authors': None,
+                'extraction_method': METHOD_READABILITY,
+            }
+        except lxml.etree.ParserError:
+            # getting "Document is empty" error, which means it didn't parse so let the next extractor try
+            pass
 
 
 class RawHtmlExtractor(AbstractExtractor):
