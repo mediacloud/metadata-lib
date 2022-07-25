@@ -1,13 +1,9 @@
 import logging
 import requests
 
-
 logger = logging.getLogger(__name__)
 
-MINIMUM_CONTENT_LENGTH = 200  # less than this and it doesn't count as working extraction (experimentally determined)
-
-# wait only this many seconds for a server to respond with content. important to keep in sync with central server
-DEFAULT_TIMEOUT_SECS = 3
+DEFAULT_TIMEOUT_SECS = 3  # wait only this many seconds for a server to respond with content
 
 # pretend to be this kind of browser
 DEFAULT_USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:78.0) Gecko/20100101 Firefox/78.0'

@@ -29,7 +29,9 @@ class TestExtract(unittest.TestCase):
         assert 'language' in results
         assert results['language'] == 'en'
         assert 'original_url' in results
-        assert results['original_url'] == 'https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey'
+        assert results['original_url'] == "https://web.archive.org/web/https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
+        assert 'url' in results
+        assert results['url'] == 'https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey'
 
     def test_archived_url(self):
         # properly handle pages at web archives (via memento headers)
@@ -38,7 +40,7 @@ class TestExtract(unittest.TestCase):
         assert 'canonical_domain' in results
         assert results['canonical_domain'] == 'nytimes.com'
         assert 'original_url' in results
-        assert results['original_url'] == 'https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html'
+        assert results['url'] == 'https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html'
 
     def test_language(self):
         url = "https://web.archive.org/web/https://www.mk.co.kr/news/society/view/2020/07/693939/"

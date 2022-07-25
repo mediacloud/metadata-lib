@@ -9,7 +9,7 @@ from . import titles
 from . import languages
 from . import dates
 
-__version__ = "0.7.1"
+__version__ = "0.7.2"
 
 logger = logging.getLogger(__name__)
 
@@ -17,17 +17,17 @@ logger = logging.getLogger(__name__)
 MAX_FUTURE_PUB_DATE = 90
 
 
-def extract(original_url: str, html_text: str = None) -> Dict:
+def extract(url: str, html_text: str = None) -> Dict:
     # first fetch the real content (if we need to)
     if html_text is None:
-        raw_html, response = webpages.fetch(original_url)
+        raw_html, response = webpages.fetch(url)
         # check for archived URLs
         if 'memento-datetime' in response.headers:
             final_url = response.links['original']['url']  # the original url archived
         else:
             final_url = response.url  # followed all the redirects
     else:
-        final_url = original_url  # trust that the user knows which URL the content actually came from
+        final_url = url  # trust that the user knows which URL the content actually came from
         raw_html = html_text
     # parse out the metadata we care about
     max_pub_date = dt.datetime.now() + dt.timedelta(days=+MAX_FUTURE_PUB_DATE)
@@ -36,7 +36,7 @@ def extract(original_url: str, html_text: str = None) -> Dict:
     article_title = titles.from_html(raw_html, article['title'])
     full_langauge = languages.from_html(raw_html, article['text'])  # could be something like "pt-br"
     return dict(
-        original_url=original_url,
+        original_url=url,
         url=final_url,
         normalized_url=urls.normalize_url(final_url),
         canonical_domain=urls.canonical_domain(final_url),
