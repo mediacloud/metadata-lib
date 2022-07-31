@@ -66,6 +66,7 @@ If you need to push a release manually then you can do this:
 Version History
 ---------------
 
+* __v0.7.3__: tweak title extraction for multi-part titles, add is_hompage helper boolean
 * __v0.7.2__: fix extraction argument bug introduced in last release, fix some more test cases
 * __v0.7.1__: fix bug in url normalization, increase robustness in extractor chain
 * __v0.7.0__: fix YouTube url normalization, better Trafilatura defaults, limit to pub dates within 90 days of today,
