@@ -7,6 +7,13 @@ from .. import content
 
 class TestExtract(unittest.TestCase):
 
+    def test_shortened(self):
+        results = extract(url="http://nyti.ms/4K9g6u")
+        assert 'is_shortened' in results
+        assert results['is_shortened'] is True
+        assert results['original_url'] == "http://nyti.ms/4K9g6u"
+        assert results['url'] != "http://nyti.ms/4K9g6u"
+
     def test_homepage(self):
         results = extract(url="https://web.archive.org/web/")
         assert 'is_homepage' in results

@@ -5,6 +5,8 @@ from typing import Optional
 import url_normalize
 from furl import furl
 
+from .urlshortners import URL_SHORTENER_HOSTNAMES
+
 logger = logging.getLogger(__name__)
 
 blog_domain_pattern = re.compile(
@@ -185,9 +187,30 @@ HOMEPAGE_URL_PATH_REGEXES = [
 
 
 def is_homepage_url(url: str) -> bool:
+    """Returns true if URL is a homepage-like URL (ie. not an article)."""
     uri = furl(url)
     for homepage_url_path_regex in HOMEPAGE_URL_PATH_REGEXES:
         matches = re.search(homepage_url_path_regex, str(uri.path))
         if matches:
             return True
+    return False
+
+
+def is_shortened_url(url: str) -> bool:
+    """Returns true if URL is a shortened URL (e.g. with Bit.ly)."""
+    uri = furl(url)
+    if str(uri.path) is not None and str(uri.path) in ['', '/']:
+        # Assume that most of the URL shorteners use something like
+        # bit.ly/abcdef, so if there's no path or if it's empty, it's not a
+        # shortened URL
+        return False
+
+    uri_host = uri.host.lower()
+    if uri_host in URL_SHORTENER_HOSTNAMES:
+        return True
+
+    # Otherwise match the typical https://wapo.st/4FGH5Re3 format
+    if re.match(r'https?://[a-z]{1,4}\.[a-z]{2}/([a-z0-9]){3,12}/?$', url, flags=re.IGNORECASE) is not None:
+        return True
+
     return False

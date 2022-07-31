@@ -118,5 +118,22 @@ class TestIsHomepageUrl(unittest.TestCase):
         assert urls.is_homepage_url(url) is False
 
 
+class TestIsShortenedUrl(unittest.TestCase):
+
+    def test_known_domain(self):
+        url = "https://bit.ly/my-url"
+        assert urls.is_shortened_url(url) is True
+
+    def test_not_one(self):
+        url = "https://thekenyatimes.com/counties/kisumu-traders-alerted-about-cartels-in-stalls-issuance/"
+        assert urls.is_shortened_url(url) is False
+
+    def test_custom_pattern(self):
+        url = "https://wapo.st/4FGH5Re3"
+        assert urls.is_shortened_url(url) is True
+        url = "http://nyti.ms/4K9g6u"
+        assert urls.is_shortened_url(url) is True
+
+
 if __name__ == "__main__":
     unittest.main()
