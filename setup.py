@@ -9,14 +9,15 @@ REQUIRED_PACKAGES = [
     # for domain name and URL extraction
     "tldextract==3.3.*",
     "url-normalize==1.4.*",
+    "furl==2.1.*",
     # for language detection
     "py3langid==0.2.*",
     # various content extractors we try to use
     "newspaper3k==0.2.*", "goose3==3.1.*", "BeautifulSoup4==4.11.*", "readability-lxml==0.8.*", "trafilatura==1.2.*",
     "boilerpy3==1.0.*",
     # support
-    "requests",        # leave un-versioned so dependencies can sort of which version is best
-    "cchardet==2.1.*"  # BeautifulSoup4 speedup
+    "requests",         # leave un-versioned so dependencies can sort of which version is best
+    "cchardet==2.1.*",  # BeautifulSoup4 speedup
 ]
 
 with open('mcmetadata/__init__.py', 'r') as fd:

@@ -7,11 +7,18 @@ from .. import content
 
 class TestExtract(unittest.TestCase):
 
+    def test_homepage(self):
+        results = extract(url="https://web.archive.org/web/")
+        assert 'is_homepage' in results
+        assert results['is_homepage'] is True
+
     def test_no_date(self):
         # Fail gracefully for webpages that aren't news articles, and thus don't have publication dates
         results = extract(url="https://web.archive.org/web/https://example.com/")
         assert 'publication_date' in results
         assert results['publication_date'] is None
+        assert 'is_homepage' in results
+        assert results['is_homepage'] is False
 
     def test_observers(self):
         test_url = "https://web.archive.org/web/https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"

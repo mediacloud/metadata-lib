@@ -89,5 +89,34 @@ class TestNormalizeUrl(unittest.TestCase):
         assert normalized_url == "http://youtube.com/watch?v=aFCO6WidGVM"
 
 
+class TestIsHomepageUrl(unittest.TestCase):
+
+    def test_basic(self):
+        url = "http://www.nytimes.com"
+        assert urls.is_homepage_url(url) == True
+
+    def test_ending_slashes(self):
+        url = "http://www.nytimes.com/"
+        assert urls.is_homepage_url(url) == True
+        url = "http://www.wired.com///"
+        assert urls.is_homepage_url(url) == True
+
+    def test_language_code(self):
+        url = "http://www.nytimes.com/en"
+        assert urls.is_homepage_url(url) is True
+        url = "http://www.nytimes.com/en/"
+        assert urls.is_homepage_url(url) is True
+        url = "http://www.nytimes.com/ES/"
+        assert urls.is_homepage_url(url) is True
+
+    def test_category(self):
+        url = "http://www.nytimes.com/global/"
+        assert urls.is_homepage_url(url) is True
+
+    def test_short_unknown(self):
+        url = "http://www.nytimes.com/oKyFAMiZMbU"
+        assert urls.is_homepage_url(url) is False
+
+
 if __name__ == "__main__":
     unittest.main()

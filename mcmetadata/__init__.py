@@ -47,5 +47,6 @@ def extract(url: str, html_text: str = None) -> Dict:
         article_title=article_title,
         normalized_article_title=titles.normalize_title(article_title),
         text_content=article['text'],
+        is_homepage=urls.is_homepage_url(url),
         version=__version__,
     )

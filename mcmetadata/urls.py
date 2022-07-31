@@ -3,6 +3,7 @@ import re
 import tldextract
 from typing import Optional
 import url_normalize
+from furl import furl
 
 logger = logging.getLogger(__name__)
 
@@ -162,3 +163,31 @@ def normalize_url(url: str) -> Optional[str]:
     if trailing_slash_url_pattern.search(url):
         url += '/'
     return url
+
+
+HOMEPAGE_URL_PATH_REGEXES = [
+    # Empty path (e.g. http://www.nytimes.com)
+    re.compile(r'^$', re.I),
+    # One or more slash (e.g. http://www.nytimes.com/, http://m.wired.com///)
+    re.compile(r'^/+$', re.I),
+    # Limited number of either all-lowercase or all-uppercase (but not both)
+    # characters and no numbers, e.g.:
+    # * /en/,
+    # * /US
+    # * /global/,
+    # * /trends/explore
+    # but not:
+    # * /oKyFAMiZMbU
+    # * /1uSjCJp
+    re.compile(r'^[a-z/\-_]{1,18}/?$'),
+    re.compile(r'^[A-Z/\-_]{1,18}/?$'),
+]
+
+
+def is_homepage_url(url: str) -> bool:
+    uri = furl(url)
+    for homepage_url_path_regex in HOMEPAGE_URL_PATH_REGEXES:
+        matches = re.search(homepage_url_path_regex, str(uri.path))
+        if matches:
+            return True
+    return False
