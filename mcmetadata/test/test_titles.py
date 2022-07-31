@@ -83,6 +83,12 @@ class TestTitle(unittest.TestCase):
             url, 'Kamrussamad: PPKM Darurat Dihentikan, Angka Kematian Berpotensi Tembus 5.000 per Hari'
         )
 
+    def test_no_title(self):
+        url = "https://web.archive.org/web/20220301020549/http://www.graiul.ro/2022/02/25/gura-lumii-☺-cabana-silvica-vanduta-dar-nu-autoritatilor/?utm_source=rss&utm_medium=rss&utm_campaign=gura-lumii-%25e2%2598%25ba-cabana-silvica-vanduta-dar-nu-autoritatilor"
+        self._fetch_and_validate(
+            url, 'Gura lumii ☺ Cabană silvică vândută, dar nu autorităților'
+        )
+
 
 class TestNormalizeTitle(unittest.TestCase):
 

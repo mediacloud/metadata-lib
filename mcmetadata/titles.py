@@ -69,9 +69,11 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
             title = normalized_title[0: -len(title_parts[-1])-2]
         else:
             # but it could be multiple suffixes, so check by length
-            last_part_index = len(title_parts) - 1
+            last_part_index = len(title_parts) - 1  # start with the last one
             while len(title_parts[last_part_index]) < SHORT_TITLE_THRESHOLD:
                 last_part_index -= 1
+            if last_part_index == len(title_parts) - 1:  # err on the side of keeping just the first part
+                last_part_index = 0
             end_str_index = sum([len(title_parts[i]) + 3 for i in range(last_part_index+1, len(title_parts))])
             title = normalized_title[0:-end_str_index]
     elif len(title_parts) > 1:  # there is a single prefix or suffix we might want to remove
