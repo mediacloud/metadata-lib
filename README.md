@@ -66,6 +66,7 @@ If you need to push a release manually then you can do this:
 Version History
 ---------------
 
+* __v0.7.4__: don't treat shortened URLs as homepage ones, also more aggresively strip URL query params
 * __v0.7.3__: tweak title extraction for multi-part titles, add is_hompage helper boolean
 * __v0.7.2__: fix extraction argument bug introduced in last release, fix some more test cases
 * __v0.7.1__: fix bug in url normalization, increase robustness in extractor chain
