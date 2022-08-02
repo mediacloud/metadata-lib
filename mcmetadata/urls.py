@@ -116,6 +116,59 @@ def normalize_youtube_url(url: str) -> str:
     return url
 
 
+def _remove_query_params(url: str) -> str:
+    uri = furl(url)
+    uri.fragment.set(path='')  # Remove #fragment
+    parameters_to_remove = [
+        # Facebook parameters (https://developers.facebook.com/docs/games/canvas/referral-tracking)
+        'fb_action_ids', 'fb_action_types', 'fb_source', 'fb_ref', 'action_object_map', 'action_type_map',
+        'action_ref_map', 'fsrc_fb_noscript',
+        'yclid', '_openstat',  # metrika.yandex.ru parameters
+        'sort'  # Make the sorting default (e.g. on Reddit)
+        # Some other parameters (common for tracking session IDs, advertising, etc.)
+        'PHPSESSID', 'PHPSESSIONID', 'cid', 's_cid', 'sid', 'ncid', 'ir', 'ref', 'oref', 'eref', 'ns_mchannel',
+        'ns_campaign', 'ITO', 'wprss', 'custom_click', 'source', 'feedName', 'feedType', 'skipmobile', 'skip_mobile',
+        'altcast_code',
+        # Delete the "empty" parameter (e.g. in http://www-nc.nytimes.com/2011/06/29/us/politics/29marriage.html?=_r%3D6)
+        ''
+    ]
+    if 'facebook.com' in uri.host.lower():
+        # Additional parameters specifically for the facebook.com host
+        parameters_to_remove += [ 'ref', 'fref', 'hc_location' ]
+    if 'nytimes.com' in uri.host.lower():
+        # Additional parameters specifically for the nytimes.com host
+        parameters_to_remove += ['emc', 'partner', '_r', 'hp', 'inline', 'smid', 'WT.z_sma', 'bicmp', 'bicmlukp',
+            'bicmst', 'bicmet', 'abt', 'abg']
+    if 'livejournal.com' in uri.host.lower():
+        # Additional parameters specifically for the livejournal.com host
+        parameters_to_remove += ['thread', 'nojs']
+    if 'google.' in uri.host.lower():
+        # Additional parameters specifically for the google.[com,lt,...] host
+        parameters_to_remove += ['gws_rd', 'ei']
+        # Some Australian websites append the "nk" parameter with a tracking hash
+    if 'nk' in uri.query.params:
+        for nk_value in uri.query.params['nk']:
+            if re.search(r'^[0-9a-fA-F]+$', nk_value, re.I):
+                parameters_to_remove += ['nk']
+                break
+    # Remove cruft parameters
+    for parameter in parameters_to_remove:
+        if ' ' in parameter:
+            logger.warning('Invalid cruft parameter "%s"' % parameter)
+        uri.query.params.pop(parameter, None)
+    for name in list(uri.query.params.keys()):  # copy of list to be able to delete
+        # Remove parameters that start with '_' (e.g. '_cid') because they're
+        # more likely to be the tracking codes
+        if name.startswith('_'):
+            uri.query.params.pop(name, None)
+        # Remove GA parameters, current and future (e.g. "utm_source",
+        # "utm_medium", "ga_source", "ga_medium")
+        # (https://support.google.com/analytics/answer/1033867?hl=en)
+        if name.startswith('ga_') or name.startswith('utm_'):
+            uri.query.params.pop(name, None)
+    return uri.url
+
+
 archive_url_pattern = re.compile(r'^https://archive.is/[a-z0-9]/[a-z0-9]+/(.*)', re.I)
 another_url_pattern = re.compile(r'^(https?://)(m|beta|media|data|image|www?|cdn|topic|article|news|archive|blog|video|search|preview|login|shop|sports?|act|donate|press|web|photos?|\d+?).?\.(.*\.)', re.I)
 podomatic_url_pattern = re.compile(r'http://.*pron.*\.podomatic\.com', re.I)
@@ -164,6 +217,11 @@ def normalize_url(url: str) -> Optional[str]:
     # add trailing slash
     if trailing_slash_url_pattern.search(url):
         url += '/'
+    url = _remove_query_params(url)
+    # Remove empty values in query string, e.g. http://bash.org/?244321=
+    url = url.replace('=&', '&')
+    url = re.sub(r'=$', '', url)
+
     return url
 
 
@@ -188,6 +246,8 @@ HOMEPAGE_URL_PATH_REGEXES = [
 
 def is_homepage_url(url: str) -> bool:
     """Returns true if URL is a homepage-like URL (ie. not an article)."""
+    if is_shortened_url(url):  # if it is shortened than it should get a free pass becasue we have to resolve it later
+        return False
     uri = furl(url)
     for homepage_url_path_regex in HOMEPAGE_URL_PATH_REGEXES:
         matches = re.search(homepage_url_path_regex, str(uri.path))

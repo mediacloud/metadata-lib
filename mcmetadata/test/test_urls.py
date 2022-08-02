@@ -88,6 +88,24 @@ class TestNormalizeUrl(unittest.TestCase):
         normalized_url = urls.normalize_url(url)
         assert normalized_url == "http://youtube.com/watch?v=aFCO6WidGVM"
 
+    def test_utm_removal(self):
+        url = "http://uniradioinforma.com/noticias/coronavirus/677126/nuevos-sintomas-del-covid-prolongado.html?utm_campaign=rss&utm_medium=link"
+        url_without_utm = "http://uniradioinforma.com/noticias/coronavirus/677126/nuevos-sintomas-del-covid-prolongado.html"
+        normalized_url = urls.normalize_url(url)
+        assert normalized_url == url_without_utm
+        url = "http://fake.com/article?foo=123&baz=321"
+        normalized_url = urls.normalize_url(url)
+        assert normalized_url == "http://fake.com/article?baz=321&foo=123"  # they get ordered
+        url = "http://fake.com/article?utm_foo=123&baz=321"
+        normalized_url = urls.normalize_url(url)
+        assert normalized_url == "http://fake.com/article?baz=321"
+        url = "http://fake.com/article?foo=123&UTM_baz=321"
+        normalized_url = urls.normalize_url(url)
+        assert normalized_url == "http://fake.com/article?foo=123"
+        url = "https://www.uniradioinforma.com/noticias/coronavirus/677354/covid-segunda-causa-de-muerte-en-mexico-en-2021.html?utm_source=feed&utm_medium=link&utm_campaign=rss"
+        normalized_url = urls.normalize_url(url)
+        assert normalized_url == "http://uniradioinforma.com/noticias/coronavirus/677354/covid-segunda-causa-de-muerte-en-mexico-en-2021.html"
+
 
 class TestIsHomepageUrl(unittest.TestCase):
 
@@ -115,6 +133,10 @@ class TestIsHomepageUrl(unittest.TestCase):
 
     def test_short_unknown(self):
         url = "http://www.nytimes.com/oKyFAMiZMbU"
+        assert urls.is_homepage_url(url) is False
+
+    def test_shortened(self):
+        url = "https://bit.ly/my-url"
         assert urls.is_homepage_url(url) is False
 
 
