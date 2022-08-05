@@ -32,7 +32,7 @@ METHOD_BEAUTIFUL_SOUP_4 = 'beautifulsoup4'
 METHOD_BOILER_PIPE_3 = 'boilerpipe3'
 METHOD_DRAGNET = 'dragnet'
 METHOD_READABILITY = 'readability'
-METHOD_TRIFILATURA = 'trifilatura'
+METHOD_TRAFILATURA = 'trafilatura'
 METHOD_FAILED = 'failed'  # placeholder for stats
 
 # track stats on how frequently each method succeeds (keyed by the METHOD_XYZ constants)
@@ -156,7 +156,7 @@ class TrafilaturaExtractor(AbstractExtractor):
             'potential_publish_date': None,
             'top_image_url': None,
             'authors': None,
-            'extraction_method': METHOD_TRIFILATURA,
+            'extraction_method': METHOD_TRAFILATURA,
         }
 
 
