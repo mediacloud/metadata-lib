@@ -121,7 +121,7 @@ class TestContentFromUrl(unittest.TestCase):
         stats = content.method_success_stats
         assert stats[content.METHOD_TRAFILATURA] >= 1
         assert stats[content.METHOD_READABILITY] >= 1
-        assert stats[content.METHOD_DRAGNET] == 0
+        assert stats[content.METHOD_BEAUTIFUL_SOUP_4] == 0
 
     def test_encoding_fix(self):
         url = "https://web.archive.org/web/https://www.mk.co.kr/news/society/view/2020/07/693939/"

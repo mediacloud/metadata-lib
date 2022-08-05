@@ -30,7 +30,6 @@ METHOD_NEWSPAPER_3k = 'newspaper3k'
 METHOD_GOOSE_3 = 'goose3'
 METHOD_BEAUTIFUL_SOUP_4 = 'beautifulsoup4'
 METHOD_BOILER_PIPE_3 = 'boilerpipe3'
-METHOD_DRAGNET = 'dragnet'
 METHOD_READABILITY = 'readability'
 METHOD_TRAFILATURA = 'trafilatura'
 METHOD_FAILED = 'failed'  # placeholder for stats
@@ -49,17 +48,10 @@ def from_html(url: str, html_text: str) -> Dict:
     :return: a dict of with url, text, title, publish_date, top_image_url, authors, and extraction_method keys
     """
     # now try each extractor against the same HTML
-    order = [  # based by findings from trifilatura paper, but customized to performance on EN and ES sources (see tests)
-        TrafilaturaExtractor,
-        ReadabilityExtractor,
-        BoilerPipe3Extractor,
-        GooseExtractor,
-        Newspaper3kExtractor,
-        RawHtmlExtractor  # this one should never fail (if there is any content at all) because it just parses HTML
-    ]
-    for extractor_class in order:
+    for extractor_info in extractors:
         try:
-            extractor = extractor_class()
+            # logger.debug("Trying {}".format(extractor_info['method']))
+            extractor = extractor_info['instance']
             extractor.extract(url, html_text)
             if extractor.worked():
                 method_success_stats[extractor.content['extraction_method']] += 1
@@ -202,3 +194,15 @@ class RawHtmlExtractor(AbstractExtractor):
             'authors': None,
             'extraction_method': METHOD_BEAUTIFUL_SOUP_4,
         }
+
+
+# based by findings from trafilatura paper, but customized to performance on EN and ES sources (see tests)
+extractors = [
+    dict(method=METHOD_TRAFILATURA, instance=TrafilaturaExtractor()),
+    dict(method=METHOD_READABILITY, instance=ReadabilityExtractor()),
+    dict(method=METHOD_BOILER_PIPE_3, instance=BoilerPipe3Extractor()),
+    dict(method=METHOD_GOOSE_3, instance=GooseExtractor()),
+    dict(method=METHOD_NEWSPAPER_3k, instance=Newspaper3kExtractor()),
+    # this one should never fail (if there is any content at all) because it just parses HTML
+    dict(method=METHOD_BEAUTIFUL_SOUP_4, instance=RawHtmlExtractor()),
+]
