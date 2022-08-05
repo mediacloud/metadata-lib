@@ -1,42 +1,21 @@
 import unittest
+from parameterized import parameterized
 
 from .. import urls
 
 
 class TestCanonicalDomain(unittest.TestCase):
 
-    def test_french_domain(self):
-        test_url = "https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
-        d = urls.canonical_domain(test_url)
-        assert d == "france24.com"
-
-    def test_org(self):
-        test_url = "https://www.kpbs.org/news/2019/jul/09/migrants-cameroon-protest-immigration-process-tiju/"
-        d = urls.canonical_domain(test_url)
-        assert d == "kpbs.org"
-
-    def test_hyphen(self):
-        test_url = "https://www.kenya-today.com/media/moi-burial-confused-ruto-as-matiangi-declares-tuesday-a-public-holiday#comments"
-        d = urls.canonical_domain(test_url)
-        assert d == "kenya-today.com"
-
-    def test_wordpress(self):
-        test_url = "https://datatherapy.wordpress.com/2019/03/13/aligning-your-data-and-methods-your-mission/"
-        d = urls.canonical_domain(test_url)
-        assert d == "datatherapy.wordpress.com"
-        test_url = "https://wordpress.com/blog/2022/05/19/your-website-looks-great-so-should-your-emails/"
-        d = urls.canonical_domain(test_url)
-        assert d == "wordpress.com"
-
-    def test_amp_cdn(self):
-        test_url = "https://www-example-com.cdn.ampproject.org/c/www.example.com/amp/doc.html"
-        d = urls.canonical_domain(test_url)
-        assert d == "www.example.com"
-
-    def test_biz_journals(self):
-        test_url = "https://www.bizjournals.com/bizjournals/news/2022/06/02/remote-raise-salary-promotion-pwc-hiring.html"
-        d = urls.canonical_domain(test_url)
-        assert d == "bizjournals.com"
+    @parameterized.expand([
+        ("https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey", "france24.com"),
+        ("https://www.kpbs.org/news/2019/jul/09/migrants-cameroon-protest-immigration-process-tiju/", "kpbs.org"),
+        ("https://www.kenya-today.com/media/moi-burial-confused-ruto-as-matiangi-declares-tuesday-a-public-holiday#comments", "kenya-today.com"),
+        ("https://datatherapy.wordpress.com/2019/03/13/aligning-your-data-and-methods-your-mission/", "datatherapy.wordpress.com"),
+        ("https://www-example-com.cdn.ampproject.org/c/www.example.com/amp/doc.html", "www.example.com"),
+        ("https://www.bizjournals.com/bizjournals/news/2022/06/02/remote-raise-salary-promotion-pwc-hiring.html", "bizjournals.com")
+        ])
+    def test_canonical_domain(self, test_url, domain):
+        assert urls.canonical_domain(test_url) == domain
 
 
 class TestNormalizeUrl(unittest.TestCase):
