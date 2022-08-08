@@ -1,6 +1,7 @@
 import unittest
 import datetime as dt
 
+import mcmetadata
 from .. import extract
 from .. import content
 
@@ -77,6 +78,19 @@ class TestExtract(unittest.TestCase):
         assert "trussvilletribune.com" == results['canonical_domain']
         assert results['normalized_url'] == "http://trussvilletribune.com/2022/03/02/three-students-from-center-point-receive-academic-scholarships/"
         assert results['language'] == 'en'
+
+
+class TestStats(unittest.TestCase):
+
+    def test_total_works(self):
+        url = "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm"
+        _ = extract(url)
+        assert mcmetadata.stats.get('total') > 0
+        for s in mcmetadata.STAT_NAMES:
+            assert s in mcmetadata.stats  # stat is recorded
+            assert mcmetadata.stats.get(s) > 0  # has real data
+            if s != 'total':  # is less than total
+                assert mcmetadata.stats.get('url') < mcmetadata.stats.get('total')
 
 
 if __name__ == "__main__":
