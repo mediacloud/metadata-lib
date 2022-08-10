@@ -141,5 +141,12 @@ class TestIsShortenedUrl(unittest.TestCase):
         assert urls.is_shortened_url(url) is True
 
 
+class TestNonNewsDomains(unittest.TestCase):
+
+    def test_generic(self):
+        assert 'tiktok.com' in urls.NON_NEWS_DOMAINS
+        assert 'cnn.com' not in urls.NON_NEWS_DOMAINS
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -7,6 +7,13 @@ from furl import furl
 
 from .urlshortners import URL_SHORTENER_HOSTNAMES
 
+
+# a list of high-volume domains that Media Cloud has historically ingested from, but are not news domains
+NON_NEWS_DOMAINS = ['wikipedia.org', 'wikimedia.org', 'wikidata.org', 'twitter.com', 'flickr.com', 'slideshare.net',
+                    'instagram.com', 'youtube.com', 'whatsapp.com', 'tiktok.com', 'pinterest.com', 'linkedin.com',
+                    'goodreads.com', 'imdb.com', 'etsy.com', 'booking.com']
+
+
 logger = logging.getLogger(__name__)
 
 blog_domain_pattern = re.compile(
