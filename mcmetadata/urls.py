@@ -4,15 +4,14 @@ import tldextract
 from typing import Optional
 import url_normalize
 from furl import furl
+import pathlib
 
 from .urlshortners import URL_SHORTENER_HOSTNAMES
 
-
 # a list of high-volume domains that Media Cloud has historically ingested from, but are not news domains
-NON_NEWS_DOMAINS = ['wikipedia.org', 'wikimedia.org', 'wikidata.org', 'twitter.com', 'flickr.com', 'slideshare.net',
-                    'instagram.com', 'youtube.com', 'whatsapp.com', 'tiktok.com', 'pinterest.com', 'linkedin.com',
-                    'goodreads.com', 'imdb.com', 'etsy.com', 'booking.com']
-
+base_dir = pathlib.Path(__file__).parent.resolve()
+with open(pathlib.Path(base_dir, 'data', 'domain-skip-list.txt')) as f:
+    NON_NEWS_DOMAINS = [line.strip() for line in f.readlines() if len(line.strip()) > 0]
 
 logger = logging.getLogger(__name__)
 

@@ -143,7 +143,11 @@ class TestIsShortenedUrl(unittest.TestCase):
 
 class TestNonNewsDomains(unittest.TestCase):
 
-    def test_generic(self):
+    def test_none_empty(self):
+        for domain in urls.NON_NEWS_DOMAINS:
+            assert len(domain) > 0
+
+    def test_inclusion(self):
         assert 'tiktok.com' in urls.NON_NEWS_DOMAINS
         assert 'cnn.com' not in urls.NON_NEWS_DOMAINS
 
