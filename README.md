@@ -67,7 +67,7 @@ Version History
 ---------------
 
 * __v0.7.5__: add performance monitoring, handle invalid URLs, add a list of high volume non-news domains that might be
-              worth ignoring 
+              worth ignoring (based on high volume "noise" domains in our production database) 
 * __v0.7.4__: don't treat shortened URLs as homepage ones, also more aggressively strip URL query params
 * __v0.7.3__: tweak title extraction for multipart titles, add is_homepage helper boolean
 * __v0.7.2__: fix extraction argument bug introduced in last release, fix some more test cases

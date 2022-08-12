@@ -17,7 +17,6 @@ logger = logging.getLogger(__name__)
 # Publication dates more than this many days in the future will be ignored (because they are probably bad guesses)
 MAX_FUTURE_PUB_DATE = 90
 
-
 STAT_NAMES = ['total', 'fetch', 'url', 'pub_date', 'content', 'title', 'language']
 stats = {s: 0 for s in STAT_NAMES}
 
