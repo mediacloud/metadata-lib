@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Dict, Optional
 import logging
 import datetime as dt
 import time
@@ -21,7 +21,18 @@ STAT_NAMES = ['total', 'fetch', 'url', 'pub_date', 'content', 'title', 'language
 stats = {s: 0 for s in STAT_NAMES}
 
 
-def extract(url: str, html_text: str = None) -> Dict:
+def extract(url: str, html_text: Optional[str] = None, include_other_metadata: Optional[bool] = False) -> Dict:
+    """
+    The core method of this library - returns all the useful information extracted from the HTML of the next
+    article at the supplied URL.
+
+    :param str url: A valid URL to some news article online that we want to extract info from
+    :param str html_text: (optional) Supply the HTML text you already fetched from that URL. If None, we will download
+                          the HTML for you, with some reasonable timeout defaults.
+    :param bool include_other_metadata: Pass in true to top_image, authors, and other things returned under an `other`
+                                        property in the results. Warning - this can slow down extraction by around 5x.
+                                        In addition, we haven't tested the robustness and accuracy of these at scale.
+    """
     t0 = time.time()
     # first fetch the real content (if we need to)
     t1 = time.time()
@@ -76,7 +87,7 @@ def extract(url: str, html_text: str = None) -> Dict:
     total_duration = time.time() - t0
     stats['total'] += total_duration
 
-    return dict(
+    results = dict(
         original_url=url,
         url=final_url,
         normalized_url=normalized_url,
@@ -92,3 +103,13 @@ def extract(url: str, html_text: str = None) -> Dict:
         is_shortened=is_shortened_url,
         version=__version__,
     )
+    if include_other_metadata:
+        # other metadata we've done less robust validation on, but might be useful
+        results['other'] = dict(
+            raw_title=article['title'],
+            raw_publish_date=article['potential_publish_date'],
+            top_image_url=article['top_image_url'],
+            authors=article['authors'],
+        )
+
+    return results

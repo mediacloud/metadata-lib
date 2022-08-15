@@ -1,5 +1,7 @@
 import logging
 from abc import ABC, abstractmethod
+import re
+import dateparser
 import newspaper
 from goose3 import Goose
 from typing import Dict
@@ -64,6 +66,10 @@ def from_html(url: str, html_text: str) -> Dict:
 
 
 class AbstractExtractor(ABC):
+    """
+    Wrapper around individual libraries that can be useful to extract the news article "content" from an HTML page.
+    Once you've called `extract()` then the `content` property will be filled in.
+    """
 
     def __init__(self):
         self.content = None
@@ -133,21 +139,23 @@ class BoilerPipe3Extractor(AbstractExtractor):
             pass
 
 
+img_path_pattern = re.compile(r"(http[^ ]*)", re.I)
+
+
 class TrafilaturaExtractor(AbstractExtractor):
 
     def extract(self, url: str, html_text: str):
-        text = trafilatura.extract(html_text,
-                                   no_fallback=True,  # we have our own fallback chain
-                                   include_comments=False,  # we don't want comments as part of the content
-                                   deduplicate=True,  # be aggressive in removing duplicate content on a page
-                                   )
+        results = trafilatura.bare_extraction(html_text, with_metadata=True, url=url, include_images=True)
+        images = img_path_pattern.search(results['text'])
+        first_image = images.group(0) if images else None
+        text_no_img_urls = img_path_pattern.sub("", results['text'])
         self.content = {
             'url': url,
-            'text': text,
-            'title': None,
-            'potential_publish_date': None,
-            'top_image_url': None,
-            'authors': None,
+            'text': text_no_img_urls,
+            'title': results['title'],
+            'potential_publish_date': dateparser.parse(results['date']),
+            'top_image_url': first_image,
+            'authors': results['author'].split(',') if results['author'] else None,
             'extraction_method': METHOD_TRAFILATURA,
         }
 
