@@ -90,6 +90,13 @@ class TestExtract(unittest.TestCase):
         results = extract(url)
         assert url == results['original_url']
         assert url == results['url']
+        assert 'other' not in results
+
+    def test_other_metadata(self):
+        url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
+        results = extract(url, include_other_metadata=True)
+        assert url == results['original_url']
+        assert url == results['url']
         assert 'other' in results
         assert results['text_extraction_method'] == content.METHOD_TRAFILATURA
         assert results['other']['raw_title'] == "India's 75th Year Of Freedom: Why Was August 15 Chosen As Independence Day?"
