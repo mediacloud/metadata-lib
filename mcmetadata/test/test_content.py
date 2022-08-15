@@ -2,6 +2,7 @@ import unittest
 from typing import Optional
 import requests
 import lxml.html
+import time
 
 from .. import content
 from .. import webpages
@@ -11,6 +12,9 @@ from ..exceptions import UnableToExtractError
 class TestContentParsers(unittest.TestCase):
 
     URL = "https://web.archive.org/web/https://www.cnn.com/2021/04/30/politics/mcconnell-1619-project-education-secretary/index.html"
+
+    def tearDown(self):
+        time.sleep(1)  # sleep time in seconds
 
     def setUp(self) -> None:
         self.html_content, self.response = webpages.fetch(self.URL)
@@ -51,6 +55,9 @@ class TestContentParsers(unittest.TestCase):
 
 class TestContentFromUrl(unittest.TestCase):
 
+    def tearDown(self):
+        time.sleep(1)  # sleep time in seconds
+
     @staticmethod
     def _fetch_and_validate(url: str, expected_method: Optional[str]):
         html_text, _ = webpages.fetch(url)
@@ -84,7 +91,7 @@ class TestContentFromUrl(unittest.TestCase):
             assert True
 
     def test_not_html(self):
-        url = "https://web.archive.org/web/https://s3.amazonaws.com/CFSV2/obituaries/photos/4736/635311/5fecf89b1a6fb.jpeg"
+        url = "https://s3.amazonaws.com/CFSV2/obituaries/photos/4736/635311/5fecf89b1a6fb.jpeg"
         try:
             self._fetch_and_validate(url, None)
         except RuntimeError:
@@ -95,7 +102,7 @@ class TestContentFromUrl(unittest.TestCase):
         # this one has a "Javascript required" check, which readability-lxml doesn't support but Trifilatura does
         url = 'https://web.archive.org/web/https://www.lanacion.com.ar/seguridad/cordoba-en-marzo-asesinaron-a-tres-mujeres-nid1884942/'
         results = self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
-        assert "Por segunda vez esta semana la provincia se ve sacudida" in results['text']
+        assert "Marta Elizabeth Balmaceda fue asesinada en su vivienda de barrio Villa" in results['text']
 
     def test_cnn(self):
         url = "https://web.archive.org/web/https://www.cnn.com/2021/04/30/politics/mcconnell-1619-project-education-secretary/index.html"
@@ -104,7 +111,7 @@ class TestContentFromUrl(unittest.TestCase):
 
     def test_from_url_informe_correintes(self):
         url = "http://www.informecorrientes.com/vernota.asp?id_noticia=44619"
-        results = self._fetch_and_validate(url, content.METHOD_READABILITY)
+        results = self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
         assert "En este sentido se trabaja en la construcción de sendos canales a cielo abierto" in results['text']
 
     def test_from_url_página_12(self):
@@ -117,10 +124,9 @@ class TestContentFromUrl(unittest.TestCase):
         url = "https://web.archive.org/web/https://www.pagina12.com.ar/338796-coronavirus-en-argentina-se-registraron-26-053-casos-y-561-m"
         self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
         url = "http://www.informecorrientes.com/vernota.asp?id_noticia=44619"
-        self._fetch_and_validate(url, content.METHOD_READABILITY)
+        self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
         stats = content.method_success_stats
         assert stats[content.METHOD_TRAFILATURA] >= 1
-        assert stats[content.METHOD_READABILITY] >= 1
         assert stats[content.METHOD_BEAUTIFUL_SOUP_4] == 0
 
     def test_encoding_fix(self):

@@ -1,12 +1,16 @@
 import unittest
 import datetime as dt
 from parameterized import parameterized
+import time
 
 from .. import dates
 from .. import webpages
 
 
 class TestDates(unittest.TestCase):
+
+    def tearDown(self):
+        time.sleep(1)  # sleep time in seconds
 
     @parameterized.expand([
         # subhead

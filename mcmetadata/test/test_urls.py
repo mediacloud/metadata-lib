@@ -1,10 +1,14 @@
 import unittest
 from parameterized import parameterized
+import time
 
 from .. import urls
 
 
 class TestCanonicalDomain(unittest.TestCase):
+
+    def tearDown(self):
+        time.sleep(1)  # sleep time in seconds
 
     @parameterized.expand([
         ("https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey", "france24.com"),

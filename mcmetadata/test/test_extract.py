@@ -1,12 +1,17 @@
 import unittest
 import datetime as dt
+import time
 
 import mcmetadata
 from .. import extract
+from .. import webpages
 from .. import content
 
 
 class TestExtract(unittest.TestCase):
+
+    def tearDown(self):
+        time.sleep(1)  # sleep time in seconds
 
     def test_shortened(self):
         results = extract(url="http://nyti.ms/4K9g6u")
@@ -29,6 +34,7 @@ class TestExtract(unittest.TestCase):
         assert results['is_homepage'] is False
 
     def test_observers(self):
+        webpages.DEFAULT_TIMEOUT_SECS = 30  # for some reason this one takes longer
         test_url = "https://web.archive.org/web/https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
         results = extract(test_url)
         assert 'publication_date' in results
@@ -67,7 +73,7 @@ class TestExtract(unittest.TestCase):
         url = "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm"
         results = extract(url)
         assert "pt" == results['language']
-        assert "pt-br" == results['full_langauge']
+        assert "pt-br" == results['full_language']
 
     def test_redirected_url(self):
         url = "https://api.follow.it/track-rss-story-click/v3/ecuhSAhRa8kTTPWTA7xaXioxzwoq1nFt"
