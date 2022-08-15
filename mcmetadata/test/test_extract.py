@@ -85,6 +85,19 @@ class TestExtract(unittest.TestCase):
         assert results['normalized_url'] == "http://trussvilletribune.com/2022/03/02/three-students-from-center-point-receive-academic-scholarships/"
         assert results['language'] == 'en'
 
+    def test_basic(self):
+        url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
+        results = extract(url)
+        assert url == results['original_url']
+        assert url == results['url']
+        assert 'other' in results
+        assert results['text_extraction_method'] == content.METHOD_TRAFILATURA
+        assert results['other']['raw_title'] == "India's 75th Year Of Freedom: Why Was August 15 Chosen As Independence Day?"
+        assert results['other']['raw_publish_date'] == dt.datetime(2022, 8, 14, 0, 0)
+        assert results['other']['top_image_url'] == "https://im.indiatimes.in/content/2022/Aug/flag_62f496a5df908.jpg"
+        assert len(results['other']['authors']) == 1
+        assert results['other']['authors'][0] == "Gursharan Bhalla"
+
 
 class TestStats(unittest.TestCase):
 

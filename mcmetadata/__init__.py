@@ -91,4 +91,11 @@ def extract(url: str, html_text: str = None) -> Dict:
         is_homepage=is_homepage_url,
         is_shortened=is_shortened_url,
         version=__version__,
+        # other metadata we've done less robust validation on, but might be useful
+        other=dict(
+            raw_title=article['title'],
+            raw_publish_date=article['potential_publish_date'],
+            top_image_url=article['top_image_url'],
+            authors=article['authors'],
+        )
     )
