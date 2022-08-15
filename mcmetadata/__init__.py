@@ -69,7 +69,7 @@ def extract(url: str, html_text: str = None) -> Dict:
 
     # language
     t1 = time.time()
-    full_langauge = languages.from_html(raw_html, article['text'])  # could be something like "pt-br"
+    full_language = languages.from_html(raw_html, article['text'])  # could be something like "pt-br"
     language_duration = time.time() - t1
     stats['language'] += language_duration
 
@@ -82,8 +82,8 @@ def extract(url: str, html_text: str = None) -> Dict:
         normalized_url=normalized_url,
         canonical_domain=canonical_domain,
         publication_date=pub_date,
-        language=full_langauge[:2] if full_langauge else full_langauge,  # keep this as a two-letter code, like "en"
-        full_langauge=full_langauge,  # could be a full region language code, like "en-AU"
+        language=full_language[:2] if full_language else full_language,  # keep this as a two-letter code, like "en"
+        full_language=full_language,  # could be a full region language code, like "en-AU"
         text_extraction_method=article['extraction_method'],
         article_title=article_title,
         normalized_article_title=normalized_title,
