@@ -66,6 +66,7 @@ If you need to push a release manually then you can do this:
 Version History
 ---------------
 
+* __v0.7.7__: fix typo
 * __v0.7.6__: fix distribution packaging error
 * __v0.7.5__: add performance monitoring, handle invalid URLs, add a list of high volume non-news domains that might be
               worth ignoring (based on high volume "noise" domains in our production database) 
