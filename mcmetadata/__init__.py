@@ -10,7 +10,7 @@ from . import titles
 from . import languages
 from . import dates
 
-__version__ = "0.7.7"
+__version__ = "0.7.8"
 
 logger = logging.getLogger(__name__)
 
