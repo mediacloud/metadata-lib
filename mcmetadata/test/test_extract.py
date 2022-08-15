@@ -10,6 +10,9 @@ from .. import content
 
 class TestExtract(unittest.TestCase):
 
+    def setUp(self) -> None:
+        webpages.DEFAULT_TIMEOUT_SECS = 30  # try to avoid timeout errors
+
     def tearDown(self):
         time.sleep(1)  # sleep time in seconds
 
@@ -26,7 +29,6 @@ class TestExtract(unittest.TestCase):
         assert results['is_homepage'] is True
 
     def test_no_date(self):
-        webpages.DEFAULT_TIMEOUT_SECS = 30  # this one takes longer
         # Fail gracefully for webpages that aren't news articles, and thus don't have publication dates
         results = extract(url="https://web.archive.org/web/https://example.com/")
         assert 'publication_date' in results
@@ -35,7 +37,6 @@ class TestExtract(unittest.TestCase):
         assert results['is_homepage'] is False
 
     def test_observers(self):
-        webpages.DEFAULT_TIMEOUT_SECS = 30  # for some reason this one takes longer
         test_url = "https://web.archive.org/web/https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
         results = extract(test_url)
         assert 'publication_date' in results
