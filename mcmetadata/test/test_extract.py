@@ -26,6 +26,7 @@ class TestExtract(unittest.TestCase):
         assert results['is_homepage'] is True
 
     def test_no_date(self):
+        webpages.DEFAULT_TIMEOUT_SECS = 30  # this one takes longer
         # Fail gracefully for webpages that aren't news articles, and thus don't have publication dates
         results = extract(url="https://web.archive.org/web/https://example.com/")
         assert 'publication_date' in results

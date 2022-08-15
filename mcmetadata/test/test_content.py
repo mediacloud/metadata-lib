@@ -102,7 +102,7 @@ class TestContentFromUrl(unittest.TestCase):
         # this one has a "Javascript required" check, which readability-lxml doesn't support but Trifilatura does
         url = 'https://web.archive.org/web/https://www.lanacion.com.ar/seguridad/cordoba-en-marzo-asesinaron-a-tres-mujeres-nid1884942/'
         results = self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
-        assert "Marta Elizabeth Balmaceda fue asesinada en su vivienda de barrio Villa" in results['text']
+        assert "Por segunda vez esta semana la provincia se ve sacudida por la" in results['text']
 
     def test_cnn(self):
         url = "https://web.archive.org/web/https://www.cnn.com/2021/04/30/politics/mcconnell-1619-project-education-secretary/index.html"
@@ -111,7 +111,7 @@ class TestContentFromUrl(unittest.TestCase):
 
     def test_from_url_informe_correintes(self):
         url = "http://www.informecorrientes.com/vernota.asp?id_noticia=44619"
-        results = self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
+        results = self._fetch_and_validate(url, content.METHOD_READABILITY)
         assert "En este sentido se trabaja en la construcción de sendos canales a cielo abierto" in results['text']
 
     def test_from_url_página_12(self):
@@ -124,9 +124,10 @@ class TestContentFromUrl(unittest.TestCase):
         url = "https://web.archive.org/web/https://www.pagina12.com.ar/338796-coronavirus-en-argentina-se-registraron-26-053-casos-y-561-m"
         self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
         url = "http://www.informecorrientes.com/vernota.asp?id_noticia=44619"
-        self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
+        self._fetch_and_validate(url, content.METHOD_READABILITY)
         stats = content.method_success_stats
         assert stats[content.METHOD_TRAFILATURA] >= 1
+        assert stats[content.METHOD_READABILITY] >= 1
         assert stats[content.METHOD_BEAUTIFUL_SOUP_4] == 0
 
     def test_encoding_fix(self):
