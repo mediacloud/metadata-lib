@@ -11,9 +11,8 @@ logger = logging.getLogger(__name__)
 def guess_publication_date(html: str, url: str, max_date: Optional[dt.datetime] = None) -> Optional[dt.datetime]:
     pub_date = None
     try:
-        max_date_str = max_date.strftime('%Y-%m-%d') if max_date else None
         pub_date_str = htmldate.find_date(html, url=url, original_date=True, extensive_search=False,
-                                          max_date=max_date_str)
+                                          max_date=max_date)
         if pub_date_str:
             pub_date = dateparser.parse(pub_date_str)
             if max_date and (pub_date > max_date):  # double check for safety
