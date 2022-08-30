@@ -66,7 +66,8 @@ If you need to push a release manually then you can do this:
 Version History
 ---------------
 
-* __v0.7.9__: fix `include_other_metadata` processing, upgrade underlying libraries to latest
+* __v0.7.9__: fix `include_other_metadata` processing, upgrade underlying libraries to latest, remove leading and 
+              trailing whitespace from extracted text
 * __v0.7.8__: add optional `include_other_metadata` arg to extract method, which includes top_image and authors and
               other less validated metadata in results
 * __v0.7.7__: fix typo
