@@ -17,11 +17,13 @@ class TestExtract(unittest.TestCase):
         time.sleep(1)  # sleep time in seconds
 
     def test_shortened(self):
-        results = extract(url="http://nyti.ms/4K9g6u")
+        shortened_url = "https://cnn.it/3wGkGU1"
+        results = extract(url=shortened_url)
         assert 'is_shortened' in results
         assert results['is_shortened'] is True
-        assert results['original_url'] == "http://nyti.ms/4K9g6u"
-        assert results['url'] != "http://nyti.ms/4K9g6u"
+        assert results['original_url'] == shortened_url
+        assert results['url'] != shortened_url
+        assert results['url'] == "https://www.cnn.com/2022/08/29/weather/weather-news-labor-day-tropical-system-texas-rain-wxn/index.html"
 
     def test_homepage(self):
         results = extract(url="https://web.archive.org/web/")
