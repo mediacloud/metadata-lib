@@ -10,7 +10,7 @@ from . import titles
 from . import languages
 from . import dates
 
-__version__ = "0.7.8"
+__version__ = "0.7.9"
 
 logger = logging.getLogger(__name__)
 
@@ -67,7 +67,7 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
 
     # content
     t1 = time.time()
-    article = content.from_html(final_url, raw_html)
+    article = content.from_html(final_url, raw_html, include_other_metadata)
     content_duration = time.time() - t1
     stats['content'] += content_duration
 

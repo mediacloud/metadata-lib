@@ -40,13 +40,15 @@ METHOD_FAILED = 'failed'  # placeholder for stats
 method_success_stats = collections.Counter()
 
 
-def from_html(url: str, html_text: str) -> Dict:
+def from_html(url: str, html_text: str, include_metadata: bool = False) -> Dict:
     """
     Try a series of extractors to pull content out of HTML. The idea is to try as hard as can to get
     good content, but fallback to at least get something useful. The writeup at this site was very helpful:
     https://adrien.barbaresi.eu/blog/evaluating-text-extraction-python.html
     :param html_text: the raw HTML to parser
     :param url: this is useful to pass in for some metadata parsing
+    :param include_metadata: true to try and extract any other metdata the underlying extractor supports, which can
+                             create a notable performance hit
     :return: a dict of with url, text, title, publish_date, top_image_url, authors, and extraction_method keys
     """
     # now try each extractor against the same HTML
@@ -54,7 +56,7 @@ def from_html(url: str, html_text: str) -> Dict:
         try:
             # logger.debug("Trying {}".format(extractor_info['method']))
             extractor = extractor_info['instance']
-            extractor.extract(url, html_text)
+            extractor.extract(url, html_text, include_metadata)
             if extractor.worked():
                 method_success_stats[extractor.content['extraction_method']] += 1
                 return extractor.content
@@ -75,7 +77,7 @@ class AbstractExtractor(ABC):
         self.content = None
 
     @abstractmethod
-    def extract(self, url: str, html_text: str):
+    def extract(self, url: str, html_text: str, include_metadata: bool = False):
         pass
 
     def worked(self) -> bool:
@@ -88,7 +90,7 @@ class AbstractExtractor(ABC):
 
 class Newspaper3kExtractor(AbstractExtractor):
 
-    def extract(self, url, html_text: str):
+    def extract(self, url, html_text: str, include_metadata: bool = False):
         doc = newspaper.Article(url)
         doc.download(input_html=html_text)
         doc.parse()
@@ -105,7 +107,7 @@ class Newspaper3kExtractor(AbstractExtractor):
 
 class GooseExtractor(AbstractExtractor):
 
-    def extract(self, url, html_text: str):
+    def extract(self, url, html_text: str, include_metadata: bool = False):
         g = Goose()
         g3_article = g.extract(raw_html=html_text)
         self.content = {
@@ -121,7 +123,7 @@ class GooseExtractor(AbstractExtractor):
 
 class BoilerPipe3Extractor(AbstractExtractor):
 
-    def extract(self, url: str, html_text: str):
+    def extract(self, url: str, html_text: str, include_metadata: bool = False):
         try:
             extractor = bp3_extractors.ArticleExtractor()
             bp_doc = extractor.get_doc(html_text)
@@ -139,22 +141,30 @@ class BoilerPipe3Extractor(AbstractExtractor):
             pass
 
 
-img_path_pattern = re.compile(r"(http[^ ]*)", re.I)
+# Trafilatura outputs images in teh raw text in Markdown format
+markdown_img_path_pattern = re.compile(r"!\[[^\]]*\]\((.*?)\)")
 
 
 class TrafilaturaExtractor(AbstractExtractor):
 
-    def extract(self, url: str, html_text: str):
-        results = trafilatura.bare_extraction(html_text, with_metadata=True, url=url, include_images=True)
-        images = img_path_pattern.search(results['text'])
-        first_image = images.group(0) if images else None
-        text_no_img_urls = img_path_pattern.sub("", results['text'])
+    def extract(self, url: str, html_text: str, include_metadata: bool = False):
+        results = trafilatura.bare_extraction(html_text, with_metadata=include_metadata, url=url,
+                                              include_images=include_metadata)
+        image_urls = []
+        if include_metadata:
+            # pull out the images embedded in the markdown
+            for match in markdown_img_path_pattern.finditer(results['text']):
+                image_urls.append(match.group(1))
+            # remove the image links from the full text
+            text = markdown_img_path_pattern.sub("", results['text'])
+        else:
+            text = results['text']
         self.content = {
             'url': url,
-            'text': text_no_img_urls,
+            'text': text,
             'title': results['title'],
             'potential_publish_date': dateparser.parse(results['date']),
-            'top_image_url': first_image,
+            'top_image_url': image_urls[0] if len(image_urls) > 0 else None,
             'authors': results['author'].split(',') if results['author'] else None,
             'extraction_method': METHOD_TRAFILATURA,
         }
@@ -162,7 +172,7 @@ class TrafilaturaExtractor(AbstractExtractor):
 
 class ReadabilityExtractor(AbstractExtractor):
 
-    def extract(self, url: str, html_text: str):
+    def extract(self, url: str, html_text: str, include_metadata: bool = False):
         try:
             doc = readability.Document(html_text)
             self.content = {
@@ -186,7 +196,7 @@ class RawHtmlExtractor(AbstractExtractor):
     def __init__(self):
         super(RawHtmlExtractor, self).__init__()
 
-    def extract(self, url: str, html_text: str):
+    def extract(self, url: str, html_text: str, include_metadata: bool = False):
         soup = BeautifulSoup(html_text, 'lxml')
         text = soup.find_all(string=True)
         output = ''
