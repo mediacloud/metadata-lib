@@ -59,6 +59,7 @@ def from_html(url: str, html_text: str, include_metadata: bool = False) -> Dict:
             extractor.extract(url, html_text, include_metadata)
             if extractor.worked():
                 method_success_stats[extractor.content['extraction_method']] += 1
+                extractor.content['text'] = extractor.content['text'].strip()
                 return extractor.content
         except Exception as e:
             # if the extractor fails for any reason, just continue on to the next one

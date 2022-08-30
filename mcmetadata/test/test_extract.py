@@ -109,6 +109,12 @@ class TestExtract(unittest.TestCase):
         assert len(results['other']['authors']) == 1
         assert results['other']['authors'][0] == "Gursharan Bhalla"
 
+    def test_whitespace_removal(self):
+        url = "https://observador.vsports.pt/embd/75404/m/9812/obsrv/53a58b677b53143428e47d43d5887139?autostart=false"
+        results = extract(url, include_other_metadata=True)
+        # the point here is that it removes all pre and post whitespace - tons of junk
+        assert len(results['text_content']) == 110
+
 
 class TestStats(unittest.TestCase):
 
