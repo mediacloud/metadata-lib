@@ -6,7 +6,7 @@ import time
 
 from .. import content
 from .. import webpages
-from ..exceptions import UnableToExtractError
+from ..exceptions import UnableToExtractError, BadContentError
 
 
 class TestContentParsers(unittest.TestCase):
@@ -136,6 +136,12 @@ class TestContentFromUrl(unittest.TestCase):
         assert "Á" not in results['text']  # this would be there if the encoding isn't being read right
         assert "수도권과" in results['text']
 
+    def test_too_short_content(self):
+        url = "https://web.archive.org/web/20161214233744id_/http://usnatarchives.tumblr.com/post/66921244001/cast-your-vote-for-the-immigration-act-to-be/embed"
+        try:
+            self._fetch_and_validate(url, None)
+        except BadContentError:
+            assert True
 
 if __name__ == "__main__":
     unittest.main()
