@@ -12,8 +12,9 @@ import trafilatura
 import collections
 import lxml.etree
 from lxml.html.clean import Cleaner
+from lxml.html import fromstring, tostring
 
-from .exceptions import UnableToExtractError
+from .exceptions import UnableToExtractError, BadContentError
 from .html import strip_tags
 
 logger = logging.getLogger(__name__)
@@ -34,6 +35,7 @@ METHOD_BEAUTIFUL_SOUP_4 = 'beautifulsoup4'
 METHOD_BOILER_PIPE_3 = 'boilerpipe3'
 METHOD_READABILITY = 'readability'
 METHOD_TRAFILATURA = 'trafilatura'
+METHOD_LXML = "lxml"
 METHOD_FAILED = 'failed'  # placeholder for stats
 
 # track stats on how frequently each method succeeds (keyed by the METHOD_XYZ constants)
@@ -53,6 +55,7 @@ def from_html(url: str, html_text: str, include_metadata: bool = False) -> Dict:
     """
     # now try each extractor against the same HTML
     for extractor_info in extractors:
+        
         try:
             # logger.debug("Trying {}".format(extractor_info['method']))
             extractor = extractor_info['instance']
@@ -61,7 +64,10 @@ def from_html(url: str, html_text: str, include_metadata: bool = False) -> Dict:
                 method_success_stats[extractor.content['extraction_method']] += 1
                 extractor.content['text'] = extractor.content['text'].strip()
                 return extractor.content
+        except BadContentError as e:
+            raise e
         except Exception as e:
+
             # if the extractor fails for any reason, just continue on to the next one
             pass
     method_success_stats[METHOD_FAILED] += 1  # track how many failures we've had too
@@ -86,8 +92,12 @@ class AbstractExtractor(ABC):
         if self.content is None:
             return False
         text_no_tags = self.content['text']
-        return len(text_no_tags) > MINIMUM_CONTENT_LENGTH
+        if len(text_no_tags) > MINIMUM_CONTENT_LENGTH:
+            return True
+        else:
+            raise BadContentError("Content is too short")
 
+ 
 
 class Newspaper3kExtractor(AbstractExtractor):
 
@@ -215,6 +225,40 @@ class RawHtmlExtractor(AbstractExtractor):
         }
 
 
+class LxmlExtractor(AbstractExtractor):
+    """
+    An inefficient fallback extractor that should work in all contexts
+    """
+    
+    def extract(self, url: str, html_text: str, include_metadata: bool = False):
+        cleaner = Cleaner(scripts=True, javascript=True, 
+                comments=True, style=True, links=True, meta=True,
+                add_nofollow=False, page_structure=True, 
+                processing_instructions=True, embedded=True,
+                frames=True, forms=True, annoying_tags=True, 
+                allow_tags=[None],safe_attrs_only=False)
+
+
+        parsed = lxml.etree.HTML(html_text)
+        #This ensures that the etree is cast correctly-
+        #It seems like pages with multiple head nodes sometimes confuse
+        #the parser without this step
+        circular = fromstring(tostring(parsed))
+        content_string = tostring(cleaner.clean_html(circular))
+        
+        self.content = {
+            "url": url,
+            'text': content_string,
+            'title': None,
+            'potential_publish_date': None,
+            'top_image_url': None,
+            'authors': None,
+            'extraction_method': METHOD_LXML,
+        }
+        print(self.content)
+        
+
+
 # based by findings from trafilatura paper, but customized to performance on EN and ES sources (see tests)
 extractors = [
     dict(method=METHOD_TRAFILATURA, instance=TrafilaturaExtractor()),
@@ -224,4 +268,5 @@ extractors = [
     dict(method=METHOD_NEWSPAPER_3k, instance=Newspaper3kExtractor()),
     # this one should never fail (if there is any content at all) because it just parses HTML
     dict(method=METHOD_BEAUTIFUL_SOUP_4, instance=RawHtmlExtractor()),
+    dict(method=METHOD_LXML, instance=LxmlExtractor())
 ]
