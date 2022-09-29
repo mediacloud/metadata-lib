@@ -70,12 +70,12 @@ class TestContentParsers(unittest.TestCase):
         extractor = content.RawHtmlExtractor()
         extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
-"""
+
     def test_lxml(self):
         extractor = content.LxmlExtractor()
         extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
-"""
+
 class TestContentFromUrl(unittest.TestCase):
 
     def tearDown(self):
@@ -109,7 +109,7 @@ class TestContentFromUrl(unittest.TestCase):
         try:
             self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
             assert False
-        except UnableToExtractError as _:
+        except BadContentError as _:
             assert True
 
     def test_failing_url(self):
