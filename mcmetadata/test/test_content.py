@@ -13,8 +13,8 @@ from ..exceptions import UnableToExtractError, BadContentError
 
 
 @pytest.fixture
-def use_cache(request):
-    return request.config.getoption('--use-cache')
+def use_cache(pytestconfig):
+    return pytestconfig.getoption('--use-cache')
 
 def filesafe_url(url):
     url = re.sub('"', "", url)
@@ -22,16 +22,20 @@ def filesafe_url(url):
     filesafe_surt = "cached-"+re.sub("\W+", "", url)
     return filesafe_surt
 
+#@pytest.mark.usefixtures("use_cache")
 class TestContentParsers(unittest.TestCase):
 
     URL = "https://web.archive.org/web/https://www.cnn.com/2021/04/30/politics/mcconnell-1619-project-education-secretary/index.html"
+
+    @pytest.fixture(autouse=True)
+    def get_use_cache(self, use_cache):
+        self.use_cache = use_cache
 
     def tearDown(self):
         time.sleep(1)  # sleep time in seconds
 
     def setUp(self) -> None:
-        if(use_cache):
-            
+        if(self.use_cache):
             try:
                 self.html_content = read_fixture(filesafe_url(self.URL))
             except:
@@ -40,6 +44,7 @@ class TestContentParsers(unittest.TestCase):
             self.html_content, self.response = webpages.fetch(self.URL)
 
     def test_readability(self):
+
         extractor = content.ReadabilityExtractor()
         extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
@@ -79,12 +84,16 @@ class TestContentParsers(unittest.TestCase):
 
 class TestContentFromUrl(unittest.TestCase):
 
+    @pytest.fixture(autouse=True)
+    def get_use_cache(self, use_cache):
+        self.use_cache = use_cache
+
     def tearDown(self):
         time.sleep(1)  # sleep time in seconds
 
-    @staticmethod
-    def _fetch_and_validate(url: str, expected_method: Optional[str]):
-        if(use_cache):
+    
+    def _fetch_and_validate(self, url: str, expected_method: Optional[str]):
+        if(self.use_cache):
             try:
                 html_text = read_fixture(filesafe_url(url))
             except:
