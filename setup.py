@@ -18,6 +18,7 @@ REQUIRED_PACKAGES = [
     # support
     "requests",         # leave un-versioned so dependencies can sort of which version is best
     "cchardet==2.1.*",  # BeautifulSoup4 speedup
+    "surt==0.3.1"
 ]
 
 with open('mcmetadata/__init__.py', 'r') as fd:
