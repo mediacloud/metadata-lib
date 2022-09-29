@@ -35,9 +35,9 @@ $(document).ready(function(){
 	}
 
 	// Obtiene los valores de la fecha, hora, minutos y segundos del servidor
-	var jDate = '28/09/2022';
-	var jHora = '21';
-	var jMin = '42';
+	var jDate = '29/09/2022';
+	var jHora = '1';
+	var jMin = '17';
 	var jSec = '10';
 
 	// Actualiza la capa #hora-servidor
@@ -89,7 +89,7 @@ $(document).ready(function(){
   <tr>
    <td width="12" height="50"></td>
    <td width="383">
-     <span class='fecha2'>Mi&eacute;rcoles, 28 de Septiembre de 2022</span><span class='fecha1'> | Corrientes - Argentina</span>	   
+     <span class='fecha2'>Jueves, 29 de Septiembre de 2022</span><span class='fecha1'> | Corrientes - Argentina</span>	   
    </td>
    <td width="250"><div id="caja_busqueda">
        <form id="form_b" name="form_b" method="post" action="buscar.asp" class="form_b">

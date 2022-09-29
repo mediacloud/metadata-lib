@@ -5,7 +5,7 @@
 <!--[if IE 9]>    <html class="msie9" lang="fr" xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#"> <![endif]-->
 <!--[if gt IE 9]><!--><html lang="fr" xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#"><!--<![endif]-->
 <head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app221.us.archive.org';v.server_ms=439;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app209.us.archive.org';v.server_ms=401;archive_analytics.send_pageview({});});</script>
 <script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
 <script type="text/javascript">
@@ -913,7 +913,7 @@ var eStatTag=function(a){"use strict";function b(a){R&&(console.debug?console.de
 </body>
 </html><!--
      FILE ARCHIVED ON 14:44:54 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 00:35:38 Sep 29, 2022.
+     INTERNET ARCHIVE ON 04:23:46 Sep 29, 2022.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -921,14 +921,14 @@ var eStatTag=function(a){"use strict";function b(a){R&&(console.debug?console.de
 -->
 <!--
 playback timings (ms):
-  captures_list: 214.919
-  exclusion.robots: 0.15
-  exclusion.robots.policy: 0.136
-  RedisCDXSource: 2.426
-  esindex: 0.011
-  LoadShardBlock: 187.065 (3)
-  PetaboxLoader3.datanode: 218.325 (5)
-  CDXLines.iter: 22.199 (3)
-  load_resource: 181.655 (2)
-  PetaboxLoader3.resolve: 96.72 (2)
+  captures_list: 112.75
+  exclusion.robots: 0.085
+  exclusion.robots.policy: 0.078
+  cdx.remote: 0.06
+  esindex: 0.007
+  LoadShardBlock: 86.602 (3)
+  PetaboxLoader3.datanode: 85.153 (5)
+  CDXLines.iter: 17.403 (3)
+  PetaboxLoader3.resolve: 168.489 (3)
+  load_resource: 275.579 (2)
 -->

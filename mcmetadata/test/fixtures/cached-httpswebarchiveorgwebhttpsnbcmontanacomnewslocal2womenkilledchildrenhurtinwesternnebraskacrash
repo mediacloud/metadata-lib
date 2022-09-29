@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en"><head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app223.us.archive.org';v.server_ms=288;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app213.us.archive.org';v.server_ms=454;archive_analytics.send_pageview({});});</script>
 <script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
 <script type="text/javascript">
@@ -514,7 +514,7 @@ if (sinclairDigital.survey) {
     document.body.appendChild(scriptEl);
 }</script></div></div></div></body></html><!--
      FILE ARCHIVED ON 23:13:30 Jul 24, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 00:35:43 Sep 29, 2022.
+     INTERNET ARCHIVE ON 04:23:30 Sep 29, 2022.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -522,14 +522,14 @@ if (sinclairDigital.survey) {
 -->
 <!--
 playback timings (ms):
-  captures_list: 152.359
-  exclusion.robots: 0.093
-  exclusion.robots.policy: 0.084
-  RedisCDXSource: 0.604
-  esindex: 0.008
-  LoadShardBlock: 131.519 (3)
-  PetaboxLoader3.datanode: 162.467 (4)
-  CDXLines.iter: 17.811 (3)
-  load_resource: 131.274
-  PetaboxLoader3.resolve: 68.299
+  captures_list: 234.194
+  exclusion.robots: 0.082
+  exclusion.robots.policy: 0.074
+  cdx.remote: 0.064
+  esindex: 0.012
+  LoadShardBlock: 175.105 (3)
+  PetaboxLoader3.datanode: 182.605 (4)
+  CDXLines.iter: 20.617 (3)
+  load_resource: 213.504
+  PetaboxLoader3.resolve: 164.119
 -->

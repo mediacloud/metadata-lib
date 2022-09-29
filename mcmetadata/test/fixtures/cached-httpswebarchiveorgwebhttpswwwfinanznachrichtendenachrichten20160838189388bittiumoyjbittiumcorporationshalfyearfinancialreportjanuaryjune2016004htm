@@ -3,7 +3,7 @@
 
 
 <!DOCTYPE html><html lang="de"><head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app210.us.archive.org';v.server_ms=423;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app225.us.archive.org';v.server_ms=777;archive_analytics.send_pageview({});});</script>
 <script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
 <script type="text/javascript">
@@ -48,7 +48,7 @@
             appId: "1:303111472022:web:6d8b3fe9658bf905"
         });</script><!-- IVW - begin preload of IOM web manager --><link rel="preload" href="https://web.archive.org/web/20220721144021/https://data-49bb023f99.finanznachrichten.de/iomm/latest/manager/base/es6/bundle.js" as="script" id="IOMmBundle"><link rel="preload" href="https://web.archive.org/web/20220721144021/https://data-49bb023f99.finanznachrichten.de/iomm/latest/bootstrap/loader.js" as="script"><script type="text/javascript" src="https://web.archive.org/web/20220721144021js_/https://data-49bb023f99.finanznachrichten.de/iomm/latest/bootstrap/loader.js"></script></body></html><!--
      FILE ARCHIVED ON 14:40:21 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 00:40:52 Sep 29, 2022.
+     INTERNET ARCHIVE ON 04:21:57 Sep 29, 2022.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -56,14 +56,14 @@
 -->
 <!--
 playback timings (ms):
-  captures_list: 312.621
-  exclusion.robots: 0.115
-  exclusion.robots.policy: 0.107
-  cdx.remote: 0.099
-  esindex: 0.009
-  LoadShardBlock: 259.73 (3)
-  PetaboxLoader3.datanode: 181.442 (4)
-  CDXLines.iter: 22.472 (3)
-  PetaboxLoader3.resolve: 88.09 (2)
-  load_resource: 89.385
+  captures_list: 85.3
+  exclusion.robots: 0.131
+  exclusion.robots.policy: 0.121
+  RedisCDXSource: 1.057
+  esindex: 0.01
+  LoadShardBlock: 56.214 (3)
+  PetaboxLoader3.datanode: 60.99 (4)
+  CDXLines.iter: 24.883 (3)
+  load_resource: 676.038
+  PetaboxLoader3.resolve: 26.102
 -->

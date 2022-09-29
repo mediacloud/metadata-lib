@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="uraruApp">
 <head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app203.us.archive.org';v.server_ms=257;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app211.us.archive.org';v.server_ms=189;archive_analytics.send_pageview({});});</script>
 <script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
 <script type="text/javascript">
@@ -1888,7 +1888,7 @@
 
 </html><!--
      FILE ARCHIVED ON 14:43:34 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 00:31:31 Sep 29, 2022.
+     INTERNET ARCHIVE ON 04:18:33 Sep 29, 2022.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -1896,14 +1896,14 @@
 -->
 <!--
 playback timings (ms):
-  captures_list: 97.409
-  exclusion.robots: 0.087
-  exclusion.robots.policy: 0.079
-  cdx.remote: 0.059
-  esindex: 0.008
-  LoadShardBlock: 66.553 (3)
-  PetaboxLoader3.datanode: 111.905 (4)
-  CDXLines.iter: 15.479 (3)
-  load_resource: 147.046
-  PetaboxLoader3.resolve: 40.444
+  captures_list: 103.444
+  exclusion.robots: 0.246
+  exclusion.robots.policy: 0.227
+  cdx.remote: 0.143
+  esindex: 0.02
+  LoadShardBlock: 70.931 (3)
+  PetaboxLoader3.resolve: 47.31 (2)
+  PetaboxLoader3.datanode: 46.76 (4)
+  CDXLines.iter: 20.185 (3)
+  load_resource: 69.827
 -->

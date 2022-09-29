@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko" itemid="https://www.mk.co.kr/news/society/view/2020/07/693939/" itemtype="http://schema.org/NewsArticle" itemscope="" class="story" xmlns:og="http://opengraphprotocol.org/schema/">
 <head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app224.us.archive.org';v.server_ms=406;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app225.us.archive.org';v.server_ms=361;archive_analytics.send_pageview({});});</script>
 <script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
 <script type="text/javascript">
@@ -1636,7 +1636,7 @@ function str_cut( str, len, tail ) {
 <!-- Cache End : f5d2a50c474fe670430bcbd3f4087aae, Cached : 2022.07.21 22:56:47, Expired : 2022.07.21 22:59:47-->
 <!--
      FILE ARCHIVED ON 13:56:50 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 00:34:49 Sep 29, 2022.
+     INTERNET ARCHIVE ON 04:15:00 Sep 29, 2022.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -1644,14 +1644,14 @@ function str_cut( str, len, tail ) {
 -->
 <!--
 playback timings (ms):
-  captures_list: 79.259
-  exclusion.robots: 0.124
-  exclusion.robots.policy: 0.113
-  RedisCDXSource: 13.466
-  esindex: 0.01
-  LoadShardBlock: 46.767 (3)
-  PetaboxLoader3.datanode: 165.73 (4)
-  CDXLines.iter: 15.941 (3)
-  load_resource: 312.735
-  PetaboxLoader3.resolve: 180.527
+  captures_list: 296.798
+  exclusion.robots: 0.167
+  exclusion.robots.policy: 0.153
+  RedisCDXSource: 86.652
+  esindex: 0.009
+  LoadShardBlock: 182.983 (3)
+  PetaboxLoader3.datanode: 50.421 (4)
+  CDXLines.iter: 23.425 (3)
+  load_resource: 47.309
+  PetaboxLoader3.resolve: 32.531
 -->

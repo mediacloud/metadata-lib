@@ -1,5 +1,5 @@
 <!doctype html><html lang="en" data-theme="heavy-blue" data-reactroot=""><head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app224.us.archive.org';v.server_ms=768;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app222.us.archive.org';v.server_ms=519;archive_analytics.send_pageview({});});</script>
 <script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
 <script type="text/javascript">
@@ -518,7 +518,7 @@ apstag.init({
 </script>
 <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[23]</script><script id="__LOADABLE_REQUIRED_CHUNKS___ext" type="application/json">{"namedChunks":["StnSmartPlayer"]}</script><script async="" data-chunk="bundle" src="/web/20220721144440js_/https://www.thestar.com/static/vendors~bundle.chunk.js?v=d333aec9"></script><script async="" data-chunk="bundle" src="/web/20220721144440js_/https://www.thestar.com/static/bundle.js?v=f1d63e4b"></script><script async="" data-chunk="StnSmartPlayer" src="/web/20220721144440js_/https://www.thestar.com/static/StnSmartPlayer.chunk.js?v=d92b0b75"></script></body></html><!--
      FILE ARCHIVED ON 14:44:40 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 00:36:52 Sep 29, 2022.
+     INTERNET ARCHIVE ON 04:19:16 Sep 29, 2022.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -526,14 +526,14 @@ apstag.init({
 -->
 <!--
 playback timings (ms):
-  captures_list: 311.134
-  exclusion.robots: 0.107
-  exclusion.robots.policy: 0.099
-  RedisCDXSource: 0.593
-  esindex: 0.008
-  LoadShardBlock: 289.239 (3)
-  PetaboxLoader3.datanode: 654.069 (4)
-  CDXLines.iter: 18.56 (3)
-  load_resource: 449.789
-  PetaboxLoader3.resolve: 37.029
+  captures_list: 445.411
+  exclusion.robots: 0.082
+  exclusion.robots.policy: 0.075
+  RedisCDXSource: 1.042
+  esindex: 0.007
+  LoadShardBlock: 423.988 (3)
+  PetaboxLoader3.datanode: 425.758 (4)
+  CDXLines.iter: 17.832 (3)
+  load_resource: 67.062
+  PetaboxLoader3.resolve: 31.166
 -->

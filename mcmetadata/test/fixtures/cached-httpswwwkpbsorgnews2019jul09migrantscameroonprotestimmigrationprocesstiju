@@ -94,6 +94,33 @@
     </style>
 
     
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    
+    
+    
+    
+    <meta name="twitter:description" content="Over a hundred asylum-seekers from Cameroon blocked the path of Mexican immigration vans Tuesday morning in Tijuana in protest of what they believe to be corruption by Mexican immigration officials."/>
+    
+    
+    <meta name="twitter:image" content="https://cdn.kpbs.org/dims4/default/ed59a9e/2147483647/strip/true/crop/1200x675+0+1/resize/1200x675!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fphotos%2F2019%2F09%2F13%2FIMG_3689.jpg"/>
+
+
+    
+    <meta name="twitter:image:alt" content="Asylum-seekers from Cameroon and Eritrea protest Mexican immigration authorities in Tijuana, July 9, 2019. 
+
+
+"/>
+    
+    
+    <meta name="twitter:site" content="@kpbs"/>
+    
+    
+    
+    <meta name="twitter:title" content="Migrants From Cameroon Protest Immigration Process In Tijuana"/>
+    
+
+
     <meta property="og:title" content="Migrants From Cameroon Protest Immigration Process In Tijuana">
 
     <meta property="og:url" content="https://www.kpbs.org/news/midday-edition/2019/07/09/migrants-cameroon-protest-immigration-process-tiju">
@@ -133,33 +160,6 @@
     <meta property="article:tag" content="Immigration">
 
     <meta property="article:tag" content="Tijuana">
-
-    
-    <meta name="twitter:card" content="summary_large_image"/>
-    
-    
-    
-    
-    <meta name="twitter:description" content="Over a hundred asylum-seekers from Cameroon blocked the path of Mexican immigration vans Tuesday morning in Tijuana in protest of what they believe to be corruption by Mexican immigration officials."/>
-    
-    
-    <meta name="twitter:image" content="https://cdn.kpbs.org/dims4/default/ed59a9e/2147483647/strip/true/crop/1200x675+0+1/resize/1200x675!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fphotos%2F2019%2F09%2F13%2FIMG_3689.jpg"/>
-
-
-    
-    <meta name="twitter:image:alt" content="Asylum-seekers from Cameroon and Eritrea protest Mexican immigration authorities in Tijuana, July 9, 2019. 
-
-
-"/>
-    
-    
-    <meta name="twitter:site" content="@kpbs"/>
-    
-    
-    
-    <meta name="twitter:title" content="Migrants From Cameroon Protest Immigration Process In Tijuana"/>
-    
-
 
     <meta name="robots" content="max-image-preview:large">
 
@@ -1357,7 +1357,7 @@
         
         
             <div class="BrightspotPersistentPlayer-dfpAd"><ps-google-dfp-ad data-hide-on-mobile='true'>
-    <div id="googleAd87431d08-d000-4b1d-9259-f05368b504a9" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_1" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAd2bb204df-bcae-4470-acdb-ec6c7f55a0dc" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_1" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>
@@ -1819,7 +1819,7 @@
     <div class="Page-above" ><div class="AdModule" >
     
     <ps-google-dfp-ad>
-    <div id="googleAd3168a1e9-a89e-4d56-a489-f53da133c80b" class="GoogleDfpAd " data-slot-name="1010421/KPBS_leaderboard_1" data-slot-sizes="[[320, 50], [728, 90]]" data-slot-adSizeMap="[[[320, 1], [320, 50]], [[768, 1], [728, 90]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAd02552a3b-dda1-4373-97bf-38f71e99149e" class="GoogleDfpAd " data-slot-name="1010421/KPBS_leaderboard_1" data-slot-sizes="[[320, 50], [728, 90]]" data-slot-adSizeMap="[[[320, 1], [320, 50]], [[768, 1], [728, 90]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>
@@ -2113,7 +2113,7 @@
     <div class="AdModule" >
     
     <ps-google-dfp-ad>
-    <div id="googleAdd6826117-4e11-4452-9978-c1ee343f69d9" class="GoogleDfpAd " data-slot-name="1010421/KPBS_ad_injection" data-slot-sizes="[[320, 50], [728, 90]]" data-slot-adSizeMap="[[[320, 1], [320, 50]], [[728, 1], [728, 90]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAda1697f9c-b241-4173-91d7-1e9c18ed1729" class="GoogleDfpAd " data-slot-name="1010421/KPBS_ad_injection" data-slot-sizes="[[320, 50], [728, 90]]" data-slot-adSizeMap="[[[320, 1], [320, 50]], [[728, 1], [728, 90]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>
@@ -2123,11 +2123,11 @@
 </div><div class="Enhancement" data-align-center><div class="VideoEnhancement" data-video-disable-history>
     
         <div class="VideoEnhancement-player"><ps-youtubeplayer data-video-player class="YouTubeVideoPlayer"
-    data-player-id="f63ca05a95492441bb7aab9dcd7dbb6e2"
+    data-player-id="f7043e048a64646bf9c93ac7ac67502d0"
     data-video-id="49IkoFeolH8"
     data-video-title="Migrants From Cameroon Protest Immigration Process In Tijuana">
 
-    <iframe id="YouTubeVideoPlayer-f63ca05a95492441bb7aab9dcd7dbb6e2" role="application" title="YouTube embedded video player" allowfullscreen src="https://www.youtube.com/embed/49IkoFeolH8?enablejsapi=1"></iframe>
+    <iframe id="YouTubeVideoPlayer-f7043e048a64646bf9c93ac7ac67502d0" role="application" title="YouTube embedded video player" allowfullscreen src="https://www.youtube.com/embed/49IkoFeolH8?enablejsapi=1"></iframe>
 </ps-youtubeplayer></div>
     
     
@@ -2179,7 +2179,7 @@
     <div class="AdModule" >
     
     <ps-google-dfp-ad>
-    <div id="googleAdbd887a18-8aa8-4982-97c6-ba6c009d8dae" class="GoogleDfpAd " data-slot-name="1010421/KPBS_ad_injection" data-slot-sizes="[[320, 50], [728, 90]]" data-slot-adSizeMap="[[[320, 1], [320, 50]], [[728, 1], [728, 90]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAddfcebb80-34b9-4381-a8f9-025701e99cc3" class="GoogleDfpAd " data-slot-name="1010421/KPBS_ad_injection" data-slot-sizes="[[320, 50], [728, 90]]" data-slot-adSizeMap="[[[320, 1], [320, 50]], [[728, 1], [728, 90]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>
@@ -2327,7 +2327,7 @@ Over a hundred asylum-seekers from Cameroon blocked the path of Mexican immigrat
                             <div class="AdModule" >
     
     <ps-google-dfp-ad data-hide-on-mobile='true'>
-    <div id="googleAdcb545084-57bf-467e-8f09-d36dca5e1ccd" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_1" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAd86c88a4f-1ebd-4955-96c3-bfa9e0d77609" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_1" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>
@@ -2678,7 +2678,7 @@ data-errors='{
 </div><div class="AdModule" >
     
     <ps-google-dfp-ad data-hide-on-mobile='true'>
-    <div id="googleAde665217f-c34c-4a4c-b6ec-17009204976d" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_2" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAd2e961cf5-7e87-4594-8755-eef6119ef71d" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_2" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>
@@ -2899,7 +2899,7 @@ data-errors='{
 <div class="AdModule" >
     
     <ps-google-dfp-ad data-hide-on-mobile='true'>
-    <div id="googleAd761d41f8-bd6c-4572-80cc-c3ad530b2a46" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_3" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAd8c097281-51df-421e-b462-2ad1aa5f638a" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_3" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>
@@ -2992,6 +2992,134 @@ data-errors='{
 
     
         <ul class="ListH-items">
+            
+            <li class="ListH-items-item">
+                
+                  <ps-promo class="PromoA" data-content-type="news-story" data-image-align="top">
+    
+        <div class="PromoA-media">
+            
+                
+                    <a href="https://www.kpbs.org/news/local/2022/09/28/jewish-students-fight-hate-in-the-high-holy-days-with-education" class="Link" aria-label="Jewish students fight hate in the High Holy Days with education">
+    
+        <picture data-imagesize="promoSmall" data-imagesizeformobile="promoSmallMobile">
+            
+                
+            
+
+            
+                
+                    <source type="image/webp" width="280" height="156"
+        data-srcset="https://cdn.kpbs.org/dims4/default/4b92ad7/2147483647/strip/true/crop/4032x2246+0+389/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fbd%2F0c%2F5052f5df4fe2b2e386f08ed3a57b%2Fimg-8333.jpg 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
+
+
+
+                
+
+                <img class="Image" alt="IMG_8333.jpg" width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/90363dc/2147483647/strip/true/crop/4032x2246+0+389/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fbd%2F0c%2F5052f5df4fe2b2e386f08ed3a57b%2Fimg-8333.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/2e1caaa/2147483647/strip/true/crop/4032x2246+0+389/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fbd%2F0c%2F5052f5df4fe2b2e386f08ed3a57b%2Fimg-8333.jpg"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
+            
+        </picture>
+    
+</a>
+                
+            
+        </div>
+    
+
+    <div class="PromoA-content">
+        
+    <div class="PromoA-category">
+        <a href="https://www.kpbs.org/news/local" class="Link">Local</a>
+    </div>
+
+        
+    <div class="PromoA-title">
+        <a href="https://www.kpbs.org/news/local/2022/09/28/jewish-students-fight-hate-in-the-high-holy-days-with-education" class="Link">Jewish students fight hate in the High Holy Days with education</a>
+    </div>
+
+        
+    <div class="PromoA-byline">
+        
+        
+            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1664414289873"
+            data-date="September 28, 2022 at 6:18 PM PDT" data-promo-date="September 28, 2022"></div></div>
+        
+    </div>
+
+        
+        
+    </div>
+</ps-promo>
+                
+            </li>
+            
+            <li class="ListH-items-item">
+                
+                  <ps-promo class="PromoA" data-content-type="news-story" data-image-align="top">
+    
+        <div class="PromoA-media">
+            
+                
+                    <a href="https://www.kpbs.org/news/local/2022/09/28/qualcomm-engineers-hoover-high-show-kids-they-can-succeed-in-stem-careers" class="Link" aria-label="Qualcomm engineers visit Hoover High to show kids they can also succeed in STEM careers">
+    
+        <picture data-imagesize="promoSmall" data-imagesizeformobile="promoSmallMobile">
+            
+                
+            
+
+            
+                
+                    <source type="image/webp" width="280" height="156"
+        data-srcset="https://cdn.kpbs.org/dims4/default/bc75a52/2147483647/strip/true/crop/1920x1070+0+5/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fb0%2Fa5%2F7e1e48dd42aca1606ebc5536a8d4%2Fcamille.jpg 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
+
+
+
+                
+
+                <img class="Image" alt="Camille.jpg" width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/e68e9b0/2147483647/strip/true/crop/1920x1070+0+5/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fb0%2Fa5%2F7e1e48dd42aca1606ebc5536a8d4%2Fcamille.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/1a7f7de/2147483647/strip/true/crop/1920x1070+0+5/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fb0%2Fa5%2F7e1e48dd42aca1606ebc5536a8d4%2Fcamille.jpg"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
+            
+        </picture>
+    
+</a>
+                
+            
+        </div>
+    
+
+    <div class="PromoA-content">
+        
+    <div class="PromoA-category">
+        <a href="https://www.kpbs.org/news/local" class="Link">Local</a>
+    </div>
+
+        
+    <div class="PromoA-title">
+        <a href="https://www.kpbs.org/news/local/2022/09/28/qualcomm-engineers-hoover-high-show-kids-they-can-succeed-in-stem-careers" class="Link">Qualcomm engineers visit Hoover High to show kids they can also succeed in STEM careers</a>
+    </div>
+
+        
+    <div class="PromoA-byline">
+        
+        
+            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1664413732848"
+            data-date="September 28, 2022 at 6:08 PM PDT" data-promo-date="September 28, 2022"></div></div>
+        
+    </div>
+
+        
+        
+    </div>
+</ps-promo>
+                
+            </li>
             
             <li class="ListH-items-item">
                 
@@ -3121,134 +3249,6 @@ data-errors='{
                 
             </li>
             
-            <li class="ListH-items-item">
-                
-                  <ps-promo class="PromoA" data-content-type="news-story" data-image-align="top">
-    
-        <div class="PromoA-media">
-            
-                
-                    <a href="https://www.kpbs.org/news/public-safety/2022/09/28/at-least-6-injured-in-shooting-at-school-in-east-oakland" class="Link" aria-label="At least 6 injured in shooting at school in east Oakland">
-    
-        <picture data-imagesize="promoSmall" data-imagesizeformobile="promoSmallMobile">
-            
-                
-            
-
-            
-                
-                    <source type="image/webp" width="280" height="156"
-        data-srcset="https://cdn.kpbs.org/dims4/default/7341685/2147483647/strip/true/crop/640x357+0+2/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F5a%2F50%2F71da7f2f4291a9f07b30303d2860%2Fshooting-outside-oakland-school-4.jpg 2x"
-        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
-
-
-
-                
-
-                <img class="Image" alt="shooting-outside-oakland-school-4.jpg" width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/848692d/2147483647/strip/true/crop/640x357+0+2/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F5a%2F50%2F71da7f2f4291a9f07b30303d2860%2Fshooting-outside-oakland-school-4.jpg 2x"
-        data-src="https://cdn.kpbs.org/dims4/default/9688875/2147483647/strip/true/crop/640x357+0+2/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F5a%2F50%2F71da7f2f4291a9f07b30303d2860%2Fshooting-outside-oakland-school-4.jpg"
-        loading="lazy"
-        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
-            
-        </picture>
-    
-</a>
-                
-            
-        </div>
-    
-
-    <div class="PromoA-content">
-        
-    <div class="PromoA-category">
-        <a href="https://www.kpbs.org/news/public-safety" class="Link">Public Safety</a>
-    </div>
-
-        
-    <div class="PromoA-title">
-        <a href="https://www.kpbs.org/news/public-safety/2022/09/28/at-least-6-injured-in-shooting-at-school-in-east-oakland" class="Link">At least 6 injured in shooting at school in east Oakland</a>
-    </div>
-
-        
-    <div class="PromoA-byline">
-        
-        
-            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1664406019835"
-            data-date="September 28, 2022 at 4:00 PM PDT" data-promo-date="September 28, 2022"></div></div>
-        
-    </div>
-
-        
-        
-    </div>
-</ps-promo>
-                
-            </li>
-            
-            <li class="ListH-items-item">
-                
-                  <ps-promo class="PromoA" data-content-type="news-story" data-image-align="top">
-    
-        <div class="PromoA-media">
-            
-                
-                    <a href="https://www.kpbs.org/news/local/2022/09/28/new-california-law-opens-aftercare-programs-to-more-transitional-kindergarteners" class="Link" aria-label="New California law opens aftercare programs to more transitional kindergartners">
-    
-        <picture data-imagesize="promoSmall" data-imagesizeformobile="promoSmallMobile">
-            
-                
-            
-
-            
-                
-                    <source type="image/webp" width="280" height="156"
-        data-srcset="https://cdn.kpbs.org/dims4/default/7f0accf/2147483647/strip/true/crop/1900x1059+0+207/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fd8%2Fef%2Fdecb45f04a05b3aa1fab8d343433%2Fsay-steam.jpeg 2x"
-        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
-
-
-
-                
-
-                <img class="Image" alt="Kids work with a teacher at a SAY San Diego after school program in this undated photo." width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/6d46c0e/2147483647/strip/true/crop/1900x1059+0+207/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fd8%2Fef%2Fdecb45f04a05b3aa1fab8d343433%2Fsay-steam.jpeg 2x"
-        data-src="https://cdn.kpbs.org/dims4/default/e6c5a0c/2147483647/strip/true/crop/1900x1059+0+207/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fd8%2Fef%2Fdecb45f04a05b3aa1fab8d343433%2Fsay-steam.jpeg"
-        loading="lazy"
-        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
-            
-        </picture>
-    
-</a>
-                
-            
-        </div>
-    
-
-    <div class="PromoA-content">
-        
-    <div class="PromoA-category">
-        <a href="https://www.kpbs.org/news/education" class="Link">Education</a>
-    </div>
-
-        
-    <div class="PromoA-title">
-        <a href="https://www.kpbs.org/news/local/2022/09/28/new-california-law-opens-aftercare-programs-to-more-transitional-kindergarteners" class="Link">New California law opens aftercare programs to more transitional kindergartners</a>
-    </div>
-
-        
-    <div class="PromoA-byline">
-        
-        
-            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1664399086756"
-            data-date="September 28, 2022 at 2:04 PM PDT" data-promo-date="September 28, 2022"></div></div>
-        
-    </div>
-
-        
-        
-    </div>
-</ps-promo>
-                
-            </li>
-            
         </ul>
     
 </div>
@@ -3321,7 +3321,7 @@ data-errors='{
     <div class="AdModule" >
     
     <ps-google-dfp-ad>
-    <div id="googleAd5c82a216-865b-4823-9976-9f355091908c" class="GoogleDfpAd " data-slot-name="1010421/KPBS_micro_billboard_1" data-slot-sizes="[[240, 60]]" data-slot-adSizeMap="[[[240, 1], [240, 60]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAd14a21150-518d-446f-9e7f-4cca0300fc32" class="GoogleDfpAd " data-slot-name="1010421/KPBS_micro_billboard_1" data-slot-sizes="[[240, 60]]" data-slot-adSizeMap="[[[240, 1], [240, 60]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>

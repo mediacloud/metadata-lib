@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app225.us.archive.org';v.server_ms=259;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app220.us.archive.org';v.server_ms=224;archive_analytics.send_pageview({});});</script>
 <script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
 <script type="text/javascript">
@@ -379,7 +379,7 @@ function oc2_campo(id, value) {
 </html>
 <!--
      FILE ARCHIVED ON 23:13:31 Jul 24, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 00:35:06 Sep 29, 2022.
+     INTERNET ARCHIVE ON 04:13:37 Sep 29, 2022.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -387,14 +387,14 @@ function oc2_campo(id, value) {
 -->
 <!--
 playback timings (ms):
-  captures_list: 169.592
-  exclusion.robots: 0.077
-  exclusion.robots.policy: 0.071
-  RedisCDXSource: 0.865
-  esindex: 0.007
-  LoadShardBlock: 152.239 (3)
-  PetaboxLoader3.datanode: 122.443 (4)
-  CDXLines.iter: 13.564 (3)
-  load_resource: 83.625
-  PetaboxLoader3.resolve: 34.469
+  captures_list: 131.34
+  exclusion.robots: 0.168
+  exclusion.robots.policy: 0.157
+  RedisCDXSource: 1.96
+  esindex: 0.012
+  LoadShardBlock: 109.428 (3)
+  PetaboxLoader3.datanode: 130.591 (4)
+  CDXLines.iter: 15.71 (3)
+  load_resource: 83.518
+  PetaboxLoader3.resolve: 45.305
 -->

@@ -40,7 +40,7 @@
     <link href="//archive.org/includes/build/css/archive.min.css?v=6a96f1bf" rel="stylesheet" type="text/css"/>
     <meta property="mediatype" content="">
     <meta property="primary_collection" content="">
-    <script type="text/javascript">if('archive_analytics' in window){var v=archive_analytics.values;v.path='';v.service='wb';v.server_name='wwwb-app202.us.archive.org';v.server_ms=42;archive_analytics.send_pageview_on_load()}</script>
+    <script type="text/javascript">if('archive_analytics' in window){var v=archive_analytics.values;v.path='';v.service='wb';v.server_name='wwwb-app215.us.archive.org';v.server_ms=64;archive_analytics.send_pageview_on_load()}</script>
     <link href="/_static/images/archive.ico" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">

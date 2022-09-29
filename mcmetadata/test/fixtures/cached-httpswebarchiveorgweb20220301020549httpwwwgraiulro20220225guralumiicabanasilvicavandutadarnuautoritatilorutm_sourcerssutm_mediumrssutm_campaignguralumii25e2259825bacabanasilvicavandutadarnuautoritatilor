@@ -3,7 +3,7 @@
 <!--[if IE 9]>    <html class="ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="ro-RO"> <!--<![endif]-->
 <head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app222.us.archive.org';v.server_ms=365;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app211.us.archive.org';v.server_ms=356;archive_analytics.send_pageview({});});</script>
 <script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
 <script type="text/javascript">
@@ -3038,7 +3038,7 @@ var pp_ajax_form = {"ajaxurl":"https:\/\/web.archive.org\/web\/20220301020549\/h
 </body>
 </html><!--
      FILE ARCHIVED ON 02:05:49 Mar 01, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 00:33:17 Sep 29, 2022.
+     INTERNET ARCHIVE ON 04:23:24 Sep 29, 2022.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -3046,14 +3046,14 @@ var pp_ajax_form = {"ajaxurl":"https:\/\/web.archive.org\/web\/20220301020549\/h
 -->
 <!--
 playback timings (ms):
-  captures_list: 232.054
-  exclusion.robots: 0.117
-  exclusion.robots.policy: 0.109
-  RedisCDXSource: 0.636
-  esindex: 0.007
-  LoadShardBlock: 212.647 (3)
-  PetaboxLoader3.datanode: 55.035 (4)
-  CDXLines.iter: 15.811 (3)
-  PetaboxLoader3.resolve: 174.339 (2)
-  load_resource: 123.46
+  captures_list: 185.803
+  exclusion.robots: 0.1
+  exclusion.robots.policy: 0.092
+  cdx.remote: 0.06
+  esindex: 0.008
+  LoadShardBlock: 126.042 (3)
+  PetaboxLoader3.resolve: 137.708 (2)
+  PetaboxLoader3.datanode: 37.751 (4)
+  CDXLines.iter: 16.566 (3)
+  load_resource: 163.246
 -->

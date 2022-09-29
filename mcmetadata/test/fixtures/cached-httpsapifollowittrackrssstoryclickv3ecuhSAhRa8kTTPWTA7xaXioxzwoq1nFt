@@ -415,15 +415,15 @@ height: 160px;
                                         <div class="header-right">
                                   		<script type="text/javascript">
 		jQuery(document).ready(function($) {
-			$('.e3lanat-rotator-id-432 .mom-e3lanat-inner').imagesLoaded( function() {
-			jQuery('.e3lanat-rotator-id-432 .mom-e3lanat-inner').boxSlider({
+			$('.e3lanat-rotator-id-717 .mom-e3lanat-inner').imagesLoaded( function() {
+			jQuery('.e3lanat-rotator-id-717 .mom-e3lanat-inner').boxSlider({
 				autoScroll: true,
 				timeout: 5000,
 				speed: 800,
 				effect: 'fade',
 				pauseOnHover: true,
-				next:'.e3lanat-rotator-id-432 .adr-next',
-				prev: '.e3lanat-rotator-id-432 .adr-prev'
+				next:'.e3lanat-rotator-id-717 .adr-next',
+				prev: '.e3lanat-rotator-id-717 .adr-prev'
 				
 			});
 
@@ -432,7 +432,7 @@ height: 160px;
 		});
 	</script>
 		<div class="mom-e3lanat-wrap  ">
-	<div class="mom-e3lanat e3lanat-layout-rotator e3lanat-rotator-id-432" style="width:500px; height:95px;">
+	<div class="mom-e3lanat e3lanat-layout-rotator e3lanat-rotator-id-717" style="width:500px; height:95px;">
 		<div class="mom-e3lanat-inner">
 		
 				<div class="mom-e3lan" data-id="97097" style=" ">
@@ -557,6 +557,7 @@ height: 160px;
     <div class="bn-title"><span>LATEST NEWS</span></div>
     <div class="news-ticker " data-timeout="5000">
         <ul>
+            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2022/09/28/birmingham-correctional-officer-arrested-for-apparent-assault-on-inmate/">Birmingham correctional officer arrested for apparent assault on inmate</a></li>
             <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2022/09/28/letter-sent-informing-parents-of-measures-supporting-hths-students/">Letter sent informing parents of measures supporting HTHS students</a></li>
             <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2022/09/28/finance-dont-ride-the-rollercoaster/">FINANCE: Don’t Ride The Rollercoaster</a></li>
             <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2022/09/28/convicted-felon-sentenced-to-20-years-in-prison-for-illegal-firearms-possession-1/">Convicted felon sentenced to 20 years in prison for illegal firearms possession</a></li>
@@ -566,7 +567,6 @@ height: 160px;
             <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2022/09/28/sister-hazel-to-play-ferus-artisan-ales-1/">Sister Hazel to play at Trussville&#8217;s Entertainment District</a></li>
             <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2022/09/28/eight-arrested-for-shoplifting-in-trussville/">Eight arrested for shoplifting in Trussville</a></li>
             <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2022/09/28/trussville-declares-october-2022-down-syndrome-awareness-month/">Trussville declares October 2022 Down Syndrome Awareness Month</a></li>
-            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2022/09/28/hewitt-trussville-grad-brent-key-takes-helm-of-the-ramblin-wreck/">Hewitt-Trussville grad Brent Key takes helm of the Ramblin’ Wreck</a></li>
         </ul>
     </div> <!--news ticker-->
     </div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app223.us.archive.org';v.server_ms=224;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app215.us.archive.org';v.server_ms=213;archive_analytics.send_pageview({});});</script>
 <script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
 <script type="text/javascript">
@@ -687,7 +687,7 @@ function hidetoggle(id) {
 </html>
 <!--
      FILE ARCHIVED ON 18:53:55 Sep 05, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 00:41:08 Sep 29, 2022.
+     INTERNET ARCHIVE ON 04:15:03 Sep 29, 2022.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -695,14 +695,14 @@ function hidetoggle(id) {
 -->
 <!--
 playback timings (ms):
-  captures_list: 129.278
-  exclusion.robots: 0.086
-  exclusion.robots.policy: 0.079
-  RedisCDXSource: 15.991
-  esindex: 0.007
-  LoadShardBlock: 97.129 (3)
-  PetaboxLoader3.datanode: 97.983 (4)
-  CDXLines.iter: 12.944 (3)
-  load_resource: 82.385
-  PetaboxLoader3.resolve: 39.554
+  captures_list: 136.042
+  exclusion.robots: 0.098
+  exclusion.robots.policy: 0.089
+  cdx.remote: 0.069
+  esindex: 0.009
+  LoadShardBlock: 64.947 (3)
+  PetaboxLoader3.datanode: 69.655 (4)
+  CDXLines.iter: 14.098 (3)
+  load_resource: 62.699
+  PetaboxLoader3.resolve: 23.232
 -->

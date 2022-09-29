@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
   <head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app220.us.archive.org';v.server_ms=427;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app223.us.archive.org';v.server_ms=363;archive_analytics.send_pageview({});});</script>
 <script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
 <script type="text/javascript">
@@ -1601,7 +1601,7 @@
 </html>
 <!--
      FILE ARCHIVED ON 14:32:42 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 00:31:40 Sep 29, 2022.
+     INTERNET ARCHIVE ON 04:23:48 Sep 29, 2022.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -1609,14 +1609,14 @@
 -->
 <!--
 playback timings (ms):
-  captures_list: 318.001
-  exclusion.robots: 0.08
-  exclusion.robots.policy: 0.072
-  RedisCDXSource: 230.637
-  esindex: 0.023
-  LoadShardBlock: 61.622 (3)
-  PetaboxLoader3.datanode: 64.694 (4)
-  CDXLines.iter: 21.109 (3)
-  load_resource: 96.601
-  PetaboxLoader3.resolve: 34.842
+  captures_list: 224.377
+  exclusion.robots: 0.118
+  exclusion.robots.policy: 0.108
+  RedisCDXSource: 1.309
+  esindex: 0.009
+  LoadShardBlock: 196.057 (3)
+  PetaboxLoader3.datanode: 218.082 (4)
+  CDXLines.iter: 22.745 (3)
+  load_resource: 122.584
+  PetaboxLoader3.resolve: 59.862
 -->
