@@ -255,7 +255,7 @@ class LxmlExtractor(AbstractExtractor):
             'authors': None,
             'extraction_method': METHOD_LXML,
         }
-        print(self.content)
+        
         
 
 
