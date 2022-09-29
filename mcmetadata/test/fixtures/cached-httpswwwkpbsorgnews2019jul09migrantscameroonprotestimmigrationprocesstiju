@@ -1,0 +1,3460 @@
+<!DOCTYPE html>
+<html class="ArticlePage aside" lang="en">
+    <head>
+    <meta charset="UTF-8">
+
+    
+
+    <style data-cssvarsponyfill="true">
+        :root {
+    --primaryColor1: #262d26;
+    --primaryColor2: #006cb4;
+
+    --primaryTextColor: #262d26;
+    --secondaryTextColor: #666666;
+
+    --secondaryColor1: #525760;
+    --secondaryColor2: #cccccc;
+    --secondaryColor3: #e6e6e6;
+    --secondaryColor4: #f5f5f5;
+    --secondaryColor5: #ffffff;
+
+    --siteBgColor: #ffffff;
+    --siteInverseBgColor: #000000;
+
+    --linkColor: #006cb4;
+    --linkHoverColor: #005690;
+
+    --headerBgColor: #ffffff;
+    --headerBgColorInverse: #000000;
+    --headerNavBarBgColor: #ffffff;
+    --headerBorderColor: #e6e6e6;
+    --headerBorderColorInverse: #858585;
+    --headerTextColor: #262d26;
+    --headerTextColorInverse: #ffffff;
+    --headerMenuBgColor: #ffffff;
+    --headerMenuTextColor: #333333;
+    --headerMenuTextColorHover: #68ac4d;
+    --donateBGColor: #006cb4;
+    --headerIconColor: #ffffff;
+
+    --footerTextColor: #ffffff;
+    --footerPartnersBgColor: #000000;
+
+    --primaryTextColorInverse: #ffffff;
+    --secondaryTextColorInverse: #cccccc;
+    --tertiaryTextColor: #1c1c1c;
+    --tertiaryTextColorInverse: #cccccc;
+
+    --listBorderColor: #030202;
+    --gridBorderColor: #e6e6e6;
+
+    --buttonTextColor: #ffffff;
+    --inverseButtonBgColor: #030202;
+    --tagButtonBorderColor: #1a7fc3;
+    --tagButtonTextColor: #1a7fc3;
+    --breakingButtonColor: #ff6f00;
+    --breakingButtonTextColor: #ffffff;
+
+    --bannerBgColorPromo: #006CB4;
+    --bannerTextColorPromo: #FFFFFF;
+    --bannerBgColorSpecial: #525760;
+    --bannerTextColorSpecial: #FFFFFF;
+    --bannerBgColorNotice: #F1B434;
+    --bannerTextColorNotice: ##262D26;
+    --bannerBgColorAlert: #E58426;
+    --bannerTextColorAlert: #262D26;
+    --bannerBgColorBreaking: #CC0000;
+    --bannerTextColorBreaking: #FFFFFF;
+
+    --alertColor: #f4c35d;
+    --alertTextColor: #262d26;
+
+    --sectionTextColor: #ffffff;
+
+    --liveBlogTextColor: #282829;
+
+    --successMessage: #3d9e3e;
+    --errorMessage: #cc0000;
+
+    --primaryHeadlineFont: sans-serif;
+    --secondaryHeadlineFont: sans-serif;
+    --bodyFont: sans-serif;
+
+    --borderColor: #aab7b8;
+}
+
+.fonts-loaded {
+    --primaryHeadlineFont: "Roboto Condensed";
+    --secondaryHeadlineFont: "Roboto";
+    --bodyFont: "Roboto";
+    --liveBlogBodyFont: "Roboto";
+}
+
+    </style>
+
+    
+    <meta property="og:title" content="Migrants From Cameroon Protest Immigration Process In Tijuana">
+
+    <meta property="og:url" content="https://www.kpbs.org/news/midday-edition/2019/07/09/migrants-cameroon-protest-immigration-process-tiju">
+
+    <meta property="og:image" content="https://cdn.kpbs.org/dims4/default/9c6192a/2147483647/strip/true/crop/1200x630+0+23/resize/1200x630!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fphotos%2F2019%2F09%2F13%2FIMG_3689.jpg">
+
+    
+    <meta property="og:image:url" content="https://cdn.kpbs.org/dims4/default/9c6192a/2147483647/strip/true/crop/1200x630+0+23/resize/1200x630!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fphotos%2F2019%2F09%2F13%2FIMG_3689.jpg">
+    
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/jpeg">
+    
+    <meta property="og:image:alt" content="Asylum-seekers from Cameroon and Eritrea protest Mexican immigration authorities in Tijuana, July 9, 2019. 
+
+
+">
+    
+
+
+    <meta property="og:description" content="Over a hundred asylum-seekers from Cameroon blocked the path of Mexican immigration vans Tuesday morning in Tijuana in protest of what they believe to be corruption by Mexican immigration officials.">
+
+    <meta property="og:site_name" content="KPBS Public Media">
+
+
+
+    <meta property="og:type" content="article">
+
+    <meta property="article:author" content="https://www.kpbs.org/staff/max-rivlin-nadler">
+
+    <meta property="article:published_time" content="2019-07-09T17:34:39">
+
+    <meta property="article:modified_time" content="2019-07-09T17:34:39">
+
+    <meta property="article:section" content="KPBS Midday Edition">
+
+    <meta property="article:tag" content="Immigration">
+
+    <meta property="article:tag" content="Tijuana">
+
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    
+    
+    
+    
+    <meta name="twitter:description" content="Over a hundred asylum-seekers from Cameroon blocked the path of Mexican immigration vans Tuesday morning in Tijuana in protest of what they believe to be corruption by Mexican immigration officials."/>
+    
+    
+    <meta name="twitter:image" content="https://cdn.kpbs.org/dims4/default/ed59a9e/2147483647/strip/true/crop/1200x675+0+1/resize/1200x675!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fphotos%2F2019%2F09%2F13%2FIMG_3689.jpg"/>
+
+
+    
+    <meta name="twitter:image:alt" content="Asylum-seekers from Cameroon and Eritrea protest Mexican immigration authorities in Tijuana, July 9, 2019. 
+
+
+"/>
+    
+    
+    <meta name="twitter:site" content="@kpbs"/>
+    
+    
+    
+    <meta name="twitter:title" content="Migrants From Cameroon Protest Immigration Process In Tijuana"/>
+    
+
+
+    <meta name="robots" content="max-image-preview:large">
+
+
+
+
+    <link data-cssvarsponyfill="true" class="Webpack-css" rel="stylesheet" href="https://cdn.kpbs.org/resource/00000179-89f0-db5d-a5ff-99fbab730000/styleguide/All.min.5e67e36efd1f0cb579cbe0b6abe454d5.gz.css">
+
+    <link rel="stylesheet" href="https://www.kpbs.org/static/css/lytics.css?v2022092703">
+
+
+    <style>.HomePage-main > .PromoD {
+  margin-bottom: 45px;
+}
+
+.GoogleDfpAd[data-slot-name='1010421/KPBS_mobile_1'] {
+  min-height: 50px;
+}
+
+.GoogleDfpAd[data-slot-name='1010421/KPBS_leaderboard_1'] {
+  min-height: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .GoogleDfpAd[data-slot-name='1010421/KPBS_leaderboard_1'] {
+    min-height: 90px;
+  }
+}
+
+.GoogleDfpAd[data-slot-name='1010421/KPBS_medium_1'],
+.GoogleDfpAd[data-slot-name='1010421/KPBS_medium_2'] {
+  min-height: 250px;
+}
+
+.GoogleDfpAd[data-slot-name='1010421/KPBS_ad_injection'] {
+  min-height: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .GoogleDfpAd[data-slot-name='1010421/KPBS_ad_injection'] {
+    min-height: 90px;
+  }
+}
+
+.Page-footer-disclaimer .GoogleDfpAd {
+  text-align: left;
+}
+
+/* pledge */
+#pledge-container {
+  padding-bottom: 0;
+}
+
+#pledge-container > * {
+  margin-bottom: 0;
+}
+
+#pledge-container div[class$='-column'] > * {
+  margin-bottom: 40px;
+}
+/* end pledge */
+
+/* npr imported iframe video fix */
+.Enhancement[data-align-center] .JWPlayerIframe {
+  text-align: start;
+}
+/* end npr imported iframe video fix */
+
+/* highlight elections in site navigation */
+.Page-header a.NavigationItem-text-link[href$=elections] {
+  color: #8d4efc;
+}
+.Page-header a.NavigationItem-text-link[href$=elections]:hover {
+  color: #6d1cfb;
+}
+.Page-header a.NavigationItem-text-link[href$=elecciones] {
+  color: #b63cca;
+}
+.Page-header a.NavigationItem-text-link[href$=elecciones]:hover {
+  color: #952da6;
+}
+/* end highlight elections in site navigation */
+
+/* begin Link List padding fix */
+.ListLinks .ListLinks-items {
+  padding-left: 0;
+}
+/* end Link List padding fix */
+
+/* begin PromoD align-left fix */
+[data-image-align=left] .PromoD-title {
+  padding-top: 0;
+}
+@media only screen and (min-width: 768px) {
+  [data-image-align=left] .PromoD-media {
+    margin: 20px 0 20px 20px;
+    display: flex;
+    align-items: center;
+  }
+}
+/* end PromoD align-left fix */</style>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Migrants From Cameroon Protest Immigration Process In Tijuana | KPBS Public Media</title><meta name="description" content="Over a hundred asylum-seekers from Cameroon blocked the path of Mexican immigration vans Tuesday morning in Tijuana in protest of what they believe to be corruption by Mexican immigration officials."><link rel="canonical" href="https://www.kpbs.org/news/midday-edition/2019/07/09/migrants-cameroon-protest-immigration-process-tiju"><meta name="brightspot.contentId" content="0000017a-63cf-d7a8-adfb-ebffed490089"><link rel="apple-touch-icon"sizes="180x180"href="/apple-touch-icon.png"><link rel="icon"type="image/png"href="/favicon-32x32.png"><link rel="icon"type="image/png"href="/favicon-16x16.png">
+    
+    <meta name="brightspot-dataLayer" content="{
+  &quot;audioDuration&quot; : 0,
+  &quot;author&quot; : &quot;Max  Rivlin-Nadler&quot;,
+  &quot;bspStoryId&quot; : &quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,
+  &quot;category&quot; : &quot;Border &amp; Immigration,KPBS Midday Edition&quot;,
+  &quot;inlineAudio&quot; : 1,
+  &quot;keywords&quot; : &quot;Immigration,Tijuana&quot;,
+  &quot;nprCmsSite&quot; : true,
+  &quot;nprStoryId&quot; : &quot;&quot;,
+  &quot;pageType&quot; : &quot;news-story&quot;,
+  &quot;program&quot; : &quot;&quot;,
+  &quot;publishedDate&quot; : &quot;2019-07-09T13:34:39Z&quot;,
+  &quot;siteName&quot; : &quot;KPBS Public Media&quot;,
+  &quot;station&quot; : &quot;KPBS&quot;,
+  &quot;stationOrgId&quot; : &quot;139&quot;,
+  &quot;storyOrgId&quot; : &quot;0&quot;,
+  &quot;storyTheme&quot; : &quot;news-story&quot;,
+  &quot;storyTitle&quot; : &quot;Migrants From Cameroon Protest Immigration Process In Tijuana&quot;,
+  &quot;timezone&quot; : &quot;America/Los_Angeles&quot;,
+  &quot;wordCount&quot; : 0
+}">
+    <script id="brightpot-dataLayer">
+        (function () {
+            var dataValue = document.head.querySelector('meta[name="brightspot-dataLayer"]').content;
+            if (dataValue) {
+                window.brightspotDataLayer = JSON.parse(dataValue);
+            }
+        })();
+    </script>
+
+    
+
+    
+
+    
+    <script src="https://cdn.kpbs.org/resource/00000179-89f0-db5d-a5ff-99fbab730000/styleguide/All.min.469277239b442c376ca82eeb6b57a1a0.gz.js" async></script>
+
+    <meta name="gtm-dataLayer" content="{
+  &quot;gtmAudioDuration&quot; : 0,
+  &quot;gtmAuthor&quot; : &quot;Max  Rivlin-Nadler&quot;,
+  &quot;gtmBspStoryId&quot; : &quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,
+  &quot;gtmCategory&quot; : &quot;Border &amp; Immigration,KPBS Midday Edition&quot;,
+  &quot;gtmInlineAudio&quot; : 1,
+  &quot;gtmKeywords&quot; : &quot;Immigration,Tijuana&quot;,
+  &quot;gtmNprCmsSite&quot; : true,
+  &quot;gtmNprStoryId&quot; : &quot;&quot;,
+  &quot;gtmPageType&quot; : &quot;news-story&quot;,
+  &quot;gtmProgram&quot; : &quot;&quot;,
+  &quot;gtmPublishedDate&quot; : &quot;2019-07-09T13:34:39Z&quot;,
+  &quot;gtmSiteName&quot; : &quot;KPBS Public Media&quot;,
+  &quot;gtmStation&quot; : &quot;KPBS&quot;,
+  &quot;gtmStationOrgId&quot; : &quot;139&quot;,
+  &quot;gtmStoryOrgId&quot; : &quot;0&quot;,
+  &quot;gtmStoryTheme&quot; : &quot;news-story&quot;,
+  &quot;gtmStoryTitle&quot; : &quot;Migrants From Cameroon Protest Immigration Process In Tijuana&quot;,
+  &quot;gtmTimezone&quot; : &quot;America/Los_Angeles&quot;,
+  &quot;gtmWordCount&quot; : 0
+}"><script>
+
+    (function () {
+        var dataValue = document.head.querySelector('meta[name="gtm-dataLayer"]').content;
+        if (dataValue) {
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push(JSON.parse(dataValue));
+        }
+    })();
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQNVLVW');</script><script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+
+<script type="text/javascript">
+    // Google tag setup
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+
+    googletag.cmd.push(function () {
+        // @see https://developers.google.com/publisher-tag/reference#googletag.PubAdsService_enableLazyLoad
+        googletag.pubads().enableLazyLoad({
+            fetchMarginPercent: 120, // fetch and render ads within this % of viewport
+            renderMarginPercent: 120,
+            mobileScaling: 1  // Same on mobile.
+        });
+
+        googletag.pubads().enableSingleRequest()
+        googletag.pubads().enableAsyncRendering()
+        googletag.pubads().collapseEmptyDivs()
+        googletag.pubads().disableInitialLoad()
+        googletag.enableServices()
+    })
+</script><script>(function() {
+  var _sf_async_config = window._sf_async_config = (window._sf_async_config || {});
+  _sf_async_config.uid = 66245;
+  _sf_async_config.domain = 'kpbs.org';
+  _sf_async_config.flickerControl = false;
+  _sf_async_config.useCanonical = true;
+  _sf_async_config.useCanonicalDomain = true;
+})();</script>
+<script src="https://static.chartbeat.com/js/chartbeat_mab.js" async></script>
+<script>;(function () {
+  function onScrollToChildPosMessage (message) {
+    const iframePos =
+      document.getElementById(this.id).getBoundingClientRect().top +
+      window.scrollY
+
+    const totalOffset = iframePos + parseInt(message)
+    window.scrollTo({ left: 0, top: totalOffset, behavior: 'smooth' })
+  }
+
+  document.addEventListener('pym:pym-initialized', () => {
+    pym.autoInitInstances.forEach(parent => {
+      parent._onScrollToChildPosMessage = onScrollToChildPosMessage.bind(parent)
+      parent.messageHandlers.scrollToChildPos = [parent._onScrollToChildPosMessage]
+    })
+  })
+})()</script>
+
+</head>
+
+
+    <body class="Page-body">
+    <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQNVLVW" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+        
+
+    <!-- Putting icons here, so we don't have to include in a bunch of -body hbs's -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" id="iconsMap1" class="iconsMap">
+    <symbol id="play-icon" viewBox="0 0 115 115">
+        <polygon points="0,0 115,57.5 0,115" fill="white" />
+    </symbol>
+    <symbol id="grid" viewBox="0 0 32 32">
+            <g>
+                <path d="M6.4,5.7 C6.4,6.166669 6.166669,6.4 5.7,6.4 L0.7,6.4 C0.233331,6.4 0,6.166669 0,5.7 L0,0.7 C0,0.233331 0.233331,0 0.7,0 L5.7,0 C6.166669,0 6.4,0.233331 6.4,0.7 L6.4,5.7 Z M19.2,5.7 C19.2,6.166669 18.966669,6.4 18.5,6.4 L13.5,6.4 C13.033331,6.4 12.8,6.166669 12.8,5.7 L12.8,0.7 C12.8,0.233331 13.033331,0 13.5,0 L18.5,0 C18.966669,0 19.2,0.233331 19.2,0.7 L19.2,5.7 Z M32,5.7 C32,6.166669 31.766669,6.4 31.3,6.4 L26.3,6.4 C25.833331,6.4 25.6,6.166669 25.6,5.7 L25.6,0.7 C25.6,0.233331 25.833331,0 26.3,0 L31.3,0 C31.766669,0 32,0.233331 32,0.7 L32,5.7 Z M6.4,18.5 C6.4,18.966669 6.166669,19.2 5.7,19.2 L0.7,19.2 C0.233331,19.2 0,18.966669 0,18.5 L0,13.5 C0,13.033331 0.233331,12.8 0.7,12.8 L5.7,12.8 C6.166669,12.8 6.4,13.033331 6.4,13.5 L6.4,18.5 Z M19.2,18.5 C19.2,18.966669 18.966669,19.2 18.5,19.2 L13.5,19.2 C13.033331,19.2 12.8,18.966669 12.8,18.5 L12.8,13.5 C12.8,13.033331 13.033331,12.8 13.5,12.8 L18.5,12.8 C18.966669,12.8 19.2,13.033331 19.2,13.5 L19.2,18.5 Z M32,18.5 C32,18.966669 31.766669,19.2 31.3,19.2 L26.3,19.2 C25.833331,19.2 25.6,18.966669 25.6,18.5 L25.6,13.5 C25.6,13.033331 25.833331,12.8 26.3,12.8 L31.3,12.8 C31.766669,12.8 32,13.033331 32,13.5 L32,18.5 Z M6.4,31.3 C6.4,31.766669 6.166669,32 5.7,32 L0.7,32 C0.233331,32 0,31.766669 0,31.3 L0,26.3 C0,25.833331 0.233331,25.6 0.7,25.6 L5.7,25.6 C6.166669,25.6 6.4,25.833331 6.4,26.3 L6.4,31.3 Z M19.2,31.3 C19.2,31.766669 18.966669,32 18.5,32 L13.5,32 C13.033331,32 12.8,31.766669 12.8,31.3 L12.8,26.3 C12.8,25.833331 13.033331,25.6 13.5,25.6 L18.5,25.6 C18.966669,25.6 19.2,25.833331 19.2,26.3 L19.2,31.3 Z M32,31.3 C32,31.766669 31.766669,32 31.3,32 L26.3,32 C25.833331,32 25.6,31.766669 25.6,31.3 L25.6,26.3 C25.6,25.833331 25.833331,25.6 26.3,25.6 L31.3,25.6 C31.766669,25.6 32,25.833331 32,26.3 L32,31.3 Z" id=""></path>
+            </g>
+    </symbol>
+    <symbol id="radio-stream" width="18" height="19" viewBox="0 0 18 19">
+        <g fill="currentColor" fill-rule="nonzero">
+            <path d="M.5 8c-.276 0-.5.253-.5.565v1.87c0 .312.224.565.5.565s.5-.253.5-.565v-1.87C1 8.253.776 8 .5 8zM2.5 8c-.276 0-.5.253-.5.565v1.87c0 .312.224.565.5.565s.5-.253.5-.565v-1.87C3 8.253 2.776 8 2.5 8zM3.5 7c-.276 0-.5.276-.5.617v3.766c0 .34.224.617.5.617s.5-.276.5-.617V7.617C4 7.277 3.776 7 3.5 7zM5.5 6c-.276 0-.5.275-.5.613v5.774c0 .338.224.613.5.613s.5-.275.5-.613V6.613C6 6.275 5.776 6 5.5 6zM6.5 4c-.276 0-.5.26-.5.58v8.84c0 .32.224.58.5.58s.5-.26.5-.58V4.58C7 4.26 6.776 4 6.5 4zM8.5 0c-.276 0-.5.273-.5.61v17.78c0 .337.224.61.5.61s.5-.273.5-.61V.61C9 .273 8.776 0 8.5 0zM9.5 2c-.276 0-.5.274-.5.612v14.776c0 .338.224.612.5.612s.5-.274.5-.612V2.612C10 2.274 9.776 2 9.5 2zM11.5 5c-.276 0-.5.276-.5.616v8.768c0 .34.224.616.5.616s.5-.276.5-.616V5.616c0-.34-.224-.616-.5-.616zM12.5 6c-.276 0-.5.262-.5.584v4.832c0 .322.224.584.5.584s.5-.262.5-.584V6.584c0-.322-.224-.584-.5-.584zM14.5 7c-.276 0-.5.29-.5.647v3.706c0 .357.224.647.5.647s.5-.29.5-.647V7.647C15 7.29 14.776 7 14.5 7zM15.5 8c-.276 0-.5.253-.5.565v1.87c0 .312.224.565.5.565s.5-.253.5-.565v-1.87c0-.312-.224-.565-.5-.565zM17.5 8c-.276 0-.5.253-.5.565v1.87c0 .312.224.565.5.565s.5-.253.5-.565v-1.87c0-.312-.224-.565-.5-.565z"/>
+        </g>
+    </symbol>
+    <symbol id="icon-magnify" viewBox="0 0 31 31">
+            <g>
+               <path fill-rule="evenodd" d="M22.604 18.89l-.323.566 8.719 8.8L28.255 31l-8.719-8.8-.565.404c-2.152 1.346-4.386 2.018-6.7 2.018-3.39 0-6.284-1.21-8.679-3.632C1.197 18.568 0 15.66 0 12.27c0-3.39 1.197-6.283 3.592-8.678C5.987 1.197 8.88 0 12.271 0c3.39 0 6.283 1.197 8.678 3.592 2.395 2.395 3.593 5.288 3.593 8.679 0 2.368-.646 4.574-1.938 6.62zM19.162 5.77C17.322 3.925 15.089 3 12.46 3c-2.628 0-4.862.924-6.702 2.77C3.92 7.619 3 9.862 3 12.5c0 2.639.92 4.882 2.76 6.73C7.598 21.075 9.832 22 12.46 22c2.629 0 4.862-.924 6.702-2.77C21.054 17.33 22 15.085 22 12.5c0-2.586-.946-4.83-2.838-6.73z"/>
+            </g>
+        </symbol>
+        <symbol id="burger-menu" viewBox="0 0 14 10">
+            <g>
+                <path fill-rule="evenodd" d="M0 5.5v-1h14v1H0zM0 1V0h14v1H0zm0 9V9h14v1H0z"></path>
+            </g>
+        </symbol>
+        <symbol id="close-x" viewBox="0 0 14 14">
+            <g>
+                <path fill-rule="nonzero" d="M6.336 7L0 .664.664 0 7 6.336 13.336 0 14 .664 7.664 7 14 13.336l-.664.664L7 7.664.664 14 0 13.336 6.336 7z"></path>
+            </g>
+        </symbol>
+        <symbol id="share-more-arrow" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;">
+            <g>
+                <g>
+                    <path d="M512,241.7L273.643,3.343v156.152c-71.41,3.744-138.015,33.337-188.958,84.28C30.075,298.384,0,370.991,0,448.222v60.436
+                        l29.069-52.985c45.354-82.671,132.173-134.027,226.573-134.027c5.986,0,12.004,0.212,18.001,0.632v157.779L512,241.7z
+                        M255.642,290.666c-84.543,0-163.661,36.792-217.939,98.885c26.634-114.177,129.256-199.483,251.429-199.483h15.489V78.131
+                        l163.568,163.568L304.621,405.267V294.531l-13.585-1.683C279.347,291.401,267.439,290.666,255.642,290.666z"></path>
+                </g>
+            </g>
+        </symbol>
+        <symbol id="icon-external-link" viewBox="0 0 24 24">
+            <path d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path>
+        </symbol>
+        <symbol id="chevron" viewBox="0 0 100 100">
+            <g>
+                <path d="M22.4566257,37.2056786 L-21.4456527,71.9511488 C-22.9248661,72.9681457 -24.9073712,72.5311671 -25.8758148,70.9765924 L-26.9788683,69.2027424 C-27.9450684,67.6481676 -27.5292733,65.5646602 -26.0500598,64.5484493 L20.154796,28.2208967 C21.5532435,27.2597011 23.3600078,27.2597011 24.759951,28.2208967 L71.0500598,64.4659264 C72.5292733,65.4829232 72.9450684,67.5672166 71.9788683,69.1217913 L70.8750669,70.8956413 C69.9073712,72.4502161 67.9241183,72.8848368 66.4449048,71.8694118 L22.4566257,37.2056786 Z" id="Transparent-Chevron" transform="translate(22.500000, 50.000000) rotate(90.000000) translate(-22.500000, -50.000000) "></path>
+            </g>
+        </symbol>
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" id="iconsMap2" class="iconsMap">
+    <symbol id="mono-icon-facebook" viewBox="0 0 10 19">
+        <path fill-rule="evenodd" d="M2.707 18.25V10.2H0V7h2.707V4.469c0-1.336.375-2.373 1.125-3.112C4.582.62 5.578.25 6.82.25c1.008 0 1.828.047 2.461.14v2.848H7.594c-.633 0-1.067.14-1.301.422-.188.235-.281.61-.281 1.125V7H9l-.422 3.2H6.012v8.05H2.707z"></path>
+    </symbol>
+    <symbol id="mono-icon-instagram" viewBox="0 0 17 17">
+        <g>
+            <path fill-rule="evenodd" d="M8.281 4.207c.727 0 1.4.182 2.022.545a4.055 4.055 0 0 1 1.476 1.477c.364.62.545 1.294.545 2.021 0 .727-.181 1.4-.545 2.021a4.055 4.055 0 0 1-1.476 1.477 3.934 3.934 0 0 1-2.022.545c-.726 0-1.4-.182-2.021-.545a4.055 4.055 0 0 1-1.477-1.477 3.934 3.934 0 0 1-.545-2.021c0-.727.182-1.4.545-2.021A4.055 4.055 0 0 1 6.26 4.752a3.934 3.934 0 0 1 2.021-.545zm0 6.68a2.54 2.54 0 0 0 1.864-.774 2.54 2.54 0 0 0 .773-1.863 2.54 2.54 0 0 0-.773-1.863 2.54 2.54 0 0 0-1.864-.774 2.54 2.54 0 0 0-1.863.774 2.54 2.54 0 0 0-.773 1.863c0 .727.257 1.348.773 1.863a2.54 2.54 0 0 0 1.863.774zM13.45 4.03c-.023.258-.123.48-.299.668a.856.856 0 0 1-.65.281.913.913 0 0 1-.668-.28.913.913 0 0 1-.281-.669c0-.258.094-.48.281-.668a.913.913 0 0 1 .668-.28c.258 0 .48.093.668.28.187.188.281.41.281.668zm2.672.95c.023.656.035 1.746.035 3.269 0 1.523-.017 2.62-.053 3.287-.035.668-.134 1.248-.298 1.74a4.098 4.098 0 0 1-.967 1.53 4.098 4.098 0 0 1-1.53.966c-.492.164-1.072.264-1.74.3-.668.034-1.763.052-3.287.052-1.523 0-2.619-.018-3.287-.053-.668-.035-1.248-.146-1.74-.334a3.747 3.747 0 0 1-1.53-.931 4.098 4.098 0 0 1-.966-1.53c-.164-.492-.264-1.072-.299-1.74C.424 10.87.406 9.773.406 8.25S.424 5.63.46 4.963c.035-.668.135-1.248.299-1.74.21-.586.533-1.096.967-1.53A4.098 4.098 0 0 1 3.254.727c.492-.164 1.072-.264 1.74-.3C5.662.394 6.758.376 8.281.376c1.524 0 2.62.018 3.287.053.668.035 1.248.135 1.74.299a4.098 4.098 0 0 1 2.496 2.496c.165.492.27 1.078.317 1.757zm-1.687 7.91c.14-.399.234-1.032.28-1.899.024-.515.036-1.242.036-2.18V7.689c0-.961-.012-1.688-.035-2.18-.047-.89-.14-1.524-.281-1.899a2.537 2.537 0 0 0-1.512-1.511c-.375-.14-1.008-.235-1.899-.282a51.292 51.292 0 0 0-2.18-.035H7.72c-.938 0-1.664.012-2.18.035-.867.047-1.5.141-1.898.282a2.537 2.537 0 0 0-1.512 1.511c-.14.375-.234 1.008-.281 1.899a51.292 51.292 0 0 0-.036 2.18v1.125c0 .937.012 1.664.036 2.18.047.866.14 1.5.28 1.898.306.726.81 1.23 1.513 1.511.398.141 1.03.235 1.898.282.516.023 1.242.035 2.18.035h1.125c.96 0 1.687-.012 2.18-.035.89-.047 1.523-.141 1.898-.282.726-.304 1.23-.808 1.512-1.511z"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-email" viewBox="0 0 512 512">
+        <g>
+            <path d="M67,148.7c11,5.8,163.8,89.1,169.5,92.1c5.7,3,11.5,4.4,20.5,4.4c9,0,14.8-1.4,20.5-4.4c5.7-3,158.5-86.3,169.5-92.1
+                c4.1-2.1,11-5.9,12.5-10.2c2.6-7.6-0.2-10.5-11.3-10.5H257H65.8c-11.1,0-13.9,3-11.3,10.5C56,142.9,62.9,146.6,67,148.7z"></path>
+            <path d="M455.7,153.2c-8.2,4.2-81.8,56.6-130.5,88.1l82.2,92.5c2,2,2.9,4.4,1.8,5.6c-1.2,1.1-3.8,0.5-5.9-1.4l-98.6-83.2
+                c-14.9,9.6-25.4,16.2-27.2,17.2c-7.7,3.9-13.1,4.4-20.5,4.4c-7.4,0-12.8-0.5-20.5-4.4c-1.9-1-12.3-7.6-27.2-17.2l-98.6,83.2
+                c-2,2-4.7,2.6-5.9,1.4c-1.2-1.1-0.3-3.6,1.7-5.6l82.1-92.5c-48.7-31.5-123.1-83.9-131.3-88.1c-8.8-4.5-9.3,0.8-9.3,4.9
+                c0,4.1,0,205,0,205c0,9.3,13.7,20.9,23.5,20.9H257h185.5c9.8,0,21.5-11.7,21.5-20.9c0,0,0-201,0-205
+                C464,153.9,464.6,148.7,455.7,153.2z"></path>
+        </g>
+    </symbol>
+    <symbol id="default-image" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image">
+        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+        <polyline points="21 15 16 10 5 21"></polyline>
+    </symbol>
+    <symbol id="icon-email" width="18px" viewBox="0 0 20 14">
+        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+            <g id="social-button-bar" transform="translate(-125.000000, -8.000000)" stroke="#000000">
+                <g id="Group-2" transform="translate(120.000000, 0.000000)">
+                    <g id="envelope" transform="translate(6.000000, 9.000000)">
+                        <path d="M17.5909091,10.6363636 C17.5909091,11.3138182 17.0410909,11.8636364 16.3636364,11.8636364 L1.63636364,11.8636364 C0.958909091,11.8636364 0.409090909,11.3138182 0.409090909,10.6363636 L0.409090909,1.63636364 C0.409090909,0.958090909 0.958909091,0.409090909 1.63636364,0.409090909 L16.3636364,0.409090909 C17.0410909,0.409090909 17.5909091,0.958090909 17.5909091,1.63636364 L17.5909091,10.6363636 L17.5909091,10.6363636 Z" id="Stroke-406"></path>
+                        <polyline id="Stroke-407" points="17.1818182 0.818181818 9 7.36363636 0.818181818 0.818181818"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-print" viewBox="0 0 12 12">
+        <g fill-rule="evenodd">
+            <path fill-rule="nonzero" d="M9 10V7H3v3H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v3.132A2.868 2.868 0 0 1 9.132 10H9zm.5-4.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM3 0h6v2H3z"></path>
+            <path d="M4 8h4v4H4z"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-copylink" viewBox="0 0 12 12">
+        <g fill-rule="evenodd">
+            <path d="M10.199 2.378c.222.205.4.548.465.897.062.332.016.614-.132.774L8.627 6.106c-.187.203-.512.232-.75-.014a.498.498 0 0 0-.706.028.499.499 0 0 0 .026.706 1.509 1.509 0 0 0 2.165-.04l1.903-2.06c.37-.398.506-.98.382-1.636-.105-.557-.392-1.097-.77-1.445L9.968.8C9.591.452 9.03.208 8.467.145 7.803.072 7.233.252 6.864.653L4.958 2.709a1.509 1.509 0 0 0 .126 2.161.5.5 0 1 0 .68-.734c-.264-.218-.26-.545-.071-.747L7.597 1.33c.147-.16.425-.228.76-.19.353.038.71.188.931.394l.91.843.001.001zM1.8 9.623c-.222-.205-.4-.549-.465-.897-.062-.332-.016-.614.132-.774l1.905-2.057c.187-.203.512-.232.75.014a.498.498 0 0 0 .706-.028.499.499 0 0 0-.026-.706 1.508 1.508 0 0 0-2.165.04L.734 7.275c-.37.399-.506.98-.382 1.637.105.557.392 1.097.77 1.445l.91.843c.376.35.937.594 1.5.656.664.073 1.234-.106 1.603-.507L7.04 9.291a1.508 1.508 0 0 0-.126-2.16.5.5 0 0 0-.68.734c.264.218.26.545.071.747l-1.904 2.057c-.147.16-.425.228-.76.191-.353-.038-.71-.188-.931-.394l-.91-.843z"></path>
+            <path d="M8.208 3.614a.5.5 0 0 0-.707.028L3.764 7.677a.5.5 0 0 0 .734.68L8.235 4.32a.5.5 0 0 0-.027-.707"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-linkedin" viewBox="0 0 16 17">
+        <g fill-rule="evenodd">
+            <path d="M3.734 16.125H.464V5.613h3.27zM2.117 4.172c-.515 0-.96-.188-1.336-.563A1.825 1.825 0 0 1 .22 2.273c0-.515.187-.96.562-1.335.375-.375.82-.563 1.336-.563.516 0 .961.188 1.336.563.375.375.563.82.563 1.335 0 .516-.188.961-.563 1.336-.375.375-.82.563-1.336.563zM15.969 16.125h-3.27v-5.133c0-.844-.07-1.453-.21-1.828-.259-.633-.762-.95-1.512-.95s-1.278.282-1.582.845c-.235.421-.352 1.043-.352 1.863v5.203H5.809V5.613h3.128v1.442h.036c.234-.469.609-.856 1.125-1.16.562-.375 1.218-.563 1.968-.563 1.524 0 2.59.48 3.2 1.441.468.774.703 1.97.703 3.586v5.766z"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-pinterest" viewBox="0 0 512 512">
+        <g>
+            <path d="M256,32C132.3,32,32,132.3,32,256c0,91.7,55.2,170.5,134.1,205.2c-0.6-15.6-0.1-34.4,3.9-51.4
+                c4.3-18.2,28.8-122.1,28.8-122.1s-7.2-14.3-7.2-35.4c0-33.2,19.2-58,43.2-58c20.4,0,30.2,15.3,30.2,33.6
+                c0,20.5-13.1,51.1-19.8,79.5c-5.6,23.8,11.9,43.1,35.4,43.1c42.4,0,71-54.5,71-119.1c0-49.1-33.1-85.8-93.2-85.8
+                c-67.9,0-110.3,50.7-110.3,107.3c0,19.5,5.8,33.3,14.8,43.9c4.1,4.9,4.7,6.9,3.2,12.5c-1.1,4.1-3.5,14-4.6,18
+                c-1.5,5.7-6.1,7.7-11.2,5.6c-31.3-12.8-45.9-47-45.9-85.6c0-63.6,53.7-139.9,160.1-139.9c85.5,0,141.8,61.9,141.8,128.3
+                c0,87.9-48.9,153.5-120.9,153.5c-24.2,0-46.9-13.1-54.7-27.9c0,0-13,51.6-15.8,61.6c-4.7,17.3-14,34.5-22.5,48
+                c20.1,5.9,41.4,9.2,63.5,9.2c123.7,0,224-100.3,224-224C480,132.3,379.7,32,256,32z"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-tumblr" viewBox="0 0 512 512">
+        <g>
+            <path d="M321.2,396.3c-11.8,0-22.4-2.8-31.5-8.3c-6.9-4.1-11.5-9.6-14-16.4c-2.6-6.9-3.6-22.3-3.6-46.4V224h96v-64h-96V48h-61.9
+                c-2.7,21.5-7.5,44.7-14.5,58.6c-7,13.9-14,25.8-25.6,35.7c-11.6,9.9-25.6,17.9-41.9,23.3V224h48v140.4c0,19,2,33.5,5.9,43.5
+                c4,10,11.1,19.5,21.4,28.4c10.3,8.9,22.8,15.7,37.3,20.5c14.6,4.8,31.4,7.2,50.4,7.2c16.7,0,30.3-1.7,44.7-5.1
+                c14.4-3.4,30.5-9.3,48.2-17.6v-65.6C363.2,389.4,342.3,396.3,321.2,396.3z"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-twitter" viewBox="0 0 19 16">
+        <g>
+            <path fill-rule="evenodd" d="M16.48 4.594c.024.094.036.246.036.457 0 1.687-.41 3.316-1.23 4.887-.845 1.664-2.028 2.988-3.552 3.972-1.664 1.102-3.574 1.652-5.73 1.652-2.063 0-3.95-.55-5.66-1.652.258.024.55.035.879.035 1.71 0 3.246-.527 4.605-1.582-.82 0-1.54-.24-2.162-.72a3.671 3.671 0 0 1-1.283-1.811c.234.023.457.035.668.035.328 0 .656-.035.984-.105a3.72 3.72 0 0 1-2.11-1.301 3.54 3.54 0 0 1-.843-2.32v-.07a3.475 3.475 0 0 0 1.652.492A4.095 4.095 0 0 1 1.54 5.227a3.546 3.546 0 0 1-.457-1.776c0-.644.176-1.26.527-1.845a10.18 10.18 0 0 0 3.358 2.742 10.219 10.219 0 0 0 4.236 1.125 5.124 5.124 0 0 1-.07-.844c0-.656.164-1.272.492-1.846a3.613 3.613 0 0 1 1.336-1.353 3.565 3.565 0 0 1 1.828-.492c.54 0 1.037.105 1.494.316.457.21.861.492 1.213.844a7.51 7.51 0 0 0 2.356-.88c-.282.868-.82 1.548-1.618 2.04a7.93 7.93 0 0 0 2.11-.598 8.114 8.114 0 0 1-1.864 1.934z"></path>
+
+        </g>
+    </symbol>
+    <symbol id="mono-icon-youtube" viewBox="0 0 512 512">
+        <g>
+            <path fill-rule="evenodd" d="M508.6,148.8c0-45-33.1-81.2-74-81.2C379.2,65,322.7,64,265,64c-3,0-6,0-9,0s-6,0-9,0c-57.6,0-114.2,1-169.6,3.6
+                c-40.8,0-73.9,36.4-73.9,81.4C1,184.6-0.1,220.2,0,255.8C-0.1,291.4,1,327,3.4,362.7c0,45,33.1,81.5,73.9,81.5
+                c58.2,2.7,117.9,3.9,178.6,3.8c60.8,0.2,120.3-1,178.6-3.8c40.9,0,74-36.5,74-81.5c2.4-35.7,3.5-71.3,3.4-107
+                C512.1,220.1,511,184.5,508.6,148.8z M207,353.9V157.4l145,98.2L207,353.9z"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-flipboard" viewBox="0 0 500 500">
+        <g>
+            <path d="M0,0V500H500V0ZM400,200H300V300H200V400H100V100H400Z"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-tiktok" viewBox="0 0 16 19">
+        <g>
+            <path d="m11.645129.17110208c.307864 2.64762712 1.78561 4.22612792 4.354871 4.39405352v2.9778808c-1.48894.1455356-2.793162-.3414487-4.31009-1.259442v5.5695326c0 7.075266-7.7133838 9.286286-10.81441009 4.214933-1.99271721-3.263354-.77245784-8.9896177 5.61991039-9.2191161v3.140209c-.4869842.0783651-1.0075536.2015101-1.4833429.3638391-1.4217701.481386-2.2278131 1.382587-2.0039123 2.972283.4310091 3.045051 6.0173345 3.946252 5.5527403-2.003912v-11.1446634h3.0842336z"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-whatsapp" viewBox="0 0 16 16">
+        <g>
+            <path fill-rule="evenodd" d="m6.4115202 4.3531689c.099023.1980475.5783438 1.1720704.6445233 1.3536768.066142.1814176.099023.313701-.099023.4456823-.198426.1319056-.6445618.5117484-.7768076.6273265-.1322836.1156536-.1489136.2309294-.0495118.4292034.099402.1980475.3084096.8364102.9832826 1.5931101.525317.5888886 1.1739978.9864952 1.3723476 1.1020355.1984254.1156535.3053861.011339.4042964-.08693.088819-.089197.2313073-.1980473.3469609-.297071.1156537-.099024.1984255-.1319057.330331-.1980475.1322836-.066142.2479372-.034016.346961.015118.099023.049512 1.0742934.4456822 1.4709924.6107344.386269.1606306.334112.3242846.340159.4457576.0076.115275.0076.247558.0076.379654 0 .131905-.04951.346582-.247936.528302-.198426.181419-.677633.693355-1.6526755.693355-.9751568 0-1.9171293-.709833-2.0493371-.808895-.132326-.099022-2.1332473-1.396913-2.9913519-3.384228-.2040947-.4726304-.3261736-.8416637-.417298-1.1293617-.1508032-.4745578-.1296379-.906407-.0786143-1.2477742.056693-.3805986.4792067-1.1720703.9419347-1.3371601.4628414-.1651654.8594652-.1651654.9420858-.1156536.0827715.0495119.1322836.1814174.2313073.3796916m-4.9354245 3.6146297v.00299c.0004534 1.1825006.3182365 2.3422863.9185393 3.3540683l.1428663.240757-.6542746 2.494074 2.43175-.665688.249449.156472c1.0491977.659641 2.2618224 1.008077 3.5069888 1.007509 3.6333017-.000986 6.5893087-2.957637 6.5893087-6.5925256-.000643-1.7601651-.686967-3.4146925-1.932587-4.6589142-1.245582-1.2441836-2.9012432-1.9289591-4.6620509-1.9282788-3.6336029.0010205-6.5898384 2.9576719-6.5898384 6.5898009m12.1983593-5.6084457c1.498621 1.4968833 2.324298 3.4875621 2.325167 5.6085213 0 4.3700441-3.556462 7.9267731-7.9278674 7.9285111-1.3974059.000567-2.7612873-.364347-3.9637072-1.058307l-4.1084254 1.124751 1.1024891-4.202951c-.63163517-1.158049-.96457403-2.4619117-.96498978-3.7888671v-.00299-.0000377c0-4.369587 3.55684078-7.92661675 7.92828368-7.92839313 2.118503-.0007937 4.110466.82310618 5.60905 2.31998933"/>
+        </g>
+    </symbol>
+ </svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" id="iconsMap3" class="iconsMap">
+    <symbol id="volume-mute" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;">
+        <polygon fill="currentColor" points="11,5 6,9 2,9 2,15 6,15 11,19 "/>
+        <line style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" x1="23" y1="9" x2="17" y2="15"/>
+        <line style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" x1="17" y1="9" x2="23" y2="15"/>
+    </symbol>
+    <symbol id="volume-low" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+        <polygon fill="currentColor" points="11,5 6,9 2,9 2,15 6,15 11,19 "/>
+    </symbol>
+    <symbol id="volume-mid" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;">
+        <polygon fill="currentColor" points="11,5 6,9 2,9 2,15 6,15 11,19 "/>
+        <path style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" d="M15.5,8.5c2,2,2,5.1,0,7.1"/>
+    </symbol>
+    <symbol id="volume-high" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;">
+        <polygon fill="currentColor" points="11,5 6,9 2,9 2,15 6,15 11,19 "/>
+        <path style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" d="M19.1,4.9c3.9,3.9,3.9,10.2,0,14.1 M15.5,8.5c2,2,2,5.1,0,7.1"/>
+    </symbol>
+    <symbol id="pause-icon" width="12" height="16" viewBox="0 0 12 16">
+        <rect x="0" y="0" width="4" height="16" fill="currentColor"></rect>
+        <rect x="8" y="0" width="4" height="16" fill="currentColor"></rect>
+    </symbol>
+    <symbol id="heart" viewBox="0 0 24 24">
+        <g>
+            <path d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z"/>
+        </g>
+    </symbol>
+    <symbol id="icon-location" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" fill="currentColor" fill-opacity="1"></path>
+        <circle cx="12" cy="10" r="5" fill="#ffffff"></circle>
+    </symbol>
+    <symbol id="icon-ticket" width="23px" height="15px" viewBox="0 0 23 15">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g transform="translate(-625.000000, -1024.000000)">
+                <g transform="translate(625.000000, 1024.000000)">
+                    <path d="M0,12.057377 L0,3.94262296 C0.322189879,4.12588308 0.696256938,4.23076923 1.0952381,4.23076923 C2.30500469,4.23076923 3.28571429,3.26645946 3.28571429,2.07692308 C3.28571429,1.68461385 3.17904435,1.31680209 2.99266757,1 L20.0073324,1 C19.8209556,1.31680209 19.7142857,1.68461385 19.7142857,2.07692308 C19.7142857,3.26645946 20.6949953,4.23076923 21.9047619,4.23076923 C22.3037431,4.23076923 22.6778101,4.12588308 23,3.94262296 L23,12.057377 C22.6778101,11.8741169 22.3037431,11.7692308 21.9047619,11.7692308 C20.6949953,11.7692308 19.7142857,12.7335405 19.7142857,13.9230769 C19.7142857,14.3153862 19.8209556,14.6831979 20.0073324,15 L2.99266757,15 C3.17904435,14.6831979 3.28571429,14.3153862 3.28571429,13.9230769 C3.28571429,12.7335405 2.30500469,11.7692308 1.0952381,11.7692308 C0.696256938,11.7692308 0.322189879,11.8741169 -2.13162821e-14,12.057377 Z" fill="currentColor"></path>
+                    <path d="M14.5,0.533333333 L14.5,15.4666667" stroke="#FFFFFF" stroke-linecap="square" stroke-dasharray="2"></path>
+                </g>
+            </g>
+        </g>
+    </symbol>
+    <symbol id="icon-ages" width="24" height="24" viewBox="0 0 18 22">
+        <g fill-opacity="3" fill="#333">
+            <path d="M9.002 1a5.293 5.293 0 0 0-3 .937 5.526 5.526 0 0 0-1.99 2.493 5.707 5.707 0 0 0-.307 3.211 5.608 5.608 0 0 0 1.478 2.845 5.355 5.355 0 0 0 2.765 1.521 5.258 5.258 0 0 0 3.12-.316 5.437 5.437 0 0 0 2.424-2.047c.593-.914.91-1.988.91-3.087a5.647 5.647 0 0 0-1.584-3.927A5.331 5.331 0 0 0 9.002 1zM15.72 15.51a7.687 7.687 0 0 0-2.523-1.774 7.504 7.504 0 0 0-2.994-.622h-2.39a7.502 7.502 0 0 0-3 .62 7.685 7.685 0 0 0-2.53 1.775 8.099 8.099 0 0 0-1.695 2.63A8.283 8.283 0 0 0 0 21.234c0 .164.063.321.176.437a.592.592 0 0 0 .425.181h16.802c.159 0 .312-.065.425-.181a.627.627 0 0 0 .175-.437 8.283 8.283 0 0 0-.587-3.097 8.099 8.099 0 0 0-1.696-2.629z"/>
+        </g>
+    </symbol>
+    <symbol id="icon-refresh" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw">
+        <polyline points="23 4 23 10 17 10"></polyline>
+        <polyline points="1 20 1 14 7 14"></polyline>
+        <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+    </symbol>
+
+    <symbol>
+    <g id="mono-icon-link-post" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-313.000000, -10148.000000)" fill="#000000" fill-rule="nonzero">
+            <g transform="translate(306.000000, 10142.000000)">
+                <path d="M14.0614027,11.2506973 L14.3070318,11.2618997 C15.6181751,11.3582102 16.8219637,12.0327684 17.6059678,13.1077805 C17.8500396,13.4424472 17.7765978,13.9116075 17.441931,14.1556793 C17.1072643,14.3997511 16.638104,14.3263093 16.3940322,13.9916425 C15.8684436,13.270965 15.0667922,12.8217495 14.1971448,12.7578692 C13.3952042,12.6989624 12.605753,12.9728728 12.0021966,13.5148801 L11.8552806,13.6559298 L9.60365896,15.9651545 C8.45118119,17.1890154 8.4677248,19.1416686 9.64054436,20.3445766 C10.7566428,21.4893084 12.5263723,21.5504727 13.7041492,20.5254372 L13.8481981,20.3916503 L15.1367586,19.070032 C15.4259192,18.7734531 15.9007548,18.7674393 16.1973338,19.0565998 C16.466951,19.3194731 16.4964317,19.7357968 16.282313,20.0321436 L16.2107659,20.117175 L14.9130245,21.4480474 C13.1386707,23.205741 10.3106091,23.1805355 8.5665371,21.3917196 C6.88861294,19.6707486 6.81173139,16.9294487 8.36035888,15.1065701 L8.5206409,14.9274155 L10.7811785,12.6088842 C11.6500838,11.7173642 12.8355419,11.2288664 14.0614027,11.2506973 Z M22.4334629,7.60828039 C24.1113871,9.32925141 24.1882686,12.0705513 22.6396411,13.8934299 L22.4793591,14.0725845 L20.2188215,16.3911158 C19.2919892,17.3420705 18.0049901,17.8344754 16.6929682,17.7381003 C15.3818249,17.6417898 14.1780363,16.9672316 13.3940322,15.8922195 C13.1499604,15.5575528 13.2234022,15.0883925 13.558069,14.8443207 C13.8927357,14.6002489 14.361896,14.6736907 14.6059678,15.0083575 C15.1315564,15.729035 15.9332078,16.1782505 16.8028552,16.2421308 C17.6047958,16.3010376 18.394247,16.0271272 18.9978034,15.4851199 L19.1447194,15.3440702 L21.396341,13.0348455 C22.5488188,11.8109846 22.5322752,9.85833141 21.3594556,8.65542337 C20.2433572,7.51069163 18.4736277,7.44952726 17.2944986,8.47594561 L17.1502735,8.60991269 L15.8541776,9.93153101 C15.5641538,10.2272658 15.0893026,10.2318956 14.7935678,9.94187181 C14.524718,9.67821384 14.4964508,9.26180596 14.7114324,8.96608447 L14.783227,8.88126205 L16.0869755,7.55195256 C17.8613293,5.79425896 20.6893909,5.81946452 22.4334629,7.60828039 Z" id="Icon-Link"></path>
+            </g>
+        </g>
+    </g>
+    </symbol>
+
+    <symbol id="icon-calendar" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+        <line x1="16" y1="2" x2="16" y2="6"></line>
+        <line x1="8" y1="2" x2="8" y2="6"></line>
+        <line x1="3" y1="10" x2="21" y2="10"></line>
+    </symbol>
+
+    <symbol id="icon-refresh" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw">
+      <polyline points="23 4 23 10 17 10"></polyline>
+      <polyline points="1 20 1 14 7 14"></polyline>
+      <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+    </symbol>
+
+    <symbol id="icon-warning" width="24" height="24" fill="none">
+        <g clip-path="url(%23clip0_901_207)" fill="currentColor">
+            <path d="M11 1.994l9.22 18.374H1.781l9.22-18.374H11zM11 0c-.475 0-.949.32-1.308.96L.302 19.675C-.417 20.954.195 22 1.662 22H20.34c1.467 0 2.079-1.046 1.36-2.325L12.309.96C11.949.32 11.476 0 11 0H11z"/>
+            <path d="M12.375 17.875a1.376 1.376 0 11-2.751-.001 1.376 1.376 0 012.751.001zM11 15.125a1.376 1.376 0 01-1.375-1.375V9.625a1.376 1.376 0 012.75 0v4.125c0 .759-.616 1.375-1.375 1.375z"/>
+        </g>
+        <defs>
+            <clipPath id="clip0_901_207">
+                <path fill="%23fff" d="M0 0h22v22H0z"/>
+            </clipPath>
+        </defs>
+        <path d="M11 1.994l9.22 18.374H1.781l9.22-18.374H11zM11 0c-.475 0-.949.32-1.308.96L.302 19.675C-.417 20.954.195 22 1.662 22H20.34c1.467 0 2.079-1.046 1.36-2.325L12.309.96C11.949.32 11.476 0 11 0H11z"/>
+        <path d="M12.375 17.875a1.376 1.376 0 11-2.751-.001 1.376 1.376 0 012.751.001zM11 15.125a1.376 1.376 0 01-1.375-1.375V9.625a1.376 1.376 0 012.75 0v4.125c0 .759-.616 1.375-1.375 1.375z"/>
+        </g>
+        <defs>
+            <clipPath id="clip0_901_207">
+                <path fill="currentColor" d="M0 0h22v22H0z"/>
+            </clipPath>
+        </defs>
+    </symbol>
+</svg>
+
+<ps-header class="Page-header">
+    <div class="Page-header-hamburger-menu">
+        <div class="Page-header-hamburger-menu-wrapper">
+            <div class="Page-header-hamburger-menu-top">
+                
+                    <div class="Page-header-logo">
+                        <a aria-label="home page" href="/"  >
+    
+    
+        <picture data-imagesize="siteLogo" data-imagesizeformobile="siteLogoMobile">
+            
+                
+            
+
+            
+                
+                    
+
+
+
+                
+
+                <img class="Image" alt=""
+        data-src="https://cdn.kpbs.org/10/00/06be67594201bf9e4b8da88e3afa/kpbs-header-logo.svg"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxcHgiIHdpZHRoPSIxcHgiPjwvc3ZnPg==">
+            
+        </picture>
+    
+
+</a>
+                    </div>
+                
+                <button class="Page-header-hamburger-menu-close" aria-label="hamburger-menu-close" aria-expanded="false"><svg class="close-x"><use xlink:href="#close-x"></use></svg></button>
+            </div>
+            
+                <div class="Page-header-search-overlay-mobile">
+                    <form class="Page-header-search-form" action="https://www.kpbs.org/search#nt=navsearch" novalidate="" autocomplete="off">
+                        <label><input placeholder="Search" type="text" class="Page-header-search-input-mobile" name="q" required="true"><span class="sr-only">Search Query</span></label>
+                        <button class="Page-header-search-button-mobile" aria-label="header-search-icon"><svg class="icon-magnify"><use xlink:href="#icon-magnify"></use></svg><span class="sr-only">Show Search</span></button>
+                     </form>
+                </div>
+            
+
+            <div class="Page-header-hamburger-menu-content">
+                
+                    <nav class="Navigation gtm_nav">
+    
+    
+        <ul class="Navigation-items">
+            
+                <li class="Navigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <a class="NavigationItem-text-link" href="https://www.kpbs.org/">News</a>
+        
+    </div>
+    
+        <div class="NavigationItem-more">
+            <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
+        </div>
+    
+
+    
+        <ul class="NavigationItem-items">
+            
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/news/local">Local </a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/news/national">National</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/news/international">International</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/podcasts/san-diego-news-now">San Diego News Now Podcast</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/tags/coronavirus">Tracking COVID-19</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/tags/monkeypox-san-diego">Tracking Monkeypox</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/all-sections">All News Sections</a>
+</li>
+                
+            
+        </ul>
+        <ul class="NavigationItem-items-placeholder">
+            
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/news/local">Local </a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/news/national">National</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/news/international">International</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/podcasts/san-diego-news-now">San Diego News Now Podcast</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/tags/coronavirus">Tracking COVID-19</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/tags/monkeypox-san-diego">Tracking Monkeypox</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/all-sections">All News Sections</a>
+</li>
+                
+            
+        </ul>
+    
+</div></li>
+            
+                <li class="Navigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <span>Arts &amp; Culture</span>
+        
+    </div>
+    
+        <div class="NavigationItem-more">
+            <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
+        </div>
+    
+
+    
+        <ul class="NavigationItem-items">
+            
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/news/arts-culture">Arts &amp; Culture</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/podcasts/cinema-junkie">Cinema Junkie</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/one-book-one-san-diego">One Book, One San Diego</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/podcasts/the-parker-edison-project">The Parker Edison Project Podcast</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/podcasts/port-of-entry">Port of Entry Podcast</a>
+</li>
+                
+            
+        </ul>
+        <ul class="NavigationItem-items-placeholder">
+            
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/news/arts-culture">Arts &amp; Culture</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/podcasts/cinema-junkie">Cinema Junkie</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/one-book-one-san-diego">One Book, One San Diego</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/podcasts/the-parker-edison-project">The Parker Edison Project Podcast</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/podcasts/port-of-entry">Port of Entry Podcast</a>
+</li>
+                
+            
+        </ul>
+    
+</div></li>
+            
+                <li class="Navigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <span>TV &amp; Radio</span>
+        
+    </div>
+    
+        <div class="NavigationItem-more">
+            <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
+        </div>
+    
+
+    
+        <ul class="NavigationItem-items two-columns">
+            
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://video.kpbs.org/" target="_blank">Watch KPBS On-Demand</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/news/evening-edition">KPBS Evening Edition</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/news/midday-edition">KPBS Midday Edition</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/news/this-week">KPBS News: This Week</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/podcasts/kpbs-roundtable">KPBS Roundtable</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/kpbs-kids">Kids TV</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/podcasts">Podcasts</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/radio/reading-service/">Radio Reading Service</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/radio">Radio Shows</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/radio/shows/89-5-fm">Radio 89.5 Schedule </a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/tags/tv-highlights">TV Highlights</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/tv/schedule/">TV Schedules</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/tv/shows">TV Shows</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/radio/shows/classical-san-diego">Classical San Diego Schedule</a>
+</li>
+                
+            
+        </ul>
+        <ul class="NavigationItem-items-placeholder">
+            
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://video.kpbs.org/" target="_blank">Watch KPBS On-Demand</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/news/evening-edition">KPBS Evening Edition</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/news/midday-edition">KPBS Midday Edition</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/news/this-week">KPBS News: This Week</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/podcasts/kpbs-roundtable">KPBS Roundtable</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/kpbs-kids">Kids TV</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/podcasts">Podcasts</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/radio/reading-service/">Radio Reading Service</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/radio">Radio Shows</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/radio/shows/89-5-fm">Radio 89.5 Schedule </a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/tags/tv-highlights">TV Highlights</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/tv/schedule/">TV Schedules</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/tv/shows">TV Shows</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/radio/shows/classical-san-diego">Classical San Diego Schedule</a>
+</li>
+                
+            
+        </ul>
+    
+</div></li>
+            
+                <li class="Navigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <span>Support KPBS</span>
+        
+    </div>
+    
+        <div class="NavigationItem-more">
+            <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
+        </div>
+    
+
+    
+        <ul class="NavigationItem-items two-columns">
+            
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/membership-information">Membership Information</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/membership/passport/learn-more">KPBS Passport</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/kpbs-directors-club">Directors Club</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/pc/">Producers Club</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/major-giving">Major Giving</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://campaign.kpbs.org/" target="_blank">Building on Trust: The Campaign for KPBS</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/give/car-donations">Vehicle Donation</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/corporate-sponsorship">Corporate Support</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/membership/other-ways-to-give">Other Ways to Give</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/corporate-sponsors">Our Corporate Sponsors</a>
+</li>
+                
+            
+        </ul>
+        <ul class="NavigationItem-items-placeholder">
+            
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/membership-information">Membership Information</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/membership/passport/learn-more">KPBS Passport</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/kpbs-directors-club">Directors Club</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/pc/">Producers Club</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/major-giving">Major Giving</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://campaign.kpbs.org/" target="_blank">Building on Trust: The Campaign for KPBS</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/give/car-donations">Vehicle Donation</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/corporate-sponsorship">Corporate Support</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/membership/other-ways-to-give">Other Ways to Give</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/corporate-sponsors">Our Corporate Sponsors</a>
+</li>
+                
+            
+        </ul>
+    
+</div></li>
+            
+                <li class="Navigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <a class="NavigationItem-text-link" href="https://www.kpbs.org/events/all">Events</a>
+        
+    </div>
+    
+        <div class="NavigationItem-more">
+            <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
+        </div>
+    
+
+    
+        <ul class="NavigationItem-items">
+            
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/events/all">Events Calendar</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/events/arts">Arts Calendar</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/events/halloween/">Halloween Events</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/events/submit/">Submit an Event</a>
+</li>
+                
+            
+        </ul>
+        <ul class="NavigationItem-items-placeholder">
+            
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/events/all">Events Calendar</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/events/arts">Arts Calendar</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/events/halloween/">Halloween Events</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/events/submit/">Submit an Event</a>
+</li>
+                
+            
+        </ul>
+    
+</div></li>
+            
+                <li class="Navigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <a class="NavigationItem-text-link" href="https://www.kpbs.org/watch-live">Watch Live</a>
+        
+    </div>
+    
+
+    
+</div></li>
+            
+                <li class="Navigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <a class="NavigationItem-text-link" href="https://www.kpbs.org/newsletters">Newsletters</a>
+        
+    </div>
+    
+
+    
+</div></li>
+            
+                <li class="Navigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <a class="NavigationItem-text-link" href="https://www.kpbs.org/tags/elections">Voter Hub</a>
+        
+    </div>
+    
+
+    
+</div></li>
+            
+        </ul>
+    
+</nav>
+                
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="Page-header-top-bar" data-inverse-colors="" >
+            <div class="Page-header-top-bar-content">
+                <button class="Page-header-menu-trigger" aria-label="hamburger-menu-open" aria-expanded="false"><svg class="burger-menu"><use xlink:href="#burger-menu"></use></svg><svg class="close-x"><use xlink:href="#close-x"></use></svg><span class="label">Menu</span></button>
+                
+                    <div class="Page-header-logo"><a aria-label="home page" href="/"  >
+    
+    
+        <picture data-imagesize="siteLogo" data-imagesizeformobile="siteLogoMobile">
+            
+                
+            
+
+            
+                
+                    
+
+
+
+                
+
+                <img class="Image" alt=""
+        data-src="https://cdn.kpbs.org/10/00/06be67594201bf9e4b8da88e3afa/kpbs-header-logo.svg"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxcHgiIHdpZHRoPSIxcHgiPjwvc3ZnPg==">
+            
+        </picture>
+    
+
+</a></div>
+                
+                
+            </div>
+            <div class="Page-header-end">
+                
+                    <button class="Page-header-search-button" aria-label="header-search-icon"><svg class="icon-magnify"><use xlink:href="#icon-magnify"></use></svg><span class="sr-only">Show Search</span><svg class="close-x"><use xlink:href="#close-x"></use></svg></button>
+
+                    <div class="Page-header-search-overlay">
+                        <form class="Page-header-search-form" action="https://www.kpbs.org/search#nt=navsearch" novalidate="" autocomplete="off">
+                            <label><input placeholder="Search" type="text" class="Page-header-search-input" name="q" required="true"><span class="sr-only">Search Query</span></label>
+                            <button type="button" class="Page-header-search-close" aria-label="header-search-close-icon"><svg class="close-x"><use xlink:href="#close-x"></use></svg></button>
+                        </form>
+                    </div>
+                
+                
+                    <div class="Page-header-donate-button gtm_donate" aria-label="header-donate-button">
+                        <a href="https://www.pledgecart.org/pledgeCart3/?campaign=C24EAB93-2727-4548-A562-D29417E16440&amp;source=&amp;_ga=2.202749713.1814251959.1627315184-1797465205.1622573667#/home" class="Link" target="_blank" >Give Now</a>
+                    </div>
+                
+            </div>
+    </div>
+
+    
+        <div class="Page-header-persistent-player">
+            
+                
+                    
+<ps-brightspot-persistent-player
+    class="BrightspotPersistentPlayer"
+     player-id="brightspot-player"
+    text-on-air="On Air"
+    text-playing="Now Playing"
+    
+    data-control-drawer-load-state
+>
+    <div class="BrightspotPersistentPlayer-player" data-player></div>
+    <div class="BrightspotPersistentPlayer-playerControls">
+        <button class="BrightspotPersistentPlayer-playerControls-control" data-control-play aria-label="persistent-player-play-button">
+            <svg class="play-icon">
+                <use xlink:href="#play-icon"></use>
+            </svg>
+        </button>
+        <button class="BrightspotPersistentPlayer-playerControls-control" data-control-pause aria-label="persistent-player-pause-button">
+            <svg class="pause-icon">
+                <use xlink:href="#pause-icon"></use>
+            </svg>
+        </button>
+    </div>
+    <div class="BrightspotPersistentPlayer-volumeControl">
+        <button class="BrightspotPersistentPlayer-volumeControl-toggle" data-control-volume-toggle aria-label="persistent-player-volume-button">
+            <svg class="volume-mute">
+                <use xlink:href="#volume-mute"></use>
+            </svg>
+            <svg class="volume-low">
+                <use xlink:href="#volume-low"></use>
+            </svg>
+            <svg class="volume-mid">
+                <use xlink:href="#volume-mid"></use>
+            </svg>
+            <svg class="volume-high">
+                <use xlink:href="#volume-high"></use>
+            </svg>
+        </button>
+        <div class="BrightspotPersistentPlayer-volumeControl-slider">
+            <div data-control-volume></div>
+        </div>
+    </div>
+    <div class="BrightspotPersistentPlayer-streamInfo">
+        <div class="BrightspotPersistentPlayer-name" data-stream-name></div>
+        <div class="BrightspotPersistentPlayer-programName" data-stream-program-name>
+            Play Live Radio
+        </div>
+    </div>
+    <div class="BrightspotPersistentPlayer-tabletDesktopExtraInfo">
+        <div class="BrightspotPersistentPlayer-schedule">
+            <span class="BrightspotPersistentPlayer-schedule-next">Next Up:</span>
+            <span class="BrightspotPersistentPlayer-schedule-startTime" data-schedule-start-time></span>
+            <span class="BrightspotPersistentPlayer-schedule-programName" data-schedule-program-name></span>
+        </div>
+        <div class="BrightspotPersistentPlayer-songInfo">
+            <span class="BrightspotPersistentPlayer-songInfo-text">
+                <span class="BrightspotPersistentPlayer-songInfo-textAlbumArtist">
+                    <span data-songinfo-album></span>
+                    <span data-songinfo-artist></span>
+                </span>
+                <span class="BrightspotPersistentPlayer-songInfo-textSong" data-songinfo-song></span>
+            </span>
+            <span class="BrightspotPersistentPlayer-songInfo-image" data-songinfo-image></span>
+        </div>
+        <div class="BrightspotPersistentPlayer-trackSlider">
+            <div class="BrightspotPersistentPlayer-trackSlider-currentTime" data-track-current-time>0:00</div>
+            <div class="BrightspotPersistentPlayer-trackSlider-wrapper">
+                <div class="BrightspotPersistentPlayer-trackSlider-slider" data-track-slider></div>
+            </div>
+            <div class="BrightspotPersistentPlayer-trackSlider-duration" data-track-duration>0:00</div>
+        </div>
+    </div>
+    
+    <div class="BrightspotPersistentPlayer-drawerOverlay" data-control-drawer-overlay></div>
+    <div class="BrightspotPersistentPlayer-drawer">
+        <div class="BrightspotPersistentPlayer-drawerHeading">
+            Available On Air Stations
+        </div>
+        <ul class="BrightspotPersistentPlayer-streamsList" data-streams-list>
+            
+                <li class="BrightspotPersistentPlayer-streamsList-item" data-first-stream>
+                    <ps-stream
+    data-stream-name="KPBS Radio"
+    data-stream-id="stream-0000017a-8778-d321-abfb-ff79bdc50000"
+    data-stream-ucsId="519298e9e1c8ed878294001b"
+    
+    
+    
+    
+    >
+
+    
+        
+            <ps-stream-url
+        data-stream-format="audio/mp3"
+        data-stream-url="https://kpbs.streamguys1.com/kpbs-mp3">
+</ps-stream-url>
+        
+    
+
+    <button class="Stream">
+        <span class="Stream-iconWrapper">
+            <svg class="Stream-icon">
+                <use xlink:href="#play-icon"></use>
+            </svg>
+            <svg class="Stream-iconPause">
+                <use xlink:href="#pause-icon"></use>
+            </svg>
+        </span>
+        <span class="Stream-text">
+            
+                <span class="Stream-status">
+                    
+                        <span class="Stream-statusTextOnAir">
+                            On Air
+                        </span>
+                    
+                    <span class="Stream-statusTextNowPlaying">
+                        Now Playing
+                    </span>
+                </span>
+            
+            
+            
+                
+                    <span class="Stream-name">KPBS Radio</span>
+                
+            
+        </span>
+    </button>
+</ps-stream>
+                    
+                        <div class="BrightspotPersistentPlayer-streamSchedule">
+                            <a class="BrightspotPersistentPlayer-streamSchedule-link" href="https://www.kpbs.org/radio/shows/89-5-fm"
+                               target="_blank" rel="noopener">Full Schedule
+                            </a>
+                        </div>
+                    
+                </li>
+            
+                <li class="BrightspotPersistentPlayer-streamsList-item">
+                    <ps-stream
+    data-stream-name="Classical San Diego"
+    data-stream-id="stream-0000017a-8779-d321-abfb-ff79e4220000"
+    data-stream-ucsId="51929913e1c8e466376c6f2c"
+    
+    
+    
+    
+    >
+
+    
+        
+            <ps-stream-url
+        data-stream-format="audio/mp3"
+        data-stream-url="https://kpbs-classical.streamguys1.com/kpbs-classical">
+</ps-stream-url>
+        
+    
+
+    <button class="Stream">
+        <span class="Stream-iconWrapper">
+            <svg class="Stream-icon">
+                <use xlink:href="#play-icon"></use>
+            </svg>
+            <svg class="Stream-iconPause">
+                <use xlink:href="#pause-icon"></use>
+            </svg>
+        </span>
+        <span class="Stream-text">
+            
+                <span class="Stream-status">
+                    
+                        <span class="Stream-statusTextOnAir">
+                            On Air
+                        </span>
+                    
+                    <span class="Stream-statusTextNowPlaying">
+                        Now Playing
+                    </span>
+                </span>
+            
+            
+            
+                
+                    <span class="Stream-name">Classical San Diego</span>
+                
+            
+        </span>
+    </button>
+</ps-stream>
+                    
+                </li>
+            
+        </ul>
+        
+        
+            <div class="BrightspotPersistentPlayer-dfpAd"><ps-google-dfp-ad data-hide-on-mobile='true'>
+    <div id="googleAd87431d08-d000-4b1d-9259-f05368b504a9" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_1" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+        <span class="GoogleDfpAd-placeholder"></span>
+    </div>
+</ps-google-dfp-ad>
+</div>
+        
+        <button class="BrightspotPersistentPlayer-drawer-closeButton" data-control-drawer-close aria-label="persistent-player-drawer-close">
+            <svg class="close-x">
+                <use xlink:href="#close-x"></use>
+            </svg>
+        </button>
+    </div>
+    <div class="BrightspotPersistentPlayer-drawerControls">
+        <button class="BrightspotPersistentPlayer-drawerToggle" data-control-drawer aria-label="persistent-player-drawer-toggle">
+            <svg class="radio-stream">
+                <use xlink:href="#radio-stream"></use>
+            </svg>
+            <span class="BrightspotPersistentPlayer-drawerToggle-text">All Streams</span>
+            <svg class="drawer-mobile-trigger">
+                <use xlink:href="#drawer-mobile-trigger"></use>
+            </svg>
+        </button>
+    </div>
+    
+</ps-brightspot-persistent-player>
+
+                
+            
+        </div>
+    
+
+    
+        <div class="Page-header-nav-bar">
+            
+                <nav class="DropdownNavigation gtm_nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
+    
+    
+        <ul class="DropdownNavigation-items">
+            
+                <li class="DropdownNavigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <a class="NavigationItem-text-link" href="https://www.kpbs.org/">News</a>
+        
+    </div>
+    
+        <div class="NavigationItem-more">
+            <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
+        </div>
+    
+
+    
+        <ul class="NavigationItem-items">
+            
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/news/local">Local </a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/news/national">National</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/news/international">International</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/podcasts/san-diego-news-now">San Diego News Now Podcast</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/tags/coronavirus">Tracking COVID-19</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/tags/monkeypox-san-diego">Tracking Monkeypox</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/all-sections">All News Sections</a>
+</li>
+                
+            
+        </ul>
+        <ul class="NavigationItem-items-placeholder">
+            
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/news/local">Local </a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/news/national">National</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/news/international">International</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/podcasts/san-diego-news-now">San Diego News Now Podcast</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/tags/coronavirus">Tracking COVID-19</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/tags/monkeypox-san-diego">Tracking Monkeypox</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/all-sections">All News Sections</a>
+</li>
+                
+            
+        </ul>
+    
+</div></li>
+            
+                <li class="DropdownNavigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <span>Arts &amp; Culture</span>
+        
+    </div>
+    
+        <div class="NavigationItem-more">
+            <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
+        </div>
+    
+
+    
+        <ul class="NavigationItem-items">
+            
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/news/arts-culture">Arts &amp; Culture</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/podcasts/cinema-junkie">Cinema Junkie</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/one-book-one-san-diego">One Book, One San Diego</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/podcasts/the-parker-edison-project">The Parker Edison Project Podcast</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/podcasts/port-of-entry">Port of Entry Podcast</a>
+</li>
+                
+            
+        </ul>
+        <ul class="NavigationItem-items-placeholder">
+            
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/news/arts-culture">Arts &amp; Culture</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/podcasts/cinema-junkie">Cinema Junkie</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/one-book-one-san-diego">One Book, One San Diego</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/podcasts/the-parker-edison-project">The Parker Edison Project Podcast</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/podcasts/port-of-entry">Port of Entry Podcast</a>
+</li>
+                
+            
+        </ul>
+    
+</div></li>
+            
+                <li class="DropdownNavigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <span>TV &amp; Radio</span>
+        
+    </div>
+    
+        <div class="NavigationItem-more">
+            <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
+        </div>
+    
+
+    
+        <ul class="NavigationItem-items two-columns">
+            
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://video.kpbs.org/" target="_blank">Watch KPBS On-Demand</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/news/evening-edition">KPBS Evening Edition</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/news/midday-edition">KPBS Midday Edition</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/news/this-week">KPBS News: This Week</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/podcasts/kpbs-roundtable">KPBS Roundtable</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/kpbs-kids">Kids TV</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/podcasts">Podcasts</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/radio/reading-service/">Radio Reading Service</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/radio">Radio Shows</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/radio/shows/89-5-fm">Radio 89.5 Schedule </a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/tags/tv-highlights">TV Highlights</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/tv/schedule/">TV Schedules</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/tv/shows">TV Shows</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/radio/shows/classical-san-diego">Classical San Diego Schedule</a>
+</li>
+                
+            
+        </ul>
+        <ul class="NavigationItem-items-placeholder">
+            
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://video.kpbs.org/" target="_blank">Watch KPBS On-Demand</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/news/evening-edition">KPBS Evening Edition</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/news/midday-edition">KPBS Midday Edition</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/news/this-week">KPBS News: This Week</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/podcasts/kpbs-roundtable">KPBS Roundtable</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/kpbs-kids">Kids TV</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/podcasts">Podcasts</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/radio/reading-service/">Radio Reading Service</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/radio">Radio Shows</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/radio/shows/89-5-fm">Radio 89.5 Schedule </a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/tags/tv-highlights">TV Highlights</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/tv/schedule/">TV Schedules</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/tv/shows">TV Shows</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/radio/shows/classical-san-diego">Classical San Diego Schedule</a>
+</li>
+                
+            
+        </ul>
+    
+</div></li>
+            
+                <li class="DropdownNavigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <span>Support KPBS</span>
+        
+    </div>
+    
+        <div class="NavigationItem-more">
+            <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
+        </div>
+    
+
+    
+        <ul class="NavigationItem-items two-columns">
+            
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/membership-information">Membership Information</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/membership/passport/learn-more">KPBS Passport</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/kpbs-directors-club">Directors Club</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/pc/">Producers Club</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/major-giving">Major Giving</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://campaign.kpbs.org/" target="_blank">Building on Trust: The Campaign for KPBS</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/give/car-donations">Vehicle Donation</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/corporate-sponsorship">Corporate Support</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/membership/other-ways-to-give">Other Ways to Give</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/corporate-sponsors">Our Corporate Sponsors</a>
+</li>
+                
+            
+        </ul>
+        <ul class="NavigationItem-items-placeholder">
+            
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/membership-information">Membership Information</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/membership/passport/learn-more">KPBS Passport</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/kpbs-directors-club">Directors Club</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/pc/">Producers Club</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/major-giving">Major Giving</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://campaign.kpbs.org/" target="_blank">Building on Trust: The Campaign for KPBS</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/give/car-donations">Vehicle Donation</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/corporate-sponsorship">Corporate Support</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/membership/other-ways-to-give">Other Ways to Give</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/corporate-sponsors">Our Corporate Sponsors</a>
+</li>
+                
+            
+        </ul>
+    
+</div></li>
+            
+                <li class="DropdownNavigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <a class="NavigationItem-text-link" href="https://www.kpbs.org/events/all">Events</a>
+        
+    </div>
+    
+        <div class="NavigationItem-more">
+            <button aria-label="Open Sub Navigation"><svg class="chevron"><use xlink:href="#chevron"></use></svg></button>
+        </div>
+    
+
+    
+        <ul class="NavigationItem-items">
+            
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/events/all">Events Calendar</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/events/arts">Arts Calendar</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/events/halloween/">Halloween Events</a>
+</li>
+                
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/events/submit/">Submit an Event</a>
+</li>
+                
+            
+        </ul>
+        <ul class="NavigationItem-items-placeholder">
+            
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/events/all">Events Calendar</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/events/arts">Arts Calendar</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/events/halloween/">Halloween Events</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/events/submit/">Submit an Event</a>
+</li>
+                
+            
+        </ul>
+    
+</div></li>
+            
+                <li class="DropdownNavigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <a class="NavigationItem-text-link" href="https://www.kpbs.org/watch-live">Watch Live</a>
+        
+    </div>
+    
+
+    
+</div></li>
+            
+                <li class="DropdownNavigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <a class="NavigationItem-text-link" href="https://www.kpbs.org/newsletters">Newsletters</a>
+        
+    </div>
+    
+
+    
+</div></li>
+            
+                <li class="DropdownNavigation-items-item" ><div class="NavigationItem" >
+    <div class="NavigationItem-text gtm_nav_cat">
+        
+            <a class="NavigationItem-text-link" href="https://www.kpbs.org/tags/elections">Voter Hub</a>
+        
+    </div>
+    
+
+    
+</div></li>
+            
+        </ul>
+    
+</nav>
+            
+        </div>
+    
+</ps-header>
+
+
+
+
+
+
+
+
+        
+        
+    <div class="Page-above" ><div class="AdModule" >
+    
+    <ps-google-dfp-ad>
+    <div id="googleAd3168a1e9-a89e-4d56-a489-f53da133c80b" class="GoogleDfpAd " data-slot-name="1010421/KPBS_leaderboard_1" data-slot-sizes="[[320, 50], [728, 90]]" data-slot-adSizeMap="[[[320, 1], [320, 50]], [[768, 1], [728, 90]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+        <span class="GoogleDfpAd-placeholder"></span>
+    </div>
+</ps-google-dfp-ad>
+
+    
+</div></div>
+
+
+
+        <div class="ArticlePage-content">
+            
+            <div class="ArticlePage-wrapper">
+                <main class="ArticlePage-main">
+                    <div class="ArticlePage-main-content">
+
+                        <article class="ArticlePage-mainContent">
+                            
+                                
+    <div class="ArticlePage-breadcrumbs-wrapper">
+        <div class="ArticlePage-breadcrumbs">
+            
+                
+                    <a href="https://www.kpbs.org/news/midday-edition" class="Link">KPBS Midday Edition</a>
+                    
+                
+                
+            
+
+            
+        </div>
+    </div>
+
+                                
+                                
+    <h1 class="ArticlePage-headline">
+        Migrants From Cameroon Protest Immigration Process In Tijuana
+    </h1>
+
+
+                                <div class="ArticlePage-contentInfo">
+                                    <div class="ArticlePage-byline">
+                                        
+                                        <div class="ArticlePage-byline-content">
+                                            
+                                                <div class="ArticlePage-authors"><div class="ArticlePage-authorName">
+    
+        
+            <span class="ArticlePage-authorBy">
+                
+                    By
+                
+                <a href="https://www.kpbs.org/staff/max-rivlin-nadler" class="Link" aria-label="Max  Rivlin-Nadler">Max  Rivlin-Nadler</a> / Speak City Heights Reporter
+            </span>
+        
+    
+    
+</div>
+</div>
+                                            
+                                            <div class="ArticlePage-timestamp"><div class="ArticlePage-datePublished">
+        Published&nbsp;July 9, 2019 at 10:34 AM PDT
+    </div>
+    <meta content="2019-07-09T17:34:39Z">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                        <div class="ArticlePage-actions">
+                                            <ps-actionbar class="ActionBar">
+    <ul class="ActionBar-items">
+        
+            
+                <li class="ActionBar-items-item"><a class="ActionLink gtm_share" data-platform="facebook"
+    
+        href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.kpbs.org%2Fnews%2Fmidday-edition%2F2019%2F07%2F09%2Fmigrants-cameroon-protest-immigration-process-tiju&display=page"
+    
+    target="_blank" data-social-service="facebook">
+    <svg><use xlink:href="#mono-icon-facebook"></use></svg><span>Facebook</span>
+</a></li>
+            
+        
+            
+                <li class="ActionBar-items-item"><a class="ActionLink gtm_share" data-platform="twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.kpbs.org%2Fnews%2Fmidday-edition%2F2019%2F07%2F09%2Fmigrants-cameroon-protest-immigration-process-tiju&text=Migrants%20From%20Cameroon%20Protest%20Immigration%20Process%20In%20Tijuana"
+    target="_blank" data-social-service="twitter">
+    <svg><use xlink:href="#mono-icon-twitter" /></svg><span>Twitter</span>
+</a>
+</li>
+            
+        
+            
+                <li class="ActionBar-items-item"><a class="ActionLink gtm_share" data-platform="mailto" href="mailto:?body=Migrants%20From%20Cameroon%20Protest%20Immigration%20Process%20In%20Tijuana%0A%0Ahttps%3A%2F%2Fwww.kpbs.org%2Fnews%2Fmidday-edition%2F2019%2F07%2F09%2Fmigrants-cameroon-protest-immigration-process-tiju%0A%0AOver%20a%20hundred%20asylum-seekers%20from%20Cameroon%20blocked%20the%20path%20of%20Mexican%20immigration%20vans%20Tuesday%20morning%20in%20Tijuana%20in%20protest%20of%20what%20they%20believe%20to%20be%20corruption%20by%20Mexican%20immigration%20officials."
+    data-social-service="mailto">
+    <svg><use xlink:href="#icon-email"></use></svg><span>Email</span>
+</a>
+</li>
+            
+        
+    </ul>
+</ps-actionbar>
+
+                                        </div>
+                                    
+
+                                    
+                                </div>
+                                
+                                    
+                                        <div class="ArticlePage-lead">
+<figure class="Figure">
+    
+        
+    
+        <picture data-imagesize="leadImageLarge" data-imagesizeformobile="leadImageLargeMobile">
+            
+                
+                    
+                        <source media="(max-width: 375px)" type="image/webp" width="335" height="189"
+        data-srcset="https://cdn.kpbs.org/dims4/default/4ec94e6/2147483647/strip/true/crop/1198x676+1+0/resize/670x378!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fphotos%2F2019%2F09%2F13%2FIMG_3689.jpg 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxODlweCIgd2lkdGg9IjMzNXB4Ij48L3N2Zz4=">
+
+
+    <source media="(max-width: 375px)" width="335" height="189"
+        data-srcset="https://cdn.kpbs.org/dims4/default/05a70d2/2147483647/strip/true/crop/1198x676+1+0/resize/335x189!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fphotos%2F2019%2F09%2F13%2FIMG_3689.jpg"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxODlweCIgd2lkdGg9IjMzNXB4Ij48L3N2Zz4=">
+
+
+                    
+                
+            
+
+            
+                
+                    <source type="image/webp" width="880" height="542"
+        data-srcset="https://cdn.kpbs.org/dims4/default/4af7b9b/2147483647/strip/true/crop/1098x676+51+0/resize/1760x1084!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fphotos%2F2019%2F09%2F13%2FIMG_3689.jpg 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSI1NDJweCIgd2lkdGg9Ijg4MHB4Ij48L3N2Zz4=">
+
+
+
+                
+
+                <img class="Image" alt="Asylum-seekers from Cameroon and Eritrea protest Mexican immigration authorities in Tijuana, July 9, 2019. 
+
+
+" width="880" height="542" data-srcset="https://cdn.kpbs.org/dims4/default/4c13616/2147483647/strip/true/crop/1098x676+51+0/resize/1760x1084!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fphotos%2F2019%2F09%2F13%2FIMG_3689.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/9934a7a/2147483647/strip/true/crop/1098x676+51+0/resize/880x542!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fphotos%2F2019%2F09%2F13%2FIMG_3689.jpg"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSI1NDJweCIgd2lkdGg9Ijg4MHB4Ij48L3N2Zz4=">
+            
+        </picture>
+    
+
+    
+    
+        <div class="Figure-content">
+            <div class="Figure-credit-container"><div class="Figure-credit">Max  Rivlin-Nadler</div>
+                    </div><figcaption class="Figure-caption">Asylum-seekers from Cameroon and Eritrea protest Mexican immigration authorities in Tijuana, July 9, 2019. 
+
+
+</figcaption></div>
+    
+</figure>
+</div>
+                                    
+                                
+                                
+
+                            
+
+                            
+
+                            <div class="ArticlePage-articleContainer">
+                                
+                                    <div class="ArticlePage-articleBody">
+                                        <div class="Enhancement" data-align-center>
+    <ps-promo class="PromoAudioEpisode" >
+    
+        <div class="PromoAudioEpisode-media">
+            
+                <a href="https://www.kpbs.org/podcasts/kpbs-midday-edition-segments/2019/07/09/migrants-cameroon-protest-immigration-process-tiju" class="Link" aria-label="Migrants From Cameroon Protest Immigration Process In Tijuana">
+    
+        <picture data-imagesize="promoSquare" data-imagesizeformobile="promoSquareMobile">
+            
+                
+            
+
+            
+                
+                    <source type="image/webp" width="280" height="280"
+        data-srcset="https://cdn.kpbs.org/dims4/default/f08843a/2147483647/strip/true/crop/540x540+130+0/resize/560x560!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fpodcasts-episode%2F2019%2FMiddayEd_generic-new_07fxALT.jpg 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyODBweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
+
+
+
+                
+
+                <img class="Image" alt="MiddayEd_generic-new_07fxALT.jpg" width="280" height="280" data-srcset="https://cdn.kpbs.org/dims4/default/3042dd4/2147483647/strip/true/crop/540x540+130+0/resize/560x560!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fpodcasts-episode%2F2019%2FMiddayEd_generic-new_07fxALT.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/c8882cc/2147483647/strip/true/crop/540x540+130+0/resize/280x280!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fpodcasts-episode%2F2019%2FMiddayEd_generic-new_07fxALT.jpg"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyODBweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
+            
+        </picture>
+    
+</a>
+            
+        </div>
+    
+
+    <div class="PromoAudioEpisode-content">
+        
+    <div class="PromoAudioEpisode-byline">
+        
+        
+            <div class="PromoAudioEpisode-date"><div class="PromoAudioEpisode-timestamp" data-timestamp="1562693713000"
+            data-date="Jul 9, 2019" data-promo-date="Jul 9, 2019"></div></div>
+        
+    </div>
+
+        
+    <div class="PromoAudioEpisode-title">
+        <a href="https://www.kpbs.org/podcasts/kpbs-midday-edition-segments/2019/07/09/migrants-cameroon-protest-immigration-process-tiju" class="Link">Migrants From Cameroon Protest Immigration Process In Tijuana</a>
+    </div>
+
+        
+            <div class="PromoAudioEpisode-description">Over a hundred asylum-seekers from Cameroon blocked the path of Mexican immigration vans Tuesday morning in Tijuana in protest of what they believe to be corruption by Mexican immigration officials.</div>
+            <div class="PromoAudioEpisode-description-more">
+                <a href="https://www.kpbs.org/podcasts/kpbs-midday-edition-segments/2019/07/09/migrants-cameroon-protest-immigration-process-tiju" class="Link">Read More</a>
+            </div>
+        
+        
+             
+                  <div class="PromoAudioEpisode-audio-label">
+    
+        
+            
+  
+    
+        <ps-stream
+    data-stream-name="KPBS Midday Edition Segments"
+    data-stream-id="0000017c-18cd-dc8e-abfe-bceddf940001"
+    
+    data-stream-program-name="Migrants From Cameroon Protest Immigration Process In Tijuana"
+    data-stream-duration="7:38"
+    on-demand
+    small
+    external>
+
+    
+        
+            
+                <ps-stream-url
+        data-stream-format=""
+        data-stream-url="https://kpbs-od.streamguys1.com/audioclips/segments/midday_edition/20220222182657-190709_-Border_Protest_-Midday.mp3">
+</ps-stream-url>
+            
+        
+    
+
+    <button class="StreamPill">
+        <span class="StreamPill-iconWrapper">
+            <svg class="StreamPill-icon">
+                <use xlink:href="#play-icon"></use>
+            </svg>
+            <svg class="StreamPill-iconPause">
+                <use xlink:href="#pause-icon"></use>
+            </svg>
+        </span>
+        <span class="StreamPill-text">
+            
+            
+                <span class="StreamPill-duration">
+                    Listen <span class="StreamPill-textDivider">&bull;</span> 7:38
+                </span>
+            
+            
+        </span>
+    </button>
+</ps-stream>
+    
+
+
+        
+    
+</div>
+             
+        
+    </div>
+</ps-promo>
+</div><p>Over a hundred asylum-seekers from Cameroon blocked the path of Mexican immigration vans Tuesday morning in Tijuana, in protest of what they believe to be corruption by Mexican immigration officials. </p><p>The complaints of the Cameroonians stem from the Mexican authorities refusal to accept migrants from Africa for transport to the U.S. side of the border, where they can officially declare asylum. The Africans claim that days have gone by without Mexican officials calling any numbers from an unofficial “waiting list,” and yet Central American asylum seekers have been granted entry to the U.S. on those days. </p><div class="Enhancement" data-align-center>
+    <div class="AdModule" >
+    
+    <ps-google-dfp-ad>
+    <div id="googleAdd6826117-4e11-4452-9978-c1ee343f69d9" class="GoogleDfpAd " data-slot-name="1010421/KPBS_ad_injection" data-slot-sizes="[[320, 50], [728, 90]]" data-slot-adSizeMap="[[[320, 1], [320, 50]], [[728, 1], [728, 90]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+        <span class="GoogleDfpAd-placeholder"></span>
+    </div>
+</ps-google-dfp-ad>
+
+    
+</div>
+</div><div class="Enhancement" data-align-center><div class="VideoEnhancement" data-video-disable-history>
+    
+        <div class="VideoEnhancement-player"><ps-youtubeplayer data-video-player class="YouTubeVideoPlayer"
+    data-player-id="f63ca05a95492441bb7aab9dcd7dbb6e2"
+    data-video-id="49IkoFeolH8"
+    data-video-title="Migrants From Cameroon Protest Immigration Process In Tijuana">
+
+    <iframe id="YouTubeVideoPlayer-f63ca05a95492441bb7aab9dcd7dbb6e2" role="application" title="YouTube embedded video player" allowfullscreen src="https://www.youtube.com/embed/49IkoFeolH8?enablejsapi=1"></iframe>
+</ps-youtubeplayer></div>
+    
+    
+        <div class="VideoEnhancement-title">Video: Migrants From Cameroon Protest Immigration Process In Tijuana</div>
+    
+</div></div><p>“It’s corruption plain and simple,” said an asylum-seeker named Beatriz, who asked that her last name not be published. She said Central Americans have been paying bribes to the immigration officers. Beatriz has been waiting two months to cross into the United States and saw her number recently skipped over. “I can’t wait another two months.”</p><p>Asylum-seekers from Cameroon are, for the most part, members of the English-speaking minority in the country, and they have faced intense persecution since 2016. Many have traveled through South America, the jungles of Panama and Central America, only to run out of time and money south of the U.S. border. </p><div class="Enhancement" data-align-center>
+<figure class="Figure">
+    
+        
+    
+        <picture data-imagesize="articleImage" data-imagesizeformobile="articleImageMobile">
+            
+                
+            
+
+            
+                
+                    <source type="image/webp" width="880" height="542"
+        data-srcset="https://cdn.kpbs.org/dims4/default/930efcf/2147483647/strip/true/crop/3264x2010+0+219/resize/1760x1084!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fphotos%2F2019%2F07%2F09%2FIMG_3749.JPG 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSI1NDJweCIgd2lkdGg9Ijg4MHB4Ij48L3N2Zz4=">
+
+
+
+                
+
+                <img class="Image" alt="Mexican National Guard troops monitor a group of asylum-seekers from Cameroon and Eritrea protesting Mexican immigration authorities in Tijuana, July 9, 2019.
+
+
+" width="880" height="542" data-srcset="https://cdn.kpbs.org/dims4/default/d28b295/2147483647/strip/true/crop/3264x2010+0+219/resize/1760x1084!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fphotos%2F2019%2F07%2F09%2FIMG_3749.JPG 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/3a9ae4f/2147483647/strip/true/crop/3264x2010+0+219/resize/880x542!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fphotos%2F2019%2F07%2F09%2FIMG_3749.JPG"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSI1NDJweCIgd2lkdGg9Ijg4MHB4Ij48L3N2Zz4=">
+            
+        </picture>
+    
+
+    
+
+    
+        <div class="Figure-content">
+            <div class="Figure-credit-container"><div class="Figure-credit">Max  Rivlin-Nadler</div>
+                    </div><figcaption class="Figure-caption">Mexican National Guard troops monitor a group of asylum-seekers from Cameroon and Eritrea protesting Mexican immigration authorities in Tijuana, July 9, 2019.
+
+
+</figcaption></div>
+    
+</figure>
+</div><p><b><a href="https://www.kpbs.org/news/2019/jul/09/mexican-president-gets-little-backlash-migrant-cra/" class="Link" target="_blank" >RELATED: Mexican President Gets Little Backlash For Migrant Crackdown</a></b></p><div class="Enhancement" data-align-center>
+    <div class="AdModule" >
+    
+    <ps-google-dfp-ad>
+    <div id="googleAdbd887a18-8aa8-4982-97c6-ba6c009d8dae" class="GoogleDfpAd " data-slot-name="1010421/KPBS_ad_injection" data-slot-sizes="[[320, 50], [728, 90]]" data-slot-adSizeMap="[[[320, 1], [320, 50]], [[728, 1], [728, 90]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+        <span class="GoogleDfpAd-placeholder"></span>
+    </div>
+</ps-google-dfp-ad>
+
+    
+</div>
+</div><p>“We’ve been suffering for two months. We have nothing to eat. We’re sick. Everything is finished,” said Stanley, an asylum seeker. </p><p>He also asked that his last name be withheld. </p><p>Stanley was part of a group of eight African asylum-seekers that were asked to meet with Mexican officials in the hopes of ending the protest, which had drawn the attention of the newly-formed <a href="https://www.kpbs.org/news/2019/jun/21/mexico-says-national-guard-deployment-complete/" class="Link" target="_blank" >Mexican National Guard</a>. </p><p>After an hour-long meeting, the asylum-seekers and Mexican officials emerged with a “deal” that the African asylum-seekers would be able to verify the unofficial list each morning, to make sure the correct numbers were being called. The group dispersed and let the immigration vans proceed, but not without a promise by many to hold the Mexicans to their word in the final stage of what has been a very long journey for them. </p><div class="Enhancement" data-align-center><div class="AudioEnhancement">
+    <div class="AudioEnhancement-info">
+        
+            <div class="AudioEnhancement-title">Migrants From Cameroon Protest Immigration Process In Tijuana</div>
+        
+        
+            <div class="AudioEnhancement-description">By Reporter Max Rivlin-Nadler
+
+Over a hundred asylum-seekers from Cameroon blocked the path of Mexican immigration vans Tuesday morning in Tijuana in protest of what they believe to be corruption by Mexican immigration officials.
+
+<i>You can hear this story and other local news every morning by subscribing to <a href=" https://www.kpbs.org/podcasts/san-diego-news-matters/" class="Link" target="_blank" >San Diego News Matters</a>, KPBS’ daily news podcast. Subscribe via <a href="https://itunes.apple.com/us/podcast/san-diego-stories/id1118579458?mt=2" class="Link" target="_blank" >iTunes</a>,<a href="https://play.google.com/music/listen?u=0#/ps/Ih2cpz4lwlbkrpiqygqr6ndjl2q" class="Link" target="_blank" > Google Play</a> or your <a href="https://feeds.kpbs.org/san-diego-stories" class="Link" target="_blank" >favorite podcatcher</a>.</i><br><br></div>
+        
+        
+            <div class="AudioEnhancement-player">
+                
+                    
+  
+    
+        <ps-stream
+    data-stream-name="Migrants From Cameroon Protest Immigration Process In Tijuana"
+    data-stream-id="0000017a-6662-d7a8-adfb-ef7e7e9e0001"
+    
+    
+    
+    on-demand
+    small
+    external>
+
+    
+        
+            
+                <ps-stream-url
+        data-stream-format=""
+        data-stream-url="https://cdn.kpbs.org/audio/2019/07/10/20190710_max_camaroon.mp3">
+</ps-stream-url>
+            
+        
+    
+
+    <button class="StreamPill">
+        <span class="StreamPill-iconWrapper">
+            <svg class="StreamPill-icon">
+                <use xlink:href="#play-icon"></use>
+            </svg>
+            <svg class="StreamPill-iconPause">
+                <use xlink:href="#pause-icon"></use>
+            </svg>
+        </span>
+        <span class="StreamPill-text">
+            
+            
+                <span class="StreamPill-duration">
+                    Listen
+                </span>
+            
+            
+        </span>
+    </button>
+</ps-stream>
+    
+
+
+                
+            </div>
+            
+        
+    </div>
+    
+</div></div><p></p>
+                                    </div>
+                                
+                                
+                            </div>
+                        </article>
+
+                        
+
+<div class="ArticlePage-tags">
+<h2 class="ArticlePage-tags-heading">Tags</h2>
+    <div class="ArticlePage-tags-list">
+                <a href="https://www.kpbs.org/news/midday-edition" class="Link">KPBS Midday Edition</a>
+            <a href="https://www.kpbs.org/tags/immigration" class="Link">Immigration</a><a href="https://www.kpbs.org/tags/tijuana" class="Link">Tijuana</a></div>
+</div>
+
+
+                        
+                            <div class="ArticlePage-bottomByline">
+                                
+                                    
+                                        
+    <div class="ArticlePage-authorInfo">
+        
+            <div class="ArticlePage-authorInfo-image">
+                <a aria-label="Max  Rivlin-Nadler" href="https://www.kpbs.org/staff/max-rivlin-nadler">
+                <img alt="" src="https://cdn.kpbs.org/dims4/default/f1afc16/2147483647/strip/true/crop/135x180+23+0/resize/150x200!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fstaff%2F2021%2FMaxRivlenNadler-lowres2.jpg" srcset="https://cdn.kpbs.org/dims4/default/69ea927/2147483647/strip/true/crop/135x180+23+0/resize/300x400!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fstaff%2F2021%2FMaxRivlenNadler-lowres2.jpg 2x" width="150" height="200">
+                </a>
+            </div>
+        
+
+        <div class="ArticlePage-authorInfo-bio">
+            
+                <div class="ArticlePage-authorInfo-bio-name">
+                    <a href="https://www.kpbs.org/staff/max-rivlin-nadler" aria-label="">Max  Rivlin-Nadler</a>
+                </div>
+            
+
+            
+
+            <div class="ArticlePage-authorInfo-bio-content">
+                
+                    Max Rivlin-Nadler is an investigative journalist whose reporting has appeared in outlets such as the New York Times, the New Republic, the Village Voice and Gothamist. His years-long investigation into New York City's arcane civil forfeiture laws led to a series of lawsuits and reforms which altered a practice that had been taking millions from poor communities for decades. He has reported extensively on immigration and criminal justice issues, including the treatment of asylum-seekers along the border, San Diego's District Attorney race, and the criminalization of homelessness in the midst of California's deepening affordability crisis. A native of Queens, New York, Max attended Oberlin College in Ohio, where he majored in creative writing.
+                
+            </div>
+
+            <div class="ArticlePage-authorInfo-bio-cta">
+                
+                    <a href="https://www.kpbs.org/staff/max-rivlin-nadler" aria-label="See stories by Max  Rivlin-Nadler">
+                        See stories by Max  Rivlin-Nadler
+                    </a>
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                    
+
+                </main>
+
+                
+                    <aside class="ArticlePage-aside">
+                        <aside class="ArticlePage-aside-content">
+                            <div class="AdModule" >
+    
+    <ps-google-dfp-ad data-hide-on-mobile='true'>
+    <div id="googleAdcb545084-57bf-467e-8f09-d36dca5e1ccd" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_1" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+        <span class="GoogleDfpAd-placeholder"></span>
+    </div>
+</ps-google-dfp-ad>
+
+    
+</div><div class="PromoNewsletter">
+    <div class="PromoNewsletter-content">
+        
+            <div class="PromoNewsletter-title">
+                Sign up for our newsletters!
+            </div>
+        
+        
+            <div class="PromoNewsletter-description">Keep up with all the latest news, arts and culture, and TV highlights from KPBS.</div>
+        
+        
+            <div class="PromoNewsletter-form">
+                    <ps-form-ajax class="NewsletterSubscriptionForm" data-ps-form-ajax>
+
+    <div class="Form-submissionError" data-form-error-message></div>
+
+    <div class="Form-submissionSuccess" data-success-message></div>
+
+    <form class="NewsletterSubscriptionForm-form" data-form-status action="https://www.kpbs.org/form/submit">
+
+        
+            <div class="NewsletterSubscriptionForm-items">
+                
+                    <div class="NewsletterSubscriptionForm-items-item">
+                        <ps-input-text class="EmailInput"
+    
+
+    
+data-name="email"
+data-clean
+data-errors='{
+
+
+
+
+
+
+
+    "patternMismatch": "Please enter a valid email address",
+    "tooLong": "The value is too long",
+    "tooShort": "The value is too short",
+    "typeMismatch": "Please enter a valid email address",
+    "valueMissing": "Please enter a valid email address"
+
+
+
+
+
+
+
+
+}'
+
+>
+
+    <label class="EmailInput-label">
+
+        <span class="EmailInput-labelText">
+            Email address
+    <span class="EmailInput-labelText-required">*</span>
+
+        </span>
+
+        <input class="EmailInput-input"
+               type="email"
+               name="email" required>
+
+        <div class="EmailInput-input-error" data-error="email"></div>
+
+    </label>
+
+</ps-input-text>
+
+                    </div>
+                
+                    <div class="NewsletterSubscriptionForm-items-item">
+                        <ps-input-checkbox class="CheckboxInput"
+    
+
+    
+data-name="newsletters"
+data-clean
+data-errors='{
+
+    "valueMissing": "Today&#x27;s Top Stories is required"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}'
+
+
+    >
+    <label class="CheckboxInput-label">
+        <input class="CheckboxInput-input"
+               type="checkbox"
+               name="newsletters" checked value="4">
+        <span class="CheckboxInput-labelText">Today's Top Stories</span>
+    </label>
+    <div class="CheckboxInput-error" data-error="newsletters"></div>
+    
+</ps-input-checkbox>
+                    </div>
+                
+                    <div class="NewsletterSubscriptionForm-items-item">
+                        <ps-input-checkbox class="CheckboxInput"
+    
+
+    
+data-name="newsletters"
+data-clean
+data-errors='{
+
+    "valueMissing": "TV Highlights is required"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}'
+
+
+    >
+    <label class="CheckboxInput-label">
+        <input class="CheckboxInput-input"
+               type="checkbox"
+               name="newsletters" checked value="5">
+        <span class="CheckboxInput-labelText">TV Highlights</span>
+    </label>
+    <div class="CheckboxInput-error" data-error="newsletters"></div>
+    
+</ps-input-checkbox>
+                    </div>
+                
+                    <div class="NewsletterSubscriptionForm-items-item">
+                        <ps-input-checkbox class="CheckboxInput"
+    
+
+    
+data-name="newsletters"
+data-clean
+data-errors='{
+
+    "valueMissing": "The Catch Up is required"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}'
+
+
+    >
+    <label class="CheckboxInput-label">
+        <input class="CheckboxInput-input"
+               type="checkbox"
+               name="newsletters" checked value="6">
+        <span class="CheckboxInput-labelText">The Catch Up</span>
+    </label>
+    <div class="CheckboxInput-error" data-error="newsletters"></div>
+    
+</ps-input-checkbox>
+                    </div>
+                
+                    <div class="NewsletterSubscriptionForm-items-item">
+                        <ps-input-checkbox class="CheckboxInput"
+    
+
+    
+data-name="newsletters"
+data-clean
+data-errors='{
+
+    "valueMissing": "KPBS/Arts is required"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}'
+
+
+    >
+    <label class="CheckboxInput-label">
+        <input class="CheckboxInput-input"
+               type="checkbox"
+               name="newsletters" checked value="2">
+        <span class="CheckboxInput-labelText">KPBS/Arts</span>
+    </label>
+    <div class="CheckboxInput-error" data-error="newsletters"></div>
+    
+</ps-input-checkbox>
+                    </div>
+                
+                    <div class="NewsletterSubscriptionForm-items-item">
+                        <ps-input-checkbox class="CheckboxInput"
+    
+
+    
+data-name="newsletters"
+data-clean
+data-errors='{
+
+    "valueMissing": "KPBS&#x27; Most Popular is required"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}'
+
+
+    >
+    <label class="CheckboxInput-label">
+        <input class="CheckboxInput-input"
+               type="checkbox"
+               name="newsletters" checked value="1">
+        <span class="CheckboxInput-labelText">KPBS' Most Popular</span>
+    </label>
+    <div class="CheckboxInput-error" data-error="newsletters"></div>
+    
+</ps-input-checkbox>
+                    </div>
+                
+                    <div class="NewsletterSubscriptionForm-items-item">
+                        <ps-input-checkbox class="CheckboxInput"
+    
+
+    
+data-name="newsletters"
+data-clean
+data-errors='{
+
+    "valueMissing": "KPBS Streaming Picks is required"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}'
+
+
+    >
+    <label class="CheckboxInput-label">
+        <input class="CheckboxInput-input"
+               type="checkbox"
+               name="newsletters" checked value="8">
+        <span class="CheckboxInput-labelText">KPBS Streaming Picks</span>
+    </label>
+    <div class="CheckboxInput-error" data-error="newsletters"></div>
+    
+</ps-input-checkbox>
+                    </div>
+                
+                    <div class="NewsletterSubscriptionForm-items-item">
+                        <ps-input-google-recaptcha-v3 class="GoogleReCaptchaV3Input"
+        data-site-key="6LdRF8EbAAAAAGBCqO-5QNT28BvYzHDqkcBs-hO7"
+        data-hide-badge
+        data-pre-submit-handler>
+    <input type="hidden" id="google-recaptcha-v3-token" name="google-recaptcha-v3-token" value=""/>
+
+    <div class="GoogleReCaptchaV3Input-error" data-error="google-recaptcha-v3-token"></div>
+</ps-input-google-recaptcha-v3>
+                    </div>
+                
+            </div>
+        
+
+        
+            
+                <input type="hidden" name="formId" value="0000017b-ebd9-d1d5-a3ff-efffed3b0000">
+
+            
+        
+
+        <div class="NewsletterSubscriptionForm-buttons">
+            <button class="Button" type="submit">Subscribe
+</button>
+
+        </div>
+    </form>
+
+</ps-form-ajax>
+
+            </div>
+        
+    </div>
+</div><div class="AdModule" >
+    
+    <ps-google-dfp-ad data-hide-on-mobile='true'>
+    <div id="googleAde665217f-c34c-4a4c-b6ec-17009204976d" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_2" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+        <span class="GoogleDfpAd-placeholder"></span>
+    </div>
+</ps-google-dfp-ad>
+
+    
+</div><div class="Container" >
+    
+        <div class="OneColumnContainer">
+    <div class="OneColumnContainer-row">
+        
+            <div class="OneColumnContainer-column">
+                
+<div class="ListB" >
+    <div class="ListB-header"  >
+    
+        <div class="ListB-header-title">LATEST IN PODCASTS</div>
+    
+</div>
+
+    
+        <div class="ListB-items-first" >
+            <ps-promo class="PromoB" data-content-type="podcast-episode">
+    <div class="PromoB-content">
+        
+            <div class="PromoB-media">
+                
+                    <a href="https://www.kpbs.org/podcasts/kpbs-midday-edition/gun-advocates-challenge-newsom-gun-law" class="Link">
+    
+        <picture data-imagesize="promoMedium" data-imagesizeformobile="promoMediumMobile">
+            
+                
+            
+
+            
+                
+                    <source type="image/webp" width="430" height="242"
+        data-srcset="https://cdn.kpbs.org/dims4/default/3ce5719/2147483647/strip/true/crop/600x338+0+131/resize/860x484!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fpodcasts%2F2019%2Fpodcast_600-MiddayEdition.jpg 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNDJweCIgd2lkdGg9IjQzMHB4Ij48L3N2Zz4=">
+
+
+
+                
+
+                <img class="Image" alt="podcast_600-MiddayEdition.jpg" width="430" height="242" data-srcset="https://cdn.kpbs.org/dims4/default/657c422/2147483647/strip/true/crop/600x338+0+131/resize/860x484!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fpodcasts%2F2019%2Fpodcast_600-MiddayEdition.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/f52fddc/2147483647/strip/true/crop/600x338+0+131/resize/430x242!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fimg%2Fpodcasts%2F2019%2Fpodcast_600-MiddayEdition.jpg"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNDJweCIgd2lkdGg9IjQzMHB4Ij48L3N2Zz4=">
+            
+        </picture>
+    
+</a>
+                    
+                
+            </div>
+        
+
+        
+        
+        
+        
+        
+    </div>
+</ps-promo>
+        </div>
+    
+
+    
+      <ol class="ListB-items" data-hidenumber data-theme-links>
+            
+                <li class="ListB-items-item">
+                    <a href="https://www.kpbs.org/podcasts/kpbs-midday-edition/gun-advocates-challenge-newsom-gun-law" class="PromoLink" aria-label="Gun advocates challenge Newsom gun law">Gun advocates challenge Newsom gun law</a>
+
+                </li>
+            
+        </ol>
+    
+</div>
+
+<div class="ListB" >
+    <div class="ListB-header"  >
+    
+        <div class="ListB-header-title">LATEST IN EVENTS</div>
+    
+</div>
+
+    
+        <div class="ListB-items-first" >
+            <ps-promo class="PromoB" data-content-type="event">
+    <div class="PromoB-content">
+        
+            <div class="PromoB-media">
+                
+                    <a href="https://www.kpbs.org/events/2022/09/29/22nd-annual-toy-piano-festival" class="Link">
+    
+        <picture data-imagesize="promoMedium" data-imagesizeformobile="promoMediumMobile">
+            
+                
+            
+
+            
+                
+                    <source type="image/webp" width="430" height="242"
+        data-srcset="https://cdn.kpbs.org/dims4/default/fc6054b/2147483647/strip/true/crop/1800x1013+0+0/resize/860x484!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F2e%2F37%2F5579b7664f92951e81ddfc1da6c8%2Fscott-paulson.jpg 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNDJweCIgd2lkdGg9IjQzMHB4Ij48L3N2Zz4=">
+
+
+
+                
+
+                <img class="Image" alt="Scott Paulson" width="430" height="242" data-srcset="https://cdn.kpbs.org/dims4/default/775c7f2/2147483647/strip/true/crop/1800x1013+0+0/resize/860x484!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F2e%2F37%2F5579b7664f92951e81ddfc1da6c8%2Fscott-paulson.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/a45c985/2147483647/strip/true/crop/1800x1013+0+0/resize/430x242!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F2e%2F37%2F5579b7664f92951e81ddfc1da6c8%2Fscott-paulson.jpg"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNDJweCIgd2lkdGg9IjQzMHB4Ij48L3N2Zz4=">
+            
+        </picture>
+    
+</a>
+                    
+                
+            </div>
+        
+
+        
+        
+        
+        
+        
+    </div>
+</ps-promo>
+        </div>
+    
+
+    
+      <ol class="ListB-items" data-hidenumber data-theme-links>
+            
+                <li class="ListB-items-item">
+                    <a href="https://www.kpbs.org/events/2022/09/29/22nd-annual-toy-piano-festival" class="PromoLink" aria-label="22nd Annual Toy Piano Festival">22nd Annual Toy Piano Festival</a>
+
+                </li>
+            
+        </ol>
+    
+</div>
+
+<div class="ListB" >
+    <div class="ListB-header"  >
+    
+        <div class="ListB-header-title">LATEST IN TV HIGHLIGHTS</div>
+    
+</div>
+
+    
+        <div class="ListB-items-first" >
+            <ps-promo class="PromoB" data-content-type="news-story">
+    <div class="PromoB-content">
+        
+            <div class="PromoB-media">
+                
+                    <a href="https://www.kpbs.org/news/2022/09/26/rivers-of-life-season-2" class="Link">
+    
+        <picture data-imagesize="promoMedium" data-imagesizeformobile="promoMediumMobile">
+            
+                
+            
+
+            
+                
+                    <source type="image/webp" width="430" height="242"
+        data-srcset="https://cdn.kpbs.org/dims4/default/39e60fb/2147483647/strip/true/crop/1000x563+0+104/resize/860x484!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F2c%2F55%2F3419b8644ba5a63b8744a065669a%2F00-03-african-elephants-shutterstock-629874623.jpg 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNDJweCIgd2lkdGg9IjQzMHB4Ij48L3N2Zz4=">
+
+
+
+                
+
+                <img class="Image" alt="African elephants in lower Zambezi National Park." width="430" height="242" data-srcset="https://cdn.kpbs.org/dims4/default/8c5ae7a/2147483647/strip/true/crop/1000x563+0+104/resize/860x484!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F2c%2F55%2F3419b8644ba5a63b8744a065669a%2F00-03-african-elephants-shutterstock-629874623.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/094778f/2147483647/strip/true/crop/1000x563+0+104/resize/430x242!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F2c%2F55%2F3419b8644ba5a63b8744a065669a%2F00-03-african-elephants-shutterstock-629874623.jpg"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNDJweCIgd2lkdGg9IjQzMHB4Ij48L3N2Zz4=">
+            
+        </picture>
+    
+</a>
+                    
+                
+            </div>
+        
+
+        
+        
+        
+        
+        
+    </div>
+</ps-promo>
+        </div>
+    
+
+    
+      <ol class="ListB-items" data-hidenumber data-theme-links>
+            
+                <li class="ListB-items-item">
+                    <a href="https://www.kpbs.org/news/2022/09/26/rivers-of-life-season-2" class="PromoLink" aria-label="RIVERS OF LIFE: Season 2 (New Season Premiere)">RIVERS OF LIFE: Season 2 (New Season Premiere)</a>
+
+                </li>
+            
+        </ol>
+    
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+    
+</div>
+<div class="AdModule" >
+    
+    <ps-google-dfp-ad data-hide-on-mobile='true'>
+    <div id="googleAd761d41f8-bd6c-4572-80cc-c3ad530b2a46" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_3" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+        <span class="GoogleDfpAd-placeholder"></span>
+    </div>
+</ps-google-dfp-ad>
+
+    
+</div>
+                        </aside>
+                    </aside>
+                
+            </div>
+        </div>
+
+        
+    <div class="Page-below" ><div class="PromoD" data-content-type="tag" data-image-align="left" style="background-color:#ffffff" 
+>
+    
+        
+            
+                <div class="PromoD-media">
+                    <a href="https://www.kpbs.org/tags/elections" class="Link" aria-label="Get ready to vote">
+    
+        <picture data-imagesize="fallbackImageSize" data-imagesizeformobile="fallbackImageSizeMobile">
+            
+                
+                    
+                        <source media="(max-width: 375px)" type="image/webp" width="420" height="259"
+        data-srcset="https://cdn.kpbs.org/dims4/default/fe987ab/2147483647/strip/true/crop/1760x1084+0+0/resize/840x518!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F64%2F8d%2F927618494950b2712fc2ac4e3a7c%2Fvoterhub-880x542-2x.jpg 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNTlweCIgd2lkdGg9IjQyMHB4Ij48L3N2Zz4=">
+
+
+    <source media="(max-width: 375px)" width="420" height="259"
+        data-srcset="https://cdn.kpbs.org/dims4/default/b300203/2147483647/strip/true/crop/1760x1084+0+0/resize/420x259!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F64%2F8d%2F927618494950b2712fc2ac4e3a7c%2Fvoterhub-880x542-2x.jpg"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNTlweCIgd2lkdGg9IjQyMHB4Ij48L3N2Zz4=">
+
+
+                    
+                
+            
+
+            
+                
+                    <source type="image/webp" width="880" height="542"
+        data-srcset="https://cdn.kpbs.org/dims4/default/99b5b67/2147483647/strip/true/crop/1760x1084+0+0/resize/1760x1084!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F64%2F8d%2F927618494950b2712fc2ac4e3a7c%2Fvoterhub-880x542-2x.jpg 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSI1NDJweCIgd2lkdGg9Ijg4MHB4Ij48L3N2Zz4=">
+
+
+
+                
+
+                <img class="Image" alt="Voter Hub - Newsletters promo" width="880" height="542" data-srcset="https://cdn.kpbs.org/dims4/default/4b4aede/2147483647/strip/true/crop/1760x1084+0+0/resize/1760x1084!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F64%2F8d%2F927618494950b2712fc2ac4e3a7c%2Fvoterhub-880x542-2x.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/f05e709/2147483647/strip/true/crop/1760x1084+0+0/resize/880x542!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F64%2F8d%2F927618494950b2712fc2ac4e3a7c%2Fvoterhub-880x542-2x.jpg"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSI1NDJweCIgd2lkdGg9Ijg4MHB4Ij48L3N2Zz4=">
+            
+        </picture>
+    
+</a>
+                </div>
+            
+        
+    
+
+   
+       <div class="PromoD-content">
+            
+                <div class="PromoD-title">
+                    <a href="https://www.kpbs.org/tags/elections" class="Link" style="color:#000000">Get ready to vote</a>
+                </div>
+            
+            
+                <div class="PromoD-description">What questions do you have about the Statewide General Election coming up on Nov. 8? <b>Submit your questions here, and we'll try to answer them in our reporting.</b><br></div>
+            
+            
+                <div class="PromoD-cta-button" style="background-color:#8d4efc">
+                     <a href="https://www.kpbs.org/tags/elections" class="Link" aria-label="Launch →" style="color:#ffffff">Launch →</a>
+                </div>
+            
+        </div>
+   
+
+    
+</div>
+<div class="ListH"  data-num-columns="four">
+    <div class="ListH-header"  >
+    
+        <div class="ListH-header-title"><a href="https://www.kpbs.org/news/local" >More News<svg class="chevron"><use xlink:href="#chevron"></use></svg>
+                </a></div>
+    
+</div>
+
+    
+        <ul class="ListH-items">
+            
+            <li class="ListH-items-item">
+                
+                  <ps-promo class="PromoA" data-content-type="news-story" data-image-align="top">
+    
+        <div class="PromoA-media">
+            
+                
+                    <a href="https://www.kpbs.org/news/quality-of-life/2022/09/28/san-diego-food-insecurity-grows-people-of-color-more-likely-to-face-hunger" class="Link" aria-label="San Diego food insecurity grows; people of color more likely to face hunger">
+    
+        <picture data-imagesize="promoSmall" data-imagesizeformobile="promoSmallMobile">
+            
+                
+            
+
+            
+                
+                    <source type="image/webp" width="280" height="156"
+        data-srcset="https://cdn.kpbs.org/dims4/default/316535e/2147483647/strip/true/crop/4895x2727+0+13/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fassets%2Fimg%2F2018%2F04%2F30%2Fap_280051064851_wide-2a56489eed3e5022b13fbf63cab08f8a80eddf07.jpg 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
+
+
+
+                
+
+                <img class="Image" alt="A box of food prepared at a food bank distribution in Petaluma, Calif. is shown in this undated photo." width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/f3cf17d/2147483647/strip/true/crop/4895x2727+0+13/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fassets%2Fimg%2F2018%2F04%2F30%2Fap_280051064851_wide-2a56489eed3e5022b13fbf63cab08f8a80eddf07.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/2b7bd4c/2147483647/strip/true/crop/4895x2727+0+13/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fassets%2Fimg%2F2018%2F04%2F30%2Fap_280051064851_wide-2a56489eed3e5022b13fbf63cab08f8a80eddf07.jpg"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
+            
+        </picture>
+    
+</a>
+                
+            
+        </div>
+    
+
+    <div class="PromoA-content">
+        
+    <div class="PromoA-category">
+        <a href="https://www.kpbs.org/news/quality-of-life" class="Link">Quality of Life</a>
+    </div>
+
+        
+    <div class="PromoA-title">
+        <a href="https://www.kpbs.org/news/quality-of-life/2022/09/28/san-diego-food-insecurity-grows-people-of-color-more-likely-to-face-hunger" class="Link">San Diego food insecurity grows; people of color more likely to face hunger</a>
+    </div>
+
+        
+    <div class="PromoA-byline">
+        
+        
+            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1664409060650"
+            data-date="September 28, 2022 at 4:51 PM PDT" data-promo-date="September 28, 2022"></div></div>
+        
+    </div>
+
+        
+        
+    </div>
+</ps-promo>
+                
+            </li>
+            
+            <li class="ListH-items-item">
+                
+                  <ps-promo class="PromoA" data-content-type="news-story" data-image-align="top">
+    
+        <div class="PromoA-media">
+            
+                
+                    <a href="https://www.kpbs.org/news/local/2022/09/28/california-governor-approves-farmworker-unionization-law" class="Link" aria-label="California governor approves farmworker unionization law">
+    
+        <picture data-imagesize="promoSmall" data-imagesizeformobile="promoSmallMobile">
+            
+                
+            
+
+            
+                
+                    <source type="image/webp" width="280" height="156"
+        data-srcset="https://cdn.kpbs.org/dims4/default/b5a4693/2147483647/strip/true/crop/2048x1141+0+99/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Ff6%2F9b%2F688359784e12ba53122228f2ba5e%2Fxochitl.jpg 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
+
+
+
+                
+
+                <img class="Image" alt="xochitl.jpg" width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/908b175/2147483647/strip/true/crop/2048x1141+0+99/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Ff6%2F9b%2F688359784e12ba53122228f2ba5e%2Fxochitl.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/7d95414/2147483647/strip/true/crop/2048x1141+0+99/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Ff6%2F9b%2F688359784e12ba53122228f2ba5e%2Fxochitl.jpg"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
+            
+        </picture>
+    
+</a>
+                
+            
+        </div>
+    
+
+    <div class="PromoA-content">
+        
+    <div class="PromoA-category">
+        <a href="https://www.kpbs.org/news/local" class="Link">Local</a>
+    </div>
+
+        
+    <div class="PromoA-title">
+        <a href="https://www.kpbs.org/news/local/2022/09/28/california-governor-approves-farmworker-unionization-law" class="Link">California governor approves farmworker unionization law</a>
+    </div>
+
+        
+    <div class="PromoA-byline">
+        
+        
+            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1664406526548"
+            data-date="September 28, 2022 at 4:08 PM PDT" data-promo-date="September 28, 2022"></div></div>
+        
+    </div>
+
+        
+        
+    </div>
+</ps-promo>
+                
+            </li>
+            
+            <li class="ListH-items-item">
+                
+                  <ps-promo class="PromoA" data-content-type="news-story" data-image-align="top">
+    
+        <div class="PromoA-media">
+            
+                
+                    <a href="https://www.kpbs.org/news/public-safety/2022/09/28/at-least-6-injured-in-shooting-at-school-in-east-oakland" class="Link" aria-label="At least 6 injured in shooting at school in east Oakland">
+    
+        <picture data-imagesize="promoSmall" data-imagesizeformobile="promoSmallMobile">
+            
+                
+            
+
+            
+                
+                    <source type="image/webp" width="280" height="156"
+        data-srcset="https://cdn.kpbs.org/dims4/default/7341685/2147483647/strip/true/crop/640x357+0+2/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F5a%2F50%2F71da7f2f4291a9f07b30303d2860%2Fshooting-outside-oakland-school-4.jpg 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
+
+
+
+                
+
+                <img class="Image" alt="shooting-outside-oakland-school-4.jpg" width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/848692d/2147483647/strip/true/crop/640x357+0+2/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F5a%2F50%2F71da7f2f4291a9f07b30303d2860%2Fshooting-outside-oakland-school-4.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/9688875/2147483647/strip/true/crop/640x357+0+2/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2F5a%2F50%2F71da7f2f4291a9f07b30303d2860%2Fshooting-outside-oakland-school-4.jpg"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
+            
+        </picture>
+    
+</a>
+                
+            
+        </div>
+    
+
+    <div class="PromoA-content">
+        
+    <div class="PromoA-category">
+        <a href="https://www.kpbs.org/news/public-safety" class="Link">Public Safety</a>
+    </div>
+
+        
+    <div class="PromoA-title">
+        <a href="https://www.kpbs.org/news/public-safety/2022/09/28/at-least-6-injured-in-shooting-at-school-in-east-oakland" class="Link">At least 6 injured in shooting at school in east Oakland</a>
+    </div>
+
+        
+    <div class="PromoA-byline">
+        
+        
+            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1664406019835"
+            data-date="September 28, 2022 at 4:00 PM PDT" data-promo-date="September 28, 2022"></div></div>
+        
+    </div>
+
+        
+        
+    </div>
+</ps-promo>
+                
+            </li>
+            
+            <li class="ListH-items-item">
+                
+                  <ps-promo class="PromoA" data-content-type="news-story" data-image-align="top">
+    
+        <div class="PromoA-media">
+            
+                
+                    <a href="https://www.kpbs.org/news/local/2022/09/28/new-california-law-opens-aftercare-programs-to-more-transitional-kindergarteners" class="Link" aria-label="New California law opens aftercare programs to more transitional kindergartners">
+    
+        <picture data-imagesize="promoSmall" data-imagesizeformobile="promoSmallMobile">
+            
+                
+            
+
+            
+                
+                    <source type="image/webp" width="280" height="156"
+        data-srcset="https://cdn.kpbs.org/dims4/default/7f0accf/2147483647/strip/true/crop/1900x1059+0+207/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fd8%2Fef%2Fdecb45f04a05b3aa1fab8d343433%2Fsay-steam.jpeg 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
+
+
+
+                
+
+                <img class="Image" alt="Kids work with a teacher at a SAY San Diego after school program in this undated photo." width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/6d46c0e/2147483647/strip/true/crop/1900x1059+0+207/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fd8%2Fef%2Fdecb45f04a05b3aa1fab8d343433%2Fsay-steam.jpeg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/e6c5a0c/2147483647/strip/true/crop/1900x1059+0+207/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.amazonaws.com%2Fd8%2Fef%2Fdecb45f04a05b3aa1fab8d343433%2Fsay-steam.jpeg"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
+            
+        </picture>
+    
+</a>
+                
+            
+        </div>
+    
+
+    <div class="PromoA-content">
+        
+    <div class="PromoA-category">
+        <a href="https://www.kpbs.org/news/education" class="Link">Education</a>
+    </div>
+
+        
+    <div class="PromoA-title">
+        <a href="https://www.kpbs.org/news/local/2022/09/28/new-california-law-opens-aftercare-programs-to-more-transitional-kindergarteners" class="Link">New California law opens aftercare programs to more transitional kindergartners</a>
+    </div>
+
+        
+    <div class="PromoA-byline">
+        
+        
+            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1664399086756"
+            data-date="September 28, 2022 at 2:04 PM PDT" data-promo-date="September 28, 2022"></div></div>
+        
+    </div>
+
+        
+        
+    </div>
+</ps-promo>
+                
+            </li>
+            
+        </ul>
+    
+</div>
+</div>
+
+
+
+        
+
+    <footer class="Page-footer" data-default>
+    <div class="Page-footer-content">
+        <div class="Page-footer-site-info">
+            
+                <div class="Page-footer-logo"><a aria-label="home page" href="/"  >
+    
+    
+        <picture data-imagesize="siteLogo" data-imagesizeformobile="siteLogoMobile">
+            
+                
+            
+
+            
+                
+                    
+
+
+
+                
+
+                <img class="Image" alt=""
+        data-src="https://cdn.kpbs.org/f7/56/6dab8b9c4cba90e9b2e9eece3300/kpbs-footer-logo.svg"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxcHgiIHdpZHRoPSIxcHgiPjwvc3ZnPg==">
+            
+        </picture>
+    
+
+</a></div>
+            
+            
+                <div class="Page-footer-social">
+                    <div class="SocialBar">
+    
+
+    
+        <ul class="SocialBar-items">
+            
+                <li class="SocialBar-items-item"> <a class="SocialLink gtm_share" rel="noreferrer" href="https://twitter.com/kpbs" target="_blank" data-social-service="twitter" data-platform="twitter"><svg><use xlink:href="#mono-icon-twitter"></use></svg><span class="sr-only">twitter</span></a>
+</li>
+            
+                <li class="SocialBar-items-item"> <a class="SocialLink gtm_share" rel="noreferrer" href="https://www.instagram.com/kpbs/" target="_blank" data-social-service="instagram" data-platform="instagram"><svg><use xlink:href="#mono-icon-instagram"></use></svg><span class="sr-only">instagram</span></a>
+</li>
+            
+                <li class="SocialBar-items-item"> <a class="SocialLink gtm_share" rel="noreferrer" href="https://www.tiktok.com/@kpbssandiego" target="_blank" data-social-service="tiktok" data-platform="tiktok"><svg><use xlink:href="#mono-icon-tiktok"></use></svg><span class="sr-only">tiktok</span></a>
+</li>
+            
+                <li class="SocialBar-items-item"> <a class="SocialLink gtm_share" rel="noreferrer" href="https://www.youtube.com/channel/UCP9Zo2a0-bS9oPd_8tl92rQ" target="_blank" data-social-service="youtube" data-platform="youtube"><svg><use xlink:href="#mono-icon-youtube"></use></svg><span class="sr-only">youtube</span></a>
+</li>
+            
+                <li class="SocialBar-items-item"> <a class="SocialLink gtm_share" rel="noreferrer" href="https://www.facebook.com/KPBSSanDiego" target="_blank" data-social-service="facebook" data-platform="facebook"><svg><use xlink:href="#mono-icon-facebook"></use></svg><span class="sr-only">facebook</span></a>
+</li>
+            
+        </ul>
+    
+</div>
+                </div>
+            
+            
+                <div class="Page-footer-disclaimer"><div class="Enhancement"  data-align-left>
+    <div class="AdModule" >
+    
+    <ps-google-dfp-ad>
+    <div id="googleAd5c82a216-865b-4823-9976-9f355091908c" class="GoogleDfpAd " data-slot-name="1010421/KPBS_micro_billboard_1" data-slot-sizes="[[240, 60]]" data-slot-adSizeMap="[[[240, 1], [240, 60]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+        <span class="GoogleDfpAd-placeholder"></span>
+    </div>
+</ps-google-dfp-ad>
+
+    
+</div>
+</div><br></div>
+            
+        </div>
+
+        
+            <div class="Page-footer-columns">
+                <nav class="FooterNavigation gtm_nav">
+    
+        <ul class="FooterNavigation-list">
+            
+                <li class="FooterNavigation-list-column">
+                    <div class="FooterNavigationItem" >
+    <div class="FooterNavigationItem-text">
+        
+            <span>About</span>
+        
+    </div>
+
+    
+        <ul class="FooterNavigationItem-items">
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/about-us">About Us &amp; Mission</a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/about/careers/">Careers</a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/fcc-financial-and-other-reports">FCC &amp; Financial </a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/kpbs-on-the-go">Mobile Apps</a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/tags/press-releases">Press Releases</a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/privacy-policy">Privacy Policy</a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/staff/">Staff</a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/terms-of-service">Terms of Service</a>
+</li>
+            
+        </ul>
+    
+</div>
+                </li>
+            
+                <li class="FooterNavigation-list-column">
+                    <div class="FooterNavigationItem" >
+    <div class="FooterNavigationItem-text">
+        
+            <span>Help</span>
+        
+    </div>
+
+    
+        <ul class="FooterNavigationItem-items">
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/kpbs-audience-and-member-services">Audience and Member Services</a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/closed-captioning">Closed Captioning</a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/contact-us">Contact Us</a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/faq">FAQs</a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/radio/livestream#how-do-i-listen">How do I listen? </a>
+</li>
+            
+        </ul>
+    
+</div>
+                </li>
+            
+                <li class="FooterNavigation-list-column">
+                    <div class="FooterNavigationItem" >
+    <div class="FooterNavigationItem-text">
+        
+            <span>Give</span>
+        
+    </div>
+
+    
+        <ul class="FooterNavigationItem-items">
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/corporate-sponsorship">Corporate Support</a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.pledgecart.org/pledgeCart3/?campaign=C24EAB93-2727-4548-A562-D29417E16440&amp;source=&amp;ref_medium=site-text-links&amp;_ga=2.36619939.2060971585.1627846822-1201957814.1616689752&amp;ref_campaign=membership-page#/home" target="_blank">Donate </a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/membership-information">Membership Information</a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/membership/other-ways-to-give">Other Ways to Give</a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/help/tax-id">Tax ID</a>
+</li>
+            
+                <li class="FooterNavigationItem-items-item gtm_nav_cat"><a class="NavigationLink" href="https://www.kpbs.org/give/car-donations">Vehicle Donation</a>
+</li>
+            
+        </ul>
+    
+</div>
+                </li>
+            
+        </ul>
+    
+</nav>
+            </div>
+        
+
+    </div>
+    
+</footer>
+
+
+
+        
+    </body>
+</html>

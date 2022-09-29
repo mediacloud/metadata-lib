@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html>
+<head>
+    	<!--  Bot/Crawler: not detected - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:78.0) Gecko/20100101 Firefox/78.0 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, Chrome=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+            <title>Covid, segunda causa de muerte en México en 2021</title>
+        <meta name="description" content="En el 2021, hubo tres principales causas de muerte a nivel nacional" />
+        <meta name="keywords" content="Covid, segunda causa de muerte en México en 2021" />
+        <meta name="news_keywords" content="Covid-19,México,pandemia" />        <!-- Twitter Card data -->
+        <meta name="twitter:card" 		 content="summary_large_image" />
+        <meta name="twitter:site"        content="@UniradioInforma" />
+        <meta name="twitter:creator"     content="@UniradioInforma" />
+        <meta name="twitter:description" content="En el 2021, hubo tres principales causas de muerte a nivel nacional" />
+        <meta name="twitter:title"       content="Covid, segunda causa de muerte en México en 2021" />
+        <meta name="twitter:image"       content="https://www.uniradioserver.com/media/news_thumbs/202207/20220728100606_215.jpg" />
+        <meta name="twitter:image:alt"   content="Covid, segunda causa de muerte en México en 2021" />
+        <!-- Open Graph data -->
+        <meta name="region" content="Covid, segunda causa de muerte en México en 2021" />
+        <meta property="og:title" content="Covid, segunda causa de muerte en México en 2021" />
+        <meta property="og:type" content="article" />
+        <meta property="og:locale" content="es_LA" />
+        <meta property="og:description" content="En el 2021, hubo tres principales causas de muerte a nivel nacional" />
+        <meta property="og:url" content="https://www.uniradioinforma.com/noticias/coronavirus/677354/covid-segunda-causa-de-muerte-en-mexico-en-2021.html?utm_region=MEX" />
+        <meta property="og:site_name" content="Uniradio Informa" />
+        <meta property="og:image" content="https://www.uniradioserver.com/media/news_thumbs/202207/20220728100606_215.jpg" />
+        <meta property="og:image:url" content="https://www.uniradioserver.com/media/news_thumbs/202207/20220728100606_215.jpg" />
+        <meta property="og:image:secure_url" content="https://www.uniradioserver.com/media/news_thumbs/202207/20220728100606_215.jpg/" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:alt" content="Covid, segunda causa de muerte en México en 2021" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="460" />
+        <meta property="article:publisher" content="https://www.facebook.com/UniradioInforma">
+        <meta property="article:author" content="https://www.facebook.com/UniradioInforma">
+                        <meta property="article:tag" content="Covid-19" />
+                            <meta property="article:tag" content="México" />
+                            <meta property="article:tag" content="pandemia" />
+                        <meta property="article:section" content="Coronavirus" />
+                    <meta property="article:published_time" content="2022-07-28T10:04:00-08:00" />
+                    <meta property="article:modified_time" content="2022-07-28T10:06:07-08:00" />
+            <meta property="og:updated_time" content="2022-07-28T10:06:07-08:00" />
+                    <meta property="ia:markup_url" content="https://amp.uniradioinforma.com/noticias/coronavirus/677354/covid-segunda-causa-de-muerte-en-mexico-en-2021.html" />
+            <link rel="amphtml" href="https://amp.uniradioinforma.com/noticias/coronavirus/677354/covid-segunda-causa-de-muerte-en-mexico-en-2021.html">
+                            <meta property="ia:markup_url_dev" content="https://rc.uniradioinforma.com/noticias/coronavirus/677354/covid-segunda-causa-de-muerte-en-mexico-en-2021.html" />
+            	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Todas Las Noticias" href="https://plex.uniradioserver.com/feeds/rss/all">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Baja California" href="https://plex.uniradioserver.com/feeds/rss/bajacalifornia">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Cd. Obregón" href="https://plex.uniradioserver.com/feeds/rss/cdobregon">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Coronavirus" href="https://plex.uniradioserver.com/feeds/rss/coronavirus">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Curioso" href="https://plex.uniradioserver.com/feeds/rss/curioso">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Deportes" href="https://plex.uniradioserver.com/feeds/rss/deportes">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Ensenada" href="https://plex.uniradioserver.com/feeds/rss/ensenada">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Estados Unidos" href="https://plex.uniradioserver.com/feeds/rss/estadosunidos">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Fama" href="https://plex.uniradioserver.com/feeds/rss/fama">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Hermosillo" href="https://plex.uniradioserver.com/feeds/rss/hermosillo">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Internacional" href="https://plex.uniradioserver.com/feeds/rss/internacional">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Mexicali" href="https://plex.uniradioserver.com/feeds/rss/mexicali">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en México" href="https://plex.uniradioserver.com/feeds/rss/mexico">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Negocios" href="https://plex.uniradioserver.com/feeds/rss/negocios">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Policiaca" href="https://plex.uniradioserver.com/feeds/rss/policiaca">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Reportajes Especiales" href="https://plex.uniradioserver.com/feeds/rss/reportajesespeciales">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en San Diego" href="https://plex.uniradioserver.com/feeds/rss/sandiego">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Sonora" href="https://plex.uniradioserver.com/feeds/rss/sonora">
+	<link rel="alternate" type="application/rss+xml" title="Suscríbete a Noticias en Tijuana" href="https://plex.uniradioserver.com/feeds/rss/tijuana">
+
+    <meta property="fb:app_id" content="197802700381916">
+    <!-- <meta property="fb:pages" content="117904111553715,187491694647711,277271195741460,479291565459097"> -->
+    <meta property="fb:pages" content="117904111553715,187491694647711,277271195741460,479291565459097">
+    <meta property="al:ios:app_name" content="Uniradio Informa">
+    <meta property="al:ios:app_store_id" content="479106373">
+    <meta property="al:android:app_name" content="UniradioInforma.com">
+    <meta property="al:android:package" content="com.uniradioinforma.uniradioinforma">
+    <meta name="google-play-app" content="app-id=com.uniradioinforma.uniradioinforma">
+    <meta property="al:web:url" content="https://www.uniradioinforma.com/">
+
+    <meta name="google-site-verification" content="LWl-ugkfeGU_IbU-DvOpJXjEl-BVKoErwspExSoxZFs">
+    <meta name="alexaVerifyID" content="964251f8-b851-4994-80f2-5192a2cdf10a">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/f9051611d1.js"></script>
+    <script async src="https://cse.google.com/cse.js?cx=000432b39fe4cdc56"></script>
+    <script src="//platform-api.sharethis.com/js/sharethis.js#property=58ebe34c57f9ad0012170c90&product=inline-share-buttons"></script>
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css?v=2.0">
+    <link rel="stylesheet" type="text/css" href="/css/desktop.css?v=10.3">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Open Sans:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:400,700" rel="stylesheet">
+    <!-- <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script> -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#playerutv').on('click',function(e){
+                window.open("/player/utv","","width=720,height=580");
+            });
+
+            $('#close').on('click',function(e){
+                $('#breaking-news').slideUp();
+            });
+
+            $('.btnBuscar').on('click',function(e){
+                e.preventDefault();
+                $('#submenu').hide();
+                $('#searchbox').slideToggle('fast');
+                $('.more a').removeClass('active');
+                $('.btnMas i').removeClass('fa-caret-up');
+                $('input[name=keyword]').focus();
+            });
+
+            $('.btnMas').on('click',function(e){
+                e.preventDefault();
+                $('#searchbox').hide();
+                $('#submenu').slideToggle('fast');
+                $('.more a').toggleClass('active');
+                $(this).find('i').toggleClass('fa-caret-up');
+            });
+
+            $('.btnDashboard').on('click',function(e){
+                e.preventDefault();
+                $('#dashboard').slideToggle('fast');
+                $('#submenu').hide();
+                $('#searchbox').hide();
+
+                $('.more a').removeClass('active');
+                $('.btnMas i').removeClass('fa-caret-up');
+            });
+
+            $('#dashboard, #dashboard .close').on('click',function(e){
+                $('#dashboard').hide();
+            });
+
+            $('#garita .tab-nav a').on('click',function(e){
+                e.preventDefault();
+                var cont = $(this).attr('data');
+                $('#garita .tab-nav a').removeClass('active');
+                $(this).addClass('active');
+                $('#garita .tab-wrap .active').hide().removeClass('active');
+                $(cont).show().addClass('active');
+            });
+
+            $('#masvistas .tab-nav a').on('click',function(e){
+                e.preventDefault();
+                var cont = $(this).attr('data');
+                $('#masvistas .tab-nav a').removeClass('active');
+                $(this).addClass('active');
+                $('#masvistas .tab-wrap .active').hide().removeClass('active');
+                $(cont).show().addClass('active');
+            });
+
+
+            var handler_click = 'mouseenter';
+
+            $('.share').on(handler_click,function(e){
+                var cont=$(this).attr('data');
+                $(cont).show();
+            });
+
+
+            $('.slc').on('mouseleave',function(e){
+                var cont=$(this).find('.share').attr('data');
+                $(cont).hide();
+            });
+
+            var nav_offset = $('nav').offset().top;
+            var stream_offset=0;
+            if ( $('#streaming').length ){
+                stream_offset = $('#streaming').offset().top+80;
+            }
+            $(window).scroll( function(){
+                if ($(this).scrollTop() > nav_offset ){
+                    $('nav').addClass('sticky');
+                }
+                else{
+                    $('nav').removeClass('sticky');
+                }
+                if (stream_offset>0){
+                    if ( $(this).scrollTop() > stream_offset ){
+                        if ( $('#streaming').hasClass('stream_closed') ){
+
+                        }
+                        else{
+                            $('#streaming').addClass('stream_sticky');
+                        }
+                    }
+                    else{
+                        $('#streaming').removeClass('stream_sticky');
+                        $('#streaming').removeClass('stream_closed');
+                    }
+                }
+            });
+
+            $('#streaming').on('click',function(e){
+                $('#streaming').removeClass('stream_sticky');
+                $('#streaming').addClass('stream_closed');
+            });
+
+            if ( $( ".sharethis" ).length ){
+                var st_offset = $('.sharethis').offset().top-50;
+                var tb_offset = $('#comments').offset().top+250;
+                $(window).scroll(function() {
+                    if (($(this).scrollTop() > st_offset) && ($(this).scrollTop() < tb_offset) ){
+                        $('.sharethis').addClass('st_vertical');
+                    }
+                    else{
+                        $('.sharethis').removeClass('st_vertical');
+                    }
+                });
+            }
+
+        });
+
+    </script>
+    <!-- Cxense script begin -->
+    <script type="text/javascript">
+        var cX = cX || {}; cX.callQueue = cX.callQueue || [];
+        cX.callQueue.push(['setSiteId','1134080978869758073']);
+        cX.callQueue.push(['sendPageViewEvent']);
+    </script>
+    <script type="text/javascript">
+        (function(d,s,e,t){e=d.createElement(s);e.type='text/java'+s;e.async='async';
+            e.src='http'+('https:'===location.protocol?'s://s':'://')+'cdn.cxense.com/cx.js';
+            t=d.getElementsByTagName(s)[0];t.parentNode.insertBefore(e,t);})(document,'script');
+    </script>
+    <!-- Cxense script end -->
+    <!-- Más comunicación Header Bidder -->
+<script>
+!function(t){var n,e,i,o,l,r,s,a,c,u={},d={},f={},h={},g=window,p=g.document,m=function(t,n,e){return t[n]=t[n]||e,t[n]},b=function(t,n){Object.keys(n).forEach(function(t,n,e){t[e]=n[e]}.bind(this,t,n))},S=function(t){return p.createElement(t)},y=function(t){p.head.appendChild(t)},E=function(t,n,e){t[n]=I.bind(this,e,t[n].bind(t))},I=function(t,n){var i=Array.from(arguments);(e=g.hbepl)&&e.callSingleSlot?e.hb2?n.apply(i.slice(2)):t.apply(this,i.slice(1)):setTimeout(I.apply.bind(I,this,i),100)},A=function(n){slotId=n.getSlotElementId();var e,i,o=(e=(t.be||"").match("^!(.+)!$"))&&new RegExp(e[1]);return o?o.match(slotId):(i=(t.be||"").match("^s*[(.+)]s*$"),i&&i[1].split(",")||[]).includes(slotId)},v=function(t,n){P(t,!0),e.callSingleSlot(t)},k=function(t){return h[t.getSlotElementId()]},P=function(t,n){d[t.getSlotElementId()]=n},U=function(t,n){h[t.getSlotElementId()]=n},T=function(t){return!A(t)&&function(t){return console.log(t.getAdUnitPath(),f[t.getAdUnitPath()]),!f[t.getAdUnitPath()]}(t)&&!k(t)&&!n.isInitialLoadDisabled()},j=function(t){U(t,!0),function(t){f[t.getAdUnitPath()]=t.getSlotElementId()}(t),console.log("display"),v(t)},w=function(t,n,e){var i,o;!n&&(o=m(u,i=e,0),u[i]=o+1,5>o)?setTimeout(C.bind(this,t,e),50):(n&&U(n,!1),t(e))},C=function(t,e){var i=function(t){return t.getSlotElementId?t:n.getSlots().filter(function(t,n){return n.getSlotElementId()==t}.bind(this,t))[0]}(e);i&&T(i)?j(i):w(t,i,e)},R=function(t){var n=function(t){return f[t.getAdUnitPath()]}(t);return!(function(t){return d[t.getSlotElementId()]}(t)||A(t)||n&&n!=t.getSlotElementId())},$=function(t,n){n&&(R(n)?v(n):function(t,n){P(n,!1),k(n)?i.display(n):t([n])}(t,n))},x=function(t,e,i){slotsToRefresh=Array.from(e||n.getSlots()),i&&i.changeCorrelator&&n.updateCorrelator(),slotsToRefresh.forEach($.bind(this,t))},D=function(){n=i.pubads(),E(i,"display",C),E(n,"refresh",x)};i=m(g,"googletag",{}),o=m(i,"cmd",[]),l=t,r="https://sakimg.e-planning.net/layers/hbdfp.js",s=S("link"),b(s,{href:r,rel:"preload",crossorigin:"true",as:"script"}),y(s),b(l,{isv:"sakimg.e-planning.net",sv:"ads.us.e-planning.net",ss:"true"}),a=l,c=S("script"),b(c,{src:"https://sakimg.e-planning.net/layers/hbdfp.js",id:"hbepl"}),b(c.dataset,a),y(c),function(){i.display?D():function(t,n){t[Array.isArray(t)?"unshift":"push"](n)}(o,D.bind(this))}()}({ci:"2c354"});
+</script>
+<!--  Fin Más comunicación Header Bidder  --> 
+    <!-- E-planning SETUP begin -->
+    <script type="text/javascript" language="javascript">
+        var sitioEplanning = '2e82a';
+        var seccionEplanning = 'coronavirus';
+        var subseccionEplanning = '';
+        var listpos  = 'Bottom,Frame1,Left,Middle2,Position1,Position2,Position3,Top,Splash'; //see controllers
+        var arrayPosiciones = listpos.split(",");
+    </script>
+
+    <script type="text/javascript" src="/js/eplanning.js"></script>
+    <!-- E-planning SETUP end -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-15309780-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-15309780-1');
+    </script>
+
+        <!-- WEBSYS stats -->
+    <script type="text/javascript">
+
+        function loadScript(url){
+            document.write('\x3Cscript src="'+url+'" type="text/javascript">\x3C/script>');
+        }
+
+        /*function WEBSYS_AD( position ){
+            if (position in banners) {
+                //x3
+                document.write(banners[position].html);
+                $('#'+position).show();
+
+                //$('#'+position).html(banners[position].html).show();
+            }
+        }*/
+        var banners=[];
+                var req = $.ajax({
+            url     : "/stats/desktop/677354/0/--",
+            type    : 'POST',
+            async   : false,
+            dataType: 'json'
+        });
+        req.done(function( res ){
+            banners = res.pics;
+        });
+    </script>
+    <!-- websys stats -->
+        <script type="text/javascript">
+        function username_available(){
+            if( $("#cyber_nm").val() ){
+                $.ajax({
+                    type: 'POST',
+                    url: 'verificar_disponibilidad',
+                    data:   'cyber_nm='+$("#cyber_nm").val(),
+                    success: function(response) {
+                        if( response==0 ){//DISPONIBLE
+                            $('#avail_status').removeClass().addClass("disponible").html("Disponible").css('display','inline');
+                            $('#user_avalability').val("Y");
+                        }else{//NO DISPONIBLE
+                            $('#avail_status').removeClass().addClass("no_disponible").html("No disponible").css('display','inline');
+                            $('#user_avalability').val("N");
+                        }
+                    }
+                });
+            }
+        }
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1442023592736012');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=1442023592736012&ev=PageView&noscript=1"
+        /></noscript>
+    <!-- End Facebook Pixel Code -->
+    
+    <script type="text/javascript">
+        function loadABG(){
+            return "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+        }
+    </script>
+
+    <script async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4913297747908340"
+            crossorigin="anonymous"></script>
+
+    <script async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7859139155981404"
+            crossorigin="anonymous"></script>
+
+    <script async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3436299927816486"
+            crossorigin="anonymous"></script>
+
+    <!-- BEGIN Amp analytics -->
+<amp-analytics type="cxense">
+    <script type="application/json">
+    {
+        "vars": {
+            "siteId": "1134080978869758073"
+        }
+    }
+    </script>
+</amp-analytics>
+<!-- END Amp analytics --></head>
+<body>
+<div id="ff_OAS_position">
+    <script type="text/javascript">eplAD4M("Frame1");</script>
+</div>
+<script type="text/javascript">eplAD4M("Splash");</script>
+<!-- <div id="splash"  style="display:none"><script type="text/javascript">WEBSYS_AD('splash')</script></div> -->
+<div id="intersticial"  style="display:none"><script type="text/javascript">WEBSYS_AD('intersticial')</script></div>
+<header>
+    <section class="viewport pr">
+        <a href="javascript:void(0)" class="menu btnDashboard"><i class="fa fa-bars"></i></a>
+        <h1><a href="/" id="logo" title="Portal de Noticias en Tijuana UniradioInforma"><img src="https://uniradio.sfo2.cdn.digitaloceanspaces.com/portales/uniradioinforma/logo-color.png" alt="UniradioInforma - Noticias Tijuana" title="UniradioInforma"></a></h1>
+        <div id="socialnetwork" style="left: 3rem!important; width: 21%;">
+            <div class="pr">
+                
+						<p class="regionHeader">
+							<a href="javascript:void(0)" class="toggleRegion"><i class="fa fa-globe" aria-hidden="true"></i> Región M&eacute;xico <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+						</p>
+                <div class="mnuRegiones" style="display: none">
+                    <a href="/loader/bajacalifornia">Baja California</a>
+                    <a href="/loader/sandiego">San Diego</a>
+                    <a href="/loader/sonora">Sonora</a>
+                    <a href="/loader/mexico">M&eacute;xico</a>
+                </div>
+            </div>
+        </div>
+        <div id="socialnetwork" style="right: 1rem!important;">
+            <div class="pr">
+                
+						<a target="_blank" href="https://www.facebook.com/UniradioInforma" title="Síguenos en Facebook"><i class="fa fa-facebook-official"></i></a>
+						<a target="_blank" href="https://twitter.com/UniradioInforma" title="Síguenos en Twitter"><i class="fa fa-twitter"></i></a>
+						<a target="_blank" href="https://www.youtube.com/channel/UCmX0ozHGkEFewoIU5WaAyvA" title="Síguenos en Youtube"><i class="fa fa-youtube-play"></i></a>
+						<a target="_blank" href="https://www.instagram.com/uniradio_informa" title="Síguenos en Instagram"><i class="fa fa-instagram"></i></a>
+						<a href="/feeds" title="Fuentes RSS"><i class="fa fa-rss-square"></i></a>            </div>
+        </div>
+    </section>
+</header>
+<section class="full">
+    <nav>
+        <ul class="viewport nav">
+            <li class="dashboard" style="display:none"><a href="#" class="btnDashboard"><i class="fa fa-bars"></i></a></li>
+            <li class="inicio"><a href="/inicio" title="Inicio">Inicio</a></li>
+            <li class="tijuana"><a href="/noticias/coronavirus" title="Noticias Coronavirus">Coronavirus</a></li>
+            <li class="mexico"><a href="/noticias/mexico" title="Noticias M&eacute;xico">M&eacute;xico</a></li>
+            <li class="bajacalifornia"><a href="/noticias/bajacalifornia" title="Noticias Baja California">Baja California</a></li>
+            <li class="sonora"><a href="/noticias/sonora" title="Noticias Sonora">Sonora</a></li>
+            <li class="fama"><a href="/noticias/fama" title="Noticias Fama">Fama</a></li>
+            <li class="deportes"><a href="/noticias/deportes" title="Noticias Deportes">Deportes</a></li>
+            <li class="curioso"><a href="/noticias/curioso" title="Noticias Curioso">Curioso</a></li>
+            <li class="more"><a href="javascript:void(0)" class="btnMas" title="Más noticias">Más <i class="fa fa-caret-down"></i></a></li>
+            <li class="search" ><a href="javascript:void(0)" title="Buscar" class="btnBuscar"><i class="fa fa-search"></i></a></li>
+        </ul>
+
+        <div class="full" id="searchbox" style="display:none">
+            <!--<div class="gcse-search"></div> -->
+            <div class="viewport">
+                <form action="/busqueda" method="post">
+                <input type="text" name="keyword" value="" placeholder="Introduzca el texto a buscar..." />
+                <input type="submit" name="btnSearch" value="BUSCAR"  />
+                </form>
+            </div>
+        </div>
+        <div class="full" id="submenu" style="display:none">
+            <div class="viewport">
+                <ul>
+                    <li><i class="fa fa-caret-right"></i> REGIONES</li>
+                    <li>
+                        <div id="BCRegion">Baja California</div>
+                        <div id="SDRegion" style="padding: .3rem 0">San Diego</div>
+                    </li>
+                    <li>
+                        <div id="SNARegion">Sonora</div>
+                        <div id="MEXRegion">M&eacute;xico</div>
+                    </li>
+                    
+                    <li><i class="fa fa-caret-right"></i> NOTICIAS</li>
+                    <li>
+                        <a href="/noticias/internacional" title="Noticias Internacional">Internacional</a>
+                        <a href="/noticias/negocios" title="Noticias Negocios">Negocios</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $("#BCRegion").on('click', function() {
+        var d = new Date();
+        d.setTime(d.getTime() + (100*24*60*60*1000));
+        var expires = "expires="+ d.toUTCString();
+        document.cookie = "regionSelectCookie=BC;" + expires + ";path=/";
+        document.cookie = "movil_cookie_splash= ; expires = Thu, 01 Jan 1970 00:00:00 GMT;path=/"
+        document.cookie = "cookie_splash= ; expires = Thu, 01 Jan 1970 00:00:00 GMT;path=/"
+        window.location.href="/";
+    });
+
+    $("#SDRegion").on('click', function() {
+        var d = new Date();
+        d.setTime(d.getTime() + (100*24*60*60*1000));
+        var expires = "expires="+ d.toUTCString();
+        document.cookie = "regionSelectCookie=SD;" + expires + ";path=/";
+        document.cookie = "movil_cookie_splash= ; expires = Thu, 01 Jan 1970 00:00:00 GMT;path=/"
+        document.cookie = "cookie_splash= ; expires = Thu, 01 Jan 1970 00:00:00 GMT;path=/"
+        window.location.href="/";
+    });
+
+    $("#SNARegion").on('click', function() {
+        var d = new Date();
+        d.setTime(d.getTime() + (100*24*60*60*1000));
+        var expires = "expires="+ d.toUTCString();
+        document.cookie = "regionSelectCookie=SNA;" + expires + ";path=/";
+        document.cookie = "movil_cookie_splash= ; expires = Thu, 01 Jan 1970 00:00:00 GMT;path=/"
+        document.cookie = "cookie_splash= ; expires = Thu, 01 Jan 1970 00:00:00 GMT;path=/"
+        window.location.href="/";
+    });
+
+    $("#MEXRegion").on('click', function() {
+        var d = new Date();
+        d.setTime(d.getTime() + (100*24*60*60*1000));
+        var expires = "expires="+ d.toUTCString();
+        document.cookie = "regionSelectCookie=MEX;" + expires + ";path=/";
+        document.cookie = "movil_cookie_splash= ; expires = Thu, 01 Jan 1970 00:00:00 GMT;path=/"
+        document.cookie = "cookie_splash= ; expires = Thu, 01 Jan 1970 00:00:00 GMT;path=/"
+        window.location.href="/";
+    });
+</script>    </nav>
+</section>
+
+<script type="text/javascript">
+    $('.toggleRegion').click(function(e){
+        $('.mnuRegiones').toggle()
+    })
+</script>
+
+<div id="splash_inline"  style="display:none"><script type="text/javascript">WEBSYS_AD('splash_inline')</script></div>
+<div id="intersticial_inline"  style="display:none"><script type="text/javascript">WEBSYS_AD('intersticial_inline')</script></div>
+
+<div class="ad h1"><script type="text/javascript">eplAD4M("Top");</script></div><section class="viewport">
+	<section id="article" class="modulo  with-col">
+		<section class="article">
+		 	<section id="breadcrumb"><a href="/inicio">Inicio</a> <span class="ib">&raquo;</span> <a href="/noticias">Noticias</a> <span class="ib">&raquo;</span> <a href="/noticias/coronavirus">Coronavirus</a> <span class="ib">&raquo;</span>  Covid, segunda causa de muerte en México en 2021</section>			<article>
+				<h1>Covid, segunda causa de muerte en México en 2021</h1>
+				<span class="by">por: <b>Agencias</b> - 28 Julio 2022, 10:04 am</span>
+				<div class="sharethis"><div class="sharethis-inline-share-buttons" data-url="https://www.uniradioinforma.com/noticias/coronavirus/677354/covid-segunda-causa-de-muerte-en-mexico-en-2021.html">
+</div>
+</div>
+				<figure><img src="https://www.uniradioserver.com/media/news_thumbs/202207/20220728100606_215.jpg"></figure>
+				<div class="HV">
+	<script type="text/javascript">eplAD4M("Left");</script>
+</div>	<div>
+	<strong><span ><span >Por: El Universal</span></span></strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span ><span ><strong>M&Eacute;XICO.- </strong>Durante 2021, en M&eacute;xico se contabilizaron un mill&oacute;n 117&nbsp; mil167 defunciones registradas inform&oacute; el Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a (INEGI).</span></span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span ><span >&nbsp;La tasa de defunciones registradas en 2021 por cada 10 000 habitantes fue de 88, superior en dos unidades a la informaci&oacute;n definitiva del a&ntilde;o anterior.</span></span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span ><span >De las un mill&oacute;n 117 mil 167 defunciones registradas durante 2021, 57.6 % correspondi&oacute; a hombres, 42.3 % a mujeres y en 734 casos no se especific&oacute; el sexo de la persona.</span></span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span ><span >Sin embargo, para diversos grupos de edad, las tasas de defunciones por cada mil habitantes fueron muy similares en 2020 y 2021.</span></span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span ><span >Por grupos de edad, el de 65 a&ntilde;os y m&aacute;s fue el que concentr&oacute; el mayor n&uacute;mero de muertes con 625 131 (56.0 %) de los 1 117 167 decesos registrados.</span></span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span ><span >Las tres principales causas de muerte a nivel nacional fueron: enfermedades del coraz&oacute;n, Covid-19 y diabetes mellitus. En hombres, los homicidios representaron la sexta causa de muerte.</span></span></div>
+<div>
+	<br />
+	<span ><span >La entidad con la mayor tasa fue Ciudad de M&eacute;xico con 138 y la que present&oacute; la menor fue Quintana Roo, con 59.</span></span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span ><span >Del total de defunciones registradas en 2021, los meses con el mayor n&uacute;mero de decesos fueron: enero, con 15.84 % (173 107) y agosto, con 10.96 % (119 843).</span></span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span ><span >En 2020, el mayor n&uacute;mero de muertes ocurri&oacute; en julio, con 11.10 % (118 753) y en diciembre, con 10.17 % (108 770).</span></span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span ><span >Los meses con menos defunciones registradas en 2021 fueron: diciembre con 5.86 % (64 114) y junio, con 5.85 % (63 960).</span></span></div>
+			</article>
+
+						<div class="tags pr">
+				<strong>TAGS:</strong>
+								    <a href="/tags/covid-19">Covid-19 </a>
+								    <a href="/tags/mexico">México </a>
+								    <a href="/tags/pandemia">pandemia </a>
+							</div>
+			
+						<div class="ad"><script type="text/javascript">eplAD4M("Middle2");</script></div>		
+			<!--<section id="comments"></section>-->
+			<div class="ad" id="medium_rectangle"><script type="text/javascript">WEBSYS_AD('medium_rectangle')</script></div>
+		</section>
+		<aside>
+			
+<div class="ib ad pt0"><script type="text/javascript">eplAD4M("Position1");</script></div>					<div class="widget news-widget" id="masvistas">
+		<div class="title ccoronavirus al"><h3 class="ccoronavirus">MÁS VISTAS</h3></div>
+		<div class="news-list thumb-left first-full ">
+							<div class="item mv1">
+					<a href="https://www.uniradioinforma.com/noticias/internacional/683809/por-protestas-contra-uso-obligatorio-de-velo-bloquean-internet-en-iran.html">
+						<figure>
+							<img src="https://www.uniradioserver.com/media/news_thumbs/202209/20220923115656_215.jpg"  alt="Por protestas contra uso obligatorio de velo bloquean Internet en Irán" />
+							<strong class="position ffm cdefault ccoronavirus">1</strong>
+						</figure>
+						<h4>Por protestas contra uso obligatorio de velo bloquean Internet en Irán</h4>
+					</a>
+				</div>
+							<div class="item mv2">
+					<a href="https://www.uniradioinforma.com/noticias/fama/683962/la-imponente-actriz-elsa-aguirre-cumple-92-anos.html">
+						<figure>
+							<img src="https://www.uniradioserver.com/media/news_thumbs/202209/20220925110604_135.jpg"  alt="La imponente actriz Elsa Aguirre cumple 92 años" />
+							<strong class="position ffm cdefault ccoronavirus">2</strong>
+						</figure>
+						<h4>La imponente actriz Elsa Aguirre cumple 92 años</h4>
+					</a>
+				</div>
+							<div class="item mv3">
+					<a href="https://www.uniradioinforma.com/noticias/fama/683896/matan-a-la-influencer-karla-pardini-en-sinaloa.html">
+						<figure>
+							<img src="https://www.uniradioserver.com/media/news_thumbs/202209/20220924104737_135.jpg"  alt="Matan a la influencer Karla Pardini en Sinaloa" />
+							<strong class="position ffm cdefault ccoronavirus">3</strong>
+						</figure>
+						<h4>Matan a la influencer Karla Pardini en Sinaloa</h4>
+					</a>
+				</div>
+							<div class="item mv4">
+					<a href="https://www.uniradioinforma.com/noticias/fama/683953/video-desde-ya-se-saltan-vallas-para-concierto-de-grupo-firme.html">
+						<figure>
+							<img src="https://www.uniradioserver.com/media/news_thumbs/202209/20220925102051_135.jpg"  alt="VIDEO: Desde ya, se saltan vallas para concierto de grupo Firme" />
+							<strong class="position ffm cdefault ccoronavirus">4</strong>
+						</figure>
+						<h4>VIDEO: Desde ya, se saltan vallas para concierto de grupo Firme</h4>
+					</a>
+				</div>
+							<div class="item mv5">
+					<a href="https://www.uniradioinforma.com/noticias/fama/683897/espero-caerte-peor-ultimo-video-de-pardini-antes-de-ser-asesinada.html">
+						<figure>
+							<img src="https://www.uniradioserver.com/media/news_thumbs/202209/20220924110430_135.jpg"  alt="'Espero caerte peor', último video de Pardini antes de ser asesinada" />
+							<strong class="position ffm cdefault ccoronavirus">5</strong>
+						</figure>
+						<h4>'Espero caerte peor', último video de Pardini antes de ser asesinada</h4>
+					</a>
+				</div>
+					</div>
+	</div>
+			<div class="ib ad"><script type="text/javascript">eplAD4M("Position2");</script></div>			 
+			 
+			 <div class="modulo widget mam al">
+				<div class="title cblack"><h3 class="cblack">MINUTO A MINUTO</h3></div>
+				<div class="news-list">
+											<a href="https://www.uniradioinforma.com/noticias/negocios/684418/deficit-de-la-balanza-comercial-en-mexico-incrementa-junto-con-exporta.html" class="pr">
+							<span class="ib">16:39</span>
+							Déficit de la balanza comercial en México incrementa junto con exporta						</a>
+											<a href="https://www.uniradioinforma.com/noticias/fama/684417/enrique-guzman-habla-sobre-el-accidente-de-alejandra.html" class="pr">
+							<span class="ib">16:39</span>
+							Enrique Guzmán habla sobre el accidente de Alejandra						</a>
+											<a href="https://www.uniradioinforma.com/noticias/fama/684415/sherlyn-confiesa-que-sus-planes-para-volver-a-ser-madre-esperaran.html" class="pr">
+							<span class="ib">16:36</span>
+							Sherlyn confiesa que sus planes para volver a ser madre esperarán						</a>
+											<a href="https://www.uniradioinforma.com/noticias/deportes/684414/presentan-a-ensenadenses-que-conforman-la-seleccion-nacional-de-karate.html" class="pr">
+							<span class="ib">16:35</span>
+							Presentan a ensenadenses que conforman la Selección Nacional de Karate						</a>
+											<a href="https://www.uniradioinforma.com/noticias/mexico/684410/debe-ser-gradual-la-extension-de-vacaciones-senala-coparmex.html" class="pr">
+							<span class="ib">16:24</span>
+							Debe ser gradual la extensión de vacaciones, señala Coparmex						</a>
+											<a href="https://www.uniradioinforma.com/noticias/fama/684394/tengo-mucho-que-decir-pero-no-es-mi-estilo-elizabeth-gutierrez.html" class="pr">
+							<span class="ib">14:46</span>
+							Tengo mucho que decir, pero no es mi estilo: Elizabeth Gutiérrez 						</a>
+											<a href="https://www.uniradioinforma.com/noticias/fama/684393/burla-tonita-imita-a-myriam-en-programa-de-radio.html" class="pr">
+							<span class="ib">14:44</span>
+							¿Burla? Toñita imita a Myriam en programa de radio						</a>
+											<a href="https://www.uniradioinforma.com/noticias/deportes/684377/tenemos-que-estar-mas-unidos-que-nunca-lisandro-lopez.html" class="pr">
+							<span class="ib">13:19</span>
+							'Tenemos que estar más unidos que nunca': Lisandro López						</a>
+											<a href="https://www.uniradioinforma.com/noticias/fama/684376/ricardo-montaner-demanda-a-influencer-que-lo-critico.html" class="pr">
+							<span class="ib">13:19</span>
+							Ricardo Montaner demanda a influencer que lo criticó 						</a>
+											<a href="https://www.uniradioinforma.com/noticias/fama/684371/alfredo-adame-es-golpeado-a-las-afueras-de-su-casa.html" class="pr">
+							<span class="ib">12:55</span>
+							 Alfredo Adame es golpeado a las afueras de su casa     						</a>
+									</div>
+			</div>
+				
+			<div class="ib ad"><script type="text/javascript">eplAD4M("Position3");</script><!-- <SCRIPT LANGUAGE=JavaScript> OAS_AD('Position3'); </SCRIPT> --></div>		</aside>
+	</section>
+	<section id="endless_scroll" style="display:none">
+		<section id="masde" class="modulo with-col">
+			<section class="widget">
+				<div class="title cblack ccoronavirus"><h3 class="ccoronavirus">MÁS NOTICIAS DE Coronavirus</h3></div>
+				<div class="content cols-3 col-bb">
+
+				</div>
+			</section>
+			<aside>
+				<div class="ad"><script type="text/javascript">eplAD4M("Bottom");</script></div>			
+			</aside>
+		</section>
+		<section id="taboola" class="modulo with-col" style="display:none">
+			<section class="widget">
+				<div class="title cblack"><h3 class="cblack">TE PUEDE GUSTAR</h3></div>
+				<div class="content">
+					<div id="taboola-below-article-thumbnails"> </div>
+				</div>
+			</section>	
+			<aside>
+				<div class="ad"><script type="text/javascript">eplAD4M("Bottom");</script></div>	
+			</aside>		
+		</section>	
+	</section>
+</section>
+
+
+<script type="text/javascript">
+	$(function() {
+		var $page =1;
+		var $page_requested=0;
+		var $prev_pos=0;
+		var $excluded = "";
+		var mn=true;
+		var mv=false;
+		var idx=0;		
+		var previdx=-1;
+				var secciones=['tijuana','policiaca','bajacalifornia','sandiego','estadosunidos','curioso','negocios','politica','tecnologia','salud','cultura'];
+		$(window).scroll(function() {
+			$woffset = $(document).height() - (768*2);
+			$scrolled = $(window).height() + $(window).scrollTop();
+
+			if($scrolled >= $woffset && $scrolled > $prev_pos && mn==true){
+				if ($page_requested < $page ){
+					$page_requested = $page
+					$.getJSON('/noticias/coronavirus/'+ $page, { excluded: $excluded, lastday:1} )
+					.done(function($res){
+						if ($res.code==200){
+							$('#endless_scroll').show();
+							$('#endless_scroll #masde .content').append($res.data);
+							$page++;
+							_gaq.push(['_trackPageview','/noticias/coronavirus']);
+						}
+						else{
+							$('#taboola').show();
+							window._taboola = window._taboola || [];
+							_taboola.push({
+								mode:        'thumbnails-a',
+								container:   'taboola-below-article-thumbnails',
+								placement:   'Below Article Thumbnails',
+								target_type: 'mix'
+							});		
+
+							window._taboola = window._taboola || [];
+							_taboola.push({article:'auto'});
+							!function (e, f, u) {
+								e.async = 1;
+								e.src = u;
+								f.parentNode.insertBefore(e, f);
+							}(document.createElement('script'), document.getElementsByTagName('script')[0], 'https://cdn.taboola.com/libtrc/uniradio/loader.js');
+
+							mn=false;
+							mv=true;
+						}
+					});
+				}
+			}
+			$prev_pos = $scrolled;
+
+			if($scrolled >= $woffset && mv==true){
+				if (idx < secciones.length && previdx<idx){
+					previdx=idx;
+					$.getJSON('/noticias/masvistas/'+secciones[idx]+'/'+idx )
+					.done(function(res){
+						idx++;
+						if (res.code==200){
+							$('#endless_scroll').show().append(res.data);
+							_gaq.push(['_trackPageview','/noticias/'+secciones[idx-1]]);
+						}
+					});
+				}
+			}
+		});
+	});
+	
+</script>
+<script type="text/javascript" class="teads" async="true" src="//a.teads.tv/page/72747/tag"></script>	<!-- <div id="occ-widget"></div>
+<script id="bolsa-widget" type="text/javascript" charset="UTF-8" src="https://jobdiscovery-widget-occ.occ.com.mx/button-bundle.js" key="1YMVMHIQ1yjYs66j6IzvrsU6loT"></script> -->
+<section id="dashboard" style="display:none">
+    <div class="bg-blue">
+        <section class="viewport">
+            <div class="top">
+                <a class="logo" href="/"><img src="https://uniradio.sfo2.cdn.digitaloceanspaces.com/portales/uniradioinforma/logo-white-scale.svg" alt="UniradioInforma.com"/></a>
+                <a class="close" href="javascript:void(0)"><i class="fa fa-close"></i></a>
+            </div>
+            <section class="sitemap">
+                
+            <div class="col w13-75">
+                <strong>Noticias</strong>
+                <a href="/noticias/coronavirus" title="Noticias Coronavirus">Coronavirus</a>
+                <a href="/noticias/mexico" title="Noticias M&eacute;xico">M&eacute;xico</a>
+                <a href="/noticias/internacional" title="Noticias Internacional">Internacional</a>
+                <a href="/noticias/fama" title="Noticias Fama">Fama</a>
+                <a href="/noticias/deportes" title="Noticias Deportes">Deportes</a>
+                <a href="/noticias/curioso" title="Noticias Curioso">Curioso</a>
+                <a href="/noticias/negocios" title="Noticias Negocios">Negocios</a>
+            </div>
+            <div class="col w13-75">
+                <strong>Multimedia</strong>
+                <a href="/galerias" title="Galerías">Galerías</a>
+                <a href="/videos" title="Videos">Videos</a>
+            </div>
+            <div class="col w13-75">
+                <strong>Servicios</strong>
+                <a href="/eventos" title="Eventos">Eventos</a>
+                <a href="/clima" title="Clima">Clima</a>
+                <a href="/garitas" title="Garitas">Garitas</a>
+            </div>
+            <div class="col w13-75">
+                <strong>Contacto</strong>
+                <a href="/contacto" title="Comentarios">Comentarios</a>
+                <a href="/contacto" title="Ventas">Ventas</a>
+                <a href="/contacto/directorio" title="Directorio">Directorio</a>
+            </div>
+            <div class="col w10">
+                <strong>Síguenos</strong>
+                <div class="siguenos">
+                    <a target="_blank" href="https://www.facebook.com/UniradioInforma" title="Síguenos en Facebook"><i class="fa fa-facebook-official"></i></a>
+                    <a target="_blank" href="https://twitter.com/UniradioInforma" title="Síguenos en Twitter"><i class="fa fa-twitter"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCmX0ozHGkEFewoIU5WaAyvA" title="Síguenos en Youtube"><i class="fa fa-youtube-play"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/uniradio_informa" title="Síguenos en Instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="/feeds" title="Fuentes RSS"><i class="fa fa-rss-square"></i></a>
+                </div>
+            </div>            </section>
+            <section class="content copy">
+                <div class="col w50 desc">UniradioInforma es un portal de noticias de Tijuana Baja California México. Es un servicio de Uniradio</div>
+                <div class="col w50 ar">
+                    <a target="_blank" href="javascript:void(0)" title="Google News"><img src="https://uniradio.sfo2.cdn.digitaloceanspaces.com/portales/3rd-party/google-news.png" alt="Google News"/></a>
+                    <a target="_blank" href="javascript:void(0)" title="Socio IAB México"><img src="https://uniradio.sfo2.cdn.digitaloceanspaces.com/portales/3rd-party/iab-mexico.png" alt="Socio IAB México"/></a>
+                </div>
+            </section>
+            <section class="content aviso">
+                <div class="col w50">
+                    <a href="/mapadesitio" title="Mapa de sitio">Mapa de sitio</a>
+                    <a href="/avisoprivacidad" title="Aviso de Privacidad">Aviso de Privacidad</a>
+                    <a href="/codigoetica/UniradioInforma" title="Código de Ética">Código de Ética</a>
+                </div>
+                <div class="col w50 ar">Todos los derechos reservados &copy; 2022</div>
+            </section>
+        </section>
+    </div>
+</section>
+<!--<script type="text/javascript" src="//m2d.m2.ai/pg.uniradioinforma.js" async></script>-->
+<!-- <script type="text/javascript" src="//cdn.pubguru.com/fb.js"></script> -->
+</body>
+</html>

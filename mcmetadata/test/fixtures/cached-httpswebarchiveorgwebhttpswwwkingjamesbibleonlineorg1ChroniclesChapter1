@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app223.us.archive.org';v.server_ms=224;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://www.kingjamesbibleonline.org/1-Chronicles-Chapter-1/","20220905185355","https://web.archive.org/","web","/_static/",
+	      "1662404035");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=fantwOh2" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>
+ 1 CHRONICLES CHAPTER 1 KJV</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="title" content="1 Chronicles chapter 1 KJV (King James Version)"/>
+<meta name="description" content="1 Chronicles chapter 1 KJV (King James Version)"/>
+<meta name="keywords" content="1 Chronicles chapter 1, KJV, King James Version, 1 Chronicles, King James, Bible Online"/>
+<link href="/web/20220905185355im_/https://www.kingjamesbibleonline.org/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link rel="shortcut icon" type="image/x-icon" href="/web/20220905185355im_/https://www.kingjamesbibleonline.org/images/favicon.png">
+<link rel="canonical" href="https://web.archive.org/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-Chapter-1/"/>
+<link rel="amphtml" href="https://web.archive.org/web/20220905185355/https://m.kingjamesbibleonline.org/1-Chronicles-Chapter-1/">
+<link href="https://web.archive.org/web/20220905185355cs_/https://www.kingjamesbibleonline.org/css/main.css" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20220905185355cs_/https://www.kingjamesbibleonline.org/css/modal-ui.css" rel="stylesheet" type="text/css">
+<meta property="og:image" content="https://web.archive.org/web/20220905185355im_/https://www.kingjamesbibleonline.org/images/king-james-bible-kjv.png"/>
+<meta property="og:image:secure_url" content="https://www.kingjamesbibleonline.org/images/king-james-bible-kjv.png"/>
+<link rel="preload" href="https://web.archive.org/web/20220905185355/https://www.kingjamesbibleonline.org/css/main.css" as="style">
+<link rel="preload" href="https://web.archive.org/web/20220905185355/https://www.kingjamesbibleonline.org/fonts/cinzel.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<script type="text/javascript">
+function increaseFontSize(id, increaseFactor){
+     txt = document.getElementById(id);
+     style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+     currentSize = parseFloat(style);
+	 var newSize = currentSize + increaseFactor;
+	
+	 if (newSize < 8) {
+	  newSize = 8;
+	}
+	 if (newSize > 100) {
+	  newSize = 100;
+	}
+     txt.style.fontSize = newSize + 'px';
+	 
+    var xmlhttp=new XMLHttpRequest();
+	
+		xmlhttp.open("GET", "/fontsizeajax.php?8702&fontsize="+newSize,true);
+		xmlhttp.send();
+}
+ </script>
+<style>
+ .icon_print {background: url("/web/20220905185355im_/https://www.kingjamesbibleonline.org/images/print.png") no-repeat scroll 7px 0px;}
+ .icon_outline {background: url("/web/20220905185355im_/https://www.kingjamesbibleonline.org/images/icon-outline.webp") no-repeat scroll 7px 0px;}
+  .icon_commentary {background: url("/web/20220905185355im_/https://www.kingjamesbibleonline.org/images/icon-commentary.webp") no-repeat scroll 7px 0px;}
+ .new {color:#fff575;}
+@media print{
+  .con_footer_div, .adhide, .adsense, .push,footer,.whitebk,.red_sections,.header,.search_options,.left_buttons,.right_buttons,.right_panel,.previous{display:none!important}
+.left-panel,.chapters_div{padding:0!important;width:100%!important}
+.versehover{color:#000!important}
+.header_div{background:#fff!important;}
+.cinzel{color:#000}
+h1 {font-size:140% !important;}
+body {
+        margin: -7rem 0 0 0;
+      }
+}
+
+
+.audiop {width: 100%;max-height: 20px;}
+.audiomodal {
+  display: none; 
+  position: fixed; 
+  z-index: 899; 
+  overflow: none;
+  bottom: 0;
+  width: 100%;
+  height: 45px; 
+  -webkit-animation-name: fadeIn; 
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
+  background-color:#f1f3f4;
+}
+.display-table {
+    display: table; width: 100%;
+}
+.one {width:95%;display: table-cell;}
+.two {width:5%;display: table-cell;}
+
+.close {
+  color: #666;
+  font-weight: bold;
+  font-size:30px;
+  position: relative;
+  top:5px;
+}
+.close:hover,
+.close:focus {
+  color: orange;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+.opt:hover {color:red;}
+.bigg {font-size:130%;}
+
+.softline {border-top:1px dotted #ccc;padding-top:14px;
+</style>
+</head>
+<body>
+<div class="wrapper" id="top">
+<div class="header">
+ <div id="header-main" class="bk">
+<div class="main">
+<div class="top_header">
+<div class="kjv_logo">
+<h3><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/" title="King James Bible Online">King James Bible Online</a></h3>
+</div>
+<div class="header_menus">
+<nav>
+<ul>
+<li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/" id="nav1" title="KJV Standard" class="cinzel">KJV Standard</a></li>
+<li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1611-Bible/" id="nav2" title="KJV 1611" class="cinzel">KJV 1611</a></li>
+<li><a href="https://web.archive.org/web/20220905185355/https://m.kingjamesbibleonline.org/" id="nav3" title="Mobile Site" class="cinzel">Mobile</a></li>
+<li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Bible-Trivia-Questions/" id="nav4" title="Bible Trivia" class="cinzel">Bible Trivia</a></li>
+<li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Bible-Discussion/" id="nav4" title="Bible Discussion" class="cinzel">Discussion</a></li>
+<li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Sitemap.php" id="nav5" title="View all website features" class="cinzel">More...</a></li>
+</ul>
+</nav>
+</div>
+<div class="right_image size12"><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/my-account/sign-in.php" class="georgia tan" title="Sign In or Register"><br> Sign In </a></div>
+<div class="clr"></div>
+</div>
+
+<div class="below_header">
+<div class="headertitle">
+<h2 class="cinzel" title="1 Chronicles KJV">1 Chronicles </h2>
+<h3 class="cinzel" title="King James Version (KJV)">King James Version (KJV)</h3>
+</div>
+<div class="kjv_image"><img src="https://web.archive.org/web/20220905185355im_/https://www.kingjamesbibleonline.org/images/king-james-bible-kjv.png" title="King James Bible" alt="King James Bible KJV" width="264" height="136"></div>
+<div class="clr"></div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="search_options">
+<div class="main">
+<div class="left_search">
+<div class="title cinzel tancolor scrollhide">SEARCH THE BIBLE <span class="hide300 smallitalics"><a class="smallitalics cinzel underline" href="/web/20220905185355/https://www.kingjamesbibleonline.org/search-advanced.php">(Advanced)</a></span></div>
+<form method="get" action="/web/20220905185355/https://www.kingjamesbibleonline.org/search.php">
+
+<input type="hidden" name="hs" value="1"/>
+<div class="input_wrapped">
+<span class="search_icon">
+<input name="q" maxlength="50" class="fieldpad" tabindex="1" type="text" placeholder="Search words or verses...">
+
+</span>
+</div>
+<button tabindex="2" type="submit" class="btn submit_me fieldpad">
+<i class="right-arrow"></i>
+</button>
+<div class="clear"></div>
+</form>
+</div>
+<div class="right_search">
+<form method="get" action="/web/20220905185355/https://www.kingjamesbibleonline.org/book.php" name="verse">
+<div class="big_select f_left">
+<div class="title cinzel tancolor scrollhide"><span class="hide cinzel">SELECT A </span>BOOK <a class="smallitalics cinzel underline" title="Select a book of the Bible - or - click 'Index' for a list of all books and chapters" href="/web/20220905185355/https://www.kingjamesbibleonline.org/Bible-Books/">(Index)</a></div>
+<select name="book" tabindex="3" class="fieldpad" id="books" data-book="1 Chronicles">
+<option>Genesis</option><option>Exodus</option><option>Leviticus</option><option>Numbers</option><option>Deuteronomy</option><option>Joshua</option><option>Judges</option><option>Ruth</option><option>1 Samuel</option><option>2 Samuel</option><option>1 Kings</option><option>2 Kings</option><option selected>1 Chronicles</option><option>2 Chronicles</option><option>Ezra</option><option>Nehemiah</option><option>Esther</option><option>Job</option><option>Psalms</option><option>Proverbs</option><option>Ecclesiastes</option><option>Song of Solomon</option><option>Isaiah</option><option>Jeremiah</option><option>Lamentations</option><option>Ezekiel</option><option>Daniel</option><option>Hosea</option><option>Joel</option><option>Amos</option><option>Obadiah</option><option>Jonah</option><option>Micah</option><option>Nahum</option><option>Habakkuk</option><option>Zephaniah</option><option>Haggai</option><option>Zechariah</option><option>Malachi</option><option>----------------------</option><option>Matthew</option><option>Mark</option><option>Luke</option><option>John</option><option>Acts</option><option>Romans</option><option>1 Corinthians</option><option>2 Corinthians</option><option>Galatians</option><option>Ephesians</option><option>Philippians</option><option>Colossians</option><option>1 Thessalonians</option><option>2 Thessalonians</option><option>1 Timothy</option><option>2 Timothy</option><option>Titus</option><option>Philemon</option><option>Hebrews</option><option>James</option><option>1 Peter</option><option>2 Peter</option><option>1 John</option><option>2 John</option><option>3 John</option><option>Jude</option><option>Revelation</option> </select>
+</div>
+<input type="hidden" name="t" value="1">
+
+
+<div class="f_left lt-margin chapterz">
+<div><span class="scrollhide chapverse cinzel">CHAPTER</span></div>
+<select name="chapter" class="fieldpad" id="chapters" data-chapter="1">
+<option>1</option>
+</select>
+</div>
+<div class="versehide f_left lt-margin chapterz">
+
+<div class="scrollhide"><span class="scrollhide chapverse cinzel">VERSE</span></div>
+<select name="verse" class="fieldpad" id="verses" data-verse="1">
+<option>1</option>
+</select>
+</div>
+
+<div class="scrollhide"><span class="scrollhide chapverse cinzel">&nbsp;</span></div>
+<button type="submit" class="btn submit_me fieldpad" tabindex="6">
+<i class="right-arrow"></i>
+</button>
+</form>
+<div class="clr"></div>
+</div>
+<div class="clr"></div>
+</div>
+</div>
+
+<script type="text/javascript">
+var maxchapters = {
+	    "Genesis" : "50",
+	    "Exodus" : "40",
+	    "Leviticus" : "27",
+	    "Numbers" : "36",
+	    "Deuteronomy" : "34",
+	    "Joshua" : "24",
+	    "Judges" : "21",
+	    "Ruth" : "4",
+	    "1 Samuel" : "31",
+	    "2 Samuel" : "24",
+	    "1 Kings" : "22",
+	    "2 Kings" : "25",
+	    "1 Chronicles" : "29",
+	    "2 Chronicles" : "36",
+	    "Ezra" : "10",
+	    "Nehemiah" : "13",
+	    "Esther" : "10",
+	    "Job" : "42",
+	    "Psalms" : "150",
+	    "Proverbs" : "31",
+	    "Ecclesiastes" : "12",
+	    "Song of Solomon" : "8",
+	    "Isaiah" : "66",
+	    "Jeremiah" : "52",
+	    "Lamentations" : "5",
+	    "Ezekiel" : "48",
+	    "Daniel" : "12",
+	    "Hosea" : "14",
+	    "Joel" : "3",
+	    "Amos" : "9",
+	    "Obadiah" : "1",
+	    "Jonah" : "4",
+	    "Micah" : "7",
+	    "Nahum" : "3",
+	    "Habakkuk" : "3",
+	    "Zephaniah" : "3",
+	    "Haggai" : "2",
+	    "Zechariah" : "14",
+	    "Malachi" : "4",
+	    "Matthew" : "28",
+	    "Mark" : "16",
+	    "Luke" : "24",
+	    "John" : "21",
+	    "Acts" : "28",
+	    "Romans" : "16",
+	    "1 Corinthians" : "16",
+	    "2 Corinthians" : "13",
+	    "Galatians" : "6",
+	    "Ephesians" : "6",
+	    "Philippians" : "4",
+	    "Colossians" : "4",
+	    "1 Thessalonians" : "5",
+	    "2 Thessalonians" : "3",
+	    "1 Timothy" : "6",
+	    "2 Timothy" : "4",
+	    "Titus" : "3",
+	    "Philemon" : "1",
+	    "Hebrews" : "13",
+	    "James" : "5",
+	    "1 Peter" : "5",
+	    "2 Peter" : "3",
+	    "1 John" : "5",
+	    "2 John" : "1",
+	    "3 John" : "1",
+	    "Jude" : "1",
+	    "Revelation" : "22"
+	};
+
+	var books = document.getElementById('books');
+	var chapters = document.getElementById('chapters');
+	var verses = document.getElementById('verses');
+
+	var chapSelected = false;
+	var verseSelected = false;
+
+    if (books.addEventListener)
+        books.addEventListener('change', function(e){
+            var numChapters = parseInt(maxchapters[this.value], 10);
+            fillSelect(chapters, numChapters);
+			if(!chapSelected) {
+            	chapters.value = '1';
+            	chapSelected = true;
+			}
+            triggerChange(chapters);
+        });
+
+    else if (books.attachEvent){
+        books.attachEvent('onchange', function(e){
+            var numChapters = parseInt(maxchapters[this.value], 10);
+            fillSelect(chapters, numChapters);
+            if(!chapSelected) {
+            	chapters.value = '1';
+            	chapSelected = true;
+			}
+            triggerChange(chapters);
+        });
+    }
+
+    if (chapters.addEventListener)
+    	chapters.addEventListener('change', function(e){
+            getVerses(this.value);
+        });
+
+    else if (books.attachEvent){
+        books.attachEvent('onchange', function(e){
+        	getVerses(this.value);
+        });
+    }
+    
+    triggerChange(books);
+
+    function getVerses() {
+    	var xmlhttp = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+		xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == XMLHttpRequest.DONE ) {
+               if(xmlhttp.status == 200){
+                   fillSelect(verses, xmlhttp.responseText);
+				   if(!verseSelected) {
+                   		verses.value = '1';
+                   		verseSelected = true;
+				   }
+               }
+               else if(xmlhttp.status == 400) { }
+               else { }
+            }
+        }
+		xmlhttp.open("POST", "https://web.archive.org/web/20220905185355/https://www.kingjamesbibleonline.org/ajax.php", true);
+		xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        xmlhttp.send('callFunc=getMaxVerseForChapter&book='+books.options[books.selectedIndex].value+'&chapter='+chapters.options[chapters.selectedIndex].value);
+    }
+
+    function fillSelect(select, totalNo) {
+    	select.innerHTML = '';
+		for (var i = 1; i <= totalNo; i++){
+            var option = document.createElement('OPTION');
+            option.innerHTML = i;
+            option.value = i;
+            select.appendChild(option);
+        }
+    }
+
+    function triggerChange(select) {
+    	if ("createEvent" in document) {
+		    var evt = document.createEvent("HTMLEvents");
+		    evt.initEvent("change", false, true);
+		    select.dispatchEvent(evt);
+		}
+		else
+		    select.fireEvent("onchange");
+    }
+
+
+	
+</script>
+
+<section>
+<div class="main">
+
+<div style="max-width:1000px;margin-top:0px;margin-bottom:-35px;">
+
+<div class="center" style="margin:auto;">
+<script async src="https://web.archive.org/web/20220905185355js_/https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-gm+0+z-5l+97" data-ad-client="ca-pub-3004108712154911" data-ad-slot="7403652610"></ins>
+<script>
+		 (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
+</div>
+<div class="clear"></div>
+
+</div>
+</section>
+<div id="myAudio" class="audiomodal">
+<div class="display-table">
+<div class="one">
+<audio controls class="audiop" preload="none" id="player">
+<source type="audio/mpeg" src="https://web.archive.org/web/20220905185355im_/https://www.kingjamesbibleonline.org/mp3/13_I_Chronicles/2_048_I_Chronicles01_KJV.mp3">
+</audio>
+</div>
+<div class="two">
+<a href="" title="Close audio player"><span class="close">&times;</span></a>
+</div>
+</div>
+</div>
+<section>
+<div id="mid-container">
+<div class="main">
+<div class="push2"></div>
+<div class="left-panel">
+<div class="book_reader">
+<div style="display: none;" itemscope itemtype="http://schema.org/Book" itemid="https://www.kingjamesbibleonline.org/King-James-Version/">
+<meta itemprop="name" content="King James Bible Online">
+<meta itemprop="author" content="King James Bible Online">
+<link itemprop="url" href="https://www.kingjamesbibleonline.org/">
+<span style="display:none;" id="organization" itemprop="publisher">
+<meta itemprop="name" content="King James Bible Online">
+</span>
+</div>
+<div class="previous" title="Previous Chapter"> <a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-Chapter-1/" title="View 1 Chronicles Chapter 1" class="previous_btn"></a> </div>
+<div class="chapters_div">
+<div class="chapters_div_in" itemscope itemtype="http://schema.org/Chapter">
+<link itemprop="isPartOf" itemscope itemtype="http://schema.org/Book" itemid="https://www.kingjamesbibleonline.org/"/>
+<div class="header_div">
+<div class="left_buttons">
+<span class="hidebooks"><a href="#" title="Previous Book" class="btn">&lt;&lt;</a></span>
+<a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-Chapter-1/" title="View 1 Chronicles Chapter 1" class="btn pre_chap">&lt; <span>Previous Chapter</span></a>
+</div>
+<div class="right_buttons"><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-Chapter-2/" title="View 1 Chronicles Chapter 2" class="btn next_chap"><span>Next Chapter</span> &gt;</a> <span class="hidebooks"><a href="#" title="Next Book" class="btn hidebooks">&gt;&gt;</a></span></div>
+<div class="chaptitle">
+<h1 class="cinzel white" itemprop="name" title="1 Chronicles Chapter 1">1 Chronicles<br><span class="chapter cinzel">Chapter
+1</span></h1>
+</div>
+<div class="clr"></div>
+</div>
+<div class="bx-wrapper">
+<div class="bxslider">
+<div class="in_slider">
+<div id="fontsizehide" class="red cinzel center">
+<a href="#options" class="opt">Bible Options</a> &nbsp; | &nbsp; <a class="red opt big" onclick="increaseFontSize('div', 2)" rel="nofollow">+</a> &nbsp; &nbsp; <a class="opt" href="#" title="Adjust Font Size: by using this feature you consent to having a cookie temporarily stored on your device to remember your preferred font size." onclick="increaseFontSize('div', 1)">Text Size</a> &nbsp; &nbsp;
+<a class="red opt big" onclick="increaseFontSize('div', -2)" rel="nofollow">&#8212;</a>
+<br/><br/>
+</div>
+<div id="div">
+<p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-1/" title="1 Chronicles 1:1 KJV verse detail"><span id="3" class="versehover">1 </span>Adam, Sheth, Enosh,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-2/" title="1 Chronicles 1:2 KJV verse detail"><span id="4" class="versehover">2 </span>Kenan, Mahalaleel, Jered,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-3/" title="1 Chronicles 1:3 KJV verse detail"><span id="5" class="versehover">3 </span>Henoch, Methuselah, Lamech,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-4/" title="1 Chronicles 1:4 KJV verse detail"><span id="6" class="versehover">4 </span>Noah, Shem, Ham, and Japheth.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-5/" title="1 Chronicles 1:5 KJV verse detail"><span id="7" class="versehover">5 </span>The sons of Japheth; Gomer, and Magog, and Madai, and Javan, and Tubal, and Meshech, and Tiras.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-6/" title="1 Chronicles 1:6 KJV verse detail"><span id="8" class="versehover">6 </span>And the sons of Gomer; Ashchenaz, and Riphath, and Togarmah.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-7/" title="1 Chronicles 1:7 KJV verse detail"><span id="9" class="versehover">7 </span>And the sons of Javan; Elishah, and Tarshish, Kittim, and Dodanim.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-8/" title="1 Chronicles 1:8 KJV verse detail"><span id="10" class="versehover">8 </span>The sons of Ham; Cush, and Mizraim, Put, and Canaan.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-9/" title="1 Chronicles 1:9 KJV verse detail"><span id="11" class="versehover">9 </span>And the sons of Cush; Seba, and Havilah, and Sabta, and Raamah, and Sabtecha. And the sons of Raamah; Sheba, and Dedan.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-10/" title="1 Chronicles 1:10 KJV verse detail"><span id="12" class="versehover">10 </span>And Cush begat Nimrod: he began to be mighty upon the earth.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-11/" title="1 Chronicles 1:11 KJV verse detail"><span id="13" class="versehover">11 </span>And Mizraim begat Ludim, and Anamim, and Lehabim, and Naphtuhim,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-12/" title="1 Chronicles 1:12 KJV verse detail"><span id="14" class="versehover">12 </span>And Pathrusim, and Casluhim, (of whom came the Philistines,) and Caphthorim.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-13/" title="1 Chronicles 1:13 KJV verse detail"><span id="15" class="versehover">13 </span>And Canaan begat Zidon his firstborn, and Heth,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-14/" title="1 Chronicles 1:14 KJV verse detail"><span id="16" class="versehover">14 </span>The Jebusite also, and the Amorite, and the Girgashite,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-15/" title="1 Chronicles 1:15 KJV verse detail"><span id="17" class="versehover">15 </span>And the Hivite, and the Arkite, and the Sinite,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-16/" title="1 Chronicles 1:16 KJV verse detail"><span id="18" class="versehover">16 </span>And the Arvadite, and the Zemarite, and the Hamathite.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-17/" title="1 Chronicles 1:17 KJV verse detail"><span id="19" class="versehover">17 </span>The sons of Shem; Elam, and Asshur, and Arphaxad, and Lud, and Aram, and Uz, and Hul, and Gether, and Meshech.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-18/" title="1 Chronicles 1:18 KJV verse detail"><span id="20" class="versehover">18 </span>And Arphaxad begat Shelah, and Shelah begat Eber.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-19/" title="1 Chronicles 1:19 KJV verse detail"><span id="21" class="versehover">19 </span>And unto Eber were born two sons: the name of the one <em>was</em> Peleg; because in his days the earth was divided: and his brother's name <em>was</em> Joktan.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-20/" title="1 Chronicles 1:20 KJV verse detail"><span id="22" class="versehover">20 </span>And Joktan begat Almodad, and Sheleph, and Hazarmaveth, and Jerah,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-21/" title="1 Chronicles 1:21 KJV verse detail"><span id="23" class="versehover">21 </span>Hadoram also, and Uzal, and Diklah,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-22/" title="1 Chronicles 1:22 KJV verse detail"><span id="24" class="versehover">22 </span>And Ebal, and Abimael, and Sheba,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-23/" title="1 Chronicles 1:23 KJV verse detail"><span id="25" class="versehover">23 </span>And Ophir, and Havilah, and Jobab. All these <em>were</em> the sons of Joktan.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-24/" title="1 Chronicles 1:24 KJV verse detail"><span id="26" class="versehover">24 </span>Shem, Arphaxad, Shelah,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-25/" title="1 Chronicles 1:25 KJV verse detail"><span id="27" class="versehover">25 </span>Eber, Peleg, Reu,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-26/" title="1 Chronicles 1:26 KJV verse detail"><span id="28" class="versehover">26 </span>Serug, Nahor, Terah,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-27/" title="1 Chronicles 1:27 KJV verse detail"><span id="29" class="versehover">27 </span>Abram; the same <em>is</em> Abraham.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-28/" title="1 Chronicles 1:28 KJV verse detail"><span id="30" class="versehover">28 </span>The sons of Abraham; Isaac, and Ishmael.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-29/" title="1 Chronicles 1:29 KJV verse detail"><span id="31" class="versehover">29 </span>These <em>are</em> their generations: The firstborn of Ishmael, Nebaioth; then Kedar, and Adbeel, and Mibsam,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-30/" title="1 Chronicles 1:30 KJV verse detail"><span id="32" class="versehover">30 </span>Mishma, and Dumah, Massa, Hadad, and Tema,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-31/" title="1 Chronicles 1:31 KJV verse detail"><span id="33" class="versehover">31 </span>Jetur, Naphish, and Kedemah. These are the sons of Ishmael.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-32/" title="1 Chronicles 1:32 KJV verse detail"><span id="34" class="versehover">32 </span>Now the sons of Keturah, Abraham's concubine: she bare Zimran, and Jokshan, and Medan, and Midian, and Ishbak, and Shuah. And the sons of Jokshan; Sheba, and Dedan.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-33/" title="1 Chronicles 1:33 KJV verse detail"><span id="35" class="versehover">33 </span>And the sons of Midian; Ephah, and Epher, and Henoch, and Abida, and Eldaah. All these <em>are</em> the sons of Keturah.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-34/" title="1 Chronicles 1:34 KJV verse detail"><span id="36" class="versehover">34 </span>And Abraham begat Isaac. The sons of Isaac; Esau and Israel.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-35/" title="1 Chronicles 1:35 KJV verse detail"><span id="37" class="versehover">35 </span>The sons of Esau; Eliphaz, Reuel, and Jeush, and Jaalam, and Korah.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-36/" title="1 Chronicles 1:36 KJV verse detail"><span id="38" class="versehover">36 </span>The sons of Eliphaz; Teman, and Omar, Zephi, and Gatam, Kenaz, and Timna, and Amalek.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-37/" title="1 Chronicles 1:37 KJV verse detail"><span id="39" class="versehover">37 </span>The sons of Reuel; Nahath, Zerah, Shammah, and Mizzah.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-38/" title="1 Chronicles 1:38 KJV verse detail"><span id="40" class="versehover">38 </span>And the sons of Seir; Lotan, and Shobal, and Zibeon, and Anah, and Dishon, and Ezer, and Dishan.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-39/" title="1 Chronicles 1:39 KJV verse detail"><span id="41" class="versehover">39 </span>And the sons of Lotan; Hori, and Homam: and Timna <em>was</em> Lotan's sister.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-40/" title="1 Chronicles 1:40 KJV verse detail"><span id="42" class="versehover">40 </span>The sons of Shobal; Alian, and Manahath, and Ebal, Shephi, and Onam. And the sons of Zibeon; Aiah, and Anah.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-41/" title="1 Chronicles 1:41 KJV verse detail"><span id="43" class="versehover">41 </span>The sons of Anah; Dishon. And the sons of Dishon; Amram, and Eshban, and Ithran, and Cheran.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-42/" title="1 Chronicles 1:42 KJV verse detail"><span id="44" class="versehover">42 </span>The sons of Ezer; Bilhan, and Zavan, <em>and</em> Jakan. The sons of Dishan; Uz, and Aran.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-43/" title="1 Chronicles 1:43 KJV verse detail"><span id="45" class="versehover">43 </span>Now these <em>are</em> the kings that reigned in the land of Edom before <em>any</em> king reigned over the children of Israel; Bela the son of Beor: and the name of his city <em>was</em> Dinhabah.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-44/" title="1 Chronicles 1:44 KJV verse detail"><span id="46" class="versehover">44 </span>And when Bela was dead, Jobab the son of Zerah of Bozrah reigned in his stead.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-45/" title="1 Chronicles 1:45 KJV verse detail"><span id="47" class="versehover">45 </span>And when Jobab was dead, Husham of the land of the Temanites reigned in his stead.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-46/" title="1 Chronicles 1:46 KJV verse detail"><span id="48" class="versehover">46 </span>And when Husham was dead, Hadad the son of Bedad, which smote Midian in the field of Moab, reigned in his stead: and the name of his city <em>was</em> Avith.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-47/" title="1 Chronicles 1:47 KJV verse detail"><span id="49" class="versehover">47 </span>And when Hadad was dead, Samlah of Masrekah reigned in his stead.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-48/" title="1 Chronicles 1:48 KJV verse detail"><span id="50" class="versehover">48 </span>And when Samlah was dead, Shaul of Rehoboth by the river reigned in his stead.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-49/" title="1 Chronicles 1:49 KJV verse detail"><span id="51" class="versehover">49 </span>And when Shaul was dead, Baalhanan the son of Achbor reigned in his stead.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-50/" title="1 Chronicles 1:50 KJV verse detail"><span id="52" class="versehover">50 </span>And when Baalhanan was dead, Hadad reigned in his stead: and the name of his city <em>was</em> Pai; and his wife's name <em>was</em> Mehetabel, the daughter of Matred, the daughter of Mezahab.</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-51/" title="1 Chronicles 1:51 KJV verse detail"><span id="53" class="versehover">51 </span>Hadad died also. And the dukes of Edom were; duke Timnah, duke Aliah, duke Jetheth,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-52/" title="1 Chronicles 1:52 KJV verse detail"><span id="54" class="versehover">52 </span>Duke Aholibamah, duke Elah, duke Pinon,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-53/" title="1 Chronicles 1:53 KJV verse detail"><span id="55" class="versehover">53 </span>Duke Kenaz, duke Teman, duke Mibzar,</a></p><p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1-54/" title="1 Chronicles 1:54 KJV verse detail"><span id="56" class="versehover">54 </span>Duke Magdiel, duke Iram. These <em>are</em> the dukes of Edom.</a></p> </div>
+</div>
+</div>
+</div>
+<div class="footer_div center">
+<div>
+<div class="left_buttons"><span class="hidebooks"><a href="#" title="Previous Book" class="btn">&lt;&lt;</a></span>
+<a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-Chapter-1/" title="View 1 Chronicles Chapter 1" class="btn pre_chap">&lt; <span>Previous Chapter</span></a></div>
+<div class="right_buttons"><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-Chapter-2/" title="View 1 Chronicles Chapter 2" class="btn next_chap"><span>Next Chapter</span> &gt;</a> <span class="hidebooks"><a href="#" title="Next Book" class="btn">&gt;&gt;</a></span></div>
+</div>
+<div class="clr"></div>
+<div><br/></div>
+
+</div>
+</div>
+</div>
+<div class="next"> <a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-Chapter-2/" title="View 1 Chronicles Chapter 2" class="next_btn"></a> </div>
+<div class="clear"></div>
+</div>
+<div class="pad30"></div>
+<div class="clear center adhide">
+<script async src="https://web.archive.org/web/20220905185355js_/https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3004108712154911" crossorigin="anonymous"></script>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-3004108712154911" data-ad-slot="4420705550"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class="pad30 clear"></div>
+<div class="red_sections" id="discussion_section">
+<h2 class="inline cinzel greater text">Commentary for
+1 Chronicles 1 </h2>
+<input type="submit" class="button" onclick="showtoggle('commentary')" value="View / Hide">
+<div class="clr"></div>
+</div>
+<div id="commentary" class="comments_sections w3-hide commentary"><p>The books of Chronicles are, in a great measure, repetitions of what is in the books of Samuel and of the Kings, yet there are some excellent useful things in them which we find not elsewhere. The FIRST BOOK traces the rise of the Jewish people from Adam, and afterward gives an account of the reign of David. In the SECOND BOOK the narrative is continued, and relates the progress and end of the kingdom of Judah; also it notices the return of the Jews from the Babylonish captivity. Jerome says, that whoever supposes himself to have knowledge of the Scriptures without being acquainted with the books of Chronicles, deceives himself. Historical facts passed over elsewhere, names, and the connexion of passages are to be found here, and many questions concerning the gospel are explained.Genealogies, Adam to Abraham. (1-27) The descendants of Abraham. (28-54)1-27 This chapter, and many that follow, repeat the genealogies, or lists of fathers and children in the Bible history, and put them together, with many added. When compared with other places, there are some differences found; yet we must not therefore stumble at the word, but bless God that the things necessary to salvation are plain enough. The original of the Jewish nation is here traced from the first man that God created, and is thereby distinguished from the obscure, fabulous, and absurd origins assigned to other nations. But the nations now are all so mingled with one another, that no one nation, nor the greatest part of any, is descended entirely from any of one nation, nor the greatest part of any, is descended entirely from any of these fountains. Only this we are sure of, that God has created of one blood all nations of men; they are all descended from one Adam, one Noah. Have we not all one father? Has not one God created us? #Mal 2:10|.<br/><br/>28-54 The genealogy is from hence confined to the posterity of Abraham. Let us take occasion from reading these lists of names, to think of the multitudes that have gone through this world, have done their parts in it, and then quitted it. As one generation, even of sinful men, passes away, another comes. #Ec 1:4; Nu 32:14|, and will do so while the earth remains. Short is our passage through time into eternity. May we be distinguished as the Lord's people.<br/><br/>Commentary by Matthew Henry, 1710.</p><p class="softline">View more commentaries for this chapter: </p><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1_Commentary-Pulpit/" class="button" title="View Commentary for 1 Chronicles 1">Pulpit</a> &nbsp; <a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1_Commentary-Gill/" class="button" title="View Commentary for 1 Chronicles 1">Gill's</a> &nbsp; <a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1_Commentary-Ellicott/" class="button" title="View Commentary for 1 Chronicles 1">Ellicott</a> &nbsp; </div>
+<div class="whitebk">
+<div class="red_sections" id="discussion_section">
+<h2 class="inline cinzel greater text">Discussion for
+1 Chronicles 1 </h2>
+<a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-Chapter-1-Discussion/" class="button" title="View All Discussusion for 1 Chronicles Chapter 1">View All</a>
+<div class="clr"></div>
+</div>
+<br/><br/>
+<h2 class="bold red center cinzel">Do you have a Bible comment or question?</h2>
+<div class="contact_form">
+<div class="general">
+<form action="https://web.archive.org/web/20220905185355/https://www.kingjamesbibleonline.org/biblecomment-process-b.php" method="post" id="contact-form">
+<input type="hidden" id="ip" name="ip" value="207.241.232.40">
+<input type="hidden" id="replyid" name="replyid" value="">
+<input type="hidden" id="rootid" name="rootid" value="">
+<input type="hidden" id="depth" name="depth" value="0">
+<input type="hidden" readonly id="idpath" name="idpath" value="">
+
+<input type="hidden" readonly name="returnurl" value="../1-Chronicles-Chapter-1-Discussion/">
+<input type="hidden" id="book" name="book" value="1 Chronicles">
+<input type="hidden" id="chapter" name="chapter" value="1">
+<div class="form_inputs"> <span>
+<input type="text" class="username" name="name" id="name" placeholder="Your Name..." tabindex="11" data-error="Please enter first name" required>
+</span> <span class="error meme"></span>
+</div>
+<div class="hide">
+<input type="text" name="firstname" autocomplete="off">
+<input type="text" name="lastname" autocomplete="off">
+<input type="text" name="phone" autocomplete="off">
+</div>
+<div class="form_inputs"> <span>
+<input type="email" class="user_email" name="realemail" id="email" data-wrong="Please enter valid email address" data-error="Please enter email address" placeholder="Your Email... (Will remain hidden &amp; anonymous)" tabindex="12" required>
+</span> <span class="error meme"></span>
+</div>
+<div class="form_inputs">
+<textarea id="rootcomment" class="form-control" tabindex="13" name="comment" id="comment" placeholder="Your Comment..." data-error="Please enter comments" data-limit="2000" minlength="8" maxlength="2000" onkeyup="limitTextCount('rootcomment', 'divcount', 2000);" onkeydown="limitTextCount('rootcomment', 'divcount', 2000);" required></textarea><br/>
+<div id="divcount">2000 characters remain...</div>
+<span class="error meme"></span> </div>
+
+<input type="hidden" name="notify" id="notify" value="0"/>
+
+<br/>
+<input type="submit" class="button" value="Submit Comment"><br/><br/><br/>
+</form>
+</div></div></div>
+<div class="con_footer_div">
+<div class="left_buttons"><span class="hidebooks"><a href="#" title="Previous Book" class="btn">&lt;&lt;</a></span> <a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-Chapter-1/" title="View 1 Chronicles Chapter 1" class="btn pre_chap">&lt; <span>Previous Chapter</span></a></div>
+<div class="right_buttons"><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-Chapter-2/" title="View 1 Chronicles Chapter 2" class="btn next_chap"><span>Next Chapter</span> &gt;</a> <span class="hidebooks"><a href="#" title="Next Book" class="btn">&gt;&gt;</a></span></div>
+<div class="clr"></div>
+</div>
+</div>
+<div class="right_panel">
+<a name="options"></a>
+<div class="bible_options" id="options">
+<h4 class="cinzel title">Bible Options</h4>
+<ul class="social-sec">
+<li> <span class="bible_ic bible_ic4"></span>
+<a title="Adjust Font Size: by using this feature you consent to having a cookie temporarily stored on your device to remember your preferred font size." onclick="increaseFontSize('div', 1)">Text Size</a> <a style="font-size:130%;" onclick="increaseFontSize('div', 2)" rel="nofollow">+</a> &nbsp;
+<a style="font-size:130%;" onclick="increaseFontSize('div', -2)" rel="nofollow">&#8212;</a>
+</li>
+<li> &nbsp;Share to:
+<span class="bible_ic shareicon nofloat"></span>
+<b itemscope itemtype="http://schema.org/SocialMediaPosting">
+<a target="_blank" href="https://web.archive.org/web/20220905185355/https://www.facebook.com/sharer/sharer.php?u=https%3A//www.kingjamesbibleonline.org/1-Chronicles-Chapter-1/" title="Facebook" class="fb"><i class="social_ic f"></i></a>
+<meta itemprop="headline" content="Share on Facebook">
+<meta content="https://web.archive.org/web/20220905185355im_/https://www.kingjamesbibleonline.org/images/king-james-bible-kjv.png" itemprop="image">
+<b itemprop="sharedContent" itemscope itemtype="http://schema.org/WebPage">
+<meta content="1 Chronicles 1 KJV &quot;Duke Magdiel, duke Iram. These <em>are</em> the dukes of Edom.&quot;" itemprop="headline">
+<meta content="https://web.archive.org/web/20220905185355/https://www.facebook.com/sharer/sharer.php?u=https%3A//www.kingjamesbibleonline.org/1-Chronicles-Chapter-1/" itemprop="url">
+</b>
+</b>
+&nbsp;
+<b itemscope itemtype="http://schema.org/SocialMediaPosting">
+<a target="_blank" href="https://web.archive.org/web/20220905185355/https://twitter.com/intent/tweet?text=1 Chronicles 1:&amp;url=https%3A%2F%2Fwww.kingjamesbibleonline.org/1-Chronicles-Chapter-1/" title="Twitter" class="tw"><i class="social_ic t"></i></a>
+<meta itemprop="headline" content="Share on Twitter">
+<meta content="https://web.archive.org/web/20220905185355im_/https://www.kingjamesbibleonline.org/images/king-james-bible-kjv.png" itemprop="image">
+</b>
+</li>
+<li> <span class="bible_ic icon_print"></span><a href="javascript:window.print()" title="Print this chapter">Print Scripture</a> </li>
+<li> <span class="bible_ic icon_outline"></span> <a href="/web/20220905185355/https://www.kingjamesbibleonline.org/outline-1-Chronicles/" title="View Outline for 1 Chronicles">Book Outline</a></li>
+<li> <span class="bible_ic icon_commentary"></span> <a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-Chronicles-1_Commentary-Pulpit/" title="View Commentary for 1 Chronicles 1">Commentary <i class="new">New</i></a></li>
+<li> <span class="bible_ic icon_p"></span><a href="
+ /1-Chronicles-1-kjv/" title="View this chapter in paragraph format">Paragraph View</a> </li>
+<li> <span class="bible_ic icon_pll"></span><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1-chronicles-1-parallel-kjv-hebrew/" title="Compare another Bible translation to the KJV">Parallel View</a> </li>
+<li> <span class="bible_ic bible_ic5"></span>
+<a href="javascript:void(0);" id="audioControl" title="Hear this chapter being read to you, courtesy of the Listener's Bible, Max McLean">Play Audio</a>
+</li>
+</ul></div> <div class="pad30 clear"></div>
+<div class="center w250">
+<span class="red">
+<a href="/web/20220905185355/https://www.kingjamesbibleonline.org/bible-commentaries/" target="_blank" title="Bible commentaries" class="underline">
+<div class="button bkblue2">View Bible commentaries<br/>
+</a></div>
+</span><br/><br/></div>
+<div class="check_boxes">
+<div class="my_options">
+<h4 class="trivia cinzel title">Bible Trivia</h4>
+<form method="post" action="/web/20220905185355/https://www.kingjamesbibleonline.org/Bible-Trivia-Questions/chapter-answers.php" name="myform" id="formQuestion">
+<div class="Questions">
+Whose lineage is described in 1 Chronicles 1? </div>
+<div class="answers">
+<ul>
+<li><input class="radio" id="chkk1" type="radio" name="q1" value="1"> The entire Israelite people</li><li><input class="radio" id="chkk2" type="radio" name="q1" value="2"> Noah specifically</li><li><input class="radio" id="chkk3" type="radio" name="q1" value="3"> The tribe of Benjamin specifically</li><li><input class="radio" id="chkk4" type="radio" name="q1" value="4"> The prophet Elijah</li><li><input class="radio" id="chkk5" type="radio" name="q1" value="5"> King David specifically</li> <input type="hidden" value="8702" name="rand">
+<input type="hidden" value="LIMIT 0,1" name="limit">
+<input type="hidden" value="%%" name="saveddifficulty">
+<input type="hidden" value="1 Chronicles" name="book">
+<input type="hidden" value="1" name="chapter">
+<input type="hidden" value="" name="subject">
+<input type="hidden" value="" name="category">
+<input type="hidden" value="AND `book` = '1 Chronicles'" name="and">
+<input type="hidden" value="AND `chapter` = '1'" name="andtwo">
+<input type="hidden" value="" name="andthree">
+<input type="hidden" value="0" name="rownumber">
+<input type="hidden" value="0" name="totalquestions">
+<input type="hidden" value="" name="score">
+</ul>
+</div>
+<div class="radio_sel_error"><span id="radio_error_show1"></span></div>
+<div class="form_inputs_submit center">
+<input type="submit" class="button" value="Check Answer">
+</div>
+</form>
+</div>
+</div>
+<div class="center w250">
+<span class="red"><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/King-James-Bible-Store/#!/Free-KJV-Bible-Ebook-PDF-EPUB-MOBI-or-Word-file/p/97238749/category=26659159" title="Free KJV Ebook Download" class="underline">
+<div class="center w150"><img src="/web/20220905185355im_/https://www.kingjamesbibleonline.org/images/kjv-ebook-download.png" title="Free KJV Ebook Download" alt="Free KJV Ebook Download"></div>
+<div class="left bookgift"><strong>Free KJV Ebook Download</strong>...<br/>
+</a></div>
+</span><br/></div>
+<div class="pad30 clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<script type="text/javascript">
+ function show_comment_form(num, self, isRoot){
+  console.log('show_comment_form user registered');var inputDiv = self.parentElement.nextElementSibling;[0];console.log(inputDiv.getElementsByTagName('INPUT'));if(inputDiv.getElementsByTagName('INPUT').length!=0){return};inputDiv.innerHTML+='<input name=c_user_comment value="" placeholder="'+(isRoot?'Enter your reply...':'Write a comment...')+'" class="full-width no-margin" maxlength="500" data-commentid="'+num+'" onkeydown="submitReply(event,this)"/>';inputDiv.classList.add('comment_form_active');input = inputDiv.getElementsByTagName('INPUT')[0];input.focus(); }
+ 
+ 
+var audiomodal = document.getElementById("myAudio");
+var ctrl = document.getElementById("audioControl");
+var span = document.getElementsByClassName("close")[0];
+ctrl.onclick = function () {
+	var player = document.getElementById('player');
+	audiomodal.style.display = "block";
+ var pause = ctrl.innerHTML === 'Pause';
+ document.getElementById("player").style.display="block";
+ ctrl.innerHTML = pause ? 'Play Audio' : 'Pause';
+ var method = pause ? 'pause' : 'play';
+ player[method]();
+ return false;
+};
+span.onclick = function() {
+  audiomodal.style.display = "none";
+}
+
+
+function showtoggle(id) {
+  var showelement = document.getElementById(id);
+  showelement.classList.toggle("w3-show");
+}
+
+function hidetoggle(id) { 
+  var hideelement = document.getElementById(id);
+  hideelement.classList.toggle("w3-hide");
+}
+
+</script>
+<script data-cfasync="false">
+ function getVote(int) {
+ if (window.XMLHttpRequest) {
+ xmlhttp = new XMLHttpRequest();
+ } else { 
+ xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+ }
+ xmlhttp.onreadystatechange = function() {
+ if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+ document.getElementById("poll").innerHTML = xmlhttp.responseText;
+ }
+ }
+ xmlhttp.open("GET", "/ajaxreadingcheckbox.php?8702&vote=" + int, true);
+ xmlhttp.send();
+ }
+ 
+ 
+
+ </script>
+<div class="push"></div> <div class="adsense center"> <script async src="https://web.archive.org/web/20220905185355js_/https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3004108712154911" crossorigin="anonymous"></script>  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3004108712154911" data-ad-slot="5299549845" data-ad-format="horizontal" data-full-width-responsive="true"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div> <div class="push"></div> <footer> <div class="footer_up"> <div class="main"> <div class="footer_logo"></div> <div class="footer_left"> <div class="menus"> <div class="title cinzel">KJV Bible</div> <ul> <li><strong><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/index.php" title="KJV Standard">KJV Standard</a></strong></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1611-Bible/" title="KJV 1611 A.D.">KJV 1611</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/1769-King-James-Bible-Introduction/" title="KJV Introduction">KJV Introduction</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Apocrypha-Books/" title="KJV Apocrypha">KJV Apocrypha</a></li> <li><a href="https://web.archive.org/web/20220905185355/https://m.kingjamesbibleonline.org/" title="KJV Mobile Site">KJV Mobile Site</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/King-James-Bible-Store/" title="KJV Store">KJV Store</a></li> </ul> </div> <div class="menus"> <div class="title cinzel">Study Tools</div> <ul> <li><strong><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Bible-Trivia-Questions/" title="Bible Trivia Questions">Bible Trivia Questions</a></strong></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/verse-of-day.php" title="Verse of the Day">Verse of the Day</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Inspirational-Images/" title="Inspirational Images">Inspirational Images</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Popular-Bible-Verses.php" title="Popular Bible Verses">Popular Bible Verses</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Bible-Verses/" title="Bible Verses by Topic">Bible Verses by Topic</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/bible-stories/" title="Bible Stories">Bible Stories</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Bible-in-Year.php" title="Bible in a Year Reading">Bible in a Year Reading</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/bible-commentaries/" title="Bible Commentaries">Bible Commentaries</a></li> </ul> </div> </div> <div class="footer_right"> <div class="menus"> <div class="title cinzel">Community</div> <ul> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Bible-Questions/" title="Bible Questions">Ask a Bible Question</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Bible-Discussion/" title="Bible Discussion">Bible Discussion</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Share-Testimony/" title="Christian Testimonies">Christian Testimonies</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Add-Bible-to-Your-Website.php">Add KJV to your Website</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Donate.php" title="Donate or Volunteer">Donate or Volunteer</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/become-a-christian.php" title="How to Become a Christian">Become a Christian</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Prayer-Requests/" title="Prayer Requests">Prayer Requests</a></li> </ul> </div> <div class="menus right padd-rt"> <div class="title cinzel" title="">About</div> <ul> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/King-James-Version/" title="About the King James Version">About KJV</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/King-James-Bible-English/" title="About KJV English">About KJV English</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/About.php" title="About this King James Bible Online Website">About Website</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/FAQ.php" title="FAQ (Frequently Asked Questions)">FAQ</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Sitemap.php" title="Sitemap">Sitemap</a></li> <li><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Contact_Us.php" title="Contact Us">Contact Us</a></li> </ul> </div> <div class="clr"></div> </div> <div class="clr"></div> </div> </div> <div class="footer_low"> <div class="main"> <div class="right"> <div><a href="/web/20220905185355/https://www.kingjamesbibleonline.org/Privacy-Policy.php" title="Privacy Policy">Privacy Policy</a></div> <ul> <li><a target="_blank" rel="noopener" href="https://web.archive.org/web/20220905185355/https://www.facebook.com/KingJamesBibleOnline" title="King James Bible on Facebook" class="fb"><i class="social_ic f"></i></a></li> </ul> <div class="clr"></div> </div> <div class="left">&copy; 2022 King James Bible Online&trade;</div> <div class="gototop center"><a href="#top">&#9650; Top</a></div> <div class="clr"></div> </div> </div> </footer>  </div> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//web.archive.org/web/20220905185355/https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66888036-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script defer src="https://web.archive.org/web/20220905185355js_/https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="" data-cf-beacon="{&quot;rayId&quot;:&quot;74612ba8dece96db&quot;,&quot;token&quot;:&quot;450e618e8187489e9298d7d24c4c0a89&quot;,&quot;version&quot;:&quot;2022.8.1&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 18:53:55 Sep 05, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:41:08 Sep 29, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 129.278
+  exclusion.robots: 0.086
+  exclusion.robots.policy: 0.079
+  RedisCDXSource: 15.991
+  esindex: 0.007
+  LoadShardBlock: 97.129 (3)
+  PetaboxLoader3.datanode: 97.983 (4)
+  CDXLines.iter: 12.944 (3)
+  load_resource: 82.385
+  PetaboxLoader3.resolve: 39.554
+-->

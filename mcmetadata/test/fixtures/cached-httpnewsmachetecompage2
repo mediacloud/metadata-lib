@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<script>
+			var forwardingUrl = "/page/bouncy.php?&bpae=GbhOd7cmokx%2FjnN0sK%2FqFfeMTu4ZF5N3%2FrgqtlnYZyo3BZwtjP0%2FluBxPzpHnb1fzRthZs3q%2BPRi4gEwDv%2Fd3iujguc9ORcMCzpjB8bRMrh5JYhwLmz1tXrHIhN%2FsPICJB1sCHTxkdoaPX9Born1U%2FvbKMQpC8ny7H11Vx8EytsoAf%2BwuNr7EpQ8DsBa5x3%2B9XRu0YjJFfxid2reJGABQ7SyhhEBE4yzpPt1TgtMVtcsmiWFpM%2B5VKzgtujgChqG1TuzPawVEkm1zyLhs0IzXL2XnhC0tjoLSbxeOn9rvyAjDrUnXreAfMDkBi4E3iPfBd7vIU%2BtE84CXAjAIB05XSTKnUt0u1p7Hm5%2FySPZPMAey%2Bulsn3YxZCBnyJjALRLSzoCLLgRwRh7U4k9UNKxgdpkks5Y3rxeLsqSsQ%3D%3D&redirectType=js";
+			var destinationUrl = "/page/bouncy.php?&bpae=GbhOd7cmokx%2FjnN0sK%2FqFfeMTu4ZF5N3%2FrgqtlnYZyo3BZwtjP0%2FluBxPzpHnb1fzRthZs3q%2BPRi4gEwDv%2Fd3iujguc9ORcMCzpjB8bRMrh5JYhwLmz1tXrHIhN%2FsPICJB1sCHTxkdoaPX9Born1U%2FvbKMQpC8ny7H11Vx8EytsoAf%2BwuNr7EpQ8DsBa5x3%2B9XRu0YjJFfxid2reJGABQ7SyhhEBE4yzpPt1TgtMVtcsmiWFpM%2B5VKzgtujgChqG1TuzPawVEkm1zyLhs0IzXL2XnhC0tjoLSbxeOn9rvyAjDrUnXreAfMDkBi4E3iPfBd7vIU%2BtE84CXAjAIB05XSTKnUt0u1p7Hm5%2FySPZPMAey%2Bulsn3YxZCBnyJjALRLSzoCLLgRwRh7U4k9UNKxgdpkks5Y3rxeLsqSsQ%3D%3D&redirectType=meta";
+			var addDetection = true;
+			if (addDetection) {
+				var inIframe = window.self !== window.top;
+				forwardingUrl += "&inIframe=" + inIframe;
+				var inPopUp = (window.opener !== undefined && window.opener !== null && window.opener !== window);
+				forwardingUrl += "&inPopUp=" + inPopUp;
+			}
+			window.location.replace(forwardingUrl);
+		</script>
+		<noscript>
+			<meta http-equiv="refresh" content="1;url=/page/bouncy.php?&bpae=GbhOd7cmokx%2FjnN0sK%2FqFfeMTu4ZF5N3%2FrgqtlnYZyo3BZwtjP0%2FluBxPzpHnb1fzRthZs3q%2BPRi4gEwDv%2Fd3iujguc9ORcMCzpjB8bRMrh5JYhwLmz1tXrHIhN%2FsPICJB1sCHTxkdoaPX9Born1U%2FvbKMQpC8ny7H11Vx8EytsoAf%2BwuNr7EpQ8DsBa5x3%2B9XRu0YjJFfxid2reJGABQ7SyhhEBE4yzpPt1TgtMVtcsmiWFpM%2B5VKzgtujgChqG1TuzPawVEkm1zyLhs0IzXL2XnhC0tjoLSbxeOn9rvyAjDrUnXreAfMDkBi4E3iPfBd7vIU%2BtE84CXAjAIB05XSTKnUt0u1p7Hm5%2FySPZPMAey%2Bulsn3YxZCBnyJjALRLSzoCLLgRwRh7U4k9UNKxgdpkks5Y3rxeLsqSsQ%3D%3D&redirectType=meta" />
+		</noscript>
+	</head>
+</html>

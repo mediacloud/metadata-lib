@@ -1,0 +1,493 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>La Provincia encara obras de canalización en Yapeyú - InformeCorrientes.com - Corrientes Capital</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META NAME="author" CONTENT="www.chamigonet.com.ar">
+<meta name="copyright" content="www.InformeCorrientes.com">
+<META NAME="subject" CONTENT="Noticias, news, politica, Corrientes Capital">
+<META NAME="Description" CONTENT="Portal de Contenidos de noticias, Corrientes , República Argentina.">
+<meta name=DC.Description content="Portal de Contenidos de noticias, Corrientes , República Argentina.">
+<meta http-equiv=description content="Corrientes Capital - Noticias, Agenda, Actualidad.">
+<META NAME="Classification" CONTENT="Corrientes Capital, Noticias de Corrientes, Política, Economía, Policiales, Deportes, Cultura, La Región, El País, El Mundo">
+<META NAME="Keywords" CONTENT="Corrientes Capital, Noticias de Corrientes, Política, Economía, Policiales, Deportes, Cultura, La Región, El País, El Mundo">
+<META NAME="Geography" CONTENT="Corrientes, Argentina">
+<META NAME="Language" CONTENT="Spanish">
+<META HTTP-EQUIV="Expires" CONTENT="never">
+<META NAME="Revisit-After" CONTENT="7 days">
+<META NAME="distribution" CONTENT="Global">
+<META NAME="Robots" CONTENT="INDEX,FOLLOW">
+<META NAME="country" CONTENT="Argentina">
+<link rel="shortcut icon" href="informe.ico">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.informecorrientes.com/rss.asp" />
+<link href="informectes.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="js/style.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	// Crea la función que actualizará la capa #hora-servidor
+	jClock = function(jHora, jMin, jSec) {
+		$("#hora-servidor").html(jHora + ':' + jMin + ':' + jSec);
+	}
+
+	// Obtiene los valores de la fecha, hora, minutos y segundos del servidor
+	var jDate = '28/09/2022';
+	var jHora = '21';
+	var jMin = '42';
+	var jSec = '10';
+
+	// Actualiza la capa #hora-servidor
+	jClock(jHora,jMin,jSec);
+
+	// Crea un intervalo cada 1000ms (1s)
+	var jClockInterval = setInterval(function(){
+		/** Incrementa segundos */
+		jSec++;
+		/** Si el valor de jSec es igual o mayor a 60 */
+		if (jSec >= 60) {
+			/** Incrementa jMin en 1 */
+			jMin++;
+			/** Si el valor de jMin es igual o mayor a 60 */
+			if (jMin >= 60) {
+				/** Incrementa jHora en 1 */
+				jHora++;
+
+				/** Si el valor de jHora es igual o mayor a 23 */
+				if (jHora > 23) {
+					/** Cambia la hora a 00 */
+					jHora = '00';
+				}
+				/** Si el valor de jHora es menor a 10, le agrega un cero al valor */
+				else if (jHora < 10) { jHora = '0'+jHora; }
+				jMin = '00';
+			}
+			else if (jMin < 10) { jMin = '0'+jMin; }
+
+			jSec = '00';
+		}
+		else if (jSec < 10) { jSec = '0'+jSec; }
+
+		jClock(jHora,jMin,jSec);
+	}, 1000);
+
+});
+</script>
+
+</head>
+<body class="BODY">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr> 
+  <TD width="25%" height="100%" class="bkg-izq">&nbsp;</TD>
+  <td width="990" height="100%" class="bkg-centro_cabecera">
+	<link href="informectes.css" rel="stylesheet" type="text/css">
+<div class="cabe_arriba">
+ <table width="990" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+   <td width="12" height="50"></td>
+   <td width="383">
+     <span class='fecha2'>Mi&eacute;rcoles, 28 de Septiembre de 2022</span><span class='fecha1'> | Corrientes - Argentina</span>	   
+   </td>
+   <td width="250"><div id="caja_busqueda">
+       <form id="form_b" name="form_b" method="post" action="buscar.asp" class="form_b">
+         <table width="248" border="0" cellpadding="0" cellspacing="0">
+           <tr>
+             <td width="212">
+               <input name="bus" type="text" class="c_buscar" id="bus" maxlength="25" />
+               </td>
+             <td width="36">
+               <input name="image" type=image class="b_buscar" src='imagenes/b_buscar.png' />
+               </td>
+             </tr>
+           </table>
+         </form>	
+     </div>   </td>
+
+   <td width="345" align="center" valign="middle"><img src="imagenes/radioenvivo.png" width="189" height="25" /></td>
+  </tr>
+ </table>
+</div>
+<div class="cabe_sombra1">
+</div> 
+
+<div class="cabecera_ppal">
+  
+   <table width="990" border="0" cellspacing="0" cellpadding="0">
+     <tr>
+       <td width="313">
+        <div class="logo_ppal">
+         <a href="index.asp"><img src="imagenes/logop.jpg" width="261" height="263" border="0" /></a>
+        </div>
+       </td>
+       <td width="677">
+        <div class="cuadro_arriba_derecha">
+         <div class="sp-slideshow">
+
+ <input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
+ <label for="button-1" class="button-label-1"></label>
+
+ <input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
+ <label for="button-2" class="button-label-2"></label>
+
+ <input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
+ <label for="button-3" class="button-label-3"></label>
+
+ <input id="button-4" type="radio" name="radio-set" class="sp-selector-4" />
+ <label for="button-4" class="button-label-4"></label>
+
+ <input id="button-5" type="radio" name="radio-set" class="sp-selector-5" />
+ <label for="button-5" class="button-label-5"></label>
+
+ <label for="button-1" class="sp-arrow sp-a1"></label>
+ <label for="button-2" class="sp-arrow sp-a2"></label>
+ <label for="button-3" class="sp-arrow sp-a3"></label>
+ <label for="button-4" class="sp-arrow sp-a4"></label>
+ <label for="button-5" class="sp-arrow sp-a5"></label>
+
+ <div class="sp-content">
+  <div class="sp-parallax-bg"></div>
+   <ul class="sp-slider clearfix">
+      <li><img src="galeria/portada/corrientes1.jpg" alt="Corrientes" /></li>
+      <li><img src="galeria/portada/corrientes2.jpg" alt="Corrientes" /></li>
+      <li><img src="galeria/portada/corrientes3.jpg" alt="Corrientes" /></li>
+      <li><img src="galeria/portada/corrientes4.jpg" alt="Corrientes" /></li>
+      <li><img src="galeria/portada/corrientes5.jpg" alt="Corrientes" /></li>
+   </ul>
+  </div><!-- sp-content -->
+</div><!-- sp-slideshow -->
+
+        </div>
+       </td>
+     </tr>
+   </table>
+   
+  
+
+</div>
+  
+  
+  <div class="cabe_linea_bajo_logo"></div>
+ </div>
+ <div class="linea_bajo_menu">
+<table width="990" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="80" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="index.asp">Portada</a></div></td>
+    <td width="73" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=1">Pol&iacute;tica</a></div></td>
+    <td width="185" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=2">Informaci&oacute;n General</a></div></td>
+    <td width="77" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=3">Policial</a></div></td>
+    <td width="85" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=4">Deportes</a></div></td>    
+    <td width="95" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=5">Nacional</a></div></td>
+    <td width="116" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=6">Internacional</a></div></td>
+    <td width="74" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=7">Astros</a></div></td>
+    <td width="64" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=8">Eros</a></div></td>
+    <td width="141" valign="top" class="sin_linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=9">Info+M&uacute;sica</a></div></td>
+    </tr>
+</table>
+</div>
+	</td>
+  <td width="25%" height="100%" class="bkg-der">&nbsp;</td>
+ </tr>
+
+ <tr>
+  <TD height="100%" class="bkg-izq_2">&nbsp;</TD>
+  <td height="100%">
+   <div class="sombra_n">
+   <table width="990" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+     <td height="10" colspan="3" valign="bottom">
+      <div class="sombra2">
+      </div>
+     </td>
+     </tr>
+    <tr>
+      <td colspan="2" valign="top">
+      <table width="95%" border="0" align="left" cellpadding="0" cellspacing="0" class="tabla_verseccion">
+       <tr>
+         <td valign="top"><table width="94%" border="0" cellspacing="0">
+           <tr>
+             <td height="10"></td>
+           </tr>
+           <tr>
+             <td><div>
+               <div><div class ='titulo'>La Provincia encara obras de canalización en Yapeyú</div>
+                            
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                             <tr>
+                               <td width="64%">
+                               
+                               <div class='volanta_fecha'>Viernes, 30 de abril de 2021</div>									 
+
+                               </td>
+                               <td width="36%" align="right">
+                               
+                               </td>
+                             </tr>
+                           </table>
+                           <IMG src='galeria/regreg3232dd.jpg' class='fotonota_ap'><div class='intro'>El Gobierno de la Provincia se encuentra realizando cerca de cinco mil metros de canalización de desagües pluviales en Yapeyú, con el objeto de encauzar el agua en tiempos de lluvia que provoca serios problemas de inundación en la zona, especialmente en el sector sur de viviendas ubicado en el acceso al éjido urbano de la localidad.<br></div><span class ='cuerpo'><br><br>Dichas obras fueron motivadas debido a las precipitaciones de gran intensidad registradas últimamente, el tiempo pico de lluvia muy corto debido a las fuertes pendientes y a la precaria red de desagüe existente, constituida por zanjas con obstrucciones localizadas.<br><br><br><br>Ante este cuadro de situación, la Coordinación de Proyecto del ministerio de Obras y Servicios Públicos, diseñó un sistema de desagües pluviales para dar respuesta efectiva a esa problemática, obra en marcha que dicho organismo supervisa.<br><br><br><br>En este sentido se trabaja en la construcción de sendos canales a cielo abierto; uno principal que aproximadamente de 2.800 metros de largo, y otro canal secundario de una longitud de 1.900 metros, completando una extensión total de 4.700 metros que descargan en el arroyo Guaviraví, al sur de Yapeyú que a su vez desemboca en el río Uruguay.<br><br><br><br>En diferentes cruces de esta canalización se instalan tubos de hormigón armado, en secciones de baterías, para asegurar la libre circulación vial en la zona.</span><br><br>
+									 <div>
+                                     
+									 </div>
+             </div>
+               
+                            </td>
+           </tr>
+           <tr>
+             <td height="10"></td>
+           </tr>
+         </table></td>
+       </tr>
+     </table>
+      
+      </td>
+      <td width="330" valign="top">
+        <div id="contenedores_columnas">
+
+<IMG src='publicidad/bneme.gif' class='foto_destacada1'>
+	
+	
+
+		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
+			<tr>
+			 <td valign='top' align="center">
+			  <IMG src='galeria/296395_grande (1).jpg' class='foto_destacada1'>		   
+			 </td>
+			</tr> 
+         <tr>
+			 <td valign='top'>
+			 <span class="volanta_col3">CORRIENTES</span>
+			 </td>
+	    </tr>
+			<tr>
+			 <td valign='top'>
+				<a href='vernota.asp?id_noticia=49868' class ='titulo_col3'>Designaron a Compromiso Ciuadadano como asesores ad honorem de la vicegobernación</a><br />		   
+			 </td>
+			</tr> 
+	    <tr>
+			 <td valign='top'>
+			  
+			 
+					 <a href='vernota.asp?id_noticia=49868' class ='intro_col3'>El vicegobernador, Pedro Braillard Poccard, recibió este miércoles a los integrantes de la Asociación Civil Compromiso Ciudadano. En el marco de los diez años de la agrupación, ratificaron su compromiso para continuar trabajando en temas de interés.
+</a> 
+					 
+			 </td>
+			</tr>
+      
+			<tr>
+			 <td> 
+			  
+	     </td>
+			</tr>  
+             	
+             <tr>
+			 <td class="linea_p_separa">
+			 </td>
+			</tr> 			
+		 </table>
+		 
+		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
+			<tr>
+			 <td valign='top' align="center">
+			  <IMG src='galeria/5e21f515e906a_900.jpg' class='foto_destacada1'>		   
+			 </td>
+			</tr> 
+         <tr>
+			 <td valign='top'>
+			 <span class="volanta_col3">Separado del plantel de Vélez</span>
+			 </td>
+	    </tr>
+			<tr>
+			 <td valign='top'>
+				<a href='vernota.asp?id_noticia=49857' class ='titulo_col3'>Ricardo Centurión: "Me cansé de la vida"</a><br />		   
+			 </td>
+			</tr> 
+	    <tr>
+			 <td valign='top'>
+			  
+			 
+					 <a href='vernota.asp?id_noticia=49857' class ='intro_col3'>"Me pusieron todos los días por la tarde para no cruzarme con el plantel profesional", cuestionó "Ricky" a la vez que aseguró que necesitaba aislarse. "Me sentía agobiado. Tuve ataques de pánico. Necesitaba irme de todo", expresó.
+</a> 
+					 
+			 </td>
+			</tr>
+      
+			<tr>
+			 <td> 
+			  
+	     </td>
+			</tr>  
+             	
+             <tr>
+			 <td class="linea_p_separa">
+			 </td>
+			</tr> 			
+		 </table>
+		 
+		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
+			<tr>
+			 <td valign='top' align="center">
+			  <IMG src='galeria/6334a1296703f_655.jpg' class='foto_destacada1'>		   
+			 </td>
+			</tr> 
+         <tr>
+			 <td valign='top'>
+			 <span class="volanta_col3">Iban camino a Mendoza</span>
+			 </td>
+	    </tr>
+			<tr>
+			 <td valign='top'>
+				<a href='vernota.asp?id_noticia=49856' class ='titulo_col3'>Murió una mujer y hay 19 heridos tras el vuelco de un micro con hinchas de Boca</a><br />		   
+			 </td>
+			</tr> 
+	    <tr>
+			 <td valign='top'>
+			  
+			 
+					 <a href='vernota.asp?id_noticia=49856' class ='intro_col3'>El accidente se produjo a 40 kilómetros de la capital provincial, cuando los simpatizantes oriundos de La Matanza se dirigían hacia el estadio en el que el "Xeneize" entfrentará esta noche a Quilmes por los cuartos de final de la Copa Argentina.</a> 
+					 
+			 </td>
+			</tr>
+      
+			<tr>
+			 <td> 
+			  
+	     </td>
+			</tr>  
+             	
+             <tr>
+			 <td class="linea_p_separa">
+			 </td>
+			</tr> 			
+		 </table>
+		 
+		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
+			<tr>
+			 <td valign='top' align="center">
+			  <IMG src='galeria/63341b5a714f0_900.jpg' class='foto_destacada1'>		   
+			 </td>
+			</tr> 
+         <tr>
+			 <td valign='top'>
+			 <span class="volanta_col3">Copa Argentina</span>
+			 </td>
+	    </tr>
+			<tr>
+			 <td valign='top'>
+				<a href='vernota.asp?id_noticia=49855' class ='titulo_col3'>Boca va por las semifinales ante Quilmes en Mendoza</a><br />		   
+			 </td>
+			</tr> 
+	    <tr>
+			 <td valign='top'>
+			  
+			 
+					 <a href='vernota.asp?id_noticia=49855' class ='intro_col3'>El encuentro se jugará a partir de las 22 en el estadio Malvinas Argentinas. Si ganan los "Xeneizes", podría haber otra edición del superclásico en caso de que River supere a Patronato.
+</a> 
+					 
+			 </td>
+			</tr>
+      
+			<tr>
+			 <td> 
+			  
+	     </td>
+			</tr>  
+             	
+             <tr>
+			 <td class="linea_p_separa">
+			 </td>
+			</tr> 			
+		 </table>
+		 
+		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
+			<tr>
+			 <td valign='top' align="center">
+			  <IMG src='galeria/61f4808990950_900.jpg' class='foto_destacada1'>		   
+			 </td>
+			</tr> 
+         <tr>
+			 <td valign='top'>
+			 <span class="volanta_col3">Estados Unidos</span>
+			 </td>
+	    </tr>
+			<tr>
+			 <td valign='top'>
+				<a href='vernota.asp?id_noticia=49854' class ='titulo_col3'>Lionel Scaloni seguirá al frente del seleccionado argentino hasta 2026</a><br />		   
+			 </td>
+			</tr> 
+	    <tr>
+			 <td valign='top'>
+			  
+			 
+					 <a href='vernota.asp?id_noticia=49854' class ='intro_col3'>El presidente de la AFA, Claudio Tapia, confirmó en redes sociales que arreglaron la continuidad del actual técnico de la selección nacional hasta próximo mundial y que "hay Scaloneta para rato".
+</a> 
+					 
+			 </td>
+			</tr>
+      
+			<tr>
+			 <td> 
+			  
+	     </td>
+			</tr>  
+             	
+             <tr>
+			 <td class="linea_p_separa">
+			 </td>
+			</tr> 			
+		 </table>
+		 
+        <table width='100%' border='0' cellpadding='0' cellspacing='0'>
+				 <tr>
+				  <td align="center">
+
+				 </td>
+				</tr>
+				<tr>
+				 <td class="linea_p_separa">
+				 </td>
+				</tr> 			
+        </table>	    
+				
+</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td width="330" height="30" valign="bottom">&nbsp;</td>
+      <td width="330" valign="bottom">&nbsp;</td>
+      <td valign="bottom">&nbsp;</td>
+    </tr>
+   </table>
+	</div>
+    </td>
+   <td height="100%" class="bkg-der_2">&nbsp;</td>
+  </tr>
+  <tr>
+   <TD height="100%" class="bkg-izq">&nbsp;</TD>
+   <td height="100%">
+	  <table width="990" border="0" cellspacing="0" cellpadding="0" class="pie_top">
+  <tr>
+    <td width="291" height="100"><img src="imagenes/logo_pie.jpg" width="261" height="132" class="logo_pie" /></td>
+    <td width="501" valign="top">
+    <div align="left" style="margin-top:20px">
+      <p class="pie1">&copy; Copyright 2015<br />
+        www.informecorrientes.com | All rights reserved<br />
+        Corrientes - Argentina<br />
+        @informecorrientes.com</p>
+    </div>  
+    </td>
+    <td width="198" class="pie_der_logo">
+     <a href="http://www.chamigonet.com.ar" target="_blank">
+       <img src="imagenes/logo_chamigonet.png" width="145" height="50" border="0" class="logo_chamigonet">		 
+     </a>    
+    </td>
+  </tr>
+</table>
+	 </td>
+   <td height="100%" class="bkg-der">&nbsp;</td>
+ </tr>
+</table>
+</body>
+</html>

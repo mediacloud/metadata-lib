@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>GovInfo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="twitter:card" content="summary" /> 
+    <meta name="twitter:site" content="www.govinfo.gov" /> 
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="Official Publications from the U.S. Government Publishing Office." />
+    <meta name="twitter:image" content="https://www.govinfo.gov/sites/default/files/media/govinfo_eagle_homepage.png" />
+    <meta name="twitter:url" content="" />    
+
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="Official Publications from the U.S. Government Publishing Office." />
+    <meta property="og:image" content="https://www.govinfo.gov/sites/default/files/media/govinfo_eagle_homepage.png" />
+    <meta property="og:url" content="" />
+           
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:700|Roboto:400,700" rel="stylesheet" />
+
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="/app/dynamic/stylesheets/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="76x76"
+          href="../lib/bootstrap/ico/apple-touch-icon-76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120"
+          href="../lib/bootstrap/ico/apple-touch-icon-120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152"
+          href="../lib/bootstrap/ico/apple-touch-icon-152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="167x167"
+          href="../lib/bootstrap/ico/apple-touch-icon-167.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180"
+          href="../lib/bootstrap/ico/apple-touch-icon-180.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+    <!-- bundle automatically appended by Webpack -->
+<script src="/app/infrastructure.js"></script>
+<link href="/app/main.min.css" rel="stylesheet"><script type="text/javascript" src="/app/search.bundle.6.15.0.js"></script></head>
+
+<body>
+  <header></header>
+  <div id='mainViewContent'></div>
+  <div id='mainViewFooter'></div>
+
+</body>
+
+</html>

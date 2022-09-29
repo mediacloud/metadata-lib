@@ -1,0 +1,400 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app225.us.archive.org';v.server_ms=259;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.prigepp.org/index.php","20220724231331","https://web.archive.org/","web","/_static/",
+	      "1658704411");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=fantwOh2" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<title>PRIGEPP</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="Description" content="Programa regional en políticas públicas sobre Género"/>
+	<meta name="Keywords" content="Seminarios, maestrías, género"/>
+	<meta name="robots" content="index, follow"/>
+	<link rel="stylesheet" type="text/css" href="/web/20220724231331cs_/http://www.prigepp.org/css/screen.css" media="all"/>
+	<link rel="stylesheet" href="/web/20220724231331cs_/http://www.prigepp.org/js/anythingslider/demos/css/page.css">
+
+	<!-- jQuery (required) -->
+	<script src="/web/20220724231331js_/http://www.prigepp.org/js/jquery.min.js"></script>
+	<script src="/web/20220724231331js_/http://www.prigepp.org/js/jquery.tools.min.js"></script>
+	<!-- Anything Slider -->
+	<link rel="stylesheet" href="/web/20220724231331cs_/http://www.prigepp.org/js/anythingslider/css/anythingslider.css">
+	<script src="/web/20220724231331js_/http://www.prigepp.org/js/anythingslider/js/jquery.anythingslider.js"></script>
+
+	<!-- AnythingSlider initialization -->
+	<script type="text/javascript">
+
+$(function () {
+	$('#slider1').anythingSlider({
+//		theme : 'metallic',
+		expand       		: false,
+		autoPlay     		: true,
+		delay               : 8000,      // How long between slideshow transitions in AutoPlay mode (in milliseconds)
+		toggleArrows        : true,
+		buildNavigation     : false,      // If true, builds a list of anchor links to link to each panel
+		buildStartStop      : false      // If true, builds the start/stop button
+	});
+
+	$('#slider2').anythingSlider({
+		expand       	: false,
+		showMultiple 	: 3,
+		changeBy     	: 1,
+		buildArrows  	: false,
+		buildStartStop  : false,
+		autoPlay     	: true,
+		delay           : 3000      // How long between slideshow transitions in AutoPlay mode (in milliseconds)
+	});
+
+});
+</script>
+
+	<!-- FANCYBOX -->
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="/web/20220724231331js_/http://www.prigepp.org/js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="/web/20220724231331cs_/http://www.prigepp.org/fancybox/source/jquery.fancybox.css?v=2.0.6" type="text/css" media="screen"/>
+	<script type="text/javascript" src="/web/20220724231331js_/http://www.prigepp.org/fancybox/source/jquery.fancybox.pack.js?v=2.0.6"></script>
+
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="/web/20220724231331cs_/http://www.prigepp.org/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.2" type="text/css" media="screen"/>
+	<script type="text/javascript" src="/web/20220724231331js_/http://www.prigepp.org/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.2"></script>
+	<script type="text/javascript" src="/web/20220724231331js_/http://www.prigepp.org/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.0"></script>
+	<link rel="stylesheet" href="/web/20220724231331cs_/http://www.prigepp.org/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=2.0.6" type="text/css" media="screen"/>
+	<script type="text/javascript" src="/web/20220724231331js_/http://www.prigepp.org/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=2.0.6"></script>
+	<script type="text/javascript">
+$(document).ready(function() {
+	$(".various").fancybox({
+		maxWidth	: 750,
+		maxHeight	: 550,
+		fitToView	: false,
+		width		: 750,
+		height		: 550,
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none',
+		helpers : {
+        overlay : {
+            opacity: 0.2,
+            css : {
+                'background-color' : '#ff6600'
+            }
+        }
+    }
+	});
+
+		$(".various2").fancybox({
+		fitToView	: false,
+		width		: 640,
+		height		: 510,
+		autoSize	: true,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none',
+		scrolling	: 'no',
+		helpers : {
+        overlay : {
+            opacity: 0.2,
+            css : {
+                'background-color' : '#000'
+            }
+        }
+    }
+	});
+
+
+});
+	</script>
+	<!-- END FANCYBOX-->
+
+	</head>
+	<body class="background" id="main">
+    <div id="wrap">
+      <div id="header">
+        <div class="logo"><a href="index.php"><img src="/web/20220724231331im_/http://www.prigepp.org/images/logo-prigepp.png" alt="logo" width="150" height="83" border="0"/></a></div>
+<div class="menuTop degradeGris">
+  <ul>
+    <li><a href="info-institucional.php">INFO INSTITUCIONAL</a></li>
+    <li><a href="vision-y-objetivos.php">VISIÓN Y OBJETIVOS</a></li>
+    <li><a href="metodologia.php">METODOLOGÍA</a></li>
+  </ul>
+  <ul>
+    <!-- li><a href="programa.php">PROGRAMA</a></li -->
+    <li><a href="programa-academico.php">PROGRAMA ACAD&Eacute;MICO</a></li>
+    <li><a href="inscripcion.php">INSCRIPCI&Oacute;N</a></li>
+    <!-- li><a href="proyectos.php">PROYECTOS</a></li -->
+  </ul>
+    <!-- ul>
+        <li><a href="becas.php">BECAS</a></li>
+        <li><a href="novedades.php">NOVEDADES</a></li>
+  </ul -->  
+  <ul>
+    <li><a href="staff.php">EQUIPO</a></li>
+    <li><a href="publicaciones.php">PUBLICACIONES</a></li>
+    <li><a href="tesis.php">TESIS</a></li>
+    
+    <!-- li><a href="web_conferencias.php">CONFERENCIAS</a></li -->
+    <!-- li><a href="#">VISITA VIRTUAL DEL AULA</a></li -->
+  </ul>
+  <ul class="working">
+    <li><a href="contactenos.php">CONTÁCTENOS</a></li>
+    <li><a href="https://web.archive.org/web/20220724231331/https://www.facebook.com/flacso.prigepp" target="_blank">Facebook</a></li>
+    <li><a href="https://web.archive.org/web/20220724231331/https://twitter.com/PRIGEPP" target="_blank">Twitter</a></li>
+  </ul>
+</div>      </div>
+      <div class="colmask leftmenu">
+        <div class="degradeLeft"></div>
+        <div class="botDownload" style="display:none"><a href="#">
+          <center>
+          <img src="/web/20220724231331im_/http://www.prigepp.org/images/bot-demo.jpg" alt="Descargar Brochure" width="198" height="34" border="0"/>
+        </center>
+          </a></div>
+        <div class="colleft">
+          <div class="col1 degradeGris"> <!-- Column 1 start -->
+            <div id="slider-3-wrap">
+              <ul id="slider1" style="width:755px; height:300px;">
+                <li><img src="/web/20220724231331im_/http://www.prigepp.org/images/slides/imagen-755-1.jpg" alt="Programa Regional de Formación en Género y Políticas Públicas" width="755" height="300"/></li>
+                <li><img src="/web/20220724231331im_/http://www.prigepp.org/images/slides/imagen-755-2.jpg" alt="Diploma Superior en Ciencias Sociales con mención en Género y Políticas Públicas" width="755" height="300"/></li>
+                <li><img src="/web/20220724231331im_/http://www.prigepp.org/images/slides/imagen-755-3.jpg" alt="Comunidades Profesionales, Seminarios con recursos multimedia" width="755" height="300"/></li>
+                <li><img src="/web/20220724231331im_/http://www.prigepp.org/images/slides/imagen-755-4.jpg" alt="Tutorías personalizadas, Foros, Biblioteca Virtual" width="755" height="300"/></li>
+              </ul>
+            </div>
+            <div class="seccion3" style="width:723px; padding: 16px 16px 0 16px">
+              <ul id="slider2">
+                <li><a href="publicaciones.php"><img src="/web/20220724231331im_/http://www.prigepp.org/images/destacados/promo_publicaciones.png" alt="Publicaciones Digitales del Área Género" width="241" height="149" border="0"/></a></li>
+                <li><a href="inscripcion.php"><img src="/web/20220724231331im_/http://www.prigepp.org/images/destacados/promo_becas_e_inscripciones.png" alt="Becas e inscripciones. Requisitos y acceso a formulario" width="241" height="149" border="0"/></a></li>
+                <li><a href="staff.php"><img src="/web/20220724231331im_/http://www.prigepp.org/images/destacados/promo_staff.png" alt="Integrantes del Área" width="241" height="149" border="0"/></a></li>
+                <li>
+                                    <a href="#" onclick="alertar();"><img src="/web/20220724231331im_/http://www.prigepp.org/images/destacados/promo_comunidad_prigepp.png" alt="Comunidad PRIGEPP" width="241" height="149" border="0"/></a>
+                                  </li>
+                <li><a href="info-institucional.php"><img src="/web/20220724231331im_/http://www.prigepp.org/images/destacados/promo_info_institucional.png" alt="Información Institucional" width="241" height="149" border="0"/></a></li>
+              </ul>
+            </div>
+
+            <!-- NOVEDADES -->
+            <div class="seccion3">
+              <h6 style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #42408a">Novedades</h6>
+              
+              <div class="grid4col" style="background-image: none;">
+
+                <!-- div class="boxNews">
+                  <h4>Congreso Internacional</h4>
+                  <a class="various2" data-fancybox-type="iframe" href="http://www.prigepp.org/media_video_congreso_esp.html"><img src="images/destacados/thumb_video_congreso.png" alt="video" width="160" height="104" border="0" /></a>
+                  <p>Compilación de las ideas principales de las expositoras de los 5 paneles centrales.</p>
+                  <a class="various2 more" data-fancybox-type="iframe" href="http://www.prigepp.org/media_video_congreso_esp.html" style="margin-bottom:5px">Ver video en español</a><br />
+                  <a class="various2 more" data-fancybox-type="iframe" href="http://www.prigepp.org/media_video_congreso_eng.html" style="margin-bottom:5px">View video in english</a></div -->
+
+                <div class="boxNews" style="width:213px; display:block;">
+                  <!--<h4 style="margin:0 0 10px 0;">Abierta la inscripción <br>
+                    <span style="width:100%; font-size: 12px;">20ª EDICIÓN</span --></h4>
+
+<!-- BANNER MAESTRIA
+
+                  <div style="background-image: -webkit-linear-gradient(90deg, #f8981c 0%, #da2726 100%);
+  background-image: -moz-linear-gradient(90deg, #f8981c 0%, #da2726 100%);
+  background-image: -ms-linear-gradient(90deg, #f8981c 0%, #da2726 100%);
+  background-image: -o-linear-gradient(90deg, #f8981c 0%, #da2726 100%);
+  background-image: linear-gradient(top, #f8981c 0%, #da2726 100%);
+    background-image:url(http://www.prigepp.org/emails/2016/11_16/images/watermarc.png);
+    background-position: center center;
+    background-size: cover;
+    background-color: #FF6600;
+    -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+    padding: 15px 10px;
+    margin: 0;
+    font-size: 16px;
+    color: #FFF;
+    box-shadow: 0px 0px 10px #888888;"><div style="width:100%; font-size: 16px">21ª EDICIÓN</div><h3 style="font-size: 16px">Maestría Virtual en Género, Sociedad y Políticas</h3></div>
+                  <p style="margin:10px 0;">Título intermedio: Diploma Superior en Ciencias Sociales con mención en Género y Políticas Públicas.</p>
+                  <p style="margin:10px 0;">Inscripción abierta hasta el <br />
+                <strong>6 de marzo de 2022</strong></p> <p> <a href="informacion_maestria_GSyP.php"><span class="more">Más información</span></a> 
+                    <a href="inscripcion.php"><span class="more">Inscripción</span></a></p>
+
+                    end BANNER MAESTRIA -->
+
+<!-- BANNER GENERO Y JUSTICIA -->
+
+    <div style="background-image: -webkit-linear-gradient(90deg, #5ff3ff 0%, #1DA39E 100%);
+	background-image: -moz-linear-gradient(90deg, #5ff3ff 0%, #1DA39E 100%);
+	background-image: -ms-linear-gradient(90deg, #5ff3ff 0%, #1DA39E 100%);
+	background-image: -o-linear-gradient(90deg, #5ff3ff 0%, #1DA39E 100%);
+	background-image: linear-gradient(top, #5ff3ff 0%, #1DA39E 100%);
+    background-image:url(https://web.archive.org/web/20220724231331im_/http://www.prigepp.org/emails/2016/11_16/images/watermarc.png);
+    background-size: cover;
+    background-color: #1DA39E;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-khtml-border-radius: 5px;
+    padding: 15px 10px;
+    margin: 0;
+    font-size: 16px;
+    color: #FFF;
+    box-shadow: 0px 0px 10px #888888;"><h3 style="font-size: 16px">Diploma Superior en Género y Justicia en América Latina</h3></div>
+                  <p style="margin:10px 0;"><strong>Dirigido a Operadores de Justicia de toda la región, integrantes de ONGs y académicos. Título oficial otorgado por FLACSO Argentina. </strong></p>
+                  <p style="margin:10px 0;">Inscripción abierta hasta el <strong>25 de julio de 2022</strong></p> <p> <a href="informacion_diploma_DRGyJ.php"><span class="more">más información</span></a>
+                    <a href="inscripcion.php"><span class="more">Inscripción</span></a></p>
+                    
+                    <!-- end BANNER GENERO Y JUSTICIA -->
+
+<!-- BANNER MAESTRIA
+                    <div style="background-image: -webkit-linear-gradient(90deg, #f8981c 0%, #da2726 100%);
+	background-image: -moz-linear-gradient(90deg, #f8981c 0%, #da2726 100%);
+	background-image: -ms-linear-gradient(90deg, #f8981c 0%, #da2726 100%);
+	background-image: -o-linear-gradient(90deg, #f8981c 0%, #da2726 100%);
+	background-image: linear-gradient(top, #f8981c 0%, #da2726 100%);
+    background-image:url(http://www.prigepp.org/emails/2016/11_16/images/watermarc.png);
+    background-size: cover;
+    background-color: #FF6600;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-khtml-border-radius: 5px;
+    padding: 15px 10px;
+    margin: 0;
+    font-size: 16px;
+    color: #FFF;
+    box-shadow: 0px 0px 10px #888888;"><h3 style="font-size: 16px">Género, TransGénero, y PostGénero en las Politicas del Cuerpo y las Disidencias en las Américas Latinas</h3></div>
+                    <p style="margin:10px 0;">Inscripción abierta hasta el <strong>15 de junio de 2020</strong></p> 
+                    <p><a href="inscripcion.php"><span class="more">Inscripción</span></a></p>
+  end-BANNER maestria -->
+
+                </div>
+
+                  <!-- div class="boxNews">
+                  <h4 style="margin:0 0 10px 0; text-align:center">Abierta la inscripción</h4>
+                  <a href="informacion_diploma_DRGyJ.php"><img src="images/destacados/banner_drgyj.jpg" alt="Diploma Regional en Género y Justicia" width="160" height="137" border="0" /></a>
+                  <p style="margin:10px 0;"> <a href="informacion_diploma_DRGyJ.php" style="margin:10px 0;"><span class="more">Más información</span></a>
+                </div -->
+
+                <!-- BANNER 02 -->
+                <a href="https://web.archive.org/web/20220724231331/http://www.prigepp.org/publicaciones.php" class="boxNews" style="width: 213px; height: 300px; border-left: 1px solid #ccc;">
+                <h4>SinerGias - Vol.8</h4>
+                <p><span style="background-color:#F60; color:#fff; padding:3px; float:left; margin:10px 0 0 0">NUEVO!</span></p>
+                <img src="/web/20220724231331im_/http://www.prigepp.org/images/destacados/thumb_print_sinergias_2.png" alt="SinerGias" title="SinerGias" width="100%" height="auto" border="0" style="float:left; margin: 5px 0;"/>
+                <p style="clear:both; display: block;">Serie de Tesis de Maestría - Octubre 2021</p>
+                <h3><strong>Rutas interseccionales</strong></h3>
+                <p>Cuadernos del Área Género, Sociedad y Políticas - FLACSO Argentina.</p>
+                <span class="more">Ver publicación</span></a></a>
+
+                <!-- BANNER 03 -->
+                <a href="https://web.archive.org/web/20220724231331/http://www.prigepp.org/web_conferencias.php" class="boxNews" style="width: 213px; height: 300px; border-left: 1px solid #ccc;"><img src="/web/20220724231331im_/http://www.prigepp.org/images/destacados/thumb_conferencias.png" alt="Conferencias virtulaes" title="Conferencias virtulaes" width="160" height="104" border="0" style="float:left;"/>
+                <h3 style="margin:0;">Conferencias Virtuales de PRIGEPP</h3>
+                <p><strong>Temáticas</strong>:
+                Salud mental; Infancias y género; Políticas de género y Política fiscal y presupuestos con enfoque de género.</p>
+                <p>Destacados/as especialistas en el campo de los estudios y las políticas de igualdad de género  brindan aportes relevantes sobre  problemáticas clave del contexto actual.</p>
+                <span class="more">Ver conferencia</span></a>
+
+                </div>
+            </div>
+            <!-- FIN NOVEDADES -->
+
+          </div>
+          <!-- Column 1 end -->
+          <!-- Column 2 start -->
+          <div class="col2">
+            <script type="text/javascript">
+<!--
+function comprobar_usuario(){
+	if(document.getElementById('usuario').value!='' && document.getElementById('password').value!=''){
+		document.getElementById('accion').value = 'S';
+		document.getElementById('formulario').submit();		
+	}
+}
+
+function oc_campo(id, value) {
+	if(document.getElementById(id).value == value) {
+		document.getElementById(id).value = '';
+	}	
+}
+
+function oc2_campo(id, value) {
+	if(document.getElementById(id).value == '') {
+		document.getElementById(id).value = value;
+	}	
+}
+//-->
+</script>
+<div class="login">
+  <h2 class="tituloMenu">INGRESAR A MI CUENTA</h2>
+  <form name="formulario" id="formulario" method="POST" action="login.php" onsubmit="return false;" style="margin-top:10px"> 
+  	<input type="hidden" name="accion" id="accion" value=""/>
+    <div style="width:140px; height:60px; float:left;">
+      <div style="margin:0 0 5px 0;">
+        <input name="usuario" id="usuario" type="text" value="Usuario" maxlength="50" style="width:140px" onfocus="oc_campo('usuario', 'Usuario');" onblur="oc2_campo('usuario', 'Usuario');" tabindex="1"/>
+      </div>
+      <div style="margin:5px 0;">
+        <input name="password" id="password" type="password" maxlength="50" style="width:140px" tabindex="2"/>
+      </div>
+    </div>
+    <div style="float:right; height:60px; margin-left: 0px; width:35px">
+			<input type="image" onclick="comprobar_usuario();" src="/web/20220724231331im_/http://www.prigepp.org/images/flechaEnter.png" alt="Enter" width="35" height="21" border="0" tabindex="3"/>
+		</div>
+        <div style="float:left; clear:both; font-size: 10px"><a href="#">&#191;Olvido su contrase&#241;a?</a></div>
+  </form>
+</div>
+<div class="team">
+	<div>
+		<img src="/web/20220724231331im_/http://www.prigepp.org/images/logos/flacso-argentina.png" alt="FLACSO Argentina" width="45" height="62" align="absmiddle"/>
+		<p>Maestr&#237;a acreditada por la CONEAU
+		(Comisi&#243;n Nacional de Evaluaci&#243;n y Acreditaci&#243;n Universitaria del Ministerio de Educaci&#243;n, Argentina).
+		Resoluci&#243;n Nº 857/11</p>
+	</div>
+	<div>
+		<img src="/web/20220724231331im_/http://www.prigepp.org/images/logos/union-europea.png" alt="Unión Europea" width="60" height="49" align="absmiddle"/><br/>
+		<p>Cont&#243; con el apoyo de la <br/>
+			Uni&#243;n Europea</p>
+	</div>
+	<div>
+		<p>FLACSO Argentina<br/>
+		Ayacucho 555 - C1026AAC<br/>
+		Ciudad de Buenos Aires, Argentina 
+			<br/>
+			Tel.: (5411) 5238-9300 int. 337 
+			<br/>
+			Fax: (5411) 4375-1373<br/>
+			prigepp@prigepp.org<br/>
+		www.prigepp.org </p>
+	</div>
+</div>          </div>
+          <!-- Column 2 end --> </div>
+      </div>
+      <div id="footer">
+        <p class="fltlft">&reg; 2012 PRIGEPP - Programa Regional de Formación en Género y Políticas Públicas</p>
+        <p class="fltrht" style="color:#666">Desarrollado por <a href="https://web.archive.org/web/20220724231331/http://www.pixelia.com.ar/">PIXELIA</a></p>
+      </div>
+    </div>
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 23:13:31 Jul 24, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:35:06 Sep 29, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 169.592
+  exclusion.robots: 0.077
+  exclusion.robots.policy: 0.071
+  RedisCDXSource: 0.865
+  esindex: 0.007
+  LoadShardBlock: 152.239 (3)
+  PetaboxLoader3.datanode: 122.443 (4)
+  CDXLines.iter: 13.564 (3)
+  load_resource: 83.625
+  PetaboxLoader3.resolve: 34.469
+-->

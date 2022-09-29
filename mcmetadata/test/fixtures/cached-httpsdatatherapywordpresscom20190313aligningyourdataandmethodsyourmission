@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://datatherapy.org/xmlrpc.php">
+
+<title>Aligning Your Data Methods and Your Mission &#8211; Data Therapy</title>
+<meta name='robots' content='max-image-preview:large' />
+
+<!-- Async WordPress.com Remote Login -->
+<script id="wpcom_remote_login_js">
+var wpcom_remote_login_extra_auth = '';
+function wpcom_remote_login_remove_dom_node_id( element_id ) {
+	var dom_node = document.getElementById( element_id );
+	if ( dom_node ) { dom_node.parentNode.removeChild( dom_node ); }
+}
+function wpcom_remote_login_remove_dom_node_classes( class_name ) {
+	var dom_nodes = document.querySelectorAll( '.' + class_name );
+	for ( var i = 0; i < dom_nodes.length; i++ ) {
+		dom_nodes[ i ].parentNode.removeChild( dom_nodes[ i ] );
+	}
+}
+function wpcom_remote_login_final_cleanup() {
+	wpcom_remote_login_remove_dom_node_classes( "wpcom_remote_login_msg" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_validate" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_js" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_iframe" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_styles" );
+}
+
+// Watch for messages back from the remote login
+window.addEventListener( "message", function( e ) {
+	if ( e.origin === "https://r-login.wordpress.com" ) {
+		var data = {};
+		try {
+			data = JSON.parse( e.data );
+		} catch( e ) {
+			wpcom_remote_login_final_cleanup();
+			return;
+		}
+
+		if ( data.msg === 'LOGIN' ) {
+			// Clean up the login check iframe
+			wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+
+			var id_regex = new RegExp( /^[0-9]+$/ );
+			var token_regex = new RegExp( /^.*|.*|.*$/ );
+			if (
+				token_regex.test( data.token )
+				&& id_regex.test( data.wpcomid )
+			) {
+				// We have everything we need to ask for a login
+				var script = document.createElement( "script" );
+				script.setAttribute( "id", "wpcom_remote_login_validate" );
+				script.src = '/remote-login.php?wpcom_remote_login=validate'
+					+ '&wpcomid=' + data.wpcomid
+					+ '&token=' + encodeURIComponent( data.token )
+					+ '&host=' + window.location.protocol
+					+ '//' + window.location.hostname
+					+ '&postid=1877'
+					+ '&is_singular=1';
+				document.body.appendChild( script );
+			}
+
+			return;
+		}
+
+		// Safari ITP, not logged in, so redirect
+		if ( data.msg === 'LOGIN-REDIRECT' ) {
+			window.location = 'https://wordpress.com/log-in?redirect_to=' + window.location.href;
+			return;
+		}
+
+		// Safari ITP, storage access failed, remove the request
+		if ( data.msg === 'LOGIN-REMOVE' ) {
+			var css_zap = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } @media screen and ( max-width: 782px ) { html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } }';
+			var style_zap = document.createElement( 'style' );
+			style_zap.type = 'text/css';
+			style_zap.appendChild( document.createTextNode( css_zap ) );
+			document.body.appendChild( style_zap );
+
+			var e = document.getElementById( 'wpcom_request_access_iframe' );
+			e.parentNode.removeChild( e );
+
+			document.cookie = 'wordpress_com_login_access=denied; path=/; max-age=31536000';
+
+			return;
+		}
+
+		// Safari ITP
+		if ( data.msg === 'REQUEST_ACCESS' ) {
+			console.log( 'request access: safari' );
+
+			// Check ITP iframe enable/disable knob
+			if ( wpcom_remote_login_extra_auth !== 'safari_itp_iframe' ) {
+				return;
+			}
+
+			// If we are in a "private window" there is no ITP.
+			var private_window = false;
+			try {
+				var opendb = window.openDatabase( null, null, null, null );
+			} catch( e ) {
+				private_window = true;
+			}
+
+			if ( private_window ) {
+				console.log( 'private window' );
+				return;
+			}
+
+			var iframe = document.createElement( 'iframe' );
+			iframe.id = 'wpcom_request_access_iframe';
+			iframe.setAttribute( 'scrolling', 'no' );
+			iframe.setAttribute( 'sandbox', 'allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-top-navigation-by-user-activation' );
+			iframe.src = 'https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=request_access&origin=' + encodeURIComponent( data.origin ) + '&wpcomid=' + encodeURIComponent( data.wpcomid );
+
+			var css = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 46px !important; } * html body { margin-top: 46px !important; } @media screen and ( max-width: 660px ) { html { margin-top: 71px !important; } * html body { margin-top: 71px !important; } #wpcom_request_access_iframe { display: block; height: 71px !important; } } #wpcom_request_access_iframe { border: 0px; height: 46px; position: fixed; top: 0; left: 0; width: 100%; min-width: 100%; z-index: 99999; background: #23282d; } ';
+
+			var style = document.createElement( 'style' );
+			style.type = 'text/css';
+			style.id = 'wpcom_request_access_styles';
+			style.appendChild( document.createTextNode( css ) );
+			document.body.appendChild( style );
+
+			document.body.appendChild( iframe );
+		}
+
+		if ( data.msg === 'DONE' ) {
+			wpcom_remote_login_final_cleanup();
+		}
+	}
+}, false );
+
+// Inject the remote login iframe after the page has had a chance to load
+// more critical resources
+window.addEventListener( "DOMContentLoaded", function( e ) {
+	var iframe = document.createElement( "iframe" );
+	iframe.style.display = "none";
+	iframe.setAttribute( "scrolling", "no" );
+	iframe.setAttribute( "id", "wpcom_remote_login_key" );
+	iframe.src = "https://r-login.wordpress.com/remote-login.php"
+		+ "?wpcom_remote_login=key"
+		+ "&origin=aHR0cHM6Ly9kYXRhdGhlcmFweS5vcmc%3D"
+		+ "&wpcomid=27405506"
+		+ "&time=1664411933";
+	document.body.appendChild( iframe );
+}, false );
+</script>
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//datatherapy.wordpress.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Data Therapy &raquo; Feed" href="https://datatherapy.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Data Therapy &raquo; Comments Feed" href="https://datatherapy.org/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s0.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1652185836h&ver=6.0.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-1' href='https://s1.wp.com/_static/??-eJyNkt1SxCAMhV9IilWnXjk+Cz8ZNruBMgS28vayzOrUrlu9YTgkX3IIyCUKM4cMIUtfRKTiMLBcopm9YI8EdaMGw/wgf8cSkMpgRZw5b9QeRngClkfIUZmT6Oom/SvXlSY1JNciCeR5fBnGYZS6IFmpae4FdFKpSs6V4LsQBkPFXvqw9GBRAYHvRlYikqqQBIFTpg4ew994i631D+i++e50dWdV55KFS2g3tv9dIqmMwfEdfDXty9zauY/q1vwOtqB10F61pVz3IsPHPtL/jdYxAbNoq8fiRT60Xv2B3/3bOE3P0/j6ND0ePwGNsvWV?cssminify=yes' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify {
+	text-align:justify;
+}
+.wp-block-cover__image-background.has-parallax {
+	background-size: cover;
+}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--blue: #3e69dc;--wp--preset--color--dark-gray: #2c313f;--wp--preset--color--medium-gray: #73757D;--wp--preset--color--light-gray: #f3f3f3;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;}body .is-layout-flow > .alignright{float: right;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;}body .is-layout-constrained > .alignright{float: right;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-2-1' href='https://s2.wp.com/wp-content/mu-plugins/jetpack-plugin/production/_inc/genericons/genericons/genericons.css?m=1656348725h&cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='shoreditch-fonts-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C700%7CLato%3A400%2C700%2C400italic%2C700italic%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-4-1' href='https://s1.wp.com/_static/??-eJyNjsEOAiEMRH9IrK6Gm/FbdrsVUKCElmz8e1EPxpiot5lk3szAUgxyVsoK6imRQGkTiOdKc1D0IHqNtEaRFfzM9hRMkfEifwIh43PALAU5fVCpmRKbC1nAEZtePWrg/GbMKY6hfkMr9VOuS/d4+LJ36JgOW2s3w84Oe3u+AQ12ZXg=?cssminify=yes' type='text/css' media='all' />
+<style id='shoreditch-style-inline-css'>
+
+			.post-navigation .nav-previous { background-image: url(https://datatherapy.files.wordpress.com/2019/01/img_2722.jpg?w=2000&#038;h=1500&#038;crop=1); text-shadow: 0 0 0.15em rgba(0, 0, 0, 0.5); }
+			.post-navigation .nav-previous .post-title,
+			.post-navigation .nav-previous a:focus .post-title,
+			.post-navigation .nav-previous a:hover .post-title { color: #fff; }
+			.post-navigation .nav-previous .meta-nav { color: rgba(255, 255, 255, 0.75); }
+			.post-navigation .nav-previous a { background-color: rgba(0, 0, 0, 0.2); border: 0; }
+			.post-navigation .nav-previous a:focus,
+			.post-navigation .nav-previous a:hover { background-color: rgba(0, 0, 0, 0.4); }
+		
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='print-css-5-1' href='https://s2.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h&cssminify=yes' type='text/css' media='print' />
+<style id='jetpack-global-styles-frontend-style-inline-css'>
+:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-8-1' href='https://s0.wp.com/_static/??-eJxtjEEKAjEMRS9kDerM6EY8itRY24yZpDQpXl8EXYiuHg/e//CoAVU8icPSQ+WeSQyqmocbR2pgJTaS/OEazVbwfzUnrxHvb4fa9NrRSQXOJAimSJEDa1b7kp9PL2lJBmWAzHqJ/ApOy3EzjdNuOOy34/wERyxD4Q==?cssminify=yes' type='text/css' media='all' />
+<script id='jetpack_related-posts-js-extra'>
+var related_posts_js_options = {"post_heading":"h4"};
+</script>
+<script id='wpcom-actionbar-placeholder-js-extra'>
+var actionbardata = {"siteID":"27405506","siteURL":"https:\/\/datatherapy.org","xhrURL":"https:\/\/datatherapy.org\/wp-admin\/admin-ajax.php","nonce":"a4939f388c","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https:\/\/s0.wp.com\/wp-content\/js\/wpcom-proxy-request.js?ver=20211021","shortlink":"https:\/\/wp.me\/p1QZqi-uh","i18n":{"followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/read\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar"}};
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s2.wp.com/_static/??-eJyFjdEKwjAMRX/IrIpjxQfxW+aWlZQ2rUmL7u+tMEH24lO4OSe55plhSlyQi/FqYrpTQKiKMrq2A+IldV4P5seLFXKojliNYBgLzpCTll3aX7XvEgpkSa/1y4inUGfUD/SPirJuo4vEfyWI5KQVbvItXk/D2dpj31+sfwPadVA2'></script>
+<script type='text/javascript'>
+	window.addEventListener( 'DOMContentLoaded', function() {
+		rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
+	} );
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://datatherapy.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/" />
+<link rel='shortlink' href='https://wp.me/p1QZqi-uh' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Fdatatherapy.org%2F2019%2F03%2F13%2Faligning-your-data-and-methods-your-mission%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Fdatatherapy.org%2F2019%2F03%2F13%2Faligning-your-data-and-methods-your-mission%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Aligning Your Data Methods and Your Mission" />
+<meta property="og:url" content="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/" />
+<meta property="og:description" content="This blog post is based on a keynote I gave recently at the 2019 SSIR Data on Purpose event. Are you optimistic or pessimistic about data as a tool for good in the world? Over the last few years I’…" />
+<meta property="article:published_time" content="2019-03-13T15:34:11+00:00" />
+<meta property="article:modified_time" content="2019-03-15T12:14:47+00:00" />
+<meta property="og:site_name" content="Data Therapy" />
+<meta property="og:image" content="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/Bhargava_SSIR_2019_rev3-1.jpg" />
+<meta property="og:image:width" content="967" />
+<meta property="og:image:height" content="448" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<meta name="twitter:text:title" content="Aligning Your Data Methods and Your Mission" />
+<meta name="twitter:image" content="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/Bhargava_SSIR_2019_rev3-1.jpg?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="shortcut icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon" href="https://s2.wp.com/i/webclip.png" />
+<link rel='openid.server' href='https://datatherapy.org/?openidserver=1' />
+<link rel='openid.delegate' href='https://datatherapy.org/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://datatherapy.org/osd.xml" title="Data Therapy" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<style type="text/css">
+.widget_twitter li {
+	word-wrap: break-word;
+}
+</style>
+<meta name="application-name" content="Data Therapy" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="tips for empowering people with data from Rahul Bhargava at the MIT Center for Civic Media" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://datatherapy.org/feed/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="description" content="This blog post is based on a keynote I gave recently at the 2019 SSIR Data on Purpose event. Are you optimistic or pessimistic about data as a tool for good in the world? Over the last few years I’ve seen the shift in answers to this questions. People used to answer “optimistic”, but now most&hellip;" />
+<!-- Your Google Analytics Plugin is missing the tracking ID -->
+</head>
+
+<body class="post-template-default single single-post postid-1877 single-format-standard wp-embed-responsive customizer-styles-applied highlander-enabled highlander-light">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-header-wrapper">
+			<div class="site-branding">
+				
+									<p class="site-title"><a href="https://datatherapy.org/" rel="home">Data Therapy</a></p>
+								<p class="site-description">tips for empowering people with data from Rahul Bhargava at the MIT Center for Civic Media</p>
+			</div><!-- .site-branding -->
+
+							<button id="menu-toggle" class="menu-toggle">Menu</button>
+				<div id="site-menu" class="site-menu">
+					<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Menu">
+						<div class="menu-main-nav-container"><ul id="menu-main-nav" class="primary-menu"><li id="menu-item-775" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-775"><a href="/">Blog</a></li>
+<li id="menu-item-471" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-471"><a href="https://datatherapy.org/activities/">Activity Guides</a></li>
+<li id="menu-item-465" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-465"><a href="https://datatherapy.org/data-mural-gallery/">Data Murals</a></li>
+<li id="menu-item-821" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-821"><a href="https://datatherapy.org/teaching-publications/">Teaching &amp; Publications</a></li>
+<li id="menu-item-602" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-602"><a href="http://rahulbot.github.io/datatherapy.com/timeline.html">Timeline</a></li>
+<li id="menu-item-673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-673"><a href="https://datatherapy.org/speaking/">Speaking</a></li>
+<li id="menu-item-464" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-464"><a href="https://datatherapy.org/about/">About</a></li>
+</ul></div>					</nav><!-- .main-navigation -->
+				</div><!-- .site-menu -->
+								</div><!-- .site-header-wrapper -->
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+					<div class="header-image">
+				<a href="https://datatherapy.org/" rel="home">
+					<img src="https://datatherapy.files.wordpress.com/2016/06/cropped-cropped-datatheerapy-header11.png" width="1440" height="179" alt="">
+				</a>
+			</div><!-- .header-image -->
+		
+	
+	<div class="site-content-wrapper">
+
+		<div id="primary" class="content-area">
+			<main id="main" class="site-main" role="main">
+
+			
+<article id="post-1877" class="post-1877 post type-post status-publish format-standard hentry category-data-culture category-data-literacy category-ethics">
+	<div class="hentry-wrapper">
+					<header class="entry-header" >
+				<div class="entry-header-wrapper">
+					<div class="entry-meta"><span class="cat-links"><a href="https://datatherapy.org/category/data-culture/" rel="category tag">data culture</a>, <a href="https://datatherapy.org/category/data-literacy/" rel="category tag">data literacy</a>, <a href="https://datatherapy.org/category/ethics/" rel="category tag">ethics</a></span></div><h1 class="entry-title">Aligning Your Data Methods and Your Mission</h1>				</div><!-- .entry-header-wrapper -->
+			</header><!-- .entry-header -->
+		
+		<div class="entry-content">
+			<p><em>This blog post is based on a keynote I gave recently at the 2019 SSIR <a href="http://www.ssirdata.org/">Data on Purpose</a> event.</em></p>
+<p>Are you optimistic or pessimistic about data as a tool for good in the world? Over the last few years I’ve seen the shift in answers to this questions. People used to answer “optimistic”, but now most people indicate some mix of emotions. You’ve probably seen the <a href="https://en.wikipedia.org/wiki/Hype_cycle">Gartner hype cycle</a> with its suggestion that a technology receives inflated expectations and then is overused to the point of disillusionment. I’d argue that the over-hyping and the disappointment happen at the same time&#8230; that time is now for social good organizations that are trying to use data to further their missions.</p>
+<p>The response I’ve been crafting focuses on acknowledging the damaging history of the data practices we routinely employ, taking a step back from hype-driven roll-out of data programs, and working to align your data and your mission. The <a href="http://datacultureproject.org/">Data Culture Project</a>, my collaboration with Catherine D&#8217;Ignazio, works with organizations large and small across the world to help make that happen.</p>
+<p>One of the core problems in creating a data culture that aligns with your mission is the history we are fighting against. Data has been a tool for those in power to consolidate that power for centuries. For organizations working in the social good sector, this <em>should</em>feel problematic! If you’re deploying some tool or process, you need to be wary of any pieces that reinforce that history. They can cultivate the opposite of the empowerment, engagement, and ownership goals that are probably at the heart of your mission.</p>
+<p><img loading="lazy" class="alignnone wp-image-2467 size-full" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/Bhargava_SSIR_2019_rev3-1.jpg" alt="" width="967" height="448" /></p>
+<p>Warning: In this post I&#8217;m going to depress you by reviewing some of that history. Don’t worry, I’ll close with some inspirations so it isn’t all doom and gloom.  Make sure not to stop reading in the middle, otherwise you might walk away feeling pretty bad about the world!</p>
+<h2>A Depressing History of Data</h2>
+<p>I won’t surprise anyone by talking about human history as full of stories of those in power seeking to oppress others. However, I want to highlight a few of those instances that were data-driven. Going back as far as the ancient Egyptians, we can find evidence that they tabulated and tracked populations to determine how much labor they would use to construct their giant monuments to themselves (<a href="https://www.ons.gov.uk/census/2011census/howourcensusworks/aboutcensuses/censushistory/censustakingintheancientworld">read more at the UK Office for National Statistics</a>). They created census data to drive massive construction projects in their own likeness.</p>
+<figure data-shortcode="caption" id="attachment_2468" aria-describedby="caption-attachment-2468" style="width: 1023px" class="wp-caption alignnone"><img loading="lazy" class="wp-image-2468 size-full" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/image.png" alt="lots of egyptian laborers pulling a large sculpture" width="1023" height="429" /><figcaption id="caption-attachment-2468" class="wp-caption-text">Source &#8211; A Popular Account of the Ancient Egyptians, Sir John Gardner Wilkinson (1854)</figcaption></figure>
+<p>Fast forward to Britain in the 1700s and you find the horrors of the slave trade via cross-atlantic shipping; all cataloged in stunning details by the shopping industry and the strict regulations they were under. Many of these  massive data records are still available today. This economic data numerically catalogues the human suffering of tens of millions at the hands of those in power across the western world.</p>
+<p><img /></p>
+<p>Next consider another of the darkest times in recent history &#8211; the Nazi regime. Their massive atrocities were informed and guided by the tabulations of their census, driven by IBM’s custom manufactured counting machines (<a href="https://en.wikipedia.org/wiki/IBM_and_the_Holocaust">read more on Wikipedia</a>). This is a history IBM would like us to forget with their new Watson AI initiatives, but Watson was in fact the one that oversaw all this work as CEO at the time.</p>
+<p><img /></p>
+<p>A few decades later we find another example in South America, recipient of massive investment and development packages from large multi-national UN-style agencies. All this drove numbers that showed enormous economic growth, while in fact huge populations were suffering. As famed author Eduardo Galeano writes &#8211; “the more watched and desperate the people, the more the statistics smiled and laughed”.</p>
+<p><img /></p>
+<p>As for our current times? You can barely throw a stone without hitting another story of a large centralized technology company using some data in morally questionable ways. Amazon pitching facial recognition to ICE here in the US to keep migrants and asylum seekers out (<a href="https://www.theverge.com/2018/10/23/18013376/amazon-ice-facial-recognition-aws-rekognition">The Verge</a>), Facebook building massive datasets about non-users to improve their invasive advertising targeting (<a href="https://www.reuters.com/article/us-facebook-privacy-tracking/facebook-fuels-broad-privacy-debate-by-tracking-non-users-idUSKBN1HM0DR">Reuters</a>), China creating a “social credit score” to control and guide citizen norms (<a href="https://www.bloomberg.com/news/articles/2018-11-21/beijing-to-judge-every-resident-based-on-behavior-by-end-of-2020">Bloomberg</a>) &#8211; the dystopia is here. We are all quantized without any meaningful consent in the massive databases of the big tech corporations.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2470" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/Bhargava_SSIR_2019_rev3-2.jpg" alt="" width="965" height="451" /></p>
+<p>I trust you’re on board now with the idea that data has a dark history full of examples like these ones that I’ve quickly touched on. Want more? Read <a href="https://nyupress.org/books/9781479837243/">Algorithms of Oppression</a>, <a href="https://weaponsofmathdestructionbook.com/">Weapons of Math Destruction</a>, <a href="https://virginia-eubanks.com/books/">Automating Inequality</a>, or one of the other recent books about this.</p>
+<h2>A Disempowering Process</h2>
+<p>I know, that was pretty depressing. Usually I don&#8217;t pull in forced labor, slavery, and the Nazi holocaust into one blog post. Sorry. This thing is, this is the past and present that your data process is living within. We can&#8217;t ignore it. You have to work hard to make sure you’re not part of it. To fight this history, first we have to understand the patterns that drove it.</p>
+<p>All of these examples showcase a problematic pattern of data use that we can characterize in four ways:</p>
+<ul>
+<li><strong>Opaque processes</strong>&#8211; the subjects of the data aren’t given any insight into what happens to the data about them</li>
+<li><strong>Extractive collection</strong>&#8211; the data is pulled from the subjects and their community by those outside of it</li>
+<li><strong>High technological complexity</strong>&#8211; the mechanisms used to analyze the data, digital and non-digital, have a steep learning curve</li>
+<li><strong>Control of impact</strong>&#8211; the people the data is about have no say in the impacts of the decisions being made with the data</li>
+</ul>
+<p>From my point of view, <strong>these are process problems</strong>(read more in <a href="https://www.media.mit.edu/publications/approaches-to-building-big-data-literacy/">my paper on with Catherine D’Ignazio</a>). Ok, in some of the more egregious examples above these wouldn’t be described as &#8220;problems&#8221;, because clearly their goals were to actively oppress and kill the subjects of the data. However, that isn&#8217;t the goal of most data endeavors!</p>
+<p>The thing is, <strong>even many well-meaning, pro-social data efforts use this problematic process</strong>. Consider the history of public health and epidemiology to start. In 1663 you have John Graunt carrying out the first recoded experiments in statical data analysis; the ancestor of epidemiology (<a href="https://en.wikipedia.org/wiki/John_Graunt">learn more on Wikipedia</a>). By recoding information about mortality, he theorized that he could design an early warning system for the bubonic plague ravaging Europe. Definitely working for the social good, but in a position of power with no engagement with the effected populations. Extractive dart collection, a complicated statistical process, and no control of impact for the population in mind.</p>
+<p><img loading="lazy" class="alignnone size-full wp-image-2471" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/Bhargava_SSIR_2019_rev3-3.jpg" alt="" width="916" height="451" /></p>
+<p>Or how about the famed maps of John Snow, used to discover the origins of cholera in the early 1800s (<a href="https://en.wikipedia.org/wiki/John_Snow#Cholera">learn more on Wikipedia</a>). A noble, impactful, and meaningful example of data usage for sure &#8211; literally saving lives. The same process criticisms hold &#8211; a person of privilege mapping data about “the poor” to discover something without any role of the people that were the data themselves.</p>
+<p>When we quickly read these two stories, they sound like amazing historical examples of using data for good! However, when you examine them more deeply, you find the same four criticisms weighed above. <strong>Their data methods didn’t match their mission</strong>.</p>
+<h2>Some Inspirations</h2>
+<p>Knowing this history, how do you make sure you’re not doomed to repeat it? So how do you avoid these pitfalls?  You build a data culture within your organization that can do better. You empower staff up and down your org chart to identify problems data can help solve and them support them solving the those problems. You open up your process, you bring people together, you help them make decisions with data. <strong>You don’t need data scientists to to this, you need a data culture</strong>. This is what our <a href="http://datacultureproject.org/">Data Culture Project</a> is all about. Here are some examples to help explain what I mean.</p>
+<figure data-shortcode="caption" id="attachment_2472" aria-describedby="caption-attachment-2472" style="width: 956px" class="wp-caption alignnone"><img loading="lazy" class="wp-image-2472 size-full" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/Bhargava_SSIR_2019_rev3-4.jpg" alt="" width="956" height="453" /><figcaption id="caption-attachment-2472" class="wp-caption-text">Two images from the “The Exhibit of American Negroes” exhibit created by W.E.B. Du Bois (<a href="https://publicdomainreview.org/collections/w-e-b-du-bois-hand-drawn-infographics-of-african-american-life-1900/">source</a>)</figcaption></figure>
+<p>A wonderful historical example is the recently re-discovered works of W.E.B. Du Bois. He pulled census data, among other sources, to create a catalog of “the African American” in 1900. He brought the inventive and novel infographics to the world’s fair in Paris to showcase the work that needed to happen to create true freedom in the US post-slavery (work that is still being done today). He worked with African American students at the university to repurpose this census data to tell their story. These graphics are an example of self-determination &#8211; highlighting the problems the subjects of the data themselves have chosen. His statistical techniques were detailed, but he invented new ways to communicate them to a larger, less data-literate audience.</p>
+<figure data-shortcode="caption" id="attachment_2473" aria-describedby="caption-attachment-2473" style="width: 900px" class="wp-caption alignnone"><img loading="lazy" class="wp-image-2473 size-full" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/image-1.png" alt="" width="900" height="675" /><figcaption id="caption-attachment-2473" class="wp-caption-text">A data mural created by the Created by the Collaborate for Healthy Weight Coalition (August 2013)</figcaption></figure>
+<p>A general theme in my work is using the arts as an invitation to bring people together around data to tell their own story. My work on <a href="http://datamurals.org/">data murals</a>, a collaboration with my wife Emily Bhargava, is a prime example of this. We bring a group of people together around some data about them, help them find a story they want to tell, and then collaboratively design a mural to tell it. This puts the ownership of the data analysis and the data story in their hands, flipping the standard process on its head. The subjects of the data are empowering to tell the data story, with invitations to analyze the data that build their capacity and meet them where they are in skills and interests.</p>
+<figure data-shortcode="caption" id="attachment_2474" aria-describedby="caption-attachment-2474" style="width: 907px" class="wp-caption alignnone"><img loading="lazy" class="wp-image-2474 size-full" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/Bhargava_SSIR_2019_rev3-5.jpg" alt="" width="907" height="419" /><figcaption id="caption-attachment-2474" class="wp-caption-text">Data 4 Black Lives founders Yeshimabeit Milner, Lucas Mason-Brown, and Max Clermont</figcaption></figure>
+<p>A more community-focused example comes from the <a href="http://d4bl.org/">Data 4 Black Lives organization</a>(D4BL). The brutal legacy of slavery in the US permeates our culture, so it should be no surprise that it continues to poison the datasets we use as well. D4BL is working to highlight these problems, bring together organizers, data scientists, and students, and also influence policy to put data in service of the needs of black lives in the US. This is a traditionally marginalized community empowering themselves with the language of those in power (data) and trying to build community in service of their own goals.</p>
+<figure style="width: 566px" class="wp-caption alignnone"><img class="size-full" src="https://cdn-images-1.medium.com/max/800/0*VNpGhtoFKYuVTZa5." alt="hearts and a woman seeming to be in pain, half the hearts are filled in, half are empty" width="566" height="214" /><figcaption class="wp-caption-text">1st place winner Danford Marco and his Khanga design</figcaption></figure>
+<p>For a non-US example, we can look to the work done by the Tanzania Bhora Initiative and Faru Arts and Sports Development Organizatio as part of the Data Zetu Intiaitive in Tanzania. They ran a competition for designers to create khanga cloth patterns based on data (the <a href="https://www.tanzania-experience.com/blog/khanga-clothing-for-africa/">khanga is a traditional cotton cloth</a>often adorned with sayings or shout-outs). The project built the capacity of designers to speak data, and ended with a fashion show showcasing the winning designs (<a href="https://medium.com/data-zetu/young-artists-use-fashion-and-data-to-promote-dialog-on-sexual-health-517429662ec2">read more in their blog post</a>). The first place winner (Danford Marco) created a design to reflect that 1 out of every 2 married women have faced some kind of abuse from their husband. A staggering statistic, and a stunning design to bring attention to the problem. This kind of creative approach to building data capacity is an example of a very different process, one that is inclusive, builds capacity, and gives ownership of the data to the people it is about.</p>
+<h2>Match your Mission and Methods</h2>
+<figure data-shortcode="caption" id="attachment_2466" aria-describedby="caption-attachment-2466" style="width: 970px" class="wp-caption alignnone"><img loading="lazy" class="wp-image-2466 size-full" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/Bhargava_SSIR_2019_rev3.jpg" alt="an arrow connecting data to a building with a heart" width="970" height="412" /><figcaption id="caption-attachment-2466" class="wp-caption-text">Align your data methods and your mission</figcaption></figure>
+<p>I’m hoping by now that I’ve convinced you that you need to think harder about the data methods you use in order to avoid re-creating the terrible historical practice associated with data. I&#8217;m focused on organizations that work for the social good, but this argument holds true for anyone using data. The inspirational examples I highlight all paint a path forward that lets us match our mission and our methods. Which path will you follow?</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-1877" class="share-twitter sd-button share-icon" href="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/?share=twitter" target="_blank" title="Click to share on Twitter" ><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-1877" class="share-facebook sd-button share-icon" href="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/?share=facebook" target="_blank" title="Click to share on Facebook" ><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-27405506-1877-6334e91d6f5c5' data-src='//widgets.wp.com/likes/index.html?ver=20220105#blog_id=27405506&amp;post_id=1877&amp;origin=datatherapy.wordpress.com&amp;obj_id=27405506-1877-6334e91d6f5c5&amp;domain=datatherapy.org' data-name='like-post-frame-27405506-1877-6334e91d6f5c5' data-title='Like or Reblog'><h3 class='sd-title'>Like this:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class="loading">Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div></div>		</div><!-- .entry-content -->
+
+		<footer class="entry-footer">
+			<span class="posted-on"><a href="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/" rel="bookmark"><time class="entry-date published" datetime="2019-03-13T11:34:11-04:00">March 13, 2019</time><time class="updated" datetime="2019-03-15T08:14:47-04:00">March 15, 2019</time></a></span>		</footer><!-- .entry-footer -->
+
+			<div class="entry-author author-avatar-show">
+				<div class="author-avatar">
+			<img alt='' src='https://1.gravatar.com/avatar/1645e18ef88edfcfcf9b820992d56f03?s=60&#038;d=identicon&#038;r=G' class='avatar avatar-60' height='60' width='60' />		</div><!-- .author-avatar -->
+		
+		<div class="author-heading">
+			<h2 class="author-title">Published by <span class="author-name">rahulbot</span></h2>
+		</div><!-- .author-heading -->
+
+		<p class="author-bio">
+						<a class="author-link" href="https://datatherapy.org/author/rahulbot/" rel="author">
+				View all posts by rahulbot			</a>
+		</p><!-- .author-bio -->
+	</div><!-- .entry-auhtor -->
+	</div><!-- .hentry-wrapper -->
+</article><!-- #post-## -->
+
+	<nav class="navigation post-navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://datatherapy.org/2019/01/14/the-just-data-cube-at-d4bl-ii/" rel="prev"><span class="meta-nav" aria-hidden="true">Previous</span> <span class="screen-reader-text">Previous post:</span> <span class="post-title">The Just Data Cube (at D4BL II)</span></a></div><div class="nav-next"><a href="https://datatherapy.org/2019/09/05/thoughts-on-designing-data-sculptures/" rel="next"><span class="meta-nav" aria-hidden="true">Next</span> <span class="screen-reader-text">Next post:</span> <span class="post-title">Thoughts On Designing Data Sculptures</span></a></div></div>
+	</nav>
+			</main><!-- #main -->
+		</div><!-- #primary -->
+
+		
+<aside id="secondary" class="widget-area" role="complementary">
+	<section id="search-4" class="widget widget-small widget_search"><h2 class="widget-title">Search</h2>
+<form role="search" method="get" class="search-form" action="https://datatherapy.org/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+	</label>
+	<button type="submit" class="search-submit"><span class="screen-reader-text">Search</span></button>
+</form>
+</section><section id="text-6" class="widget widget-small widget_text"><h2 class="widget-title">License</h2>			<div class="textwidget"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</div>
+		</section>
+		<section id="recent-posts-6" class="widget widget-small widget_recent_entries">
+		<h2 class="widget-title">Recent Posts</h2>
+		<ul>
+											<li>
+					<a href="https://datatherapy.org/2021/03/25/new-blog-home/">New Blog Home!</a>
+									</li>
+											<li>
+					<a href="https://datatherapy.org/2020/02/24/data-design-impact-a-workshop-on-data-sculptures-and-civic-change/">Data + Design + Impact: A Workshop on Data Sculptures and Civic Change</a>
+									</li>
+											<li>
+					<a href="https://datatherapy.org/2019/09/05/thoughts-on-designing-data-sculptures/">Thoughts On Designing Data Sculptures</a>
+									</li>
+											<li>
+					<a href="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/" aria-current="page">Aligning Your Data Methods and Your Mission</a>
+									</li>
+											<li>
+					<a href="https://datatherapy.org/2019/01/14/the-just-data-cube-at-d4bl-ii/">The Just Data Cube (at D4BL II)</a>
+									</li>
+											<li>
+					<a href="https://datatherapy.org/2018/10/26/workshop-at-the-2018-un-world-data-forum/">Workshop at the 2018 UN World Data Forum</a>
+									</li>
+											<li>
+					<a href="https://datatherapy.org/2018/10/22/tools-wont-write-your-data-story-for-you/">Tools Won’t Write Your Data Story For You</a>
+									</li>
+											<li>
+					<a href="https://datatherapy.org/2018/05/22/final-projects-from-data-storytelling-studio-2018/">Final Projects from Data Storytelling Studio 2018</a>
+									</li>
+											<li>
+					<a href="https://datatherapy.org/2018/05/07/data-literacy-workshop-pdc-2018/">Data Literacy Workshop @ PDC 2018</a>
+									</li>
+											<li>
+					<a href="https://datatherapy.org/2018/04/30/data-literacy-as-a-steam-activity-for-youth/">Data Literacy as a STEAM Activity for Youth</a>
+									</li>
+					</ul>
+
+		</section><section id="rss_links-6" class="widget widget-small widget_rss_links"><h2 class="widget-title">Get RSS Updates</h2><p class="size-small"><a class="feed-image-link" href="https://datatherapy.org/feed/" title="Subscribe to Posts"><img src="https://datatherapy.org/i/rss/red-small.png" alt="RSS Feed" /></a>&nbsp;<a href="https://datatherapy.org/feed/" title="Subscribe to Posts">RSS - Posts</a></p>
+</section><section id="blog_subscription-6" class="widget widget-small widget_blog_subscription jetpack_subscription_widget"><h2 class="widget-title"><label for="subscribe-field">Get Email Updates</label></h2>
+
+			<div class="wp-block-jetpack-subscriptions__container">
+			<form
+				action="https://subscribe.wordpress.com"
+				method="post"
+				accept-charset="utf-8"
+				id="subscribe-blog"
+			>
+				<p>Enter your email address to follow this blog and receive notifications of new posts by email.</p>
+				<p id="subscribe-email">
+					<label
+						id="subscribe-field-label"
+						for="subscribe-field"
+						class="screen-reader-text"
+					>
+						Email Address:					</label>
+
+					<input
+							type="email"
+							name="email"
+							
+							style="width: 95%; padding: 1px 10px"
+							placeholder="Email Address"
+							value=""
+							id="subscribe-field"
+						/>				</p>
+
+				<p id="subscribe-submit"
+									>
+					<input type="hidden" name="action" value="subscribe"/>
+					<input type="hidden" name="blog_id" value="27405506"/>
+					<input type="hidden" name="source" value="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/"/>
+					<input type="hidden" name="sub-type" value="widget"/>
+					<input type="hidden" name="redirect_fragment" value="subscribe-blog"/>
+					<input type="hidden" id="_wpnonce" name="_wpnonce" value="4cb5583149" />					<button type="submit"
+													class="wp-block-button__link"
+																	>
+						Follow					</button>
+				</p>
+			</form>
+						</div>
+			
+</section><section id="twitter-4" class="widget widget-small widget_twitter"><h2 class="widget-title"><a href='http://twitter.com/rahulbot'>Recent Tweets</a></h2><ul class='tweets'>
+			<li>
+				Excited to be chatting data literacy with these scholars in a few weeks 🎉 <a href="https://twitter.com/NYU_LEARN/status/1573339967153381376"> twitter.com/NYU_LEARN/stat…</a> 				<a href="http://twitter.com/rahulbot/statuses/1574755583647174656" class="timesince">1&nbsp;day&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				RT @<a href='http://twitter.com/NU_CfD'>NU_CfD</a>: <a href='http://twitter.com/search?q=%23SavetheDate'>#SavetheDate</a> next Tues Sept 27th 1230pm EDT/ 630PM CET
+Data Sonification. Beyond the Visual
+Hearing data between science and em… 				<a href="http://twitter.com/rahulbot/statuses/1573419580604702730" class="timesince">5&nbsp;days&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				One of the hardest things in data journalism is figuring out what someone means when they say they want a &quot;graph&quot;. 				<a href="http://twitter.com/rahulbot/statuses/1573321869847298049" class="timesince">5&nbsp;days&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				🙋🏽‍♂️Writing advice needed: what&#039;s the best concise term that can describe civic, non-profit, community, educationa… <a href="https://twitter.com/i/web/status/1573301231514165248"> twitter.com/i/web/status/1…</a> 				<a href="http://twitter.com/rahulbot/statuses/1573301231514165248" class="timesince">5&nbsp;days&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				Oh man I have a lot of reading to do in the next few months 🎉 <a href="https://twitter.com/DataJusticeLab/status/1572196420442116100"> twitter.com/DataJusticeLab…</a> 				<a href="http://twitter.com/rahulbot/statuses/1572996008187154434" class="timesince">6&nbsp;days&nbsp;ago</a>
+			</li>
+
+			</ul><a href="http://twitter.com/rahulbot"  class='twitter-follow-button' data-show-count='false' data-link-color='#3e69dc' data-text-color='#73757D'>Follow @rahulbot</a></section></aside><!-- #secondary -->
+
+	</div><!-- .site-content-wrapper -->
+
+
+<aside id="tertiary" class="widget-area widget-footer" role="complementary">
+	
+		<div class="widget-footer-area widget-footer-bottom-area column-3">
+		<div class="widget-area-wrapper">
+			<section id="linkcat-2200" class="widget widget-small widget_links"><h2 class="widget-title">Links</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://connectionlab.org" rel="noopener" target="_blank">Connection Lab</a></li>
+<li><a href="http://civic.mit.edu/" rel="noopener" target="_blank">MIT Center for Civic Media</a></li>
+<li><a href="http://media.mit.edu/" rel="noopener" target="_blank">MIT Media Lab</a></li>
+
+	</ul>
+</section>
+		</div><!-- .widget-area-wrapper -->
+	</div><!-- .widget-footer-area -->
+	</aside><!-- #tertiary -->
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-footer-wrapper">
+			
+			<div class="site-info">
+				<a href="https://wordpress.com/?ref=footer_blog" rel="nofollow">Blog at WordPress.com.</a>
+				
+							</div><!-- .site-info -->
+		</div><!-- .site-footer-wrapper -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!--  -->
+<script type="text/javascript">
+	window._tkq = window._tkq || [];
+	if ( Math.random() < 0.01 ) {
+		window._tkq.push( [
+			'recordEvent',
+			'wpcom_wordads_noad',
+			{"theme":"pub\/shoreditch","blog_id":27405506,"post_id":1877,"reason_noadverts_option":1,"reason_blog_null":1,"reason_post_null":1}
+		] );
+	}
+</script><script src='//0.gravatar.com/js/gprofiles.js?ver=202239z' id='grofiles-cards-js'></script>
+<script id='wpgroho-js-extra'>
+var WPGroHo = {"my_hash":""};
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1610363240h'></script>
+
+	<script>
+		// Initialize and attach hovercards to all gravatars
+		( function() {
+			function init() {
+				if ( typeof Gravatar === 'undefined' ) {
+					return;
+				}
+
+				if ( typeof Gravatar.init !== 'function' ) {
+					return;
+				}
+
+				Gravatar.profile_cb = function ( hash, id ) {
+					WPGroHo.syncProfileData( hash, id );
+				};
+
+				Gravatar.my_hash = WPGroHo.my_hash;
+				Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+			}
+
+			if ( document.readyState !== 'loading' ) {
+				init();
+			} else {
+				document.addEventListener( 'DOMContentLoaded', init );
+			}
+		} )();
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-1645e18ef88edfcfcf9b820992d56f03">
+	</div>
+	</div>
+	<div id="actionbar" style="display: none;"
+			class="actnbr-pub-shoreditch actnbr-has-follow">
+		<ul>
+								<li class="actnbr-btn actnbr-hidden">
+								<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon gridicons-reader-follow" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"/></g></svg><span>Follow</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon gridicons-reader-following" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 13.482L15.508 21 12 17.4l1.412-1.388 2.106 2.188 6.094-6.094L23 13.482zm-7.455 1.862L20 10.89V2H2v14c0 1.1.9 2 2 2h4.538l4.913-4.832 2.095 2.176zM8 13H4v-1h4v1zm3-2H4v-1h7v1zm0-2H4V8h7v1zm7-3H4V4h14v2z"/></g></svg><span>Following</span>
+		</a>
+							<div class="actnbr-popover tip tip-top-left actnbr-notice" id="follow-bubble">
+							<div class="tip-arrow"></div>
+							<div class="tip-inner actnbr-follow-bubble">
+															<ul>
+											<li class="actnbr-sitename">
+			<a href="https://datatherapy.org">
+				<img alt='' src='https://s2.wp.com/i/logo/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' />				Data Therapy			</a>
+		</li>
+										<form method="post" action="https://subscribe.wordpress.com" accept-charset="utf-8" style="display: none;">
+																						<div class="actnbr-follow-count">Join 208 other followers</div>
+																					<div>
+										<input type="email" name="email" placeholder="Enter your email address" class="actnbr-email-field" aria-label="Enter your email address" />
+										</div>
+										<input type="hidden" name="action" value="subscribe" />
+										<input type="hidden" name="blog_id" value="27405506" />
+										<input type="hidden" name="source" value="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/" />
+										<input type="hidden" name="sub-type" value="actionbar-follow" />
+										<input type="hidden" id="_wpnonce" name="_wpnonce" value="4cb5583149" />										<div class="actnbr-button-wrap">
+											<button type="submit" value="Sign me up">
+												Sign me up											</button>
+										</div>
+									</form>
+									<li class="actnbr-login-nudge">
+										<div>
+											Already have a WordPress.com account? <a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Fdatatherapy.org%252F2019%252F03%252F13%252Faligning-your-data-and-methods-your-mission%252F">Log in now.</a>										</div>
+									</li>
+								</ul>
+															</div>
+						</div>
+					</li>
+							<li class="actnbr-ellipsis actnbr-hidden">
+				<svg class="gridicon gridicons-ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M7 12c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2zm12-2c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-7 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2z"/></g></svg>				<div class="actnbr-popover tip tip-top-left actnbr-more">
+					<div class="tip-arrow"></div>
+					<div class="tip-inner">
+						<ul>
+									<li class="actnbr-sitename">
+			<a href="https://datatherapy.org">
+				<img alt='' src='https://s2.wp.com/i/logo/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' />				Data Therapy			</a>
+		</li>
+								<li class="actnbr-folded-customize">
+								<a href="https://datatherapy.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fdatatherapy.wordpress.com%2F2019%2F03%2F13%2Faligning-your-data-and-methods-your-mission%2F">
+									<svg class="gridicon gridicons-customize" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z"/></g></svg>									<span>Customize</span>
+								</a>
+							</li>
+																<li class="actnbr-folded-follow">
+												<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon gridicons-reader-follow" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"/></g></svg><span>Follow</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon gridicons-reader-following" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 13.482L15.508 21 12 17.4l1.412-1.388 2.106 2.188 6.094-6.094L23 13.482zm-7.455 1.862L20 10.89V2H2v14c0 1.1.9 2 2 2h4.538l4.913-4.832 2.095 2.176zM8 13H4v-1h4v1zm3-2H4v-1h7v1zm0-2H4V8h7v1zm7-3H4V4h14v2z"/></g></svg><span>Following</span>
+		</a>
+										</li>
+																	<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li>
+									<li class="actnbr-login"><a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Fdatatherapy.org%252F2019%252F03%252F13%252Faligning-your-data-and-methods-your-mission%252F">Log in</a></li>
+																	<li class="actnbr-shortlink"><a href="https://wp.me/p1QZqi-uh">Copy shortlink</a></li>
+																	<li class="flb-report"><a href="http://en.wordpress.com/abuse/">Report this content</a></li>
+																	<li class="actnbr-reader">
+										<a href="https://wordpress.com/read/blogs/27405506/posts/1877">
+											View post in Reader										</a>
+									</li>
+																	<li class="actnbr-subs">
+										<a href="https://subscribe.wordpress.com/">Manage subscriptions</a>
+									</li>
+																		<li class="actnbr-fold"><a href="">Collapse this bar</a></li>
+															</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+<script>
+window.addEventListener( "load", function( event ) {
+	var link = document.createElement( "link" );
+	link.href = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20210915";
+	link.type = "text/css";
+	link.rel = "stylesheet";
+	document.head.appendChild( link );
+
+	var script = document.createElement( "script" );
+	script.src = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20220329";
+	script.defer = true;
+	document.body.appendChild( script );
+} );
+</script>
+
+			<div id="jp-carousel-loading-overlay">
+			<div id="jp-carousel-loading-wrapper">
+				<span id="jp-carousel-library-loading">&nbsp;</span>
+			</div>
+		</div>
+		<div class="jp-carousel-overlay" style="display: none;">
+
+		<div class="jp-carousel-container">
+			<!-- The Carousel Swiper -->
+			<div
+				class="jp-carousel-wrap swiper-container jp-carousel-swiper-container jp-carousel-transitions"
+				itemscope
+				itemtype="https://schema.org/ImageGallery">
+				<div class="jp-carousel swiper-wrapper"></div>
+				<div class="jp-swiper-button-prev swiper-button-prev">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
+							<path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskPrev)">
+							<rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+				<div class="jp-swiper-button-next swiper-button-next">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
+							<path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskNext)">
+							<rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<!-- The main close buton -->
+			<div class="jp-carousel-close-hint">
+				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
+						<path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
+					</mask>
+					<g mask="url(#maskClose)">
+						<rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
+					</g>
+				</svg>
+			</div>
+			<!-- Image info, comments and meta -->
+			<div class="jp-carousel-info">
+				<div class="jp-carousel-info-footer">
+					<div class="jp-carousel-pagination-container">
+						<div class="jp-swiper-pagination swiper-pagination"></div>
+						<div class="jp-carousel-pagination"></div>
+					</div>
+					<div class="jp-carousel-photo-title-container">
+						<h2 class="jp-carousel-photo-caption"></h2>
+					</div>
+					<div class="jp-carousel-photo-icons-container">
+						<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Toggle photo metadata visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskInfo)">
+										<rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+							</span>
+						</a>
+												<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Toggle photo comments visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskComments)">
+										<rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+
+								<span class="jp-carousel-has-comments-indicator" aria-label="This image has comments."></span>
+							</span>
+						</a>
+											</div>
+				</div>
+				<div class="jp-carousel-info-extra">
+					<div class="jp-carousel-info-content-wrapper">
+						<div class="jp-carousel-photo-title-container">
+							<h2 class="jp-carousel-photo-title"></h2>
+						</div>
+						<div class="jp-carousel-comments-wrapper">
+															<div id="jp-carousel-comments-loading">
+									<span>Loading Comments...</span>
+								</div>
+								<div class="jp-carousel-comments"></div>
+								<div id="jp-carousel-comment-form-container">
+									<span id="jp-carousel-comment-form-spinner">&nbsp;</span>
+									<div id="jp-carousel-comment-post-results"></div>
+																														<div id="jp-carousel-comment-form-commenting-as">
+												<p id="jp-carousel-commenting-as">
+													You must be <a href="#" class="jp-carousel-comment-login">logged in</a> to post a comment.												</p>
+											</div>
+																											</div>
+													</div>
+						<div class="jp-carousel-image-meta">
+							<div class="jp-carousel-title-and-caption">
+								<div class="jp-carousel-photo-info">
+									<h3 class="jp-carousel-caption" itemprop="caption description"></h3>
+								</div>
+
+								<div class="jp-carousel-photo-description"></div>
+							</div>
+							<ul class="jp-carousel-image-exif" style="display: none;"></ul>
+							<a class="jp-carousel-image-download" target="_blank" style="display: none;">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
+									</mask>
+									<g mask="url(#mask0)">
+										<rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+								<span class="jp-carousel-download-text"></span>
+							</a>
+							<div class="jp-carousel-image-map" style="display: none;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/datatherapy.org\/2019\/03\/13\/aligning-your-data-and-methods-your-mission\/":1877};
+	</script>
+				<script src='https://platform.twitter.com/widgets.js?ver=20111117' id='twitter-widgets-js'></script>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-2' href='https://s0.wp.com/_static/??-eJyljFEKgzAQBS9kXCw2kI/Ss+i6SGKyWbJZvL4t1BP0b97wGDjFYeVO3KGYk2x7ZIVEXRY8fhuk1c2wx8pQPpRJAZdWTSmDnlGoudV4yzSi6gB/N+/rLb7Zd3lN/unnRwh+She1E0V3?cssminify=yes' type='text/css' media='all' />
+<script id='shoreditch-back-top-js-extra'>
+var shoreditchButtonTitle = {"desc":"Back to top"};
+</script>
+<script id='shoreditch-navigation-js-extra'>
+var shoreditchScreenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
+</script>
+<script id='jetpack-carousel-js-extra'>
+var jetpackSwiperLibraryPath = {"url":"https:\/\/s2.wp.com\/wp-content\/mu-plugins\/jetpack-plugin\/production\/_inc\/build\/carousel\/swiper-bundle.min.js"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/datatherapy.org\/wp-admin\/admin-ajax.php","nonce":"6a4daa2187","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"1","require_name_email":"1","login_url":"https:\/\/datatherapy.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdatatherapy.org%2F2019%2F03%2F13%2Faligning-your-data-and-methods-your-mission%2F","blog_id":"27405506","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"stats_query_args":"blog=27405506&v=wpcom&tz=-4&user_id=0&subd=datatherapy","is_public":"1"};
+</script>
+<script id='sharing-js-js-extra'>
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s1.wp.com/_static/??-eJyNkNtOwzAMhl+IzBqwSrtAPApKE7d1mzgmTjYen1SoCG1axZVP/+cTXMW4xAW5wKzg8UIO5esw6xP8KcVqJNSRWCHQggqfFStOln3AfCsuE8YmkdqDTimjp+KmtXtv3WJKkn8DupCYQLyYIbmqZqC7zR6ybC802kKJd46xPhKb3maIVgvm5pmS25q6A81YZL3kJwbJyVe3DoIPYgd9peDB2ZyqYvhVb4lDm7jTfJOZq7gUb8IdTpIWMwRLuf3BZuJxsw16j2/Hrns+dS+vp/P8DerFu8Q='></script>
+<script type='text/javascript'>
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-twitter' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-twitter' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-facebook' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-facebook' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+						return false;
+					}
+				} );
+			} )();
+</script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<iframe src='https://widgets.wp.com/likes/master.html?ver=20220105#ver=20220105&amp;origin=https://datatherapy.org' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+	<div id='likes-other-gravatars'>
+		<div class="likes-text">
+			<span>%d</span> bloggers like this:		</div>
+		<ul class="wpl-avatars sd-like-gravatars"></ul>
+	</div>
+
+		<script src="//stats.wp.com/w.js?63" defer></script> <script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'27405506','blog_tz':'-4','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'27405506','v':'wpcom','tz':'-4','user_id':'0','post':'1877','subd':'datatherapy'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1mNzc2NTVTamdsRWFxcEV3XUtMXVR5aWlmMVNIcUxBaFstUWRrZVpWQ2tORExSfEpUVm05SlpEZzZWOEtlbW5nZHV0dkhDNjhwP35JbkdHLyZqfnRCXXJdcktEWWJbYytfRmZJdDRNP04wMjJqK28sUnNPTG9nZndGV0t6VFNBW1t3bHUxT1E3LGMrOWhqZSZudExSR1NdLVQvTyxDUnFvNC5fP11SeUkvWUMsUDguUzNXSz1JdDVTVkdkNVZyaXhEQlNRayZFXVJnMm5HMzdQVDJfL1g2a3dGSk9KdUUyTmVdSWZRM1kwYWt5ZkJXem80RCtXW1dTT1VpLzJ5MmhRLHJVZTkvOD01bERlK1EvckkvMix6SjNZZWVPeFBrL0VqJnwtZWlWLDJrdT9ENVZEMyV5VklrVkgsdUxyXW1+'}]);
+_stq.push([ 'clickTrackerInit', '27405506', '1877' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>

@@ -3,11 +3,24 @@ from typing import Optional
 import requests
 import lxml.html
 import time
+import pytest
+import re
+from surt import surt
 
 from .. import content
 from .. import webpages
 from ..exceptions import UnableToExtractError
 
+
+@pytest.fixture
+def use_cache(request):
+    return request.config.getoption('--use-cache')
+
+def filesafe_url(url):
+    url = re.sub('"', "", url)
+    s = surt(url) 
+    filesafe_surt = "cached-"+re.sub("\W+", "", url)
+    return filesafe_surt
 
 class TestContentParsers(unittest.TestCase):
 
@@ -17,7 +30,13 @@ class TestContentParsers(unittest.TestCase):
         time.sleep(1)  # sleep time in seconds
 
     def setUp(self) -> None:
-        self.html_content, self.response = webpages.fetch(self.URL)
+        if(use_cache):
+            try:
+                self.html_content = read_fixture(filesafe_url(self.URL))
+            except:
+                self.html_content, _ = webpages.fetch(self.URL)
+        else:
+            self.html_content, self.response = webpages.fetch(self.URL)
 
     def test_readability(self):
         extractor = content.ReadabilityExtractor()
@@ -51,8 +70,12 @@ class TestContentParsers(unittest.TestCase):
         extractor = content.RawHtmlExtractor()
         extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
-
-
+"""
+    def test_lxml(self):
+        extractor = content.LxmlExtractor()
+        extractor.extract(self.URL, self.html_content)
+        assert extractor.worked() is True
+"""
 class TestContentFromUrl(unittest.TestCase):
 
     def tearDown(self):
@@ -60,12 +83,20 @@ class TestContentFromUrl(unittest.TestCase):
 
     @staticmethod
     def _fetch_and_validate(url: str, expected_method: Optional[str]):
-        html_text, _ = webpages.fetch(url)
+        if(use_cache):
+            try:
+                html_text = read_fixture(filesafe_url(url))
+            except:
+                html_text, _ = webpages.fetch(url)
+        else:
+            html_text, _ = webpages.fetch(url)
         results = content.from_html(url, html_text)
         assert results['url'] == url
         assert len(results['text']) > content.MINIMUM_CONTENT_LENGTH
         assert results['extraction_method'] == expected_method
         return results
+
+
 
     def test_failure_javascript_alert(self):
         url = "https://web.archive.org/web/http://www.prigepp.org/aula-foro-answer.php?idcomentario=301c4&idforo=cc0&idcrso=467&CodigoUni=100190"

@@ -6,6 +6,20 @@ import time
 from .. import dates
 from .. import webpages
 
+import pytest
+import re
+from surt import surt
+
+@pytest.fixture
+def use_cache(request):
+    return request.config.getoption('--use-cache')
+
+def filesafe_url(url):
+    url = re.sub('"', "", url)
+    s = surt(url) 
+    filesafe_surt = "cached-"+re.sub("\W+", "", url)
+    return filesafe_surt
+
 
 class TestDates(unittest.TestCase):
 
@@ -34,7 +48,16 @@ class TestDates(unittest.TestCase):
         ("http://www.diariobahiadecadiz.com/noticias/san-fernando/cavada-y-romero-mantienen-otro-encuentro-con-defensa-para-negociar-la-desafectacion-de-suelo-en-camposoto-requerira-un-tiempo-indeterminado/", dt.date(2016, 10, 13))
     ])
     def test_pub_date(self, url, expected_date):
-        raw_html, response = webpages.fetch(url, timeout=120)
+        
+        if(use_cache):
+            try:
+                raw_html = read_fixture(filesafe_url(url))
+            except:
+                raw_html, _ = webpages.fetch(url, timeout=120)
+        else:
+            raw_html, _ = webpages.fetch(url, timeout=120)
+
+        
         pub_date = dates.guess_publication_date(raw_html, url)
         if expected_date is None:
             assert pub_date is None

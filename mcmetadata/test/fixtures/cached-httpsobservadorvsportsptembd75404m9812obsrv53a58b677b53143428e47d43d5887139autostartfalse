@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-M6V684C');</script>
+	<!-- End Google Tag Manager -->
+
+	<link rel="icon" href="/video/images/logo_vsports.png" sizes="16x16" type="image/png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/video/images/apple-touch-icon-120x120-precomposed.png" /> 
+	<link rel="apple-touch-icon" sizes="152x152" href="/video/images/apple-touch-icon-152x152-precomposed.png" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="gwt:property" content="locale=pt_PT">
+	<meta id="viewport" name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1, shrink-to-fit=no">
+	<!-- stringurl http://127.0.0.1:8082/video-sec?obsrv&default&id=75404&ssl=1 --><title>Wolverhampton X Leeds United - Wolverhampton, Golo, Johny, 26m, 1-0</title><!-- marca -->
+	<style type="text/css">body{height: auto !important;}button.vjs-share-control.vjs-control.vjs-button {margin:0}</style> <!-- Retirar após correcção por parte da Brightcove do videojs-social.css -->
+
+	<link rel="stylesheet" href="/video/css/vsports_embd.css" type="text/css" />
+
+			<link rel="stylesheet" href="/video/css/obsrv.css" type="text/css" />
+	
+
+			<link href="//vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+		<link href="//cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/6.6.0/videojs.ads.min.css" rel="stylesheet">
+		<link href="//stc.vsports.pt/css/videojs-ima/v1.2.1/videojs.ima.css" rel="stylesheet">
+		<link href="//players.brightcove.net/videojs-social/3/videojs-social.css" rel="stylesheet">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+
+	<script type="text/javascript">
+		!function(){function e(){var e;e={id:"vsports",event:"resize",vid:"75404",height:document.body.scrollHeight,width:document.body.scrollWidth},window.parent.postMessage(JSON.stringify(e),"*")}window.parent!==window&&(window.addEventListener("load",e),window.addEventListener("resize",e),document.addEventListener("webkitfullscreenchange",e,!1),document.addEventListener("mozfullscreenchange",e,!1),document.addEventListener("fullscreenchange",e,!1),document.addEventListener("MSFullscreenChange",e,!1))}();
+	</script>
+
+</head>
+<body style="margin:0">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6V684C"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	
+	<!-- Testar embed alt -->
+	
+			<video id="vdo-player" class="video-js vjs-fluid vjs-big-play">
+			<p class="vjs-no-js">
+			To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+			</p>
+		</video>
+		<div id="dmc-icon-open"><a target="_blank" href="/vod/75404/m/9812/obsrv/53a58b677b53143428e47d43d5887139"><img src="/video/images/link_w.png" width="40"/></a></div>
+	<!--<div id="time-logo"><div><span>1:38</span></div></div>-->
+	<div id="time-logo">
+		<div>
+								<style type="text/css">
+					#sapoPlayerVideo .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-sharing
+					{
+					    display: none !important;
+					}
+					</style>
+					<div class="left"><img src="/images/adira_sporttv01.png" onclick="window.open('https://www.sporttv.pt/aderir','_blank');"></div>
+							<div class="right" id="time"><span>1:38</span></div>
+		</div>
+	</div>
+
+
+	<div></div>
+			<!-- VideoJS 6 -->
+		<script src="//vjs.zencdn.net/7.5.4/video.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/6.6.0/videojs.ads.min.js"></script>
+		<script src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+		<script src="//stc.vsports.pt/js/videojs-ima/v1.2.1/videojs.ima.js"></script>
+		<script src="//players.brightcove.net/videojs-social/3/videojs-social.min.js"></script>	
+					<script src="//stc.vsports.pt/js/videojs/pt_geoblock.js"></script>
+				<script src="/video/js/adsense.js"></script>	
+		<script src="/video/js/videojs-vsports.min.js"></script>	
+	
+		
+	<script type="text/javascript">var ga_event_category = 'VSEmbedded', autostart = false;</script>
+	<script type="text/javascript">
+		var url_api="https://apism.vsports.pt/",doLogPlay=true,data={comp:'premier',tp:"golo",eqs:[{"id":"158","id_st":"38","abbrv":"","name":"Wolverhampton","emblem":"https:\/\/desporto_stats.imgs.sapo.pt\/9\/Teams\/680.png"},{"id":"188","id_st":"7086","abbrv":"","name":"Leeds United","emblem":"https:\/\/desporto_stats.imgs.sapo.pt\/9\/Teams\/681.png"}],matchid:9812},ga_tracker='UA-22199127-29',ga_tracker_vs=false;function embed_set_analytics_event(e,a,t){var o={dimension1:t.comp};void 0!==t.eqs&&null!==t.eqs&&void 0!==t.eqs[0]&&(o.dimension2=t.eqs[0].abbrv),void 0!==t.eqs&&null!==t.eqs&&void 0!==t.eqs[1]&&(o.dimension3=t.eqs[1].abbrv),o.dimension4="outro",t.tp&&""!=t.tp?o.dimension4=t.tp:1==t.gl?o.dimension4="golo":void 0!==t.minuto&&parseInt(t.minuto)>0&&parseInt(t.minuto)<120&&(o.dimension4="jogada"),o.dimension5=t.matchid,ga("dmc.send","event",ga_event_category,e,a,o),"function"==typeof partner_ga&&partner_ga("obsrv",e,ga_event_category,a,o)}function set_video_view(e){var a=url_api+"vdo-view?obsrv&id="+e;$.get(a)}function getFileLabel(e){var a=new RegExp(/(\/\w+\/mov\/|\/\w+\.mp4)/i).exec(e);return a&&a[0]?a[0].substring(1):null}function openSocialWindow(e,a){var t="PC_Social";switch(ga("vs.send","event",t,"PageClick",a),e){case"facebook":window.open("//www.facebook.com/sharer.php?u="+encodeURIComponent("https://observador.vsports.pt/vod/75404/m/9812/obsrv/53a58b677b53143428e47d43d5887139?utm_source=FB&utm_medium=SNET&utm_campaign=SHRVS")+"&t="+encodeURIComponent("Wolverhampton X Leeds United - Wolverhampton, Golo, Johny, 26m, 1-0"),"sharer","toolbar=0,status=0,width=700,height=500");break;case"twitter":window.open("//twitter.com/intent/tweet?text="+encodeURIComponent("Wolverhampton X Leeds United - Wolverhampton, Golo, Johny, 26m, 1-0")+"&url="+encodeURIComponent("https://observador.vsports.pt/vod/75404/m/9812/obsrv/53a58b677b53143428e47d43d5887139?utm_source=TT&utm_medium=SNET&utm_campaign=SHRVS")+"&via=vsports_pt","sharer","toolbar=0,status=0,width=700,height=500");break;case"whatsapp":window.location="whatsapp://send?text=Wolverhampton+X+Leeds+United+-+Wolverhampton%2C+Golo%2C+Johny%2C+26m%2C+1-0 https://observador.vsports.pt/vod/75404/m/9812/obsrv/53a58b677b53143428e47d43d5887139"+encodeURIComponent("?utm_source=WA&utm_medium=SNET&utm_campaign=SHRVS")}}ga_tracker&&("undefined"==typeof ga&&function(e,a,t,o,n,i,c){e.GoogleAnalyticsObject=n,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,i=a.createElement(t),c=a.getElementsByTagName(t)[0],i.async=1,i.src="https://www.google-analytics.com/analytics.js",c.parentNode.insertBefore(i,c)}(window,document,"script",0,"ga"),ga("create",ga_tracker,"auto",{name:"dmc",cookieFlags:"secure;samesite=none"}),ga("create",ga_tracker_vs,"auto",{name:"vs"}),ga("dmc.send","pageview")),$("#vdo-player").bind("contextmenu",function(){return!1}),function(e){e(".social-header-menu #fb, .social-header #fb, .social-video #fb").click(function(e){e.preventDefault(),openSocialWindow("facebook","Facebook Share")}),e(".social-header-menu #tw, .social-header #tw, .social-video #tw").click(function(e){e.preventDefault(),openSocialWindow("twitter","Twitter Share")}),e(".social-header-menu #wa, .social-header #wa, .social-video #wa").click(function(e){e.preventDefault(),openSocialWindow("whatsapp","WhatsApp Share")})}(jQuery);
+	</script>
+			<script type="text/javascript">
+			var vast_tag = "https://pubads.g.doubleclick.net/gampad/ads?iu=/125049332,96578895/SPORTINVEST_REDE/observador.pt&description_url=https://observador.vsports.pt/embd/75404/m/9812/obsrv/53a58b677b53143428e47d43d5887139?autostart=false&tfcd=0&npa=0&sz=1x1%7C400x300%7C640x360%7C640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator="
+			var puburl=(true)?vast_tag:"",vjsOptions={controls:!0,autoplay:autostart,language:"pt",preload:"auto",aspectRatio:"16:9",poster:((void 0===window.adblockDetecter) && true)?"//loja.vtickets.pt/images/AdBlock/AdBlockDisclamer.jpg":"https://stc.vsports.pt/bigpic/premier/2122/kxKj3BX6nvRJQYwLLEspf.jpg",adsEnabled:"true",sources:[{src:((void 0===window.adblockDetecter) && true)?"":"/GeoBlocked.html",type:"video/mp4",id:"75404"}]};socialOptions={title:"Wolverhampton X Leeds United - Wolverhampton, Golo, Johny, 26m, 1-0",description:"",url:"https://observador.vsports.pt/vod/75404/m/9812/obsrv/53a58b677b53143428e47d43d5887139",embedCode:'<iframe id="vsports-embd-75404" width="100%25" height="360" src="//observador.vsports.pt/embd/75404/m/9812/obsrv/53a58b677b53143428e47d43d5887139?autostart=false" frameborder="0" scrolling="no" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe><script src="//www.vsports.pt/video/vsports-embd-scripts?vid=75404"><\/script>',deeplinking:!1,buttonParent:"shelf",displayAfterVideo:!1,services:{facebook:!0,google:!1,twitter:!0,tumblr:!1,pinterest:!1,linkedin:!1}};var ads=new Ads;
+		</script>
+			<script>
+	function partner_ga(partner, action, category, label, dims) {
+		if (typeof ga !== 'function') {
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function()
+			{ (i[r].q=i[r].q||[]).push(arguments)}
+			,i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		}
+
+		switch (action){
+			case 'pageview':
+				ga('create', 'UA-49652387-1', 'vsports.pt', {name:'partner'});
+				ga('partner.send', 'pageview');
+				break;
+		}
+
+		if (partner == 'xxxxxxx') {
+			switch (action){
+				case 'pageview':
+					ga('create', 'UA-XXXXXXXX-2', 'vsports.pt', {name:'partner1'});
+					ga('partner1.send', 'pageview');
+					break;
+				case 'Play':
+					ga('partner1.send', 'event', ga_event_category, action, label, dims);
+					break;
+			}
+
+		}
+	}; partner_ga('obsrv', 'pageview');
+	</script>
+
+	<script type="text/javascript">
+	$('.left').click(function () {
+		ga('vs.send', 'event', 'Float', 'PageClick', 'Sporttv');
+	});
+	</script>
+
+	<!-- Matomo -->
+	<!-- 
+	<script type="text/javascript">
+	  var _paq = window._paq = window._paq || [];
+	  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+	    var u="//analytics.vsports.pt/";
+	    _paq.push(['setTrackerUrl', u+'matomo.php']);
+	    _paq.push(['setSiteId', '1']);
+	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	<noscript><p><img src="//analytics.vsports.pt/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+-->
+	<!-- End Matomo Code -->
+
+</body>
+</html>
