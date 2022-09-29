@@ -4,6 +4,19 @@ from .. import titles
 from .. import webpages
 from . import read_fixture
 
+import pytest
+import re
+from surt import surt
+
+@pytest.fixture
+def use_cache(request):
+    return request.config.getoption('--use-cache')
+
+def filesafe_url(url):
+    url = re.sub('"', "", url)
+    s = surt(url) 
+    filesafe_surt = "cached-"+re.sub("\W+", "", url)
+    return filesafe_surt
 
 class TestTitle(unittest.TestCase):
 
@@ -14,7 +27,13 @@ class TestTitle(unittest.TestCase):
 
     @staticmethod
     def _fetch_and_validate(url: str, expected_title: str):
-        html_text, _ = webpages.fetch(url)
+        if(use_cache):
+            try:
+                html_text = read_fixture(filesafe_url(url))
+            except:
+                html_text, _ = webpages.fetch(url)
+        else:
+            html_text, _ = webpages.fetch(url)
         assert titles.from_html(html_text) == expected_title
 
     def test_meta_og_title(self):

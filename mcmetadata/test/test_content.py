@@ -31,6 +31,7 @@ class TestContentParsers(unittest.TestCase):
 
     def setUp(self) -> None:
         if(use_cache):
+            
             try:
                 self.html_content = read_fixture(filesafe_url(self.URL))
             except:

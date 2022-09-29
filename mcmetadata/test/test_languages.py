@@ -4,12 +4,31 @@ from .. import content
 from .. import webpages
 from .. import languages
 
+import pytest
+import re
+from surt import surt
+
+@pytest.fixture
+def use_cache(request):
+    return request.config.getoption('--use-cache')
+
+def filesafe_url(url):
+    url = re.sub('"', "", url)
+    s = surt(url) 
+    filesafe_surt = "cached-"+re.sub("\W+", "", url)
+    return filesafe_surt
 
 class TestLanguageFromText(unittest.TestCase):
 
     @staticmethod
     def _fetch_and_validate(url: str, expected_language_code: str):
-        html_text, _ = webpages.fetch(url)
+        if(use_cache):
+            try:
+                html_text = read_fixture(filesafe_url(url))
+            except:
+                html_text, _ = webpages.fetch(url)
+        else:
+            html_text, _ = webpages.fetch(url)
         article = content.from_html(url, html_text)
         lang_code = languages._from_text(article['text'])
         assert lang_code == expected_language_code

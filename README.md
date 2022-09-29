@@ -62,6 +62,12 @@ If you need to push a release manually then you can do this:
 2. Run `twine upload --repository-url https://test.pypi.org/legacy/ dist/*` to upload it to PyPI's test platform
 3. Run `twine upload dist/*` to upload it to PyPI
 
+### Test Cache
+
+Test are run against fixtures by default.
+This can be change with the use of '--use-cache=False' when running tests
+
+When adding new tests, re-run 'scripts/get-test-web-content.py' 
 
 Version History
 ---------------
