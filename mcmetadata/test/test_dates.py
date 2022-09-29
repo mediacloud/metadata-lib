@@ -23,6 +23,10 @@ def filesafe_url(url):
 
 class TestDates(unittest.TestCase):
 
+    @pytest.fixture(autouse=True)
+    def get_use_cache(self, use_cache):
+        self.use_cache = use_cache
+
     def tearDown(self):
         time.sleep(1)  # sleep time in seconds
 
@@ -49,7 +53,7 @@ class TestDates(unittest.TestCase):
     ])
     def test_pub_date(self, url, expected_date):
         
-        if(use_cache):
+        if(self.use_cache):
             try:
                 raw_html = read_fixture(filesafe_url(url))
             except:

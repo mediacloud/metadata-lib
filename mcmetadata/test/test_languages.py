@@ -20,9 +20,13 @@ def filesafe_url(url):
 
 class TestLanguageFromText(unittest.TestCase):
 
-    @staticmethod
-    def _fetch_and_validate(url: str, expected_language_code: str):
-        if(use_cache):
+    @pytest.fixture(autouse=True)
+    def get_use_cache(self, use_cache):
+        self.use_cache = use_cache
+
+    
+    def _fetch_and_validate(self, url: str, expected_language_code: str):
+        if(self.use_cache):
             try:
                 html_text = read_fixture(filesafe_url(url))
             except:
@@ -67,10 +71,20 @@ class TestLanguageFromText(unittest.TestCase):
 
 
 class TestLanguageFromHtml(unittest.TestCase):
+    
+    @pytest.fixture(autouse=True)
+    def get_use_cache(self, use_cache):
+        self.use_cache = use_cache
 
-    @staticmethod
-    def _fetch_and_validate(url: str, expected_language_code: str):
-        html_text, _ = webpages.fetch(url)
+
+    def _fetch_and_validate(self, url: str, expected_language_code: str):
+        if(self.use_cache):
+            try:
+                html_text = read_fixture(filesafe_url(url))
+            except:
+                html_text, _ = webpages.fetch(url)
+        else:
+            html_text, _ = webpages.fetch(url)
         article = content.from_html(url, html_text)
         lang_code = languages.from_html(html_text, article['text'])
         assert lang_code == expected_language_code

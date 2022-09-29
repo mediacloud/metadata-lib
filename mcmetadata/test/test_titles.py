@@ -20,14 +20,18 @@ def filesafe_url(url):
 
 class TestTitle(unittest.TestCase):
 
+    @pytest.fixture(autouse=True)
+    def get_use_cache(self, use_cache):
+        self.use_cache = use_cache
+
     @staticmethod
     def _load_and_validate(fixture_filename: str, expected_title: str):
         html_text = read_fixture(fixture_filename)
         assert titles.from_html(html_text) == expected_title
 
-    @staticmethod
-    def _fetch_and_validate(url: str, expected_title: str):
-        if(use_cache):
+    
+    def _fetch_and_validate(self, url: str, expected_title: str):
+        if(self.use_cache):
             try:
                 html_text = read_fixture(filesafe_url(url))
             except:
