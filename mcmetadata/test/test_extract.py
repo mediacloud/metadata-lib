@@ -107,7 +107,7 @@ class TestExtract(unittest.TestCase):
         assert results['other']['raw_publish_date'] == dt.datetime(2022, 8, 14, 0, 0)
         assert results['other']['top_image_url'] == "https://im.indiatimes.in/content/2022/Aug/flag_62f496a5df908.jpg"
         assert len(results['other']['authors']) == 1
-        assert results['other']['authors'][0] == "Gursharan Bhalla; Saloni Singh; Tanishk Juneja; Monit Khanna; Isha Sharma; Digvijay; Trishna Das; Aditya Sagar; Bhupinder Singh"
+        assert results['other']['authors'][0] == 'Gursharan Bhalla; Aditya Sagar; Sejal Jakhwal; Basit Aijaz; Ananya Jain; Rishabh Banerji; Digvijay'
 
     def test_whitespace_removal(self):
         url = "https://observador.vsports.pt/embd/75404/m/9812/obsrv/53a58b677b53143428e47d43d5887139?autostart=false"

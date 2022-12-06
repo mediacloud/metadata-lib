@@ -7,20 +7,23 @@ import pytest
 import re
 from surt import surt
 
+from . import read_fixture
 from .. import content
 from .. import webpages
-from ..exceptions import UnableToExtractError, BadContentError
+from ..exceptions import BadContentError
 
 
 @pytest.fixture
 def use_cache(pytestconfig):
     return pytestconfig.getoption('--use-cache')
 
+
 def filesafe_url(url):
     url = re.sub('"', "", url)
     s = surt(url) 
     filesafe_surt = "cached-"+re.sub("\W+", "", url)
     return filesafe_surt
+
 
 #@pytest.mark.usefixtures("use_cache")
 class TestContentParsers(unittest.TestCase):
@@ -35,6 +38,7 @@ class TestContentParsers(unittest.TestCase):
         time.sleep(1)  # sleep time in seconds
 
     def setUp(self) -> None:
+        webpages.DEFAULT_TIMEOUT_SECS = 30  # try to avoid timeout errors
         if(self.use_cache):
             try:
                 self.html_content = read_fixture(filesafe_url(self.URL))
@@ -82,7 +86,11 @@ class TestContentParsers(unittest.TestCase):
         extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
 
+
 class TestContentFromUrl(unittest.TestCase):
+
+    def setUp(self) -> None:
+        webpages.DEFAULT_TIMEOUT_SECS = 30  # try to avoid timeout errors
 
     @pytest.fixture(autouse=True)
     def get_use_cache(self, use_cache):
@@ -90,7 +98,6 @@ class TestContentFromUrl(unittest.TestCase):
 
     def tearDown(self):
         time.sleep(1)  # sleep time in seconds
-
     
     def _fetch_and_validate(self, url: str, expected_method: Optional[str]):
         if(self.use_cache):
@@ -105,8 +112,6 @@ class TestContentFromUrl(unittest.TestCase):
         assert len(results['text']) > content.MINIMUM_CONTENT_LENGTH
         assert results['extraction_method'] == expected_method
         return results
-
-
 
     def test_failure_javascript_alert(self):
         url = "https://web.archive.org/web/http://www.prigepp.org/aula-foro-answer.php?idcomentario=301c4&idforo=cc0&idcrso=467&CodigoUni=100190"
@@ -183,6 +188,15 @@ class TestContentFromUrl(unittest.TestCase):
             self._fetch_and_validate(url, None)
         except BadContentError:
             assert True
+
+    def test_paywall(self):
+        try:
+            # this returns a 403 because of the paywall they have
+            url = "https://www.nytimes.com/2022/09/20/us/politics/pandemic-aid-fraud-minnesota.html"
+            results = self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
+        except RuntimeError:
+            assert True
+
 
 if __name__ == "__main__":
     unittest.main()

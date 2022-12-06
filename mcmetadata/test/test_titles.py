@@ -63,7 +63,7 @@ class TestTitle(unittest.TestCase):
     def test_title_encoding(self):
         self._fetch_and_validate(
             "https://web.archive.org/web/https://hindi.oneindia.com/amphtml/news/india/aam-aadmi-party-reaction-on-amit-shah-statement-on-corona-case-in-delhi-567287.html",
-            "अमित शाह के बयान पर AAP का पलटवार- अनलॉक से बढ़े मामले, इस वजह से मांगी केंद्र सरकार से मदद | aam aadmi party reaction on amit shah statement on corona case in delhi"
+            "अमित शाह के बयान पर AAP का पलटवार- अनलॉक से बढ़े मामले, इस वजह से मांगी केंद्र सरकार से मदद"
         )
 
     def test_title_encoding2(self):
@@ -110,6 +110,12 @@ class TestTitle(unittest.TestCase):
         url = "https://web.archive.org/web/20220301020549/http://www.graiul.ro/2022/02/25/gura-lumii-☺-cabana-silvica-vanduta-dar-nu-autoritatilor/?utm_source=rss&utm_medium=rss&utm_campaign=gura-lumii-%25e2%2598%25ba-cabana-silvica-vanduta-dar-nu-autoritatilor"
         self._fetch_and_validate(
             url, 'Gura lumii ☺ Cabană silvică vândută, dar nu autorităților'
+        )
+
+    def test_vanity_fair(self):
+        url = "https://web.archive.org/web/20220422074927/https://www.harpersbazaar.com/jp/fashion/fashion-column/a36414759/howtobe-sustainable-fashion-210514-hns/"
+        self._fetch_and_validate(
+            url, 'サステナブルなワードローブにシフトする10のアイデア'
         )
 
 
