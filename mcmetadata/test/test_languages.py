@@ -1,5 +1,6 @@
 import unittest
 
+from . import read_fixture
 from .. import content
 from .. import webpages
 from .. import languages

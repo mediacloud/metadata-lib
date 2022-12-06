@@ -7,6 +7,7 @@ import pytest
 import re
 from surt import surt
 
+from . import read_fixture
 from .. import content
 from .. import webpages
 from ..exceptions import BadContentError
