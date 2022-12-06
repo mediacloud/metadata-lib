@@ -5,9 +5,9 @@ import os
 
 REQUIRED_PACKAGES = [
     # for date guessing
-    "htmldate==1.3.*", "dateparser==1.1.*",
+    "htmldate==1.4.*", "dateparser==1.1.*",
     # for domain name and URL extraction
-    "tldextract==3.3.*",
+    "tldextract==3.4.*",
     "url-normalize==1.4.*",
     "furl==2.1.*",
     # for language detection

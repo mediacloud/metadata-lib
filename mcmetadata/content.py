@@ -159,7 +159,7 @@ markdown_img_path_pattern = re.compile(r"!\[[^\]]*\]\((.*?)\)")
 class TrafilaturaExtractor(AbstractExtractor):
 
     def extract(self, url: str, html_text: str, include_metadata: bool = False):
-        results = trafilatura.bare_extraction(html_text, with_metadata=include_metadata, url=url,
+        results = trafilatura.bare_extraction(html_text, only_with_metadata=include_metadata, url=url,
                                               include_images=include_metadata)
         image_urls = []
         if include_metadata:

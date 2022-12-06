@@ -3,6 +3,7 @@ import datetime as dt
 from parameterized import parameterized
 import time
 
+from . import read_fixture
 from .. import dates
 from .. import webpages
 
@@ -10,9 +11,11 @@ import pytest
 import re
 from surt import surt
 
+
 @pytest.fixture
 def use_cache(request):
     return request.config.getoption('--use-cache')
+
 
 def filesafe_url(url):
     url = re.sub('"', "", url)
@@ -26,6 +29,9 @@ class TestDates(unittest.TestCase):
     @pytest.fixture(autouse=True)
     def get_use_cache(self, use_cache):
         self.use_cache = use_cache
+
+    def setUp(self) -> None:
+        webpages.DEFAULT_TIMEOUT_SECS = 30  # try to avoid timeout errors
 
     def tearDown(self):
         time.sleep(1)  # sleep time in seconds
