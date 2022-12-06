@@ -32,6 +32,10 @@ class TestFetch(unittest.TestCase):
         except requests.exceptions.ConnectionError:
             assert True
 
+    def test_empty(self):
+        url = "https://uionline.detma.org/static/glossary.aspx?term=WHYOPTPMTTWOWAIVERRQSTS"
+        _, _ = webpages.fetch(url)
+
 
 if __name__ == "__main__":
     unittest.main()

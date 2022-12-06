@@ -21,7 +21,8 @@ def fetch(url: str, user_agent: str = None, timeout: int = None, fix_encoding: b
             response.headers["content-type"], url))
     # fix for improperly marked encodings
     if fix_encoding:
-        if response.encoding.lower() != "utf-8" and (response.encoding != response.apparent_encoding):
+        if response.encoding and (response.encoding.lower() != "utf-8") and\
+                (response.encoding != response.apparent_encoding):
             response.encoding = response.apparent_encoding
     html_text = response.text
     return html_text, response
