@@ -18,6 +18,8 @@ meta_tag_pattern_2 = re.compile(r"<meta[^>]*(?:name|property)=.%s.[^>]* content=
 
 title_tag_pattern = re.compile(r"<title(?: [^>]*)?>(.*?)</title>", re.S | re.I)
 
+h1_tag_pattern = re.compile(r"<h1(?: [^>]*)?>(.*?)</h1>", re.S | re.I)
+
 whitespace_pattern = re.compile(r'\s+')
 
 home_pattern = re.compile(r'^\W*home\W*', re.I)
@@ -26,7 +28,7 @@ home_pattern = re.compile(r'^\W*home\W*', re.I)
 def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 0) -> Optional[str]:
     """
     Parse the content for tags that might indicate the story's title. Tuned for online news webpages.
-    stc: https://github.com/mediacloud/backend/blob/master/apps/common/src/python/mediawords/util/parse_html.py#L160
+    src: https://github.com/mediacloud/backend/blob/master/apps/common/src/python/mediawords/util/parse_html.py#L160
     Arguments:
     :html_text - html to parse for title
     :fallback_title - use this title if we can't fine one
@@ -84,6 +86,13 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
                 title = normalized_title[len(title_parts[0])+2:]
         else:  # probably one or more suffixes
             title = title_parts[0]
+
+    # if a single h1 on page, and it is subset of found title, go with that (to eliminate post-fixed titles in meta tags)
+    match = h1_tag_pattern.search(html_text)
+    if match and len(match.groups()) == 1:
+        h1_title = unescape(html.strip_tags(match.group(1))).strip()
+        if h1_title in title.strip():
+            title = h1_title
 
     # optionally trim to a max length
     if trim_to_length > 0:
