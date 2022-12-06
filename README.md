@@ -72,6 +72,7 @@ When adding new tests, re-run 'scripts/get-test-web-content.py'
 Version History
 ---------------
 
+* __v0.8.0__: update dependencies, fix various edge-case bugs
 * __v0.7.9__: fix `include_other_metadata` processing, upgrade underlying libraries to latest, remove leading and 
               trailing whitespace from extracted text
 * __v0.7.8__: add optional `include_other_metadata` arg to extract method, which includes top_image and authors and

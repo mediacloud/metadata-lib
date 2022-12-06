@@ -10,7 +10,7 @@ from . import titles
 from . import languages
 from . import dates
 
-__version__ = "0.7.9"
+__version__ = "0.8.0"
 
 logger = logging.getLogger(__name__)
 
@@ -40,7 +40,12 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
         raw_html, response = webpages.fetch(url)
         # check for archived URLs
         if 'memento-datetime' in response.headers:
-            final_url = response.links['original']['url']  # the original url archived
+            try:
+                final_url = response.links['original']['url']  # the original url archived
+            except KeyError:
+                # maybe the responder doesn't provide the desired headers, so just fall back on the full URL because
+                # there's nothing else we can really do
+                final_url = response.url  # followed all the redirects
         else:
             final_url = response.url  # followed all the redirects
     else:
