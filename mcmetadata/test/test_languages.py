@@ -9,9 +9,11 @@ import pytest
 import re
 from surt import surt
 
+
 @pytest.fixture
 def use_cache(request):
     return request.config.getoption('--use-cache')
+
 
 def filesafe_url(url):
     url = re.sub('"', "", url)
@@ -19,13 +21,13 @@ def filesafe_url(url):
     filesafe_surt = "cached-"+re.sub("\W+", "", url)
     return filesafe_surt
 
+
 class TestLanguageFromText(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
     def get_use_cache(self, use_cache):
         self.use_cache = use_cache
 
-    
     def _fetch_and_validate(self, url: str, expected_language_code: str):
         if(self.use_cache):
             try:
@@ -76,7 +78,6 @@ class TestLanguageFromHtml(unittest.TestCase):
     @pytest.fixture(autouse=True)
     def get_use_cache(self, use_cache):
         self.use_cache = use_cache
-
 
     def _fetch_and_validate(self, url: str, expected_language_code: str):
         if(self.use_cache):
