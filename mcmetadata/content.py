@@ -15,7 +15,7 @@ from lxml.html.clean import Cleaner
 from lxml.html import fromstring, tostring
 
 from .exceptions import UnableToExtractError, BadContentError
-from .html import strip_tags
+from .text import strip_tags
 
 logger = logging.getLogger(__name__)
 

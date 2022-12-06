@@ -1,22 +1,24 @@
 import unittest
-
+from typing import Optional
+import pytest
+import re
+from surt import surt
 from .. import titles
 from .. import webpages
 from . import read_fixture
 
-import pytest
-import re
-from surt import surt
 
 @pytest.fixture
 def use_cache(request):
     return request.config.getoption('--use-cache')
+
 
 def filesafe_url(url):
     url = re.sub('"', "", url)
     s = surt(url) 
     filesafe_surt = "cached-"+re.sub("\W+", "", url)
     return filesafe_surt
+
 
 class TestTitle(unittest.TestCase):
 
@@ -28,10 +30,9 @@ class TestTitle(unittest.TestCase):
     def _load_and_validate(fixture_filename: str, expected_title: str):
         html_text = read_fixture(fixture_filename)
         assert titles.from_html(html_text) == expected_title
-
     
-    def _fetch_and_validate(self, url: str, expected_title: str):
-        if(self.use_cache):
+    def _fetch_and_validate(self, url: str, expected_title: Optional[str]):
+        if self.use_cache:
             try:
                 html_text = read_fixture(filesafe_url(url))
             except:
@@ -116,6 +117,16 @@ class TestTitle(unittest.TestCase):
         url = "https://web.archive.org/web/20220422074927/https://www.harpersbazaar.com/jp/fashion/fashion-column/a36414759/howtobe-sustainable-fashion-210514-hns/"
         self._fetch_and_validate(
             url, 'サステナブルなワードローブにシフトする10のアイデア'
+        )
+
+    def test_no_title(self):
+        url = "https://web.archive.org/web/20111013162600id_/http://www.azftf.gov/(F(r8GSI1MAawoG8fkwp0vWYNSTuweOi8-9wgJOr4j83rTcpZDuFOV5E2PG737tNitGhzYAsUmVcwVEcgwKEtYFADTmzsQMJto9bZTOzDBHUGRpirFPIt4osB08CAslzBk-ih5ATrsM-P7DRxDwcNdmfB4jU1Y1))/WhatWeDo/Volunteer/Pages/default.aspx"
+        self._fetch_and_validate(
+            url, None
+        )
+        url = "https://web.archive.org/web/20161214220739id_/http://services.santabarbaraca.gov/CAP/MG130450/Agenda.htm"
+        self._fetch_and_validate(
+            url, None
         )
 
 
