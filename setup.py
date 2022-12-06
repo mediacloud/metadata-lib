@@ -13,7 +13,7 @@ REQUIRED_PACKAGES = [
     # for language detection
     "py3langid==0.2.*",
     # various content extractors we try to use
-    "newspaper3k==0.2.*", "goose3==3.1.*", "BeautifulSoup4==4.11.*", "readability-lxml==0.8.*", "trafilatura==1.3.*",
+    "newspaper3k==0.2.*", "goose3==3.1.*", "BeautifulSoup4==4.11.*", "readability-lxml==0.8.*", "trafilatura==1.4.*",
     "boilerpy3==1.0.*",
     # support
     "requests",         # leave un-versioned so dependencies can sort of which version is best
