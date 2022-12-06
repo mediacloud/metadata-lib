@@ -140,6 +140,7 @@ class TestContentFromUrl(unittest.TestCase):
         url = "https://s3.amazonaws.com/CFSV2/obituaries/photos/4736/635311/5fecf89b1a6fb.jpeg"
         try:
             self._fetch_and_validate(url, None)
+            assert False
         except RuntimeError:
             # this is an image, so it should return nothing
             assert True
@@ -186,6 +187,7 @@ class TestContentFromUrl(unittest.TestCase):
         url = "https://web.archive.org/web/20161214233744id_/http://usnatarchives.tumblr.com/post/66921244001/cast-your-vote-for-the-immigration-act-to-be/embed"
         try:
             self._fetch_and_validate(url, None)
+            assert False
         except BadContentError:
             assert True
 
@@ -194,6 +196,7 @@ class TestContentFromUrl(unittest.TestCase):
             # this returns a 403 because of the paywall they have
             url = "https://www.nytimes.com/2022/09/20/us/politics/pandemic-aid-fraud-minnesota.html"
             results = self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
+            assert False
         except RuntimeError:
             assert True
 

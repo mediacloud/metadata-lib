@@ -6,6 +6,7 @@ import mcmetadata
 from .. import extract
 from .. import webpages
 from .. import content
+from ..exceptions import BadContentError
 
 
 class TestExtract(unittest.TestCase):
@@ -114,6 +115,14 @@ class TestExtract(unittest.TestCase):
         results = extract(url, include_other_metadata=True)
         # the point here is that it removes all pre and post whitespace - tons of junk
         assert len(results['text_content']) == 110
+
+    def test_memento_without_original_url(self):
+        try:
+            url = "https://web.archive.org/web/20210412063445id_/https://ehp.niehs.nih.gov/action/doUpdateAlertSettings?action=addJournal&journalCode=ehp&referrer=/action/doSearch?ContribAuthorRaw=Davis%2C+Jacquelyn&ContentItemType=research-article&startPage=&ContribRaw=Martin%2C+Denny"
+            results = extract(url, include_other_metadata=True)
+            assert False
+        except BadContentError:
+            assert True
 
 
 class TestStats(unittest.TestCase):

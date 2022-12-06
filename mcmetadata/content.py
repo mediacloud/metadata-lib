@@ -97,7 +97,6 @@ class AbstractExtractor(ABC):
         else:
             raise BadContentError("Content is too short")
 
- 
 
 class Newspaper3kExtractor(AbstractExtractor):
 
