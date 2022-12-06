@@ -38,6 +38,7 @@ class TestContentParsers(unittest.TestCase):
         time.sleep(1)  # sleep time in seconds
 
     def setUp(self) -> None:
+        webpages.DEFAULT_TIMEOUT_SECS = 30  # try to avoid timeout errors
         if(self.use_cache):
             try:
                 self.html_content = read_fixture(filesafe_url(self.URL))
@@ -88,6 +89,9 @@ class TestContentParsers(unittest.TestCase):
 
 class TestContentFromUrl(unittest.TestCase):
 
+    def setUp(self) -> None:
+        webpages.DEFAULT_TIMEOUT_SECS = 30  # try to avoid timeout errors
+
     @pytest.fixture(autouse=True)
     def get_use_cache(self, use_cache):
         self.use_cache = use_cache
@@ -108,7 +112,6 @@ class TestContentFromUrl(unittest.TestCase):
         assert len(results['text']) > content.MINIMUM_CONTENT_LENGTH
         assert results['extraction_method'] == expected_method
         return results
-
 
     def test_failure_javascript_alert(self):
         url = "https://web.archive.org/web/http://www.prigepp.org/aula-foro-answer.php?idcomentario=301c4&idforo=cc0&idcrso=467&CodigoUni=100190"
