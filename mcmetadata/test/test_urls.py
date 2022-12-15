@@ -21,7 +21,9 @@ class TestCanonicalDomain(unittest.TestCase):
         ("https://datatherapy.wordpress.com/2019/03/13/aligning-your-data-and-methods-your-mission/", "datatherapy.wordpress.com"),
         ("https://wordpress.com/blog/2022/05/19/your-website-looks-great-so-should-your-emails/", "wordpress.com"),
         # check out an AMP CDN case
-        ("https://www-example-com.cdn.ampproject.org/c/www.example.com/amp/doc.html", "www.example.com")
+        ("https://www-example-com.cdn.ampproject.org/c/www.example.com/amp/doc.html", "www.example.com"),
+        # try IP address as well
+        ("https://147.182.248.18/2022/09/16/incrementan-accidentes-viales-en-toluca-en-dias-patrios/", "147.182.248.18")
         ])
     def test_canonical_domain(self, test_url, domain):
         assert urls.canonical_domain(test_url) == domain

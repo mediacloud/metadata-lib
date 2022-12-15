@@ -4,6 +4,7 @@ import tldextract
 from typing import Optional
 import url_normalize
 from furl import furl
+import ipaddress
 import pathlib
 
 from .urlshortners import URL_SHORTENER_HOSTNAMES
@@ -39,8 +40,19 @@ def canonical_domain(raw_url: str) -> str:
     :param raw_url: the full URL to extract a unique domain from
     :return:
     """
+    # handle IP addresses first
+    try:
+        parsed_domain = tldextract.extract(raw_url)
+        ipaddress.ip_address(parsed_domain.domain)
+        is_ip_address = True
+    except ValueError:
+        is_ip_address = False
+    if is_ip_address:
+        return parsed_domain.domain
+
     url = normalize_url(raw_url)
     parsed_domain = tldextract.extract(url)
+
     # treat certain domains differently
     is_blogging_subdomain = blog_domain_pattern.search(url)
     if is_blogging_subdomain:
