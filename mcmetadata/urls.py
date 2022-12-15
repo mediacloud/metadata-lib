@@ -44,11 +44,10 @@ def canonical_domain(raw_url: str) -> str:
     try:
         parsed_domain = tldextract.extract(raw_url)
         ipaddress.ip_address(parsed_domain.domain)
-        is_ip_address = True
-    except ValueError:
-        is_ip_address = False
-    if is_ip_address:
+        # if this continues, it means the URL is hosted at an IP address
         return parsed_domain.domain
+    except ValueError:
+        pass
 
     url = normalize_url(raw_url)
     parsed_domain = tldextract.extract(url)
@@ -163,8 +162,8 @@ def _remove_query_params(url: str) -> str:
     if 'google.' in uri.host.lower():
         # Additional parameters specifically for the google.[com,lt,...] host
         parameters_to_remove += ['gws_rd', 'ei']
-        # Some Australian websites append the "nk" parameter with a tracking hash
-    if 'nk' in uri.query.params:
+    # Some Australian websites append the "nk" parameter with a tracking hash
+    if uri.query.params and 'nk' in uri.query.params:
         for nk_value in uri.query.params['nk']:
             if re.search(r'^[0-9a-fA-F]+$', nk_value, re.I):
                 parameters_to_remove += ['nk']
