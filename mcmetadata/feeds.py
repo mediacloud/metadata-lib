@@ -5,7 +5,8 @@ Created for the great Media Merge of 2022
 
 import urllib.parse
 
-def normalize(url: str) -> str:
+
+def normalize_url(url: str) -> str:
     """
     Put a feed URL into a "normal" form for *COMPARISON*
     Output is "lossy", NOT meant to be used.
@@ -18,7 +19,7 @@ def normalize(url: str) -> str:
     # make https into http, remove redundant port info
     scheme = a.scheme
     netloc = a.netloc
-    nls = netloc.split(':',1)   # netloc, split into host[:port]
+    nls = netloc.split(':', 1)   # netloc, split into host[:port]
     if scheme == 'https':
         scheme = 'http'
         if len(nls) > 1 and nls[1] == '443':
@@ -46,11 +47,3 @@ def normalize(url: str) -> str:
     if a.fragment:
         u = f"{u}#{a.fragment}"
     return u
-
-if __name__ == '__main__':
-    print(normalize('https://Aaa.Bbb/ccc?a=1&c=3&b=2#z'))
-    print(normalize('http://aaA.bbB:80/ccc?c=3&b=2&a=1#Z'))
-    print(normalize('https://aaA.bbB:443/ccc?c=3&b=2&a=1#Z'))
-    print(normalize('http://aaA.bbB:123/ccc?c=3&b=2&a=1#Z'))
-    print(normalize('http://peoplesdailyng.com/feed/'))
-    print(normalize('https://www.peoplesdailyng.com/feed'))
