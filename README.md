@@ -72,6 +72,7 @@ When adding new tests, re-run 'scripts/get-test-web-content.py'
 Version History
 ---------------
 
+* __v0.9.0__: adds `feeds.normalize_url` helper
 * __v0.8.2__: small fix to url parsing
 * __v0.8.1__: handle IP addresses in canonical_domain helper
 * __v0.8.0__: update dependencies, fix various edge-case bugs
