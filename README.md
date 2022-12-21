@@ -114,4 +114,6 @@ Contributors
 
 Created as part of the Media Cloud Project:
 * Rahul Bhargava (Media Cloud, Northeastern University)
+* Paige Gulley (Media Cloud)
+* Phil Budne (Media Cloud)
 * Vangelis Banos (Internet Archive)
