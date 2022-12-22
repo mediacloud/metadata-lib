@@ -69,6 +69,12 @@ def canonical_domain(raw_url: str) -> str:
             replace('--', '-')
         candidate_domain = candidate_domain.replace("-", ".")
 
+    # handle exceptions
+    if candidate_domain == '':
+        # country-level domains like gov.cn
+        if (len(parsed_domain.domain) == 0) and (len(parsed_domain.subdomain) == 0) and (len(parsed_domain.suffix)) > 0:
+            candidate_domain = parsed_domain.suffix
+
     return candidate_domain
 
 
@@ -187,7 +193,7 @@ def _remove_query_params(url: str) -> str:
 
 
 archive_url_pattern = re.compile(r'^https://archive.is/[a-z0-9]/[a-z0-9]+/(.*)', re.I)
-another_url_pattern = re.compile(r'^(https?://)(m|beta|media|data|image|www?|cdn|topic|article|news|archive|blog|video|search|preview|login|shop|sports?|act|donate|press|web|photos?|\d+?).?\.(.*\.)', re.I)
+another_url_pattern = re.compile(r'^(https?://)(m|beta|media|data|image|www|cdn|topic|article|news|archive|blog|video|search|preview|login|shop|sports?|act|donate|press|web|photos?|\d+?).?\.(.*\.)', re.I)
 podomatic_url_pattern = re.compile(r'http://.*pron.*\.podomatic\.com', re.I)
 anchor_url_pattern = re.compile(r'#.*')
 multiple_slashes_url_pattern = re.compile(r'(//.*/)/+', re.I)

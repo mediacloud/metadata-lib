@@ -23,7 +23,16 @@ class TestCanonicalDomain(unittest.TestCase):
         # check out an AMP CDN case
         ("https://www-example-com.cdn.ampproject.org/c/www.example.com/amp/doc.html", "www.example.com"),
         # try IP address as well
-        ("https://147.182.248.18/2022/09/16/incrementan-accidentes-viales-en-toluca-en-dias-patrios/", "147.182.248.18")
+        ("https://147.182.248.18/2022/09/16/incrementan-accidentes-viales-en-toluca-en-dias-patrios/", "147.182.248.18"),
+        # governmental suffixes
+        ("http://www.gov.cn/", "gov.cn"),
+        # close to but not 'www'
+        ("http://wwf.or.jp/", "wwf.or.jp"),
+        ("http://wwf.org.br/", "wwf.org.br"),
+        # non-us examples
+        ("https://www.sydney.edu.au", "sydney.edu.au"),
+        ("https://travel.gc.ca", "travel.gc.ca"),
+        ("http://rn.gov.br/", "rn.gov.br")
         ])
     def test_canonical_domain(self, test_url, domain):
         assert urls.canonical_domain(test_url) == domain
