@@ -31,6 +31,10 @@ blog_domain_pattern = re.compile(
         r'|\.shinyapps\.io', re.I)
 
 
+def _is_suffix_only_parsed_url(parsed_url) -> bool:
+    return (len(parsed_url.domain) == 0) and (len(parsed_url.subdomain) == 0) and (len(parsed_url.suffix)) > 0
+
+
 def canonical_domain(raw_url: str) -> str:
     """
     Return a useful canonical domain name given a url. In general this is the logical unique part of the domain.
@@ -72,7 +76,7 @@ def canonical_domain(raw_url: str) -> str:
     # handle exceptions
     if candidate_domain == '':
         # country-level domains like gov.cn
-        if (len(parsed_domain.domain) == 0) and (len(parsed_domain.subdomain) == 0) and (len(parsed_domain.suffix)) > 0:
+        if _is_suffix_only_parsed_url(parsed_domain):
             candidate_domain = parsed_domain.suffix
 
     return candidate_domain

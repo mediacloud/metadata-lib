@@ -32,7 +32,8 @@ class TestCanonicalDomain(unittest.TestCase):
         # non-us examples
         ("https://www.sydney.edu.au", "sydney.edu.au"),
         ("https://travel.gc.ca", "travel.gc.ca"),
-        ("http://rn.gov.br/", "rn.gov.br")
+        ("http://rn.gov.br/", "rn.gov.br"),
+        ('http://www.ma.gov.br/', 'ma.gov.br')
         ])
     def test_canonical_domain(self, test_url, domain):
         assert urls.canonical_domain(test_url) == domain
