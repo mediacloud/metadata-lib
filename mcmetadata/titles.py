@@ -22,7 +22,7 @@ h1_tag_pattern = re.compile(r"<h1(?: [^>]*)?>(.*?)</h1>", re.S | re.I)
 
 whitespace_pattern = re.compile(r'\s+')
 
-home_pattern = re.compile(r'^\W*home\W*', re.I)
+home_pattern = re.compile(r'^\W+home\W+', re.I)
 
 
 def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 0) -> Optional[str]:
@@ -92,7 +92,7 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
     match = h1_tag_pattern.search(html_text)
     if match and len(match.groups()) == 1:
         h1_title = unescape(text.strip_tags(match.group(1))).strip()
-        if h1_title in title.strip():
+        if (len(h1_title) > SHORT_TITLE_THRESHOLD) and (h1_title in title.strip()):
             title = h1_title
 
     # optionally trim to a max length
