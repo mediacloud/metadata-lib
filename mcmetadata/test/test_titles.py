@@ -41,6 +41,26 @@ class TestTitle(unittest.TestCase):
             html_text, _ = webpages.fetch(url)
         assert titles.from_html(html_text) == expected_title
 
+    def test_title_pt(self):
+        self._fetch_and_validate(
+            "https://g1.globo.com/pi/piaui/noticia/2023/01/02/mulher-e-esfaqueada-pelo-ex-namorado-dentro-de-casa-no-sul-do-piaui.ghtml",
+            "Mulher é esfaqueada pelo ex-namorado dentro de casa no Sul do Piauí"
+        )
+
+    def test_pt_empty_h1(self):
+        # the h1 on this page is empty, so we should pick the title from other places
+        self._fetch_and_validate(
+            "https://www.band.uol.com.br/bandnews-fm/rio-de-janeiro/noticias/acusado-de-assassinar-namorada-a-facadas-tem-prisao-convertida-em-preventiva-16574059",
+            "Acusado de assassinar namorada a facadas tem prisão convertida em preventiva"
+        )
+
+    def test_pt_home_in_title_word(self):
+        # we try to remove "home" from titles, but "homem" is a PT word so make sure we don't remove that
+        self._fetch_and_validate(
+            "https://radioalianca.com.br/plantao/homem-de-24-anos-e-morto-por-golpes-de-faca-em-concordia-na-noite-de-quarta-feira",
+            "Homem de 24 anos é morto por golpes de faca em Concórdia na noite de quarta-feira"
+        )
+
     def test_meta_og_title(self):
         self._fetch_and_validate(
             "https://web.archive.org/web/https://www.indiatimes.com/explainers/news/united-nations-climate-report-means-for-india-wet-bulb-temperature-563318.html",
