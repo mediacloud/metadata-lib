@@ -72,6 +72,7 @@ When adding new tests, re-run 'scripts/get-test-web-content.py'
 Version History
 ---------------
 
+* __v0.9.3__: Updated content extractor dependencies, added py.typing for typing support
 * __v0.9.2__: fixed a bug related to title regex matching
 * __v0.9.1__: better support for some non-US government domains
 * __v0.9.0__: adds `feeds.normalize_url` helper
