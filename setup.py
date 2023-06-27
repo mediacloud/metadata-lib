@@ -17,7 +17,7 @@ REQUIRED_PACKAGES = [
     "boilerpy3==1.0.*",
     # support
     "requests",         # leave un-versioned so dependencies can sort of which version is best
-    "cchardet==2.1.*",  # BeautifulSoup4 speedup
+    "faust-cchardet==2.1.*",  # BeautifulSoup4 speedup
     "surt==0.3.1"
 ]
 
