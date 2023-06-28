@@ -48,7 +48,7 @@ Distribution
 This is setup to automatically publish new releases to PyPi via GitHub Actions:
 
 1. Run `pytest` to make sure all the test pass
-2. Update the version number in `metadata-lib/__init__.py`
+2. Update the version number in `mcmetadata/__init__.py`
 3. Make a brief note in the version history section below about the changes
 4. Commit the changes
 5. Tag the commit with a semantic version number - 'v*.*.*'
@@ -72,6 +72,7 @@ When adding new tests, re-run 'scripts/get-test-web-content.py'
 Version History
 ---------------
 
+* __v0.9.4__: Updated requirements to use faust-cchardet for py >3.9 support
 * __v0.9.3__: Updated content extractor dependencies, added py.typing for typing support
 * __v0.9.2__: fixed a bug related to title regex matching
 * __v0.9.1__: better support for some non-US government domains
