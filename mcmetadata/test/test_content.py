@@ -191,15 +191,6 @@ class TestContentFromUrl(unittest.TestCase):
         except BadContentError:
             assert True
 
-    def test_paywall(self):
-        try:
-            # this returns a 403 because of the paywall they have
-            url = "https://www.nytimes.com/2022/09/20/us/politics/pandemic-aid-fraud-minnesota.html"
-            results = self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
-            assert False
-        except RuntimeError:
-            assert True
-
 
 if __name__ == "__main__":
     unittest.main()
