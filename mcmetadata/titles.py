@@ -8,7 +8,7 @@ from . import text
 
 logger = logging.getLogger(__name__)
 
-SHORT_TITLE_THRESHOLD = 32
+SHORT_TITLE_THRESHOLD = 20
 
 title_meta_pattern = "(?:og:title|hdl|twitter:title|dc.title|dcterms.title|title)"
 meta_tag_pattern_1 = re.compile(r"<meta[^>]*(?:name|property)=.%s.[^>]* content=\"([^\"]+)\"" % title_meta_pattern,
