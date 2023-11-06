@@ -7,7 +7,7 @@ REQUIRED_PACKAGES = [
     # for date guessing
     "htmldate==1.5.*", "dateparser==1.1.*",
     # for domain name and URL extraction
-    "tldextract==3.6.*",
+    "tldextract>=3.6,<5.2",
     "url-normalize==1.4.*",
     "furl==2.1.*",
     # for language detection
