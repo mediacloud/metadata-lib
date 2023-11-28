@@ -123,6 +123,47 @@ class TestExtract(unittest.TestCase):
         except BadContentError:
             assert True
 
+    def test_overrides(self):
+        url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
+        overrides = dict(
+            text_content="This is some text",
+            article_title="This is a title",
+            language="pt",
+            publication_date=dt.date(2023, 1, 1)
+        )
+        # validate not the same as overrides
+        results = extract(url)
+        assert results['text_content'] != overrides['text_content']
+        assert results['article_title'] != overrides['article_title']
+        assert results['language'] != overrides['language']
+        assert results['publication_date'] != overrides['publication_date']
+        # now use overrides and validate they are changed
+        results = extract(url, overrides=overrides)
+        assert results['text_content'] == overrides['text_content']
+        assert results['article_title'] == overrides['article_title']
+        assert results['language'] == overrides['language']
+        assert results['publication_date'] == overrides['publication_date']
+
+    def test_default_title(self):
+        # throws too short error if no default
+        url = "https://web.archive.org/web/20111013162600id_/http://www.azftf.gov/(F(r8GSI1MAawoG8fkwp0vWYNSTuweOi8-9wgJOr4j83rTcpZDuFOV5E2PG737tNitGhzYAsUmVcwVEcgwKEtYFADTmzsQMJto9bZTOzDBHUGRpirFPIt4osB08CAslzBk-ih5ATrsM-P7DRxDwcNdmfB4jU1Y1))/WhatWeDo/Volunteer/Pages/default.aspx"
+        results = extract(url)
+        assert results['article_title'] is None
+        # verify throws too short error
+        defaults = dict(article_title="This is a title")
+        results = extract(url, defaults=defaults)
+        assert results['article_title'] == defaults['article_title']
+
+    def test_default_pub_date(self):
+        html = "<html><body>sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf</body></html>"
+        # verify can't guess date
+        results = extract("https://www.example.com", html_text=html)
+        assert results['publication_date'] is None
+        # now with default
+        defaults = dict(publication_date=dt.datetime(2023, 2, 1))
+        results = extract("https://www.example.com", html_text=html, defaults=defaults)
+        assert results['publication_date'] == defaults['publication_date']
+
 
 class TestStats(unittest.TestCase):
 

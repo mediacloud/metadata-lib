@@ -35,8 +35,9 @@ METHOD_BEAUTIFUL_SOUP_4 = 'beautifulsoup4'
 METHOD_BOILER_PIPE_3 = 'boilerpipe3'
 METHOD_READABILITY = 'readability'
 METHOD_TRAFILATURA = 'trafilatura'
-METHOD_LXML = "lxml"
+METHOD_LXML = 'lxml'
 METHOD_FAILED = 'failed'  # placeholder for stats
+METHOD_OVERRIDEN = 'overriden'
 
 # track stats on how frequently each method succeeds (keyed by the METHOD_XYZ constants)
 method_success_stats = collections.Counter()
