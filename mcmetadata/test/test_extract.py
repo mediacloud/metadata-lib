@@ -110,10 +110,13 @@ class TestExtract(unittest.TestCase):
         assert len(results['other']['authors']) == 1
 
     def test_whitespace_removal(self):
+        previous_min_content_length = content.MINIMUM_CONTENT_LENGTH
+        content.MINIMUM_CONTENT_LENGTH = 10
         url = "https://observador.vsports.pt/embd/75404/m/9812/obsrv/53a58b677b53143428e47d43d5887139?autostart=false"
         results = extract(url, include_other_metadata=True)
         # the point here is that it removes all pre and post whitespace - tons of junk
         assert len(results['text_content']) == 110
+        content.MINIMUM_CONTENT_LENGTH = previous_min_content_length
 
     def test_memento_without_original_url(self):
         try:
