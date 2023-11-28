@@ -22,7 +22,7 @@ stats = {s: 0 for s in STAT_NAMES}
 
 
 def extract(url: str, html_text: Optional[str] = None, include_other_metadata: Optional[bool] = False,
-            defaults: Mapping[str, Any] = None, overrides: Mapping[str, Any] = None) -> Dict:
+            defaults: Mapping[str, Any] = {}, overrides: Mapping[str, Any] = {}) -> Dict:
     """
     The core method of this library - returns all the useful information extracted from the HTML of the next
     article at the supplied URL.
@@ -74,7 +74,7 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
     # pub date stuff
     t1 = time.time()
     max_pub_date = dt.datetime.now() + dt.timedelta(days=+MAX_FUTURE_PUB_DATE)
-    if overrides and ('publication_date' in overrides):
+    if 'publication_date' in overrides:
         pub_date = overrides['publication_date']
     else:
         default_date = defaults.get('publication_date') if defaults else None
@@ -84,7 +84,7 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
 
     # content
     t1 = time.time()
-    if overrides and ('text_content' in overrides):
+    if 'text_content' in overrides:
         article = dict(extraction_method = content.METHOD_OVERRIDEN,
                        text=overrides['text_content'])
     else:
@@ -94,7 +94,7 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
 
     # title
     t1 = time.time()
-    if overrides and ('article_title' in overrides):
+    if 'article_title' in overrides:
         article_title = overrides['article_title']
     else:
         article_title = titles.from_html(raw_html, article['title'])
@@ -106,7 +106,7 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
 
     # language
     t1 = time.time()
-    if overrides and ('language' in overrides):
+    if 'language' in overrides:
         full_language = overrides['language']
     else:
         full_language = languages.from_html(raw_html, article['text'])  # could be something like "pt-br"
