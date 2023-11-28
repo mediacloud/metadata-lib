@@ -271,8 +271,9 @@ HOMEPAGE_URL_PATH_REGEXES = [
 ]
 
 
-def is_homepage_url(url: str) -> bool:
+def is_homepage_url(raw_url: str) -> bool:
     """Returns true if URL is a homepage-like URL (ie. not an article)."""
+    url = raw_url.strip() # remove whitespace
     if is_shortened_url(url):  # if it is shortened than it should get a free pass becasue we have to resolve it later
         return False
     uri = furl(url)
@@ -283,8 +284,9 @@ def is_homepage_url(url: str) -> bool:
     return False
 
 
-def is_shortened_url(url: str) -> bool:
+def is_shortened_url(raw_url: str) -> bool:
     """Returns true if URL is a shortened URL (e.g. with Bit.ly)."""
+    url = raw_url.strip()
     uri = furl(url)
     if str(uri.path) is not None and str(uri.path) in ['', '/']:
         # Assume that most of the URL shorteners use something like
