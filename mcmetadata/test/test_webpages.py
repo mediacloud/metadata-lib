@@ -32,9 +32,13 @@ class TestFetch(unittest.TestCase):
         except requests.exceptions.ConnectionError:
             assert True
 
-    def test_empty(self):
+    def test_bad_response(self):
         url = "https://uionline.detma.org/static/glossary.aspx?term=WHYOPTPMTTWOWAIVERRQSTS"
-        _, _ = webpages.fetch(url)
+        try:
+            _, _ = webpages.fetch(url) # raises a 403
+            assert False
+        except RuntimeError:
+            assert True
 
 
 if __name__ == "__main__":
