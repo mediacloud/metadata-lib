@@ -173,7 +173,7 @@ def _remove_query_params(url: str) -> str:
         # Additional parameters specifically for the google.[com,lt,...] host
         parameters_to_remove += ['gws_rd', 'ei']
     # Some Australian websites append the "nk" parameter with a tracking hash
-    if uri.query.params and 'nk' in uri.query.params:
+    if uri.query.params and 'nk' in uri.query.params and uri.query.params['nk'] is not None:
         for nk_value in uri.query.params['nk']:
             if re.search(r'^[0-9a-fA-F]+$', nk_value, re.I):
                 parameters_to_remove += ['nk']
