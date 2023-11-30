@@ -109,11 +109,16 @@ class TestExtract(unittest.TestCase):
         assert results['other']['top_image_url'] == "https://im.indiatimes.in/content/2022/Aug/flag_62f496a5df908.jpg"
         assert len(results['other']['authors']) == 1
 
-    def test_whitespace_removal(self):
+    def test_content_whitespace_removal(self):
         url = "https://observador.vsports.pt/embd/75404/m/9812/obsrv/53a58b677b53143428e47d43d5887139?autostart=false"
         results = extract(url, include_other_metadata=True)
         # the point here is that it removes all pre and post whitespace - tons of junk
         assert len(results['text_content']) == 110
+
+    def test_url_whitespace_removal(self):
+        url = ' https://www.letras.com.br/banda-n-drive/eden '
+        results = extract(url)
+        assert results is not None
 
     def test_memento_without_original_url(self):
         try:
