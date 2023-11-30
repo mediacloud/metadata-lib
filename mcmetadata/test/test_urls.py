@@ -41,6 +41,15 @@ class TestCanonicalDomain(unittest.TestCase):
 
 class TestNormalizeUrl(unittest.TestCase):
 
+    def test_ref_removal(self):
+        normalized = "http://upstract.com/x/fdf95bf448e1f2a8"
+        url = "https://upstract.com/x/fdf95bf448e1f2a8"
+        normalized_url = urls.normalize_url(url)
+        assert normalized_url == normalized
+        url = "https://upstract.com/x/fdf95bf448e1f2a8?ref=rss"
+        normalized_url = urls.normalize_url(normalized)
+        assert normalized_url == normalized
+
     def test_reuters_example(self):
         url1 = "http://feeds.reuters.com/~r/reuters/topnews/~3/nachplxyqso/u-s-probes-border-patrol-as-criticism-of-detention-centers-rises-iduskcn1ty1a5"
         normalized_url1 = urls.normalize_url(url1)
