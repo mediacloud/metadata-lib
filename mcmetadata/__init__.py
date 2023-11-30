@@ -22,7 +22,8 @@ stats = {s: 0 for s in STAT_NAMES}
 
 
 def extract(url: str, html_text: Optional[str] = None, include_other_metadata: Optional[bool] = False,
-            defaults: Mapping[str, Any] = {}, overrides: Mapping[str, Any] = {}) -> Dict:
+            defaults: Mapping[str, Any] = {}, overrides: Mapping[str, Any] = {},
+            stats_accumulator: Mapping[str, int] = stats) -> Dict:
     """
     The core method of this library - returns all the useful information extracted from the HTML of the next
     article at the supplied URL.
@@ -40,10 +41,14 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
                      Keys should be the same as the keys in the returned dictionary (supports `publication_date`,
                      `article_title`, and `language`). This can be useful for speed optimizations,
                      since if an override is provided then that extraction method won't be called.
+    :param stats_accumulator: (optional) A dictionary of stats to accumulate. This is useful if you want to track the
+                 stats yourself _instead_ of in the module-level `stats` counter. If you pass this in then the
+                 timings for the call will _not_ be added to the module-level `stats` counter. Should contain keys
+                 for `STAT_NAMES` (see above).
     """
-    t0 = time.time()
+    t0 = time.monotonic()
     # first fetch the real content (if we need to)
-    t1 = time.time()
+    t1 = t0
     if html_text is None:
         raw_html, response = webpages.fetch(url)
         # check for archived URLs
@@ -59,41 +64,41 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
     else:
         final_url = url  # trust that the user knows which URL the content actually came from
         raw_html = html_text
-    fetch_duration = time.time() - t1
-    stats['fetch'] += fetch_duration
+    fetch_duration = time.monotonic() - t1
+    stats_accumulator['fetch'] += fetch_duration
 
     # url
-    t1 = time.time()
+    t1 = time.monotonic()
     normalized_url = urls.normalize_url(final_url)
     canonical_domain = urls.canonical_domain(final_url)
     is_homepage_url = urls.is_homepage_url(url)
     is_shortened_url = urls.is_shortened_url(url)
-    url_duration = time.time() - t1
-    stats['url'] += url_duration
+    url_duration = time.monotonic() - t1
+    stats_accumulator['url'] += url_duration
 
     # pub date stuff
-    t1 = time.time()
+    t1 = time.monotonic()
     max_pub_date = dt.datetime.now() + dt.timedelta(days=+MAX_FUTURE_PUB_DATE)
     if 'publication_date' in overrides:
         pub_date = overrides['publication_date']
     else:
         default_date = defaults.get('publication_date') if defaults else None
         pub_date = dates.guess_publication_date(raw_html, final_url, max_date=max_pub_date, default_date=default_date)
-    pub_date_duration = time.time() - t1
-    stats['pub_date'] += pub_date_duration
+    pub_date_duration = time.monotonic() - t1
+    stats_accumulator['pub_date'] += pub_date_duration
 
     # content
-    t1 = time.time()
+    t1 = time.monotonic()
     if 'text_content' in overrides:
         article = dict(extraction_method = content.METHOD_OVERRIDEN,
                        text=overrides['text_content'])
     else:
         article = content.from_html(final_url, raw_html, include_other_metadata)
-    content_duration = time.time() - t1
-    stats['content'] += content_duration
+    content_duration = time.monotonic() - t1
+    stats_accumulator['content'] += content_duration
 
     # title
-    t1 = time.time()
+    t1 = time.monotonic()
     if 'article_title' in overrides:
         article_title = overrides['article_title']
     else:
@@ -101,22 +106,22 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
         if article_title is None:
             article_title = defaults.get('article_title') if defaults else None
     normalized_title = titles.normalize_title(article_title)
-    title_duration = time.time() - t1
-    stats['title'] += title_duration
+    title_duration = time.monotonic() - t1
+    stats_accumulator['title'] += title_duration
 
     # language
-    t1 = time.time()
+    t1 = time.monotonic()
     if 'language' in overrides:
         full_language = overrides['language']
     else:
         full_language = languages.from_html(raw_html, article['text'])  # could be something like "pt-br"
         if full_language is None:
             full_language = defaults.get('language') if defaults else None
-    language_duration = time.time() - t1
-    stats['language'] += language_duration
+    language_duration = time.monotonic() - t1
+    stats_accumulator['language'] += language_duration
 
-    total_duration = time.time() - t0
-    stats['total'] += total_duration
+    total_duration = time.monotonic() - t0
+    stats_accumulator['total'] += total_duration
 
     results = dict(
         original_url=url,
