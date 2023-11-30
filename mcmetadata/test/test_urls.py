@@ -139,6 +139,10 @@ class TestIsHomepageUrl(unittest.TestCase):
         url = "https://bit.ly/my-url"
         assert urls.is_homepage_url(url) is False
 
+    def test_whitespace(self):
+        url = ' https://www.letras.com.br/banda-n-drive/eden ' # a real URL from an RSS we fetched
+        assert urls.is_homepage_url(url) is False
+
 
 class TestIsShortenedUrl(unittest.TestCase):
 

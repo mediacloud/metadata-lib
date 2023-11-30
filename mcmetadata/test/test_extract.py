@@ -118,6 +118,11 @@ class TestExtract(unittest.TestCase):
         assert len(results['text_content']) == 110
         content.MINIMUM_CONTENT_LENGTH = previous_min_content_length
 
+    def test_url_whitespace_removal(self):
+        url = ' https://www.letras.com.br/banda-n-drive/eden '
+        results = extract(url)
+        assert results is not None
+
     def test_memento_without_original_url(self):
         try:
             url = "https://web.archive.org/web/20210412063445id_/https://ehp.niehs.nih.gov/action/doUpdateAlertSettings?action=addJournal&journalCode=ehp&referrer=/action/doSearch?ContribAuthorRaw=Davis%2C+Jacquelyn&ContentItemType=research-article&startPage=&ContribRaw=Martin%2C+Denny"
