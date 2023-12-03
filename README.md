@@ -45,8 +45,7 @@ metadata = extract(url="https://my.awesome.news/story-path",
 Distribution
 ------------
 
-This is setup to automatically publish new releases to PyPi via GitHub Actions:
-
+### Prep Release
 1. Run `pytest` to make sure all the test pass
 2. Update the version number in `mcmetadata/__init__.py`
 3. Make a brief note in the version history section below about the changes
@@ -55,8 +54,6 @@ This is setup to automatically publish new releases to PyPi via GitHub Actions:
 6. Push to repo to GitHub
 
 ### Manual Release
-
-If you need to push a release manually then you can do this:
 
 1. Run `python setup.py sdist` to create an installation package
 2. Run `twine upload --repository-url https://test.pypi.org/legacy/ dist/*` to upload it to PyPI's test platform
