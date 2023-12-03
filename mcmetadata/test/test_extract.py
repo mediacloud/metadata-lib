@@ -185,6 +185,17 @@ class TestStats(unittest.TestCase):
             if s != 'total':  # is less than total
                 assert mcmetadata.stats.get('url') < mcmetadata.stats.get('total')
 
+    def test_passed_in_accumulator(self):
+        local_stats = {s: 0 for s in mcmetadata.STAT_NAMES}
+        url = "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm"
+        _ = extract(url, stats_accumulator=local_stats)
+        for s in mcmetadata.STAT_NAMES:  # verify global counter didn't count
+            assert s in mcmetadata.stats
+            assert mcmetadata.stats.get(s) == 0
+        for s in mcmetadata.STAT_NAMES:  # verify local counter did count
+            assert s in local_stats
+            assert local_stats.get(s) > 0
+
 
 if __name__ == "__main__":
     unittest.main()
