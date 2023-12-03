@@ -72,6 +72,8 @@ When adding new tests, re-run 'scripts/get-test-web-content.py'
 Version History
 ---------------
 
+* __v0.10.0__: Support defaults and overrides in `extract`, returning execution time stats, requirements updates, more
+               handling of malformed URLs 
 * __v0.9.5__: Updated requirements, update non-news site list, fix failing unit tests, tweak title parsing logic
 * __v0.9.4__: Updated requirements to use faust-cchardet for py >3.9 support
 * __v0.9.3__: Updated content extractor dependencies, added py.typing for typing support
@@ -117,7 +119,7 @@ Version History
 Contributors
 ------------
 
-Created as part of the Media Cloud Project:
+Created as part of the Media Cloud Project. Contributes include:
 * Rahul Bhargava (Media Cloud, Northeastern University)
 * Paige Gulley (Media Cloud)
 * Phil Budne (Media Cloud)

@@ -175,6 +175,13 @@ class TestExtract(unittest.TestCase):
 
 class TestStats(unittest.TestCase):
 
+    def test_reset(self):
+        url = "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm"
+        _ = extract(url)
+        assert mcmetadata.stats.get('total') > 0
+        mcmetadata.reset_stats()
+        assert mcmetadata.stats.get('total') == 0
+
     def test_total_works(self):
         url = "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm"
         _ = extract(url)
@@ -186,6 +193,7 @@ class TestStats(unittest.TestCase):
                 assert mcmetadata.stats.get('url') < mcmetadata.stats.get('total')
 
     def test_passed_in_accumulator(self):
+        mcmetadata.reset_stats()
         local_stats = {s: 0 for s in mcmetadata.STAT_NAMES}
         url = "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm"
         _ = extract(url, stats_accumulator=local_stats)

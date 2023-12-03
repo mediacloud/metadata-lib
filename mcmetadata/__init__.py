@@ -10,7 +10,7 @@ from . import titles
 from . import languages
 from . import dates
 
-__version__ = "0.9.5"
+__version__ = "0.10.0"
 
 logger = logging.getLogger(__name__)
 
@@ -23,7 +23,7 @@ stats = {s: 0 for s in STAT_NAMES}
 
 def extract(url: str, html_text: Optional[str] = None, include_other_metadata: Optional[bool] = False,
             defaults: Mapping[str, Any] = {}, overrides: Mapping[str, Any] = {},
-            stats_accumulator: Mapping[str, int] = stats) -> Dict:
+            stats_accumulator: Mapping[str, int] = None) -> Dict:
     """
     The core method of this library - returns all the useful information extracted from the HTML of the next
     article at the supplied URL.
@@ -46,6 +46,8 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
                  timings for the call will _not_ be added to the module-level `stats` counter. Should contain keys
                  for `STAT_NAMES` (see above).
     """
+    if stats_accumulator is None:  # can't default to global because of Python reference handling in defaults
+        stats_accumulator = stats
     t0 = time.monotonic()
     # first fetch the real content (if we need to)
     t1 = t0
@@ -149,3 +151,8 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
         )
 
     return results
+
+
+def reset_stats():
+    global stats
+    stats = {s: 0 for s in STAT_NAMES}
