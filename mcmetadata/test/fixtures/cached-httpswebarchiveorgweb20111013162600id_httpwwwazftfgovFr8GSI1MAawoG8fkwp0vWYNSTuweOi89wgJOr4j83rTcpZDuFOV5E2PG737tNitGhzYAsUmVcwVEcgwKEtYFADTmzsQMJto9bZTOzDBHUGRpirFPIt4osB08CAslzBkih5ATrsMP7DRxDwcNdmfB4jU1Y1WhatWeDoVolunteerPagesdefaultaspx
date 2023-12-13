@@ -1,0 +1,887 @@
+<!DOCTYPE HTML PUBLIC “-//W3C//DTD HTML 4.01 Transitional//EN”>
+
+<html id="ctl00_Html1" __expr-val-dir="ltr" dir="ltr">
+<head id="ctl00_Head1"><meta name="GENERATOR" content="Microsoft SharePoint" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Expires" content="0" /><title>
+	
+	
+
+</title><link rel="stylesheet" type="text/css" href="/Style%20Library/AZFTF.css"/>
+<link rel="stylesheet" type="text/css" href="/_layouts/1033/styles/HtmlEditorCustomStyles.css?rev=8SKxtNx33FmoDhbbfB27UA%3D%3D"/>
+<link rel="stylesheet" type="text/css" href="/_layouts/1033/styles/HtmlEditorTableFormats.css?rev=guYGdUBUxQit03E2jhSdvA%3D%3D"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/FTFMenu/jquery.megamenu.css"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/en-US/Core%20Styles/pageLayouts.css"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/en-US/styles.css"/>
+<link rel="stylesheet" type="text/css" href="/_layouts/1033/styles/core.css?rev=5msmprmeONfN6lJ3wtbAlA%3D%3D"/>
+
+    <!--Styles used for positioning, font and spacing definitions-->
+    <!-- Update below reference to include custom styles -->
+    <script src="/_layouts/1033/init.js?rev=qX%2BG3yl4pldKy9KbPLXf9w%3D%3D"></script>
+<script type="text/javascript" language="javascript" src="/_layouts/1033/core.js?rev=CNBZRdV1h3pKuA7LsMXf3w%3D%3D" defer></script>
+<script type="text/javascript" language="javascript" src="/_layouts/1033/non_ie.js?rev=yfNry4hY0Gwa%2FPDNGrqXVg%3D%3D"></script>
+<script type="text/javascript" language="javascript" src="/_layouts/1033/search.js?rev=yqBjpvg%2Foi3KG5XVf%2FStmA%3D%3D" defer></script>
+
+    <!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="/Style Library/ie_styles.css" />
+	<![endif]-->
+    <script src="/Style Library/scripts/jquery-1.3.2.min.js" type="text/javascript">
+    </script>
+    <script src="/Style Library/scripts/jquery.megamenu.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(function () {
+            var SelfLocation = window.location.href.split('?');
+            switch (SelfLocation[1]) {
+                case "justify_right":
+                    jQuery(".megamenu").megamenu({ 'justify': 'right' });
+                    break;
+                case "justify_left":
+                default:
+                    jQuery(".megamenu").megamenu({ 'justify': 'right' });
+
+            }
+        });
+
+        _spBodyOnLoadFunctionNames.push("hide");
+
+        function hide() {
+            //var webPart = document.getElementById("WebPartWPQ4");
+
+            //if(webPart != null)
+            //{
+            //document.getElementById("WebPartWPQ4").style.width = '650px';
+            //alert(webPart.offsetWidth);
+            //}
+        }
+
+    </script>
+    <!--Placeholder for additional overrides-->
+    
+	<style type="text/css">
+		.ms-pagetitleareaframe table, .ms-titleareaframe
+		{
+			background: none;
+			height: 10px;
+			overflow:hidden;
+		}
+		.ms-pagetitle, .ms-titlearea
+		{
+			display:none;
+		}
+	</style>
+	
+
+    <script language="javascript" src="/_catalogs/scripts/ftf_scripts.js"></script>
+    <script language="javascript" src="/_catalogs/scripts/hpSlider.js"></script>
+    <script language="javascript" src="/_catalogs/scripts/greybox.js"></script>
+    <script language="javascript" src="/_catalogs/scripts/mapper.js"></script>
+    <script language="javascript" src="/_catalogs/scripts/swfobject.js"></script>
+    <script language="javascript" src="/_catalogs/scripts/ftf_scripts.js"></script>
+    <style type="text/css">
+        body
+        {
+            behavior: url("/Style%20Library/FTFMenu/csshover3.htc");
+        }
+        td.ms-sbcell
+        {
+            border-bottom: 1px #d4cba8 none;
+            border-top: 1px #d4cba8 none;
+            border-left: 1px #d4cba8 none;
+            border-right: 1px #d4cba8 none;
+        }
+        
+        td.ms-sbtext
+        {
+            padding: 3px 0 0 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 11px;
+            font-weight: bold;
+            color: #53503d;
+        }
+        
+        .breadcrumb
+        {
+            font-size: 10px;
+            font-weight: bold;
+            color: #53503d;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+        
+        .ms-sbplain
+        {
+            border: 1px #7f9db9 solid;
+        }
+    </style>
+	<link rel="shortcut icon" href="/Publishingimages/favicon.ico" /><style type="text/css">
+	.ctl00_PlaceHolderHeadAreaLeft_leftAreaHeader_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderHeadAreaRight_rightAreaHeader_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_TopColumnZone_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_LeftColumnZone_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_RightColumnZone_0 { border-color:Black;border-width:1px;border-style:Solid; }
+
+</style></head>
+<body onload="javascript:_spBodyOnLoadWrapper();">
+    <div align="center">
+        
+        <form name="aspnetForm" method="post" action="/(F(QffFaAtuJkk4KYnVRkHNwD3VvD3jK2jZ3qKdpwTdY2JCxj_UF05AcpXjTj4zGZW4KDFZYdUuMDWjYBNZpKc2KrG_OxRkPJE1GXMTLimvHnQk2V6WmStPDIEygi-3urC0ZttJlSSEfFNL5g7KU0W1uAH4PxI1))/WhatWeDo/Volunteer/Pages/default.aspx" id="aspnetForm">
+<input type="hidden" name="__SPSCEditMenu" id="__SPSCEditMenu" value="true" />
+<input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="" />
+<input type="hidden" name="MSOTlPn_SelectedWpId" id="MSOTlPn_SelectedWpId" value="" />
+<input type="hidden" name="MSOTlPn_View" id="MSOTlPn_View" value="0" />
+<input type="hidden" name="MSOTlPn_ShowSettings" id="MSOTlPn_ShowSettings" value="False" />
+<input type="hidden" name="MSOGallery_SelectedLibrary" id="MSOGallery_SelectedLibrary" value="" />
+<input type="hidden" name="MSOGallery_FilterString" id="MSOGallery_FilterString" value="" />
+<input type="hidden" name="MSOTlPn_Button" id="MSOTlPn_Button" value="none" />
+<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="0x85873E87E30599772B813B96032469B2EBFF7B49DB2EC7A0D0629B78918FA8A7BA98E4AF61A06E4D29B8A0E1D825CE470615516CF45FA767D79FB3F085880A65,13 Oct 2011 16:22:34 -0000" />
+<input type="hidden" name="MSOAuthoringConsole_FormContext" id="MSOAuthoringConsole_FormContext" value="" />
+<input type="hidden" name="MSOAC_EditDuringWorkflow" id="MSOAC_EditDuringWorkflow" value="" />
+<input type="hidden" name="MSOSPWebPartManager_DisplayModeName" id="MSOSPWebPartManager_DisplayModeName" value="Browse" />
+<input type="hidden" name="MSOWebPartPage_Shared" id="MSOWebPartPage_Shared" value="" />
+<input type="hidden" name="MSOLayout_LayoutChanges" id="MSOLayout_LayoutChanges" value="" />
+<input type="hidden" name="MSOLayout_InDesignMode" id="MSOLayout_InDesignMode" value="" />
+<input type="hidden" name="MSOSPWebPartManager_OldDisplayModeName" id="MSOSPWebPartManager_OldDisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_StartWebPartEditingName" id="MSOSPWebPartManager_StartWebPartEditingName" value="false" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUBMA9kFgJmD2QWAgIBD2QWBAIBD2QWAgIED2QWAmYPZBYCAgEPFgIeE1ByZXZpb3VzQ29udHJvbE1vZGULKYgBTWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViQ29udHJvbHMuU1BDb250cm9sTW9kZSwgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YwFkAgUPZBYOAgQPZBYCAgEPFgIeB1Zpc2libGVoFgJmD2QWBAICD2QWBgIBDxYCHwFoZAIDDxYCHwFoZAIFDxYCHwFoZAIDDw8WAh4JQWNjZXNzS2V5BQEvZGQCCA9kFgICAw9kFgICAQ8PFgIfAWdkFgQCAQ8PFgIfAWhkFhwCAQ8PFgIfAWhkZAIDDxYCHwFoZAIFDw8WAh8BaGRkAgcPFgIfAWhkAgkPDxYCHwFoZGQCCw8PFgIfAWhkZAINDw8WAh8BaGRkAg8PDxYEHgdFbmFibGVkaB8BaGRkAhEPDxYCHwFoZGQCEw8PFgQfA2gfAWhkZAIVDw8WAh8BaGRkAhcPFgIfAWhkAhkPFgIfAWhkAhsPDxYCHwFnZGQCAw8PFgIfAWdkFgYCAQ8PFgIfAWdkZAIDDw8WBh4YcGVyc2lzdGVkRXJyb3JBY3Rpb25UcmVlZB4bcGVyc2lzdGVkRXJyb3JBY3Rpb25UcmVlSWRzZB8BZ2RkAgUPDxYCHwFnZGQCCg9kFgICAQ9kFgJmDw9kFgIeBWNsYXNzBRhtcy1zYnRhYmxlIG1zLXNidGFibGUtZXhkAg4PZBYCAgEPZBYCZg8PFgIfAWhkZAIQD2QWAgIBD2QWAmYPDxYCHwFoZGQCEg9kFggCBRAWAh8ACysEAWRkAgcPZBYCZg8PFgIfAWhkZAIJD2QWAmYPDxYCHwFoZGQCCw9kFgJmDw8WAh8BaGRkAhQPZBYEAgEPZBYCZg8WAh8BaBYCZg9kFgQCAg8WAh4OTGlzdFRlbXBsYXRlSWQFAzg1MBYGAgEPFgQeE0NsaWVudE9uQ2xpY2tTY3JpcHQFgwFqYXZhc2NyaXB0OkdvVG9QYWdlKCdcdTAwMmZXaGF0V2VEb1x1MDAyZlZvbHVudGVlclx1MDAyZl9sYXlvdXRzXHUwMDJmdXNlcmRpc3AuYXNweD9Gb3JjZT1UcnVlXHUwMDI2SUQ9JyArIF9zcFVzZXJJZCk7cmV0dXJuIGZhbHNlOx4YQ2xpZW50T25DbGlja05hdmlnYXRlVXJsZGQCAw8WBB8IBXpqYXZhc2NyaXB0OkxvZ2luQXNBbm90aGVyKCdcdTAwMmZXaGF0V2VEb1x1MDAyZlZvbHVudGVlclx1MDAyZl9sYXlvdXRzXHUwMDJmQWNjZXNzRGVuaWVkLmFzcHg/bG9naW5hc2Fub3RoZXJ1c2VyPXRydWUnLCAwKR8JZGQCBw8WBB8IBT53aW5kb3cubG9jYXRpb24gPSAnL1doYXRXZURvL1ZvbHVudGVlci9fbGF5b3V0cy9TaWduT3V0LmFzcHgnOx8JBSkvV2hhdFdlRG8vVm9sdW50ZWVyL19sYXlvdXRzL1NpZ25PdXQuYXNweGQCAw8PFgIfAgUBTGRkAgsPZBYCAgEPFgIfAAsrBAFkZDtWr9oe+qRK21vTA2NAp+vITk7e" />
+
+<script> var MSOWebPartPageFormName = 'aspnetForm';</script><script type="text/JavaScript" language="JavaScript">
+<!--
+var L_Menu_BaseUrl="/WhatWeDo/Volunteer";
+var L_Menu_LCID="1033";
+var L_Menu_SiteTheme="";
+//-->
+</script>
+<script src="/ScriptResource.axd?d=nsdPklBgrGox76QUOGhDY9tAPnWJOkjPERbNo-4xSNLBvFcwHxjCtnyMa1KFXcH27YrObASUNAR6Esl-WLnWJe1V9fvOMprVl0NF_DwqbiqorRc0iYQm7CRTCRq3Fjp-33pH_5AtgXQdwNqWobQ1914ffAU1&amp;t=ffffffffeb4c7cb9" type="text/javascript"></script>
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAgLlgrC1BgLw9Z3WC9DNpMGrTcEvDWZ7cvzYOxIxXEcf" />
+        
+        <table border="0" cellpadding="0" width="953px" cellspacing="0">
+            <tr>
+                <td align="right" style="width: 600px">
+                    &nbsp;
+                </td>
+                <td align="right" style="width: 200px">
+                    <!--- --- --- Site Actions Menu --- --- --->
+                    
+                </td>
+                <td align="right" style="width: 153px">
+                    
+<!-- Begin Action Menu Markup -->
+<table height=100% class="ms-siteaction" cellpadding=0 cellspacing=0>
+	<tr>
+					   <td class="ms-siteactionsmenu" id="siteactiontd">
+					   
+					</td>
+	</tr>
+</table>
+<!-- End Action Menu Markup -->
+
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="3">
+                    <!--- --- --- Page Status Console --- --- --->
+                    
+
+                    <!--- --- --- Page Edit Toolbar --- --- --->
+                    
+<!-- Console -->
+<span id="ctl00_ctl07_publishingContext1"></span>
+
+<!-- Console -->
+
+                </td>
+            </tr>
+        </table>
+        <div id="wrapper">
+            <!----------  Begin header  ---------->
+            <div id="header">
+                <div id="global-nav">
+                    <ul>
+                        <li><a href="/" target="_self">Home</a> |</li>
+                        <li><a href="/mediacenter/pages/default.aspx" target="_self">Press</a> |</li>
+                        <li><a href="/Lists/ContactUs/ContactFTF.aspx?Source=/Pages/ContactUsThankYou.aspx" target="_self">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div id="masthead">
+                    <div id="logo">
+                        <a href="/">
+                            <img src="/Style%20Library/Images/ftf-logo.png" width="294" height="64" alt="First Things First" border="0" /></a></div>
+                    <div id="search">
+                        <!--- --- ---  Search --- --- --->
+                        
+							<div id="SRSB"> <div id="ctl00_PlaceHolderSearchArea_SearchBox" class="search">
+	<table class="ms-sbtable ms-sbtable-ex" border="0">
+		<tr class="ms-sbrow">
+			<td class="ms-sbcell ms-sbtext"><span title="Search    " style="display:block;">Search    </span></td><td class="ms-sbcell"><input name="ctl00$PlaceHolderSearchArea$SearchBox$S622C1022_InputKeywords" type="text" maxlength="200" id="ctl00_PlaceHolderSearchArea_SearchBox_S622C1022_InputKeywords" accesskey="S" title="Enter search words" class="ms-sbplain" alt="Enter search words" onkeypress="javascript:return S622C1022_OSBEK(event);" style="width:173px;" /></td><td class="ms-sbgo ms-sbcell"><a id="ctl00_PlaceHolderSearchArea_SearchBox_S622C1022_go" title="Go Search" href="javascript:S622C1022_Submit()"><img title="Go Search" onmouseover="this.src='/SiteCollectionImages/gosearch.gif'" onmouseout="this.src='/SiteCollectionImages/gosearch.gif'" alt="Go Search" src="/SiteCollectionImages/gosearch.gif" border="0" /></a></td><td class="ms-sbLastcell"></td>
+		</tr>
+	</table>
+</div></div>
+                        
+                        <!--- --- ---  End of Search --- --- --->
+                    </div>
+                    <div id="az-gov-banner">
+                    </div>
+                </div>
+                <!----------  Begin primary navigation  ---------->
+                <div id="nav-bar">
+                    <div id="primary">
+                        <ul class="megamenu">
+                            <li><a href="javascript:void(0)">How Our Work Impacts You</a>
+                                <div style="width: 940px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" class="tabular-content">
+                                        <tr>
+                                            <td align="left">
+                                                <br />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                        	<td valign="top">
+                                                &nbsp;&nbsp;&nbsp;
+                                            </td>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td align="left" class="subheader">
+                                                            Impacting Kids = Ready Kids
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/why/evidence/pages/brainscience.aspx" class="flyouttext">Brain Science</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td valign="top" class="flyoutverticaldash ">
+                                                &nbsp;
+                                            </td>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td align="left" class="subheader">
+                                                            Impacting Education = Successful Schools
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whatwedo/impacting/pages/default.aspx" class="flyouttext">K12</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whatwedo/impacting/pages/highereducation.aspx" class="flyouttext">Higher Education</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whatwedo/impacting/pages/trades.aspx" class="flyouttext">Trade</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td valign="top" class="flyoutverticaldash ">
+                                                &nbsp;
+                                            </td>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td align="left" class="subheader">
+                                                            Impacting the Economy = Responsible Adults
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/why/evidence/pages/default.aspx" class="flyouttext">Reduce Government Spending</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/why/evidence/pages/economics.aspx" class="flyouttext">Business Development</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td valign="top" class="flyoutverticaldash ">
+                                                &nbsp;
+                                            </td>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td align="left" class="subheader">
+                                                            Impacting Society = Stronger Communities
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/why/evidence/pages/earlychildhooddevelopment.aspx" class="flyouttext">Social Readiness</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/why/evidence/pages/militarypreparedness.aspx" class="flyouttext">Military Preparedness</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/why/evidence/pages/crimeprevention.aspx" class="flyouttext">Crime Prevention</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <br />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                            <li><a href="javascript:void(0)">What Kids Need</a>
+                                <div style="width: 600px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" class="tabular-content">
+                                        <tr>
+                                            <td align="left">
+                                                <br />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td align="left" class="subheader">
+															Supportive Families &amp; Literacy
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" class="flyouttext">
+                                                            <a href="/kids-need/literacy/Pages/parenting-resources.aspx" class="flyouttext">Parenting Resources</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" class="flyouttext">
+                                                            <a href="/pages/nativelanguages.aspx" class="flyouttext">Native Language &amp; Culture</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td valign="top" class="flyoutverticaldash ">
+                                                &nbsp;
+                                            </td>
+                                            <td>
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                	<tr>
+                                                        <td align="left" class="subheader">
+                                                            <a href="javascript:void(0)" class="flyouttext">Health &amp; Early Intervention</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whatwedo/impacting/pages/accesstoservices.aspx" class="flyouttext">Access to Services</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whatwedo/impacting/pages/oralhealth.aspx" class="flyouttext">Oral Health</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whatwedo/impacting/pages/health.aspx" class="flyouttext">Early Screening</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whatwedo/impacting/pages/health.aspx" class="flyouttext">Nutrition</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whatwedo/impacting/pages/health.aspx" class="flyouttext">Injury Prevention</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whatwedo/programs/pages/mentalhealthconsultants.aspx" class="flyouttext">Mental Health</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td valign="top" class="flyoutverticaldash ">
+                                                &nbsp;
+                                            </td>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td align="left" class="subheader">
+                                                            <a href="" class="flyouttext">Quality Early Care &amp; Education</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whatwedo/impacting/pages/earlycareeducation.aspx" class="flyouttext">Quality Care Centers</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whatwedo/programs/qualityfirst/pages/parentsandfamilies.aspx" class="flyouttext">Informed Parents</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whatwedo/programs/pages/teach.aspx" class="flyouttext">Educated Teachers</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whatwedo/impacting/pages/accesstoquality.aspx" class="flyouttext">Access to Quality</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <br />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                            <li><a href="/pages/default.aspx">First Things First</a>
+                                <div style="width: 500px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" class="tabular-content">
+                                        <tr>
+                                            <td align="left">
+                                                <br />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr class="highlightRow">
+                                                        <td align="left" colspan="2">
+                                                            <a href="/whoweare/history/pages/default.aspx" class="flyouttext">History</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/whoweare/pages/default.aspx" class="flyouttext">Vision / Mission</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/whoweare/howwework/pages/default.aspx" class="flyouttext">How We Work</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/whoweare/howwework/pages/tribalaffairs.aspx" class="flyouttext">Tribal Relations</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/whoweare/board/pages/reportsandpubs.aspx" class="flyouttext">Reports & Publications</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/mediacenter/pages/default.aspx" class="flyouttext">Press Center</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/whoweare/leadershipandstaff/pages/default.aspx" class="flyouttext">Staff</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/whoweare/careers/pages/default.aspx" class="flyouttext">Jobs</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/lists/contactus/contactftf.aspx?source=/pages/contactUsthankyou.aspx" class="flyouttext">Contact Us</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td valign="top" class="flyoutverticaldash ">
+                                                &nbsp;
+                                            </td>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td align="left" class="subheader">
+                                                            <a href="/whoweare/board/pages/default.aspx" class="flyouttext">Board</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whoweare/board/pages/messagefromchair.aspx" class="flyouttext">Message from the Chair</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whoweare/board/pages/publicnotices.aspx" class="flyouttext">Meeting Materials & Public Notices</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <a href="/whoweare/board/pages/policiesandprocedures.aspx" class="flyouttext">Policies & Procedures</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td valign="top" class="flyoutverticaldash ">
+                                                &nbsp;
+                                            </td>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td align="left" class="subheader" colspan="2">
+                                                            <a href="/pages/yourlocalcouncil.aspx" class="flyouttext">Regional Councils</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/pages/yourlocalcouncil.aspx" class="flyouttext">Find Your Regional Council</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/whoweare/howwework/pages/strategies.aspx" class="flyouttext">How Regional Councils Work</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                    	<td align="left" colspan="2">
+                                                    		<a href="/pages/webmain.aspx?PageID=2D427ADB35B34BB09F353B77B74AB9BA" class="flyouttext">Strategy Toolkit</a>
+                                                    	</td>
+                                                    </tr>
+                                                    <!--<tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="" class="flyouttext">Regional Council Member Training</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="width: 20px;">
+                                                            &nbsp;
+                                                        </td>
+                                                        <td align="left">
+                                                            <a href="" class="flyouttext">Registration for Training</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            &nbsp;
+                                                        </td>
+                                                        <td align="left">
+                                                            <a href="" class="flyouttext">Photographs and Success Stories</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            &nbsp;
+                                                        </td>
+                                                        <td align="left">
+                                                            <a href="" class="flyouttext">Calendar</a>
+                                                        </td>
+                                                    </tr>-->
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <br />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="secondary">
+                        <ul class="megamenu">
+                            <li><a href="/pages/WebMainPT.aspx?PageId=7D538C9315C846adB234C548CAF5DD9B" class="no-items">Share Your Story</a>
+                                <!--<div style="width: 100px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" class="tabular-content">
+                                        <tr>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/whoweare/history/pages/default.aspx" class="flyouttext">History</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>-->
+                            </li>
+                            <li><a href="javascript:void(0)">Funding</a>
+                                <div style="width: 250px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" class="secondary-content">
+                                        <tr>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/WhoWeAre/HowWeWork/Pages/Funding.aspx" class="flyouttext">Wise Investments in Arizona Children</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/WhatWeDo/Funding/Pages/Eligibility.aspx" class="flyouttext">Eligibility & How to Apply</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/WhatWeDo/Funding/Pages/StatewideGrants.aspx" class="flyouttext">Grants Available - Statewide</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/WhatWeDo/Funding/Pages/RegionalGrants.aspx" class="flyouttext">Grants Available - Regional</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                            <li><a href="/pages/yourlocalcouncil.aspx" class="no-items">Your Regional Council</a></li>
+                            <li><a href="/whatwedo/impacting/pages/supportingkids.aspx" class="no-items">Parents</a>
+                                <!--<div style="width: 150px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" class="secondary-content">
+                                        <tr>
+                                            <td align="left" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="/whatwedo/impacting/pages/supportingkids.aspx" class="flyouttext">Health & Safety</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="" class="flyouttext">Child Care & Early Education</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="" class="flyouttext">Ages & Stages</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" colspan="2">
+                                                            <a href="" class="flyouttext">Behavior & Discipline</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>-->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                 <div class="breadcrumb"> 
+	<span id="ctl00_PlaceHolderTitleBreadcrumb_siteMapPath"><span><a title="First Things First" class="ms-sitemapdirectional" href="/(F(QffFaAtuJkk4KYnVRkHNwD3VvD3jK2jZ3qKdpwTdY2JCxj_UF05AcpXjTj4zGZW4KDFZYdUuMDWjYBNZpKc2KrG_OxRkPJE1GXMTLimvHnQk2V6WmStPDIEygi-3urC0ZttJlSSEfFNL5g7KU0W1uAH4PxI1))/Pages/default.aspx">Home</a></span><span> &gt; </span><span><a title="What We Do" class="ms-sitemapdirectional" href="/(F(QffFaAtuJkk4KYnVRkHNwD3VvD3jK2jZ3qKdpwTdY2JCxj_UF05AcpXjTj4zGZW4KDFZYdUuMDWjYBNZpKc2KrG_OxRkPJE1GXMTLimvHnQk2V6WmStPDIEygi-3urC0ZttJlSSEfFNL5g7KU0W1uAH4PxI1))/WHATWEDO/Pages/default.aspx">What We Do</a></span><span> &gt; </span><span class="breadcrumbCurrent">What You Can Do</span></span> </div> 
+                <!----------  End primary navigation  ---------->
+            </div>
+            <!----------  End header  ---------->
+            <div id="center">
+                <div>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td align="left" valign="top" width="640px">
+                                
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td id="MSOZoneCell_WebPartWPQ3" vAlign="top"><table TOPLEVEL border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top"><div WebPartID="5cb3382e-0fb0-487a-81fe-6f9f3c706b97" HasPers="false" id="WebPartWPQ3" width="100%" class="ms-WPBody" allowDelete="false" style="" ><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td align="Right" valign="Top" style="background-color:transparent"><img border="0" id="MSOImageWebPart_WebPartWPQ3" src="/SiteCollectionImages/470x129-copy.jpg" alt="What You Can Do" /></td>
+					</tr>
+				</table></div></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+
+                            </td>
+                            <td align="right" valign="top">
+                                
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td id="MSOZoneCell_WebPartWPQ2" vAlign="top"><table TOPLEVEL border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td valign="top"><div WebPartID="cae8e430-df29-4482-ab30-5690515872a2" HasPers="false" id="WebPartWPQ2" width="100%" class="ms-WPBody" allowDelete="false" style="" ><img src="/SiteCollectionImages/480x129-kid6.jpg"></div></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="mainContainer">
+                <div id="content-home">
+                    
+	
+	
+	
+	
+	<div class="pageContent">
+		<div id="ctl00_PlaceHolderMain_PageContent__ControlWrapper_RichHtmlField" style="display:inline"><table border=0 cellspacing=0 cellpadding=0 width="100%">
+<tbody>
+<tr>
+<td style="padding-right:15px">
+<p><span style="color:#bd631b;font-size:20px;font-weight:bold">What You Can Do</span></p>
+<p><span style="font-size:12pt">80% of a child’s brain develops before they turn three years old, and early experiences lay the foundation for a lifetime. </p>
+<p class=MsoNormal><span style="font-size:12pt">Through First Things First, voters made a commitment to Arizona’s kids: that they would have the tools they needed to start kindergarten healthy and ready to succeed.</span><span style="font-size:12pt"> </span></p>
+<p class=MsoNormal><span style="font-size:12pt">Each year, First Things First – through local volunteer councils – invests more than $100 million to give kids access to quality early education, literacy programs, adequate health and nutrition, and developmental screenings.   </span><span style="font-size:12pt"> </span></p>
+<p class=MsoNormal><span style="font-size:12pt">The job of getting kids ready for school starts the day they are born, and it’s a responsibility all Arizonans share. Read on to find out what YOU can do to give Arizona kids a solid start in life and a foundation upon which they can build.</span> </p></span></td>
+<td valign=top rowspan=2>
+<table border=0 cellspacing=0 cellpadding=0 width="100%">
+<tbody>
+<tr>
+<td height=130 valign=top width=300><a title="" href="/Multimedia/Radio_60_English.mp3" target="_blank"><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid" border=0 alt="FTF Radio Spot" src="/WhatWeDo/Volunteer/PublishingImages/radio_spot.jpg"></a></td></tr>
+<tr>
+<td width=300><br><a title="" href="/Pages/YourLocalCouncil.aspx"><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid" border=0 alt="First Things First in Your Community" src="/WhatWeDo/Volunteer/PublishingImages/community.jpg"></a></td></tr></tbody></table></td></tr>
+<tr>
+<td>
+<table border=0 cellspacing=0 cellpadding=0 width=638>
+<tbody>
+<tr height=120>
+<td><a title="" href="/WhatWeDo/Impacting" target="_blank"><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid" border=0 alt="Parents &amp; Families" src="/WhatWeDo/Volunteer/PublishingImages/parents.jpg"></a></td>
+<td><a title="" href="/WhoWeAre/HowWeWork/Pages/engagingArizonans.aspx"><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid" border=0 alt="Interested Arizonans" src="/WhatWeDo/Volunteer/PublishingImages/arizonans.jpg"></a></td>
+<td><a title="" href="/WhatWeDo/Impacting/Pages/Health.aspx"><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid" border=0 alt="Early Health Providers" src="/WhatWeDo/Volunteer/PublishingImages/health_providers.jpg"></a></td></tr>
+<tr>
+<td><a title="" href="/WhatWeDo/Programs/QualityFirst" target="_blank"><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid" border=0 alt="Early Education Providers" src="/WhatWeDo/Volunteer/PublishingImages/education_providers.jpg"></a></td>
+<td><a title="" href="/Why/Evidence/Pages/Economics.aspx" target="_blank"><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid" border=0 alt="Business Leaders" src="/WhatWeDo/Volunteer/PublishingImages/business_leaders.jpg"></a></td>
+<td><a title="" href="/WhoWeAre/HowWeWork/Pages/engagingArizonans.aspx"><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid" border=0 alt=Policymakers src="/WhatWeDo/Volunteer/PublishingImages/policymakers.jpg"></a></td></tr></tbody></table></td></tr></tbody></table>
+<p> </p>
+<p><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid" border=0 src="/WhatWeDo/Volunteer/PublishingImages/divider_bar.gif"><br></p>
+<p><br>
+<table style="width:100%" summary="">
+<tbody>
+<tr height=70>
+<td valign=top width=85> <img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid" border=0 align=top src="/WhatWeDo/Volunteer/PublishingImages/puzzle.gif"></td>
+<td valign=top><span style="color:#bd631b;font-size:14px;font-weight:bold">TALK, READ, &amp; PLAY</span><br>Take time to interact with a young child daily.</td>
+<td valign=top width=85><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid" border=0 align=top src="/WhatWeDo/Volunteer/PublishingImages/envelope.gif"></td>
+<td valign=top><span style="color:#bd631b;font-size:14px;font-weight:bold">STAY INFORMED<br></span><a title="" href="/Pages/Subscriptions.aspx">Sign up</a> for the First Things First email alerts.</td>
+<td valign=top width=85><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid" border=0 align=top src="/WhatWeDo/Volunteer/PublishingImages/chat.gif"></td>
+<td valign=top><span style="color:#bd631b;font-size:14px;font-weight:bold">INFORM OTHERS</span><br><a title="" href="/Lists/ContactUs/ContactFTF.aspx?Source=/Pages/ContactUsThankYou.aspx">Request</a> a First Things First speaker for your club or group.</td>
+<tr height=70>
+<td valign=top><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid" border=0 align=top src="/WhatWeDo/Volunteer/PublishingImages/volunteer.gif"></td>
+<td valign=top><span style="color:#bd631b;font-size:14px;font-weight:bold">VOLUNTEER</span><br><a title="Apply to serve on a Regional Council" href="/WhatWeDo/Volunteer/Pages/RPCApplication.aspx" target="_blank">Serve on a Council</a> or volunteer with early childhood programs and services <br>in your community.</td>
+<td valign=top><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid" border=0 align=top src="/WhatWeDo/Volunteer/PublishingImages/megaphone.gif"></td>
+<td valign=top><span style="color:#bd631b;font-size:14px;font-weight:bold">BE A VOICE</span><br>Ask elected officials their position on early childhood funding <br><a title="" href="http://www.congress.org/" target="_blank">Find</a> your state and federal legislators.</td>
+<td valign=top><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid" border=0 src="/WhatWeDo/Volunteer/PublishingImages/mic.gif"></td>
+<td valign=top><span style="color:#bd631b;font-size:14px;font-weight:bold">SHARE YOUR STORY</span><br>First Things First wants to <a title="" href="/pages/WebMainPT.aspx?PageId=7D538C9315C846adB234C548CAF5DD9B" target="_blank">hear from you</a>.</td></tr></tbody></table></p></div>
+	</div>
+	<table width="100%" cellpadding="0" cellspacing="0" border="0">
+		
+		<tr>
+			<td width="90%" valign="top" colspan="2">
+				
+			</td>
+		</tr>
+		<tr>
+			<td width="70%" valign="top" class="padright20">
+				
+			</td>
+			<td width="30%" valign="top" class="padLeft20">
+				
+			</td>
+		</tr>
+	</table>
+
+                </div>
+            </div>
+            <div id="footer">
+                <div id="socialmedia">
+                    <p>
+                        Stay Connected</p>
+                    <ul>
+                        <li id="facebook"><a href="http://www.facebook.com/pages/Phoenix-AZ/First-Things-First/439899815051" target="_blank">Facebook</a></li>
+                        <li id="twitter"><a href="http://www.twitter.com/azftf" target="_blank">Twitter</a></li>
+                        <li id="youtube"><a href="http://www.youtube.com/user/FTFArizona" target="_blank">YouTube</a></li>
+                        <li id="rss"><a href="/Pages/Subscriptions.aspx" target="_blank">RSS Feeds</a></li>
+                        <li id="subscribe"><a href="/Pages/Subscriptions.aspx">Subscribe</a></li>
+                    </ul>
+                </div>
+                <div id="copyright">
+                    &copy;2010 First Things First. All Rights Reserved. | <a href="">Privacy Policy</a> | <a href="">Website Feedback</a></div>
+            </div>
+        </div>
+        <!----------  End header  ---------->
+        <!--- --- ---  Hidden Placeholders --- --- --->
+        
+        <!--- --- ---  End of Hidden Placeholders --- --- --->
+        
+
+<script type="text/javascript">
+//<![CDATA[
+var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';//]]>
+</script>
+<script type="text/javascript" language="JavaScript" defer>
+<!--
+function S622C1022_Submit() {GoSearch(null,'ctl00_PlaceHolderSearchArea_SearchBox_S622C1022_InputKeywords',null,true,false,null,null,null,null,'\u002fSearch\u002fResults.aspx', 'This Site','This List', 'This Folder', 'Related Sites', '\u002fWhatWeDo\u002fVolunteer\u002f_layouts\u002fOSSSearchResults.aspx');}
+// -->
+</script><script type="text/javascript" language="JavaScript" >
+// append an onload event handler
+var S622C1022__onload= document.body.onload;
+if(typeof document.body.onload == 'function')
+{
+ document.body.onload = function()
+ {
+S622C1022__onload();        
+  document.getElementById('ctl00_PlaceHolderSearchArea_SearchBox_S622C1022_InputKeywords').name = 'InputKeywords';
+ }
+}
+else
+{
+ document.body.onload = function()
+ {
+  eval(S622C1022__onload);        
+  document.getElementById('ctl00_PlaceHolderSearchArea_SearchBox_S622C1022_InputKeywords').name = 'InputKeywords';
+ }
+}
+
+function S622C1022_OSBEK(event1) { 
+if((event1.which == 10) || (event1.which == 13))
+{   
+S622C1022_Submit();
+}
+}
+// -->
+</script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+    </div>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-17718059-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <iframe src="http://pixel.fetchback.com/serve/fb/pdc?cat=&name=landing&sid=3790" scrolling="no" width="1" height="1" marginheight="0"
+        marginwidth="0" frameborder="0"></iframe>
+</body>
+</html>

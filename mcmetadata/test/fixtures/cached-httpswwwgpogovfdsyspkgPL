@@ -40,11 +40,15 @@
     <link rel="apple-touch-icon-precomposed" sizes="180x180"
           href="../lib/bootstrap/ico/apple-touch-icon-180.png">
     <link rel="shortcut icon" href="/favicon.ico">
+    <script src="/app/search/tracker_config.js"></script>
 
 
-    <!-- bundle automatically appended by Webpack -->
-<script src="/app/infrastructure.js"></script>
-<link href="/app/main.min.css" rel="stylesheet"><script type="text/javascript" src="/app/search.bundle.6.15.0.js"></script></head>
+
+        <!-- bundle automatically appended by Webpack -->
+    <script src="/app/infrastructure.js"></script>
+    <script src="/app/search/assets/fr-calendar.js"></script> 
+
+<link href="/app/main.min.css" rel="stylesheet"><script type="text/javascript" src="/app/search.bundle.6.21.0.js"></script></head>
 
 <body>
   <header></header>

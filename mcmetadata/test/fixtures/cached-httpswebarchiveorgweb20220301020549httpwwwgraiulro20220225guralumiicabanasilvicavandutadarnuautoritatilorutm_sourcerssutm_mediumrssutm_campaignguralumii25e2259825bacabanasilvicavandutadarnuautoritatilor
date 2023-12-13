@@ -2,17 +2,17 @@
 <!--[if IE 8]>    <html class="ie8" lang="en"> <![endif]-->
 <!--[if IE 9]>    <html class="ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="ro-RO"> <!--<![endif]-->
-<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app211.us.archive.org';v.server_ms=356;archive_analytics.send_pageview({});});</script>
-<script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
-<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
-  __wm.wombat("http://www.graiul.ro/2022/02/25/gura-lumii-%e2%98%ba-cabana-silvica-vanduta-dar-nu-autoritatilor/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=gura-lumii-%25e2%2598%25ba-cabana-silvica-vanduta-dar-nu-autoritatilor","20220301020549","https://web.archive.org/","web","/_static/",
+  __wm.wombat("http://www.graiul.ro/2022/02/25/gura-lumii-%e2%98%ba-cabana-silvica-vanduta-dar-nu-autoritatilor/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=gura-lumii-%25e2%2598%25ba-cabana-silvica-vanduta-dar-nu-autoritatilor","20220301020549","https://web.archive.org/","web","https://web-static.archive.org/_static/",
 	      "1646100349");
 </script>
-<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=fantwOh2" />
-<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ" />
 <!-- End Wayback Rewrite JS Include -->
 
     <title>Gura lumii ☺ Cabană silvică vândută, dar nu autorităților - Graiul Maramureșului - Cotidian independent al județului Maramureș</title>
@@ -3038,7 +3038,7 @@ var pp_ajax_form = {"ajaxurl":"https:\/\/web.archive.org\/web\/20220301020549\/h
 </body>
 </html><!--
      FILE ARCHIVED ON 02:05:49 Mar 01, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:23:24 Sep 29, 2022.
+     INTERNET ARCHIVE ON 03:00:08 Dec 13, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -3046,14 +3046,13 @@ var pp_ajax_form = {"ajaxurl":"https:\/\/web.archive.org\/web\/20220301020549\/h
 -->
 <!--
 playback timings (ms):
-  captures_list: 185.803
-  exclusion.robots: 0.1
-  exclusion.robots.policy: 0.092
-  cdx.remote: 0.06
-  esindex: 0.008
-  LoadShardBlock: 126.042 (3)
-  PetaboxLoader3.resolve: 137.708 (2)
-  PetaboxLoader3.datanode: 37.751 (4)
-  CDXLines.iter: 16.566 (3)
-  load_resource: 163.246
+  captures_list: 154.644
+  exclusion.robots: 0.21
+  exclusion.robots.policy: 0.195
+  cdx.remote: 0.079
+  esindex: 0.011
+  LoadShardBlock: 107.297 (3)
+  PetaboxLoader3.datanode: 79.042 (4)
+  load_resource: 141.173
+  PetaboxLoader3.resolve: 70.841
 -->

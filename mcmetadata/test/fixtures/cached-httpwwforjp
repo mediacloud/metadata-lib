@@ -1,0 +1,1168 @@
+<!DOCTYPE html><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="author" content="WWFジャパン">
+<meta name="description" content="WWFは、人類が自然と調和して生きられる未来を目指し、約100カ国で活動している環境保全団体です。WWF ジャパンは、日本国内および日本が関係している国際的な問題に取り組みます。">
+<meta name="keywords" content="wwf,環境,環境保護,環境保全,自然,自然保護,地球温暖化,野生生物,資源,森,海">
+<title>WWFジャパン</title>
+<meta name="viewport" content="width=device-width">
+<meta name="robots" content="max-image-preview:large">
+<meta property="og:title" content="WWFジャパン">
+<meta property="og:type" content="website">
+<meta property="og:description" content="WWFは、人類が自然と調和して生きられる未来を目指し、約100カ国で活動している環境保全団体です。WWF ジャパンは、日本国内および日本が関係している国際的な問題に取り組みます。">
+<meta property="og:url" content="https://www.wwf.or.jp/index.html">
+<meta property="og:image" content="https://www.wwf.or.jp/shared/images/ogp.jpg">
+<meta property="og:site_name" content="WWFジャパン">
+<meta property="og:locale" content="ja_JP">
+<meta property="fb:page_id" content="123353001068293">
+<meta property="fb:app_id" content="401429776626229">
+<meta property="article:publisher" content="https://www.facebook.com/WWFJapan">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@WWFJapan">
+<meta name="format-detection" content="telephone=no">
+
+
+<link rel="canonical" href="https://www.wwf.or.jp/">
+
+<link rel="stylesheet" href="/shared/css/slick/slick.css">
+<link rel="stylesheet" href="/shared/css/slick/slick-theme.css">
+<link rel="stylesheet" href="/shared/css/screen_2018.css?230927" media="all">
+<link rel="stylesheet" href="/shared/css/print.css" media="print">
+<link rel="stylesheet" href="/css/local.css?20230315" media="all">
+<link rel="stylesheet" href="/ranking/css/ranking.css" media="all">
+<!--[if lt IE 9]>
+<script src="/shared/js/html5shiv.js"></script>
+<![endif]-->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PLMW');</script>
+<!-- /Google Tag Manager --></head>
+<body class="drawer drawer--right">
+<!-- ↓GTM -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLMW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- ↑GTM -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=161247427293600";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="wrapperArea">
+<header id="headerArea">
+	<div class="headerArea-pc">
+		<nav class="headerArea-nav clearfix">
+			<div class="headerArea-nav__inline-gray clearfix">
+				<ul class="headerArea-nav__inline-gray-list"><!--
+					--><li><a href="/members/">個人の皆さまへ</a></li><!--
+					--><li><a href="/corp/">法人の皆さまへ</a></li><!--
+					--><li><a href="/support/application/">資料請求</a></li><!--
+					--><li class="searchInput__pc"><dl><dt class="searchInput__pc-btn"><img src="/shared/svg/icons_search.svg" alt=""><span class="searchInput__pc-btn_text">検索する</span></dt><dd class="searchInput__pc-toggle"><form id="cse-search-box" action="/search.html" class="pc-searchform">
+							<input type="hidden" name="cx" value="003703045657839985411:3hzf67cfykc" />
+							<input type="hidden" name="ie" value="UTF-8" />
+							<input type="text" name="q" size="31" class="pc-searchform-input" />
+							<button type="submit" name="sa" value="送信" class="pc-searchform-submit" />
+							</form>
+							<script type="text/javascript" src="//www.google.com/cse/brand?form=cse-search-box&lang=ja"></script></dd></dl></li><!--
+				--></ul>
+			</div>
+			<div class="headerArea-nav__inline clearfix">
+				<p class="headerArea-nav__logo"><a href="/"><img src="/shared/svg/icons_title.svg" alt="WWFジャパン"></a></p>
+				<div class="headerArea-pc__drawer-nav clearfix">
+					<ul class="headerArea-nav__cv">
+						<li><a href="/support/"><span>ご支援のお願い</span></a></li>
+					</ul>
+					<div id="headerAccordionPC" class="headerArea-nav__inline-accordionBox headerArea-nav__accordionBox">
+						<dl class="headerArea-nav__inline-accordion headerArea-nav__accordion">
+							<dt><a id="headerActivities" href="/activities/">WWFの活動</a></dt>
+							<dd><ul>
+								<li class="group-nr"><a href="/activities/news_and_reports/">ニュース・活動報告<small style="display: none">New!</small></a></li>
+								<li class="group-ev"><a href="/event/">イベント<small style="display: none">New!</small></a></li>
+								<li class="group-pj"><a href="/activities/project/">注目の活動特集<small style="display: none">New!</small></a></li>
+								<li class="group-sb"><a href="/staffblog/">スタッフブログ<small style="display: none">New!</small></a></li>
+							</ul></dd>
+						</dl>
+						<dl class="headerArea-nav__inline-accordion headerArea-nav__accordion">
+							<dt><a id="headerAbout" href="/aboutwwf/">WWFについて</a></dt>
+							<dd><ul>
+								<li><a href="/aboutwwf/japan/">WWFジャパンについて</a></li>
+								<li><a href="/aboutwwf/earth/">環境問題とは？</a></li>
+								<li><a href="/aboutwwf/history/">WWFの歴史</a></li>
+							</ul></dd>
+						</dl>
+						<div class="headerArea-nav__inline-gray">
+							<ul class="headerArea-nav__inline-gray-list"><!--
+								--><li><a href="/magazine/">メールマガジン</a></li><!--
+								--><li><a href="/info/faq/">よくあるご質問</a></li><!--
+							--></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<div class="headerArea-sp">
+		<nav class="headerArea-nav clearfix">
+			<div class="headerArea-nav__inline clearfix">
+				<p class="headerArea-nav__logo"><a href="/"><img src="/shared/svg/icons_title.svg" alt="WWFジャパン"></a></p>
+				<button type="button" class="drawer-toggle drawer-hamburger">
+					<span class="sr-only">toggle navigation</span>
+					<span class="drawer-hamburger-icon"></span>
+				</button>
+				<div class="drawer-nav">
+					<div class="drawer-menu">
+						<div class="drawer-body">
+							<div class="searchInput__sp"><form id="sp-cse-search-box" action="/search.html" class="sp-searchform">
+									<input type="hidden" name="cx" value="003703045657839985411:3hzf67cfykc" />
+									<input type="hidden" name="ie" value="UTF-8" />
+									<input type="text" name="q" size="31" class="sp-searchform-input" />
+									<button type="submit" name="sa" value="送信" class="sp-searchform-submit" />
+								</form>
+								<script type="text/javascript" src="//www.google.com/cse/brand?form=cse-search-box&lang=ja"></script></div>
+							<ul class="headerArea-nav__cv">
+								<li><a href="/support/"><span>ご支援のお願い</span></a></li>
+							</ul>
+							<div id="headerAccordionSP" class="headerArea-nav__inline-accordionBox headerArea-nav__accordionBox">
+								<dl class="headerArea-nav__inline-accordion headerArea-nav__accordion">
+									<dt><a href="/activities/">WWFの活動</a></dt>
+									<dd><ul>
+										<li><a href="/activities/">WWFの活動</a></li>
+										<li class="group-nr"><a href="/activities/news_and_reports/">ニュース・活動報告<small style="display: none">New!</small></a></li>
+										<li class="group-ev"><a href="/event/">イベント<small style="display: none">New!</small></a></li>
+										<li class="group-pj"><a href="/activities/project/">注目の活動特集<small style="display: none">New!</small></a></li>
+										<li class="group-sb"><a href="/staffblog/">スタッフブログ<small style="display: none">New!</small></a></li>
+									</ul></dd>
+								</dl>
+								<dl class="headerArea-nav__inline-accordion headerArea-nav__accordion">
+									<dt><a href="/aboutwwf/">WWFについて</a></dt>
+									<dd><ul>
+										<li><a href="/aboutwwf/">WWFについて</a></li>
+										<li><a href="/aboutwwf/japan/">WWFジャパンについて</a></li>
+										<li><a href="/aboutwwf/earth/">環境問題とは？</a></li>
+										<li><a href="/aboutwwf/history/">WWFの歴史</a></li>
+									</ul></dd>
+								</dl>
+							</div>
+							<ul class="headerArea-nav__inline-another"><!--
+								--><li><a href="/members/">個人の皆さまへ</a></li><!--
+								--><li><a href="/corp/">法人の皆さまへ</a></li><!--
+								--><li><a href="/magazine/">メールマガジン</a></li><!--
+								--><li><a href="/info/faq/">よくあるご質問</a></li><!--
+								--><li><a href="/support/application/">資料請求</a></li><!--
+							--></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+	<div class="drawer-container t-gutter" role="main">
+		<div class="top-bodyArea">
+
+			<section>
+<ul class="top-keyvisual">
+
+<li><span class="top-keyvisual__txt-area">
+						<span class="top-keyvisual__sub-tit"></span>
+						<span class="top-keyvisual__tit">野生動物<br>アドプト・ギフト</span>
+						<span class="top-keyvisual__txt">大切なひとへのプレゼントに</span>
+					</span>
+					<a href="/adoptgift/"><span>詳しく見る</span></a><div class="top-keyvisual__background"><figure class="image"><img data-src="/image/topKV_41.webp" alt="たいせつな誰かに、あるいは自分に
+野生動物アドプト・ギフトを贈りませんか？" class="lazyload imgExpansion objectFitImage pcInline"><img data-src="/image/topKV_sp_41.webp" alt="たいせつな誰かに、あるいは自分に
+野生動物アドプト・ギフトを贈りませんか？" class="lazyload imgExpansion objectFitImage spInline"><figcaption></figcaption></figure></div></li>
+
+
+
+
+
+<li><span class="top-keyvisual__txt-area">
+						<span class="top-keyvisual__sub-tit"></span>
+						<span class="top-keyvisual__tit">好きだから。<br>その気持ちを<br>支援のきっかけに。</span>
+						<span class="top-keyvisual__txt"></span>
+					</span>
+					<a href="/campaign/speciallp/save_forest/"><span>詳しく見る</span></a><div class="top-keyvisual__background"><figure class="image"><img data-src="/image/topKV_34.png" alt="イラストレーター・Noritakeさんのオリジナルイラスト入り天然素材の麻バッグプレゼント中！" class="lazyload imgExpansion objectFitImage pcInline"><img data-src="/image/topKV_sp_34.png" alt="イラストレーター・Noritakeさんのオリジナルイラスト入り天然素材の麻バッグプレゼント中！" class="lazyload imgExpansion objectFitImage spInline"><figcaption></figcaption></figure></div></li>
+<li><span class="top-keyvisual__txt-area">
+						<span class="top-keyvisual__sub-tit">奴隷労働や乱獲された魚を私たちは食べている!?</span>
+						<span class="top-keyvisual__tit">署名のお願い</span>
+						<span class="top-keyvisual__txt">日本の市場からIUU漁業をなくすために、あなたの力を貸してください！</span>
+					</span>
+					<a href="https://www.change.org/IUUfishing"><span>Change.orgへ</span></a><div class="top-keyvisual__background"><figure class="image"><img data-src="/image/topKV_35.png" alt="日本の市場からIUU漁業をなくすために、あなたの力を貸してください！" class="lazyload imgExpansion objectFitImage pcInline"><img data-src="/image/topKV_sp_35.png" alt="日本の市場からIUU漁業をなくすために、あなたの力を貸してください！" class="lazyload imgExpansion objectFitImage spInline"><figcaption></figcaption></figure></div></li>
+
+
+ <li><span class="top-keyvisual__txt-area">
+						<span class="top-keyvisual__sub-tit">お買物しながら環境保全</span>
+						<span class="top-keyvisual__tit">WWFジャパン公式通販「PANDA SHOP」</span>
+						<span class="top-keyvisual__txt">利益はすべてWWFの活動に役立てられます</span>
+					</span>
+					<a href="https://shop.wwf.or.jp/"><span>詳しく見る</span></a><div class="top-keyvisual__background"><figure class="image"><img data-src="/image/topKV_38.png" alt="WWFジャパン公式通販「PANDA SHOP」" class="lazyload imgExpansion objectFitImage pcInline"><img data-src="/image/topKV_sp_38.png" alt="WWFジャパン公式通販「PANDA SHOP」" class="lazyload imgExpansion objectFitImage spInline"><!--<figcaption></figcaption>--></figure></div></li>
+                    
+                    
+                    
+				</ul>
+			</section>
+			<section class="top-about clearfix">
+				<h1>WWFは環境保全に取り組む<br>
+				公益財団法人です。</h1>
+				<p>皆様の大切な想いとともに<br class="spInline">託されたご支援によって、<br>
+				私たちは今日も活動を続けています。</p>
+				<p>人と自然が調和して生きられる未来を<br>
+				実現するその日まで。</p>
+<ul class="btn btn2">
+						<li><a href="/support/"><span>ご支援のお願い</span></a></li>
+					</ul>
+				<div class="figcaption"></div>
+			</section>
+			<section>
+				<div class="bodyAreaBg_edead7 recommendation clearfix swiper-container">
+					<h2 class="center">注目の活動特集</h2>
+					<ul class="recommendationList"><!--
+						--><li class="swiper-slide"><a href="/activities/project/5481.html">
+							<div class="image"><figure><img data-src="/image/article/article_images/20231129sustinable01.webp" alt="オセロット" class="lazyload imgExpansion objectFitImage pcInline"><img data-src="/image/article/article_images/20231129sustinable01.webp" alt="オセロット" class="lazyload spInline"><figcaption>© naturepl.com / Paul Williams / WWF</figcaption></figure></div>
+							<div class="text">
+								<p class="title">WWFジャパン1年間の活動報告（2022年7月～2023年6月）</p>
+								<p>皆さまからお寄せいただいた会費やご寄付をもとに、さまざまな活動を進めることができました。この場を借りて、心より厚く御礼申し上げます。</p>
+								<ul class="link">
+									<li>もっと読む</li>
+								</ul>
+							</div>
+						</a></li><!--						--><li class="swiper-slide"><a href="/activities/project/5444.html">
+							<div class="image"><figure><img data-src="/image/article/article_images/20231025plasticArtboard0.png" alt="" class="lazyload imgExpansion objectFitImage pcInline"><img data-src="/image/article/article_images/20231025plasticArtboard0.png" alt="" class="lazyload spInline"><figcaption></figcaption></figure></div>
+							<div class="text">
+								<p class="title">法的拘束力のある世界共通ルールを！プラスチック国際条約に関する投票を開始</p>
+								<p>プラスチック汚染のない未来のために投票しましょう！</p>
+								<ul class="link">
+									<li>もっと読む</li>
+								</ul>
+							</div>
+						</a></li><!--						--><li class="swiper-slide"><a href="/activities/project/5286.html">
+							<div class="image"><figure><img data-src="/image/article/article_images/20230105wildlife01.png" alt="" class="lazyload imgExpansion objectFitImage pcInline"><img data-src="/image/article/article_images/20230105wildlife01.png" alt="" class="lazyload spInline"><figcaption>© WWF Japan</figcaption></figure></div>
+							<div class="text">
+								<p class="title">野生動物アドプト制度について</p>
+								<p>絶滅のおそれのある野生動物と、その生息環境を保全する世界各地のプロジェクトを、日本の皆さまに個人スポンサー（里親）として継続的にご支援いただく制度がはじまりました</p>
+								<ul class="link">
+									<li>もっと読む</li>
+								</ul>
+							</div>
+						</a></li><!--						--><li class="swiper-slide"><a href="/activities/project/4023.html">
+							<div class="image"><figure><img data-src="/image/article/article_images/20230713book.jpg" alt="" class="lazyload imgExpansion objectFitImage pcInline"><img data-src="/image/article/article_images/20230713book.jpg" alt="" class="lazyload spInline"><figcaption></figcaption></figure></div>
+							<div class="text">
+								<p class="title">夏休み！自由研究や読書感想文に役立つ、親子で読みたいオススメの本</p>
+								<p>WWFジャパンが親子で読みたいオススメの本をご紹介します。</p>
+								<ul class="link">
+									<li>もっと読む</li>
+								</ul>
+							</div>
+						</a></li><!--
+					--></ul>
+				<!-- /bodyAreaBg --></div>
+			</section>
+			<section class="top-activity">
+				<div class="bodyAreaBg clearfix">
+					<h2 class="center">WWFの活動トピック</h2>
+					<div class="tab__contents">
+						<div class="tab__content">
+							<div class="sectionBody__pc-980 sectionBody__sp">
+								<ul class="listLink listLinkType3">
+
+									<li><a href="/activities/activity/5491.html">
+										<div class="image"><figure><img src="/image/article/article_images/20231212climate01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>©  Pekka Tuuri / WWF </figcaption></figure></div>
+										<ul class="tablink"><li>WWFの活動</li><li>活動報告</li></ul>
+										<p>2023年版レッドリスト発表　絶滅危惧種におよぶ気候変動の脅威が明確に </p>
+	
+										<time datetime="2023-12-12">2023/12/12</time>
+	
+									</a></li>
+
+
+									<li><a href="/staffblog/activity/5490.html">
+										<div class="image"><figure><img src="/image/article/article_images/20231209_climate_02.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© WWF Japan</figcaption></figure></div>
+										<ul class="tablink"><li>スタッフブログ</li><li>活動報告</li></ul>
+										<p>【COP28現地報告】2週目、閣僚級会合が始まりました</p>
+	
+										<time datetime="2023-12-09">2023/12/09</time>
+	
+									</a></li>
+
+
+									<li><a href="/staffblog/activity/5489.html">
+										<div class="image"><figure><img src="/image/article/article_images/20231208_climate_02.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© WWF Japan</figcaption></figure></div>
+										<ul class="tablink"><li>スタッフブログ</li><li>活動報告</li></ul>
+										<p>COP28現地発信：日本の非国家アクターがカーボンプラシング政策の改善を提言</p>
+	
+										<time datetime="2023-12-08">2023/12/08</time>
+	
+									</a></li>
+
+
+									<li><a href="/activities/news/5487.html">
+										<div class="image"><figure><img src="/image/article/article_images/20231205climate01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© UNFCCC Photo by COP28 / Mahmoud Khaled</figcaption></figure></div>
+										<ul class="tablink"><li>WWFの活動</li><li>ニュース</li></ul>
+										<p>ビジネスセクターによる脱化石燃料キャンペーンが本格始動</p>
+	
+										<time datetime="2023-12-07">2023/12/07</time>
+	
+									</a></li>
+
+
+									<li><a href="/activities/activity/5488.html">
+										<div class="image"><figure><img src="/image/article/article_images/20231205ocean01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© WWF Japan</figcaption></figure></div>
+										<ul class="tablink"><li>WWFの活動</li><li>活動報告</li></ul>
+										<p>「ゴーストギア調査隊」伊東市での第1回調査</p>
+	
+										<time datetime="2023-12-07">2023/12/07</time>
+	
+									</a></li>
+
+
+									<li><a href="/staffblog/activity/5485.html">
+										<div class="image"><figure><img src="/image/article/article_images/20231204climate01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© Y.Sato/WWF Japan</figcaption></figure></div>
+										<ul class="tablink"><li>スタッフブログ</li><li>活動報告</li></ul>
+										<p>COP28現地発信：日本が「化石賞」を受賞しました</p>
+	
+										<time datetime="2023-12-04">2023/12/04</time>
+	
+									</a></li>
+
+
+								</ul>
+								<ul class="btn">
+									<li><a href="/newarticles">もっと見る</a></li>
+								</ul>
+<div style="width:60%; margin:0 auto;"><div style="width:50%; float:left;margin:0 auto;"><ul class="link">
+	
+	<li><a href="/activities/statement/"><span class="SPhidden">WWFが提出した</span>声明・要請</a></li>
+
+	
+</ul></div><div style="width:50%; float:right;margin:0 auto;"><ul class="link">
+	
+	
+<li><a href="/activities/library/"><span class="SPhidden">WWFによる</span>資料・レポート</a></li>
+	
+</ul></div></div>
+							</div>
+						</div>
+						<!-- <div class="tab__content">
+							<div class="sectionBody__pc-980 sectionBody__sp recordArea">
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</section>
+			<section class="top-campaign">
+				<div class="bodyAreaBg clearfix">
+					<div class="sectionBody__pc-980 sectionBody__sp clearfix">
+						<h2 class="center">生物多様性の損失はなぜ起こる？</h2>
+						<div class="twoColumnsType twoColumnsType1 clearfix">
+							<div class="column"><div class="youtube"><iframe width="560" height="315" data-src="https://www.youtube.com/embed/zLeSYunL66A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div> </div>
+							<div class="column columnEnd">
+								<p>人の活動が引き起こす生物多様性の損失。<br>
+しかし解決できるのも私たち人間です。<br>
+さぁ、解決する側に回りましょう。
+</p><ul class="link">
+	
+	<li><a href="/support/#message">あなたの力を貸してください</a></li>
+	
+</ul>
+							<!-- /column --></div>
+						<!-- /twoColumnsType --></div>
+					<!-- /sectionBody --></div>
+				<!-- /bodyAreaBg --></div>
+			</section>
+            <section class="article-ranking">
+                <div class="bodyAreaBg clearfix">
+                    <h2 class="center">
+                        人気記事
+                        <span class="date">（2023/11/16 ～ 2023/11/30）</span>
+                    </h2>
+                    <div class="sectionBody__pc-980 sectionBody__sp">
+                        <ol class="listLayout">
+                <li>
+
+                  <a href="/activities/basicinfo/4580.html" class="grid">
+
+
+                    <div class="image">
+                      <figure>
+                        <img src="/image/article/article_images/20210311sustainable01s_1.jpg" alt="" class="imgExpansion objectFitImage">
+                        <figcaption>© Asim Hafeez / WWF-UK</figcaption>
+                      </figure>
+                    </div>
+
+                    <div class="content">
+                      <ul class="tablink">
+                        <li>WWFの活動</li>
+                        <li>基礎情報</li>
+                      </ul>
+                      <p>コットンって環境に悪い？サステナブルファッション視点でのコットンの生産と利用</p>
+                      <div class="author">
+
+                        <time datetime="2021-03-12">2021/03/12</time>
+
+                      </div>
+                    </div>
+                  </a>
+                </li>                <li>
+
+                  <a href="/staffblog/activity/5464.html" class="grid">
+
+
+                    <div class="image">
+                      <figure>
+                        <img src="/image/article/article_images/20231107wildlife01s.jpg" alt="" class="imgExpansion objectFitImage">
+                        <figcaption>© naturepl.com / Sylvain Cordier / WWF</figcaption>
+                      </figure>
+                    </div>
+
+                    <div class="content">
+                      <ul class="tablink">
+                        <li>スタッフブログ</li>
+                        <li>活動報告</li>
+                      </ul>
+                      <p>記憶に残る授業－ユキヒョウを学ぶ</p>
+                      <div class="author">
+
+                        <time datetime="2023-11-21">2023/11/21</time>
+
+                      </div>
+                    </div>
+                  </a>
+                </li>                <li>
+
+                  <a href="/activities/basicinfo/3537.html" class="grid">
+
+
+                    <div class="image no-image">
+                    </div>
+
+                    <div class="content">
+                      <ul class="tablink">
+                        <li>WWFの活動</li>
+                        <li>基礎情報</li>
+                      </ul>
+                      <p>スクール・パリ協定</p>
+                      <div class="author">
+
+                        <time datetime="2022-02-10">2022/02/10</time>
+
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                        </ol>
+                        <ul class="btn">
+                            <li><a href="/ranking">もっと見る</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+			<section class="top-notice">
+				<div class="bodyAreaBg">
+					<div class="sectionBody__pc-780 sectionBody__sp clearfix">
+						<h2 class="titStyle2 center">お知らせ</h2>
+						<ul class="listLink listLinkType5 listLinkType5__time">
+
+								<li><a href="/news/5484.html">
+
+
+									<time datetime="2023-12-06">2023/12/06</time>
+
+									<span>【採用情報】WWFジャパン 契約職員募集のお知らせ（海洋水産グループ　ブルーファイナンス担当）</span></a></li>
+
+								<li><a href="/news/5486.html">
+
+
+									<time datetime="2023-12-04">2023/12/04</time>
+
+									<span>年末年始の休業のお知らせ</span></a></li>
+
+								<li><a href="/news/5469.html">
+
+
+									<time datetime="2023-11-22">2023/11/22</time>
+
+									<span>【採用情報】WWFジャパン 契約職員募集のお知らせ（環境・サステナビリティリーダー開発グループ　プロジェクト担当）</span></a></li>
+
+								<li><a href="/news/5084.html">
+
+
+									<time datetime="2023-11-16">2023/11/16</time>
+
+									<span>【採用情報】WWFジャパン 一般職員募集のお知らせ（海外の森林保全および森林産品等の持続可能な調達推進担当）</span></a></li>
+
+								<li><a href="/news/5462.html">
+
+
+									<time datetime="2023-11-15">2023/11/15</time>
+
+									<span>【採用情報】WWFジャパン 一般職員募集のお知らせ（総務グループ　総務担当）</span></a></li>
+
+						</ul>
+						<ul class="btn">
+							<li><a href="/news/">もっと見る</a></li>
+						</ul>
+					<!-- /sectionBody --></div>
+				<!-- /bodyAreaBg --></div>
+			</section>
+<div class="bodyAreaBg_e0e0e0">
+          <div class="banner-container">
+            <div class="banner-lists">
+ <div class="banner-item">
+                <div class="image">
+                  <a href="/campaign/da/"><img data-src="/image/bnr_da2023aw.png" alt="ご寄付のお願い　森を守るピース" class="lazyload"></a>
+                </div>
+              </div>
+              <div class="banner-item">
+                <div class="image">
+                  <a href="/campaign/da_2023ss/">
+                   <img src="/image/top/bnr_da2023ss.png?b" alt="【期間限定】ユキヒョウ、アフリカゾウ、ジャガーを守るためにご寄付をお願いいたします">
+                 </a>
+                </div>
+              </div>
+              <div class="banner-item">
+                <div class="image">
+                  <a href="/aboutmembers/mgzn/"><img data-src="/image/top/bnr_kaihou.png" alt="WWFジャパン会報『地球のこと』の紹介" class="lazyload"></a>
+                </div>
+              </div>
+              <div class="banner-item">
+                <div class="image">
+                  <a href="/donate/legacy/"><img data-src="/image/top/bnr_izou.png" alt="遺贈・遺産の寄付" class="lazyload"></a>
+                </div>
+              </div>
+              <div class="banner-item">
+                <div class="image">
+                  <a href="/campaign/speciallp/my_1st_support/"><img data-src="/image/top/bnr_2023my1st.png" alt="好きだから。大切だから。その気持ちを、はじめてのサポートに。MY 1st SUPPORT" class="lazyload"></a>
+                </div>
+              </div>
+              <div class="banner-item">
+                <div class="image">
+                  <a href="/campaign/speciallp/activity_report/"><img data-src="/image/top/bnr_activeties.png" alt="ご寄付のお願い：地球のことがわたしたちの仕事です" class="lazyload"></a>
+                </div>
+              </div>
+<div class="banner-item">
+                <div class="image">
+                  <a href="https://shop.wwf.or.jp/"><img data-src="/image/top/bnr_pandashop2023.png" alt="ご寄付のお願い：地球のことがわたしたちの仕事です" class="lazyload"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- /bodyAreaBg -->
+<section id="footerCvTab" class="step checking" data-step="footerCvTab">
+  <div class="bodyAreaBg_e37a2c nav_support_bodyAreaBg">
+    <div class="sectionBody__pc-780 sectionBody__sp">
+      <h2 class="titStyle1 center nav_support_titStyle1">
+        あなたの支援が<br class="spInline" />必要です！
+      </h2>
+      <p>
+        私たちの活動は、皆さまのご支援によって行われています。人類を含む全ての生き物と自然が調和して生きていける未来のために、ご支援をお願い致します。
+      </p>
+    </div>
+    <div class="sectionBody__pc-980 sectionBody__sp clearfix">
+      <section class="supportArea nav_supportArea clearfix">
+        <div class="ifsupport ifsupport__monthly1000" data-support_content="1">
+          <div class="supportArea__image">
+            <figure>
+              <img
+                src="/shared/images/2018/supportArea__image_1000.jpg"
+                alt=""
+                class="objectFitImage"
+              />
+              <figcaption>&copy; Natalie Bowes / WWF-Canada</figcaption>
+            </figure>
+          </div>
+          <h3 class="supportArea__title">1年間その支援を継続すると&hellip;</h3>
+          <p>
+            南米のチリで海の大切さを伝え、地域の人たちにも<br
+              class="spInline"
+            />その保全に参加してもらう普及活動を<br
+              class="spInline"
+            />1回実施できます。
+          </p>
+        </div>
+        <div
+          class="ifsupport ifsupport__monthly5000 checked"
+          data-support_content="2"
+        >
+          <div class="supportArea__image">
+            <figure>
+              <img
+                src="/shared/images/2018/supportArea__image_5000.jpg"
+                alt=""
+                class="objectFitImage"
+              />
+              <figcaption>&copy; Vladimir Filonov / WWF</figcaption>
+            </figure>
+          </div>
+          <h3 class="supportArea__title">
+            1年間、その支援を継続すると&hellip;
+          </h3>
+          <p>
+            野生のトラが生息する東南アジアの森で行なう<br
+              class="spInline"
+            />カメラトラップ調査の<br
+              class="spInline"
+            />トレーニングを実施できます。
+          </p>
+        </div>
+        <div class="ifsupport ifsupport__monthly10000" data-support_content="3">
+          <div class="supportArea__image">
+            <figure>
+              <img
+                src="/shared/images/2018/supportArea__image_10000.jpg"
+                alt=""
+                class="objectFitImage"
+              />
+              <figcaption>&copy; Ola Jennersten / WWF-Sweden</figcaption>
+            </figure>
+          </div>
+          <h3 class="supportArea__title">
+            1年間、その支援を継続すると&hellip;
+          </h3>
+          <p>
+            スマトラの熱帯林で、<br
+              class="spInline"
+            />違法伐採や野生動物の密猟を防ぐパトロールを<br
+              class="spInline"
+            />14日間、支えることができます。
+          </p>
+        </div>
+        <div class="ifsupport ifsupport__once1000" data-support_content="4">
+          <div class="supportArea__image">
+            <figure>
+              <img
+                src="/shared/images/2018/supportArea__image_1000.jpg"
+                alt=""
+                class="objectFitImage"
+              />
+              <figcaption>&copy; Natalie Bowes / WWF-Canada</figcaption>
+            </figure>
+          </div>
+          <h3 class="supportArea__title">1年間その支援を継続すると&hellip;</h3>
+          <p>
+            南米のチリで海の大切さを伝え、地域の人たちにも<br
+              class="spInline"
+            />その保全に参加してもらう普及活動を<br
+              class="spInline"
+            />1回実施できます。
+          </p>
+        </div>
+        <div class="ifsupport ifsupport__once5000" data-support_content="5">
+          <div class="supportArea__image">
+            <figure>
+              <img
+                src="/shared/images/2018/supportArea__image_5000.jpg"
+                alt=""
+                class="objectFitImage"
+              />
+              <figcaption>&copy; Vladimir Filonov / WWF</figcaption>
+            </figure>
+          </div>
+          <h3 class="supportArea__title">1年間その支援を継続すると&hellip;</h3>
+          <p>
+            野生のトラが生息する東南アジアの森で行なう<br
+              class="spInline"
+            />カメラトラップ調査の<br
+              class="spInline"
+            />トレーニングを実施できます。
+          </p>
+        </div>
+        <div class="ifsupport ifsupport__once10000" data-support_content="6">
+          <div class="supportArea__image">
+            <figure>
+              <img
+                src="/shared/images/2018/supportArea__image_10000.jpg"
+                alt=""
+                class="objectFitImage"
+              />
+              <figcaption>&copy; Ola Jennersten / WWF-Sweden</figcaption>
+            </figure>
+          </div>
+          <h3 class="supportArea__title">1年間その支援を継続すると&hellip;</h3>
+          <p>
+            スマトラの熱帯林で、<br
+              class="spInline"
+            />違法伐採や野生動物の密猟を防ぐパトロールを<br
+              class="spInline"
+            />14日間、支えることができます。
+          </p>
+        </div>
+        <div class="supportArea__choose">
+          <ul class="supportArea__tab">
+            <li class="current" data-click="tab" data-target_content="1">
+              会員になる<small>（毎月支援）</small>
+            </li>
+            <li data-click="tab" data-target_content="2">
+              寄付をする<small>（1度だけ支援）</small>
+            </li>
+          </ul>
+          <div class="supportArea__contents">
+            <div class="supportArea__content" data-tab_content="1">
+              <form
+                action="https://join.wwf.or.jp/membershipform"
+                method="get"
+                target="_blank"
+              >
+                <input type="hidden" name="button" id="Admission" value="1" />
+                <ul class="btn">
+                  <li>
+                    <input
+                      type="radio"
+                      name="member"
+                      id="nav_monthly1000_footer"
+                      class="monthly1000"
+                      value="m1000"
+                      data-click="support"
+                      data-target_content="1"
+                    /><label for="nav_monthly1000_footer"
+                      ><span class="num">1,000</span>円<span
+                        class="animation"
+                      ></span
+                    ></label>
+                  </li>
+                  <li>
+                    <input
+                      type="radio"
+                      name="member"
+                      id="nav_monthly5000_footer"
+                      class="monthly5000"
+                      value="m5000"
+                      checked="checked"
+                      data-click="support"
+                      data-target_content="2"
+                    /><label for="nav_monthly5000_footer"
+                      ><span class="num">5,000</span>円<span
+                        class="animation"
+                      ></span
+                    ></label>
+                  </li>
+                  <li>
+                    <input
+                      type="radio"
+                      name="member"
+                      id="nav_monthly10000_footer"
+                      class="monthly10000"
+                      value="m10000"
+                      data-click="support"
+                      data-target_content="3"
+                    /><label for="nav_monthly10000_footer"
+                      ><span class="num">10,000</span>円<span
+                        class="animation"
+                      ></span
+                    ></label>
+                  </li>
+                </ul>
+                <ul class="btn supportArea__submit">
+                  <li>
+                    <span class="frame"></span
+                    ><input type="submit" value="入会する" /><span
+                      class="animation"
+                    ></span>
+                  </li>
+                </ul>
+              </form>
+            </div>
+            <div
+              class="supportArea__content"
+              data-tab_content="2"
+              style="display: none"
+            >
+              <form
+                action="https://join.wwf.or.jp/onetimeform"
+                method="get"
+                target="_blank"
+              >
+                <ul class="btn">
+                  <li>
+                    <input
+                      type="radio"
+                      name="gaku"
+                      value="1000"
+                      id="nav_once1000"
+                      class="once1000"
+                      data-click="support"
+                      data-target_content="4"
+                    /><label for="nav_once1000"
+                      ><span class="num">1,000</span>円<span
+                        class="animation"
+                      ></span
+                    ></label>
+                  </li>
+                  <li>
+                    <input
+                      type="radio"
+                      name="gaku"
+                      value="5000"
+                      id="nav_once5000"
+                      class="once5000"
+                      checked="checked"
+                      data-click="support"
+                      data-target_content="5"
+                    /><label for="nav_once5000"
+                      ><span class="num">5,000</span>円<span
+                        class="animation"
+                      ></span
+                    ></label>
+                  </li>
+                  <li>
+                    <input
+                      type="radio"
+                      name="gaku"
+                      value="10000"
+                      id="nav_once10000"
+                      class="once10000"
+                      data-click="support"
+                      data-target_content="6"
+                    /><label for="nav_once10000"
+                      ><span class="num">10,000</span>円<span
+                        class="animation"
+                      ></span
+                    ></label>
+                  </li>
+                </ul>
+                <ul class="btn supportArea__submit">
+                  <li>
+                    <span class="frame"></span
+                    ><input type="submit" value="寄付する" /><span
+                      class="animation"
+                    ></span>
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /sectionBody -->
+      <div style="text-align: center; color: #fff">
+        <p style="font-size: small; text-align: center">
+          遺贈遺言・高額寄付に関するご相談は<a
+            href="/donate/gift/"
+            style="color: #fff"
+            >こちら</a
+          >
+        </p>
+      </div>
+    </div>
+    <!-- /bodyAreaBg -->
+  </div>
+</section>
+<section class="activitiesArea">
+  <div class="bodyAreaBg">
+    <div class="sectionBody__pc-980 sectionBody__sp">
+      <h2 class="activitiesArea_title">
+        人と自然が調和して<br class="spInline" />生きられる未来を目指して
+      </h2>
+      <p class="center">
+        WWFは100カ国以上で活動している<br class="spInline" />環境保全団体です。
+      </p>
+      <ul class="link activitiesArea_link">
+        <li class="climate">
+          <a href="/activities/climate/"
+            >地球温暖化を防ぐ<span>&copy; Elisabeth Kruger / WWF-US</span></a
+          >
+        </li>
+        <li class="resource">
+          <a href="/activities/resource/"
+            >持続可能な社会を創る<span>&copy; Martin Harvey / WWF</span></a
+          >
+        </li>
+        <li class="wildlife">
+          <a href="/activities/wildlife/"
+            >野生生物を守る<span
+              >&copy; naturepl.com / Francois Savigny / WWF</span
+            ></a
+          >
+        </li>
+        <li class="nature">
+          <a href="/activities/nature/"
+            >森や海を守る<span>&copy; Roger Leguen / WWF</span></a
+          >
+        </li>
+      </ul>
+      <!-- /sectionBody -->
+    </div>
+    <!-- /bodyAreaBg -->
+  </div>
+</section>
+<div class="bodyAreaBg_e0e0e0">
+  <div class="sectionBody__pc-980 sectionBody__sp clearfix">
+    <div class="nav__socialBtnArea">
+      <section style="padding-bottom: 2em">
+        <h2 class="titStyle2">WWFの公式アカウントを<br />フォローしよう！</h2>
+        <ul class="socialBtn">
+          <!--
+									-->
+          <li class="facebook">
+            <a href="https://www.facebook.com/WWFJapan/" target="_blank"
+              >facebook</a
+            >
+          </li>
+          <!--
+									-->
+          <li class="twitter">
+            <a href="https://twitter.com/wwfjapan" target="_blank">Twitter</a>
+          </li>
+          <!--
+									-->
+          <li class="youtube">
+            <a href="https://www.youtube.com/user/WWFJapan" target="_blank"
+              >YouTube</a
+            >
+          </li>
+          <!--
+									-->
+          <li class="instagram">
+            <a href="https://www.instagram.com/wwfjapan/" target="_blank"
+              >Instagram</a
+            >
+          </li>
+          <!--
+								--><!--
+								--></ul>
+        <h2 class="titStyle2">＼最新情報をお届け！／<br />WWFメールマガジン</h2>
+        <div style="text-align: center">
+          <a
+            href="/magazine/"
+            style="
+              margin: 0 auto;
+              width: 100%;
+              max-width: 440px;
+              font-size: 24px;
+              font-weight: bold;
+              text-decoration: none;
+              display: block;
+              text-align: center;
+              padding: 8px 0 10px;
+              color: #fff;
+              background-color: #000;
+              border-radius: 50px;
+            "
+            >ご登録はこちら
+          </a>
+        </div>
+      </section>
+      <!-- /nav__socialBtnArea -->
+    </div>
+    <div class="nav__mailArea">
+      <section>
+        <h2 class="titStyle2">＼友だち限定／<br />フォトギャラリー公開中</h2>
+        <div style="text-align: center">
+          <div style="margin: 0 auto; max-width: 440px">
+            <a href="https://line.me/R/ti/p/%40tty9005i"
+              ><img
+                src="https://www.wwf.or.jp/image/bnr_line_sp.jpg"
+                alt="LINE"
+                width="100%"
+                class="PChidden" />
+              <img
+                src="https://www.wwf.or.jp/image/bnr_line_pc.jpg"
+                alt="LINE"
+                width="100%"
+                style="border: 5px #999; border-radius: 10px"
+                class="SPhidden"
+            /></a>
+            <div style="margin-top: 20px" class="PChidden">
+              <a href="https://line.me/R/ti/p/%40tty9005i"></a>
+              <a
+                href="https://line.me/R/ti/p/%40tty9005i"
+                style="
+                  width: 100%;
+                  font-size: 24px;
+                  font-weight: bold;
+                  text-decoration: none;
+                  display: block;
+                  text-align: center;
+                  padding: 8px 0 10px;
+                  color: #fff;
+                  background-color: #000;
+                  border-radius: 50px;
+                "
+                >友だち登録する
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /nav__mailArea -->
+    </div>
+    <!-- /sectionBody -->
+  </div>
+  <!-- /bodyAreaBg -->
+</div>
+			<p class="backToTopNavigation"><a href="#wrapperArea" title="このページのトップへ戻る"><span>PAGE TOP</span></a></p>
+			<footer>
+				<div class="sectionBody__pc-980">
+					<nav class="footerLinkArea">
+						<ul class="footerLink">
+							<li><a href="/aboutwwf/">WWFについて</a></li>
+							<li><a href="/activities/">WWFの活動</a></li>
+							<li><a href="/aboutwwf/welcome/">初めての方へ</a></li>
+							<li><a href="/members/">個人の皆さまへ</a></li>
+							<li><a href="/corp/">法人の皆様</a></li>
+							<li><a href="/press/">報道関係の方</a></li>
+							<li><a href="/recinfo/">採用情報</a></li>
+							<li><a href="/info/faq/">よくあるご質問</a></li>
+							<li><a href="/info/">お問い合わせ</a></li>
+						</ul>
+						<ul class="footerLink">
+							<li><a href="/activities/press/">プレスリリース</a></li>
+							<li><a href="/activities/statement/">声明・要請</a></li>
+							<li><a href="/top/privacy.html">プライバシーポリシー</a></li>
+							<li><a href="/sitemap">サイトマップ</a></li>
+							<li><a href="/eng/">English</a></li>
+						</ul>
+					</nav>
+					<div class="region-picker">
+					<form name="sort_form">
+						<select name="sort" onchange="dropsort()">
+						<option value="http://www.panda.org/?referer=wwfja">WWF Global</option>
+						<option value="http://www.vidasilvestre.org.ar/?referer=wwfja">Argentina</option>
+						<option value="http://armenia.panda.org/?referer=wwfja">Armenia</option>
+						<option value="http://www.wwf.at/?referer=wwfja">Austria</option>
+						<option value="http://www.wwf.org.au/?referer=wwfja">Australia</option>
+						<option value="http://www.wwf.be/?referer=wwfja">Belgium</option>
+						<option value="http://www.wwfbhutan.org/?referer=wwfja">Bhutan</option>
+						<option value="http://bolivia.panda.org/?referer=wwfja">Bolivia</option>
+						<option value="http://www.panda.org/what_we_do/where_we_work/borneo_forests/?referer=wwfja">Borneo</option>
+						<option value="http://www.wwf.org.br/?referer=wwfja">Brasil</option>
+						<option value="http://www.wwf.bg/?referer=wwfja">Bulgaria</option>
+						<option value="http://cambodia.panda.org/?referer=wwfja">Cambodia</option>
+						<option value="http://www.wwf.ca/?referer=wwfja">Canada</option>
+						<option value="http://www.panda.org/what_we_do/where_we_work/black_sea_basin/caucasus/?referer=wwfja">Caucasus</option>
+						<option value="http://www.wwfca.org/?referer=wwfja">Central America</option>
+						<option value="http://chile.panda.org/?referer=wwfja">Chile</option>
+						<option value="http://en.wwfchina.org/?referer=wwfja">China</option>
+						<option value="http://www.wwf.org.co/?referer=wwfja">Colombia</option>
+						<option value="http://croatia.panda.org/?referer=wwfja">Croatia</option>
+						<option value="http://www.wwf.dk/?referer=wwfja">Denmark</option>
+						<option value="http://www.wwf.eu/?referer=wwfja">European Policy Office</option>
+						<option value="http://www.wwf.fi/?referer=wwfja">Finland</option>
+						<option value="http://www.wwf.fr/?referer=wwfja">France</option>
+						<option value="http://www.wwf.de/?referer=wwfja">Germany</option>
+						<option value="http://www.panda.org/what_we_do/where_we_work/project/projects_in_depth/mekong_river/?referer=wwfja">Greater Mekong</option>
+						<option value="http://www.wwf.gr/?referer=wwfja">Greece</option>
+						<option value="http://www.wwfguianas.org/?referer=wwfja">Guianas</option>
+						<option value="http://www.wwf.org.hk/?referer=wwfja">Hong Kong</option>
+						<option value="http://www.wwf.hu/?referer=wwfja">Hungary</option>
+						<option value="http://www.wwfindia.org/?referer=wwfja">India</option>
+						<option value="http://www.wwf.or.id/?referer=wwfja">Indonesia</option>
+						<option value="http://www.wwf.it/?referer=wwfja">Italy</option>
+						<option value="/?referer=wwfja" selected>Japan</option>
+						<option value="http://wwfkorea.or.kr/?referer=wwfja">Korea</option>
+						<option value="http://www.panda.org/who_we_are/wwf_offices/laos/?referer=wwfja">Laos</option>
+						<option value="http://www.wwf.mg/?referer=wwfja">Madagascar</option>
+						<option value="http://www.wwf.org.my/?referer=wwfja">Malaysia</option>
+						<option value="http://mediterranean.panda.org/?referer=wwfja">Mediterranean</option>
+						<option value="http://www.wwf.org.mx/?referer=wwfja">Mexico</option>
+						<option value="http://mongolia.panda.org/?referer=wwfja">Mongolia</option>
+						<option value="http://www.wwf.org.mz/?referer=wwfja">Mozambique</option>
+						<option value="http://nepal.panda.org/?referer=wwfja">Nepal</option>
+						<option value="http://www.wnf.nl/?referer=wwfja">Netherlands</option>
+						<option value="http://www.wwf.org.nz/?referer=wwfja">New Zealand</option>
+						<option value="http://www.wwf.no/?referer=wwfja">Norway</option>
+						<option value="http://www.wwfpak.org/?referer=wwfja">Pakistan</option>
+						<option value="http://www.panda.org/who_we_are/wwf_offices/papua_new_guinea/?referer=wwfja">Papua New Guinea</option>
+						<option value="http://www.wwf.org.py/?referer=wwfja">Paraguay</option>
+						<option value="http://peru.panda.org/?referer=wwfja">Peru</option>
+						<option value="http://www.wwf.org.ph/?referer=wwfja">Philippines</option>
+						<option value="http://www.wwf.pl/?referer=wwfja">Poland</option>
+						<option value="http://www.wwf.pt/?referer=wwfja">Portugal</option>
+						<option value="http://romania.panda.org/?referer=wwfja">Romania</option>
+						
+						<option value="http://www.panda.org/who_we_are/wwf_offices/senegal/?referer=wwfja">Senegal</option>
+						<option value="http://www.panda.org/sr/?referer=wwfja">Serbia</option>
+						<option value="http://www.wwf.sg/?referer=wwfja">Singapore</option>
+						<option value="http://www.wwf.org.za/?referer=wwfja">South Africa</option>
+						<option value="http://pacific.panda.org/?referer=wwfja">South Pacific</option>
+						<option value="http://www.wwf.es/?referer=wwfja">Spain</option>
+						<option value="http://www.wwfguianas.org/?referer=wwfja">Suriname</option>
+						<option value="http://www.wwf.se/?referer=wwfja">Sweden</option>
+						<option value="http://www.wwf.ch/?referer=wwfja">Switzerland</option>
+						<option value="http://www.panda.org/who_we_are/wwf_offices/tanzania/?referer=wwfja">Tanzania</option>
+						<option value="http://www.wwf.or.th/?referer=wwfja">Thailand</option>
+						<option value="http://www.wwf.org.tr/?referer=wwfja">Turkey</option>
+						<option value="http://www.panda.org/uk/?referer=wwfja">Ukraine</option>
+						<option value="http://uae.panda.org/?referer=wwfja">United Arab Emirates</option>
+						<option value="http://www.wwf.org.uk/?referer=wwfja">United Kingdom</option>
+						<option value="http://www.worldwildlife.org/?referer=wwfja">United States</option>
+						<option value="http://vietnam.panda.org/?referer=wwfja">Vietnam</option>
+						</select>
+					</form>
+					</div>
+					<p class="copyright">Photos and graphics &copy; WWF or used with permission.</p>
+					<p class="copyright">本サイトのテキスト引用・ロゴマーク等<br class="spInline">については<a href="/top/siteinfo.html">こちらをご覧ください</a></p>
+				<!-- /sectionBody --></div>
+			</footer>
+		<!-- /bodyArea --></div>
+	<!-- /drawer-container --></div>
+<!-- /wrapperArea --></div>
+<div id="modal">
+	<div id="modal_overlay" class="initial-modal__overlay" data-click="close"></div>
+	<div id="modal_body" class="initial-modal">
+		<section>
+			<div class="initial-modal__body initial-modal__pc initial-modal__sp">
+				<div class="initial-modal__title initial-modal__pc_title initial-modal__sp_title">
+					<h1><small>WWFジャパンのサイトへ</small>
+					ようこそ！</h1>
+					<p>国内外の自然保護活動に取り組むWWFジャパンでは、ユーザーの皆さまのご関心、ご要望に合った情報の発信を目指しています。こちらより該当する項目をお選びください。</p>
+				</div>
+				<div class="initial-modal__Link initial-modal__pc_Link initial-modal__sp_Link">
+					<ul class="initial-modal__link clearfix"><!--
+						--><li class="beginner"><a href="/aboutwwf/welcome/"><span class="strongType">初めての方</span><br>WWFの紹介</a></li><!--
+						--><li class="support"><a href="/support/"><span class="strongType">ご支援をご検討中の方</span><br>WWFからのお願い</a></li><!--
+						--><li class="corporation"><a href="/corp/"><span class="strongType">法人の皆様</span><br>法人の取り組みとご支援</a></li><!--
+						--><li class="press"><a href="/press/"><span class="strongType">報道関係の方</span><br>プレスリリース・取材案内</a></li><!--
+					--></ul>
+				</div>
+				<p class="initial-modal__close" data-click="close"><img src="/shared/svg/icons_close_popup.svg" alt="閉じる" data-click="close"></p>
+			</div>
+			<ul class="initial-modal__link_top" data-click="close">
+				<li>トップページを表示する</li>
+			</ul>
+		</section>
+	</div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script><!-- jquery & iScroll -->
+<script src="/shared/js/drawer.js"></script><!-- drawer.js -->
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="/shared/js/ofi.min.js"></script><!-- object-fit-images -->
+<script src="/shared/js/jquery.easing.1.3.js"></script>
+<script src="/shared/js/libs_2018.js"></script>
+<script src="/shared/js/slick/slick.js"></script>
+<script src="/shared/js/slick/libs_top.js"></script>
+<script src="/js/libs_2018.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.5.1/velocity.min.js"></script>
+<script src="/js/classes/cookie.js"></script>
+<script src="/js/classes/visitor_manager.js"></script>
+<script src="/js/classes/views/modal.js"></script>
+<script src="/js/classes/presets/modal.js"></script>
+<script src="/js/classes/views/cvtab.js"></script>
+<script src="/js/classes/presets/cvtab.js"></script>
+<script src="/js/exec.js"></script>
+<script src="/js/exec_top.js"></script>
+<script src="/ext/js/browsingHistory.js"></script>
+<script src="/js/bannerSlider.js"></script>
+<script src="/script.jsp?id=136212"></script> <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+<script>
+lazyload();
+</script>
+<script src="/js/classes/header.js"></script>
+<script>
+$(window).on('load', function() {
+	'use strict';
+
+	var namespace = this.wwf || {};
+	var visitorManager = namespace.visitorManager || new namespace.VisitorManager();
+	visitorManager.visited();
+
+});
+</script>
+</body>
+</html>

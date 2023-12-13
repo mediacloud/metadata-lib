@@ -4,17 +4,17 @@
 <!--[if IE 8]>    <html class="msie8" lang="fr" xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#"> <![endif]-->
 <!--[if IE 9]>    <html class="msie9" lang="fr" xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#"> <![endif]-->
 <!--[if gt IE 9]><!--><html lang="fr" xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#"><!--<![endif]-->
-<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app209.us.archive.org';v.server_ms=401;archive_analytics.send_pageview({});});</script>
-<script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
-<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
-  __wm.wombat("https://www.ozap.com/actu/invites-salut-les-terriens-recoit-florent-pagny-et-frederic-lopez/544047","20220721144454","https://web.archive.org/","web","/_static/",
+  __wm.wombat("https://www.ozap.com/actu/invites-salut-les-terriens-recoit-florent-pagny-et-frederic-lopez/544047","20220721144454","https://web.archive.org/","web","https://web-static.archive.org/_static/",
 	      "1658414694");
 </script>
-<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=fantwOh2" />
-<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ" />
 <!-- End Wayback Rewrite JS Include -->
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -371,18 +371,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="c-header__social-title">Suivez-nous !</div>
 <a class="c-header__social-fb" href="https://web.archive.org/web/20220721144454/https://www.facebook.com/puremedias" target="_blank">
 <svg class="icon icon--fb-header" viewbox="0 0 9 15" role="img">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/skins/default_v2/images/symbols_new.svg#icon-facebook"></use>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20220721144454im_/https://www.ozap.com/web/skins/default_v2/images/symbols_new.svg#icon-facebook"></use>
 </svg>
 </a>
 <a class="c-header__social-tw" href="https://web.archive.org/web/20220721144454/https://twitter.com/puremedias" target="_blank">
 <svg class="icon icon--tw-header" viewbox="0 0 17 12" role="img">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/skins/default_v2/images/symbols_new.svg#icon-twitter"></use>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20220721144454im_/https://www.ozap.com/web/skins/default_v2/images/symbols_new.svg#icon-twitter"></use>
 </svg>
 </a>
 <div class="c-header__search">
 <label for="c-search__checkbox" class="c-header__label">
 <svg class="icon icon--glass-header" viewbox="0 0 14 14" role="img">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/skins/default_v2/images/symbols_new.svg#icon-glass"></use>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20220721144454im_/https://www.ozap.com/web/skins/default_v2/images/symbols_new.svg#icon-glass"></use>
 </svg>
 </label>
 </div>
@@ -423,23 +423,23 @@ Retour au flash info
 <div class="c-article-breve__rs sharebox" id="sharebox" data-url="https://web.archive.org/web/20220721144454oe_/https://www.ozap.com/actu/invites-salut-les-terriens-recoit-florent-pagny-et-frederic-lopez/544047" data-title="Invités : &quot;Salut les Terriens !&quot; reçoit Florent Pagny et Frédéric Lopez" data-id="544047" data-image="https://static1.ozap.com/articles/7/54/40/47/@/4573517--salut-les-terriens-presente-par-thier-[WBFORMAT]-4.jpg">
 <div class="c-article-breve__rs-btn c-article-breve__rs-btn--fb  for_facebook" data-type="facebook" data-fn="fbShare">
 <svg class="icon icon--fb-sharebox" viewbox="0 0 9 15" role="img">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/skins/default_v2/images/symbols_new.svg#icon-facebook"></use>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20220721144454im_/https://www.ozap.com/web/skins/default_v2/images/symbols_new.svg#icon-facebook"></use>
 </svg>
 <div class="c-article-breve__rs-btn-label">Partager la brève</div>
 </div>
 <div class="c-article-breve__rs-btn c-article-breve__rs-btn--tw for_twitter" data-type="twitter">
 <svg class="icon icon--tw-sharebox" viewbox="0 0 17 12" role="img">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/skins/default_v2/images/symbols_new.svg#icon-twitter"></use>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20220721144454im_/https://www.ozap.com/web/skins/default_v2/images/symbols_new.svg#icon-twitter"></use>
 </svg>
 </div>
 <a class="c-article-breve__rs-btn c-article-breve__rs-btn--wa" href="https://web.archive.org/web/20220721144454/whatsapp://send/?text=Invités : &quot;Salut les Terriens !&quot; reçoit Florent Pagny et Frédéric Lopezhttps://www.ozap.com/actu/invites-salut-les-terriens-recoit-florent-pagny-et-frederic-lopez/544047" data-action="share/whatsapp/share">
 <svg class="icon icon--wa-sharebox" viewbox="0 0 41 41" role="img">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/skins/default_v2/images/symbols_new.svg#icon-whatsapp"></use>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20220721144454im_/https://www.ozap.com/web/skins/default_v2/images/symbols_new.svg#icon-whatsapp"></use>
 </svg>
 </a>
 <div class="c-article-breve__rs-btn c-article-breve__rs-btn--ln js-copytextarea" data-clipboard-text="https://www.ozap.com/actu/invites-salut-les-terriens-recoit-florent-pagny-et-frederic-lopez/544047">
 <svg class="icon icon--ln-sharebox" viewbox="0 0 16 16" role="img">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/skins/default_v2/images/symbols_new.svg#icon-link"></use>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20220721144454im_/https://www.ozap.com/web/skins/default_v2/images/symbols_new.svg#icon-link"></use>
 </svg>
 </div>
 </div>
@@ -457,7 +457,7 @@ Retour au flash info
 </div>
 <div class="c-article-breve__date-container">
 <svg class="icon icon--clock-article" viewbox="0 0 11 11" role="img">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/skins/default_v2/images/symbols_new.svg#icon-clock"></use>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20220721144454im_/https://www.ozap.com/web/skins/default_v2/images/symbols_new.svg#icon-clock"></use>
 </svg>
 <span class="c-article-breve__date">
 
@@ -856,7 +856,7 @@ var eStatTag=function(a){"use strict";function b(a){R&&(console.debug?console.de
 <input class="c-search__input" type="text" value="" name="q"/>
 <button class="c-search__submit" type="submit">
 <svg class="icon icon--glass-search" viewbox="0 0 14 14" role="img">
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/skins/default_v2/images/symbols_new.svg#icon-glass"></use>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20220721144454im_/https://www.ozap.com/web/skins/default_v2/images/symbols_new.svg#icon-glass"></use>
 </svg>
 </button>
 </form>
@@ -913,7 +913,7 @@ var eStatTag=function(a){"use strict";function b(a){R&&(console.debug?console.de
 </body>
 </html><!--
      FILE ARCHIVED ON 14:44:54 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:23:46 Sep 29, 2022.
+     INTERNET ARCHIVE ON 03:05:11 Dec 13, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -921,14 +921,13 @@ var eStatTag=function(a){"use strict";function b(a){R&&(console.debug?console.de
 -->
 <!--
 playback timings (ms):
-  captures_list: 112.75
-  exclusion.robots: 0.085
-  exclusion.robots.policy: 0.078
-  cdx.remote: 0.06
-  esindex: 0.007
-  LoadShardBlock: 86.602 (3)
-  PetaboxLoader3.datanode: 85.153 (5)
-  CDXLines.iter: 17.403 (3)
-  PetaboxLoader3.resolve: 168.489 (3)
-  load_resource: 275.579 (2)
+  captures_list: 127.552
+  exclusion.robots: 0.125
+  exclusion.robots.policy: 0.114
+  cdx.remote: 0.057
+  esindex: 0.008
+  LoadShardBlock: 101.421 (3)
+  PetaboxLoader3.datanode: 104.44 (5)
+  PetaboxLoader3.resolve: 89.731 (3)
+  load_resource: 133.808 (2)
 -->
