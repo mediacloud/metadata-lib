@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" dir="ltr">
+<!--<![endif]--><head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta charset="utf-8" />
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+	wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+
+<!-- Adobe Analytics RUN PROD 1of2 start -->
+<script src="//assets.adobedtm.com/be5dfd287373/0127575cd23a/launch-f7c3e6060667.min.js"></script>
+<!-- Adobe Analytics RUN PROD 1of2 end -->
+
+	
+<title>Travel.gc.ca - Home</title>
+<link href="/wet-boew/themes-dist-12.6.0-gcweb/GCWeb/assets/favicon.ico" rel="shortcut icon" />
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<meta name="description" content="Government of Canada's official one-stop-shop for comprehensive international travel information." />
+<meta name="dcterms.creator" content="Global Affairs Canada" />
+<meta name="dcterms.title" content="Travel.gc.ca - Home" />
+<meta name="dcterms.issued" title="W3CDTF" content="2012-11-16" />
+<meta name="dcterms.modified" title="W3CDTF" content="2023-11-27" />
+<meta name="dcterms.subject" title="scheme" content="Travel" />
+<meta name="dcterms.language" title="ISO639-2" content="eng" />
+<meta name="dcterms:service" content="GAC-AMC_Travel" />
+<meta name="dcterms.accessRights" content="2" />
+<meta property="og:title" content="Home - Travel.gc.ca" />
+<meta property="og:site_name" content="Travel.gc.ca" />
+<meta property="og:image" content="/vt/custom/images/fb-opengraph-icon-v2.jpg" />
+<!--[if gte IE 9 | !IE ]><!-->
+	<link href="/wet-boew/themes-dist-12.6.0-gcweb/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon" />
+	<link rel="stylesheet" href="/wet-boew/themes-dist-12.6.0-gcweb/GCWeb/css/wet-boew.min.css" />
+	<!--<![endif]-->
+	<link rel="stylesheet" href="/wet-boew/themes-dist-12.6.0-gcweb/GCWeb/css/theme.min.css" />
+
+	<!--[if lt IE 9]>
+	<link href="/wet-boew/themes-dist-12.6.0-gcweb/GCWeb/assets/favicon.ico" rel="shortcut icon" />
+
+	<link rel="stylesheet" href="/wet-boew/themes-dist-12.6.0-gcweb/GCWeb/css/ie8-wet-boew.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="/wet-boew/themes-dist-12.6.0-gcweb/wet-boew/js/ie8-wet-boew.min.js"></script>
+	<![endif]-->
+	<!--[if lte IE 9]>
+
+	<![endif]-->
+<noscript><link rel="stylesheet" href="/wet-boew/themes-dist-12.6.0-gcweb/GCWeb/css/noscript.min.css" /></noscript>
+	<script>dataLayer1 = [];</script>
+
+	<link rel="stylesheet" href="/vt/custom/css/site-wide.css?v=2.0.2" />
+	<!-- Canada.ca Invitation Manager 1 of 2 start -->
+    <link rel="stylesheet" href="/vt/custom/css/Overlay.css" />
+    <!-- Canada.ca Invitation Manager 1 of 2 end -->
+	<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3543698-9']);
+    _gaq.push(['_gat._anonymizeIp']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+
+    _gaq.push(['_setAccount', 'UA-22842344-1']);
+    _gaq.push(['_gat._anonymizeIp']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+<!-- Google Tag Manager GAC -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TB8GZJ');</script>
+<!-- End Google Tag Manager GAC -->
+
+<!-- Global site tag (gtag.js) - Google Analytics - GAC Master (GA4) start -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MTE7792H4X"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-MTE7792H4X');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics - GAC Master (GA4) end -->
+
+<!-- Global site tag (gtag.js) - Google Analytics – GAC Travel (GA4) start -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BLSLH9RRC0"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-BLSLH9RRC0');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics – GAC Travel (GA4) end -->
+
+</head>
+
+<body vocab="http://schema.org/" typeof="WebPage">
+    <!-- Google Tag Manager GAC (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TB8GZJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager GAC (noscript) -->
+
+<ul id="wb-tphp">
+	<li class="wb-slc">
+		<a class="wb-sl" href="#wb-cont">Skip to main content</a>
+	</li>
+	<li class="wb-slc visible-sm visible-md visible-lg">
+		<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+	</li>
+</ul>
+
+<header>
+	<div id="wb-bnr" class="container">
+		<section id="wb-lng" class="text-right">
+			<h2 class="wb-inv">Language selection</h2>
+				<ul class="list-inline margin-bottom-none">
+    <li><a href="http://voyage.gc.ca/" lang="fr">Français</a>
+    </li>
+    </ul>
+</section>
+<div class="row">
+    <div class="brand col-xs-5 col-md-4">
+        <a href="https://www.canada.ca/en.html"><img src="/wet-boew/themes-dist-12.6.0-gcweb/GCWeb/assets/sig-blk-en.svg" alt="Government of Canada"><span class="wb-inv"> Government of Canada / <span lang="fr">Gouvernement du Canada</span></span></a>
+    </div>
+    <section id="wb-srch" class="col-lg-8 text-right">
+        <h2>Search Travel.gc.ca</h2>
+        <form action="https://www.canada.ca/en/services/travel/search.html?#wb-land" method="get" name="cse-search-box" role="search" class="form-inline">
+            <div class="form-group">
+            <label for="wb-srch-q" class="wb-inv">Search website</label>
+            <input name="cdn" value="canada" type="hidden"/>
+            <input name="langs" value="eng" type="hidden"/> 
+            <input id="wb-srch-q" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Travel.gc.ca"/> 
+            <input type="hidden" name="_charset_" value="UTF-8"/>
+            <datalist id="wb-srch-q-ac">
+            </datalist> 
+            </div>
+        <!--<form action="https://www.canada.ca/en/sr/srb/sra.html/rGs/s_r?#wb-land" method="get" name="cse-search-box" role="search" class="form-inline">
+            <div class="form-group">
+            <label for="wb-srch-q" class="wb-inv">Search website</label>
+            <input name="cdn" value="canada" type="hidden"/>
+            <input name="st" value="s" type="hidden"/>
+            <input name="num" value="10" type="hidden"/>
+            <input name="st1rt" value="1" type="hidden"/>
+            <input name="langs" value="eng" type="hidden"/> 
+            <input name="st1rt" value="0" type="hidden">
+            <input name="s5bm3ts21rch" value="x" type="hidden"/>
+            <input name="dmn" value="travel.gc.ca" type="hidden"/>
+            <input id="wb-srch-q" class="wb-srch-q form-control" name="allq" type="search" value="" size="34" maxlength="170" placeholder="Search Travel.gc.ca"/> 
+            <input type="hidden" name="_charset_" value="UTF-8"/>
+            <datalist id="wb-srch-q-ac">
+            </datalist> 
+            </div>-->
+            <!--<div class="form-group">
+                <label for="wb-srch-q" class="wb-inv">Search website</label>
+                <input name="cdn" value="canada" type="hidden" />
+                <input name="st" value="s" type="hidden" />
+                <input name="num" value="10" type="hidden" />
+                <input name="langs" value="eng" type="hidden" />
+                <input name="st1rt" value="0" type="hidden">
+                <input name="s5bm3ts21rch" value="x" type="hidden" />
+                <input id="wb-srch-q" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Canada.ca" />
+            </div> -->
+            <div class="form-group submit">
+                <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+            </div>
+        </form>
+    </section>
+</div>
+</div>
+<nav class="gcweb-menu" typeof="SiteNavigationElement">
+    <div class="container">
+        <h2 class="wb-inv">Menu</h2>
+        <button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+        <ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+            <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a></li>
+            <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+            <li role="presentation"><a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a></li>
+            <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a></li>
+            <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+            <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a></li>
+            <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+            <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+            <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+            <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+            <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+            <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+            <li role="presentation"><a role="menuitem" href="http://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+            <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+            <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Science and innovation</a></li>
+        </ul>
+    </div>
+</nav>
+    <nav role="navigation" id="wb-bc" class="" property="breadcrumb">
+        <h2>You are here:</h2>
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="https://canada.ca/en/index.html">Canada.ca</a>
+                </li>
+            </ol>
+        </div>
+    </nav>
+    </header>
+<!--<div class="container">
+<div class="row">
+  <section class="alert alert-info mrgn-bttm-0">
+	<p>Help us to improve our website. <a href="https://travel.gc.ca/survey" target="_blank">Take our survey</a>!</p>
+</section>
+</div>
+</div>
+<br /> -->
+<!-- GCWEB SEARCH CODE - START -- PLS. DO NOT REMOVE   -->
+<span typeof="Organization"><meta property="legalName" content="Department_of_Foreign_Affairs__Trade_and_Development"></span>
+<!-- GCWEB SEARCH CODE - END -->
+
+<!-- GAC Survey START -->
+<!--<section id="surveyInvite" class="hidden-print wb-overlay modal-content overlay-def wb-popup-mid survey">
+  
+<header class="modal-header">
+<h2 id="surveyInviteTitle" class="modal-title"></h2>
+</header>
+
+<div class="modal-body">
+
+	<div id="surveyInviteContent"></div>
+	<ul class="list-inline mrgn-bttm-0">
+		<li class="mrgn-tp-md">
+		<a id="surveyInviteYes" class="btn btn-primary" href="" target="_blank"></a></li>
+		<li class="mrgn-tp-md">
+			<a id="surveyInviteNo" class="btn btn-default overlay-close"></a>
+		</li>
+	</ul>
+</div>
+
+</section>-->
+<!-- GAC Survey END -->
+<main role="main" property="mainContentOfPage" class="container">
+<div class="row profile">
+<div class="col-md-5">
+<h1 property="name" id="wb-cont">Travel and tourism</h1>
+<p class="pagetag">Information on travelling to, from and within Canada.</p>
+<section class="followus mrgn-bttm-md">
+<h2>Follow:</h2>
+<ul>
+<li><a class="twitter" href="https://twitter.com/travelGoC" target="_blank" rel="external"><span class="wb-inv">Twitter</span></a></li>
+<li><a class="facebook" href="https://www.facebook.com/travelGoC" target="_blank" rel="external"><span class="wb-inv">Facebook</span></a></li>
+<li><a class="instagram" href="https://www.instagram.com/gacanada.amcanada" target="_blank" rel="external"><span class="wb-inv">Instagram</span></a></li>
+</ul>
+</section>
+</div>
+    <div class="col-md-7">
+        <h2 class="wb-inv">Promotions</h2>
+        <div class="wb-tabs carousel-s2 playing" data-speed="slow">
+            <ul role="tablist">
+                <li class="active"><a href="#tab1">Tab 1</a></li>
+            </ul>
+            <div role="tabpanel" id="tab1" class="in fade">
+                <a href="/travelling/health-safety/youth">
+                    <figure>
+                        <img src="/vt/images/2012/youth-jeunesse-index.jpg" alt="Travelling outside Canada? Start your journey with our handy travel tips for students and youth.">
+                        <figcaption>
+                            <p>Travelling outside Canada? Start your journey with our handy travel tips for students and youth.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </div>
+<div class="clearfix"></div>
+
+
+<!--<div class="alert alert-danger" style=" margin-top:20px; margin-bottom:0px !important">
+</div>
+<div class="clearfix"></div>-->
+
+<!--
+<div class="alert alert-info" style=" margin-top:20px; margin-bottom:0px !important"> <p>Please help improve our website. <a href="http://fluidsurveys.com/surveys/neo2/esdc-feb-2016/langeng/" class="alert-link">See if you qualify</a>.</p>
+</div> -->
+
+<div class="col-md-4 col-xs-12 pull-right">
+<section class="lnkbx">
+<h2>
+Most requested
+</h2>
+<ul>
+<li><a href="/assistance/emergency-assistance">Emergency assistance abroad</a></li>
+<li><a href="https://www.cic.gc.ca/english/visit/visas.asp">Find out if you need a visa to travel to Canada</a></li>
+<li><a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta.html">Apply for an eTA</a></li>
+<li><a href="https://www.cbsa-asfc.gc.ca/services/travel-voyage/prog/nexus/menu-eng.html">Apply for NEXUS</a></li>
+<li><a href="https://travel.gc.ca/travelling/registration">Register as a Canadian abroad</a></li>
+<li><a href="https://travel.gc.ca/travelling/documents/travel-insurance">Travel insurance</a></li>
+</ul>
+</section>
+</div>
+  
+<section class="gc-srvinfo col-md-8 pull-left">
+<h2>Services and information</h2>
+<h3><font size="+2">Planning your trip</font></h3>
+
+<div class="wb-eqht row">
+<div class="col-md-6">
+<h3><a href="/travelling/advisories">Travel Advice and Advisories</a></h3>
+<p>Official Government of Canada travel information and advice for destinations outside Canada.</p>
+
+
+<div class="input-group">
+    <label for="CountryDropDown1_ddlCountries" class="wb-inv">Where do you want to go?</label>
+    <select name="CountryDropDown1$ddlCountries" id="CountryDropDown1_ddlCountries" style="height:45px;" placeholder="Type in your destination" class="form-control" Title="Where do you want to go?">
+	<option value="">Select a destination</option>
+	<option value="afghanistan">Afghanistan</option>
+	<option value="albania">Albania</option>
+	<option value="algeria">Algeria</option>
+	<option value="american-samoa">American Samoa</option>
+	<option value="andorra">Andorra</option>
+	<option value="angola">Angola</option>
+	<option value="anguilla">Anguilla</option>
+	<option value="antarctica">Antarctica</option>
+	<option value="antigua-and-barbuda">Antigua and Barbuda</option>
+	<option value="argentina">Argentina</option>
+	<option value="armenia">Armenia</option>
+	<option value="aruba">Aruba</option>
+	<option value="australia">Australia</option>
+	<option value="austria">Austria</option>
+	<option value="azerbaijan">Azerbaijan</option>
+	<option value="azores">Azores</option>
+	<option value="bahamas">Bahamas</option>
+	<option value="bahrain">Bahrain</option>
+	<option value="bangladesh">Bangladesh</option>
+	<option value="barbados">Barbados</option>
+	<option value="belarus">Belarus</option>
+	<option value="belgium">Belgium</option>
+	<option value="belize">Belize</option>
+	<option value="benin">Benin</option>
+	<option value="bermuda">Bermuda</option>
+	<option value="bhutan">Bhutan</option>
+	<option value="bolivia">Bolivia</option>
+	<option value="bonaire">Bonaire</option>
+	<option value="bosnia-and-herzegovina">Bosnia and Herzegovina</option>
+	<option value="botswana">Botswana</option>
+	<option value="brazil">Brazil</option>
+	<option value="british-virgin-islands">British Virgin Islands</option>
+	<option value="brunei">Brunei</option>
+	<option value="bulgaria">Bulgaria</option>
+	<option value="burkina-faso">Burkina Faso</option>
+	<option value="burundi">Burundi</option>
+	<option value="cabo-verde">Cabo Verde</option>
+	<option value="cambodia">Cambodia</option>
+	<option value="cameroon">Cameroon</option>
+	<option value="canary-islands">Canary Islands</option>
+	<option value="cayman-islands">Cayman Islands</option>
+	<option value="central-african-republic">Central African Republic</option>
+	<option value="chad">Chad</option>
+	<option value="chile">Chile</option>
+	<option value="china">China</option>
+	<option value="colombia">Colombia</option>
+	<option value="comoros">Comoros</option>
+	<option value="cook-islands">Cook Islands</option>
+	<option value="costa-rica">Costa Rica</option>
+	<option value="cote-d-ivoire-ivory-coast">C&#244;te d&#39;Ivoire (Ivory Coast)</option>
+	<option value="croatia">Croatia</option>
+	<option value="cuba">Cuba</option>
+	<option value="curacao">Cura&#231;ao</option>
+	<option value="cyprus">Cyprus</option>
+	<option value="czechia">Czechia</option>
+	<option value="congo-kinshasa">Democratic Republic of Congo (Kinshasa)</option>
+	<option value="denmark">Denmark</option>
+	<option value="djibouti">Djibouti</option>
+	<option value="dominica">Dominica</option>
+	<option value="dominican-republic">Dominican Republic</option>
+	<option value="ecuador">Ecuador</option>
+	<option value="egypt">Egypt</option>
+	<option value="el-salvador">El Salvador</option>
+	<option value="equatorial-guinea">Equatorial Guinea</option>
+	<option value="eritrea">Eritrea</option>
+	<option value="estonia">Estonia</option>
+	<option value="eswatini">Eswatini</option>
+	<option value="ethiopia">Ethiopia</option>
+	<option value="falkland-islands">Falkland Islands</option>
+	<option value="fiji">Fiji</option>
+	<option value="finland">Finland</option>
+	<option value="france">France</option>
+	<option value="french-guiana">French Guiana</option>
+	<option value="french-polynesia">French Polynesia</option>
+	<option value="gabon">Gabon</option>
+	<option value="gambia-the">Gambia, The</option>
+	<option value="georgia">Georgia</option>
+	<option value="germany">Germany</option>
+	<option value="ghana">Ghana</option>
+	<option value="gibraltar">Gibraltar</option>
+	<option value="greece">Greece</option>
+	<option value="greenland">Greenland</option>
+	<option value="grenada">Grenada</option>
+	<option value="guadeloupe">Guadeloupe</option>
+	<option value="guam">Guam</option>
+	<option value="guatemala">Guatemala</option>
+	<option value="guinea">Guinea</option>
+	<option value="guinea-bissau">Guinea-Bissau</option>
+	<option value="guyana">Guyana</option>
+	<option value="haiti">Haiti</option>
+	<option value="honduras">Honduras</option>
+	<option value="hong-kong">Hong Kong</option>
+	<option value="hungary">Hungary</option>
+	<option value="iceland">Iceland</option>
+	<option value="india">India</option>
+	<option value="indonesia">Indonesia</option>
+	<option value="iran">Iran</option>
+	<option value="iraq">Iraq</option>
+	<option value="ireland">Ireland</option>
+	<option value="israel-the-west-bank-and-the-gaza-strip">Israel, the West Bank and the Gaza Strip</option>
+	<option value="italy">Italy</option>
+	<option value="jamaica">Jamaica</option>
+	<option value="japan">Japan</option>
+	<option value="jordan">Jordan</option>
+	<option value="kazakhstan">Kazakhstan</option>
+	<option value="kenya">Kenya</option>
+	<option value="kiribati">Kiribati</option>
+	<option value="kosovo">Kosovo</option>
+	<option value="kuwait">Kuwait</option>
+	<option value="kyrgyzstan">Kyrgyzstan</option>
+	<option value="laos">Laos</option>
+	<option value="latvia">Latvia</option>
+	<option value="lebanon">Lebanon</option>
+	<option value="lesotho">Lesotho</option>
+	<option value="liberia">Liberia</option>
+	<option value="libya">Libya</option>
+	<option value="liechtenstein">Liechtenstein</option>
+	<option value="lithuania">Lithuania</option>
+	<option value="luxembourg">Luxembourg</option>
+	<option value="macao">Macao</option>
+	<option value="madagascar">Madagascar</option>
+	<option value="malawi">Malawi</option>
+	<option value="malaysia">Malaysia</option>
+	<option value="maldives">Maldives</option>
+	<option value="mali">Mali</option>
+	<option value="malta">Malta</option>
+	<option value="marshall-islands">Marshall Islands</option>
+	<option value="martinique">Martinique</option>
+	<option value="mauritania">Mauritania</option>
+	<option value="mauritius">Mauritius</option>
+	<option value="mayotte">Mayotte</option>
+	<option value="mexico">Mexico</option>
+	<option value="micronesia-fsm">Micronesia (FSM)</option>
+	<option value="moldova">Moldova</option>
+	<option value="monaco">Monaco</option>
+	<option value="mongolia">Mongolia</option>
+	<option value="montenegro">Montenegro</option>
+	<option value="montserrat">Montserrat</option>
+	<option value="morocco">Morocco</option>
+	<option value="mozambique">Mozambique</option>
+	<option value="myanmar">Myanmar</option>
+	<option value="namibia">Namibia</option>
+	<option value="nauru">Nauru</option>
+	<option value="nepal">Nepal</option>
+	<option value="netherlands">Netherlands</option>
+	<option value="new-caledonia">New Caledonia</option>
+	<option value="new-zealand">New Zealand</option>
+	<option value="nicaragua">Nicaragua</option>
+	<option value="niger">Niger</option>
+	<option value="nigeria">Nigeria</option>
+	<option value="niue">Niue</option>
+	<option value="north-korea">North Korea</option>
+	<option value="north-macedonia">North Macedonia</option>
+	<option value="northern-marianas">Northern Marianas</option>
+	<option value="norway">Norway</option>
+	<option value="oman">Oman</option>
+	<option value="pakistan">Pakistan</option>
+	<option value="palau">Palau</option>
+	<option value="panama">Panama</option>
+	<option value="papua-new-guinea">Papua New Guinea</option>
+	<option value="paraguay">Paraguay</option>
+	<option value="peru">Peru</option>
+	<option value="philippines">Philippines</option>
+	<option value="poland">Poland</option>
+	<option value="portugal">Portugal</option>
+	<option value="puerto-rico">Puerto Rico</option>
+	<option value="qatar">Qatar</option>
+	<option value="congo-brazzaville">Republic of Congo (Brazzaville)</option>
+	<option value="reunion">R&#233;union</option>
+	<option value="romania">Romania</option>
+	<option value="russia">Russia</option>
+	<option value="rwanda">Rwanda</option>
+	<option value="saint-barthelemy">Saint-Barth&#233;lemy</option>
+	<option value="saint-kitts-and-nevis">Saint Kitts and Nevis</option>
+	<option value="saint-lucia">Saint Lucia</option>
+	<option value="saint-martin">Saint Martin</option>
+	<option value="saint-pierre-et-miquelon">Saint-Pierre-et-Miquelon</option>
+	<option value="saint-vincent-the-grenadines">Saint Vincent &amp; the Grenadines</option>
+	<option value="samoa">Samoa</option>
+	<option value="san-marino">San Marino</option>
+	<option value="sao-tome-and-principe">Sao Tome and Principe</option>
+	<option value="saudi-arabia">Saudi Arabia</option>
+	<option value="senegal">Senegal</option>
+	<option value="serbia">Serbia</option>
+	<option value="seychelles">Seychelles</option>
+	<option value="sierra-leone">Sierra Leone</option>
+	<option value="singapore">Singapore</option>
+	<option value="sint-maarten">Sint Maarten</option>
+	<option value="slovakia">Slovakia</option>
+	<option value="slovenia">Slovenia</option>
+	<option value="solomon-islands">Solomon Islands</option>
+	<option value="somalia">Somalia</option>
+	<option value="south-africa">South Africa</option>
+	<option value="south-korea">South Korea</option>
+	<option value="south-sudan">South Sudan</option>
+	<option value="spain">Spain</option>
+	<option value="sri-lanka">Sri Lanka</option>
+	<option value="sudan">Sudan</option>
+	<option value="suriname">Suriname</option>
+	<option value="sweden">Sweden</option>
+	<option value="switzerland">Switzerland</option>
+	<option value="syria">Syria</option>
+	<option value="taiwan">Taiwan</option>
+	<option value="tajikistan">Tajikistan</option>
+	<option value="tanzania">Tanzania</option>
+	<option value="thailand">Thailand</option>
+	<option value="timor-leste-east-timor">Timor-Leste (East Timor)</option>
+	<option value="togo">Togo</option>
+	<option value="tokelau">Tokelau</option>
+	<option value="tonga">Tonga</option>
+	<option value="trinidad-and-tobago">Trinidad and Tobago</option>
+	<option value="tunisia">Tunisia</option>
+	<option value="turkiye">T&#252;rkiye</option>
+	<option value="turkmenistan">Turkmenistan</option>
+	<option value="turks-and-caicos-islands">Turks and Caicos Islands</option>
+	<option value="tuvalu">Tuvalu</option>
+	<option value="uganda">Uganda</option>
+	<option value="ukraine">Ukraine</option>
+	<option value="united-arab-emirates">United Arab Emirates</option>
+	<option value="united-kingdom">United Kingdom</option>
+	<option value="united-states">United States</option>
+	<option value="uruguay">Uruguay</option>
+	<option value="uzbekistan">Uzbekistan</option>
+	<option value="vanuatu">Vanuatu</option>
+	<option value="venezuela">Venezuela</option>
+	<option value="vietnam">Vietnam</option>
+	<option value="virgin-islands-u-s">Virgin Islands (U.S.)</option>
+	<option value="yemen">Yemen</option>
+	<option value="zambia">Zambia</option>
+	<option value="zimbabwe">Zimbabwe</option>
+</select>
+    <span class="input-group-btn">
+        <button class="btn btn-default" id="btnGoToCountry" type="button">Go!</button>
+    </span>
+</div>
+
+</div>
+
+<div class="col-md-6">
+<h3><a href="/travelling">Travel outside Canada</a></h3>
+<p>Travel documents, travel health and safety, border wait times and more.</p>
+</div>
+<div class="col-md-6">
+<h3><a href="/air">Air travel</a></h3>
+<p>Prepare for a flight, airport security, health concerns and more.</p>
+</div>
+<div class="col-md-6">
+<h3><a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports.html">Canadian passports and travel documents</a></h3>
+<p>Apply for, renew or replace a lost passport.</p>
+</div>
+<div class="col-md-6">
+<h3><a href="/stay-connected">Stay connected</a></h3>
+<p>Keep in touch with Canada wherever you are through our smart travel tools.</p>
+</div>
+</div></section>
+
+<section class="gc-srvinfo col-md-8 pull-left">
+<h3><font size="+2">While you are outside Canada</font></h3>
+<div class="wb-eqht row">
+        <div class="col-md-6">
+<h3><a href="/assistance">Assistance outside Canada</a></h3>
+<p>How to get help if there is an emergency when you are travelling outside Canada.</p>
+</div>
+</div>
+</section>
+
+<section class="gc-srvinfo col-md-8 pull-left">
+<h3><font size="+2">Coming to Canada</font></h3>
+
+<div class="wb-eqht row">
+
+<div class="col-md-6">
+<h3><a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html?outside">Visit Canada</a></h3>
+<p>Find out if you need a visa to visit or transit through Canada. How to extend your stay as a visitor.</p>
+</div>
+<div class="col-md-6">
+<h3><a href="/travel-covid">COVID-19: Travel, testing and borders</a></h3>
+<p>COVID-19 requirements for travelling to and within Canada.</p>
+</div>
+<div class="col-md-6">
+<h3><a href="/returning">Return or travel to Canada</a></h3>
+<p>Information on travelling to Canada, border wait times, customs and immigration.</p>
+</div>
+
+<div class="col-md-6">
+<h3><a href="/canadian-tourism">Canadian attractions, events and experiences</a></h3>
+<p>Discover Canada's museums, national parks and historic sites, and enjoy unforgettable experiences. </p>
+</div>
+</div>
+</section>
+
+
+<div class="clearfix"></div>
+<section class="gc-srvinfo col-md-12 pull-left">
+
+<h2>Features</h2>
+<section class="gc-prtts">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 mrgn-bttm-md">
+            <a data-gc-analytics="promo:promotionalfeature" href="/travelling/documents/travel-insurance">
+                <figure>
+                    <figcaption>Travel insurance</figcaption>
+                    <img src="/vt/images/promo/travel-insurance-bag.jpg" alt="" class="img-responsive thumbnail mrgn-bttm-sm">
+                    <p>Important information on travel insurance and why you shouldn’t leave the country without it.</p>
+                </figure>
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mrgn-bttm-md">
+            <a data-gc-analytics="promo:promotionalfeature" href="/returning/customs/bringing-to-canada">
+                <figure>
+                    <figcaption>What you can bring back to Canada</figcaption>
+                    <img src="/vt/images/promo/whatyoucanbringonaplane-luggage.jpg" alt="" class="img-responsive thumbnail mrgn-bttm-sm">
+                    <p>General guidelines on what you can and cannot bring into Canada when you return from abroad.</p>
+                </figure>
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mrgn-bttm-md">
+            <a data-gc-analytics="promo:promotionalfeature" href="/assistance/embassies-consulates">
+                <figure>
+                    <figcaption>Contact a Canadian embassy or consulate</figcaption>
+                    <img src="/vt/images/topic/assistance-canada-flags.jpg" alt="" class="img-responsive thumbnail mrgn-bttm-sm">
+                    <p>For Canadians outside Canada who need consular assistance.</p>
+                </figure>
+            </a>
+        </div>
+    </div>
+</section>
+</section>
+<div class="pagedetails">
+    <dl id="wb-dtmd">
+        <dt>
+            Date modified:
+        </dt>
+        <dd>
+            <time property="dateModified">
+                2023-11-27
+            </time>
+        </dd>
+    </dl>
+</div>
+</main>
+    <footer id="wb-info">
+
+	<h2 class="wb-inv">About this site</h2>
+
+	<div class="gc-contextual">
+		<div class="container">
+			<nav>
+				<h3>Travel and tourism</h3>
+				<ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+					<li>
+						<a href="https://travel.gc.ca/contact">Contact us</a>
+					</li>
+			</nav>
+		</div>
+	</div>
+
+	<div class="gc-main-footer">
+		<div class="container">
+			<nav>
+				<h3>Government of Canada</h3>
+				<ul class="list-col-xs-1 list-col-sm-2 list-col-md-3"><li><a href="https://www.canada.ca/en/contact.html">All contacts</a></li>
+					<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+					<li><a href="https://www.canada.ca/en/government/system.html">About government</a></li></ul>
+				<h4><span class="wb-inv">Themes and topics</span></h4>
+				<ul class="list-unstyled colcount-sm-2 colcount-md-3"><li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
+					<li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+					<li><a href="https://travel.gc.ca/">Travel and tourism</a></li>
+					<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
+					<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+					<li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
+					<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+					<li><a href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+					<li><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+					<li><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+					<li><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+					<li><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+					<li><a href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+					<li><a href="https://www.canada.ca/en/services/finance.html">Money and finance</a></li>
+					<li><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+					<li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous peoples</a></li>
+					<li><a href="https://www.canada.ca/en/services/veterans.html">Veterans and military</a></li>
+					<li><a href="https://www.canada.ca/en/services/youth.html">Youth</a></li></ul>
+			</nav>
+		</div>
+	</div>
+ 
+
+	<div class="gc-sub-footer">
+		<div class="container d-flex align-items-center">
+			<nav>
+				<h3 class="wb-inv">Government of Canada Corporate</h3>
+				<ul>
+					<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+					<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+					<li><a href="https://www.canada.ca/en/government/about.html">About Canada.ca</a></li><li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
+					<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li></ul>
+			</nav>
+			<div class="wtrmrk align-self-end">
+				<img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada" />
+			</div>
+		</div>
+	</div>
+</footer><!-- Adobe Analytics RUN PROD 2of2 start -->
+<script type="text/javascript">_satellite.pageBottom();</script>
+<!-- Adobe Analytics RUN PROD 2of2 end -->
+
+<!--[if gte IE 9 | !IE ]><!-->
+<script src="/wet-boew/themes-dist-12.6.0-gcweb/wet-boew/js/jquery/2.2.4/jquery.min.js"></script>
+
+<script src="/wet-boew/themes-dist-12.6.0-gcweb/wet-boew/js/wet-boew.min.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script arc="/wet-boew/themes-dist-12.6.0-gcweb/GCWeb/js/ie8-wet-boew2.min.js"></script>
+<![endif]-->
+<script src="/wet-boew/themes-dist-12.6.0-gcweb/GCWeb/js/theme.min.js"></script>
+
+<script>
+function randomlink(elem){
+var randomlinks=new Array()
+randomlinks[0]="http://www.loop11.com/usability-test/27493/introduction/"
+randomlinks[1]="https://uo2bu602.optimalworkshop.com/optimalsort/atvu7sd2-0"
+elem.href = randomlinks[Math.floor(Math.random()*randomlinks.length)];
+return false;
+}
+
+function randomlink2(elem){
+var randomlinks2=new Array()
+randomlinks2[0]="http://www.loop11.com/usability-test/27902/introduction/"
+randomlinks2[1]="https://uo2bu602.optimalworkshop.com/optimalsort/x0rfm3a1"
+elem.href = randomlinks2[Math.floor(Math.random()*randomlinks2.length)];
+return false;
+}
+</script>
+<!-- Canada.ca Invitation Manager 2 of 2 start -->
+<script src="/vt/custom/js/Overlay.js"></script>
+<script src="/vt/custom/js/InvitationManager.js"></script>
+<!-- Canada.ca Invitation Manager 2 of 2 end -->
+
+<!--<script>
+
+var randomlinks=new Array()
+
+randomlinks[0]="http://www.loop11.com/usability-test/27493/introduction/"
+randomlinks[1]="https://uo2bu602.optimalworkshop.com/optimalsort/atvu7sd2-0"
+
+function randomlink(){
+window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+}
+</script>
+
+<script>
+
+var randomlinks2=new Array()
+
+randomlinks2[0]="http://www.loop11.com/usability-test/27902/introduction/"
+randomlinks2[1]="https://uo2bu602.optimalworkshop.com/optimalsort/x0rfm3a1"
+
+function randomlink2(){
+window.location=randomlinks2[Math.floor(Math.random()*randomlinks2.length)]
+}
+</script> -->
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $(document).on('click', '#btnGoToCountry', function() {
+            mySelection = $(this).parent().siblings("#CountryDropDown1_ddlCountries").find(":selected").val();
+            window.location.href = "/destinations/" + mySelection;
+            return false;
+        });
+    });
+    </script>
+</body>
+</html>

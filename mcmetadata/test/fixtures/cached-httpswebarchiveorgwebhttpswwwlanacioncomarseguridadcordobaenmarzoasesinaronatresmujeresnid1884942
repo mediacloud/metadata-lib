@@ -1,14 +1,14 @@
-<!DOCTYPE html><html lang="es"><head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app225.us.archive.org';v.server_ms=322;archive_analytics.send_pageview({});});</script>
-<script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
-<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+<!DOCTYPE html><html lang="es"><head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
-  __wm.wombat("https://www.lanacion.com.ar/seguridad/cordoba-en-marzo-asesinaron-a-tres-mujeres-nid1884942/","20220724231339","https://web.archive.org/","web","/_static/",
+  __wm.wombat("https://www.lanacion.com.ar/seguridad/cordoba-en-marzo-asesinaron-a-tres-mujeres-nid1884942/","20220724231339","https://web.archive.org/","web","https://web-static.archive.org/_static/",
 	      "1658704419");
 </script>
-<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=fantwOh2" />
-<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ" />
 <!-- End Wayback Rewrite JS Include -->
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0.5,maximum-scale=5.0,user-scalable=yes"/><meta name="theme-color" content="#ffffff"/><title>En marzo hubo tres feminicidios en Córdoba - LA NACION</title><link rel="preload" as="font" type="font/woff2" href="/web/20220724231339/https://www.lanacion.com.ar/pf/resources/fonts/suecaslab-bold-webfont.woff2?d=945" crossorigin=""/><link rel="preload" as="font" type="font/woff2" href="/web/20220724231339/https://www.lanacion.com.ar/pf/resources/fonts/suecaslab-medium-webfont.woff2?d=945" crossorigin=""/><script defer="">
         const loadFont = ({family, url, config}) => {
@@ -257,7 +257,7 @@
       });</script><script defer="" type="text/javascript">((w,l)=>{w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});})(window,'dataLayer');</script><script async="" src="https://web.archive.org/web/20220724231339js_/https://www.googletagmanager.com/gtm.js?id=GTM-GHV6"></script><script defer="" type="text/javascript">var _comscore = _comscore || [];_comscore.push({"c1":"2","c2":"6906398"});(function() {
                 var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
                 s.src = (document.location.protocol == "https:" ? "https://web.archive.org/web/20220724231339/https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";el.parentNode.insertBefore(s, el);
-            })();</script><noscript><img src="https://web.archive.org/web/20220724231339im_/https://sb.scorecardresearch.com/p?c1=2&amp;c2=6906398&amp;cv=2.0&amp;cj=1"/></noscript><script async="" src="https://web.archive.org/web/20220724231339js_/https://ads.rubiconproject.com/prebid/20148_LaNacion_Desktop.js"></script><script async="" src="/web/20220724231339js_/https://www.lanacion.com.ar/seguridad/cordoba-en-marzo-asesinaron-a-tres-mujeres-nid1884942/ https:/securepubads.g.doubleclick.net/tag/js/gpt.js?network-code=133919216"></script><script defer="" id="googlePublisherTag-metadata" type="text/javascript">
+            })();</script><noscript><img src="https://web.archive.org/web/20220724231339im_/https://sb.scorecardresearch.com/p?c1=2&amp;c2=6906398&amp;cv=2.0&amp;cj=1"/></noscript><script async="" src="https://web.archive.org/web/20220724231339js_/https://ads.rubiconproject.com/prebid/20148_LaNacion_Desktop.js"></script><script async="" src="https://web.archive.org/web/20220724231339js_/https://securepubads.g.doubleclick.net/tag/js/gpt.js?network-code=133919216"></script><script defer="" id="googlePublisherTag-metadata" type="text/javascript">
             var pbjs = pbjs || {};
             pbjs.que = pbjs.que || [];
             
@@ -438,7 +438,7 @@
           })
     });</script></body></html><!--
      FILE ARCHIVED ON 23:13:39 Jul 24, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:23:50 Sep 29, 2022.
+     INTERNET ARCHIVE ON 03:01:51 Dec 13, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -446,14 +446,13 @@
 -->
 <!--
 playback timings (ms):
-  captures_list: 171.386
-  exclusion.robots: 0.087
-  exclusion.robots.policy: 0.078
-  RedisCDXSource: 0.692
+  captures_list: 992.915
+  exclusion.robots: 0.124
+  exclusion.robots.policy: 0.114
+  cdx.remote: 0.054
   esindex: 0.008
-  LoadShardBlock: 145.421 (3)
-  PetaboxLoader3.datanode: 174.705 (4)
-  CDXLines.iter: 22.019 (3)
-  load_resource: 140.836
-  PetaboxLoader3.resolve: 82.221
+  LoadShardBlock: 947.851 (3)
+  PetaboxLoader3.datanode: 60.544 (4)
+  PetaboxLoader3.resolve: 141.736 (2)
+  load_resource: 189.412
 -->

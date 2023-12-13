@@ -1,16 +1,16 @@
 <!doctype html>
 <html>
-<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app222.us.archive.org';v.server_ms=387;archive_analytics.send_pageview({});});</script>
-<script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
-<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
-  __wm.wombat("https://www.example.com/","20220928234301","https://web.archive.org/","web","/_static/",
-	      "1664408581");
+  __wm.wombat("http://example.com/","20231213021301","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1702433581");
 </script>
-<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=fantwOh2" />
-<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ" />
 <!-- End Wayback Rewrite JS Include -->
 
     <title>Example Domain</title>
@@ -52,13 +52,13 @@
     <h1>Example Domain</h1>
     <p>This domain is for use in illustrative examples in documents. You may use this
     domain in literature without prior coordination or asking for permission.</p>
-    <p><a href="https://web.archive.org/web/20220928234301/https://www.iana.org/domains/example">More information...</a></p>
+    <p><a href="https://web.archive.org/web/20231213021301/https://www.iana.org/domains/example">More information...</a></p>
 </div>
 </body>
 </html>
 <!--
-     FILE ARCHIVED ON 23:43:01 Sep 28, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:21:14 Sep 29, 2022.
+     FILE ARCHIVED ON 02:13:01 Dec 13, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:08:42 Dec 13, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -66,13 +66,12 @@
 -->
 <!--
 playback timings (ms):
-  exclusion.robots: 0.077
-  exclusion.robots.policy: 0.067
-  RedisCDXSource: 0.98
-  esindex: 0.007
-  LoadShardBlock: 268.487 (6)
-  PetaboxLoader3.datanode: 183.894 (7)
-  CDXLines.iter: 10.811 (3)
-  load_resource: 87.262
-  PetaboxLoader3.resolve: 31.674
+  exclusion.robots: 0.116
+  exclusion.robots.policy: 0.105
+  cdx.remote: 0.101
+  esindex: 0.009
+  LoadShardBlock: 337.405 (6)
+  PetaboxLoader3.datanode: 197.845 (8)
+  PetaboxLoader3.resolve: 270.286 (3)
+  load_resource: 182.79 (2)
 -->
