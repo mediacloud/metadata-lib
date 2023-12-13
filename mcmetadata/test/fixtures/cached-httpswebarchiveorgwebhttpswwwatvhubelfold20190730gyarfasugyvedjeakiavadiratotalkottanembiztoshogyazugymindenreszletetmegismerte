@@ -1,16 +1,16 @@
 <!doctype html>
 <html data-n-head-ssr>
-  <head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app202.us.archive.org';v.server_ms=355;archive_analytics.send_pageview({});});</script>
-<script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
-<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+  <head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
-  __wm.wombat("https://www.atv.hu/belfold/20190730/gyarfas-ugyvedje-aki-a-vadiratot-alkotta-nem-biztos-hogy-az-ugy-minden-reszletet-megismerte","20220725010824","https://web.archive.org/","web","/_static/",
+  __wm.wombat("https://www.atv.hu/belfold/20190730/gyarfas-ugyvedje-aki-a-vadiratot-alkotta-nem-biztos-hogy-az-ugy-minden-reszletet-megismerte","20220725010824","https://web.archive.org/","web","https://web-static.archive.org/_static/",
 	      "1658711304");
 </script>
-<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=fantwOh2" />
-<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ" />
 <!-- End Wayback Rewrite JS Include -->
 
     <title>ATV</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width, initial-scale=1"><meta data-n-head="ssr" data-hid="description" name="description" content="Az ATV az első magántelevízió hazánkban. A minőségi, színvonalas,
@@ -82,7 +82,7 @@
 </html>
 <!--
      FILE ARCHIVED ON 01:08:24 Jul 25, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:21:16 Sep 29, 2022.
+     INTERNET ARCHIVE ON 03:11:31 Dec 13, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -90,14 +90,13 @@
 -->
 <!--
 playback timings (ms):
-  captures_list: 223.51
-  exclusion.robots: 0.139
-  exclusion.robots.policy: 0.131
-  cdx.remote: 0.062
-  esindex: 0.009
-  LoadShardBlock: 157.489 (3)
-  PetaboxLoader3.datanode: 125.522 (4)
-  CDXLines.iter: 21.678 (3)
-  load_resource: 127.076
-  PetaboxLoader3.resolve: 53.435
+  captures_list: 95.131
+  exclusion.robots: 0.284
+  exclusion.robots.policy: 0.263
+  cdx.remote: 0.12
+  esindex: 0.018
+  LoadShardBlock: 48.118 (3)
+  PetaboxLoader3.datanode: 74.931 (4)
+  load_resource: 91.261
+  PetaboxLoader3.resolve: 36.082
 -->

@@ -2,17 +2,17 @@
 <!--[if IE 8]>    <html class="ie8" lang="en"> <![endif]-->
 <!--[if IE 9]>    <html class="ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="sq"> <!--<![endif]-->
-<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app227.us.archive.org';v.server_ms=423;archive_analytics.send_pageview({});});</script>
-<script type="text/javascript" src="/_static/js/bundle-playback.js?v=KTqwAcYd" charset="utf-8"></script>
-<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
-  __wm.wombat("http://telegraf.al/bota-rajoni/mancester-sulm-i-tmerrshem-plagosen-pese-persona/","20220721144042","https://web.archive.org/","web","/_static/",
+  __wm.wombat("http://telegraf.al/bota-rajoni/mancester-sulm-i-tmerrshem-plagosen-pese-persona/","20220721144042","https://web.archive.org/","web","https://web-static.archive.org/_static/",
 	      "1658414442");
 </script>
-<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=fantwOh2" />
-<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ" />
 <!-- End Wayback Rewrite JS Include -->
 
     <title>Mancester, sulm i tmerrshëm, plagosen pesë persona | Gazeta Telegraf</title>
@@ -1370,7 +1370,7 @@ Page Caching using disk: enhanced
 Served from: telegraf.al @ 2022-07-21 15:19:47 by W3 Total Cache
 --><!--
      FILE ARCHIVED ON 14:40:42 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:22:27 Sep 29, 2022.
+     INTERNET ARCHIVE ON 03:09:44 Dec 13, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -1378,14 +1378,13 @@ Served from: telegraf.al @ 2022-07-21 15:19:47 by W3 Total Cache
 -->
 <!--
 playback timings (ms):
-  captures_list: 187.688
-  exclusion.robots: 0.083
-  exclusion.robots.policy: 0.076
-  RedisCDXSource: 6.1
-  esindex: 0.008
-  LoadShardBlock: 158.436 (3)
-  PetaboxLoader3.datanode: 215.321 (4)
-  CDXLines.iter: 20.099 (3)
-  load_resource: 224.952
-  PetaboxLoader3.resolve: 157.0
+  captures_list: 115.585
+  exclusion.robots: 0.12
+  exclusion.robots.policy: 0.112
+  cdx.remote: 0.068
+  esindex: 0.009
+  LoadShardBlock: 63.728 (3)
+  PetaboxLoader3.datanode: 71.233 (4)
+  load_resource: 91.269
+  PetaboxLoader3.resolve: 27.731
 -->

@@ -146,16 +146,14 @@ window.addEventListener( "DOMContentLoaded", function( e ) {
 		+ "?wpcom_remote_login=key"
 		+ "&origin=aHR0cHM6Ly9kYXRhdGhlcmFweS5vcmc%3D"
 		+ "&wpcomid=27405506"
-		+ "&time=1664425312";
+		+ "&time=1702436950";
 	document.body.appendChild( iframe );
 }, false );
 </script>
+<link rel='dns-prefetch' href='//s0.wp.com' />
 <link rel='dns-prefetch' href='//s2.wp.com' />
 <link rel='dns-prefetch' href='//s1.wp.com' />
-<link rel='dns-prefetch' href='//datatherapy.wordpress.com' />
-<link rel='dns-prefetch' href='//s0.wp.com' />
-<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel='dns-prefetch' href='//fonts-api.wp.com' />
 <link rel="alternate" type="application/rss+xml" title="Data Therapy &raquo; Feed" href="https://datatherapy.org/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Data Therapy &raquo; Comments Feed" href="https://datatherapy.org/comments/feed/" />
 	<script type="text/javascript">
@@ -174,25 +172,28 @@ window.addEventListener( "DOMContentLoaded", function( e ) {
 		/* ]]> */
 	</script>
 	<script type="text/javascript">
-window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s0.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1652185836h&ver=6.0.2"}};
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s0.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1677072837i&ver=6.5-alpha-57144"}};
 /*! This file is auto-generated */
-!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
 </script>
-<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 0.07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-1' href='https://s2.wp.com/_static/??-eJzTLy/QTc7PK0nNK9HPLdUtyClNz8wr1s9KLSlITM6G8vVz8/NBREppTmqxflFqTmJJaopuQX5xCRpPL7m4WEcfu5E5mdmpCIPBPJBy+1xbQ3MDQzNLE1MTiywAYII03Q==&cssminify=yes' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
 </style>
-	<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-1' href='https://s1.wp.com/_static/??-eJyNkt1SxCAMhV9IilWnXjk+Cz8ZNruBMgS28vayzOrUrlu9YTgkX3IIyCUKM4cMIUtfRKTiMLBcopm9YI8EdaMGw/wgf8cSkMpgRZw5b9QeRngClkfIUZmT6Oom/SvXlSY1JNciCeR5fBnGYZS6IFmpae4FdFKpSs6V4LsQBkPFXvqw9GBRAYHvRlYikqqQBIFTpg4ew994i631D+i++e50dWdV55KFS2g3tv9dIqmMwfEdfDXty9zauY/q1vwOtqB10F61pVz3IsPHPtL/jdYxAbNoq8fiRT60Xv2B3/3bOE3P0/j6ND0ePwGNsvWV?cssminify=yes' type='text/css' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-2-1' href='https://s1.wp.com/wp-content/plugins/gutenberg-core/v17.2.1/build/block-library/style.css?m=1702422485i&cssminify=yes' type='text/css' media='all' />
 <style id='wp-block-library-inline-css'>
 .has-text-align-justify {
 	text-align:justify;
@@ -201,15 +202,22 @@ img.emoji {
 	background-size: cover;
 }
 </style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-4-1' href='https://s1.wp.com/_static/??-eJyVjcEKwjAQRH/IdFstggfxW9LNsqTdpCGbIPl740l7ETw+Zt4MPJPxEaU6UlgVAjlvSShQLAdIYhtlI8QW2xB8HFD1BL/0nn3zQcI9lncnSWUfFbh2XCizWWTHrY9RSRY302/3Wgxn70BLE/p/ItviI+tHf4T7dJ0v53G8TfP6AjdwYUY=&cssminify=yes' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-6-1' href='https://s2.wp.com/_static/??-eJx9jcEKg0AMRH+oaVhorR7Eb9E16IpZg8min2889FZ6GYbhPQYPgbhlo2zIBWQtU8qKcdvJd5be0AmmMfW0Ejv2jKoP/K0daZzIXNdvB6PzvyJ+A8MgO6mCJ6fCYLN/6e113IZXU9WfUL/DcgHSTkDo&cssminify=yes' type='text/css' media='all' />
 <style id='global-styles-inline-css'>
-body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--blue: #3e69dc;--wp--preset--color--dark-gray: #2c313f;--wp--preset--color--medium-gray: #73757D;--wp--preset--color--light-gray: #f3f3f3;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;}body .is-layout-flow > .alignright{float: right;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;}body .is-layout-constrained > .alignright{float: right;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--blue: #3e69dc;--wp--preset--color--dark-gray: #2c313f;--wp--preset--color--medium-gray: #73757D;--wp--preset--color--light-gray: #f3f3f3;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--albert-sans: 'Albert Sans', sans-serif;--wp--preset--font-family--alegreya: Alegreya, serif;--wp--preset--font-family--arvo: Arvo, serif;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;--wp--preset--font-family--cabin: Cabin, sans-serif;--wp--preset--font-family--chivo: Chivo, sans-serif;--wp--preset--font-family--commissioner: Commissioner, sans-serif;--wp--preset--font-family--cormorant: Cormorant, serif;--wp--preset--font-family--courier-prime: 'Courier Prime', monospace;--wp--preset--font-family--crimson-pro: 'Crimson Pro', serif;--wp--preset--font-family--dm-mono: 'DM Mono', monospace;--wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;--wp--preset--font-family--domine: Domine, serif;--wp--preset--font-family--eb-garamond: 'EB Garamond', serif;--wp--preset--font-family--epilogue: Epilogue, sans-serif;--wp--preset--font-family--figtree: Figtree, sans-serif;--wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;--wp--preset--font-family--fraunces: Fraunces, serif;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans', sans-serif;--wp--preset--font-family--inter: Inter, sans-serif;--wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;--wp--preset--font-family--jost: Jost, sans-serif;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;--wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;--wp--preset--font-family--literata: Literata, serif;--wp--preset--font-family--lora: Lora, serif;--wp--preset--font-family--merriweather: Merriweather, serif;--wp--preset--font-family--montserrat: Montserrat, sans-serif;--wp--preset--font-family--newsreader: Newsreader, serif;--wp--preset--font-family--nunito: Nunito, sans-serif;--wp--preset--font-family--open-sans: 'Open Sans', sans-serif;--wp--preset--font-family--overpass: Overpass, sans-serif;--wp--preset--font-family--petrona: Petrona, serif;--wp--preset--font-family--piazzolla: Piazzolla, serif;--wp--preset--font-family--playfair-display: 'Playfair Display', serif;--wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;--wp--preset--font-family--poppins: Poppins, sans-serif;--wp--preset--font-family--raleway: Raleway, sans-serif;--wp--preset--font-family--roboto: Roboto, sans-serif;--wp--preset--font-family--roboto-slab: 'Roboto Slab', serif;--wp--preset--font-family--rubik: Rubik, sans-serif;--wp--preset--font-family--sora: Sora, sans-serif;--wp--preset--font-family--source-sans-3: 'Source Sans 3', sans-serif;--wp--preset--font-family--source-serif-4: 'Source Serif 4', serif;--wp--preset--font-family--space-mono: 'Space Mono', monospace;--wp--preset--font-family--texturina: Texturina, serif;--wp--preset--font-family--work-sans: 'Work Sans', sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-albert-sans-font-family{font-family: var(--wp--preset--font-family--albert-sans) !important;}.has-alegreya-font-family{font-family: var(--wp--preset--font-family--alegreya) !important;}.has-arvo-font-family{font-family: var(--wp--preset--font-family--arvo) !important;}.has-bodoni-moda-font-family{font-family: var(--wp--preset--font-family--bodoni-moda) !important;}.has-cabin-font-family{font-family: var(--wp--preset--font-family--cabin) !important;}.has-chivo-font-family{font-family: var(--wp--preset--font-family--chivo) !important;}.has-commissioner-font-family{font-family: var(--wp--preset--font-family--commissioner) !important;}.has-cormorant-font-family{font-family: var(--wp--preset--font-family--cormorant) !important;}.has-courier-prime-font-family{font-family: var(--wp--preset--font-family--courier-prime) !important;}.has-crimson-pro-font-family{font-family: var(--wp--preset--font-family--crimson-pro) !important;}.has-dm-mono-font-family{font-family: var(--wp--preset--font-family--dm-mono) !important;}.has-dm-sans-font-family{font-family: var(--wp--preset--font-family--dm-sans) !important;}.has-domine-font-family{font-family: var(--wp--preset--font-family--domine) !important;}.has-eb-garamond-font-family{font-family: var(--wp--preset--font-family--eb-garamond) !important;}.has-epilogue-font-family{font-family: var(--wp--preset--font-family--epilogue) !important;}.has-figtree-font-family{font-family: var(--wp--preset--font-family--figtree) !important;}.has-fira-sans-font-family{font-family: var(--wp--preset--font-family--fira-sans) !important;}.has-fraunces-font-family{font-family: var(--wp--preset--font-family--fraunces) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-ibm-plex-sans-font-family{font-family: var(--wp--preset--font-family--ibm-plex-sans) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-josefin-sans-font-family{font-family: var(--wp--preset--font-family--josefin-sans) !important;}.has-jost-font-family{font-family: var(--wp--preset--font-family--jost) !important;}.has-libre-baskerville-font-family{font-family: var(--wp--preset--font-family--libre-baskerville) !important;}.has-libre-franklin-font-family{font-family: var(--wp--preset--font-family--libre-franklin) !important;}.has-literata-font-family{font-family: var(--wp--preset--font-family--literata) !important;}.has-lora-font-family{font-family: var(--wp--preset--font-family--lora) !important;}.has-merriweather-font-family{font-family: var(--wp--preset--font-family--merriweather) !important;}.has-montserrat-font-family{font-family: var(--wp--preset--font-family--montserrat) !important;}.has-newsreader-font-family{font-family: var(--wp--preset--font-family--newsreader) !important;}.has-nunito-font-family{font-family: var(--wp--preset--font-family--nunito) !important;}.has-open-sans-font-family{font-family: var(--wp--preset--font-family--open-sans) !important;}.has-overpass-font-family{font-family: var(--wp--preset--font-family--overpass) !important;}.has-petrona-font-family{font-family: var(--wp--preset--font-family--petrona) !important;}.has-piazzolla-font-family{font-family: var(--wp--preset--font-family--piazzolla) !important;}.has-playfair-display-font-family{font-family: var(--wp--preset--font-family--playfair-display) !important;}.has-plus-jakarta-sans-font-family{font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;}.has-poppins-font-family{font-family: var(--wp--preset--font-family--poppins) !important;}.has-raleway-font-family{font-family: var(--wp--preset--font-family--raleway) !important;}.has-roboto-font-family{font-family: var(--wp--preset--font-family--roboto) !important;}.has-roboto-slab-font-family{font-family: var(--wp--preset--font-family--roboto-slab) !important;}.has-rubik-font-family{font-family: var(--wp--preset--font-family--rubik) !important;}.has-sora-font-family{font-family: var(--wp--preset--font-family--sora) !important;}.has-source-sans-3-font-family{font-family: var(--wp--preset--font-family--source-sans-3) !important;}.has-source-serif-4-font-family{font-family: var(--wp--preset--font-family--source-serif-4) !important;}.has-space-mono-font-family{font-family: var(--wp--preset--font-family--space-mono) !important;}.has-texturina-font-family{font-family: var(--wp--preset--font-family--texturina) !important;}.has-work-sans-font-family{font-family: var(--wp--preset--font-family--work-sans) !important;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
 </style>
-<link crossorigin='anonymous' rel='stylesheet' id='all-css-2-1' href='https://s2.wp.com/wp-content/mu-plugins/jetpack-plugin/production/_inc/genericons/genericons/genericons.css?m=1656348725h&cssminify=yes' type='text/css' media='all' />
-<link rel='stylesheet' id='shoreditch-fonts-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C700%7CLato%3A400%2C700%2C400italic%2C700italic%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' media='all' />
-<link crossorigin='anonymous' rel='stylesheet' id='all-css-4-1' href='https://s1.wp.com/_static/??-eJyNjsEOAiEMRH9IrK6Gm/FbdrsVUKCElmz8e1EPxpiot5lk3szAUgxyVsoK6imRQGkTiOdKc1D0IHqNtEaRFfzM9hRMkfEifwIh43PALAU5fVCpmRKbC1nAEZtePWrg/GbMKY6hfkMr9VOuS/d4+LJ36JgOW2s3w84Oe3u+AQ12ZXg=?cssminify=yes' type='text/css' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-8-1' href='https://s0.wp.com/wp-content/mu-plugins/jetpack-plugin/moon/_inc/genericons/genericons/genericons.css?m=1685129444i&cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='shoreditch-fonts-css' href='https://fonts-api.wp.com/css?family=Poppins%3A400%2C700%7CLato%3A400%2C700%2C400italic%2C700italic%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-10-1' href='https://s1.wp.com/_static/??-eJyNjsEKwjAQRH/IuEhtoQfxW9rtmkSTbMhuKP69UQ8ignqbgXkzA2s2yEkpKaijSAK5ziCOCy1e0YHoNdAWRTbwM9tSMAfGi/wJ+ITPAbNm5PhBxWpyqNYnAUtsWvWkntObMacw+fINLdRO2Sbt4+HL3qFjPOyGsR/3/dB15xsN8mWH&cssminify=yes' type='text/css' media='all' />
 <style id='shoreditch-style-inline-css'>
 
 			.post-navigation .nav-previous { background-image: url(https://datatherapy.files.wordpress.com/2019/01/img_2722.jpg?w=2000&#038;h=1500&#038;crop=1); text-shadow: 0 0 0.15em rgba(0, 0, 0, 0.5); }
@@ -222,25 +230,37 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 			.post-navigation .nav-previous a:hover { background-color: rgba(0, 0, 0, 0.4); }
 		
 </style>
-<link crossorigin='anonymous' rel='stylesheet' id='print-css-5-1' href='https://s2.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h&cssminify=yes' type='text/css' media='print' />
+<link crossorigin='anonymous' rel='stylesheet' id='print-css-11-1' href='https://s1.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035i&cssminify=yes' type='text/css' media='print' />
 <style id='jetpack-global-styles-frontend-style-inline-css'>
 :root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
 </style>
-<link crossorigin='anonymous' rel='stylesheet' id='all-css-8-1' href='https://s0.wp.com/_static/??-eJxtjEEKAjEMRS9kDerM6EY8itRY24yZpDQpXl8EXYiuHg/e//CoAVU8icPSQ+WeSQyqmocbR2pgJTaS/OEazVbwfzUnrxHvb4fa9NrRSQXOJAimSJEDa1b7kp9PL2lJBmWAzHqJ/ApOy3EzjdNuOOy34/wERyxD4Q==?cssminify=yes' type='text/css' media='all' />
-<script id='jetpack_related-posts-js-extra'>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-14-1' href='https://s0.wp.com/_static/??-eJyNjcEKwjAQRH/IuFVDPYmfIulmSVI32eAmiH9vW7yIFy/DPBjewLMalNKoNMjdVO4hFYWZWnV4/zBkkTV8Z1LQ6B7knfevraYS9qi6g/9Nt1QQVDA5NixB9At+bC1SXn6jhcAyOV4H13w5nIejHcaTHec3UO1JHw==&cssminify=yes' type='text/css' media='all' />
+<script type="text/javascript" id="jetpack_related-posts-js-extra">
+/* <![CDATA[ */
 var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
 </script>
-<script id='wpcom-actionbar-placeholder-js-extra'>
-var actionbardata = {"siteID":"27405506","siteURL":"https:\/\/datatherapy.org","xhrURL":"https:\/\/datatherapy.org\/wp-admin\/admin-ajax.php","nonce":"a4939f388c","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https:\/\/s0.wp.com\/wp-content\/js\/wpcom-proxy-request.js?ver=20211021","shortlink":"https:\/\/wp.me\/p1QZqi-uh","i18n":{"followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/read\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar"}};
-</script>
-<script crossorigin='anonymous' type='text/javascript' src='https://s2.wp.com/_static/??-eJyFjdEKwjAMRX/IrIpjxQfxW+aWlZQ2rUmL7u+tMEH24lO4OSe55plhSlyQi/FqYrpTQKiKMrq2A+IldV4P5seLFXKojliNYBgLzpCTll3aX7XvEgpkSa/1y4inUGfUD/SPirJuo4vEfyWI5KQVbvItXk/D2dpj31+sfwPadVA2'></script>
-<script type='text/javascript'>
+<script crossorigin='anonymous' type='text/javascript' src='https://s2.wp.com/_static/??-eJxdjj0OwjAMhS+Ea8HQdEEcBaWpqRwSJ4odAbcnAwMwfu9PDx8VQhEjMYyKuaycCLpS8/vQgOVWpqgH/MrlDjX1nUUxklUf7h8e9SJ4ZQm4dk4bNkreaINa1PSXpszyPzwOtGRQW3m+hnfJ5+O8uNPinJvjG2l7Pn8='></script>
+<script type="text/javascript" id="rlt-proxy-js-after">
+/* <![CDATA[ */
 	window.addEventListener( 'DOMContentLoaded', function() {
 		rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
 	} );
+/* ]]> */
 </script>
+<script type="text/javascript" src="https://s2.wp.com/wp-content/plugins/gutenberg-core/v17.2.1/build/modules/importmap-polyfill.min.js?m=1702422485i" id="es-module-shims-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="media-video-jwt-bridge-js-extra">
+/* <![CDATA[ */
+var videopressAjax = {"ajaxUrl":"https:\/\/datatherapy.wordpress.com\/wp-admin\/admin-ajax.php","bridgeUrl":"\/wp-content\/mu-plugins\/jetpack-plugin\/moon\/jetpack_vendor\/automattic\/jetpack-videopress\/build\/lib\/token-bridge.js","post_id":"1877"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="wpcom-actionbar-placeholder-js-extra">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"27405506","postID":"1877","siteURL":"https:\/\/datatherapy.org","xhrURL":"https:\/\/datatherapy.org\/wp-admin\/admin-ajax.php","nonce":"92b6c0cbeb","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https:\/\/s0.wp.com\/wp-content\/js\/wpcom-proxy-request.js?ver=20211021","shortlink":"https:\/\/wp.me\/p1QZqi-uh","i18n":{"followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/read\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar"}};
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s1.wp.com/_static/??-eJx9jcEKwjAQRH/IdNODFA/ip0iaLGXbZDcmm4p/bw5VPAkDwwxvGHhmQ+xjC1hh7Xo0LK/DhkQ8rPUE/yCTaClO8Rf2woqskJrJsS3EfYOand+ODEmEP919Rw5SwDWV5FTJf+mdAkouWCvMjWKASDOobMhmLhQW7I+3dB0na+00ni92fQOcgE35'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://datatherapy.wordpress.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress.com" />
 <link rel="canonical" href="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/" />
 <link rel='shortlink' href='https://wp.me/p1QZqi-uh' />
@@ -271,16 +291,51 @@ var actionbardata = {"siteID":"27405506","siteURL":"https:\/\/datatherapy.org","
 <link rel='openid.delegate' href='https://datatherapy.org/' />
 <link rel="search" type="application/opensearchdescription+xml" href="https://datatherapy.org/osd.xml" title="Data Therapy" />
 <link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
-<style type="text/css">
-.widget_twitter li {
-	word-wrap: break-word;
-}
-</style>
-<meta name="application-name" content="Data Therapy" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="tips for empowering people with data from Rahul Bhargava at the MIT Center for Civic Media" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://datatherapy.org/feed/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="description" content="This blog post is based on a keynote I gave recently at the 2019 SSIR Data on Purpose event. Are you optimistic or pessimistic about data as a tool for good in the world? Over the last few years I’ve seen the shift in answers to this questions. People used to answer “optimistic”, but now most&hellip;" />
+		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="Data Therapy" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="tips for empowering people with data from Rahul Bhargava at the MIT Center for Civic Media" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://datatherapy.org/feed/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="description" content="This blog post is based on a keynote I gave recently at the 2019 SSIR Data on Purpose event. Are you optimistic or pessimistic about data as a tool for good in the world? Over the last few years I’ve seen the shift in answers to this questions. People used to answer “optimistic”, but now most&hellip;" />
 <!-- Your Google Analytics Plugin is missing the tracking ID -->
 </head>
 
-<body class="post-template-default single single-post postid-1877 single-format-standard wp-embed-responsive customizer-styles-applied highlander-enabled highlander-light">
+<body class="post-template-default single single-post postid-1877 single-format-standard wp-embed-responsive customizer-styles-applied">
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
@@ -333,11 +388,11 @@ var actionbardata = {"siteID":"27405506","siteURL":"https:\/\/datatherapy.org","
 <p>Are you optimistic or pessimistic about data as a tool for good in the world? Over the last few years I’ve seen the shift in answers to this questions. People used to answer “optimistic”, but now most people indicate some mix of emotions. You’ve probably seen the <a href="https://en.wikipedia.org/wiki/Hype_cycle">Gartner hype cycle</a> with its suggestion that a technology receives inflated expectations and then is overused to the point of disillusionment. I’d argue that the over-hyping and the disappointment happen at the same time&#8230; that time is now for social good organizations that are trying to use data to further their missions.</p>
 <p>The response I’ve been crafting focuses on acknowledging the damaging history of the data practices we routinely employ, taking a step back from hype-driven roll-out of data programs, and working to align your data and your mission. The <a href="http://datacultureproject.org/">Data Culture Project</a>, my collaboration with Catherine D&#8217;Ignazio, works with organizations large and small across the world to help make that happen.</p>
 <p>One of the core problems in creating a data culture that aligns with your mission is the history we are fighting against. Data has been a tool for those in power to consolidate that power for centuries. For organizations working in the social good sector, this <em>should</em>feel problematic! If you’re deploying some tool or process, you need to be wary of any pieces that reinforce that history. They can cultivate the opposite of the empowerment, engagement, and ownership goals that are probably at the heart of your mission.</p>
-<p><img loading="lazy" class="alignnone wp-image-2467 size-full" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/Bhargava_SSIR_2019_rev3-1.jpg" alt="" width="967" height="448" /></p>
+<p><img class="alignnone wp-image-2467 size-full" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/Bhargava_SSIR_2019_rev3-1.jpg" alt="" width="967" height="448" /></p>
 <p>Warning: In this post I&#8217;m going to depress you by reviewing some of that history. Don’t worry, I’ll close with some inspirations so it isn’t all doom and gloom.  Make sure not to stop reading in the middle, otherwise you might walk away feeling pretty bad about the world!</p>
 <h2>A Depressing History of Data</h2>
 <p>I won’t surprise anyone by talking about human history as full of stories of those in power seeking to oppress others. However, I want to highlight a few of those instances that were data-driven. Going back as far as the ancient Egyptians, we can find evidence that they tabulated and tracked populations to determine how much labor they would use to construct their giant monuments to themselves (<a href="https://www.ons.gov.uk/census/2011census/howourcensusworks/aboutcensuses/censushistory/censustakingintheancientworld">read more at the UK Office for National Statistics</a>). They created census data to drive massive construction projects in their own likeness.</p>
-<figure data-shortcode="caption" id="attachment_2468" aria-describedby="caption-attachment-2468" style="width: 1023px" class="wp-caption alignnone"><img loading="lazy" class="wp-image-2468 size-full" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/image.png" alt="lots of egyptian laborers pulling a large sculpture" width="1023" height="429" /><figcaption id="caption-attachment-2468" class="wp-caption-text">Source &#8211; A Popular Account of the Ancient Egyptians, Sir John Gardner Wilkinson (1854)</figcaption></figure>
+<figure data-shortcode="caption" id="attachment_2468" aria-describedby="caption-attachment-2468" style="width: 1023px" class="wp-caption alignnone"><img class="wp-image-2468 size-full" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/image.png" alt="lots of egyptian laborers pulling a large sculpture" width="1023" height="429" /><figcaption id="caption-attachment-2468" class="wp-caption-text">Source &#8211; A Popular Account of the Ancient Egyptians, Sir John Gardner Wilkinson (1854)</figcaption></figure>
 <p>Fast forward to Britain in the 1700s and you find the horrors of the slave trade via cross-atlantic shipping; all cataloged in stunning details by the shopping industry and the strict regulations they were under. Many of these  massive data records are still available today. This economic data numerically catalogues the human suffering of tens of millions at the hands of those in power across the western world.</p>
 <p><img /></p>
 <p>Next consider another of the darkest times in recent history &#8211; the Nazi regime. Their massive atrocities were informed and guided by the tabulations of their census, driven by IBM’s custom manufactured counting machines (<a href="https://en.wikipedia.org/wiki/IBM_and_the_Holocaust">read more on Wikipedia</a>). This is a history IBM would like us to forget with their new Watson AI initiatives, but Watson was in fact the one that oversaw all this work as CEO at the time.</p>
@@ -345,7 +400,7 @@ var actionbardata = {"siteID":"27405506","siteURL":"https:\/\/datatherapy.org","
 <p>A few decades later we find another example in South America, recipient of massive investment and development packages from large multi-national UN-style agencies. All this drove numbers that showed enormous economic growth, while in fact huge populations were suffering. As famed author Eduardo Galeano writes &#8211; “the more watched and desperate the people, the more the statistics smiled and laughed”.</p>
 <p><img /></p>
 <p>As for our current times? You can barely throw a stone without hitting another story of a large centralized technology company using some data in morally questionable ways. Amazon pitching facial recognition to ICE here in the US to keep migrants and asylum seekers out (<a href="https://www.theverge.com/2018/10/23/18013376/amazon-ice-facial-recognition-aws-rekognition">The Verge</a>), Facebook building massive datasets about non-users to improve their invasive advertising targeting (<a href="https://www.reuters.com/article/us-facebook-privacy-tracking/facebook-fuels-broad-privacy-debate-by-tracking-non-users-idUSKBN1HM0DR">Reuters</a>), China creating a “social credit score” to control and guide citizen norms (<a href="https://www.bloomberg.com/news/articles/2018-11-21/beijing-to-judge-every-resident-based-on-behavior-by-end-of-2020">Bloomberg</a>) &#8211; the dystopia is here. We are all quantized without any meaningful consent in the massive databases of the big tech corporations.</p>
-<p><img loading="lazy" class="alignnone size-full wp-image-2470" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/Bhargava_SSIR_2019_rev3-2.jpg" alt="" width="965" height="451" /></p>
+<p><img class="alignnone size-full wp-image-2470" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/Bhargava_SSIR_2019_rev3-2.jpg" alt="" width="965" height="451" /></p>
 <p>I trust you’re on board now with the idea that data has a dark history full of examples like these ones that I’ve quickly touched on. Want more? Read <a href="https://nyupress.org/books/9781479837243/">Algorithms of Oppression</a>, <a href="https://weaponsofmathdestructionbook.com/">Weapons of Math Destruction</a>, <a href="https://virginia-eubanks.com/books/">Automating Inequality</a>, or one of the other recent books about this.</p>
 <h2>A Disempowering Process</h2>
 <p>I know, that was pretty depressing. Usually I don&#8217;t pull in forced labor, slavery, and the Nazi holocaust into one blog post. Sorry. This thing is, this is the past and present that your data process is living within. We can&#8217;t ignore it. You have to work hard to make sure you’re not part of it. To fight this history, first we have to understand the patterns that drove it.</p>
@@ -374,7 +429,7 @@ var actionbardata = {"siteID":"27405506","siteURL":"https:\/\/datatherapy.org","
 <h2>Match your Mission and Methods</h2>
 <figure data-shortcode="caption" id="attachment_2466" aria-describedby="caption-attachment-2466" style="width: 970px" class="wp-caption alignnone"><img loading="lazy" class="wp-image-2466 size-full" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/Bhargava_SSIR_2019_rev3.jpg" alt="an arrow connecting data to a building with a heart" width="970" height="412" /><figcaption id="caption-attachment-2466" class="wp-caption-text">Align your data methods and your mission</figcaption></figure>
 <p>I’m hoping by now that I’ve convinced you that you need to think harder about the data methods you use in order to avoid re-creating the terrible historical practice associated with data. I&#8217;m focused on organizations that work for the social good, but this argument holds true for anyone using data. The inspirational examples I highlight all paint a path forward that lets us match our mission and our methods. Which path will you follow?</p>
-<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-1877" class="share-twitter sd-button share-icon" href="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/?share=twitter" target="_blank" title="Click to share on Twitter" ><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-1877" class="share-facebook sd-button share-icon" href="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/?share=facebook" target="_blank" title="Click to share on Facebook" ><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-27405506-1877-63351d607c081' data-src='//widgets.wp.com/likes/index.html?ver=20220105#blog_id=27405506&amp;post_id=1877&amp;origin=datatherapy.wordpress.com&amp;obj_id=27405506-1877-63351d607c081&amp;domain=datatherapy.org' data-name='like-post-frame-27405506-1877-63351d607c081' data-title='Like or Reblog'><h3 class='sd-title'>Like this:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class="loading">Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-1877" class="share-twitter sd-button share-icon" href="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/?share=twitter" target="_blank" title="Click to share on Twitter" ><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-1877" class="share-facebook sd-button share-icon" href="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/?share=facebook" target="_blank" title="Click to share on Facebook" ><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-27405506-1877-657920564d49c' data-src='//widgets.wp.com/likes/index.html?ver=20231208#blog_id=27405506&amp;post_id=1877&amp;origin=datatherapy.wordpress.com&amp;obj_id=27405506-1877-657920564d49c&amp;n=1&amp;domain=datatherapy.org' data-name='like-post-frame-27405506-1877-657920564d49c' data-title='Like or Reblog'><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class='loading'>Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
 <div id='jp-relatedposts' class='jp-relatedposts' >
 	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
 </div></div>		</div><!-- .entry-content -->
@@ -384,7 +439,7 @@ var actionbardata = {"siteID":"27405506","siteURL":"https:\/\/datatherapy.org","
 
 			<div class="entry-author author-avatar-show">
 				<div class="author-avatar">
-			<img alt='' src='https://1.gravatar.com/avatar/1645e18ef88edfcfcf9b820992d56f03?s=60&#038;d=identicon&#038;r=G' class='avatar avatar-60' height='60' width='60' />		</div><!-- .author-avatar -->
+			<img alt='' src='https://0.gravatar.com/avatar/960a3b3c2c63be8f33444d1e8b5457d43d53fdec54fb47bc52f0af586e1a7efc?s=60&#038;d=identicon&#038;r=G' srcset='https://0.gravatar.com/avatar/960a3b3c2c63be8f33444d1e8b5457d43d53fdec54fb47bc52f0af586e1a7efc?s=60&#038;d=identicon&#038;r=G 1x, https://0.gravatar.com/avatar/960a3b3c2c63be8f33444d1e8b5457d43d53fdec54fb47bc52f0af586e1a7efc?s=90&#038;d=identicon&#038;r=G 1.5x, https://0.gravatar.com/avatar/960a3b3c2c63be8f33444d1e8b5457d43d53fdec54fb47bc52f0af586e1a7efc?s=120&#038;d=identicon&#038;r=G 2x, https://0.gravatar.com/avatar/960a3b3c2c63be8f33444d1e8b5457d43d53fdec54fb47bc52f0af586e1a7efc?s=180&#038;d=identicon&#038;r=G 3x, https://0.gravatar.com/avatar/960a3b3c2c63be8f33444d1e8b5457d43d53fdec54fb47bc52f0af586e1a7efc?s=240&#038;d=identicon&#038;r=G 4x' class='avatar avatar-60' height='60' width='60' loading='lazy' decoding='async' />		</div><!-- .author-avatar -->
 		
 		<div class="author-heading">
 			<h2 class="author-title">Published by <span class="author-name">rahulbot</span></h2>
@@ -453,82 +508,109 @@ var actionbardata = {"siteID":"27405506","siteURL":"https:\/\/datatherapy.org","
 					</ul>
 
 		</section><section id="rss_links-6" class="widget widget-small widget_rss_links"><h2 class="widget-title">Get RSS Updates</h2><p class="size-small"><a class="feed-image-link" href="https://datatherapy.org/feed/" title="Subscribe to Posts"><img src="https://datatherapy.org/i/rss/red-small.png" alt="RSS Feed" /></a>&nbsp;<a href="https://datatherapy.org/feed/" title="Subscribe to Posts">RSS - Posts</a></p>
-</section><section id="blog_subscription-6" class="widget widget-small widget_blog_subscription jetpack_subscription_widget"><h2 class="widget-title"><label for="subscribe-field">Get Email Updates</label></h2>
+</section><section id="categories-5" class="widget widget-small widget_categories"><h2 class="widget-title">Categories</h2>
+			<ul>
+					<li class="cat-item cat-item-6751"><a href="https://datatherapy.org/category/activities/">activities</a> (5)
+</li>
+	<li class="cat-item cat-item-2075170"><a href="https://datatherapy.org/category/big-data/">big data</a> (6)
+</li>
+	<li class="cat-item cat-item-411917065"><a href="https://datatherapy.org/category/civic-visualizaton/">civic visualizaton</a> (4)
+</li>
+	<li class="cat-item cat-item-407961527"><a href="https://datatherapy.org/category/cms622/">CMS622</a> (3)
+</li>
+	<li class="cat-item cat-item-11835"><a href="https://datatherapy.org/category/color/">color</a> (2)
+</li>
+	<li class="cat-item cat-item-7114346"><a href="https://datatherapy.org/category/data-cleaning/">data cleaning</a> (2)
+</li>
+	<li class="cat-item cat-item-54006739"><a href="https://datatherapy.org/category/data-culture/">data culture</a> (10)
+</li>
+	<li class="cat-item cat-item-22435448"><a href="https://datatherapy.org/category/data-journalism/">data journalism</a> (4)
+</li>
+	<li class="cat-item cat-item-1741825"><a href="https://datatherapy.org/category/data-literacy/">data literacy</a> (34)
+</li>
+	<li class="cat-item cat-item-4499756"><a href="https://datatherapy.org/category/data-scraping/">data scraping</a> (1)
+</li>
+	<li class="cat-item cat-item-243606519"><a href="https://datatherapy.org/category/data-sculptures/">data sculptures</a> (1)
+</li>
+	<li class="cat-item cat-item-237047"><a href="https://datatherapy.org/category/data-storage/">data storage</a> (1)
+</li>
+	<li class="cat-item cat-item-83336"><a href="https://datatherapy.org/category/data-analysis/">data-analysis</a> (7)
+</li>
+	<li class="cat-item cat-item-106536786"><a href="https://datatherapy.org/category/data-mural/">data-mural</a> (14)
+</li>
+	<li class="cat-item cat-item-61562930"><a href="https://datatherapy.org/category/databasic/">DataBasic</a> (6)
+</li>
+	<li class="cat-item cat-item-8289"><a href="https://datatherapy.org/category/ethics/">ethics</a> (5)
+</li>
+	<li class="cat-item cat-item-586"><a href="https://datatherapy.org/category/food/">food</a> (1)
+</li>
+	<li class="cat-item cat-item-129003"><a href="https://datatherapy.org/category/food-security/">food security</a> (1)
+</li>
+	<li class="cat-item cat-item-171"><a href="https://datatherapy.org/category/meta/">meta</a> (17)
+</li>
+	<li class="cat-item cat-item-9402"><a href="https://datatherapy.org/category/presentation/">presentation</a> (11)
+</li>
+	<li class="cat-item cat-item-801"><a href="https://datatherapy.org/category/security/">security</a> (1)
+</li>
+	<li class="cat-item cat-item-1591"><a href="https://datatherapy.org/category/teaching/">teaching</a> (8)
+</li>
+	<li class="cat-item cat-item-317"><a href="https://datatherapy.org/category/techniques/">techniques</a> (13)
+</li>
+	<li class="cat-item cat-item-1981"><a href="https://datatherapy.org/category/tools/">tools</a> (13)
+</li>
+	<li class="cat-item cat-item-2932"><a href="https://datatherapy.org/category/tutorial/">tutorial</a> (2)
+</li>
+	<li class="cat-item cat-item-1"><a href="https://datatherapy.org/category/uncategorized/">Uncategorized</a> (2)
+</li>
+	<li class="cat-item cat-item-10559"><a href="https://datatherapy.org/category/workshops/">workshops</a> (51)
+</li>
+			</ul>
 
-			<div class="wp-block-jetpack-subscriptions__container">
-			<form
-				action="https://subscribe.wordpress.com"
-				method="post"
-				accept-charset="utf-8"
-				id="subscribe-blog"
-			>
-				<p>Enter your email address to follow this blog and receive notifications of new posts by email.</p>
-				<p id="subscribe-email">
-					<label
-						id="subscribe-field-label"
-						for="subscribe-field"
-						class="screen-reader-text"
+			</section><section id="block-2" class="widget widget-small widget_block">
+<h2 class="wp-block-heading has-large-font-size" style="font-style:normal;font-weight:700">Newsletter</h2>
+</section><section id="block-3" class="widget widget-small widget_block">
+	<div class="wp-block-jetpack-mailchimp" data-blog-id="27405506">
+		<form
+			aria-describedby="wp-block-jetpack-mailchimp_consent-text"
 					>
-						Email Address:					</label>
-
-					<input
-							type="email"
-							name="email"
-							
-							style="width: 95%; padding: 1px 10px"
-							placeholder="Email Address"
-							value=""
-							id="subscribe-field"
-						/>				</p>
-
-				<p id="subscribe-submit"
-									>
-					<input type="hidden" name="action" value="subscribe"/>
-					<input type="hidden" name="blog_id" value="27405506"/>
-					<input type="hidden" name="source" value="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/"/>
-					<input type="hidden" name="sub-type" value="widget"/>
-					<input type="hidden" name="redirect_fragment" value="subscribe-blog"/>
-					<input type="hidden" id="_wpnonce" name="_wpnonce" value="4cb5583149" />					<button type="submit"
-													class="wp-block-button__link"
-																	>
-						Follow					</button>
-				</p>
-			</form>
-						</div>
-			
-</section><section id="twitter-4" class="widget widget-small widget_twitter"><h2 class="widget-title"><a href='http://twitter.com/rahulbot'>Recent Tweets</a></h2><ul class='tweets'>
-			<li>
-				Excited to be chatting data literacy with these scholars in a few weeks 🎉 <a href="https://twitter.com/NYU_LEARN/status/1573339967153381376"> twitter.com/NYU_LEARN/stat…</a> 				<a href="http://twitter.com/rahulbot/statuses/1574755583647174656" class="timesince">1&nbsp;day&nbsp;ago</a>
-			</li>
+			<p>
+				<input
+					aria-label="Enter your email"
+					placeholder="Enter your email"
+					required
+					title="Enter your email"
+					type="email"
+					name="email"
+				/>
+			</p>
+									
+<div class="wp-block-jetpack-button wp-block-button" style=""><button class="wp-block-button__link" style="" data-id-attr="mailchimp-button-block-1" id="mailchimp-button-block-1" type="submit">Signup for my newsletter</button></div>
+			<p id="wp-block-jetpack-mailchimp_consent-text">
+				Join to get an email update every month or two about new projects and activities related to data literacy and data storytelling in community settings.			</p>
 
 			
-			<li>
-				RT @<a href='http://twitter.com/NU_CfD'>NU_CfD</a>: <a href='http://twitter.com/search?q=%23SavetheDate'>#SavetheDate</a> next Tues Sept 27th 1230pm EDT/ 630PM CET
-Data Sonification. Beyond the Visual
-Hearing data between science and em… 				<a href="http://twitter.com/rahulbot/statuses/1573419580604702730" class="timesince">5&nbsp;days&nbsp;ago</a>
-			</li>
+		</form>
+		
+			<div class="wp-block-jetpack-mailchimp_notification wp-block-jetpack-mailchimp_processing" role="status">
+				Processing…			</div>
+			<div class="wp-block-jetpack-mailchimp_notification wp-block-jetpack-mailchimp_success" role="status">
+				Success! You&#039;re on the list.			</div>
+			<div class="wp-block-jetpack-mailchimp_notification wp-block-jetpack-mailchimp_error" role="alert">
+				Whoops! There was an error and we couldn&#039;t process your subscription. Please reload the page and try again.			</div>
 
-			
-			<li>
-				One of the hardest things in data journalism is figuring out what someone means when they say they want a &quot;graph&quot;. 				<a href="http://twitter.com/rahulbot/statuses/1573321869847298049" class="timesince">5&nbsp;days&nbsp;ago</a>
-			</li>
-
-			
-			<li>
-				🙋🏽‍♂️Writing advice needed: what&#039;s the best concise term that can describe civic, non-profit, community, educationa… <a href="https://twitter.com/i/web/status/1573301231514165248"> twitter.com/i/web/status/1…</a> 				<a href="http://twitter.com/rahulbot/statuses/1573301231514165248" class="timesince">5&nbsp;days&nbsp;ago</a>
-			</li>
-
-			
-			<li>
-				Oh man I have a lot of reading to do in the next few months 🎉 <a href="https://twitter.com/DataJusticeLab/status/1572196420442116100"> twitter.com/DataJusticeLab…</a> 				<a href="http://twitter.com/rahulbot/statuses/1572996008187154434" class="timesince">6&nbsp;days&nbsp;ago</a>
-			</li>
-
-			</ul><a href="http://twitter.com/rahulbot"  class='twitter-follow-button' data-show-count='false' data-link-color='#3e69dc' data-text-color='#73757D'>Follow @rahulbot</a></section></aside><!-- #secondary -->
+			</div>
+	</section></aside><!-- #secondary -->
 
 	</div><!-- .site-content-wrapper -->
 
 
 <aside id="tertiary" class="widget-area widget-footer" role="complementary">
+		<div class="widget-footer-area widget-footer-top-area column-1">
+		<div class="widget-area-wrapper">
+			<section id="text-4" class="widget widget_text"><h2 class="widget-title">About</h2>			<div class="textwidget"><p>Data Therapy is a hands-on process for building capacity to find and tell stories with data in creative ways, created by me (Rahul Bhargava). I believe that data can be used to empower people. Advocating with information can be an effective way to create the change you want to see.  My Data Therapy program builds capacity for story-finding and story-telling with data. My workshops try to make working with data both fun and impactful. I help people learn by playing with data.</p>
+</div>
+		</section>		</div><!-- .widget-area-wrapper-area -->
+	</div><!-- .widget-footer-full-width -->
 	
 		<div class="widget-footer-area widget-footer-bottom-area column-3">
 		<div class="widget-area-wrapper">
@@ -558,20 +640,13 @@ Hearing data between science and em… 				<a href="http://twitter.com/rahulbot/
 </div><!-- #page -->
 
 <!--  -->
-<script type="text/javascript">
-	window._tkq = window._tkq || [];
-	if ( Math.random() < 0.01 ) {
-		window._tkq.push( [
-			'recordEvent',
-			'wpcom_wordads_noad',
-			{"theme":"pub\/shoreditch","blog_id":27405506,"post_id":1877,"reason_noadverts_option":1,"reason_blog_null":1,"reason_post_null":1}
-		] );
-	}
-</script><script src='//0.gravatar.com/js/gprofiles.js?ver=202239z' id='grofiles-cards-js'></script>
-<script id='wpgroho-js-extra'>
+<script type="text/javascript" src="//0.gravatar.com/js/hovercards/hovercards.min.js?ver=202350131f6b765e798866d728f95661b78bbf269c86482ffff0fa8c08e18a1a65cc89" id="grofiles-cards-js"></script>
+<script type="text/javascript" id="wpgroho-js-extra">
+/* <![CDATA[ */
 var WPGroHo = {"my_hash":""};
+/* ]]> */
 </script>
-<script crossorigin='anonymous' type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1610363240h'></script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1610363240i'></script>
 
 	<script>
 		// Initialize and attach hovercards to all gravatars
@@ -590,7 +665,18 @@ var WPGroHo = {"my_hash":""};
 				};
 
 				Gravatar.my_hash = WPGroHo.my_hash;
-				Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+				Gravatar.init(
+					'body',
+					'#wp-admin-bar-my-account',
+					{
+						i18n: {
+							'Edit your profile': 'Edit your profile',
+							'View profile': 'View profile',
+							'Sorry, we are unable to load this Gravatar profile.': 'Sorry, we are unable to load this Gravatar profile.',
+							'Sorry, we are unable to load this Gravatar profile. Please check your internet connection.': 'Sorry, we are unable to load this Gravatar profile. Please check your internet connection.',
+						},
+					}
+				);
 			}
 
 			if ( document.readyState !== 'loading' ) {
@@ -610,10 +696,12 @@ var WPGroHo = {"my_hash":""};
 		<ul>
 								<li class="actnbr-btn actnbr-hidden">
 								<a class="actnbr-action actnbr-actn-follow " href="">
-			<svg class="gridicon gridicons-reader-follow" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"/></g></svg><span>Follow</span>
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Follow</span>
 		</a>
 		<a class="actnbr-action actnbr-actn-following  no-display" href="">
-			<svg class="gridicon gridicons-reader-following" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 13.482L15.508 21 12 17.4l1.412-1.388 2.106 2.188 6.094-6.094L23 13.482zm-7.455 1.862L20 10.89V2H2v14c0 1.1.9 2 2 2h4.538l4.913-4.832 2.095 2.176zM8 13H4v-1h4v1zm3-2H4v-1h7v1zm0-2H4V8h7v1zm7-3H4V4h14v2z"/></g></svg><span>Following</span>
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Following</span>
 		</a>
 							<div class="actnbr-popover tip tip-top-left actnbr-notice" id="follow-bubble">
 							<div class="tip-arrow"></div>
@@ -621,10 +709,11 @@ var WPGroHo = {"my_hash":""};
 															<ul>
 											<li class="actnbr-sitename">
 			<a href="https://datatherapy.org">
-				<img alt='' src='https://s2.wp.com/i/logo/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' />				Data Therapy			</a>
+				<img alt='' src='https://s2.wp.com/i/logo/wpcom-gray-white.png' srcset='https://s2.wp.com/i/logo/wpcom-gray-white.png 1x' class='avatar avatar-50' height='50' width='50' />				Data Therapy			</a>
 		</li>
-										<form method="post" action="https://subscribe.wordpress.com" accept-charset="utf-8" style="display: none;">
-																						<div class="actnbr-follow-count">Join 208 other followers</div>
+										<div class="actnbr-message no-display"></div>
+									<form method="post" action="https://subscribe.wordpress.com" accept-charset="utf-8" style="display: none;">
+																						<div class="actnbr-follow-count">Join 212 other followers</div>
 																					<div>
 										<input type="email" name="email" placeholder="Enter your email address" class="actnbr-email-field" aria-label="Enter your email address" />
 										</div>
@@ -632,7 +721,7 @@ var WPGroHo = {"my_hash":""};
 										<input type="hidden" name="blog_id" value="27405506" />
 										<input type="hidden" name="source" value="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/" />
 										<input type="hidden" name="sub-type" value="actionbar-follow" />
-										<input type="hidden" id="_wpnonce" name="_wpnonce" value="4cb5583149" />										<div class="actnbr-button-wrap">
+										<input type="hidden" id="_wpnonce" name="_wpnonce" value="3f3b1ad8df" />										<div class="actnbr-button-wrap">
 											<button type="submit" value="Sign me up">
 												Sign me up											</button>
 										</div>
@@ -652,7 +741,7 @@ var WPGroHo = {"my_hash":""};
 						<ul>
 									<li class="actnbr-sitename">
 			<a href="https://datatherapy.org">
-				<img alt='' src='https://s2.wp.com/i/logo/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' />				Data Therapy			</a>
+				<img alt='' src='https://s2.wp.com/i/logo/wpcom-gray-white.png' srcset='https://s2.wp.com/i/logo/wpcom-gray-white.png 1x' class='avatar avatar-50' height='50' width='50' />				Data Therapy			</a>
 		</li>
 								<li class="actnbr-folded-customize">
 								<a href="https://datatherapy.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fdatatherapy.wordpress.com%2F2019%2F03%2F13%2Faligning-your-data-and-methods-your-mission%2F">
@@ -661,16 +750,21 @@ var WPGroHo = {"my_hash":""};
 							</li>
 																<li class="actnbr-folded-follow">
 												<a class="actnbr-action actnbr-actn-follow " href="">
-			<svg class="gridicon gridicons-reader-follow" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"/></g></svg><span>Follow</span>
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Follow</span>
 		</a>
 		<a class="actnbr-action actnbr-actn-following  no-display" href="">
-			<svg class="gridicon gridicons-reader-following" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 13.482L15.508 21 12 17.4l1.412-1.388 2.106 2.188 6.094-6.094L23 13.482zm-7.455 1.862L20 10.89V2H2v14c0 1.1.9 2 2 2h4.538l4.913-4.832 2.095 2.176zM8 13H4v-1h4v1zm3-2H4v-1h7v1zm0-2H4V8h7v1zm7-3H4V4h14v2z"/></g></svg><span>Following</span>
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Following</span>
 		</a>
 										</li>
 																	<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li>
 									<li class="actnbr-login"><a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Fdatatherapy.org%252F2019%252F03%252F13%252Faligning-your-data-and-methods-your-mission%252F">Log in</a></li>
 																	<li class="actnbr-shortlink"><a href="https://wp.me/p1QZqi-uh">Copy shortlink</a></li>
-																	<li class="flb-report"><a href="http://en.wordpress.com/abuse/">Report this content</a></li>
+																	<li class="flb-report">
+										<a href="http://en.wordpress.com/abuse/?report_url=https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/" target="_blank">
+											Report this content										</a>
+									</li>
 																	<li class="actnbr-reader">
 										<a href="https://wordpress.com/read/blogs/27405506/posts/1877">
 											View post in Reader										</a>
@@ -689,13 +783,13 @@ var WPGroHo = {"my_hash":""};
 <script>
 window.addEventListener( "load", function( event ) {
 	var link = document.createElement( "link" );
-	link.href = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20210915";
+	link.href = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20231122";
 	link.type = "text/css";
 	link.rel = "stylesheet";
 	document.head.appendChild( link );
 
 	var script = document.createElement( "script" );
-	script.src = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20220329";
+	script.src = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20231122";
 	script.defer = true;
 	document.body.appendChild( script );
 } );
@@ -814,7 +908,7 @@ window.addEventListener( "load", function( event ) {
 								<div class="jp-carousel-photo-description"></div>
 							</div>
 							<ul class="jp-carousel-image-exif" style="display: none;"></ul>
-							<a class="jp-carousel-image-download" target="_blank" style="display: none;">
+							<a class="jp-carousel-image-download" href="#" target="_blank" style="display: none;">
 								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
 										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
@@ -837,23 +931,49 @@ window.addEventListener( "load", function( event ) {
 	<script type="text/javascript">
 		window.WPCOM_sharing_counts = {"https:\/\/datatherapy.org\/2019\/03\/13\/aligning-your-data-and-methods-your-mission\/":1877};
 	</script>
-				<script src='https://platform.twitter.com/widgets.js?ver=20111117' id='twitter-widgets-js'></script>
-<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-2' href='https://s0.wp.com/_static/??-eJyljFEKgzAQBS9kXCw2kI/Ss+i6SGKyWbJZvL4t1BP0b97wGDjFYeVO3KGYk2x7ZIVEXRY8fhuk1c2wx8pQPpRJAZdWTSmDnlGoudV4yzSi6gB/N+/rLb7Zd3lN/unnRwh+She1E0V3?cssminify=yes' type='text/css' media='all' />
-<script id='shoreditch-back-top-js-extra'>
+				<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-2' href='https://s0.wp.com/_static/??-eJyljEsKgDAMBS9kDUUquhDPom0Qaz/BNHh9KdgTuBl4w2PgIWVzKpgKRFEU5DgTg8dCm72+DTHnCicBGex2Z2EMwM9JeKtdkgvYW+YOftTaqYkaXOOix8noQU+z8S9MR0BZ&cssminify=yes' type='text/css' media='all' />
+<style id='jetpack-block-button-inline-css'>
+.amp-wp-article .wp-block-jetpack-button{color:#fff}.wp-block-jetpack-button:not(.is-style-outline) button{border:none}
+</style>
+<style id='jetpack-block-mailchimp-inline-css'>
+.wp-block-jetpack-mailchimp.is-processing form{display:none}.wp-block-jetpack-mailchimp .wp-block-jetpack-button,.wp-block-jetpack-mailchimp p{margin-bottom:1em}.wp-block-jetpack-mailchimp input{box-sizing:border-box;width:100%}.wp-block-jetpack-mailchimp .error,.wp-block-jetpack-mailchimp .error:focus{outline:1px;outline-color:#d63638;outline-offset:-2px;outline-style:auto}.wp-block-jetpack-mailchimp .wp-block-jetpack-mailchimp_notification{display:none;margin-bottom:1.5em;padding:.75em}.wp-block-jetpack-mailchimp .wp-block-jetpack-mailchimp_notification.is-visible{display:block}.wp-block-jetpack-mailchimp .wp-block-jetpack-mailchimp_notification.wp-block-jetpack-mailchimp_error{background-color:#d63638;color:#fff}.wp-block-jetpack-mailchimp .wp-block-jetpack-mailchimp_notification.wp-block-jetpack-mailchimp_processing{background-color:rgba(0,0,0,.025)}.wp-block-jetpack-mailchimp .wp-block-jetpack-mailchimp_notification.wp-block-jetpack-mailchimp_success{background-color:#008a20;color:#fff}.wp-block-jetpack-mailchimp .wp-block-jetpack-mailchimp_notification.wp-block-jetpack-mailchimp__is-amp{display:block}.wp-block-jetpack-mailchimp form.amp-form-submit-error>p,.wp-block-jetpack-mailchimp form.amp-form-submit-success>p,.wp-block-jetpack-mailchimp form.amp-form-submitting>p{display:none}
+</style>
+<script type="text/javascript" id="shoreditch-back-top-js-extra">
+/* <![CDATA[ */
 var shoreditchButtonTitle = {"desc":"Back to top"};
+/* ]]> */
 </script>
-<script id='shoreditch-navigation-js-extra'>
+<script type="text/javascript" id="shoreditch-navigation-js-extra">
+/* <![CDATA[ */
 var shoreditchScreenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
+/* ]]> */
 </script>
-<script id='jetpack-carousel-js-extra'>
-var jetpackSwiperLibraryPath = {"url":"https:\/\/s2.wp.com\/wp-content\/mu-plugins\/jetpack-plugin\/production\/_inc\/build\/carousel\/swiper-bundle.min.js"};
-var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/datatherapy.org\/wp-admin\/admin-ajax.php","nonce":"6a4daa2187","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"1","require_name_email":"1","login_url":"https:\/\/datatherapy.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdatatherapy.org%2F2019%2F03%2F13%2Faligning-your-data-and-methods-your-mission%2F","blog_id":"27405506","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"stats_query_args":"blog=27405506&v=wpcom&tz=-4&user_id=0&subd=datatherapy","is_public":"1"};
+<script type="text/javascript" id="jetpack-carousel-js-extra">
+/* <![CDATA[ */
+var jetpackSwiperLibraryPath = {"url":"https:\/\/s2.wp.com\/wp-content\/mu-plugins\/jetpack-plugin\/moon\/_inc\/build\/carousel\/swiper-bundle.min.js"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/datatherapy.org\/wp-admin\/admin-ajax.php","nonce":"0139318fff","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"1","require_name_email":"1","login_url":"https:\/\/datatherapy.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdatatherapy.org%2F2019%2F03%2F13%2Faligning-your-data-and-methods-your-mission%2F","blog_id":"27405506","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"stats_query_args":"blog=27405506&v=wpcom&tz=-4&user_id=0&subd=datatherapy","is_public":"1"};
+/* ]]> */
 </script>
-<script id='sharing-js-js-extra'>
+<script crossorigin='anonymous' type='text/javascript' src='https://s2.wp.com/_static/??-eJyVj9FOwzAMRX+IzFRoTDwgPgWlidu6deyQOAP+nkzANPFUHm2fY1/De3ZBxVAMUnOZ20xSgWnDCm8NGy5eImM5rPUObmBbMHUktxHqogUjWVhgrTD6sDnTvFuoG2XHJJubNLTqJvrY7Yo/0+yNVP4qN8+saPkS6ruGpCrwShJgbMQRgi/aKvKV+20cEl3Xdpxb7Bn60UjV4IwStVxGWflzIubOYLE9UsEZO+tNiytNjBL+89YP/pKeh9P9cBoejo9P6xecZqwZ'></script>
+<script type="text/javascript" crossorigin='anonymous' crossorigin='anonymous' src="https://s0.wp.com/wp-content/plugins/gutenberg-core/v17.2.1/build/dom-ready/index.min.js?m=1702422485i&amp;ver=8ef91b5d96d5175674de" id="wp-dom-ready-js"></script>
+<script type="text/javascript" id="wp-dom-ready-js-after">
+/* <![CDATA[ */
+wp.galleryBlockV2Enabled = true
+/* ]]> */
+</script>
+<script type="text/javascript" id="jetpack-block-mailchimp-js-extra">
+/* <![CDATA[ */
+var Jetpack_Block_Assets_Base_Url = {"url":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/jetpack-plugin\/moon\/_inc\/blocks\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="sharing-js-js-extra">
+/* <![CDATA[ */
 var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+/* ]]> */
 </script>
-<script crossorigin='anonymous' type='text/javascript' src='https://s1.wp.com/_static/??-eJyNkNtOwzAMhl+IzBqwSrtAPApKE7d1mzgmTjYen1SoCG1axZVP/+cTXMW4xAW5wKzg8UIO5esw6xP8KcVqJNSRWCHQggqfFStOln3AfCsuE8YmkdqDTimjp+KmtXtv3WJKkn8DupCYQLyYIbmqZqC7zR6ybC802kKJd46xPhKb3maIVgvm5pmS25q6A81YZL3kJwbJyVe3DoIPYgd9peDB2ZyqYvhVb4lDm7jTfJOZq7gUb8IdTpIWMwRLuf3BZuJxsw16j2/Hrns+dS+vp/P8DerFu8Q='></script>
-<script type='text/javascript'>
+<script crossorigin='anonymous' type='text/javascript' src='https://s2.wp.com/_static/??-eJx9jkEOwiAQRS8kHbowjQvjUQwOpB3KzJACJd5eY1wZdfff4r886NmgSg1SgZvJqc0kBWKo2eH6ZmBVgSsJwi0prgXYUcKFOMNOoQ+xHOC7CN2mrYRkekblD/zz+x3QKHkoi9uCd97fX5NkHpjk6bvweZystdN4PNn4AMPZUo0='></script>
+<script type="text/javascript" id="sharing-js-js-after">
+/* <![CDATA[ */
 var windowOpen;
 			( function () {
 				function matches( el, sel ) {
@@ -920,6 +1040,7 @@ var windowOpen;
 					}
 				} );
 			} )();
+/* ]]> */
 </script>
 <script type="text/javascript">
 // <![CDATA[
@@ -938,23 +1059,23 @@ try{
 }catch(e){}
 })();
 // ]]>
-</script>	<iframe src='https://widgets.wp.com/likes/master.html?ver=20220105#ver=20220105&amp;origin=https://datatherapy.org' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
-	<div id='likes-other-gravatars'>
+</script>	<iframe src='https://widgets.wp.com/likes/master.html?ver=20231208#ver=20231208&amp;origin=https://datatherapy.org&amp;n=1' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+	<div id='likes-other-gravatars' class='wpl-new-layout'>
 		<div class="likes-text">
-			<span>%d</span> bloggers like this:		</div>
+			<span>%d</span>		</div>
 		<ul class="wpl-avatars sd-like-gravatars"></ul>
 	</div>
 
-		<script src="//stats.wp.com/w.js?63" defer></script> <script type="text/javascript">
+		<script src="//stats.wp.com/w.js?65" defer></script> <script type="text/javascript">
 _tkq = window._tkq || [];
 _stq = window._stq || [];
 _tkq.push(['storeContext', {'blog_id':'27405506','blog_tz':'-4','user_lang':'en','blog_lang':'en','user_id':'0'}]);
 _stq.push(['view', {'blog':'27405506','v':'wpcom','tz':'-4','user_id':'0','post':'1877','subd':'datatherapy'}]);
-_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1mNzc2NTVTamdsRWFxcEV3XUtMXVR5aWlmMVNIcUxBaFstUWRrZVpWQ2tORExSfEpUVm05SlpEZzZWOEtlbW5nZHV0dkhDNjhwP35JbkdHLyZqfnRCXXJdcktEWWJbYytfRmZJdDRNP04wMjJqK28sUnNPTG9nZndGV0t6VFNBW1t3bHUxT1E3LGMrOWhPUzRQZkl2ZTFKNVM9MktiaF9VfisyZHRsU0NtdGJRSiZkY1VNclFnaEZ5aS9EdHZ8VXlpTHBwMWZTNywvNjRYa2JveDlzVD9IPSVlX2V+c1hYcWQ4YkNuWktLfnh8aHJEejlXemRDJnlDWDJ6T01dTy5wci5NXX5JRUVnaVVIZWRJTj9QcmtiUWpNPSZ2R29uTiYsaDRFPVkxakZTdjEzNTVXaUNpN05fTVljfGJzRnI='}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1mNzc2NTVTamdsRWFxcEV3XUtMXVR5aWlmMVNIcUxBaFstUWRrZVpWQ2tORExSfEpUVm05SlpEZzZWOEtlbW5nZHV0dkhDNjhwP35JbkdHLyZqfnRCXXJdcktEWWJbYytfRmZJdDRNP04wMjJqK28sUnNPTG9nZndGV0t6VFNBW1t3bHUxT1E3LGMrOWg2VkpDYX56SW05c1Y5Y2g/ZGw3fnRVejd6bE5tRVhMWT1qc0xlQyVSYWUtbV8xSi9bNzIvbS9pclguU1hPPXVLMlFXOX5ibzEwcjJPdHBIUGElYnBWVXJzaHQlZXhHM0Q1fHNbby1ZfmNRUGRWUTRHNixTdyxYYUQ5cixXeXZ0aTdUOGREPUFfTzB8RmlmdS1CTUN1MGdCYzNQX3ZkLQ=='}]);
 _stq.push([ 'clickTrackerInit', '27405506', '1877' ]);
-	</script>
+</script>
 <noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>
-<script defer id="bilmur" data-customproperties="{&quot;enq_jquery&quot;:&quot;1&quot;,&quot;logged_in&quot;:&quot;0&quot;,&quot;wptheme&quot;:&quot;pub\/shoreditch&quot;}" data-provider="wordpress.com" data-service="simple"  src="/wp-content/js/bilmur.min.js?i=3&m=202239"></script><script>
+<script>
 if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
 
 	wpcom_mobile_user_agent_info.init();

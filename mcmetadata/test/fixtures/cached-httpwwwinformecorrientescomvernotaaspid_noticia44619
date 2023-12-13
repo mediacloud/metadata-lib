@@ -35,9 +35,9 @@ $(document).ready(function(){
 	}
 
 	// Obtiene los valores de la fecha, hora, minutos y segundos del servidor
-	var jDate = '29/09/2022';
-	var jHora = '1';
-	var jMin = '17';
+	var jDate = '13/12/2023';
+	var jHora = '0';
+	var jMin = '5';
 	var jSec = '10';
 
 	// Actualiza la capa #hora-servidor
@@ -89,7 +89,7 @@ $(document).ready(function(){
   <tr>
    <td width="12" height="50"></td>
    <td width="383">
-     <span class='fecha2'>Jueves, 29 de Septiembre de 2022</span><span class='fecha1'> | Corrientes - Argentina</span>	   
+     <span class='fecha2'>Mi&eacute;rcoles, 13 de Diciembre de 2023</span><span class='fecha1'> | Corrientes - Argentina</span>	   
    </td>
    <td width="250"><div id="caja_busqueda">
        <form id="form_b" name="form_b" method="post" action="buscar.asp" class="form_b">
@@ -245,32 +245,102 @@ $(document).ready(function(){
       <td width="330" valign="top">
         <div id="contenedores_columnas">
 
-<IMG src='publicidad/bneme.gif' class='foto_destacada1'>
-	
-	
-
 		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
 			<tr>
 			 <td valign='top' align="center">
-			  <IMG src='galeria/296395_grande (1).jpg' class='foto_destacada1'>		   
+			  <IMG src='galeria/CUERPOS QUITAR.jpg' class='foto_destacada1'>		   
 			 </td>
 			</tr> 
          <tr>
 			 <td valign='top'>
-			 <span class="volanta_col3">CORRIENTES</span>
+			 <span class="volanta_col3">INVESTIGAN EL HECHO</span>
 			 </td>
 	    </tr>
 			<tr>
 			 <td valign='top'>
-				<a href='vernota.asp?id_noticia=49868' class ='titulo_col3'>Designaron a Compromiso Ciuadadano como asesores ad honorem de la vicegobernación</a><br />		   
+				<a href='vernota.asp?id_noticia=54224' class ='titulo_col3'>Apareció el cuerpo del joven ahogado en el río Santa Lucía</a><br />		   
 			 </td>
 			</tr> 
 	    <tr>
 			 <td valign='top'>
 			  
 			 
-					 <a href='vernota.asp?id_noticia=49868' class ='intro_col3'>El vicegobernador, Pedro Braillard Poccard, recibió este miércoles a los integrantes de la Asociación Civil Compromiso Ciudadano. En el marco de los diez años de la agrupación, ratificaron su compromiso para continuar trabajando en temas de interés.
-</a> 
+					 <a href='vernota.asp?id_noticia=54224' class ='intro_col3'>
+El chico de 15 años desapareció de la superficie cuando ingresó al agua a refrescarse, el día domingo.</a> 
+					 
+			 </td>
+			</tr>
+      
+			<tr>
+			 <td> 
+			  
+	     </td>
+			</tr>  
+             	
+             <tr>
+			 <td class="linea_p_separa">
+			 </td>
+			</tr> 			
+		 </table>
+		 <div align='center' style='margin:0px 0px 0px 0px'><img src='publicidad/bneme.gif' width='300' border='0' align='center'></div><div align='center' style='margin:10px 0px 10px 0px'><img src='publicidad/2023gob250x100.gif' width='320' border='0' align='center'></div><div align='center' style='margin:0px 0px 0px 0px'><img src='publicidad/2023pep250x100.gif' width='320' border='0' align='center'></div><div id='separa_lineas_puntos'></div>
+		<table width="98%" border="0" cellspacing="0" cellpadding="0" align="center">
+		 <tr>
+		  <td height="10">
+			</td>
+		 </tr>	
+    </table>
+		<table width="98%" border="0" cellspacing="0" cellpadding="0" align="center">
+		 <tr>
+		  <td class="cabecera_encuesta">
+			</td>
+		 </tr>
+		 <tr>
+		  <td height="1">
+			</td>
+		 </tr>
+		 <tr class="tabla_encuesta">
+			<td>
+				<form id="formencuesta" class="form" name="formencuesta" method="post" action="grabarencuesta.asp">
+					<div class='encuesta_titulo'>CUÁL ES TU MASCOTA FAVORITA?</div><table width='215' border='0' cellspacing='3' cellpadding='0'><tr><td width='30' height='30'  align='right' valign='middle'><input name='opencuesta' type='radio' value='39' /></td><td><span class='encuesta_opciones'>1- GATO</span></td></tr><tr><td width='30' height='30'  align='right' valign='middle'><input name='opencuesta' type='radio' value='40' /></td><td><span class='encuesta_opciones'>2- PERRO</span></td></tr></table>           
+					
+						<div class="linea_p_separa_e">
+						</div>
+						<div align="center" style="height:40px;">
+						 <input type=image src='imagenes/b_votar.png' width='95' height='20' /><div class='linea_p_separa_e'></div>
+						</div>
+				</form>
+			</td>
+		 </tr>
+		</table>
+		<table width="98%" border="0" cellspacing="0" cellpadding="0" align="center">
+		 <tr>
+		  <td height="10">
+			</td>
+		 </tr>	
+    </table>
+		
+		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
+			<tr>
+			 <td valign='top' align="center">
+			  <IMG src='galeria/TOBILLERA.jpg' class='foto_destacada1'>		   
+			 </td>
+			</tr> 
+         <tr>
+			 <td valign='top'>
+			 <span class="volanta_col3">DETENIDO</span>
+			 </td>
+	    </tr>
+			<tr>
+			 <td valign='top'>
+				<a href='vernota.asp?id_noticia=54223' class ='titulo_col3'>Andaba suelto y tenía domiciliaria con tobillera</a><br />		   
+			 </td>
+			</tr> 
+	    <tr>
+			 <td valign='top'>
+			  
+			 
+					 <a href='vernota.asp?id_noticia=54223' class ='intro_col3'>
+Un delincuente con antecedentes y con un proceso abierto por robo, que debía estar guardando prisión domiciliaria, fue capturado -en estado de excitación por el consumo de estupefaciente- por efectivos del GRIM 2, cuando acechaba a vecinos.</a> 
 					 
 			 </td>
 			</tr>
@@ -290,25 +360,25 @@ $(document).ready(function(){
 		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
 			<tr>
 			 <td valign='top' align="center">
-			  <IMG src='galeria/5e21f515e906a_900.jpg' class='foto_destacada1'>		   
+			  <IMG src='galeria/ITUZAINGÓ.jpg' class='foto_destacada1'>		   
 			 </td>
 			</tr> 
          <tr>
 			 <td valign='top'>
-			 <span class="volanta_col3">Separado del plantel de Vélez</span>
+			 <span class="volanta_col3">ITUZAINGÓ CORRIENTES</span>
 			 </td>
 	    </tr>
 			<tr>
 			 <td valign='top'>
-				<a href='vernota.asp?id_noticia=49857' class ='titulo_col3'>Ricardo Centurión: "Me cansé de la vida"</a><br />		   
+				<a href='vernota.asp?id_noticia=54222' class ='titulo_col3'>FEMICIDIO: Un hombre mató a su pareja y luego se suicidó</a><br />		   
 			 </td>
 			</tr> 
 	    <tr>
 			 <td valign='top'>
 			  
 			 
-					 <a href='vernota.asp?id_noticia=49857' class ='intro_col3'>"Me pusieron todos los días por la tarde para no cruzarme con el plantel profesional", cuestionó "Ricky" a la vez que aseguró que necesitaba aislarse. "Me sentía agobiado. Tuve ataques de pánico. Necesitaba irme de todo", expresó.
-</a> 
+					 <a href='vernota.asp?id_noticia=54222' class ='intro_col3'>
+El hecho ocurrió en horas de esta madrugada en la localidad correntina de Ituzaingó.</a> 
 					 
 			 </td>
 			</tr>
@@ -328,24 +398,25 @@ $(document).ready(function(){
 		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
 			<tr>
 			 <td valign='top' align="center">
-			  <IMG src='galeria/6334a1296703f_655.jpg' class='foto_destacada1'>		   
+			  <IMG src='galeria/volante.jpg ' class='foto_destacada1'>		   
 			 </td>
 			</tr> 
          <tr>
 			 <td valign='top'>
-			 <span class="volanta_col3">Iban camino a Mendoza</span>
+			 <span class="volanta_col3">UN HERIDO DE GRAVEDAD</span>
 			 </td>
 	    </tr>
 			<tr>
 			 <td valign='top'>
-				<a href='vernota.asp?id_noticia=49856' class ='titulo_col3'>Murió una mujer y hay 19 heridos tras el vuelco de un micro con hinchas de Boca</a><br />		   
+				<a href='vernota.asp?id_noticia=54216' class ='titulo_col3'>Chocó a dos jóvenes, huyó y lograron identificarla</a><br />		   
 			 </td>
 			</tr> 
 	    <tr>
 			 <td valign='top'>
 			  
 			 
-					 <a href='vernota.asp?id_noticia=49856' class ='intro_col3'>El accidente se produjo a 40 kilómetros de la capital provincial, cuando los simpatizantes oriundos de La Matanza se dirigían hacia el estadio en el que el "Xeneize" entfrentará esta noche a Quilmes por los cuartos de final de la Copa Argentina.</a> 
+					 <a href='vernota.asp?id_noticia=54216' class ='intro_col3'>
+Un joven de 21 años está en gravísimo etado con fractura de cráneo, luego de ser atropellado el viernes por la tarde junto a otro muchacho que lo acompañaba por un automóvil cuya conductora bajó unos segundos vio lo que hizo y huyó del lugar.</a> 
 					 
 			 </td>
 			</tr>
@@ -365,63 +436,25 @@ $(document).ready(function(){
 		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
 			<tr>
 			 <td valign='top' align="center">
-			  <IMG src='galeria/63341b5a714f0_900.jpg' class='foto_destacada1'>		   
+			  <IMG src='galeria/PUENTE DLFIU.jpg' class='foto_destacada1'>		   
 			 </td>
 			</tr> 
          <tr>
 			 <td valign='top'>
-			 <span class="volanta_col3">Copa Argentina</span>
+			 <span class="volanta_col3">ALERTA EN CORRIENTES</span>
 			 </td>
 	    </tr>
 			<tr>
 			 <td valign='top'>
-				<a href='vernota.asp?id_noticia=49855' class ='titulo_col3'>Boca va por las semifinales ante Quilmes en Mendoza</a><br />		   
+				<a href='vernota.asp?id_noticia=54215' class ='titulo_col3'>Buscan a un menor que desapareció en el río Santa Lucía</a><br />		   
 			 </td>
 			</tr> 
 	    <tr>
 			 <td valign='top'>
 			  
 			 
-					 <a href='vernota.asp?id_noticia=49855' class ='intro_col3'>El encuentro se jugará a partir de las 22 en el estadio Malvinas Argentinas. Si ganan los "Xeneizes", podría haber otra edición del superclásico en caso de que River supere a Patronato.
-</a> 
-					 
-			 </td>
-			</tr>
-      
-			<tr>
-			 <td> 
-			  
-	     </td>
-			</tr>  
-             	
-             <tr>
-			 <td class="linea_p_separa">
-			 </td>
-			</tr> 			
-		 </table>
-		 
-		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
-			<tr>
-			 <td valign='top' align="center">
-			  <IMG src='galeria/61f4808990950_900.jpg' class='foto_destacada1'>		   
-			 </td>
-			</tr> 
-         <tr>
-			 <td valign='top'>
-			 <span class="volanta_col3">Estados Unidos</span>
-			 </td>
-	    </tr>
-			<tr>
-			 <td valign='top'>
-				<a href='vernota.asp?id_noticia=49854' class ='titulo_col3'>Lionel Scaloni seguirá al frente del seleccionado argentino hasta 2026</a><br />		   
-			 </td>
-			</tr> 
-	    <tr>
-			 <td valign='top'>
-			  
-			 
-					 <a href='vernota.asp?id_noticia=49854' class ='intro_col3'>El presidente de la AFA, Claudio Tapia, confirmó en redes sociales que arreglaron la continuidad del actual técnico de la selección nacional hasta próximo mundial y que "hay Scaloneta para rato".
-</a> 
+					 <a href='vernota.asp?id_noticia=54215' class ='intro_col3'>
+Por causas que se tratan de establecer, el menor desapareció de la superficie y comenzaron a buscarlo.</a> 
 					 
 			 </td>
 			</tr>

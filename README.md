@@ -61,9 +61,7 @@ Distribution
 
 ### Test Cache
 
-Test are run against fixtures by default.
-This can be change with the use of '--use-cache=False' when running tests
-
+Test are run against fixtures by default.  This can be changed with the use of '--use-cache=False' when running tests. 
 When adding new tests, re-run 'scripts/get-test-web-content.py' 
 
 Version History

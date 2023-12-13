@@ -1,0 +1,1756 @@
+<!doctype html>
+<html>
+
+<head>
+  
+  
+  
+  
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <title>中国政府网_中央人民政府门户网站</title>
+<meta name="others" content="页面生成时间 2023-12-13 08:25:15" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+
+    <meta name="lanmu" content="">
+
+
+<meta name="filepath" content="/index.htm">
+<META name="catalog" content="2016govs">
+<META name="filetype" content="0">
+<META name="publishedtype" content="1">
+<META name="pagetype" content="2">
+<META name="uctk" content="enabled" />
+  <link href="./images/trs_favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+  <link href="./images/trs_public.css" rel="stylesheet" type="text/css" />
+  <link href="./images/gtrs_pc_index.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="./images/trs_mobile_pub.css" media="screen and (max-width:767px) and (orientation:portrait)" />
+  <link rel="stylesheet" type="text/css" href="./images/gtrs_mobile_index.css" media="screen and (max-width:767px) and (orientation:portrait)" />
+  <link rel="stylesheet" href="./images/gtrs_idangerous.swiper.css">
+
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="./images/trs_respond.min.js"></script>
+  <![endif]-->
+
+  <!-- <script src="./images/jquery-1.10.1.min.js"></script> -->
+  <script src="./images/jquery.min.js"></script>
+  <script src="./images/trs_h5.js"></script>
+  <script src="./images/trs_resize.js"></script>
+  <script src="./images/slides1.js"></script>
+  <script src="./images/jquery.SuperSlide.js"></script>
+  <script src="./images/grayscale.js"></script>
+
+  
+  <style>
+      #index_dxdcyjzf{height: 240px;}
+      .state .side01 .item01 .msg{height: 483px;}
+      .state .side01 .item01 .msg h3{margin-bottom: 26px;width: 126px;}
+      .state .side01 .item01 .msg h3 a{ font-size:22px;height: 36px;line-height: 36px;}
+      .state .side01 .item01 .video{height: 248px; margin: 0 auto 22px;}
+      .state .side02 .tabs .ctx .item .iconlist2 .index_gwyhlwdc .btns a+a {
+            height: 40px;
+            line-height: 40px;
+            bottom: 14px;
+        }
+      .state .side02 .tabs .ctx .item .iconlist2 .index_gwyhlwdc .btns a.lhang{
+            height: 40px;
+            padding: 5px 18px;     
+            font-size: 13px;    
+            bottom: 14px;
+            line-height: 15px;
+      }
+      .index_gwyhlwdc .btns a{
+            height: 40px;
+            bottom: 5px;
+            width: 80px;
+            line-height: 40px;
+      }
+      .index_gwyhlwdc .btns a.lhang{
+        width: 130px;
+        height: 30px;
+        padding: 5px 18px;     
+        font-size: 13px;    
+        line-height: 15px;
+      }
+
+      .policy .side01 .lib{
+        margin-top: 18px;
+      }
+      .policy .side01 .lib h3{
+        margin: 18px auto 16px;
+      }
+      .hqzqzcjncx20230912{
+        padding-left: 20px;
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 25px;
+        overflow: hidden;
+        vertical-align: top;
+        background: url(https://www.gov.cn/images/gtrs_infolist_dot.png) no-repeat left 12px;
+      }
+      /* 首页大头条字体变色解决span外边距 */
+.index_toutiao .memo span[style] {
+    margin: 0;
+}
+      @media screen and (max-width: 767px){
+       
+        .hqzqzcjncx20230912{
+          height: auto;
+          padding-left: 0;
+          font-size: 32px;
+          overflow: hidden;
+          vertical-align: top;
+          background: none;
+          line-height: 44px;
+        }
+      }
+
+  </style>
+</head>
+
+<body>
+
+<div class="main">
+
+  <!--header-->
+<link rel='stylesheet' type='text/css' href='./images/trs_FZYouHK_512B.css'>
+<link rel='stylesheet' type='text/css' href='./images/trs_FZZHUNYSK.css'></link>
+<!--<script src="./images/trs_jquery.min.js"></script>-->
+<style>
+ .header_toolbar li {
+    font-size: 16px;
+}
+  .header_toolbar li.split {
+    margin: 0 9px;
+  }
+</style>
+<div class="header">
+  <div class="container mhide">
+    <div class="padding pos_r">
+      <div class="header_logo"><a href="./" target="_blank"
+                                  aria-label="中国政府网"><img src="./images/gtrs_logo_lt.png" alt="" /><img src="./images/gtrs_logo_rt.png" alt="" class="wordlogo" /></a></div>
+      <div class="header_search">
+        <form>
+          <input type="hidden" name="t" value="govall" />
+          <input class="header_search_txt" name="headSearchword" type="text" autoComplete="off" value="" onkeydown="listenerKeyUpEventFn()" />
+          <button class="header_search_btn" type="btn" value="&nbsp;" onClick="goSearch(this)" />
+        </form>
+      </div>
+      <ul class="header_toolbar">
+        <li><a href="./" target="_blank">首页</a></li>
+ <li class="split">|</li>
+        <li><a href="./" target="_blank">简</a></li>
+        <li class="split">|</li>
+        <li><a href="http://big5.www.gov.cn/gate/big5/www.gov.cn/" target="_blank">繁</a></li>
+        <li class="split">|</li>
+        <li><a href="http://english.www.gov.cn/" target="_blank">EN</a></li>
+        <li class="split">|</li>
+        <li class="nologin"><a id="userlogin" href="javascript:void(0);">登录</a></li>
+        <li class="yeslogin hide">
+          <a id="showname" href="javascript:void(0);"></a>
+          <ul>
+            <li class="usercenter"><a id="usercenter" href="javascript:void(0);">个人中心</a></li>
+            <li><a id="logout" href="javascript:void(0);">退出</a></li>
+          </ul>
+        </li>
+        <li class="split">|</li>
+        <li><a target="_blank" href="https://mail.gov.cn/nsmail/index.php">邮箱</a></li>
+        <li class="split">|</li>
+       <li><a href="javascript:;" onclick="aria.start()" clickhide="false">无障碍</a></li>
+    
+      </ul>
+    </div>
+  </div>
+  <div class="container pchide">
+    <a href="./" class="logo" target="_blank"><img src="./images/newlogo19ysp_lt.png" /><img src="./images/newlogo19ysp_rt.png" class="wordlogo" /></a>
+    <a class="lang" href="http://english.www.gov.cn/">EN</a>
+    <a href="javascript:;" class="search" id="searchBtn">
+      <img class="s1" src="./images/gtrs_newsearch.png" alt="" />
+      <img class="s2" src="./images/gtrs_newshouqi.png" alt="" />
+    </a>
+
+    <div class="searchBox">
+      <div class="search">
+        <form style="font-size:32px;">
+          <input class="text search_mi" name="headSearchword" type="text" placeholder="请输入关键字……" onkeydown="listenerKeyUpEventFn()" />
+          <input class="image search_fr" type="btn" value="" onClick="goSearch(this)" />
+        </form>
+        <script>
+          function goSearch(evnet) {
+            var e = window.event || event;
+            if(e.preventDefault){
+              e.preventDefault();
+            }else{
+              e.returnValue=false;
+            }
+            var s = '', m = document.querySelector('.header .pchide [name=headSearchword]');
+            s = m.offsetHeight > 0 ? m.value : document.querySelector('.header .mhide [name=headSearchword]').value;
+            // 市场主体 dataTypeId=14
+            if (s == '市场主体') {
+              url = 'http://sousuo.www.gov.cn/sousuo/search.shtml?code=17da70961a7&dataTypeId=14&searchWord=' + s;
+            } else {
+              url = 'http://sousuo.www.gov.cn/sousuo/search.shtml?code=17da70961a7&dataTypeId=107&searchWord=' + encodeURIComponent(s);
+            }
+            window.open(url, '_blank');
+          }
+          function listenerKeyUpEventFn(){
+            if(event.keyCode==13){
+              goSearch();
+            };
+          }
+        </script>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="siteurl hide">
+  https://www.gov.cn/
+</div>
+<script>
+			//繁体和简体相互转换
+			var currUrl = window.location.href;
+			
+			var flag = currUrl.indexOf("big5.www.gov.cn/gate/big5/");
+			
+			var jtzw = 'ht'+'tps://www.gov.cn';
+			
+			//繁体
+			if (flag > 0) { 
+				
+				$('.header_logo a').attr('href',jtzw);
+				
+				$('.header_toolbar li').eq(2).find('a').attr('href', jtzw);
+				
+			}//简体
+			else { 
+				
+				$('.header_toolbar li').eq(2).find('a').attr('href', jtzw);
+				
+			};
+		</script>
+<!-- <script src="./images/yh-idm5.0.0.js"></script>
+<script src="./images/md5.js"></script>
+<script type="text/javascript" src="./images/pub.js"></script> -->
+
+
+<!--<a href="javascript:void(0)" onClick="aria.start()" style="position: absolute;top: 0px;" class="mhide">无障碍</a>-->
+  <!--end header-->
+
+  <div class="container">
+
+    <!-- title -->
+    <!-- 下面index_toutiao这个class不能删除 -->
+    <div class="index_toutiao" id="index_toutiao">
+      
+        <link rel='stylesheet' type="text/css" href="/fz-font/govwf_fz_6919843_937954408/govwf_fz_6919843_937954408.css">
+        <h2 class="mhide" style="font-family:'govwf_fz_6919843_937954408'"><a href="./yaowen/liebiao/202312/content_6919834.htm" target="_blank">中央经济工作会议在北京举行 习近平发表重要讲话</a></h2>
+        <div class="memo mhide">
+          <a href="https://www.gov.cn/yaowen/liebiao/202312/content_6919834.htm" target="_blank">习近平在重要讲话中全面总结2023年经济工作，深刻分析当前经济形势，系统部署2024年经济工作</a> | <a href="https://www.gov.cn/yaowen/liebiao/202312/content_6919834.htm" target="_blank">李强作总结讲话　赵乐际王沪宁蔡奇丁薛祥李希出席会议</a>
+        </div>
+      
+
+      
+        <link rel='stylesheet' type="text/css" href="/fz-font/govwf_fz_6919844_937954408/govwf_fz_6919844_937954408.css">
+        <h2 class="pchide" style="font-family:'govwf_fz_6919844_937954408'">        <a href="./yaowen/liebiao/202312/content_6919834.htm" target="_blank">中央经济工作会议在北京举行 习近平发表重要讲话</a>
+        </h2>
+        
+      
+
+      <div class="detail mhide pcColor"><a target="_blank" href="./toutiao/">更多 >></a></div>
+      <div class="detail pchide mColor"><a target="_blank" href="./toutiao/">更多>></a></div>
+    </div>
+    <!-- end title -->
+    <script>
+      var currentColorPc = $(".index_toutiao h2.mhide a span").css("color")
+      console.log(currentColorPc)
+      if (currentColorPc) {
+        $(".index_toutiao .pcColor a").css("color", currentColorPc)
+      }
+
+      var currentColorM = $(".index_toutiao h2.pchide a span").css("color")
+      console.log(currentColorM)
+      if (currentColorM) {
+        $(".index_toutiao .mColor a").css("color", currentColorM)
+      }
+    </script>
+    <!-- news -->
+    <div class="news">
+      <div class="focus" id="index_tpxw">
+        <div class="slider_carousel" tabindex="0">
+          
+            <div class="item">
+              <div class="pic">
+                <a href="./yaowen/liebiao/202312/content_6919850.htm" target="_blank">
+                  <img src="./shouye/datu/202312/W020231213284305085792.jpg" /></a>
+              </div>
+              <h4>
+                <a href="./yaowen/liebiao/202312/content_6919850.htm" target="_blank">习近平同越共中央总书记阮富仲举行会谈</a>
+              </h4>
+            </div>
+          
+            <div class="item">
+              <div class="pic">
+                <a href="./yaowen/liebiao/202312/content_6919861.htm" target="_blank">
+                  <img src="./shouye/datu/202312/W020231213301780043092.jpg" /></a>
+              </div>
+              <h4>
+                <a href="./yaowen/liebiao/202312/content_6919861.htm" target="_blank">从中央经济工作会议看2024年中国经济高质量发展</a>
+              </h4>
+            </div>
+          
+            <div class="item">
+              <div class="pic">
+                <a href="./yaowen/tupian/202312/content_6919790.htm#10" target="_blank">
+                  <img src="./shouye/datu/202312/W020231213302219868337.jpg" /></a>
+              </div>
+              <h4>
+                <a href="./yaowen/tupian/202312/content_6919790.htm#10" target="_blank">寒潮下的劳动一线见闻</a>
+              </h4>
+            </div>
+          
+        </div>
+      </div>
+      <!-- 下面gwyscreenshotflag这个class不能删除 -->
+      <div class="list mhide gwyscreenshotflag" id="index_ywowen">
+        <h2><a href="./yaowen/" target="_blank">要闻</a></h2>
+        <ul>
+          
+            <li>
+              <div>
+                <a href="https://www.gov.cn/yaowen/liebiao/202312/content_6919456.htm" target="_blank">
+                  李强会见国际狮子会会长希尔
+                </a>
+              </div><i></i>
+            </li>
+          
+            <li>
+              <div>
+                <a href="https://www.gov.cn/yaowen/liebiao/202312/content_6919230.htm" target="_blank">
+                  国务院举行宪法宣誓仪式 李强总理监誓
+                </a>
+              </div><i></i>
+            </li>
+          
+            <li>
+              <div>
+                <a href="https://www.gov.cn/yaowen/liebiao/202312/content_6919330.htm" target="_blank">
+                  丁薛祥出席2023世界中文大会并发表主旨讲话
+                </a>
+              </div><i></i>
+            </li>
+          
+            <li>
+              <div>
+                <a href="https://www.gov.cn/lianbo/bumen/202312/content_6919770.htm" target="_blank">
+                  2023年增发国债第一批项目清单下达
+                </a>
+              </div><i></i>
+            </li>
+          
+            <li>
+              <div>
+                <a href="https://www.gov.cn/yaowen/shipin/202312/content_6919854.htm" target="_blank">
+                  今年全国水利建设完成投资创历史新高
+                </a>
+              </div><i></i>
+            </li>
+          
+            <li>
+              <div>
+                <a href="https://www.gov.cn/lianbo/bumen/202312/content_6919832.htm" target="_blank">
+                  11月贸易规模创月度历史新高 中越经贸合作亮点纷呈
+                </a>
+              </div><i></i>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+    <!-- end news -->
+
+    <script>
+      function forSyYWPartFn(){
+        var _targets = $('.news .list li');
+        var _targetsHeight = 0;
+        _targets.each(function(i,o){
+          $(o).css({'height':'auto'});
+          _targetsHeight+=$(o).outerHeight();
+        });
+        var _interValueTotal =  $('.news .list ul').height() - _targetsHeight;
+        var _participator = _targets.length - 1;
+        _targets.slice(1).each(function(i,o){
+          $(o).css({'margin-top':(_interValueTotal/_participator)-1});
+        });
+      };
+      forSyYWPartFn()
+      $(window).resize(function(){
+        forSyYWPartFn()
+      });
+    </script>
+
+    <!-- policy pc -->
+    <div class="policy mhide">
+      <div class="side side01">
+        <div id="index_zxzc">
+          <h2><a href="./zhengce/index.htm" target="_blank">最新政策</a></h2>
+          <ul>
+            
+              <li>
+                <a href="https://www.gov.cn/zhengce/content/202312/content_6919596.htm" target="_blank">
+                  国务院办公厅印发《关于加快内外贸一体化发展的若干措施》
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://www.gov.cn/zhengce/content/202312/content_6919000.htm" target="_blank">
+                  国务院印发《空气质量持续改善行动计划》
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://www.gov.cn/zhengce/content/202312/content_6918913.htm" target="_blank">
+                  国务院印发《全面对接国际高标准经贸规则推进中国（上海）自由贸易试验区高水平制度型开放总体方案》
+                </a>
+              </li>
+            
+              <li>
+                <a href="" target="_blank">
+                  <a href="https://www.gov.cn/zhengce/content/202312/content_6918910.htm" target="_blank">国务院批复同意《安徽省国土空间规划（2021—2035年）》</a><a href="https://www.gov.cn/zhengce/content/202312/content_6918905.htm" target="_blank">《湖南省国土空间规划（2021—2035年）》</a>
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://www.gov.cn/zhengce/content/202311/content_6917190.htm" target="_blank">
+                  国务院办公厅转发《城市社区嵌入式服务设施建设工程实施方案》
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+        <div class="lib" id="index_gwyzcwjk">
+          <h3><a href="./zhengce/zhengcewenjianku/" target="_blank">国务院政策文件库</a></h3>
+          <div>
+            <input placeholder="搜政策......" />
+            <i></i>
+          </div>
+          <p class="hqzqzcjncx20230912">
+            
+                  <a href="./zhengce/qiye/" target="_blank">惠企助企政策集纳查询</a>
+         
+            
+          </p>
+        </div>
+      </div>
+      <div class="side side02">
+        <div class="item item01" id="index_zcjd">
+          <h2><a href="./zhengce/jiedu/" target="_blank">政策解读</a></h2>
+          
+            <a class="img" href="https://www.gov.cn/zhengce/zczhjd/index.htm" target="_blank">
+              <img src="./shouye/zhengcejiedu/202311/W020231120619617004371_ORIGIN.jpg" />
+            </a>
+          
+          <ul>
+            
+              <li>
+                <a href="https://www.gov.cn/zhengce/202312/content_6919123.htm" target="_blank">
+                  中新自由贸易协定进一步升级议定书 商务部最新解读来了！
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://www.gov.cn/zhengce/202312/content_6919119.htm" target="_blank">
+                  经济回升向好 发展前景光明——解读当前经济形势和未来发展预期
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://www.gov.cn/zhengce/202312/content_6919120.htm" target="_blank">
+                  图表：2023年11月我国外贸进出口总值同比增长1.2%
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+        <div class="item item02" id="index_gwyzzjg">
+          <a target="_blank" href="./gwyzzjg/">
+            国务院组织机构
+          </a>
+        </div>
+        <div class="item item03" id="index_gwygbd5qrk">
+          <a target="_blank" href="./gongbao/currentissue.htm">国务院公报</a>
+          <span>|</span>
+          <a target="_blank" href="./zhengce/xxgk/">政府信息公开</a>
+          <span>|</span>
+          <a target="_blank" href="./guoqing/">国情</a>
+          <br />
+          <a target="_blank" href="./zhengce/xzfgk/">国家行政法规库</a>
+          <span>|</span>
+          <a target="_blank" href="//www.gov.cn/zhengce/xxgk/gjgzk/index.htm">国家规章库</a>
+        </div>
+      </div>
+      <div class="side side03">
+        <div id="index_gwygzjxs">
+          <a href="./gzjxs/" target="_blank">
+            <img src="./images/gtrs_index_gywzxd.gif" />
+          </a>
+          <div class="index_gwyzxd_infolist">
+            <ul class="ul1">
+              
+                <li>
+                  <a href="https://www.gov.cn/yaowen/liebiao/202312/content_6918465.htm" target="_blank">
+                    全国减轻企业负担政策宣传周启动
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="https://www.gov.cn/yaowen/shipin/202311/content_6917536.htm" target="_blank">
+                    我国将在约5000个社区试点建设嵌入式服务设施
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="https://www.gov.cn/lianbo/fabu/202311/content_6916708.htm" target="_blank">
+                    新闻发布会：加强法治建设 服务保障高质量发展
+                  </a>
+                </li>
+              
+            </ul>
+          </div>
+        </div>
+        <div id="index_zwlb">
+          <h2><a href="./lianbo/" target="_blank">政务联播</a></h2>
+          <ul class="ul2">
+            
+              <li>
+                <a href="https://www.gov.cn/lianbo/bumen/202312/content_6918417.htm" target="_blank">
+                  两部门下达48.46亿元中央救灾资金 支持地方开展冬春临时生活困难救助
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://www.gov.cn/lianbo/bumen/202312/content_6918636.htm" target="_blank">
+                  自然资源部提高基层用地管理水平 发布首个乡村振兴用地政策指南
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://www.gov.cn/lianbo/difang/202312/content_6918646.htm" target="_blank">
+                  各地多举措做好呼吸道疾病防治工作
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- end policy -->
+
+
+
+    <!-- state pc -->
+    <div class="state mhide">
+      <div class="side01">
+        <div class="item item01">
+          <div id="index_dxdcyjzf">
+            <a href="./hudong/dxdcyjzf.htm" target="_blank" class="img">
+              <img src="./images/gtrs_index_dxdcyj.jpg" />
+            </a>
+            <ul class="ul01">
+              
+                <li>
+                  <a href="./zhengce/202312/content_6919500.htm" target="_blank">
+                    坚持问题导向 抓好调查研究
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="./lianbo/difang/202312/content_6918667.htm" target="_blank">
+                    坚持人民至上 走好群众路线
+                  </a>
+                </li>
+              
+            </ul>
+            
+          </div>
+          <div class="msg" id="index_jyzj">
+            <h3>
+              <a href="./hudong/wsdy/" target="_blank">建言征集</a>
+            </h3>
+            <div class="video">
+                
+                  <div class="pic">
+                    <a href="https://liuyan.www.gov.cn/2023xccy/index.htm" target="_blank">
+                      <img src="./gwywls/wsdy/202310/W020231025389230596256_ORIGIN.jpg" />
+                    </a>
+                  </div>
+                  <a href="https://liuyan.www.gov.cn/2023xccy/index.htm" target="_blank">
+                    如何做好“土特产”文章？我对乡村产业说几句
+                  </a>
+                
+            </div>
+            <p>
+              
+                <span>
+                  <a href="https://liuyan.www.gov.cn/2023gnj/index.htm" target="_blank">
+                    供暖季网民意见建议征集
+                    <span style="width: 100%">>></span>
+                  </a>
+                </span>
+              
+                <span>
+                  <a href="https://liuyan.www.gov.cn/2023jyjc/index.htm" target="_blank">
+                    检验检测行风突出问题征集
+                    <span style="width: 100%">>></span>
+                  </a>
+                </span>
+              
+            </p>
+          </div>
+          <div id="index_ssqz">
+            <h2><a href="./hudong/ssqz/" target="_blank">事实求证</a></h2>
+            <ul class="ul02">
+              
+                <li>
+                  <a href="./lianbo/bumen/202311/content_6917465.htm" target="_blank">
+                    市场监管总局提醒各经营主体：报送年报、移出经营异常名录务必通过国家企业信用信息公示系统等官方渠道
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="./lianbo/bumen/202311/content_6917464.htm" target="_blank">
+                    个人养老金怎么开户缴费？资金账户可变更银行吗？权威解答
+                  </a>
+                </li>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="item item02" id="slider_gwyzcwdpt">
+          <div class="slider_gwyzcwdpt" style="overflow: hidden;">
+            <div class="item slidesjs-slide" slidesjs-index="0">
+              <div class="index_gwydswzd" id="index_gwydswzd">
+                <a target="_blank" href="./zhuanti/gwydswzd/">
+                  <img src="./images/sy_dswzd20230426.jpg" />
+                </a>
+                <div class="btns">
+                  
+                  <a target="_blank" href="./gwywls/gwydswzd/dq/202306/content_6885649.htm">最新答题</a>
+                  <a target="_blank" href="https://www.gov.cn/yaowen/liebiao/202307/content_6890071.htm">获奖名单</a>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="item slidesjs-slide" slidesjs-index="1">
+              <div class="index_gwyzcwdpt" id="index_gwyzcwdpt">
+                <div class="ltw"><a target="_blank" href="https://xcx.www.gov.cn/robot/web/">
+                  <img src="./images/gtrs_index_ltw.png" />
+                </a></div>
+                <h3><a target="_blank" href="https://bmfw.www.gov.cn/zcdwpt/index.html#/">国务院政策问答平台</a></h3>
+                <ul>
+                  <li><a target="_blank" href="https://bmfw.www.gov.cn/zcdwpt/index.html#/">最新发布</a></li>
+                  <li><a target="_blank" href="https://bmfw.www.gov.cn/zcdwpt/wdzt.html">问答专题</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="item slidesjs-slide" slidesjs-index="2">
+              <div class="index_gwyhlwdc" id="index_gwyhlwdc">
+                <a target="_blank" href="https://tousu.www.gov.cn/dc/index.htm">
+                  <img src="./images/gtrs_index_gwyhlwdc380.jpg" />
+                </a>
+                <div class="btns">
+                  <a class="lhang" target="_blank" href="https://tousu.www.gov.cn/dc/2023qgtydsc/index.htm">妨碍建设全国统一大市场问题线索征集</a>
+                  <a target="_blank" href="./hudong/gwywsdc/duchahuisheng/">督查回声</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="focus">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide s01">
+                  <a target="_blank" href="https://xcx.www.gov.cn/robot/web/">
+                    <img src="./images/gtrs_index_ltw.png" />
+                  </a>
+                  <span><a target="_blank" href="http://bmfw.www.gov.cn/zcdwpt/index.html#/">国务院政策问答平台</a></span>
+                  <p>
+                    <a target="_blank" href="http://bmfw.www.gov.cn/zcdwpt/index.html#/">最新发布</a>
+                    <a target="_blank" href="http://bmfw.www.gov.cn/zcdwpt/wdzt.html">问答专题</a>
+                  </p>
+                </div>
+                <div class="swiper-slide s02">
+                  <a target="_blank" href="https://tousu.www.gov.cn/dc/index.htm">
+                    <img src="./images/gtrs_index_img_gwyhlwdc380.jpg" />
+                  </a>
+                  <p>
+                    <a href="./hudong/gwywsdc/baoguangtai/" target="_blank">曝光台</a>
+                    <a href="./hudong/gwywsdc/duchahuisheng/" target="_blank">督查回声</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a class="arrow arrow-left" href="javascript:;"></a>
+            <a class="arrow arrow-right" href="javascript:;"></a>
+            <div class="pagination"></div>
+          </div> -->
+        </div>
+      </div>
+      <div class="side02">
+        <div id="index_gwywls">
+          <h2>
+            <a href="./gwywls/" target="_blank">
+              <img src="./images/gtrs_index_gwywls.png" />
+            </a>
+          </h2>
+          <div class="tabs">
+            <div class="nav font_FZZHUNYSK">
+              <span class="active">施政为民<b><i></i></b></span>
+              <span>激发活力<b><i></i></b></span>
+              <span>政府建设<b><i></i></b></span>
+            </div>
+            <div class="ctx">
+              <div class="item t01 active">
+                <a target="_blank" href="https://liuyan.www.gov.cn/hudong/atwls/rmqz.htm">
+                  <h3>以人民为中心</h3>
+                  <div class="txt">
+                    <p>
+                      欢迎你@国务院。你对就业、收入、教育、医疗、住房、生态环境等有什么感受？你对完善政策措施、改进政府工作有何高招与高见？政府工作离不开大家的真知灼见。你的留言可能被转给有关部门和地方，并可能以不同形式公开。你对美好生活的向往，我们努力的方向。
+                    </p>
+                    <p>大兴调查研究之风，汲取各方智慧，辅助政府科学决策，感谢你的参与。</p>
+                  </div>
+                </a>
+                <div class="btn">
+                  <a href="https://liuyan.www.gov.cn/hudong/atwls/rmqz.htm" target="_blank">人民群众留言入口</a>
+                </div>
+                <div class="title">
+                  <h2>
+                    <a class="txt" href="./fuwu/gongmin/" target="_blank">为民服务</a>
+                    <a class="more" href="./fuwu/gongmin/" target="_blank">更多 >></a>
+                  </h2>
+                </div>
+                <div class="iconlist">
+                  <ul class="clearfix">
+                    <li>
+                      <a href="./fuwu/gongmin/huji/#0" target="_blank">
+                        <img src="./images/t1_1.png" alt="" />
+                        <span>户籍</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./fuwu/gongmin/jiaoyu/#1" target="_blank">
+                        <img src="./images/t1_2.png" alt="" />
+                        <span>教育</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./fuwu/gongmin/jiuye/#2" target="_blank">
+                        <img src="./images/t1_3.png" alt="" />
+                        <span>就业</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./fuwu/gongmin/shuishou/#3" target="_blank">
+                        <img src="./images/t1_4.png" alt="" />
+                        <span>税收</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./fuwu/gongmin/hunyin/#10" target="_blank">
+                        <img src="./images/t1_5.png" alt="" />
+                        <span>婚姻</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="item t02">
+                <a target="_blank" href="https://liuyan.www.gov.cn/hudong/atwls/qygth.htm">
+                  <h3>激发市场活力</h3>
+                  <div class="txt">
+                    <p>
+                      欢迎你@国务院。你对国企、民企、外企、个体户等经营主体的健康发展，有什么感受和期待？你对完善政策措施、优化营商环境有何高招与高见？政府工作离不开大家的真知灼见。你的留言可能被转给有关部门和地方，并可能以不同形式公开。你对美好生活的向往，我们努力的方向。
+                    </p>
+                    <p>大兴调查研究之风，汲取各方智慧，辅助政府科学决策，感谢你的参与。</p>
+                  </div>
+                </a>
+                <div class="btn">
+                  <a href="https://liuyan.www.gov.cn/hudong/atwls/qygth.htm" target="_blank">企业、个体户留言入口</a>
+                </div>
+                <div class="title">
+                  <h2>
+                    <a class="txt" href="./fuwu/qiye/" target="_blank">为企服务</a>
+                    <a class="more" href="./fuwu/qiye/" target="_blank">更多 >></a>
+                  </h2>
+                </div>
+                <div class="iconlist">
+                  <ul class="clearfix">
+                    <li>
+                      <a href="./fuwu/qiye/kaibansheli/#0" target="_blank">
+                        <img src="./images/t2_1.png" alt="" />
+                        <span>开办设立</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./fuwu/qiye/qiyenashui/#1" target="_blank">
+                        <img src="./images/t2_2.png" alt="" />
+                        <span>企业纳税</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./fuwu/qiye/gongshangguanli/#2" target="_blank">
+                        <img src="./images/t2_3.png" alt="" />
+                        <span>工商管理</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./fuwu/qiye/falvfagui/#3" target="_blank">
+                        <img src="./images/t2_4.png" alt="" />
+                        <span>法律法规</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./fuwu/qiye/biaozhunchuangxin/#5" target="_blank">
+                        <img src="./images/t2_5.png" alt="" />
+                        <span>标准创新</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="item t03">
+                <a target="_blank" href="https://tousu.www.gov.cn/zwfw/index.htm">
+                  <h3>加强政府自身建设</h3>
+                  <div class="txt">
+                    <p>
+                      欢迎你@国务院。找政府办事排队长、来回跑？企业投资经营门槛多、手续繁？欢迎你反映问题，并就提升各级政府政务服务水平、优化营商环境提出建议。
+                    </p>
+                    <p>我们会收集整理大家的留言，进行专门研究，并督促有关地方和部门查清问题、查明原因、整改解决。</p>
+                    <p>大兴调查研究之风，汲取各方智慧，辅助政府科学决策，感谢你的参与。</p>
+                  </div>
+                </a>
+                <div class="btn">
+                  <a href="https://tousu.www.gov.cn/zwfw/index.htm" target="_blank">政务服务投诉与建议入口</a>
+                </div>
+                <div class="iconlist2">
+                  <ul class="clearfix">
+                    <li><a target="_blank" href="http://gjzwfw.www.gov.cn/index.html"><span>国家政务服务平台</span></a></li>
+                    <li>
+                      <div class="index_gwyhlwdc">
+                        <a target="_blank" href="https://tousu.www.gov.cn/dc/index.htm">
+                          <img src="./images/gtrs_index_gwyhlwdc320.jpg" alt="" />
+                        </a>
+                        <div class="btns">
+                          <a class="lhang" href="https://tousu.www.gov.cn/dc/2023qgtydsc/index.htm" target="_blank">妨碍建设全国统一大市场问题线索征集</a>
+                          <a href="./hudong/gwywsdc/duchahuisheng/" target="_blank">督查回声</a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="list" id="index_hygq">
+          <h2 class="font_FZZHUNYSK">
+            <a href="./hudong/hygq/lyhf/" target="_blank">回应关切</a>
+          </h2>
+          <div class="box">
+            <ul>
+              
+                <li>
+                  <a href="./hudong/202312/content_6917935.htm" target="_blank">
+                    水利部答网民关于“水库水电站泄洪放水前应及时通知居民”的建议
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="./hudong/202311/content_6917559.htm" target="_blank">
+                    残疾人反映免费停车政策执行难 回应来了
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="./hudong/202311/content_6914157.htm" target="_blank">
+                    【@国务院，有回应】有网民建议加快受水灾后的定损和补偿工作，财政部、北京市、河北省回应了
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="./hudong/202311/content_6916870.htm" target="_blank">
+                    水利部答网民关于“加强防洪基础设施建设”的两条建议
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="./hudong/202310/content_6908779.htm" target="_blank">
+                    【@国务院，有回应】有医院对患者住院天数、治疗费用设置上限，国家医保局回应了
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="./hudong/202310/content_6908487.htm" target="_blank">
+                    【@国务院，有回应】辽宁、内蒙古、山西答网民关于“乡村出行难、客运班线运转难”的留言
+                  </a>
+                </li>
+              
+            </ul>
+            <div>
+              
+                <a href="./hudong/202311/content_6917427.htm" target="_blank">
+                  <img src="./shouye/hygq/202311/W020231128371884718897_ORIGIN.jpg" />
+                </a>
+                <a href="./hudong/202311/content_6917427.htm" target="_blank">
+                  网民建议为“大龄”博士放宽青年科学基金项目申报条件，回应来了&gt;&gt;
+                </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end state -->
+
+    <!-- 要闻 mobi -->
+    <div class="news mBox pchide">
+      <div class="tabs mobi">
+        <div class="nav">
+          <span class="active">要闻</span>
+          <span>最新政策</span>
+        </div>
+        <div class="ctx">
+          <div class="item active">
+            <ul class="lists">
+              
+                <li>
+                  <a href="https://www.gov.cn/yaowen/liebiao/202312/content_6919456.htm" target="_blank">
+                    李强会见国际狮子会会长希尔
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="https://www.gov.cn/yaowen/liebiao/202312/content_6919230.htm" target="_blank">
+                    国务院举行宪法宣誓仪式 李强总理监誓
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="https://www.gov.cn/yaowen/liebiao/202312/content_6919330.htm" target="_blank">
+                    丁薛祥出席2023世界中文大会并发表主旨讲话
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="https://www.gov.cn/lianbo/bumen/202312/content_6919770.htm" target="_blank">
+                    2023年增发国债第一批项目清单下达
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="https://www.gov.cn/yaowen/shipin/202312/content_6919854.htm" target="_blank">
+                    今年全国水利建设完成投资创历史新高
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="https://www.gov.cn/lianbo/bumen/202312/content_6919832.htm" target="_blank">
+                    11月贸易规模创月度历史新高 中越经贸合作亮点纷呈
+                  </a>
+                </li>
+              
+            </ul>
+            <a class="more" href="./yaowen/" target="_blank">
+              <span>更多</span>
+              <img src="./images/gtrs_zsjMore.jpg" />
+            </a>
+          </div>
+          <div class="item">
+            <ul class="lists">
+              
+                <li>
+                  <a href="https://www.gov.cn/zhengce/content/202312/content_6919596.htm" target="_blank">
+                    国务院办公厅印发《关于加快内外贸一体化发展的若干措施》
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="https://www.gov.cn/zhengce/content/202312/content_6919000.htm" target="_blank">
+                    国务院印发《空气质量持续改善行动计划》
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="https://www.gov.cn/zhengce/content/202312/content_6918913.htm" target="_blank">
+                    国务院印发《全面对接国际高标准经贸规则推进中国（上海）自由贸易试验区高水平制度型开放总体方案》
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="" target="_blank">
+                    <a href="https://www.gov.cn/zhengce/content/202312/content_6918910.htm" target="_blank">国务院批复同意《安徽省国土空间规划（2021—2035年）》</a><a href="https://www.gov.cn/zhengce/content/202312/content_6918905.htm" target="_blank">《湖南省国土空间规划（2021—2035年）》</a>
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="https://www.gov.cn/zhengce/content/202311/content_6917190.htm" target="_blank">
+                    国务院办公厅转发《城市社区嵌入式服务设施建设工程实施方案》
+                  </a>
+                </li>
+              
+            </ul>
+            <a class="more" href="./zhengce/" target="_blank">
+              <span>更多</span>
+              <img src="./images/gtrs_zsjMore.jpg" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end 要闻 mobi -->
+
+    <!-- banner mobi -->
+    <div class="banner banner1 mBox pchide">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="./gzjxs/" target="_blank">
+              <img src="./images/gtrs_gwyzxd.jpg" style="height:193px" />
+            </a>
+          </div>
+          <div class="swiper-slide" data-chnldesc="大兴调查研究之风52616" autolink='false' />
+          <a href="./hudong/dxdcyjzf.htm" target="_blank">
+            <img src="./images/gtrs_dxdc2023.jpg" style="height:193px" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pagination"></div>
+  </div>
+  <!-- end banner mobi -->
+
+
+  <!-- 政务联播 mobi -->
+  <div class="news news2 mBox pchide">
+    <div class="tabs mobi">
+      <h2>
+        <a href="./lianbo/" target="_blank">政务联播</a>
+      </h2>
+      <div class="ctx">
+        <div class="item active">
+          <ul class="lists">
+            
+              <li>
+                <a href="https://www.gov.cn/lianbo/bumen/202312/content_6918417.htm" target="_blank">
+                  两部门下达48.46亿元中央救灾资金 支持地方开展冬春临时生活困难救助
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://www.gov.cn/lianbo/bumen/202312/content_6918636.htm" target="_blank">
+                  自然资源部提高基层用地管理水平 发布首个乡村振兴用地政策指南
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://www.gov.cn/lianbo/difang/202312/content_6918646.htm" target="_blank">
+                  各地多举措做好呼吸道疾病防治工作
+                </a>
+              </li>
+            
+          </ul>
+          <a class="more" href="./lianbo/">
+            <span>更多</span>
+            <img src="./images/gtrs_zsjMore.jpg" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end 政务联播 mobi -->
+
+
+  <!-- 政策解读 mobi -->
+  <div class="news news2 mBox pchide">
+    <div class="tabs mobi">
+      <h2>
+        <a href="./zhengce/jiedu/" target="_blank">政策解读</a>
+      </h2>
+      <div class="policyImg">
+        
+          <a href="https://www.gov.cn/zhengce/zczhjd/index.htm" target="_blank">
+            <img src="./shouye/zhengcejiedu/202311/W020231120619617004371_ORIGIN.jpg" />
+          </a>
+        
+      </div>
+      <div class="ctx">
+        <div class="item active">
+          <ul class="lists">
+            
+              <li>
+                <a href="https://www.gov.cn/zhengce/202312/content_6919123.htm" target="_blank">
+                  中新自由贸易协定进一步升级议定书 商务部最新解读来了！
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://www.gov.cn/zhengce/202312/content_6919119.htm" target="_blank">
+                  经济回升向好 发展前景光明——解读当前经济形势和未来发展预期
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://www.gov.cn/zhengce/202312/content_6919120.htm" target="_blank">
+                  图表：2023年11月我国外贸进出口总值同比增长1.2%
+                </a>
+              </li>
+            
+          </ul>
+          <a class="more" href="./zhengce/jiedu/"><span>更多</span><img src="./images/gtrs_zsjMore.jpg" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end 政策解读 mobi -->
+
+  <!-- 国务院政策文件库 mobi -->
+  <div class="libs pchide">
+    <div class="box">
+      <h2><a href="./zhengce/zhengcewenjianku/" target="_blank">国务院政策文件库</a></h2>
+      <div class="search">
+        <input type="text" placeholder="搜政策......" />
+        <a><img src="./images/gtrs_indexSearch.jpg" /></a>
+      </div>
+    </div>
+  </div>
+  <!-- end 国务院政策文件库 mobi -->
+
+
+  <!-- banner mobi -->
+  <div class="banner banner2 mBox pchide">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        
+        <div class="swiper-slide">
+          <a  href="https://www.gov.cn/zhengce/qiye/" target="_blank">惠企助企政策集纳查询</a>
+        </div>
+        <div class="swiper-slide">
+          <a target="_blank" href="./zhengce/xxgk/">政府信息公开</a>
+        </div>
+        <div class="swiper-slide">
+          <a target="_blank" href="./zhengce/xzfgk/">国家行政法规库</a>
+        </div>
+        <div class="swiper-slide">
+          <a target="_blank" href="https://www.gov.cn/zhengce/xxgk/gjgzk/index.htm">国家规章库</a>
+        </div>
+      </div>
+    </div>
+    <div class="pagination"></div>
+  </div>
+  <!-- end banner mobi -->
+
+  <!-- 为民服务 mobi -->
+  <div class="news service mBox pchide">
+    <div class="tabs service">
+      <div class="nav">
+        <span class="active">为民服务</span>
+        <span>为企服务</span>
+      </div>
+      <div class="ctx">
+        <div class="item item01 active">
+          <ul>
+            <li><a href="./fuwu/gongmin/huji/#0" target="_blank">户籍</a></li>
+            <li><a href="./fuwu/gongmin/jiaoyu/#1" target="_blank">教育</a></li>
+            <li><a href="./fuwu/gongmin/jiuye/#2" target="_blank">就业</a></li>
+            <li><a href="./fuwu/gongmin/shuishou/#3" target="_blank">税收</a></li>
+            <li><a href="./fuwu/gongmin/hunyin/#10" target="_blank">婚姻</a></li>
+            <li><a href="./fuwu/gongmin/shebao/#4" target="_blank">社保</a></li>
+            <li><a href="./fuwu/gongmin/yanglao/#14" target="_blank">养老</a></li>
+            <li><a href="./fuwu/gongmin/jiaotong/#5" target="_blank">交通</a></li>
+          </ul>
+          <div class="more"><a href="./fuwu/gongmin/"> &gt;&gt; </a></div>
+        </div>
+        <div class="item item02">
+          <ul>
+            <li><a href="./fuwu/qiye/kaibansheli/#0" target="_blank">开办设立</a></li>
+            <li><a href="./fuwu/qiye/qiyenashui/#1" target="_blank">企业纳税</a></li>
+            <li><a href="./fuwu/qiye/gongshangguanli/#2" target="_blank">工商管理</a></li>
+            <li><a href="./fuwu/qiye/falvfagui/#3" target="_blank">法律法规</a></li>
+            <li><a href="./fuwu/qiye/biaozhunchuangxin/#5" target="_blank">标准创新</a></li>
+            <li><a href="./fuwu/qiye/xiaoweiqiye/#6" target="_blank">小微企业</a></li>
+          </ul>
+          <div class="more"><a href="./fuwu/qiye/"> &gt;&gt; </a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end 为民服务 mobi -->
+
+
+  <!-- 国务院 mobi -->
+  <div class="state mobi pchide">
+    <h2>
+      <a href="./gwywls/" target="_blank">
+        <img src="./images/gtrs_index_gwywls.png" />
+      </a>
+    </h2>
+    <div class="box">
+      <div class="item">
+        <div>
+          <h2>施政为民</h2>
+          <a href="https://liuyan.www.gov.cn/hudong/atwls/rmqz.htm">个人留言</a>
+        </div>
+      </div>
+      <div class="item">
+        <div>
+          <h2>激发活力</h2>
+          <a href="https://liuyan.www.gov.cn/hudong/atwls/qygth.htm">企业留言</a>
+        </div>
+      </div>
+      <div class="item">
+        <div>
+          <h2>政府建设</h2>
+          <a href="https://tousu.www.gov.cn/zwfw/index.htm">对政务服务留言</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end 国务院 mobi -->
+
+
+  <!-- banner mobi -->
+  <div class="banner banner3 mBox pchide">
+    <h2><a href="./hudong/wsdy/" target="_blank">建言征集</a></h2>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        
+            <div class="swiper-slide">
+                <a href="https://liuyan.www.gov.cn/2023xccy/index.htm" target="_blank">
+                    <img src="./gwywls/wsdy/202310/W020231025389230187277_ORIGIN.jpg" />
+                </a>
+            </div>
+         
+            <div class="swiper-slide">
+                <a href="https://liuyan.www.gov.cn/2023gnj/index.htm" target="_blank">
+                    <img src="./gwywls/wsdy/202309/W020230908586233061036_ORIGIN.jpg" />
+                </a>
+            </div>
+         
+            <div class="swiper-slide">
+                <a href="https://liuyan.www.gov.cn/2023jyjc/index.htm" target="_blank">
+                    <img src="./gwywls/wsdy/202306/W020230614406468688456_ORIGIN.jpg" />
+                </a>
+            </div>
+         
+            <div class="swiper-slide">
+                <a href="https://liuyan.www.gov.cn/2023ybfw/index.htm" target="_blank">
+                    <img src="./gwywls/wsdy/202306/W020230605355609270545_ORIGIN.jpg" />
+                </a>
+            </div>
+         
+      </div>
+    </div>
+    <div class="pagination"></div>
+  </div>
+  <!-- end banner mobi -->
+
+  <!-- 回应关切 mobi -->
+  <div class="news news2 mBox pchide">
+    <div class="tabs mobi">
+      <h2>
+        <a href="./hudong/hygq/lyhf/" target="_blank">回应关切</a>
+      </h2>
+      <div class="ctx">
+        <div class="item active">
+          <ul class="lists">
+            
+              <li>
+                <a href="https://www.gov.cn/hudong/202311/content_6917427.htm" target="_blank">网民建议为“大龄”博士放宽青年科学基金项目申报条件，回应来了</a>
+              </li>
+            
+              <li>
+                <a href="https://www.gov.cn/hudong/202312/content_6917935.htm" target="_blank">水利部答网民关于“水库水电站泄洪放水前应及时通知居民”的建议</a>
+              </li>
+            
+          </ul>
+          <a class="more" href="./hudong/hygq/lyhf/"><span>更多</span><img src="./images/gtrs_zsjMore.jpg" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end 回应关切 mobi -->
+
+
+  <!-- banner mobi -->
+  <div class="banner banner4 mBox pchide">
+    <a href="https://tousu.www.gov.cn/dc/index.htm"><img src="./images/gtrs_gwydc.jpg" /></a>
+  </div>
+  <!-- end banner mobi -->
+
+</div>
+<!--footer-->
+<style type="text/css">
+  .footer{
+    padding-top: 0;
+  }
+  .footer_dzjg {
+      padding: 14px 22px 0 0;
+          width: 90px;
+  }
+  .footer_dzjg span{
+    display: block;
+  }
+  .footer_txt{
+    margin-top: 27px;
+  }
+  .footer_r {
+      margin-top: 25px;
+  }
+  .barrierFree20231007{
+    width: 80px;
+    height: 37px;
+  }
+  #_ideConac a {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+</style>
+<div class="footer_wrap">
+  <div class="container mhide">
+    <div class="footer_links footer_links1">
+      <ul class="clearfix">
+        <li>链接：</li>
+        <li><a href="http://www.npc.gov.cn/" target="_blank">全国人大</a></li>
+        <li>|</li>
+        <li><a href="http://www.cppcc.gov.cn/" target="_blank">全国政协</a></li>
+        <li>|</li>
+        <li><a href="http://www.ccdi.gov.cn/" target="_blank">国家监察委员会</a></li>
+        <li>|</li>
+        <li><a href="http://www.court.gov.cn/" target="_blank">最高人民法院</a></li>
+        <li>|</li>
+        <li><a href="http://www.spp.gov.cn/" target="_blank">最高人民检察院</a></li>
+      </ul>
+    </div>
+
+    <div class="footer_links footer_links2">
+      <ul class="clearfix">
+        <li><a href="https://www.gov.cn/home/2023-03/29/content_5748953.htm" target="_blank">国务院部门网站</a></li>
+        <li>|</li>
+        <li><a href="https://www.gov.cn/home/2023-03/29/content_5748954.htm" target="_blank">地方政府网站</a></li>
+        <li>|</li>
+        <li><a href="https://www.gov.cn/home/2023-03/29/content_5748955.htm" target="_blank">驻港澳机构网站</a></li>
+        <li>|</li>
+        <li><a href="https://www.gov.cn/home/2023-03/29/content_5748956.htm" target="_blank">驻外机构</a></li>
+      </ul>
+    </div>
+
+    <div class="footer over_hide">
+
+      <div class="footer_l fl">
+        <div class="footer_dzjg fl">
+            <span id="_ideConac"><a
+                    href="https://bszs.conac.cn/sitename?method=show&amp;id=081D1D6883441A53E053012819AC0DAA"
+                    target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="/images/red.png" data-bd-imgshare-binded="1" /></a>
+            </span>
+      <!-- 无障碍 -->
+      <span class="barrierFree20231007"><img src="https://www.gov.cn/images/20230928shilaohuaicon.jpg" /></span>
+        </div>
+
+
+        <div class="footer_txt fl">
+          <div class="footer_nav">
+            <span><a href="https://www.gov.cn/index.htm" target="_blank">中国政府网</a></span>
+            <span class="split">|</span>
+            <span><a href="https://www.gov.cn/home/2016-05/11/content_5046257.htm" target="_blank">关于本网</a></span>
+            <span class="split">|</span>
+            <span><a href="https://www.gov.cn/home/2014-02/23/content_5046258.htm" target="_blank">网站声明</a></span>
+            <span class="split">|</span>
+            <span><a href="https://www.gov.cn/home/2014-02/23/content_5046259.htm" target="_blank">联系我们</a></span>
+            <span class="split">|</span>
+            <span><a href="https://www.gov.cn/fuwu/jiucuopage.html" target="_blank">网站纠错</a></span>
+          </div>
+
+          <div class="footer_copyright">
+            <p class="footer_bg_gray zbd">主办单位：国务院办公厅　运行维护单位：中国政府网运行中心 </p>
+            <p class="footer_bg_gray bqs">版权所有：中国政府网　中文域名：<fjtignoreurl>中国政府网.政务</fjtignoreurl>
+            </p>
+            <p>网站标识码bm01000001　<a class="banquan" href="https://beian.miit.gov.cn/#/Integrated/index"
+                                  target="_blank">京ICP备05070218号</a>　<img style="padding-top:2px;" src="/images/2018guohui03.png" /><a class="banquan"
+                                                                                            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010202000001"
+                                                                                            target="_blank">京公网安备11010202000001号</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_r fr">
+        <div class="fl footer_ewm footer_ewm_gkhd">
+          <a href="http://app.www.gov.cn/download/Chinese.html" target="_blank"><img src="/images/icon_1234.png" alt="" /><span>国务院客户端</span></a>
+        </div>
+        <div class="fl footer_ewm footer_ewm_xcx">
+          <a href="https://www.gov.cn/guowuyuan/gwykhdxcx/xiaochengxu.html" target="_blank"><img src="/images/icon_724.png" alt="" /><span>国务院客户端小程序</span></a>
+        </div>
+        <div class="fl footer_wxwb">
+          <a href="https://www.gov.cn/home/2014-02/18/content_5046260.htm" target="_blank"><img src="/images/icon_1434.png" width="48" height="48" /></a>
+          <a href="https://www.gov.cn/home/2014-02/18/content_5046260.htm" target="_blank"><img src="/images/icon_1534.png" width="48" height="48" /></a>
+          <p><a href="https://www.gov.cn/home/2014-02/18/content_5046260.htm" target="_blank">中国政府网微博、微信</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container pchide">
+    <div class="newfooter">
+      <ul class="btnlist">
+        <li><a id="godesktop" data-rel="desktop" class="am-footer-desktop" href="#">电脑版</a></li>
+        <li><a href="https://app.www.gov.cn/govdata/html/download.html?from=singlemessage">客户端</a></li>
+        <li><a href="https://www.gov.cn/guowuyuan/gwykhdxcx/xiaochengxu.html">小程序</a></li>
+        <li><a href="https://weibo.com/zhengfu">微博</a></li>
+        <li><a href="https://www.gov.cn/home/2014-02/18/content_5046260.htm">微信</a></li>
+        <li><a href="https://mail.gov.cn/nsmail/index.php">邮箱</a></li>
+      </ul>
+      <ul class="loginList">
+        <li class="yeslogin hide">
+          <img class="userImg" src="/images/userImg.png" alt="" />
+          <a id="showname1" href="javascript:;"></a>
+        </li>
+        <li class="yeslogin hide"><a id="logOutBtn1" href="javascript:;">退出</a></li>
+        <li class="nologin"><a id="userreg1" href="javascript:;">注册</a></li>
+        <li class="nologin"><a id="userlogin1" href="javascript:;">登录</a></li>
+        <li class="nologin"><a id="userlogin2" href="https://www.gov.cn/fuwu/jiucuopage.html">网站纠错</a></li>
+      </ul>
+      <div class="box">
+        <a class="left" href="http://bszs.conac.cn/sitename?method=show&id=081D1D6883441A53E053012819AC0DAA" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="/images/gtrs_red.png" data-bd-imgshare-binded="1" /></a>
+        <div class="right">
+          <p>主办单位：国务院办公厅　运行维护单位：中国政府网运行中心</p>
+          <p>版权所有：中国政府网　中文域名：<fjtignoreurl>中国政府网.政务</fjtignoreurl>
+          </p>
+          <p>网站标识码bm01000001</p>
+          <p>京ICP备05070218号　京公网安备11010202000001号</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  $(function () {
+    trs_bottom.init();
+    initShow();
+  });
+
+  var trs_bottom = (function () {
+    function init() {
+      if (typeof (trs) != 'undefined') {
+        // trs.PcBackTop()
+        trs.SearchFn()
+      }
+    }
+
+    return {
+      init: init
+    }
+  })();
+
+  function initShow() {
+    var isShowPc = localStorage.getItem('isShowPc')
+    if (isShowPc && isShowPc === 'true') {
+      $("meta[name='viewport']").attr("content", "width=1280, target-densitydpi=device-dpi")
+      $('body').append('<div id="showMobi" class="showMobi"><img src="/images/trs_mobiIcon.png" />返回手机版</div>')
+    } else {
+      $("meta[name='viewport']").attr("content", "width=750, user-scalable=no, target-densitydpi=device-dpi")
+      $('#showMobi').remove()
+    }
+  }
+</script>
+<script defer async type="text/javascript" src="//wza.www.gov.cn/dist/aria.js?appid=44fa773aaaee697bd3f5d0fbfc36bf83" charset="utf-8" wapForceOldFixed="false" loadData="false" id="ariascripts"></script><!--微信分享图功能-->
+<div class="share-title" style="display:none">_中国政府网</div>
+<div class="share-substr" style="display:none">https://www.gov.cn</div>
+<img class="share-img" style="display:none" src="./images/150.jpg" width="300" height="300" />
+<script src="./images/jweixin-1.0.0.js"></script>
+<script src="./images/20191226wxShare.js"></script>
+<!--微信分享图功能-->
+<!--end footer-->
+<script src="./images/trs_audio.min.js"></script>
+<script type="text/javascript" src="./images/gtrs_idangerous.swiper.min.js"></script>
+<script type="text/javascript" src="./images/gtrs_idan.sw.progress.min.js"></script>
+<script>
+  $(function () {
+    trs_home.init();
+
+    
+
+    $('.policy .lib i, .libs .search a').on('click', function () {
+      zcwjkSearch();
+    });
+    $('.policy .lib input, .libs .search input').keyup(function(event){
+      if(event.keyCode=='13'){
+        zcwjkSearch();
+      }
+    })
+    function zcwjkSearch(){
+      var s = '';
+      if ($('.libs .search input').is(":visible")) {
+        s = $('.libs .search input').val();
+        $('.policy .lib input').val(s)
+      } else {
+        s = $('.policy .lib input').val();
+        $('.libs .search input').val(s);
+      }
+
+      if (s==='') {
+        window.open("./zhengce/zhengcewenjianku/?q=&t=zhengcelibrary&orpro=",'_blank');
+      }else{
+        window.open('//sousuo.www.gov.cn/zcwjk/policyDocumentLibrary?q=' + s + '&t=zhengcelibrary&orpro=','_blank')
+      }
+    }
+  })
+
+  var trs_home = (function () {
+    function init() {
+      // focus('.news')
+      nFocus()
+      nFocus2()
+      // focus('.state')
+      focus('.banner1')
+      focus('.banner2')
+      focus('.banner3')
+      trs.Tabs('.tabs')
+      trs.Tabs('.tabs.mobi')
+      trs.Tabs('.tabs.service')
+    }
+    function nFocus2() {
+      // 互联网+督查和政策问答平台轮播
+      var sliderElement = $('.slider_gwyzcwdpt');
+      sliderElement.slidesjs({
+        // width: 240,
+        // height: 528,
+        play: {
+          auto: true,
+          effect: 'fade'
+        },
+        navigation: {
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          slide: {
+            speed: 400
+          }
+        }
+      });
+      var slidernav = sliderElement.find('.slidesjs-navigation');
+      slidernav.hide();
+      sliderElement.hover(function () {
+        slidernav.stop().show()
+      }, function () {
+        slidernav.stop().hide()
+      });
+
+      slidernav.hover(function () {
+          $(this).show();
+        },
+        function () {
+          $(this).show();
+        });
+    }
+    function nFocus(){
+    var sliderElement = $('.slider_carousel');
+          sliderElement.find('*').attr("tabindex", "-1");
+          sliderElement.find('.item>h4>a').attr("tabindex", "0");
+          var firstIn = true;
+          $(document).on("keydown", function (e) {
+            var $this = $(e.target);
+            // 如果不是无障碍状态，则让轮播图自动播放后返回
+            if (!(typeof aria != "undefined" && aria.status())) {
+              sliderElement.removeAttr("cur")
+              sliderElement.find(".slidesjs-play").click();
+              firstIn = true;
+              return;
+            }
+            // 如果不是 tab键，则返回
+            var keycode = event.which || event.keycode
+            if (keycode != 9) {
+              return;
+            }
+            // 判断当前事件元素是否在 slider_carousel 及 slider_carousel内，如果是
+            // 先停止自动播放
+            // 对元素进行无焦点处理(因元素是动态生成的)
+            // 同时指定 标题栏元素是有焦点的 
+            if ($this.closest(".slider_carousel").length > 0 || $this.hasClass("slider_carousel")) {
+              sliderElement.find(".slidesjs-stop").click();
+              sliderElement.find('*').attr("tabindex", "-1");
+              sliderElement.find('.item>h4>a').attr("tabindex", "0");
+              // 如果是首次进入，则进行指定到第一个里
+              if (firstIn) {
+                sliderElement.find('[data-slidesjs-item="0"]').click();
+                sliderElement.attr("cur", "0");
+                firstIn = false;
+                setTimeout(function () {
+                  sliderElement.find('[slidesjs-index="0"] h4>a').focus();
+                }, 200);
+                return false;
+              }
+              var cur = parseInt(sliderElement.attr("cur"));
+              if (e.shiftKey) {
+                cur -= 1;
+              } else {
+                cur += 1;
+              }
+              var clickobj = sliderElement.find('[data-slidesjs-item="' + cur + '"]');
+              if (cur >= 0 && clickobj.length > 0) {
+                sliderElement.find('[data-slidesjs-item="' + cur + '"]').click();
+                sliderElement.attr("cur", cur);
+                setTimeout(function () {
+                  sliderElement.find('[slidesjs-index="' + cur + '"]  h4>a').focus();
+                }, 200);
+                return false;
+              }
+            }
+          })
+          
+      sliderElement.slidesjs({
+        // width: 240,
+        // height: 528,
+       play: {
+          auto: true,
+          swap: true,
+          active: true,
+          effect: 'fade'},
+        navigation: {
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          slide: {
+            speed: 400
+          }
+        },
+      });
+      var slidernav = sliderElement.find('.slidesjs-navigation');
+      slidernav.hide();
+      sliderElement.hover(function () {
+        slidernav.stop().show()
+      }, function () {
+        slidernav.stop().hide()
+      });
+
+      slidernav.hover(function () {
+          $(this).show();
+        },
+        function () {
+          $(this).show();
+        });
+
+
+       
+    }
+
+
+
+    function focus(dom) {
+      var mySwiper = new Swiper(dom + ' .swiper-container', {
+        progress: false,
+        loop: true,
+        autoplay: 5000,
+        pagination: dom + ' .pagination',
+        paginationClickable: true,
+        onProgressChange: function (swiper) {
+          for (var i = 0; i < swiper.slides.length; i++) {
+            var slide = swiper.slides[i];
+            var progress = slide.progress;
+            var translate = progress * swiper.width;
+            var opacity = 1 - Math.min(Math.abs(progress), 1);
+            slide.style.opacity = opacity;
+            swiper.setTransform(slide, 'translate3d(' + translate + 'px,0,0)');
+          }
+        },
+        onTouchStart: function (swiper) {
+          for (var i = 0; i < swiper.slides.length; i++) {
+            swiper.setTransition(swiper.slides[i], 0);
+          }
+        },
+        onSetWrapperTransition: function (swiper, speed) {
+          for (var i = 0; i < swiper.slides.length; i++) {
+            swiper.setTransition(swiper.slides[i], speed);
+          }
+        }
+      })
+      $(dom + ' .arrow-left').on('click', function (e) {
+        e.preventDefault()
+        mySwiper.swipePrev()
+      })
+      $(dom + ' .arrow-right').on('click', function (e) {
+        e.preventDefault()
+        mySwiper.swipeNext()
+      })
+    }
+    return {
+      init: init
+    }
+  })()
+</script>
+
+</div>
+
+<script src="https://user.www.gov.cn/static/js/yh-idm5.0.0.js"></script>
+<script src="https://user.www.gov.cn/static/js/md5.js"></script>
+<script type="text/javascript" src="./images/pub.js"></script>
+<script>
+  // 票据认证
+  var ticket = GetQueryString('ticket'), sp = GetQueryString('sp');
+  if (!!ticket) {
+    window.location.href = sp ? decodeURIComponent(sp) : 'https://www.gov.cn/';
+    // ticketValidation();
+  }
+
+  function ticketValidation() {
+    $.ajax({
+      url: 'https://user.www.gov.cn/servlet/auth/ticketValidation?servicecode=' + servicecode + '&time=' + time + '&sign=' + sign + '&ticket=' + ticket,
+      method: 'get',
+      success: function (data) {
+        data = JSON.parse(data);
+        if (data.result == '0' && !!data.token) {
+          getUserInfo(data.token);
+        }
+      }
+    });
+  }
+
+  function getUserInfo(token) {
+    $.ajax({
+      url: 'https://user.www.gov.cn/servlet/auth/getUserInfo?servicecode=' + servicecode + '&time=' + time + '&sign=' + sign + '&token=' + token,
+      method: 'get',
+      success: function (data) {
+        data = JSON.parse(data);
+        if (data.result == '0') {
+          window.location.href = sp ? decodeURIComponent(sp) : 'https://www.gov.cn/';
+        }
+      }
+    })
+  }
+
+// 无障碍给轮播图分页器（小点）添加标题说明 
+window.onload=function(){
+  $('#index_tpxw .slider_carousel .item').each(function (i) {
+      var $this = $(this);
+      var $text = $this.find('h4 a').text();
+      $('#index_tpxw .slidesjs-pagination .slidesjs-pagination-item').eq(i).find('a').html($text);
+  });
+  
+}
+  
+</script>
+
+<div style="display:none"><script type="text/javascript">document.write(unescape("%3Cscript src='//stat.www.gov.cn/webdig.js?z=1' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")</script></div></body>
+
+</html>
