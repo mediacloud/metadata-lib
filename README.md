@@ -67,8 +67,9 @@ When adding new tests, re-run 'scripts/get-test-web-content.py'
 Version History
 ---------------
 
-* __v0.11.0__: Add new `urls.unique_url_hash` helper to centralize logic for generating a unique hash for a URL, also 
-               returned from `extract` in case you choose to use it
+* __v0.11.1__: Add new `urls.unique_url_hash` helper to centralize logic for generating a unique hash for a URL, also 
+               returned from `extract` in case you choose to use it 
+* __v0.11.0__: (error release)
 * __v0.10.0__: Support defaults and overrides in `extract`, returning execution time stats, requirements updates, more
                handling of malformed URLs 
 * __v0.9.5__: Updated requirements, update non-news site list, fix failing unit tests, tweak title parsing logic
