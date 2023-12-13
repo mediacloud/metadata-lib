@@ -5,9 +5,9 @@ import time
 from mcmetadata import webpages
 
 """
-The purpose of this script is to grab all of the urls present in the tests directory and cache the content in the fixtures folder.
-The filenames will be equal to the alphanumeric content of the surt-ified url- this way, we can run the tests against known cached content 
-instead of having to query the IA everytime we want to test.
+The purpose of this script is to grab all of the urls present in the tests directory and cache the content in the
+fixtures folder. The filenames will be equal to the alphanumeric content of the surt-ified url- this way, we can run
+the tests against known cached content instead of having to query the IA everytime we want to test.
 """
 
 test_directory = "../mcmetadata/test"
