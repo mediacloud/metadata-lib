@@ -95,6 +95,7 @@ class TestExtract(unittest.TestCase):
         results = extract(url)
         assert url == results['original_url']
         assert url == results['url']
+        assert 'unique_url_hash' in results
         assert 'other' not in results
 
     def test_other_metadata(self):
