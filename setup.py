@@ -40,7 +40,7 @@ setup(name='mediacloud-metadata',
       test_suite="mediacloud.test",
       packages=['mcmetadata'],
       package_data={'': ['LICENSE'], 'mcmetadata': ['data/*.*']},
-      python_requires='>3.7',
+      python_requires='>=3.10',
       install_requires=REQUIRED_PACKAGES,
       tests_require=['parameterized'],
       project_urls={

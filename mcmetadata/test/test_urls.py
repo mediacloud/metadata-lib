@@ -1,4 +1,5 @@
 import unittest
+import hashlib
 from parameterized import parameterized
 import time
 
@@ -47,7 +48,7 @@ class TestNormalizeUrl(unittest.TestCase):
         normalized_url = urls.normalize_url(url)
         assert normalized_url == normalized
         url = "https://upstract.com/x/fdf95bf448e1f2a8?ref=rss"
-        normalized_url = urls.normalize_url(normalized)
+        normalized_url = urls.normalize_url(url)
         assert normalized_url == normalized
 
     def test_reuters_example(self):
@@ -179,6 +180,29 @@ class TestNonNewsDomains(unittest.TestCase):
     def test_inclusion(self):
         assert 'tiktok.com' in urls.NON_NEWS_DOMAINS
         assert 'cnn.com' not in urls.NON_NEWS_DOMAINS
+
+
+class TestUniqueUrlHash(unittest.TestCase):
+
+    def test_basic_uniqueness(self):
+        url1 = "https://www.cnn.com/2023/12/12/politics/takeaways-volodymyr-zelensky-washington/index.html"
+        url2 = "https://www.cnn.com/2023/12/12/entertainment/andre-braugher-obit/index.html"
+        assert urls.unique_url_hash(url1) != urls.unique_url_hash(url2)
+
+    def test_already_normalized_url(self):
+        test_url = "http://thekenyatimes.com/counties/kisumu-traders-alerted-about-cartels-in-stalls-issuance/"
+        expected_hash = hashlib.sha256(test_url.encode('utf-8')).hexdigest()
+        assert urls.unique_url_hash(test_url) == expected_hash
+
+    def test_normalizing(self):
+        bad_hash = hashlib.sha256("https://upstract.com/x/fdf95bf448e1f2a8?ref=rss".encode('utf-8')).hexdigest()
+        good_hash = hashlib.sha256(urls.normalize_url("https://upstract.com/x/fdf95bf448e1f2a8").encode('utf-8'))\
+            .hexdigest()
+        assert good_hash != bad_hash
+        test_url = "https://upstract.com/x/fdf95bf448e1f2a8?ref=rss"
+        unique_hash = urls.unique_url_hash(test_url)
+        assert unique_hash == good_hash
+        assert unique_hash != bad_hash
 
 
 if __name__ == "__main__":

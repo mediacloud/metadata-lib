@@ -129,6 +129,7 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
         original_url=url,
         url=final_url,
         normalized_url=normalized_url,
+        unique_url_hash=urls.unique_url_hash(final_url),
         canonical_domain=canonical_domain,
         publication_date=pub_date,
         language=full_language[:2] if full_language else full_language,  # keep this as a two-letter code, like "en"
