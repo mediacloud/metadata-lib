@@ -6,6 +6,7 @@ import url_normalize
 from furl import furl
 import ipaddress
 import pathlib
+import hashlib
 
 from .urlshortners import URL_SHORTENER_HOSTNAMES
 
@@ -303,3 +304,13 @@ def is_shortened_url(raw_url: str) -> bool:
         return True
 
     return False
+
+
+def unique_url_hash(url: str) -> str:
+    """
+    A central method to determine how to generate a unique hash used to check for duplicate articles across our
+    system. Do not fiddle with this unless you _really_ know what you are doing.
+    """
+    normalized_url = normalize_url(url)
+    hashed_url = hashlib.sha256(normalized_url.encode("utf-8")).hexdigest()
+    return hashed_url
