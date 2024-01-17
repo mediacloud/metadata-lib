@@ -78,6 +78,10 @@ class TestTitle(unittest.TestCase):
     def test_meta_og_title2(self):
         self._load_and_validate("bloomberg-original.html", "Elon Got His Deal")
 
+    def test_whitespace_title_tag(self):
+        self._load_and_validate('focus-taiwan-202311170015.html',
+                                'Revised national climate change action guidelines released by Ministry of Environment')
+
     def test_title_tag(self):
         self._load_and_validate("bloomberg-no-meta.html", "Elon Got His Deal")
 
