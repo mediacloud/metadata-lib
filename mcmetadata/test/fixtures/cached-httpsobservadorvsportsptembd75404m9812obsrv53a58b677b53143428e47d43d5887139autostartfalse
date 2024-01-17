@@ -23,10 +23,10 @@
 			<link rel="stylesheet" href="/video/css/obsrv.css" type="text/css" />
 	
 
-			<link href="//vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
-		<link href="//cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/6.6.0/videojs.ads.min.css" rel="stylesheet">
-		<link href="//stc.vsports.pt/css/videojs-ima/v1.2.1/videojs.ima.css" rel="stylesheet">
-		<link href="//players.brightcove.net/videojs-social/3/videojs-social.css" rel="stylesheet">
+	        <link href="//vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet">
+        <link href="//cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/7.2.0/videojs.ads.min.css" rel="stylesheet">
+        <link href="/video/css/videojs-ima/v2.1.0/videojs.ima.css" rel="stylesheet">
+        <link href="//players.brightcove.net/videojs-social/4/videojs-social.css" rel="stylesheet">
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	
 
@@ -59,12 +59,12 @@
 
 	<div></div>
 			<!-- VideoJS 6 -->
-		<script src="//vjs.zencdn.net/7.5.4/video.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/6.6.0/videojs.ads.min.js"></script>
+		<script src="//vjs.zencdn.net/8.3.0/video.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/7.2.0/videojs.ads.min.js"></script>
 		<script src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
-		<script src="//stc.vsports.pt/js/videojs-ima/v1.2.1/videojs.ima.js"></script>
-		<script src="//players.brightcove.net/videojs-social/3/videojs-social.min.js"></script>	
-					<script src="//stc.vsports.pt/js/videojs/pt_geoblock.js"></script>
+		<script src="/video/js/videojs-ima/v2.1.0/videojs.ima.js"></script>
+		<script src="//players.brightcove.net/videojs-social/4/videojs-social.min.js"></script>	
+					<script src="/video/js/videojs/pt_geoblock.js"></script>
 				<script src="/video/js/adsense.js"></script>	
 		<script src="/video/js/videojs-vsports.min.js"></script>	
 	

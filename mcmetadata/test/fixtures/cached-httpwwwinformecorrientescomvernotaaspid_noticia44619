@@ -35,9 +35,9 @@ $(document).ready(function(){
 	}
 
 	// Obtiene los valores de la fecha, hora, minutos y segundos del servidor
-	var jDate = '13/12/2023';
-	var jHora = '0';
-	var jMin = '5';
+	var jDate = '17/01/2024';
+	var jHora = '13';
+	var jMin = '3';
 	var jSec = '10';
 
 	// Actualiza la capa #hora-servidor
@@ -89,7 +89,7 @@ $(document).ready(function(){
   <tr>
    <td width="12" height="50"></td>
    <td width="383">
-     <span class='fecha2'>Mi&eacute;rcoles, 13 de Diciembre de 2023</span><span class='fecha1'> | Corrientes - Argentina</span>	   
+     <span class='fecha2'>Mi&eacute;rcoles, 17 de Enero de 2024</span><span class='fecha1'> | Corrientes - Argentina</span>	   
    </td>
    <td width="250"><div id="caja_busqueda">
        <form id="form_b" name="form_b" method="post" action="buscar.asp" class="form_b">
@@ -248,25 +248,25 @@ $(document).ready(function(){
 		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
 			<tr>
 			 <td valign='top' align="center">
-			  <IMG src='galeria/CUERPOS QUITAR.jpg' class='foto_destacada1'>		   
+			  <IMG src='galeria/RAQUETAS.jpg' class='foto_destacada1'>		   
 			 </td>
 			</tr> 
          <tr>
 			 <td valign='top'>
-			 <span class="volanta_col3">INVESTIGAN EL HECHO</span>
+			 <span class="volanta_col3">MELBOURNE</span>
 			 </td>
 	    </tr>
 			<tr>
 			 <td valign='top'>
-				<a href='vernota.asp?id_noticia=54224' class ='titulo_col3'>Apareció el cuerpo del joven ahogado en el río Santa Lucía</a><br />		   
+				<a href='vernota.asp?id_noticia=54478' class ='titulo_col3'>Etcheverry se cruzará con Djokovic en la tercera ronda en Australia</a><br />		   
 			 </td>
 			</tr> 
 	    <tr>
 			 <td valign='top'>
 			  
 			 
-					 <a href='vernota.asp?id_noticia=54224' class ='intro_col3'>
-El chico de 15 años desapareció de la superficie cuando ingresó al agua a refrescarse, el día domingo.</a> 
+					 <a href='vernota.asp?id_noticia=54478' class ='intro_col3'>
+El platense le ganó al francés Monfils por 6-4, 6-4 y 6-4 en dos horas y 14 minutos y en la próxima instancia jugaría ante el serbio Djokovic, que superó al australiano Alexei Popyrin por 6-3, 4-6, 7-6 (4) y 6-3.</a> 
 					 
 			 </td>
 			</tr>
@@ -322,25 +322,25 @@ El chico de 15 años desapareció de la superficie cuando ingresó al agua a ref
 		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
 			<tr>
 			 <td valign='top' align="center">
-			  <IMG src='galeria/TOBILLERA.jpg' class='foto_destacada1'>		   
+			  <IMG src='galeria/PALAVECINO.jpg' class='foto_destacada1'>		   
 			 </td>
 			</tr> 
          <tr>
 			 <td valign='top'>
-			 <span class="volanta_col3">DETENIDO</span>
+			 <span class="volanta_col3">RIVER</span>
 			 </td>
 	    </tr>
 			<tr>
 			 <td valign='top'>
-				<a href='vernota.asp?id_noticia=54223' class ='titulo_col3'>Andaba suelto y tenía domiciliaria con tobillera</a><br />		   
+				<a href='vernota.asp?id_noticia=54477' class ='titulo_col3'>Inter Miami quiere a Palavecino junto a Messi</a><br />		   
 			 </td>
 			</tr> 
 	    <tr>
 			 <td valign='top'>
 			  
 			 
-					 <a href='vernota.asp?id_noticia=54223' class ='intro_col3'>
-Un delincuente con antecedentes y con un proceso abierto por robo, que debía estar guardando prisión domiciliaria, fue capturado -en estado de excitación por el consumo de estupefaciente- por efectivos del GRIM 2, cuando acechaba a vecinos.</a> 
+					 <a href='vernota.asp?id_noticia=54477' class ='intro_col3'>
+El equipo de la Major League Soccer se puso en contacto con la dirigencia millonaria mientras el plantel realiza la pretemporada en Estados Unidos.</a> 
 					 
 			 </td>
 			</tr>
@@ -360,25 +360,24 @@ Un delincuente con antecedentes y con un proceso abierto por robo, que debía es
 		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
 			<tr>
 			 <td valign='top' align="center">
-			  <IMG src='galeria/ITUZAINGÓ.jpg' class='foto_destacada1'>		   
+			  <IMG src='galeria/BELLA VISTA .jpg' class='foto_destacada1'>		   
 			 </td>
 			</tr> 
          <tr>
 			 <td valign='top'>
-			 <span class="volanta_col3">ITUZAINGÓ CORRIENTES</span>
+			 <span class="volanta_col3">BELLA VISTA</span>
 			 </td>
 	    </tr>
 			<tr>
 			 <td valign='top'>
-				<a href='vernota.asp?id_noticia=54222' class ='titulo_col3'>FEMICIDIO: Un hombre mató a su pareja y luego se suicidó</a><br />		   
+				<a href='vernota.asp?id_noticia=54475' class ='titulo_col3'>Brutal golpiza a mujer que reclamó el salario de los hijos</a><br />		   
 			 </td>
 			</tr> 
 	    <tr>
 			 <td valign='top'>
 			  
 			 
-					 <a href='vernota.asp?id_noticia=54222' class ='intro_col3'>
-El hecho ocurrió en horas de esta madrugada en la localidad correntina de Ituzaingó.</a> 
+					 <a href='vernota.asp?id_noticia=54475' class ='intro_col3'>El hecho sucedió cuando fue a buscar los chicos a la casa del papá de los menores. En el ataque que realizó el hombre frente a los niños también participó la exsuegra. Espera que la Justicia actúe en consecuencia.</a> 
 					 
 			 </td>
 			</tr>
@@ -398,25 +397,25 @@ El hecho ocurrió en horas de esta madrugada en la localidad correntina de Ituza
 		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
 			<tr>
 			 <td valign='top' align="center">
-			  <IMG src='galeria/volante.jpg ' class='foto_destacada1'>		   
+			  <IMG src='galeria/trata d personas.jpg ' class='foto_destacada1'>		   
 			 </td>
 			</tr> 
          <tr>
 			 <td valign='top'>
-			 <span class="volanta_col3">UN HERIDO DE GRAVEDAD</span>
+			 <span class="volanta_col3">Trata de personas</span>
 			 </td>
 	    </tr>
 			<tr>
 			 <td valign='top'>
-				<a href='vernota.asp?id_noticia=54216' class ='titulo_col3'>Chocó a dos jóvenes, huyó y lograron identificarla</a><br />		   
+				<a href='vernota.asp?id_noticia=54473' class ='titulo_col3'>Encontraron en Corrientes a una misionera desaparecida desde el año pasado</a><br />		   
 			 </td>
 			</tr> 
 	    <tr>
 			 <td valign='top'>
 			  
 			 
-					 <a href='vernota.asp?id_noticia=54216' class ='intro_col3'>
-Un joven de 21 años está en gravísimo etado con fractura de cráneo, luego de ser atropellado el viernes por la tarde junto a otro muchacho que lo acompañaba por un automóvil cuya conductora bajó unos segundos vio lo que hizo y huyó del lugar.</a> 
+					 <a href='vernota.asp?id_noticia=54473' class ='intro_col3'>
+En noviembre su familia denunció la ausencia de esta persona de 28 años.</a> 
 					 
 			 </td>
 			</tr>
@@ -436,25 +435,26 @@ Un joven de 21 años está en gravísimo etado con fractura de cráneo, luego de
 		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
 			<tr>
 			 <td valign='top' align="center">
-			  <IMG src='galeria/PUENTE DLFIU.jpg' class='foto_destacada1'>		   
+			  <IMG src='galeria/agustín.jpg' class='foto_destacada1'>		   
 			 </td>
 			</tr> 
          <tr>
 			 <td valign='top'>
-			 <span class="volanta_col3">ALERTA EN CORRIENTES</span>
+			 <span class="volanta_col3">FUE PARA RECUPERARSE</span>
 			 </td>
 	    </tr>
 			<tr>
 			 <td valign='top'>
-				<a href='vernota.asp?id_noticia=54215' class ='titulo_col3'>Buscan a un menor que desapareció en el río Santa Lucía</a><br />		   
+				<a href='vernota.asp?id_noticia=54457' class ='titulo_col3'>Familiares de Agustín quien falleció en el hospital de salud mental pidieron justicia</a><br />		   
 			 </td>
 			</tr> 
 	    <tr>
 			 <td valign='top'>
 			  
 			 
-					 <a href='vernota.asp?id_noticia=54215' class ='intro_col3'>
-Por causas que se tratan de establecer, el menor desapareció de la superficie y comenzaron a buscarlo.</a> 
+					 <a href='vernota.asp?id_noticia=54457' class ='intro_col3'>
+El muchacho tenía 24 años se internó voluntariamente el 21 de diciembre de 2023 y no volvieron a verlo.
+</a> 
 					 
 			 </td>
 			</tr>
