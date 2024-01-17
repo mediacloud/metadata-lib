@@ -206,6 +206,21 @@ http_url_pattern = re.compile(r'^https:', re.I)
 trailing_slash_url_pattern = re.compile(r'https?://[^/]*$', re.I)
 
 
+def _url_domain_is_ip_address(url: str) -> bool:
+    parsed_domain = tldextract.extract(url)
+    try:
+        ipaddress.ip_address(parsed_domain.domain)
+        return True
+    except ValueError:
+        return False
+
+
+def _remove_port_from_url(url: str) -> str:
+    uri = furl(url)
+    uri.port = None
+    return uri.url
+
+
 def normalize_url(url: str) -> Optional[str]:
     """
     Support later deduplicaton of URLs by applying a simple set of transformations on a URL to make it match other
@@ -218,6 +233,7 @@ def normalize_url(url: str) -> Optional[str]:
     if len(url) == 0:
         return None
     url = _fix_common_url_mistakes(url)
+    url = _remove_port_from_url(url)
     if yt_generic_pattern.match(url):  # YouTube URLs video IDs are case sensitive
         url = normalize_youtube_url(url)
     else:
@@ -227,7 +243,7 @@ def normalize_url(url: str) -> Optional[str]:
     if not url.startswith('http'):
         url = 'http://' + url
     # r2.ly redirects through the hostname, ala http://543.r2.ly
-    if 'r2.ly' not in url:
+    if (not _url_domain_is_ip_address(url)) and ('r2.ly' not in url):
         url = another_url_pattern.sub(r"\1\3", url)
     # collapse the vast array of http://pronkraymond83483.podomatic.com/ urls into http://pronkpops.podomatic.com/
     url = podomatic_url_pattern.sub('http://pronkpops.podomatic.com', url)

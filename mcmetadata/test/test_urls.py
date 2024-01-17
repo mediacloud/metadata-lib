@@ -116,6 +116,20 @@ class TestNormalizeUrl(unittest.TestCase):
         normalized_url = urls.normalize_url(url)
         assert normalized_url == "http://uniradioinforma.com/noticias/coronavirus/677354/covid-segunda-causa-de-muerte-en-mexico-en-2021.html"
 
+    def test_remove_port(self):
+        expected_url = "http://do.ma.in/what/ever"
+        url = "https://do.ma.in:442/what/ever"
+        normalized_url = urls.normalize_url(url)
+        assert normalized_url == expected_url
+        url = "http://do.ma.in:80/what/ever"
+        normalized_url = urls.normalize_url(url)
+        assert normalized_url == expected_url
+
+    def test_ip_based_url(self):
+        url = "http://10.2.3.4/hello/world.html"
+        normalized_url = urls.normalize_url(url)
+        assert normalized_url == url
+
 
 class TestIsHomepageUrl(unittest.TestCase):
 
