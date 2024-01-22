@@ -5,7 +5,7 @@ Media Cloud Metadata Extractor
 
 This is a package to extract a domain, title, publication date, text, and language content from the URL or text of an
 online news story. The methods for each are extracted from the larger [Media Cloud project](https://mediacloud.org), 
-but also build on numerous 3rd party  libraries. The metadata extracted includes:
+but also build on numerous 3rd party  libraries. The metadata extracted includes: 
 * the original URL of publication
 * a normalized URL useful for de-duplication
 * the canonical domain published on
