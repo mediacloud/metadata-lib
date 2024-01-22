@@ -2463,7 +2463,7 @@ window.SELF_HOSTED_AFFILIATE_TAGGING = false;
 
 <!--
      FILE ARCHIVED ON 07:49:27 Apr 22, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 03:01:53 Dec 13, 2023.
+     INTERNET ARCHIVE ON 15:56:13 Jan 17, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -2471,13 +2471,13 @@ window.SELF_HOSTED_AFFILIATE_TAGGING = false;
 -->
 <!--
 playback timings (ms):
-  captures_list: 134.371
-  exclusion.robots: 0.122
-  exclusion.robots.policy: 0.113
-  cdx.remote: 0.055
+  captures_list: 85.464
+  exclusion.robots: 0.101
+  exclusion.robots.policy: 0.093
+  cdx.remote: 0.056
   esindex: 0.009
-  LoadShardBlock: 104.064 (3)
-  PetaboxLoader3.datanode: 71.744 (4)
-  load_resource: 211.954
-  PetaboxLoader3.resolve: 72.613
+  LoadShardBlock: 53.797 (3)
+  PetaboxLoader3.datanode: 54.307 (4)
+  load_resource: 168.705
+  PetaboxLoader3.resolve: 118.283
 -->

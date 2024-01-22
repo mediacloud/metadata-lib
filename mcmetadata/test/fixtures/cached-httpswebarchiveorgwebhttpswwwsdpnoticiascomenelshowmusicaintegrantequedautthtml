@@ -60,7 +60,7 @@
     window.lazyLoadOptions = [{}, {elements_selector: ".lazy-ad", unobserve_entered: true, callback_enter: loadAsyncAd}];
   </script><script async="" src="https://web.archive.org/web/20220724231430js_/https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.4.0/dist/lazyload.min.js"></script></body></html><!--
      FILE ARCHIVED ON 23:14:30 Jul 24, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 03:11:23 Dec 13, 2023.
+     INTERNET ARCHIVE ON 15:52:05 Jan 17, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -68,13 +68,13 @@
 -->
 <!--
 playback timings (ms):
-  captures_list: 114.608
-  exclusion.robots: 0.164
-  exclusion.robots.policy: 0.155
-  cdx.remote: 0.067
-  esindex: 0.01
-  LoadShardBlock: 81.953 (3)
-  PetaboxLoader3.datanode: 431.017 (4)
-  PetaboxLoader3.resolve: 149.993 (2)
-  load_resource: 506.346
+  captures_list: 1000.569
+  exclusion.robots: 0.302
+  exclusion.robots.policy: 0.284
+  cdx.remote: 0.102
+  esindex: 0.014
+  LoadShardBlock: 937.948 (3)
+  PetaboxLoader3.datanode: 982.622 (4)
+  load_resource: 254.956
+  PetaboxLoader3.resolve: 86.176
 -->

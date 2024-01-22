@@ -518,7 +518,7 @@ apstag.init({
 </script>
 <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[23]</script><script id="__LOADABLE_REQUIRED_CHUNKS___ext" type="application/json">{"namedChunks":["StnSmartPlayer"]}</script><script async="" data-chunk="bundle" src="/web/20220721144440js_/https://www.thestar.com/static/vendors~bundle.chunk.js?v=d333aec9"></script><script async="" data-chunk="bundle" src="/web/20220721144440js_/https://www.thestar.com/static/bundle.js?v=f1d63e4b"></script><script async="" data-chunk="StnSmartPlayer" src="/web/20220721144440js_/https://www.thestar.com/static/StnSmartPlayer.chunk.js?v=d92b0b75"></script></body></html><!--
      FILE ARCHIVED ON 14:44:40 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 03:09:41 Dec 13, 2023.
+     INTERNET ARCHIVE ON 15:59:39 Jan 17, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -526,13 +526,13 @@ apstag.init({
 -->
 <!--
 playback timings (ms):
-  captures_list: 162.006
-  exclusion.robots: 0.147
-  exclusion.robots.policy: 0.138
-  cdx.remote: 0.054
-  esindex: 0.008
-  LoadShardBlock: 109.399 (3)
-  PetaboxLoader3.datanode: 108.453 (4)
-  load_resource: 336.569
-  PetaboxLoader3.resolve: 105.715
+  captures_list: 132.19
+  exclusion.robots: 0.167
+  exclusion.robots.policy: 0.154
+  cdx.remote: 0.085
+  esindex: 0.013
+  LoadShardBlock: 77.555 (3)
+  PetaboxLoader3.datanode: 86.759 (4)
+  load_resource: 117.043
+  PetaboxLoader3.resolve: 77.387
 -->

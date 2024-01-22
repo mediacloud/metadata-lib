@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
-  <meta name="csrf-token" content="h2s0fTJK3MzcdGhTH5b7UrdX3k7EkM3C51MovR63">
+  <meta name="csrf-token" content="wm9AnAr6KhGGKUI3hV04zvw1WZa20v4v0ZzDupjU">
   <!-- Tell the browser to be responsive to screen width -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#ed3338">
@@ -72,6 +72,9 @@
     }
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2537465056974921" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://tagmanager.alright.network">
+  <link rel="preconnect" href="https://securepubads.g.doubleclick.net">
+  <script async src='https://tagmanager.alright.network/manager/js/container_Z5bcpC2F.js'></script>
 </head>
 
 <body>
@@ -253,7 +256,7 @@
             <div class="col-5 col-sm-8 d-none d-sm-block" onclick="playRadio();">
               <div class="escutar">
                 <img src="/img/icon-play-red.png" alt="Ao vivo" style="width: 20px">
-                                                      Madrugada 101
+                                                      Misturadão 101
                                                 </div>
             </div>
             <div class="col-5 col-md-3 col-sm-2 col-6 d-block d-lg-none text-center">
@@ -271,7 +274,7 @@
         <div class="col-md-3 d-none d-lg-block" onclick="playRadio()">
           <div class="escutar">
             <img src="/img/icon-play-red.png" alt="Ao vivo" style="width: 20px">
-                                          Madrugada 101
+                                          Misturadão 101
                                       <!-- No ar agora! -->
           </div>
         </div>
@@ -632,10 +635,10 @@
             <ul class="row">
                                                            <li class="col-md-6 col-12">
                 <div class="ui-horizontal-box border_bottom_news">
-                  <a href="https://radioalianca.com.br/plantao/chuva-ja-causa-transtornos-em-seara-e-regiao">
+                  <a href="https://radioalianca.com.br/plantao/pm-prende-homem-por-trafico-de-drogas-em-concordia-1-2-3">
                     <div class="row">
                       <div class="col-lg-6 col-12">
-                        <div class="image" style="background-image: url(https://radioalianca.com.br/cms/storage/news/20231207143808_sera.jpg);">
+                        <div class="image" style="background-image: url(https://radioalianca.com.br/cms/storage/news/20231218123617_prisao.jpg);">
                         </div>
                       </div>
                       <div class="col-lg-6 col-12">
@@ -645,20 +648,19 @@
                               Plantão
                             </div>
                             <div class="date">
-                              07 dez | 14h14
+                              18 dez | 12h14
                             </div>
                             <div class="icon">
-                                                                                          <img src="/img/icon-video.png" alt="Contém vídeo">
-                                                          </div>
+                                                                                        </div>
                           </div>
                         </div>
                         <div class="box home_box">
                           <div class="title ui-color-news" style="color: #ff0000">
                             <h2 style="color: #ff0000">
-                              Chuva já causa transtornos em Seara e região</h2>
+                              PM prende homem por tráfico de drogas em Concórdia</h2>
                           </div>
                                                     <div class="lead">
-                            <p></p>
+                            <p>Caso aconteceu nesta domingo, na rua Marcelino Ramos.</p>
                           </div>
                                                   </div>
                       </div>
@@ -668,10 +670,10 @@
                 </li>
                                                <li class="col-md-6 col-12">
                 <div class="ui-horizontal-box border_bottom_news">
-                  <a href="https://radioalianca.com.br/plantao/cabo-do-corpo-de-bombeiros-da-detalhes-da-ocorrencia-de-afogamento-no-interior-de-capinzal">
+                  <a href="https://radioalianca.com.br/plantao/motorista-morre-em-acidente-entre-caminhonete-e-onibus-no-oeste">
                     <div class="row">
                       <div class="col-lg-6 col-12">
-                        <div class="image" style="background-image: url(https://radioalianca.com.br/cms/storage/news/20231203200310_cp.jpg);">
+                        <div class="image" style="background-image: url(https://radioalianca.com.br/cms/storage/news/20231216091751_transito-motorista-morre-em-acidente-entre-caminhonete-e-onibus-em-xanxere-1-912.jpg);">
                         </div>
                       </div>
                       <div class="col-lg-6 col-12">
@@ -681,7 +683,7 @@
                               Plantão
                             </div>
                             <div class="date">
-                              03 dez | 20h00
+                              16 dez |  9h16
                             </div>
                             <div class="icon">
                                                                                         </div>
@@ -690,10 +692,10 @@
                         <div class="box home_box">
                           <div class="title ui-color-news" style="color: #ff0000">
                             <h2 style="color: #ff0000">
-                              Cabo do Corpo de Bombeiros dá detalhes da ocorrência de afogamento no interior de Capinzal</h2>
+                              Motorista morre em acidente entre caminhonete e ônibus no Oeste</h2>
                           </div>
                                                     <div class="lead">
-                            <p></p>
+                            <p>Jovem de 25 anos ficou preso nas ferragens após colisão no início da manhã deste sábado.</p>
                           </div>
                                                   </div>
                       </div>
@@ -702,53 +704,53 @@
                 </div>
                 </li>
                                                                                                                                                                                                                                                                                                         <li class="col-md-3 col-12">
-                  <a href="https://radioalianca.com.br/plantao/tentativa-de-homicidio-e-registrado-em-concordia">
+                  <a href="https://radioalianca.com.br/plantao/trabalhador-perde-a-vida-durante-trabalho-de-corte-de-arvore-no-interior-de-concordia">
                     <div class="ui-smalling-box">
                       <div class="date">
-                        30 nov | 21h44
+                        14 dez | 16h53
                       </div>
                       <div class="title ui-color-news" style="color: #ff0000">
                         <h2 style="color: #ff0000">
-                          TENTATIVA DE HOMICÍDIO É REGISTRADO EM CONCÓRDIA</h2>
+                          Trabalhador perde a vida durante trabalho de corte de árvore no interior de Concórdia</h2>
                       </div>
                     </div>
                   </a>
                 </li>
                                                                 <li class="col-md-3 col-12">
-                  <a href="https://radioalianca.com.br/plantao/acidente-entre-carro-e-carreta-mobiliza-bombeiros-e-samu-na-sc-355-em-castelhano">
+                  <a href="https://radioalianca.com.br/plantao/onibus-com-43-passageiros-capota-e-deixa-varios-feridos">
                     <div class="ui-smalling-box">
                       <div class="date">
-                        28 nov | 16h04
+                        07 dez | 15h03
                       </div>
                       <div class="title ui-color-news" style="color: #ff0000">
                         <h2 style="color: #ff0000">
-                          Acidente entre carro e carreta mobiliza Bombeiros e Samu na SC-355 em Castelhano </h2>
+                          Ônibus com 43 passageiros capota e deixa vários feridos</h2>
                       </div>
                     </div>
                   </a>
                 </li>
                                                                 <li class="col-md-3 col-12">
-                  <a href="https://radioalianca.com.br/plantao/urgente-crianca-e-esfaqueada-dentro-de-escola-em-erechim">
+                  <a href="https://radioalianca.com.br/plantao/chuva-ja-causa-transtornos-em-seara-e-regiao">
                     <div class="ui-smalling-box">
                       <div class="date">
-                        28 nov | 11h10
+                        07 dez | 14h14
                       </div>
                       <div class="title ui-color-news" style="color: #ff0000">
                         <h2 style="color: #ff0000">
-                          URGENTE: criança é esfaqueada dentro de escola em Erechim </h2>
+                          Chuva já causa transtornos em Seara e região</h2>
                       </div>
                     </div>
                   </a>
                 </li>
                                                                 <li class="col-md-3 col-12">
-                  <a href="https://radioalianca.com.br/plantao/ciclista-morre-apos-colisao-com-veiculo-no-interior-de-zortea">
+                  <a href="https://radioalianca.com.br/plantao/cabo-do-corpo-de-bombeiros-da-detalhes-da-ocorrencia-de-afogamento-no-interior-de-capinzal">
                     <div class="ui-smalling-box">
                       <div class="date">
-                        25 nov | 12h50
+                        03 dez | 20h00
                       </div>
                       <div class="title ui-color-news" style="color: #ff0000">
                         <h2 style="color: #ff0000">
-                          Ciclista morre após colisão com veículo no interior de Zortéa</h2>
+                          Cabo do Corpo de Bombeiros dá detalhes da ocorrência de afogamento no interior de Capinzal</h2>
                       </div>
                     </div>
                   </a>
@@ -998,7 +1000,7 @@
         </div>
         <div class="col-12">
           <div class="copyright text-center ui-container-top">
-            Copyright 2023 - Todos os direitos reservados. Feito com <a class="pop"
+            Copyright 2024 - Todos os direitos reservados. Feito com <a class="pop"
               href="https://d3t.com.br" target="_blank" rel="noreferrer" aria-label="D3T">
               <img src="/img/amor.png" alt="D3T">
             </a>
@@ -1015,7 +1017,7 @@
     </div>
   </div>
 </footer>
-<the-player :programming="{&quot;id&quot;:75,&quot;name&quot;:&quot;Madrugada 101&quot;,&quot;lead&quot;:&quot;Boas m\u00fasicas na madrugada&quot;,&quot;image&quot;:&quot;https:\/\/radioalianca.com.br\/cms\/storage\/programmings\/20230505153045_Madrugada_da_101.jpg&quot;,&quot;date&quot;:&quot;wednesday&quot;,&quot;start_at&quot;:&quot;00:00&quot;,&quot;end_at&quot;:&quot;05:00&quot;,&quot;speaker&quot;:&quot;Gravado&quot;,&quot;start_time&quot;:&quot;00h00&quot;,&quot;end_time&quot;:&quot;05h00&quot;}" :contact="{&quot;id&quot;:1,&quot;phone&quot;:&quot;(49) 3441-2801&quot;,&quot;whatsapp&quot;:&quot;(49) 98803-2032&quot;,&quot;facebook&quot;:&quot;https:\/\/www.facebook.com\/radioaliancaconcordia&quot;,&quot;instagram&quot;:&quot;https:\/\/www.instagram.com\/radioalianca_&quot;,&quot;email&quot;:&quot;contato@radioalianca.com.br&quot;,&quot;phoneFormated&quot;:&quot;4934412801&quot;,&quot;whatsappFormated&quot;:&quot;49988032032&quot;}"></the-player>
+<the-player :programming="{&quot;id&quot;:81,&quot;name&quot;:&quot;Misturad\u00e3o 101&quot;,&quot;lead&quot;:&quot;Um programa que mistura o alto astral e informa\u00e7\u00f5es, al\u00e9m de m\u00fasica sertaneja, ga\u00fachas, de bandas&quot;,&quot;image&quot;:&quot;https:\/\/radioalianca.com.br\/cms\/storage\/programmings\/20230505155107_Misturad__o_101.jpg&quot;,&quot;date&quot;:&quot;wednesday&quot;,&quot;start_at&quot;:&quot;12:00&quot;,&quot;end_at&quot;:&quot;13:55&quot;,&quot;speaker&quot;:&quot;Jaderson Miguel&quot;,&quot;start_time&quot;:&quot;12h00&quot;,&quot;end_time&quot;:&quot;13h55&quot;}" :contact="{&quot;id&quot;:1,&quot;phone&quot;:&quot;(49) 3441-2801&quot;,&quot;whatsapp&quot;:&quot;(49) 98803-2032&quot;,&quot;facebook&quot;:&quot;https:\/\/www.facebook.com\/radioaliancaconcordia&quot;,&quot;instagram&quot;:&quot;https:\/\/www.instagram.com\/radioalianca_&quot;,&quot;email&quot;:&quot;contato@radioalianca.com.br&quot;,&quot;phoneFormated&quot;:&quot;4934412801&quot;,&quot;whatsappFormated&quot;:&quot;49988032032&quot;}"></the-player>
   </div>
   <script async src="/js/script.min.js?id=8c981ee76ab710e2a38g" data-turbolinks-suppress-warning></script>
 </body>

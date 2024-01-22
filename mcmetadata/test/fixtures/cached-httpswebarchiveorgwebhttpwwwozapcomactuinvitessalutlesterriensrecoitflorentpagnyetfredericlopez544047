@@ -913,7 +913,7 @@ var eStatTag=function(a){"use strict";function b(a){R&&(console.debug?console.de
 </body>
 </html><!--
      FILE ARCHIVED ON 14:44:54 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 03:05:11 Dec 13, 2023.
+     INTERNET ARCHIVE ON 16:03:52 Jan 17, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -921,13 +921,13 @@ var eStatTag=function(a){"use strict";function b(a){R&&(console.debug?console.de
 -->
 <!--
 playback timings (ms):
-  captures_list: 127.552
-  exclusion.robots: 0.125
-  exclusion.robots.policy: 0.114
-  cdx.remote: 0.057
-  esindex: 0.008
-  LoadShardBlock: 101.421 (3)
-  PetaboxLoader3.datanode: 104.44 (5)
-  PetaboxLoader3.resolve: 89.731 (3)
-  load_resource: 133.808 (2)
+  captures_list: 1168.854
+  exclusion.robots: 0.282
+  exclusion.robots.policy: 0.261
+  cdx.remote: 0.117
+  esindex: 0.016
+  LoadShardBlock: 1124.118 (3)
+  PetaboxLoader3.resolve: 1146.597 (3)
+  PetaboxLoader3.datanode: 88.028 (5)
+  load_resource: 144.885 (2)
 -->

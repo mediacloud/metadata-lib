@@ -41,6 +41,10 @@ class TestTitle(unittest.TestCase):
             html_text, _ = webpages.fetch(url)
         assert titles.from_html(html_text) == expected_title
 
+    def test_only_h1(self):
+        self._fetch_and_validate("https://www.wdsu.com/article/untitled-content-1701813119/46044845",
+                                 "Search location by ZIP code")
+
     def test_title_pt(self):
         self._fetch_and_validate(
             "https://g1.globo.com/pi/piaui/noticia/2023/01/02/mulher-e-esfaqueada-pelo-ex-namorado-dentro-de-casa-no-sul-do-piaui.ghtml",
@@ -73,6 +77,10 @@ class TestTitle(unittest.TestCase):
 
     def test_meta_og_title2(self):
         self._load_and_validate("bloomberg-original.html", "Elon Got His Deal")
+
+    def test_whitespace_title_tag(self):
+        self._load_and_validate('focus-taiwan-202311170015.html',
+                                'Revised national climate change action guidelines released by Ministry of Environment')
 
     def test_title_tag(self):
         self._load_and_validate("bloomberg-no-meta.html", "Elon Got His Deal")

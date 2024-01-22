@@ -167,6 +167,28 @@
     </style>
 
     
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    
+    
+    
+    
+    <meta name="twitter:description" content="Over a hundred asylum-seekers from Cameroon blocked the path of Mexican immigration vans Tuesday morning in Tijuana in protest of what they believe to be corruption by Mexican immigration officials."/>
+    
+    
+    <meta name="twitter:image" content="https://cdn.kpbs.org/dims4/default/fb58ac2/2147483647/strip/true/crop/1200x675+0+1/resize/1200x675!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fimg%2Fphotos%2F2019%2F09%2F13%2FIMG_3689.jpg"/>
+
+    
+    <meta name="twitter:image:alt" content="Asylum-seekers from Cameroon and Eritrea protest Mexican immigration authorities in Tijuana, July 9, 2019. 
+
+
+"/>
+    
+    
+    
+    
+    <meta name="twitter:title" content="Migrants From Cameroon Protest Immigration Process In Tijuana"/>
+    
 
     <meta property="og:title" content="Migrants From Cameroon Protest Immigration Process In Tijuana">
 
@@ -207,34 +229,12 @@
 
     <meta property="article:tag" content="Tijuana">
 
-    
-    <meta name="twitter:card" content="summary_large_image"/>
-    
-    
-    
-    
-    <meta name="twitter:description" content="Over a hundred asylum-seekers from Cameroon blocked the path of Mexican immigration vans Tuesday morning in Tijuana in protest of what they believe to be corruption by Mexican immigration officials."/>
-    
-    
-    <meta name="twitter:image" content="https://cdn.kpbs.org/dims4/default/fb58ac2/2147483647/strip/true/crop/1200x675+0+1/resize/1200x675!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fimg%2Fphotos%2F2019%2F09%2F13%2FIMG_3689.jpg"/>
-
-    
-    <meta name="twitter:image:alt" content="Asylum-seekers from Cameroon and Eritrea protest Mexican immigration authorities in Tijuana, July 9, 2019. 
-
-
-"/>
-    
-    
-    
-    
-    <meta name="twitter:title" content="Migrants From Cameroon Protest Immigration Process In Tijuana"/>
-    
 
     <meta name="robots" content="max-image-preview:large">
 
 
 
-    <link data-cssvarsponyfill="true" class="Webpack-css" rel="stylesheet" href="https://cdn.kpbs.org/resource/00000179-89f0-db5d-a5ff-99fbab730000/styleguide/All.min.a317a59e6223d18350187541b529def0.gz.css">
+    <link data-cssvarsponyfill="true" class="Webpack-css" rel="stylesheet" href="https://cdn.kpbs.org/resource/00000179-89f0-db5d-a5ff-99fbab730000/styleguide/All.min.35457324c247ad0288c369f7aa71a951.gz.css">
 
     <link rel="stylesheet" href="https://www.kpbs.org/static/css/lytics.css?v2023082101">
 <link rel="stylesheet" href="https://www.kpbs.org/static/css/mobileapp-pma.css?v2023062202">
@@ -292,31 +292,6 @@
 }
 /* end pledge */
 
-/* npr imported iframe video fix */
-.Enhancement[data-align-center] .JWPlayerIframe {
-  text-align: start;
-}
-/* end npr imported iframe video fix */
-
-/* begin Link List padding fix */
-.ListLinks .ListLinks-items {
-  padding-left: 0;
-}
-/* end Link List padding fix */
-
-/* begin PromoD align-left fix */
-[data-image-align=left] .PromoD-title {
-  padding-top: 0;
-}
-@media only screen and (min-width: 768px) {
-  [data-image-align=left] .PromoD-media {
-    margin: 20px 0 20px 20px;
-    display: flex;
-    align-items: center;
-  }
-}
-/* end PromoD align-left fix */
-
 /* begin instagram embed center fix */
 iframe.instagram-media {
   margin-left: auto !important;
@@ -360,12 +335,6 @@ iframe.instagram-media {
   display: none;
 }
 /* end ad delivery fix */
-
-/* OneOffPage subHead fix */
-.OneOffPage-pageSubHeading {
-  font-family: var(--bodyFont), Arial, Helvetica, sans-serif;  
-}
-/* end OneOffPage subHead fix */
 
 /* TikTok oEmbed fix */
 .OEmbed[data-embed-url^='https://www.tiktok.com'] {
@@ -424,28 +393,7 @@ blockquote.tiktok-embed iframe {
     
     <script src="https://cdn.kpbs.org/resource/00000179-89f0-db5d-a5ff-99fbab730000/styleguide/All.min.edc8622e00fd45683fcf41b601402cbb.gz.js" async></script>
 
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"NewsArticle","author":[{"@context":"http://schema.org","@type":"Person","name":"Max  Rivlin-Nadler","url":"https://www.kpbs.org/staff/max-rivlin-nadler"}],"dateModified":"2019-07-09T13:34:39Z","datePublished":"2019-07-09T13:34:39Z","headline":"Migrants From Cameroon Protest Immigration Process In Tijuana","image":{"@context":"http://schema.org","@type":"ImageObject","url":"https://cdn.kpbs.org/img/photos/2019/09/13/IMG_3689.jpg"},"mainEntityOfPage":{"@type":"NewsArticle","@id":"https://www.kpbs.org/news/midday-edition/2019/07/09/migrants-cameroon-protest-immigration-process-tiju"},"publisher":{"@type":"Organization","name":"KPBS","logo":{"@context":"http://schema.org","@type":"ImageObject","height":"60","url":"https://cdn.kpbs.org/dims4/default/924c858/2147483647/resize/x60/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F63%2F77%2Ff1dd4b4c432990a1b22eb0317a81%2Fkpbs-header-logo.png","width":"216"}}}</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"ListenAction","description":"Over a hundred asylum-seekers from Cameroon blocked the path of Mexican immigration vans Tuesday morning in Tijuana in protest of what they believe to be corruption by Mexican immigration officials.","name":"Migrants From Cameroon Protest Immigration Process In Tijuana"}</script><script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
-
-<script type="text/javascript">
-    // Google tag setup
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-
-    googletag.cmd.push(function () {
-        // @see https://developers.google.com/publisher-tag/reference#googletag.PubAdsService_enableLazyLoad
-        googletag.pubads().enableLazyLoad({
-            fetchMarginPercent: 100, // fetch and render ads within this % of viewport
-            renderMarginPercent: 100,
-            mobileScaling: 1  // Same on mobile.
-        });
-
-        googletag.pubads().enableSingleRequest()
-        googletag.pubads().enableAsyncRendering()
-        googletag.pubads().collapseEmptyDivs()
-        googletag.pubads().disableInitialLoad()
-        googletag.enableServices()
-    })
-</script><meta name="gtm-dataLayer" content="{
+    <meta name="gtm-dataLayer" content="{
   &quot;gtmAudioDuration&quot; : 0,
   &quot;gtmAuthor&quot; : &quot;Max  Rivlin-Nadler&quot;,
   &quot;gtmBspStoryId&quot; : &quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,
@@ -484,7 +432,28 @@ blockquote.tiktok-embed iframe {
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WQNVLVW');</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@context":"http://schema.org","@type":"ListItem","name":"KPBS Midday Edition","position":"1"}]}</script><script>(function() {
+})(window,document,'script','dataLayer','GTM-WQNVLVW');</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"ListenAction","description":"Over a hundred asylum-seekers from Cameroon blocked the path of Mexican immigration vans Tuesday morning in Tijuana in protest of what they believe to be corruption by Mexican immigration officials.","name":"Migrants From Cameroon Protest Immigration Process In Tijuana"}</script><script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+
+<script type="text/javascript">
+    // Google tag setup
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+
+    googletag.cmd.push(function () {
+        // @see https://developers.google.com/publisher-tag/reference#googletag.PubAdsService_enableLazyLoad
+        googletag.pubads().enableLazyLoad({
+            fetchMarginPercent: 100, // fetch and render ads within this % of viewport
+            renderMarginPercent: 100,
+            mobileScaling: 1  // Same on mobile.
+        });
+
+        googletag.pubads().enableSingleRequest()
+        googletag.pubads().enableAsyncRendering()
+        googletag.pubads().collapseEmptyDivs()
+        googletag.pubads().disableInitialLoad()
+        googletag.enableServices()
+    })
+</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"NewsArticle","author":[{"@context":"http://schema.org","@type":"Person","name":"Max  Rivlin-Nadler","url":"https://www.kpbs.org/staff/max-rivlin-nadler"}],"dateModified":"2019-07-09T13:34:39Z","datePublished":"2019-07-09T13:34:39Z","headline":"Migrants From Cameroon Protest Immigration Process In Tijuana","image":{"@context":"http://schema.org","@type":"ImageObject","url":"https://cdn.kpbs.org/img/photos/2019/09/13/IMG_3689.jpg"},"mainEntityOfPage":{"@type":"NewsArticle","@id":"https://www.kpbs.org/news/midday-edition/2019/07/09/migrants-cameroon-protest-immigration-process-tiju"},"publisher":{"@type":"Organization","name":"KPBS","logo":{"@context":"http://schema.org","@type":"ImageObject","height":"60","url":"https://cdn.kpbs.org/dims4/default/924c858/2147483647/resize/x60/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F63%2F77%2Ff1dd4b4c432990a1b22eb0317a81%2Fkpbs-header-logo.png","width":"216"}}}</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@context":"http://schema.org","@type":"ListItem","name":"KPBS Midday Edition","position":"1"}]}</script><script>(function() {
   var _sf_async_config = window._sf_async_config = (window._sf_async_config || {});
   _sf_async_config.uid = 66245;
   _sf_async_config.domain = 'kpbs.org';
@@ -1319,6 +1288,9 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
                     <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/give/car-donations" data-cms-ai="0">Vehicle Donation</a>
 </li>
                 
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/give/giving-property" data-cms-ai="0">Giving Property</a>
+</li>
+                
                     <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/corporate-sponsorship" data-cms-ai="0">Corporate Support</a>
 </li>
                 
@@ -1352,6 +1324,9 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
 </li>
                 
                     <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/give/car-donations" data-cms-ai="0">Vehicle Donation</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/give/giving-property" data-cms-ai="0">Giving Property</a>
 </li>
                 
                     <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/corporate-sponsorship" data-cms-ai="0">Corporate Support</a>
@@ -1390,10 +1365,7 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
                     <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/events/submit/" data-cms-ai="0">Submit an Event</a>
 </li>
                 
-                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/winterholidays" data-cms-ai="0">Winter Holidays</a>
-</li>
-                
-                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/events/new-years/" data-cms-ai="0">New Year&#x27;s Eve</a>
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/valentinesday" data-cms-ai="0">Valentine&#x27;s Day</a>
 </li>
                 
             
@@ -1407,10 +1379,7 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
                     <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/events/submit/" data-cms-ai="0">Submit an Event</a>
 </li>
                 
-                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/winterholidays" data-cms-ai="0">Winter Holidays</a>
-</li>
-                
-                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/events/new-years/" data-cms-ai="0">New Year&#x27;s Eve</a>
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/valentinesday" data-cms-ai="0">Valentine&#x27;s Day</a>
 </li>
                 
             
@@ -1772,7 +1741,7 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
         
         
             <div class="BrightspotPersistentPlayer-dfpAd"><ps-google-dfp-ad data-hide-on-mobile='true'>
-    <div id="googleAd14cc8d44-a0f7-4f52-9e08-2b6e40d7eb1e" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_1" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAd9de5871e-7db5-4bbc-8bf1-36a820682a90" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_1" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>
@@ -2224,6 +2193,9 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
                     <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/give/car-donations" data-cms-ai="0">Vehicle Donation</a>
 </li>
                 
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/give/giving-property" data-cms-ai="0">Giving Property</a>
+</li>
+                
                     <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/corporate-sponsorship" data-cms-ai="0">Corporate Support</a>
 </li>
                 
@@ -2257,6 +2229,9 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
 </li>
                 
                     <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/give/car-donations" data-cms-ai="0">Vehicle Donation</a>
+</li>
+                
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/give/giving-property" data-cms-ai="0">Giving Property</a>
 </li>
                 
                     <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/corporate-sponsorship" data-cms-ai="0">Corporate Support</a>
@@ -2295,10 +2270,7 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
                     <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/events/submit/" data-cms-ai="0">Submit an Event</a>
 </li>
                 
-                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/winterholidays" data-cms-ai="0">Winter Holidays</a>
-</li>
-                
-                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/events/new-years/" data-cms-ai="0">New Year&#x27;s Eve</a>
+                    <li class="NavigationItem-items-item gtm_nav_subcat" ><a class="NavigationLink" href="https://www.kpbs.org/valentinesday" data-cms-ai="0">Valentine&#x27;s Day</a>
 </li>
                 
             
@@ -2312,10 +2284,7 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
                     <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/events/submit/" data-cms-ai="0">Submit an Event</a>
 </li>
                 
-                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/winterholidays" data-cms-ai="0">Winter Holidays</a>
-</li>
-                
-                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/events/new-years/" data-cms-ai="0">New Year&#x27;s Eve</a>
+                    <li class="NavigationItem-items-item"><a class="NavigationLink" href="https://www.kpbs.org/valentinesday" data-cms-ai="0">Valentine&#x27;s Day</a>
 </li>
                 
             
@@ -2365,12 +2334,12 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
 </ps-header>
 
 
-  <div class="Page-banner"><ps-banner class="Banner" data-update-timestamp="1702402828406" data-expiration-timestamp="1702454357588" data-banner-type="promo">
+  <div class="Page-banner"><ps-banner class="Banner" data-update-timestamp="1704927048789" data-expiration-timestamp="1705564768670" data-banner-type="promo">
     <div class="Banner-wrapper">
         
             
   <div class="Banner-content">
-      <div class="Banner-message"><a href="https://www.kpbs.org/newsletters" class="Link" target="_blank" data-cms-ai="0" >NEWSLETTERS: Sign up to keep up with all the latest news, arts and culture, and TV highlights from KPBS.</a></div>
+      <div class="Banner-message"><a href="https://www.kpbs.org/northcountyfocus" class="Link" target="_blank" data-cms-ai="0" >NEW NEWSLETTER: Keep up with what’s up in North County! Sign up for the North County Focus here.</a></div>
   </div>
 
         
@@ -2394,7 +2363,7 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
     <div class="Page-above" ><div class="AdModule" >
     
     <ps-google-dfp-ad>
-    <div id="googleAd6eed0a63-9a42-4913-9323-ae899b8292c1" class="GoogleDfpAd " data-slot-name="1010421/KPBS_leaderboard_1" data-slot-sizes="[[320, 50], [728, 90]]" data-slot-adSizeMap="[[[320, 1], [320, 50]], [[768, 1], [728, 90]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAd548443f9-a611-4162-9503-6012d975ed9f" class="GoogleDfpAd " data-slot-name="1010421/KPBS_leaderboard_1" data-slot-sizes="[[320, 50], [728, 90]]" data-slot-adSizeMap="[[[320, 1], [320, 50]], [[768, 1], [728, 90]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>
@@ -2714,11 +2683,11 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
 </div><p>Over a hundred asylum-seekers from Cameroon blocked the path of Mexican immigration vans Tuesday morning in Tijuana, in protest of what they believe to be corruption by Mexican immigration officials. </p><p>The complaints of the Cameroonians stem from the Mexican authorities refusal to accept migrants from Africa for transport to the U.S. side of the border, where they can officially declare asylum. The Africans claim that days have gone by without Mexican officials calling any numbers from an unofficial “waiting list,” and yet Central American asylum seekers have been granted entry to the U.S. on those days. </p><div class="Enhancement" data-align-center><div class="VideoEnhancement" data-video-disable-history>
     
         <div class="VideoEnhancement-player"><ps-youtubeplayer data-video-player class="YouTubeVideoPlayer"
-    data-player-id="f0e31a48b71e14e67b8a840c3ade874aa"
+    data-player-id="fcecd81e97f6b4dafb688921d7970d6fb"
     data-video-id="49IkoFeolH8"
     data-video-title="Migrants From Cameroon Protest Immigration Process In Tijuana">
 
-    <iframe id="YouTubeVideoPlayer-f0e31a48b71e14e67b8a840c3ade874aa" role="application" title="YouTube embedded video player" allowfullscreen src="https://www.youtube.com/embed/49IkoFeolH8?enablejsapi=1"></iframe>
+    <iframe id="YouTubeVideoPlayer-fcecd81e97f6b4dafb688921d7970d6fb" role="application" title="YouTube embedded video player" allowfullscreen src="https://www.youtube.com/embed/49IkoFeolH8?enablejsapi=1"></iframe>
 </ps-youtubeplayer></div>
     
     
@@ -2730,7 +2699,7 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
         <div class="AdModule-sponsorMessage">Advertisement</div>
     
     <ps-google-dfp-ad>
-    <div id="googleAd10fc2222-3205-4949-9065-35f36b5d4ad3" class="GoogleDfpAd " data-slot-name="1010421/KPBS_ad_injection" data-slot-sizes="[[320, 50], [728, 90]]" data-slot-adSizeMap="[[[320, 1], [320, 50]], [[728, 1], [728, 90]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAd8063151f-7144-4e61-9a7a-036a8779bca5" class="GoogleDfpAd " data-slot-name="1010421/KPBS_ad_injection" data-slot-sizes="[[320, 50], [728, 90]]" data-slot-adSizeMap="[[[320, 1], [320, 50]], [[728, 1], [728, 90]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>
@@ -2801,7 +2770,7 @@ f=false,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_existing_jque
         <div class="AdModule-sponsorMessage">Advertisement</div>
     
     <ps-google-dfp-ad>
-    <div id="googleAd8f6abbc2-8e3e-4a71-b412-1fa99417842f" class="GoogleDfpAd " data-slot-name="1010421/KPBS_ad_injection" data-slot-sizes="[[320, 50], [728, 90]]" data-slot-adSizeMap="[[[320, 1], [320, 50]], [[728, 1], [728, 90]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAd82a662c8-4a4d-4e5f-a9b7-92cfe87354fa" class="GoogleDfpAd " data-slot-name="1010421/KPBS_ad_injection" data-slot-sizes="[[320, 50], [728, 90]]" data-slot-adSizeMap="[[[320, 1], [320, 50]], [[728, 1], [728, 90]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>
@@ -2954,7 +2923,7 @@ Over a hundred asylum-seekers from Cameroon blocked the path of Mexican immigrat
                             <div class="AdModule" >
     
     <ps-google-dfp-ad data-hide-on-mobile='true'>
-    <div id="googleAd6f2b37fc-2889-4028-832d-81b156845b6b" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_1" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAd9f25a873-d747-4669-b2e0-5fd06faa5be3" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_1" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>
@@ -3344,7 +3313,7 @@ data-errors='{
 </div><div class="AdModule" >
     
     <ps-google-dfp-ad data-hide-on-mobile='true'>
-    <div id="googleAddd9c9c1a-7740-48fc-9630-5ce53ed6d57c" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_2" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAd7fe867f8-10d1-4155-a5f7-a0dd5bfecdae" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_2" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>
@@ -3371,7 +3340,7 @@ data-errors='{
         
             <div class="PromoB-media">
                 
-                    <a href="https://www.kpbs.org/podcasts/san-diego-news-now/businesses-impacted-by-border-closure" class="Link" data-cms-ai="0"><picture>
+                    <a href="https://www.kpbs.org/podcasts/san-diego-news-now/state-bill-seeks-to-turn-hillcrest-dmv-building-into-housing" class="Link" data-cms-ai="0"><picture>
     
     
         
@@ -3429,7 +3398,7 @@ data-errors='{
       <ol class="ListB-items" data-hidenumber data-theme-links>
             
                 <li class="ListB-items-item">
-                    <a href="https://www.kpbs.org/podcasts/san-diego-news-now/businesses-impacted-by-border-closure" class="PromoLink" aria-label="Businesses impacted by border closure" data-cms-ai="0">Businesses impacted by border closure</a>
+                    <a href="https://www.kpbs.org/podcasts/san-diego-news-now/state-bill-seeks-to-turn-hillcrest-dmv-building-into-housing" class="PromoLink" aria-label="State bill seeks to turn Hillcrest DMV building into housing" data-cms-ai="0">State bill seeks to turn Hillcrest DMV building into housing</a>
 
                 </li>
             
@@ -3451,7 +3420,7 @@ data-errors='{
         
             <div class="PromoB-media">
                 
-                    <a href="https://www.kpbs.org/events/2023/12/24/flamy-grant-christmas-eve-drag-story-time" class="Link" data-cms-ai="0"><picture>
+                    <a href="https://www.kpbs.org/events/ongoing/peter-pan" class="Link" data-cms-ai="0"><picture>
     
     
         
@@ -3472,19 +3441,19 @@ data-errors='{
         
             
                 <source type="image/webp" width="480" height="270"
-        data-srcset="https://cdn.kpbs.org/dims4/default/282936c/2147483647/strip/true/crop/940x529+0+130/resize/960x540!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F46%2Fb8%2F2bb2704f4db78692bdfc6b6eab40%2Fflamy-grant-ucc-cal.jpg 2x"
+        data-srcset="https://cdn.kpbs.org/dims4/default/f05636e/2147483647/strip/true/crop/3024x1701+0+332/resize/960x540!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F29%2F16%2Ff9d0cae04cfea8280826222987d7%2Fpeter-pan.jpg 2x"
         srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNzBweCIgd2lkdGg9IjQ4MHB4Ij48L3N2Zz4=" data-size="promoMedium">
 
 
     <source width="480" height="270"
-        data-srcset="https://cdn.kpbs.org/dims4/default/3d5ebb9/2147483647/strip/true/crop/940x529+0+130/resize/480x270!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F46%2Fb8%2F2bb2704f4db78692bdfc6b6eab40%2Fflamy-grant-ucc-cal.jpg"
+        data-srcset="https://cdn.kpbs.org/dims4/default/31332c0/2147483647/strip/true/crop/3024x1701+0+332/resize/480x270!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F29%2F16%2Ff9d0cae04cfea8280826222987d7%2Fpeter-pan.jpg"
         srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNzBweCIgd2lkdGg9IjQ4MHB4Ij48L3N2Zz4=" data-size="promoMedium">
 
 
             
 
-            <img class="Image" alt="Flamy Grant, a drag performer with pink curly hair, heavy makeup, a teal and hot-pink outfit and teal guitar, is shown outdoors against a forested backdrop. Text on the image reads &quot;Announcing award-winning and billboard-charting drag artist Flamy Grant as University Christian Church, San Diego&#x27;s Musician in Residence.&quot; The church logo is included at the bottom with a brightly colored chalice image, the church name and the words &quot;authentic, inclusive, progressive.&quot; " width="480" height="270" data-srcset="https://cdn.kpbs.org/dims4/default/2737b69/2147483647/strip/true/crop/940x529+0+130/resize/960x540!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F46%2Fb8%2F2bb2704f4db78692bdfc6b6eab40%2Fflamy-grant-ucc-cal.jpg 2x"
-        data-src="https://cdn.kpbs.org/dims4/default/3d5ebb9/2147483647/strip/true/crop/940x529+0+130/resize/480x270!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F46%2Fb8%2F2bb2704f4db78692bdfc6b6eab40%2Fflamy-grant-ucc-cal.jpg"
+            <img class="Image" alt="Peter Pan" width="480" height="270" data-srcset="https://cdn.kpbs.org/dims4/default/9c18a58/2147483647/strip/true/crop/3024x1701+0+332/resize/960x540!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F29%2F16%2Ff9d0cae04cfea8280826222987d7%2Fpeter-pan.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/31332c0/2147483647/strip/true/crop/3024x1701+0+332/resize/480x270!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F29%2F16%2Ff9d0cae04cfea8280826222987d7%2Fpeter-pan.jpg"
         loading="lazy"
         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNzBweCIgd2lkdGg9IjQ4MHB4Ij48L3N2Zz4=">
         
@@ -3509,7 +3478,7 @@ data-errors='{
       <ol class="ListB-items" data-hidenumber data-theme-links>
             
                 <li class="ListB-items-item">
-                    <a href="https://www.kpbs.org/events/2023/12/24/flamy-grant-christmas-eve-drag-story-time" class="PromoLink" aria-label="Flamy Grant: Christmas Eve Drag Story Time" data-cms-ai="0">Flamy Grant: Christmas Eve Drag Story Time</a>
+                    <a href="https://www.kpbs.org/events/ongoing/peter-pan" class="PromoLink" aria-label="Peter Pan" data-cms-ai="0">Peter Pan</a>
 
                 </li>
             
@@ -3531,7 +3500,7 @@ data-errors='{
         
             <div class="PromoB-media">
                 
-                    <a href="https://www.kpbs.org/news/2023/11/14/season-of-light-christmas-with-the-tabernacle-choir" class="Link" data-cms-ai="0"><picture>
+                    <a href="https://www.kpbs.org/news/2024/01/16/nature-big-little-journeys-survival" class="Link" data-cms-ai="0"><picture>
     
     
         
@@ -3552,19 +3521,19 @@ data-errors='{
         
             
                 <source type="image/webp" width="480" height="270"
-        data-srcset="https://cdn.kpbs.org/dims4/default/2bcad25/2147483647/strip/true/crop/1500x844+0+112/resize/960x540!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fa2%2F57%2F799184f54bfbb4d15e472d8427b5%2F20221216-214913-cpowell-cep-7739.jpg 2x"
+        data-srcset="https://cdn.kpbs.org/dims4/default/3f4bc16/2147483647/strip/true/crop/1500x844+0+0/resize/960x540!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F8e%2F57%2F23483a8e46508c2d573f4c9fcdd9%2Fblj-survival-03.jpg 2x"
         srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNzBweCIgd2lkdGg9IjQ4MHB4Ij48L3N2Zz4=" data-size="promoMedium">
 
 
     <source width="480" height="270"
-        data-srcset="https://cdn.kpbs.org/dims4/default/90a1623/2147483647/strip/true/crop/1500x844+0+112/resize/480x270!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fa2%2F57%2F799184f54bfbb4d15e472d8427b5%2F20221216-214913-cpowell-cep-7739.jpg"
+        data-srcset="https://cdn.kpbs.org/dims4/default/2e5d4a9/2147483647/strip/true/crop/1500x844+0+0/resize/480x270!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F8e%2F57%2F23483a8e46508c2d573f4c9fcdd9%2Fblj-survival-03.jpg"
         srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNzBweCIgd2lkdGg9IjQ4MHB4Ij48L3N2Zz4=" data-size="promoMedium">
 
 
             
 
-            <img class="Image" alt="The Tabernacle Choir and Orchestra along with children dancing at Temple Square in &quot;Season of Light: Christmas with The Tabernacle Choir&quot;" width="480" height="270" data-srcset="https://cdn.kpbs.org/dims4/default/2326be0/2147483647/strip/true/crop/1500x844+0+112/resize/960x540!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fa2%2F57%2F799184f54bfbb4d15e472d8427b5%2F20221216-214913-cpowell-cep-7739.jpg 2x"
-        data-src="https://cdn.kpbs.org/dims4/default/90a1623/2147483647/strip/true/crop/1500x844+0+112/resize/480x270!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fa2%2F57%2F799184f54bfbb4d15e472d8427b5%2F20221216-214913-cpowell-cep-7739.jpg"
+            <img class="Image" alt="In Taiwan, a Formosan pangolin travels through a land of giants to find a mate in a protected forest." width="480" height="270" data-srcset="https://cdn.kpbs.org/dims4/default/f8620c4/2147483647/strip/true/crop/1500x844+0+0/resize/960x540!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F8e%2F57%2F23483a8e46508c2d573f4c9fcdd9%2Fblj-survival-03.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/2e5d4a9/2147483647/strip/true/crop/1500x844+0+0/resize/480x270!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F8e%2F57%2F23483a8e46508c2d573f4c9fcdd9%2Fblj-survival-03.jpg"
         loading="lazy"
         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNzBweCIgd2lkdGg9IjQ4MHB4Ij48L3N2Zz4=">
         
@@ -3589,7 +3558,7 @@ data-errors='{
       <ol class="ListB-items" data-hidenumber data-theme-links>
             
                 <li class="ListB-items-item">
-                    <a href="https://www.kpbs.org/news/2023/11/14/season-of-light-christmas-with-the-tabernacle-choir" class="PromoLink" aria-label="Season of Light: Christmas with The Tabernacle Choir" data-cms-ai="0">Season of Light: Christmas with The Tabernacle Choir</a>
+                    <a href="https://www.kpbs.org/news/2024/01/16/nature-big-little-journeys-survival" class="PromoLink" aria-label="NATURE: BIG LITTLE JOURNEYS: Survival" data-cms-ai="0">NATURE: BIG LITTLE JOURNEYS: Survival</a>
 
                 </li>
             
@@ -3607,7 +3576,7 @@ data-errors='{
 <div class="AdModule" >
     
     <ps-google-dfp-ad data-hide-on-mobile='true'>
-    <div id="googleAd2f39d396-c2ba-4543-b41c-5810557e0fdd" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_3" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAdbbb2874e-72ef-4665-a2c8-e1523041bf95" class="GoogleDfpAd " data-hide-on-mobile='true' data-slot-name="1010421/KPBS_medium_3" data-slot-sizes="[[300, 250]]" data-slot-adSizeMap="[[[300, 1], [300, 250]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>
@@ -3629,7 +3598,7 @@ data-errors='{
         
             <div class="PromoB-media">
                 
-                    <a href="https://www.kpbs.org/news/environment/2023/12/11/utility-regulators-to-defend-new-california-solar-rules-in-court-this-week" class="Link" data-cms-ai="0"><picture>
+                    <a href="https://www.kpbs.org/news/national/2024/01/16/he-was-stranded-a-stranger-offered-help-and-a-message-today-you-tomorrow-me/" class="Link" data-cms-ai="0"><picture>
     
     
         
@@ -3650,19 +3619,19 @@ data-errors='{
         
             
                 <source type="image/webp" width="480" height="270"
-        data-srcset="https://cdn.kpbs.org/dims4/default/1050fe6/2147483647/strip/true/crop/1120x630+40+0/resize/960x540!/format/webp/quality/90/?url=https%3A%2F%2Fcdn.kpbs.org%2Fdims4%2Fdefault%2F3f4ba83%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F4240x2226%200%20303%2Fresize%2F1200x630%21%2Fquality%2F90%2F%3Furl%3Dhttp%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fb5%2F72%2Ffdab359e4ce5a7d47fee3f4eccc0%2Fbakerhomeenergy-solarinstall6.JPG 2x"
+        data-srcset="https://cdn.kpbs.org/dims4/default/3bf3e28/2147483647/strip/true/crop/1120x630+40+0/resize/960x540!/format/webp/quality/90/?url=https%3A%2F%2Fcdn.kpbs.org%2Fdims4%2Fdefault%2F96bf6c2%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F3024x1588%200%20340%2Fresize%2F1200x630%21%2Fquality%2F90%2F%3Furl%3Dhttps%3A%2F%2Fmedia.npr.org%2Fassets%2Fimg%2F2024%2F01%2F15%2Fjustin-dacf7cd1214803f00e81a2dcb1dd4c2bae868f96.jpg 2x"
         srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNzBweCIgd2lkdGg9IjQ4MHB4Ij48L3N2Zz4=" data-size="promoMedium">
 
 
     <source width="480" height="270"
-        data-srcset="https://cdn.kpbs.org/dims4/default/670aed8/2147483647/strip/true/crop/1120x630+40+0/resize/480x270!/quality/90/?url=https%3A%2F%2Fcdn.kpbs.org%2Fdims4%2Fdefault%2F3f4ba83%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F4240x2226%200%20303%2Fresize%2F1200x630%21%2Fquality%2F90%2F%3Furl%3Dhttp%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fb5%2F72%2Ffdab359e4ce5a7d47fee3f4eccc0%2Fbakerhomeenergy-solarinstall6.JPG"
+        data-srcset="https://cdn.kpbs.org/dims4/default/c693047/2147483647/strip/true/crop/1120x630+40+0/resize/480x270!/quality/90/?url=https%3A%2F%2Fcdn.kpbs.org%2Fdims4%2Fdefault%2F96bf6c2%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F3024x1588%200%20340%2Fresize%2F1200x630%21%2Fquality%2F90%2F%3Furl%3Dhttps%3A%2F%2Fmedia.npr.org%2Fassets%2Fimg%2F2024%2F01%2F15%2Fjustin-dacf7cd1214803f00e81a2dcb1dd4c2bae868f96.jpg"
         srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNzBweCIgd2lkdGg9IjQ4MHB4Ij48L3N2Zz4=" data-size="promoMedium">
 
 
             
 
-            <img class="Image" alt="" width="480" height="270" data-srcset="https://cdn.kpbs.org/dims4/default/524608a/2147483647/strip/true/crop/1120x630+40+0/resize/960x540!/quality/90/?url=https%3A%2F%2Fcdn.kpbs.org%2Fdims4%2Fdefault%2F3f4ba83%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F4240x2226%200%20303%2Fresize%2F1200x630%21%2Fquality%2F90%2F%3Furl%3Dhttp%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fb5%2F72%2Ffdab359e4ce5a7d47fee3f4eccc0%2Fbakerhomeenergy-solarinstall6.JPG 2x"
-        data-src="https://cdn.kpbs.org/dims4/default/670aed8/2147483647/strip/true/crop/1120x630+40+0/resize/480x270!/quality/90/?url=https%3A%2F%2Fcdn.kpbs.org%2Fdims4%2Fdefault%2F3f4ba83%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F4240x2226%200%20303%2Fresize%2F1200x630%21%2Fquality%2F90%2F%3Furl%3Dhttp%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fb5%2F72%2Ffdab359e4ce5a7d47fee3f4eccc0%2Fbakerhomeenergy-solarinstall6.JPG"
+            <img class="Image" alt="" width="480" height="270" data-srcset="https://cdn.kpbs.org/dims4/default/6e2e0ee/2147483647/strip/true/crop/1120x630+40+0/resize/960x540!/quality/90/?url=https%3A%2F%2Fcdn.kpbs.org%2Fdims4%2Fdefault%2F96bf6c2%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F3024x1588%200%20340%2Fresize%2F1200x630%21%2Fquality%2F90%2F%3Furl%3Dhttps%3A%2F%2Fmedia.npr.org%2Fassets%2Fimg%2F2024%2F01%2F15%2Fjustin-dacf7cd1214803f00e81a2dcb1dd4c2bae868f96.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/c693047/2147483647/strip/true/crop/1120x630+40+0/resize/480x270!/quality/90/?url=https%3A%2F%2Fcdn.kpbs.org%2Fdims4%2Fdefault%2F96bf6c2%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F3024x1588%200%20340%2Fresize%2F1200x630%21%2Fquality%2F90%2F%3Furl%3Dhttps%3A%2F%2Fmedia.npr.org%2Fassets%2Fimg%2F2024%2F01%2F15%2Fjustin-dacf7cd1214803f00e81a2dcb1dd4c2bae868f96.jpg"
         loading="lazy"
         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIyNzBweCIgd2lkdGg9IjQ4MHB4Ij48L3N2Zz4=">
         
@@ -3687,27 +3656,27 @@ data-errors='{
       <ol class="ListB-items" data-hidenumber data-theme-links>
             
                 <li class="ListB-items-item">
-                    <a href="https://www.kpbs.org/news/environment/2023/12/11/utility-regulators-to-defend-new-california-solar-rules-in-court-this-week" class="PromoLink" aria-label="Utility regulators to defend new California solar rules in court this week" data-cms-ai="0">Utility regulators to defend new California solar rules in court this week</a>
+                    <a href="https://www.kpbs.org/news/national/2024/01/16/he-was-stranded-a-stranger-offered-help-and-a-message-today-you-tomorrow-me/" class="PromoLink" aria-label="He was stranded. A stranger offered help and a message: &#x27;Today you, tomorrow me&#x27;" data-cms-ai="0">He was stranded. A stranger offered help and a message: &#x27;Today you, tomorrow me&#x27;</a>
 
                 </li>
             
                 <li class="ListB-items-item">
-                    <a href="https://www.kpbs.org/news/border-immigration/2023/12/11/southbound-jam-a-new-twist-to-border-wait-times" class="PromoLink" aria-label="Southbound jam — a new twist to border wait times" data-cms-ai="0">Southbound jam — a new twist to border wait times</a>
+                    <a href="https://www.kpbs.org/news/education/2024/01/15/new-chancellor-to-lead-diversity-equity-and-inclusion-in-the-san-diego-community-college-district" class="PromoLink" aria-label="New chancellor to lead diversity, equity, and inclusion in the San Diego Community College District" data-cms-ai="0">New chancellor to lead diversity, equity, and inclusion in the San Diego Community College District</a>
 
                 </li>
             
                 <li class="ListB-items-item">
-                    <a href="https://www.kpbs.org/news/local/2023/12/11/queen-bees-celebrates-15-years-in-north-park" class="PromoLink" aria-label="Queen Bee&#x27;s celebrates 15 years in North Park" data-cms-ai="0">Queen Bee&#x27;s celebrates 15 years in North Park</a>
+                    <a href="https://www.kpbs.org/news/politics/2024/01/15/san-diego-child-care-providers-struggle" class="PromoLink" aria-label="New data shows child care providers continue to struggle" data-cms-ai="0">New data shows child care providers continue to struggle</a>
 
                 </li>
             
                 <li class="ListB-items-item">
-                    <a href="https://www.kpbs.org/news/national/2023/12/11/how-to-survive-your-workplace-holiday-party" class="PromoLink" aria-label="How to survive your workplace holiday party" data-cms-ai="0">How to survive your workplace holiday party</a>
+                    <a href="https://www.kpbs.org/news/news/politics/2024/01/16/5-takeaways-from-the-iowa-republican-caucuses/" class="PromoLink" aria-label="5 takeaways from the Iowa Republican caucuses" data-cms-ai="0">5 takeaways from the Iowa Republican caucuses</a>
 
                 </li>
             
                 <li class="ListB-items-item">
-                    <a href="https://www.kpbs.org/news/news/national/2023/12/11/gao-yaojie-a-pioneering-activist-who-exposed-chinas-aids-epidemic-dies-at-95" class="PromoLink" aria-label="Gao Yaojie, a pioneering activist who exposed China&#x27;s AIDS epidemic, dies at 95" data-cms-ai="0">Gao Yaojie, a pioneering activist who exposed China&#x27;s AIDS epidemic, dies at 95</a>
+                    <a href="https://www.kpbs.org/news/politics/2024/01/16/as-trump-wins-iowa-focus-shifts-to-new-hampshire-heres-what-you-need-to-know" class="PromoLink" aria-label="As Trump wins Iowa, focus shifts to New Hampshire. Here&#x27;s what you need to know" data-cms-ai="0">As Trump wins Iowa, focus shifts to New Hampshire. Here&#x27;s what you need to know</a>
 
                 </li>
             
@@ -3740,7 +3709,7 @@ data-errors='{
     
         <div class="PromoA-media">
             
-                <a href="https://www.kpbs.org/news/racial-justice-social-equity/2023/12/12/san-diego-pride-interim-leaders-co-executive-directors" class="Link" aria-label="San Diego Pride interim leaders commit to continue strong legacy and support" data-cms-ai="0"><picture>
+                <a href="https://www.kpbs.org/news/quality-of-life/2024/01/17/north-county-transit-districts-new-ceo-public-transit-region" class="Link" aria-label="North County Transit District&#x27;s new CEO has lofty goals for public transit in region" data-cms-ai="0"><picture>
     
     
         
@@ -3761,19 +3730,19 @@ data-errors='{
         
             
                 <source type="image/webp" width="280" height="156"
-        data-srcset="https://cdn.kpbs.org/dims4/default/920f0c3/2147483647/strip/true/crop/2430x1354+205+0/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F24%2F2b%2Fd022ebd74db190735b6ae98a230b%2Fco-eds.jpg 2x"
+        data-srcset="https://cdn.kpbs.org/dims4/default/f3c1039/2147483647/strip/true/crop/4032x2246+0+496/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F01%2F9b%2Fddf2c12048079c8d59390b1d10d0%2Fimg-4430.JPG 2x"
         srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=" data-size="promoSmall">
 
 
     <source width="280" height="156"
-        data-srcset="https://cdn.kpbs.org/dims4/default/712f1c0/2147483647/strip/true/crop/2430x1354+205+0/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F24%2F2b%2Fd022ebd74db190735b6ae98a230b%2Fco-eds.jpg"
+        data-srcset="https://cdn.kpbs.org/dims4/default/ba5f5bd/2147483647/strip/true/crop/4032x2246+0+496/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F01%2F9b%2Fddf2c12048079c8d59390b1d10d0%2Fimg-4430.JPG"
         srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=" data-size="promoSmall">
 
 
             
 
-            <img class="Image" alt="Sarafina Scapicchio (left) and Jen Labarbera (right) are interim co-executive directors of San Diego Pride, San Diego, Calif., December 12, 2023" width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/e4b1bec/2147483647/strip/true/crop/2430x1354+205+0/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F24%2F2b%2Fd022ebd74db190735b6ae98a230b%2Fco-eds.jpg 2x"
-        data-src="https://cdn.kpbs.org/dims4/default/712f1c0/2147483647/strip/true/crop/2430x1354+205+0/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F24%2F2b%2Fd022ebd74db190735b6ae98a230b%2Fco-eds.jpg"
+            <img class="Image" alt="North coutny Transit District&#x27;s S" width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/476ead7/2147483647/strip/true/crop/4032x2246+0+496/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F01%2F9b%2Fddf2c12048079c8d59390b1d10d0%2Fimg-4430.JPG 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/ba5f5bd/2147483647/strip/true/crop/4032x2246+0+496/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F01%2F9b%2Fddf2c12048079c8d59390b1d10d0%2Fimg-4430.JPG"
         loading="lazy"
         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
         
@@ -3786,20 +3755,20 @@ data-errors='{
     <div class="PromoA-content">
         
     <div class="PromoA-category">
-        <a href="https://www.kpbs.org/news/racial-justice-social-equity" class="Link" data-cms-ai="0">Racial Justice and Social Equity</a>
+        <a href="https://www.kpbs.org/news/quality-of-life" class="Link" data-cms-ai="0">Quality of Life</a>
     </div>
 
         
     <div class="PromoA-title">
-        <a href="https://www.kpbs.org/news/racial-justice-social-equity/2023/12/12/san-diego-pride-interim-leaders-co-executive-directors" class="Link" data-cms-ai="0">San Diego Pride interim leaders commit to continue strong legacy and support</a>
+        <a href="https://www.kpbs.org/news/quality-of-life/2024/01/17/north-county-transit-districts-new-ceo-public-transit-region" class="Link" data-cms-ai="0">North County Transit District&#x27;s new CEO has lofty goals for public transit in region</a>
     </div>
 
         
     <div class="PromoA-byline">
         
         
-            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1702433856521"
-            data-date="December 12, 2023 at 6:17 PM PST" data-promo-date="December 12, 2023"></div></div>
+            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1705500000000"
+            data-date="January 17, 2024 at 6:00 AM PST" data-promo-date="January 17, 2024"></div></div>
         
     </div>
 
@@ -3816,7 +3785,7 @@ data-errors='{
     
         <div class="PromoA-media">
             
-                <a href="https://www.kpbs.org/news/border-immigration/2023/12/12/cbp-officer-resigns-after-pleading-guilty-to-unreasonable-force-at-san-ysidro-crossing" class="Link" aria-label="CBP officer resigns after pleading guilty to unreasonable force at San Ysidro crossing" data-cms-ai="0"><picture>
+                <a href="https://www.kpbs.org/news/local/2024/01/16/pedal-to-the-metal-extensive-library-opens-at-san-diego-automotive-museum" class="Link" aria-label="Pedal to the metal: Extensive library opens at San Diego Automotive Museum" data-cms-ai="0"><picture>
     
     
         
@@ -3837,19 +3806,19 @@ data-errors='{
         
             
                 <source type="image/webp" width="280" height="156"
-        data-srcset="https://cdn.kpbs.org/dims4/default/d2a5333/2147483647/strip/true/crop/4000x2229+0+219/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fe8%2Ff0%2Ffb07214542f99f7c3df80f9727a8%2Fmb-pedwest-04.jpg 2x"
+        data-srcset="https://cdn.kpbs.org/dims4/default/c9640eb/2147483647/strip/true/crop/4032x2246+0+125/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F44%2F25%2F719dcdea41509aaf232d449c43b7%2Fimg-1948.jpg 2x"
         srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=" data-size="promoSmall">
 
 
     <source width="280" height="156"
-        data-srcset="https://cdn.kpbs.org/dims4/default/9ef9ff0/2147483647/strip/true/crop/4000x2229+0+219/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fe8%2Ff0%2Ffb07214542f99f7c3df80f9727a8%2Fmb-pedwest-04.jpg"
+        data-srcset="https://cdn.kpbs.org/dims4/default/eded012/2147483647/strip/true/crop/4032x2246+0+125/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F44%2F25%2F719dcdea41509aaf232d449c43b7%2Fimg-1948.jpg"
         srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=" data-size="promoSmall">
 
 
             
 
-            <img class="Image" alt="People using PedWest to cross into the U.S. San Ysidro, Calif. Jan., 9, 2023. After nearly three years, U.S. Customs and Border Protection reopened a pedestrian crossing from Tijuana into San Diego. The PedWest crossing was closed at the beginning of the pandemic in 2020, but when the travel restrictions were lifted it was not reopened. Thousands of asylum seekers made a makeshift camp on the Mexican side of the PedWest crossing hoping to be some of the first to cross when the crossing reopened. Mexican authorities eventually cleared the camp and moved the asylum seekers to other parts of Tijuana. Few people used PedWest to cross into the U.S. Monday, Jan. 9, 2023, but authorities expect that to increase as more learn the crossing is now open." width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/99ccc4d/2147483647/strip/true/crop/4000x2229+0+219/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fe8%2Ff0%2Ffb07214542f99f7c3df80f9727a8%2Fmb-pedwest-04.jpg 2x"
-        data-src="https://cdn.kpbs.org/dims4/default/9ef9ff0/2147483647/strip/true/crop/4000x2229+0+219/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fe8%2Ff0%2Ffb07214542f99f7c3df80f9727a8%2Fmb-pedwest-04.jpg"
+            <img class="Image" alt="Jim Berg, Sharon Dunn, and Lenny Leszczynski handle the official ribbon-cutting opening of the Berg Family Trust Library, Tuesday, at the San Diego Automotive Museum in Balboa Park, San Diego, Calif., January 16, 2024" width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/ba01357/2147483647/strip/true/crop/4032x2246+0+125/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F44%2F25%2F719dcdea41509aaf232d449c43b7%2Fimg-1948.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/eded012/2147483647/strip/true/crop/4032x2246+0+125/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F44%2F25%2F719dcdea41509aaf232d449c43b7%2Fimg-1948.jpg"
         loading="lazy"
         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
         
@@ -3862,96 +3831,20 @@ data-errors='{
     <div class="PromoA-content">
         
     <div class="PromoA-category">
-        <a href="https://www.kpbs.org/news/border-immigration" class="Link" data-cms-ai="0">Border &amp; Immigration</a>
+        <a href="https://www.kpbs.org/news/education" class="Link" data-cms-ai="0">Education</a>
     </div>
 
         
     <div class="PromoA-title">
-        <a href="https://www.kpbs.org/news/border-immigration/2023/12/12/cbp-officer-resigns-after-pleading-guilty-to-unreasonable-force-at-san-ysidro-crossing" class="Link" data-cms-ai="0">CBP officer resigns after pleading guilty to unreasonable force at San Ysidro crossing</a>
+        <a href="https://www.kpbs.org/news/local/2024/01/16/pedal-to-the-metal-extensive-library-opens-at-san-diego-automotive-museum" class="Link" data-cms-ai="0">Pedal to the metal: Extensive library opens at San Diego Automotive Museum</a>
     </div>
 
         
     <div class="PromoA-byline">
         
         
-            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1702432659000"
-            data-date="December 12, 2023 at 5:57 PM PST" data-promo-date="December 12, 2023"></div></div>
-        
-    </div>
-
-        
-        
-    </div>
-</ps-promo>
-                
-            </li>
-            
-            <li class="ListH-items-item">
-                
-                  <ps-promo class="PromoA"  data-content-type="longform-news-story" data-image-align="top"data-content-type="longform-news-story" data-image-align="top">
-    
-        <div class="PromoA-media">
-            
-                <a href="https://www.kpbs.org/news/arts-culture/2023/12/12/community-hub-valley-center-san-diego-home-betty-crocker" class="Link" aria-label="Community hub in Valley Center was once the home of Betty Crocker" data-cms-ai="0"><picture>
-    
-    
-        
-    
-
-    
-    
-        
-    
-
-    
-    
-        
-    
-
-    
-    
-        
-            
-                <source type="image/webp" width="280" height="156"
-        data-srcset="https://cdn.kpbs.org/dims4/default/c8cc665/2147483647/strip/true/crop/1920x1070+0+5/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F68%2F32%2Ff2eff59749a582d1ac56b895be12%2Fb-b-wide.jpg 2x"
-        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=" data-size="promoSmall">
-
-
-    <source width="280" height="156"
-        data-srcset="https://cdn.kpbs.org/dims4/default/683fe55/2147483647/strip/true/crop/1920x1070+0+5/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F68%2F32%2Ff2eff59749a582d1ac56b895be12%2Fb-b-wide.jpg"
-        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=" data-size="promoSmall">
-
-
-            
-
-            <img class="Image" alt="The exterior of the barn at Brick N Barn is shown in Valley Center on Dec. 1, 2023." width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/8cdc76f/2147483647/strip/true/crop/1920x1070+0+5/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F68%2F32%2Ff2eff59749a582d1ac56b895be12%2Fb-b-wide.jpg 2x"
-        data-src="https://cdn.kpbs.org/dims4/default/683fe55/2147483647/strip/true/crop/1920x1070+0+5/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F68%2F32%2Ff2eff59749a582d1ac56b895be12%2Fb-b-wide.jpg"
-        loading="lazy"
-        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
-        
-    
-</picture></a>
-            
-        </div>
-    
-
-    <div class="PromoA-content">
-        
-    <div class="PromoA-category">
-        <a href="https://www.kpbs.org/news/arts-culture" class="Link" data-cms-ai="0">Arts &amp; Culture</a>
-    </div>
-
-        
-    <div class="PromoA-title">
-        <a href="https://www.kpbs.org/news/arts-culture/2023/12/12/community-hub-valley-center-san-diego-home-betty-crocker" class="Link" data-cms-ai="0">Community hub in Valley Center was once the home of Betty Crocker</a>
-    </div>
-
-        
-    <div class="PromoA-byline">
-        
-        
-            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1702432104594"
-            data-date="December 12, 2023 at 5:48 PM PST" data-promo-date="December 12, 2023"></div></div>
+            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1705455220982"
+            data-date="January 16, 2024 at 5:33 PM PST" data-promo-date="January 16, 2024"></div></div>
         
     </div>
 
@@ -3968,7 +3861,7 @@ data-errors='{
     
         <div class="PromoA-media">
             
-                <a href="https://www.kpbs.org/news/politics/2023/12/12/san-diego-city-council-approves-housing-action-package-2-0" class="Link" aria-label="   San Diego City Council approves sweeping Housing Action Package 2.0" data-cms-ai="0"><picture>
+                <a href="https://www.kpbs.org/news/economy/2024/01/16/county-housing-sales-slow-in-december-prices-remain-higher-than-year-ago" class="Link" aria-label="County housing sales slow in December, prices remain higher than year ago" data-cms-ai="0"><picture>
     
     
         
@@ -3989,19 +3882,19 @@ data-errors='{
         
             
                 <source type="image/webp" width="280" height="156"
-        data-srcset="https://cdn.kpbs.org/dims4/default/eb706ae/2147483647/strip/true/crop/4032x2246+0+51/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Ff6%2Fd8%2F555044614b35aaa09603bbb04ae6%2Fsan-diego-city-hall-seal.jpg 2x"
+        data-srcset="https://cdn.kpbs.org/dims4/default/205e15f/2147483647/strip/true/crop/1759x980+0+268/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F0b%2F01%2F4ea0c5a644bb90e5054e9d2d6159%2Fsan-diego-condo-for-sale.jpg 2x"
         srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=" data-size="promoSmall">
 
 
     <source width="280" height="156"
-        data-srcset="https://cdn.kpbs.org/dims4/default/102ea2f/2147483647/strip/true/crop/4032x2246+0+51/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Ff6%2Fd8%2F555044614b35aaa09603bbb04ae6%2Fsan-diego-city-hall-seal.jpg"
+        data-srcset="https://cdn.kpbs.org/dims4/default/9b886f7/2147483647/strip/true/crop/1759x980+0+268/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F0b%2F01%2F4ea0c5a644bb90e5054e9d2d6159%2Fsan-diego-condo-for-sale.jpg"
         srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=" data-size="promoSmall">
 
 
             
 
-            <img class="Image" alt="The City of San Diego seal is shown at City Hall. San Diego, Calif. Jan. 24, 2023." width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/89fda71/2147483647/strip/true/crop/4032x2246+0+51/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Ff6%2Fd8%2F555044614b35aaa09603bbb04ae6%2Fsan-diego-city-hall-seal.jpg 2x"
-        data-src="https://cdn.kpbs.org/dims4/default/102ea2f/2147483647/strip/true/crop/4032x2246+0+51/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Ff6%2Fd8%2F555044614b35aaa09603bbb04ae6%2Fsan-diego-city-hall-seal.jpg"
+            <img class="Image" alt="A &quot;for sale&quot; sign in front of a condo in the Golden Hill neighborhood of San Diego, Calif. Dec. 7, 2022." width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/9b78759/2147483647/strip/true/crop/1759x980+0+268/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F0b%2F01%2F4ea0c5a644bb90e5054e9d2d6159%2Fsan-diego-condo-for-sale.jpg 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/9b886f7/2147483647/strip/true/crop/1759x980+0+268/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F0b%2F01%2F4ea0c5a644bb90e5054e9d2d6159%2Fsan-diego-condo-for-sale.jpg"
         loading="lazy"
         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
         
@@ -4014,20 +3907,96 @@ data-errors='{
     <div class="PromoA-content">
         
     <div class="PromoA-category">
-        <a href="https://www.kpbs.org/news/politics" class="Link" data-cms-ai="0">Politics</a>
+        <a href="https://www.kpbs.org/news/economy" class="Link" data-cms-ai="0">Economy</a>
     </div>
 
         
     <div class="PromoA-title">
-        <a href="https://www.kpbs.org/news/politics/2023/12/12/san-diego-city-council-approves-housing-action-package-2-0" class="Link" data-cms-ai="0">   San Diego City Council approves sweeping Housing Action Package 2.0</a>
+        <a href="https://www.kpbs.org/news/economy/2024/01/16/county-housing-sales-slow-in-december-prices-remain-higher-than-year-ago" class="Link" data-cms-ai="0">County housing sales slow in December, prices remain higher than year ago</a>
     </div>
 
         
     <div class="PromoA-byline">
         
         
-            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1702432093456"
-            data-date="December 12, 2023 at 5:48 PM PST" data-promo-date="December 12, 2023"></div></div>
+            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1705448971632"
+            data-date="January 16, 2024 at 3:49 PM PST" data-promo-date="January 16, 2024"></div></div>
+        
+    </div>
+
+        
+        
+    </div>
+</ps-promo>
+                
+            </li>
+            
+            <li class="ListH-items-item">
+                
+                  <ps-promo class="PromoA"  data-content-type="news-story" data-image-align="top"data-content-type="news-story" data-image-align="top">
+    
+        <div class="PromoA-media">
+            
+                <a href="https://www.kpbs.org/news/environment/2024/01/16/grant-money-available-for-earthquake-retrofitting-for-some-san-diego-homes" class="Link" aria-label="Grant money available for earthquake retrofitting for some San Diego homes" data-cms-ai="0"><picture>
+    
+    
+        
+    
+
+    
+    
+        
+    
+
+    
+    
+        
+    
+
+    
+    
+        
+            
+                <source type="image/webp" width="280" height="156"
+        data-srcset="https://cdn.kpbs.org/dims4/default/d2477e2/2147483647/strip/true/crop/3888x2166+0+213/resize/560x312!/format/webp/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fimg%2Fphotos%2F2011%2F05%2F23%2FStensrud_House.JPG 2x"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=" data-size="promoSmall">
+
+
+    <source width="280" height="156"
+        data-srcset="https://cdn.kpbs.org/dims4/default/6c622d2/2147483647/strip/true/crop/3888x2166+0+213/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fimg%2Fphotos%2F2011%2F05%2F23%2FStensrud_House.JPG"
+        srcset="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=" data-size="promoSmall">
+
+
+            
+
+            <img class="Image" alt="The Quatermass-Stensrud house is in El Cerrito, not Talmadge. " width="280" height="156" data-srcset="https://cdn.kpbs.org/dims4/default/6793ff5/2147483647/strip/true/crop/3888x2166+0+213/resize/560x312!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fimg%2Fphotos%2F2011%2F05%2F23%2FStensrud_House.JPG 2x"
+        data-src="https://cdn.kpbs.org/dims4/default/6c622d2/2147483647/strip/true/crop/3888x2166+0+213/resize/280x156!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2Fimg%2Fphotos%2F2011%2F05%2F23%2FStensrud_House.JPG"
+        loading="lazy"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgaGVpZ2h0PSIxNTZweCIgd2lkdGg9IjI4MHB4Ij48L3N2Zz4=">
+        
+    
+</picture></a>
+            
+        </div>
+    
+
+    <div class="PromoA-content">
+        
+    <div class="PromoA-category">
+        <a href="https://www.kpbs.org/news/environment" class="Link" data-cms-ai="0">Environment</a>
+    </div>
+
+        
+    <div class="PromoA-title">
+        <a href="https://www.kpbs.org/news/environment/2024/01/16/grant-money-available-for-earthquake-retrofitting-for-some-san-diego-homes" class="Link" data-cms-ai="0">Grant money available for earthquake retrofitting for some San Diego homes</a>
+    </div>
+
+        
+    <div class="PromoA-byline">
+        
+        
+            <div class="PromoA-date"><div class="PromoA-timestamp" data-timestamp="1705446979603"
+            data-date="January 16, 2024 at 3:16 PM PST" data-promo-date="January 16, 2024"></div></div>
         
     </div>
 
@@ -4121,7 +4090,7 @@ data-errors='{
     <div class="AdModule" >
     
     <ps-google-dfp-ad>
-    <div id="googleAd4f0f7ecf-5e2f-46ff-b160-6694effd177e" class="GoogleDfpAd " data-slot-name="1010421/KPBS_micro_billboard_1" data-slot-sizes="[[240, 60]]" data-slot-adSizeMap="[[[240, 1], [240, 60]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
+    <div id="googleAd5f0b4aff-d92e-478a-ae21-c8931846178d" class="GoogleDfpAd " data-slot-name="1010421/KPBS_micro_billboard_1" data-slot-sizes="[[240, 60]]" data-slot-adSizeMap="[[[240, 1], [240, 60]]]" data-targeting-data="{&quot;id&quot;:&quot;0000017a-63cf-d7a8-adfb-ebffed490089&quot;,&quot;type&quot;:&quot;news-story&quot;,&quot;tags&quot;:[&quot;Immigration&quot;,&quot;Tijuana&quot;],&quot;category&quot;:&quot;KPBS Midday Edition&quot;,&quot;programs&quot;:[]}">
         <span class="GoogleDfpAd-placeholder"></span>
     </div>
 </ps-google-dfp-ad>

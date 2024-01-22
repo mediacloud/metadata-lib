@@ -20,7 +20,6 @@
 <meta name="twitter:site" content="@WWFJapan">
 <meta name="format-detection" content="telephone=no">
 
-
 <link rel="canonical" href="https://www.wwf.or.jp/">
 
 <link rel="stylesheet" href="/shared/css/slick/slick.css">
@@ -230,6 +229,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<li>もっと読む</li>
 								</ul>
 							</div>
+						</a></li><!--						--><li class="swiper-slide"><a href="/activities/project/5472.html">
+							<div class="image"><figure><img data-src="/image/article/article_images/20231226climate01.webp" alt="" class="lazyload imgExpansion objectFitImage pcInline"><img data-src="/image/article/article_images/20231226climate01.webp" alt="" class="lazyload spInline"><figcaption></figcaption></figure></div>
+							<div class="text">
+								<p class="title">４７都道府県に聞いた！ 脱炭素化の取り組みに対する実態調査</p>
+								<p></p>
+								<ul class="link">
+									<li>もっと読む</li>
+								</ul>
+							</div>
 						</a></li><!--						--><li class="swiper-slide"><a href="/activities/project/5444.html">
 							<div class="image"><figure><img data-src="/image/article/article_images/20231025plasticArtboard0.png" alt="" class="lazyload imgExpansion objectFitImage pcInline"><img data-src="/image/article/article_images/20231025plasticArtboard0.png" alt="" class="lazyload spInline"><figcaption></figcaption></figure></div>
 							<div class="text">
@@ -248,15 +256,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<li>もっと読む</li>
 								</ul>
 							</div>
-						</a></li><!--						--><li class="swiper-slide"><a href="/activities/project/4023.html">
-							<div class="image"><figure><img data-src="/image/article/article_images/20230713book.jpg" alt="" class="lazyload imgExpansion objectFitImage pcInline"><img data-src="/image/article/article_images/20230713book.jpg" alt="" class="lazyload spInline"><figcaption></figcaption></figure></div>
-							<div class="text">
-								<p class="title">夏休み！自由研究や読書感想文に役立つ、親子で読みたいオススメの本</p>
-								<p>WWFジャパンが親子で読みたいオススメの本をご紹介します。</p>
-								<ul class="link">
-									<li>もっと読む</li>
-								</ul>
-							</div>
 						</a></li><!--
 					--></ul>
 				<!-- /bodyAreaBg --></div>
@@ -269,62 +268,62 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="sectionBody__pc-980 sectionBody__sp">
 								<ul class="listLink listLinkType3">
 
-									<li><a href="/activities/activity/5491.html">
-										<div class="image"><figure><img src="/image/article/article_images/20231212climate01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>©  Pekka Tuuri / WWF </figcaption></figure></div>
+									<li><a href="/activities/activity/5522.html">
+										<div class="image"><figure><img src="/image/article/article_images/20240112wildlife01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>撮影　鈴木陽樹</figcaption></figure></div>
 										<ul class="tablink"><li>WWFの活動</li><li>活動報告</li></ul>
-										<p>2023年版レッドリスト発表　絶滅危惧種におよぶ気候変動の脅威が明確に </p>
+										<p>旧稲葉集落で進む水辺再生～西表島浦内川での活動レポート </p>
 	
-										<time datetime="2023-12-12">2023/12/12</time>
+										<time datetime="2024-01-12">2024/01/12</time>
 	
 									</a></li>
 
 
-									<li><a href="/staffblog/activity/5490.html">
-										<div class="image"><figure><img src="/image/article/article_images/20231209_climate_02.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© WWF Japan</figcaption></figure></div>
+									<li><a href="/staffblog/news/5519.html">
+										<div class="image"><figure><img src="/image/article/article_images/20220215wildlife01s.jpg" alt="" class="imgExpansion objectFitImage"><figcaption>© Yosuke Amano / WWF</figcaption></figure></div>
+										<ul class="tablink"><li>スタッフブログ</li><li>ニュース</li></ul>
+										<p>絵本のご紹介『コアラのなみだ』</p>
+	
+										<time datetime="2024-01-10">2024/01/10</time>
+	
+									</a></li>
+
+
+									<li><a href="/staffblog/news/5520.html">
+										<div class="image"><figure><img src="/image/article/article_images/20231227_wildlife01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>左 © WWF-US / Keith Arnold　右 © WWF-Sweden / Ola Jennersten</figcaption></figure></div>
+										<ul class="tablink"><li>スタッフブログ</li><li>ニュース</li></ul>
+										<p>今日は110番の日～だれでもできる違法取引のパトロール～</p>
+	
+										<time datetime="2024-01-10">2024/01/10</time>
+	
+									</a></li>
+
+
+									<li><a href="/staffblog/activity/5500.html">
+										<div class="image"><figure><img src="/image/article/article_images/20240101sustainable01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© Jasper Doest / WWF</figcaption></figure></div>
 										<ul class="tablink"><li>スタッフブログ</li><li>活動報告</li></ul>
-										<p>【COP28現地報告】2週目、閣僚級会合が始まりました</p>
+										<p>2024年　新年のご挨拶</p>
 	
-										<time datetime="2023-12-09">2023/12/09</time>
-	
-									</a></li>
-
-
-									<li><a href="/staffblog/activity/5489.html">
-										<div class="image"><figure><img src="/image/article/article_images/20231208_climate_02.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© WWF Japan</figcaption></figure></div>
-										<ul class="tablink"><li>スタッフブログ</li><li>活動報告</li></ul>
-										<p>COP28現地発信：日本の非国家アクターがカーボンプラシング政策の改善を提言</p>
-	
-										<time datetime="2023-12-08">2023/12/08</time>
+										<time datetime="2024-01-01">2024/01/01</time>
 	
 									</a></li>
 
 
-									<li><a href="/activities/news/5487.html">
-										<div class="image"><figure><img src="/image/article/article_images/20231205climate01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© UNFCCC Photo by COP28 / Mahmoud Khaled</figcaption></figure></div>
+									<li><a href="/activities/lib/5518.html">
+										<div class="image"><figure><img src="/image/article/article_images/20231226forest01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© Andre Dib / WWF Brazil</figcaption></figure></div>
+										<ul class="tablink"><li>WWFの活動</li><li>資料・レポート</li></ul>
+										<p>「見えない大豆」の森林破壊　～日本の食に含まれる本当の大豆の量と影響～ </p>
+	
+										<time datetime="2023-12-27">2023/12/27</time>
+	
+									</a></li>
+
+
+									<li><a href="/activities/news/5516.html">
+										<div class="image"><figure><img src="/image/article/article_images/20231225wildlife01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© FreeImages.com / ltshears</figcaption></figure></div>
 										<ul class="tablink"><li>WWFの活動</li><li>ニュース</li></ul>
-										<p>ビジネスセクターによる脱化石燃料キャンペーンが本格始動</p>
+										<p>世界の先進事例から：韓国で進む野生動物利用に関する法整備</p>
 	
-										<time datetime="2023-12-07">2023/12/07</time>
-	
-									</a></li>
-
-
-									<li><a href="/activities/activity/5488.html">
-										<div class="image"><figure><img src="/image/article/article_images/20231205ocean01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© WWF Japan</figcaption></figure></div>
-										<ul class="tablink"><li>WWFの活動</li><li>活動報告</li></ul>
-										<p>「ゴーストギア調査隊」伊東市での第1回調査</p>
-	
-										<time datetime="2023-12-07">2023/12/07</time>
-	
-									</a></li>
-
-
-									<li><a href="/staffblog/activity/5485.html">
-										<div class="image"><figure><img src="/image/article/article_images/20231204climate01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© Y.Sato/WWF Japan</figcaption></figure></div>
-										<ul class="tablink"><li>スタッフブログ</li><li>活動報告</li></ul>
-										<p>COP28現地発信：日本が「化石賞」を受賞しました</p>
-	
-										<time datetime="2023-12-04">2023/12/04</time>
+										<time datetime="2023-12-26">2023/12/26</time>
 	
 									</a></li>
 
@@ -377,44 +376,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="bodyAreaBg clearfix">
                     <h2 class="center">
                         人気記事
-                        <span class="date">（2023/11/16 ～ 2023/11/30）</span>
+                        <span class="date">（2023/12/01 ～ 2023/12/15）</span>
                     </h2>
                     <div class="sectionBody__pc-980 sectionBody__sp">
                         <ol class="listLayout">
                 <li>
 
-                  <a href="/activities/basicinfo/4580.html" class="grid">
+                  <a href="/staffblog/activity/5485.html" class="grid">
 
 
                     <div class="image">
                       <figure>
-                        <img src="/image/article/article_images/20210311sustainable01s_1.jpg" alt="" class="imgExpansion objectFitImage">
-                        <figcaption>© Asim Hafeez / WWF-UK</figcaption>
-                      </figure>
-                    </div>
-
-                    <div class="content">
-                      <ul class="tablink">
-                        <li>WWFの活動</li>
-                        <li>基礎情報</li>
-                      </ul>
-                      <p>コットンって環境に悪い？サステナブルファッション視点でのコットンの生産と利用</p>
-                      <div class="author">
-
-                        <time datetime="2021-03-12">2021/03/12</time>
-
-                      </div>
-                    </div>
-                  </a>
-                </li>                <li>
-
-                  <a href="/staffblog/activity/5464.html" class="grid">
-
-
-                    <div class="image">
-                      <figure>
-                        <img src="/image/article/article_images/20231107wildlife01s.jpg" alt="" class="imgExpansion objectFitImage">
-                        <figcaption>© naturepl.com / Sylvain Cordier / WWF</figcaption>
+                        <img src="/image/article/article_images/20231204climate01s.webp" alt="" class="imgExpansion objectFitImage">
+                        <figcaption>© Y.Sato/WWF Japan</figcaption>
                       </figure>
                     </div>
 
@@ -423,31 +397,60 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li>スタッフブログ</li>
                         <li>活動報告</li>
                       </ul>
-                      <p>記憶に残る授業－ユキヒョウを学ぶ</p>
+                      <p>COP28現地発信：日本が「化石賞」を受賞しました</p>
                       <div class="author">
 
-                        <time datetime="2023-11-21">2023/11/21</time>
+                        <time datetime="2023-12-04">2023/12/04</time>
 
                       </div>
                     </div>
                   </a>
                 </li>                <li>
 
-                  <a href="/activities/basicinfo/3537.html" class="grid">
+                  <a href="/activities/activity/5497.html" class="grid">
 
 
-                    <div class="image no-image">
+                    <div class="image">
+                      <figure>
+                        <img src="/image/article/article_images/20231220_climate_01s.webp" alt="" class="imgExpansion objectFitImage">
+                        <figcaption>© WWF-japan</figcaption>
+                      </figure>
                     </div>
 
                     <div class="content">
                       <ul class="tablink">
                         <li>WWFの活動</li>
-                        <li>基礎情報</li>
+                        <li>活動報告</li>
                       </ul>
-                      <p>スクール・パリ協定</p>
+                      <p>COP28 結果報告</p>
                       <div class="author">
 
-                        <time datetime="2022-02-10">2022/02/10</time>
+                        <time datetime="2023-12-14">2023/12/14</time>
+
+                      </div>
+                    </div>
+                  </a>
+                </li>                <li>
+
+                  <a href="/activities/activity/5461.html" class="grid">
+
+
+                    <div class="image">
+                      <figure>
+                        <img src="/image/article/article_images/20231114climate01s.jpg" alt="" class="imgExpansion objectFitImage">
+                        <figcaption>© WWFジャパン</figcaption>
+                      </figure>
+                    </div>
+
+                    <div class="content">
+                      <ul class="tablink">
+                        <li>WWFの活動</li>
+                        <li>活動報告</li>
+                      </ul>
+                      <p>気候変動に関するCOP28会議について</p>
+                      <div class="author">
+
+                        <time datetime="2023-11-14">2023/11/14</time>
 
                       </div>
                     </div>
@@ -466,6 +469,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<h2 class="titStyle2 center">お知らせ</h2>
 						<ul class="listLink listLinkType5 listLinkType5__time">
 
+								<li><a href="/news/5521.html">
+
+
+									<time datetime="2024-01-04">2024/01/04</time>
+
+									<span>令和６年１月、能登半島地震により被災された皆さまへ</span></a></li>
+
+								<li><a href="/news/5469.html">
+
+
+									<time datetime="2023-12-22">2023/12/22</time>
+
+									<span>【採用情報】WWFジャパン 契約職員募集のお知らせ（次世代リーダー育成プログラム担当）</span></a></li>
+
+								<li><a href="/news/5084.html">
+
+
+									<time datetime="2023-12-21">2023/12/21</time>
+
+									<span>【採用情報】WWFジャパン 一般職員募集のお知らせ（海外の森林保全および森林産品等の持続可能な調達推進担当）</span></a></li>
+
 								<li><a href="/news/5484.html">
 
 
@@ -479,27 +503,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<time datetime="2023-12-04">2023/12/04</time>
 
 									<span>年末年始の休業のお知らせ</span></a></li>
-
-								<li><a href="/news/5469.html">
-
-
-									<time datetime="2023-11-22">2023/11/22</time>
-
-									<span>【採用情報】WWFジャパン 契約職員募集のお知らせ（環境・サステナビリティリーダー開発グループ　プロジェクト担当）</span></a></li>
-
-								<li><a href="/news/5084.html">
-
-
-									<time datetime="2023-11-16">2023/11/16</time>
-
-									<span>【採用情報】WWFジャパン 一般職員募集のお知らせ（海外の森林保全および森林産品等の持続可能な調達推進担当）</span></a></li>
-
-								<li><a href="/news/5462.html">
-
-
-									<time datetime="2023-11-15">2023/11/15</time>
-
-									<span>【採用情報】WWFジャパン 一般職員募集のお知らせ（総務グループ　総務担当）</span></a></li>
 
 						</ul>
 						<ul class="btn">

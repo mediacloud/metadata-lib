@@ -20,7 +20,7 @@
 <meta name="dcterms.creator" content="Global Affairs Canada" />
 <meta name="dcterms.title" content="Travel.gc.ca - Home" />
 <meta name="dcterms.issued" title="W3CDTF" content="2012-11-16" />
-<meta name="dcterms.modified" title="W3CDTF" content="2023-11-27" />
+<meta name="dcterms.modified" title="W3CDTF" content="2024-01-02" />
 <meta name="dcterms.subject" title="scheme" content="Travel" />
 <meta name="dcterms.language" title="ISO639-2" content="eng" />
 <meta name="dcterms:service" content="GAC-AMC_Travel" />
@@ -260,11 +260,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <li class="active"><a href="#tab1">Tab 1</a></li>
             </ul>
             <div role="tabpanel" id="tab1" class="in fade">
-                <a href="/travelling/health-safety/youth">
+                <a href="/assistance">
                     <figure>
-                        <img src="/vt/images/2012/youth-jeunesse-index.jpg" alt="Travelling outside Canada? Start your journey with our handy travel tips for students and youth.">
+                        <img src="/vt/images/topic/assistance-canada-flags.jpg" alt="Travelling abroad this year? Read up on the consular assistance we can provide outside Canada.  ">
                         <figcaption>
-                            <p>Travelling outside Canada? Start your journey with our handy travel tips for students and youth.</p>
+                            <p>Travelling abroad this year? Read up on the consular assistance we can provide outside Canada.</p>
                         </figcaption>
                     </figure>
                 </a>
@@ -589,7 +589,7 @@ Most requested
 </div>
 <div class="col-md-6">
 <h3><a href="/travel-covid">COVID-19: Travel, testing and borders</a></h3>
-<p>COVID-19 requirements for travelling to and within Canada.</p>
+<p>Proof of COVID-19 vaccination, testing, quarantine and isolation are not required.</p>
 </div>
 <div class="col-md-6">
 <h3><a href="/returning">Return or travel to Canada</a></h3>
@@ -647,7 +647,7 @@ Most requested
         </dt>
         <dd>
             <time property="dateModified">
-                2023-11-27
+                2024-01-02
             </time>
         </dd>
     </dl>

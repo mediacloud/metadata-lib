@@ -514,7 +514,7 @@ if (sinclairDigital.survey) {
     document.body.appendChild(scriptEl);
 }</script></div></div></div></body></html><!--
      FILE ARCHIVED ON 23:13:30 Jul 24, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 03:13:54 Dec 13, 2023.
+     INTERNET ARCHIVE ON 15:56:19 Jan 17, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -522,13 +522,13 @@ if (sinclairDigital.survey) {
 -->
 <!--
 playback timings (ms):
-  captures_list: 177.352
-  exclusion.robots: 0.106
-  exclusion.robots.policy: 0.098
-  cdx.remote: 0.051
-  esindex: 0.009
-  LoadShardBlock: 137.574 (3)
-  PetaboxLoader3.datanode: 147.509 (4)
-  load_resource: 112.839
-  PetaboxLoader3.resolve: 56.39
+  captures_list: 198.929
+  exclusion.robots: 0.15
+  exclusion.robots.policy: 0.14
+  cdx.remote: 0.06
+  esindex: 0.01
+  LoadShardBlock: 167.244 (3)
+  PetaboxLoader3.datanode: 189.203 (4)
+  load_resource: 160.032
+  PetaboxLoader3.resolve: 32.885
 -->

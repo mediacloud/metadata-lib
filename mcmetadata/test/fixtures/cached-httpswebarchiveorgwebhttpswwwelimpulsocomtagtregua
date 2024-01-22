@@ -7115,7 +7115,7 @@ document.addEventListener( 'advads_ajax_ad_select', function(ev){ ev.detail.gam 
 </html>
 <!--
      FILE ARCHIVED ON 21:19:48 Jan 26, 2023 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 03:02:41 Dec 13, 2023.
+     INTERNET ARCHIVE ON 15:55:07 Jan 17, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -7123,13 +7123,13 @@ document.addEventListener( 'advads_ajax_ad_select', function(ev){ ev.detail.gam 
 -->
 <!--
 playback timings (ms):
-  captures_list: 88.714
-  exclusion.robots: 0.132
-  exclusion.robots.policy: 0.123
-  cdx.remote: 0.054
-  esindex: 0.007
-  LoadShardBlock: 62.775 (3)
-  PetaboxLoader3.datanode: 67.627 (4)
-  load_resource: 131.239
-  PetaboxLoader3.resolve: 102.929
+  captures_list: 234.667
+  exclusion.robots: 0.278
+  exclusion.robots.policy: 0.259
+  cdx.remote: 0.105
+  esindex: 0.014
+  LoadShardBlock: 111.197 (3)
+  PetaboxLoader3.datanode: 105.916 (4)
+  load_resource: 146.828
+  PetaboxLoader3.resolve: 118.526
 -->

@@ -146,7 +146,7 @@ window.addEventListener( "DOMContentLoaded", function( e ) {
 		+ "?wpcom_remote_login=key"
 		+ "&origin=aHR0cHM6Ly9kYXRhdGhlcmFweS5vcmc%3D"
 		+ "&wpcomid=27405506"
-		+ "&time=1702436950";
+		+ "&time=1705506634";
 	document.body.appendChild( iframe );
 }, false );
 </script>
@@ -173,12 +173,12 @@ window.addEventListener( "DOMContentLoaded", function( e ) {
 	</script>
 	<script type="text/javascript">
 /* <![CDATA[ */
-window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s0.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1677072837i&ver=6.5-alpha-57144"}};
+window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s2.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1677072837i&ver=6.5-alpha-57270"}};
 /*! This file is auto-generated */
 !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
 /* ]]> */
 </script>
-<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-1' href='https://s2.wp.com/_static/??-eJzTLy/QTc7PK0nNK9HPLdUtyClNz8wr1s9KLSlITM6G8vVz8/NBREppTmqxflFqTmJJaopuQX5xCRpPL7m4WEcfu5E5mdmpCIPBPJBy+1xbQ3MDQzNLE1MTiywAYII03Q==&cssminify=yes' type='text/css' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-1' href='https://s2.wp.com/_static/??-eJzTLy/QTc7PK0nNK9HPLdUtyClNz8wr1s9KLSlITM6G8vVz8/NBREppTmqxflFqTmJJaopuQX5xCRpPL7m4WEcfu5E5mdmpCIPBPJBy+1xbQ3MDUxNjcwNzyywAYHY02w==&cssminify=yes' type='text/css' media='all' />
 <style id='wp-emoji-styles-inline-css'>
 
 	img.wp-smiley, img.emoji {
@@ -193,7 +193,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugin
 		padding: 0 !important;
 	}
 </style>
-<link crossorigin='anonymous' rel='stylesheet' id='all-css-2-1' href='https://s1.wp.com/wp-content/plugins/gutenberg-core/v17.2.1/build/block-library/style.css?m=1702422485i&cssminify=yes' type='text/css' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-2-1' href='https://s1.wp.com/wp-content/plugins/gutenberg-core/v17.4.1/build/block-library/style.css?m=1704824988i&cssminify=yes' type='text/css' media='all' />
 <style id='wp-block-library-inline-css'>
 .has-text-align-justify {
 	text-align:justify;
@@ -234,21 +234,12 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <style id='jetpack-global-styles-frontend-style-inline-css'>
 :root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
 </style>
-<link crossorigin='anonymous' rel='stylesheet' id='all-css-14-1' href='https://s0.wp.com/_static/??-eJyNjcEKwjAQRH/IuFVDPYmfIulmSVI32eAmiH9vW7yIFy/DPBjewLMalNKoNMjdVO4hFYWZWnV4/zBkkTV8Z1LQ6B7knfevraYS9qi6g/9Nt1QQVDA5NixB9At+bC1SXn6jhcAyOV4H13w5nIejHcaTHec3UO1JHw==&cssminify=yes' type='text/css' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-14-1' href='https://s1.wp.com/_static/??-eJyNjcEKwjAQRH/IuAYr9SJ+iqSbkKRudoObIP59W/EiXrwM82B4A89qULgFblC6qdRjZoU5tOrw/mEoIlv4TkFBk3sE77x/vWvmuEfVHfxvumVGUMHsyJBE0S/4sbUUyvqbBogkk6NtcC0XOx6O9jyeBjsvURNJIw==&cssminify=yes' type='text/css' media='all' />
 <script type="text/javascript" id="jetpack_related-posts-js-extra">
 /* <![CDATA[ */
 var related_posts_js_options = {"post_heading":"h4"};
 /* ]]> */
 </script>
-<script crossorigin='anonymous' type='text/javascript' src='https://s2.wp.com/_static/??-eJxdjj0OwjAMhS+Ea8HQdEEcBaWpqRwSJ4odAbcnAwMwfu9PDx8VQhEjMYyKuaycCLpS8/vQgOVWpqgH/MrlDjX1nUUxklUf7h8e9SJ4ZQm4dk4bNkreaINa1PSXpszyPzwOtGRQW3m+hnfJ5+O8uNPinJvjG2l7Pn8='></script>
-<script type="text/javascript" id="rlt-proxy-js-after">
-/* <![CDATA[ */
-	window.addEventListener( 'DOMContentLoaded', function() {
-		rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
-	} );
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://s2.wp.com/wp-content/plugins/gutenberg-core/v17.2.1/build/modules/importmap-polyfill.min.js?m=1702422485i" id="es-module-shims-js" defer="defer" data-wp-strategy="defer"></script>
 <script type="text/javascript" id="media-video-jwt-bridge-js-extra">
 /* <![CDATA[ */
 var videopressAjax = {"ajaxUrl":"https:\/\/datatherapy.wordpress.com\/wp-admin\/admin-ajax.php","bridgeUrl":"\/wp-content\/mu-plugins\/jetpack-plugin\/moon\/jetpack_vendor\/automattic\/jetpack-videopress\/build\/lib\/token-bridge.js","post_id":"1877"};
@@ -256,10 +247,17 @@ var videopressAjax = {"ajaxUrl":"https:\/\/datatherapy.wordpress.com\/wp-admin\/
 </script>
 <script type="text/javascript" id="wpcom-actionbar-placeholder-js-extra">
 /* <![CDATA[ */
-var actionbardata = {"siteID":"27405506","postID":"1877","siteURL":"https:\/\/datatherapy.org","xhrURL":"https:\/\/datatherapy.org\/wp-admin\/admin-ajax.php","nonce":"92b6c0cbeb","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https:\/\/s0.wp.com\/wp-content\/js\/wpcom-proxy-request.js?ver=20211021","shortlink":"https:\/\/wp.me\/p1QZqi-uh","i18n":{"followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/read\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar"}};
+var actionbardata = {"siteID":"27405506","postID":"1877","siteURL":"https:\/\/datatherapy.org","xhrURL":"https:\/\/datatherapy.org\/wp-admin\/admin-ajax.php","nonce":"9ba561b446","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https:\/\/s0.wp.com\/wp-content\/js\/wpcom-proxy-request.js?ver=20211021","shortlink":"https:\/\/wp.me\/p1QZqi-uh","i18n":{"followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/read\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar"}};
 /* ]]> */
 </script>
-<script crossorigin='anonymous' type='text/javascript' src='https://s1.wp.com/_static/??-eJx9jcEKwjAQRH/IdNODFA/ip0iaLGXbZDcmm4p/bw5VPAkDwwxvGHhmQ+xjC1hh7Xo0LK/DhkQ8rPUE/yCTaClO8Rf2woqskJrJsS3EfYOand+ODEmEP919Rw5SwDWV5FTJf+mdAkouWCvMjWKASDOobMhmLhQW7I+3dB0na+00ni92fQOcgE35'></script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s2.wp.com/_static/??-eJyFT0FOAzEM/BCptwdU9YB4SpXdmJXTxA62U+jvSaUFFQTiZM14POOBtxYWYUd2yAZVZioYuqHGdXCB+EV22R7gTld7aKWvxAYZvcXlvOFxLgwn4gXmTiWBYomOKTQxt+9oV4l/Go8HtHhoKu/Xz90wKz2h3Zb5taNet3Fv8KcoVFp1hP6W9k+NjTtdkJMoxO5SozstX+oLJZSmaLbVLTSDyxk5zEppxZH4XJ/2h2maDvvH45Q/AEsiiTU='></script>
+<script type="text/javascript" id="rlt-proxy-js-after">
+/* <![CDATA[ */
+	window.addEventListener( 'DOMContentLoaded', function() {
+		rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
+	} );
+/* ]]> */
+</script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://datatherapy.wordpress.com/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress.com" />
 <link rel="canonical" href="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/" />
@@ -335,7 +333,7 @@ var actionbardata = {"siteID":"27405506","postID":"1877","siteURL":"https:\/\/da
 <!-- Your Google Analytics Plugin is missing the tracking ID -->
 </head>
 
-<body class="post-template-default single single-post postid-1877 single-format-standard wp-embed-responsive customizer-styles-applied">
+<body class="post-template-default single single-post postid-1877 single-format-standard wp-embed-responsive customizer-styles-applied jetpack-reblog-enabled">
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
@@ -429,7 +427,7 @@ var actionbardata = {"siteID":"27405506","postID":"1877","siteURL":"https:\/\/da
 <h2>Match your Mission and Methods</h2>
 <figure data-shortcode="caption" id="attachment_2466" aria-describedby="caption-attachment-2466" style="width: 970px" class="wp-caption alignnone"><img loading="lazy" class="wp-image-2466 size-full" src="https://civic.mit.edu/wp-content/uploads/sites/28/2019/03/Bhargava_SSIR_2019_rev3.jpg" alt="an arrow connecting data to a building with a heart" width="970" height="412" /><figcaption id="caption-attachment-2466" class="wp-caption-text">Align your data methods and your mission</figcaption></figure>
 <p>I’m hoping by now that I’ve convinced you that you need to think harder about the data methods you use in order to avoid re-creating the terrible historical practice associated with data. I&#8217;m focused on organizations that work for the social good, but this argument holds true for anyone using data. The inspirational examples I highlight all paint a path forward that lets us match our mission and our methods. Which path will you follow?</p>
-<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-1877" class="share-twitter sd-button share-icon" href="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/?share=twitter" target="_blank" title="Click to share on Twitter" ><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-1877" class="share-facebook sd-button share-icon" href="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/?share=facebook" target="_blank" title="Click to share on Facebook" ><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-27405506-1877-657920564d49c' data-src='//widgets.wp.com/likes/index.html?ver=20231208#blog_id=27405506&amp;post_id=1877&amp;origin=datatherapy.wordpress.com&amp;obj_id=27405506-1877-657920564d49c&amp;n=1&amp;domain=datatherapy.org' data-name='like-post-frame-27405506-1877-657920564d49c' data-title='Like or Reblog'><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class='loading'>Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-1877" class="share-twitter sd-button share-icon" href="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/?share=twitter" target="_blank" title="Click to share on Twitter" ><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-1877" class="share-facebook sd-button share-icon" href="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/?share=facebook" target="_blank" title="Click to share on Facebook" ><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-27405506-1877-65a7f74a86a05' data-src='//widgets.wp.com/likes/index.html?ver=20240112#blog_id=27405506&amp;post_id=1877&amp;origin=datatherapy.wordpress.com&amp;obj_id=27405506-1877-65a7f74a86a05&amp;n=1&amp;domain=datatherapy.org' data-name='like-post-frame-27405506-1877-65a7f74a86a05' data-title='Like or Reblog'><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class='loading'>Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
 <div id='jp-relatedposts' class='jp-relatedposts' >
 	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
 </div></div>		</div><!-- .entry-content -->
@@ -640,7 +638,7 @@ var actionbardata = {"siteID":"27405506","postID":"1877","siteURL":"https:\/\/da
 </div><!-- #page -->
 
 <!--  -->
-<script type="text/javascript" src="//0.gravatar.com/js/hovercards/hovercards.min.js?ver=202350131f6b765e798866d728f95661b78bbf269c86482ffff0fa8c08e18a1a65cc89" id="grofiles-cards-js"></script>
+<script type="text/javascript" src="//0.gravatar.com/js/hovercards/hovercards.min.js?ver=202403131f6b765e798866d728f95661b78bbf269c86482ffff0fa8c08e18a1a65cc89" id="grofiles-cards-js"></script>
 <script type="text/javascript" id="wpgroho-js-extra">
 /* <![CDATA[ */
 var WPGroHo = {"my_hash":""};
@@ -695,13 +693,18 @@ var WPGroHo = {"my_hash":""};
 			class="actnbr-pub-shoreditch actnbr-has-follow">
 		<ul>
 								<li class="actnbr-btn actnbr-hidden">
+						<a class="actnbr-action actnbr-actn-reblog" href="">
+							<svg class="gridicon gridicons-reblog" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M22.086 9.914L20 7.828V18c0 1.105-.895 2-2 2h-7v-2h7V7.828l-2.086 2.086L14.5 8.5 19 4l4.5 4.5-1.414 1.414zM6 16.172V6h7V4H6c-1.105 0-2 .895-2 2v10.172l-2.086-2.086L.5 15.5 5 20l4.5-4.5-1.414-1.414L6 16.172z"/></g></svg><span>Reblog</span>
+						</a>
+					</li>
+									<li class="actnbr-btn actnbr-hidden">
 								<a class="actnbr-action actnbr-actn-follow " href="">
 			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
-			<span>Follow</span>
+			<span>Subscribe</span>
 		</a>
 		<a class="actnbr-action actnbr-actn-following  no-display" href="">
 			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
-			<span>Following</span>
+			<span>Subscribed</span>
 		</a>
 							<div class="actnbr-popover tip tip-top-left actnbr-notice" id="follow-bubble">
 							<div class="tip-arrow"></div>
@@ -713,7 +716,7 @@ var WPGroHo = {"my_hash":""};
 		</li>
 										<div class="actnbr-message no-display"></div>
 									<form method="post" action="https://subscribe.wordpress.com" accept-charset="utf-8" style="display: none;">
-																						<div class="actnbr-follow-count">Join 212 other followers</div>
+																						<div class="actnbr-follow-count">Join 212 other subscribers</div>
 																					<div>
 										<input type="email" name="email" placeholder="Enter your email address" class="actnbr-email-field" aria-label="Enter your email address" />
 										</div>
@@ -721,7 +724,7 @@ var WPGroHo = {"my_hash":""};
 										<input type="hidden" name="blog_id" value="27405506" />
 										<input type="hidden" name="source" value="https://datatherapy.org/2019/03/13/aligning-your-data-and-methods-your-mission/" />
 										<input type="hidden" name="sub-type" value="actionbar-follow" />
-										<input type="hidden" id="_wpnonce" name="_wpnonce" value="3f3b1ad8df" />										<div class="actnbr-button-wrap">
+										<input type="hidden" id="_wpnonce" name="_wpnonce" value="21317f82f0" />										<div class="actnbr-button-wrap">
 											<button type="submit" value="Sign me up">
 												Sign me up											</button>
 										</div>
@@ -751,11 +754,11 @@ var WPGroHo = {"my_hash":""};
 																<li class="actnbr-folded-follow">
 												<a class="actnbr-action actnbr-actn-follow " href="">
 			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
-			<span>Follow</span>
+			<span>Subscribe</span>
 		</a>
 		<a class="actnbr-action actnbr-actn-following  no-display" href="">
 			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
-			<span>Following</span>
+			<span>Subscribed</span>
 		</a>
 										</li>
 																	<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li>
@@ -783,7 +786,7 @@ var WPGroHo = {"my_hash":""};
 <script>
 window.addEventListener( "load", function( event ) {
 	var link = document.createElement( "link" );
-	link.href = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20231122";
+	link.href = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20240115";
 	link.type = "text/css";
 	link.rel = "stylesheet";
 	document.head.appendChild( link );
@@ -951,19 +954,19 @@ var shoreditchScreenReaderText = {"expand":"expand child menu","collapse":"colla
 <script type="text/javascript" id="jetpack-carousel-js-extra">
 /* <![CDATA[ */
 var jetpackSwiperLibraryPath = {"url":"https:\/\/s2.wp.com\/wp-content\/mu-plugins\/jetpack-plugin\/moon\/_inc\/build\/carousel\/swiper-bundle.min.js"};
-var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/datatherapy.org\/wp-admin\/admin-ajax.php","nonce":"0139318fff","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"1","require_name_email":"1","login_url":"https:\/\/datatherapy.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdatatherapy.org%2F2019%2F03%2F13%2Faligning-your-data-and-methods-your-mission%2F","blog_id":"27405506","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"stats_query_args":"blog=27405506&v=wpcom&tz=-4&user_id=0&subd=datatherapy","is_public":"1"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/datatherapy.org\/wp-admin\/admin-ajax.php","nonce":"45d82c4675","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"1","require_name_email":"1","login_url":"https:\/\/datatherapy.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdatatherapy.org%2F2019%2F03%2F13%2Faligning-your-data-and-methods-your-mission%2F","blog_id":"27405506","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"stats_query_args":"blog=27405506&v=wpcom&tz=-4&user_id=0&subd=datatherapy","is_public":"1"};
 /* ]]> */
 </script>
-<script crossorigin='anonymous' type='text/javascript' src='https://s2.wp.com/_static/??-eJyVj9FOwzAMRX+IzFRoTDwgPgWlidu6deyQOAP+nkzANPFUHm2fY1/De3ZBxVAMUnOZ20xSgWnDCm8NGy5eImM5rPUObmBbMHUktxHqogUjWVhgrTD6sDnTvFuoG2XHJJubNLTqJvrY7Yo/0+yNVP4qN8+saPkS6ruGpCrwShJgbMQRgi/aKvKV+20cEl3Xdpxb7Bn60UjV4IwStVxGWflzIubOYLE9UsEZO+tNiytNjBL+89YP/pKeh9P9cBoejo9P6xecZqwZ'></script>
-<script type="text/javascript" crossorigin='anonymous' crossorigin='anonymous' src="https://s0.wp.com/wp-content/plugins/gutenberg-core/v17.2.1/build/dom-ready/index.min.js?m=1702422485i&amp;ver=8ef91b5d96d5175674de" id="wp-dom-ready-js"></script>
+<script type="text/javascript" id="jetpack-blocks-assets-base-url-js-before">
+/* <![CDATA[ */
+var Jetpack_Block_Assets_Base_Url="https://s0.wp.com/wp-content/mu-plugins/jetpack-plugin/moon/_inc/blocks/";
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s0.wp.com/_static/??-eJyVj0FSwzAMRS+EKwpTYMNwFMaxlUSJLRlbKvT2dQfodFiFpaT3pC/4LC4IK7JCNleSTcQNEq3Y4MPQcPYcE9bd0u7gBtYZc0eKDdBmqRhJwwxLg8GH1amUzUJbqbhEvLpRgjU30tdml/2RJq8k/Fe5eWZBLZdQ3zVkEYZ34gCDUYoQfBVrmK7cb2OX6bq248liz9CPRmoKR+Qo9TIqkk4jpdQZrLpFqjhhZ71KddVYKeM/b/3gb/l1/3x/eNy/PB0eljOcdqwX'></script>
+<script type="text/javascript" crossorigin='anonymous' crossorigin='anonymous' src="https://s0.wp.com/wp-content/plugins/gutenberg-core/v17.4.1/build/dom-ready/index.min.js?m=1704824988i&amp;ver=8ef91b5d96d5175674de" id="wp-dom-ready-js"></script>
 <script type="text/javascript" id="wp-dom-ready-js-after">
 /* <![CDATA[ */
 wp.galleryBlockV2Enabled = true
-/* ]]> */
-</script>
-<script type="text/javascript" id="jetpack-block-mailchimp-js-extra">
-/* <![CDATA[ */
-var Jetpack_Block_Assets_Base_Url = {"url":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/jetpack-plugin\/moon\/_inc\/blocks\/"};
 /* ]]> */
 </script>
 <script type="text/javascript" id="sharing-js-js-extra">
@@ -971,7 +974,7 @@ var Jetpack_Block_Assets_Base_Url = {"url":"https:\/\/s0.wp.com\/wp-content\/mu-
 var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
 /* ]]> */
 </script>
-<script crossorigin='anonymous' type='text/javascript' src='https://s2.wp.com/_static/??-eJx9jkEOwiAQRS8kHbowjQvjUQwOpB3KzJACJd5eY1wZdfff4r886NmgSg1SgZvJqc0kBWKo2eH6ZmBVgSsJwi0prgXYUcKFOMNOoQ+xHOC7CN2mrYRkekblD/zz+x3QKHkoi9uCd97fX5NkHpjk6bvweZystdN4PNn4AMPZUo0='></script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s0.wp.com/_static/??-eJx9jkEKwjAQRS9kOi0i7UY8isRJaCfNzIQmafD2irgSdfff4j8etGRQpXgpwNWkWGeSDMGXZHF9M7CqwJUE4RYV1wxsKeJCnGAn37qQD/BdhHbTmn00LaHyB/75/Q6oFB3kxW7eWefur0kyd0zy9F34PIz9qZ+O0ziEB8QZUpc='></script>
 <script type="text/javascript" id="sharing-js-js-after">
 /* <![CDATA[ */
 var windowOpen;
@@ -1042,6 +1045,47 @@ var windowOpen;
 			} )();
 /* ]]> */
 </script>
+
+	<script type="text/javascript">
+		(function () {
+			var wpcom_reblog = {
+				source: 'toolbar',
+
+				toggle_reblog_box_flair: function (obj_id, post_id) {
+
+					// Go to site selector. This will redirect to their blog if they only have one.
+					const postEndpoint = `https://wordpress.com/post`;
+
+					// Ideally we would use the permalink here, but fortunately this will be replaced with the 
+					// post permalink in the editor.
+					const originalURL = `${ document.location.href }?page_id=${ post_id }`; 
+					
+					const url =
+						postEndpoint +
+						'?url=' +
+						encodeURIComponent( originalURL ) +
+						'&is_post_share=true' +
+						'&v=5';
+
+					const redirect = function () {
+						if (
+							! window.open( url, '_blank' )
+						) {
+							location.href = url;
+						}
+					};
+
+					if ( /Firefox/.test( navigator.userAgent ) ) {
+						setTimeout( redirect, 0 );
+					} else {
+						redirect();
+					}
+				},
+			};
+
+			window.wpcom_reblog = wpcom_reblog;
+		})();
+	</script>
 <script type="text/javascript">
 // <![CDATA[
 (function() {
@@ -1059,19 +1103,19 @@ try{
 }catch(e){}
 })();
 // ]]>
-</script>	<iframe src='https://widgets.wp.com/likes/master.html?ver=20231208#ver=20231208&amp;origin=https://datatherapy.org&amp;n=1' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
-	<div id='likes-other-gravatars' class='wpl-new-layout'>
+</script>	<iframe src='https://widgets.wp.com/likes/master.html?ver=20240112#ver=20240112&amp;origin=https://datatherapy.org&amp;n=1' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+	<div id='likes-other-gravatars' class='wpl-new-layout' role="dialog" aria-hidden="true" tabindex="-1">
 		<div class="likes-text">
 			<span>%d</span>		</div>
 		<ul class="wpl-avatars sd-like-gravatars"></ul>
 	</div>
 
-		<script src="//stats.wp.com/w.js?65" defer></script> <script type="text/javascript">
+		<script src="//stats.wp.com/w.js?66" defer></script> <script type="text/javascript">
 _tkq = window._tkq || [];
 _stq = window._stq || [];
 _tkq.push(['storeContext', {'blog_id':'27405506','blog_tz':'-4','user_lang':'en','blog_lang':'en','user_id':'0'}]);
 _stq.push(['view', {'blog':'27405506','v':'wpcom','tz':'-4','user_id':'0','post':'1877','subd':'datatherapy'}]);
-_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1mNzc2NTVTamdsRWFxcEV3XUtMXVR5aWlmMVNIcUxBaFstUWRrZVpWQ2tORExSfEpUVm05SlpEZzZWOEtlbW5nZHV0dkhDNjhwP35JbkdHLyZqfnRCXXJdcktEWWJbYytfRmZJdDRNP04wMjJqK28sUnNPTG9nZndGV0t6VFNBW1t3bHUxT1E3LGMrOWg2VkpDYX56SW05c1Y5Y2g/ZGw3fnRVejd6bE5tRVhMWT1qc0xlQyVSYWUtbV8xSi9bNzIvbS9pclguU1hPPXVLMlFXOX5ibzEwcjJPdHBIUGElYnBWVXJzaHQlZXhHM0Q1fHNbby1ZfmNRUGRWUTRHNixTdyxYYUQ5cixXeXZ0aTdUOGREPUFfTzB8RmlmdS1CTUN1MGdCYzNQX3ZkLQ=='}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1mNzc2NTVTamdsRWFxcEV3XUtMXVR5aWlmMVNIcUxBaFstUWRrZVpWQ2tORExSfEpUVm05SlpEZzZWOEtlbW5nZHV0dkhDNjhwP35JbkdHLyZqfnRCXXJdcktEWWJbYytfRmZJdDRNP04wMjJqK28sUnNPTG9nZndGV0t6VFNBW1t3bHUxT1E3LGMrOWhqZSZudExSR1NdLVQvTyxDUnFvNC5fP11SeUkvWUMsUDguUzNXSz1JdDVTVkdkNVZyaXhEQlNRayZFXVJnMm5HMzdQVDJfL1g2a3dGSk9KdUUyTmVdSWZRM1kwYWt5ZkJXem80RCtXW1dTT1VpLzJ5MmhRLHJVZTkvOD01bERlK1EvckkvMix6SjM/WS1MUDddVFhKLHRrfG9KXyZCeQ=='}]);
 _stq.push([ 'clickTrackerInit', '27405506', '1877' ]);
 </script>
 <noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>

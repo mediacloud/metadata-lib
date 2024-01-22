@@ -90,7 +90,7 @@
         $(window).scroll(function() {var stickyLeft = $('.ans-160x600.left'), stickyRight = $('.ans-160x600.right'), ScrollStart = $(window).scrollTop(), ScrollEnd = $(window).height();var footerOffsetTop = $('footer').offset().top;if (ScrollStart >= 60) {stickyLeft.addClass('sl-fixed');stickyRight.addClass('sr-fixed');} else {stickyLeft.removeClass('sl-fixed');stickyRight.removeClass('sr-fixed');}if ((ScrollStart + ScrollEnd) > footerOffsetTop) {$('.ans-sky').addClass('static');stickyRight.addClass('sl-absolute');stickyRight.addClass('sr-absolute');} else {$('.ans-sky').removeClass('static');stickyRight.removeClass('sl-absolute');stickyRight.removeClass('sr-absolute');}if ((ScrollStart + ScrollEnd) > footerOffsetTop) {$('.ans-sky').addClass('static');stickyLeft.addClass('sl-absolute');stickyLeft.addClass('sr-absolute');} else {$('.ans-sky').removeClass('static');stickyLeft.removeClass('sl-absolute');stickyLeft.removeClass('sr-absolute');}});</script><script>$(document).ready(function() {$('.spinner').hide();});$('a.showfull').click(function() {$(this).text($(this).text() == 'More +' ? 'Show Less -' : 'More +');$(this).prev().toggle();});</script> <script>$('img').each(function() {$(this).on("error", function() {var imgOrigin = $(this).attr('image-origin');$(this).attr("src", imgOrigin);console.log(imgOrigin);});});</script> <script src="https://web.archive.org/web/20220721150811js_/https://www.jpnn.com/assets/js/lazyload.min.js"></script> <script>(function() {function logElementEvent(eventName, element) {}function logEvent(eventName, elementsLeft) {}new LazyLoad();}());</script><script defer src="https://web.archive.org/web/20220721150811js_/https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="" data-cf-beacon="{&quot;rayId&quot;:&quot;72e4d9b9df009e50&quot;,&quot;token&quot;:&quot;497114f55f034ce592ea620c92f1ed31&quot;,&quot;version&quot;:&quot;2022.6.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
 </body> </html><!--
      FILE ARCHIVED ON 15:08:11 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 03:13:13 Dec 13, 2023.
+     INTERNET ARCHIVE ON 15:59:38 Jan 17, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -98,13 +98,13 @@
 -->
 <!--
 playback timings (ms):
-  captures_list: 292.238
-  exclusion.robots: 0.146
-  exclusion.robots.policy: 0.136
-  cdx.remote: 0.065
-  esindex: 0.011
-  LoadShardBlock: 167.12 (3)
-  PetaboxLoader3.datanode: 120.747 (4)
-  PetaboxLoader3.resolve: 73.177 (2)
-  load_resource: 123.898
+  captures_list: 86.543
+  exclusion.robots: 0.119
+  exclusion.robots.policy: 0.109
+  cdx.remote: 0.057
+  esindex: 0.009
+  LoadShardBlock: 56.34 (3)
+  PetaboxLoader3.datanode: 108.842 (4)
+  load_resource: 102.339
+  PetaboxLoader3.resolve: 23.501
 -->

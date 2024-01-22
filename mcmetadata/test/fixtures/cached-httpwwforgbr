@@ -266,6 +266,7 @@ rootWWW = "/wwf_brazil/";
 rootCore = "/wwf_brazil/_core/";
 /* ]]> */
 </script>
+<input type="hidden" id="hdnIPR" value='false' >
 <script src="//cdnassets.panda.org/_skins/international/_cache/global.min.js?25032022" type="text/javascript"></script>	
 <!-- start omniconvert.com code --> <link rel="dns-prefetch" href="//app.omniconvert.com"/> <script> var _mktz = _mktz || []; _mktz.cc_domain = 'wwf.org.br'; </script> 
 <!-- end omniconvert.com code -->
@@ -972,7 +973,7 @@ Cookies.set('COOKIE_LANG_SHORT', sLangShort, {expires: 1, path: '/'});
 </div>
 </div>
 <objtemplate id="148792" objtemplate_id="1001" objtemplate_filename="2014lp-carouselslider">
-<section date_created="1702436463" hash="46BA916954054684C0AD016E0B9C543C"><objtemplate>
+<section date_created="1705506310" hash="46BA916954054684C0AD016E0B9C543C"><objtemplate>
 <style>
 .template1001 .slide-item .slide-intro {
 max-width: 90%;
@@ -999,7 +1000,7 @@ pointer-events:none;
 <!-- Page Title -->
 <!-- End Page Title -->
 <objtemplate id="148797" objtemplate_id="1029" objtemplate_filename="2014lp-story-container">
-<section date_created="1702436463" hash="15FD05FC5055018C4D0E4101815303D0"><objtemplate><style>
+<section date_created="1705506310" hash="15FD05FC5055018C4D0E4101815303D0"><objtemplate><style>
 .container-fluid .bodytext > p {
 caret-color: rgb(0, 0, 0);
 color: rgb(0, 0, 0);
@@ -1041,47 +1042,46 @@ width: 100% !important;
 <div class="marginbottom50">
 <div class="row" data-slick-slider data-slick="{&quot;useCSS&quot;: false,&quot;slidesToShow&quot;: 3, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 991, &quot;settings&quot;: {&quot;slidesToShow&quot;: 2, &quot;arrows&quot;: false, &quot;dots&quot;: true}}, {&quot;breakpoint&quot;: 767, &quot;settings&quot;: {&quot;slidesToShow&quot;: 1, &quot;arrows&quot;: false, &quot;dots&quot;: true}}]}">
 <div class="col-sm-4">
-<a class="news-block" href="?87481/Brasil-promove-leilao-do-fim-do-mundo-e-ignora-clamor-por-fim-dos-fosseis" title="">
+<a class="news-block" href="?87681/Crises-climatica-e-da-perda-de-biodiversidade-estao-entre-os-riscos-mais-graves-na-proxima-decada" title="">
 <div>
-<div class="cover-image" style="background-image:url('//wwfbrnew.awsassets.panda.org/img/shutterstock_391869445_123705.jpg');background-size:cover;background-position:50% 50%;">
-<div style="position:absolute;right: -5px;font-size: 11px;color: #e2e2e2; margin-right: 25px;top: 270px;"> &copy; Shutterstock</div>
+<div class="cover-image" style="background-image:url('//wwfbrnew.awsassets.panda.org/img/dji_0196_128467.jpg');background-size:cover;background-position:50% 50%;">
+<div style="position:absolute;right: -5px;font-size: 11px;color: #e2e2e2; margin-right: 25px;top: 270px;"> &copy; Jacqueline Lisboa / WWF-Brasil</div>
 </div>
 </div>
 <div class="row-2">
-<p><i class="font-serif"><span>Posted on</span> <span class="text-primary"> 12 dez 2023</span></i></p>
-<p class="title font30 text-uppercase"><strong>Brasil promove “leilão do fim do mundo” e ignora clamor por fim dos fósseis</strong></p>
-<p>Megaoferta inclui blocos em áreas mais sensíveis, como Amazônia e Fernando de Noronha</p>
+<p><i class="font-serif"><span>Posted on</span> <span class="text-primary"> 15 jan 2024</span></i></p>
+<p class="title font30 text-uppercase"><strong>Crises climática e de perda de biodiversidade estão entre os riscos mais graves da próxima década</strong></p>
+<p>As alterações climáticas e a perda da natureza estão entre os riscos mais graves que enfrentamos; 2024 deve ser o ano para ...</p>
 <div class="btn btn-default"><i class="fas fa-arrow-right"></i></div>
 </div>
 </a>
 </div>
 <div class="col-sm-4">
-<a class="news-block" href="?87480/COP28-Cientistas-reiteram-que-a-Amazonia-pode-se-tornar-uma-bomba-de-carbono" title="">
+<a class="news-block" href="?87680/Desmatamento-migra-da-Amazonia-para-o-Cerrado-em-2023-indica-Deter" title="">
 <div>
-<div class="cover-image" style="background-image:url('//wwfbrnew.awsassets.panda.org/img/nossosconteudos_biomas_amazonia_ubiratangsurui3_128066.png');background-size:cover;background-position:50% 50%;">
-<div style="position:absolute;right: -5px;font-size: 11px;color: #e2e2e2; margin-right: 25px;top: 270px;"> &copy; Ubiratan G. Suruí /WWF-Brasil</div>
+<div class="cover-image" style="background-image:url('//wwfbrnew.awsassets.panda.org/img/box_oqueestamosfazendo_nossotrabalho_desmatamentozero_wwfbrasil_128466.png');background-size:cover;background-position:50% 50%;">
+<div style="position:absolute;right: -5px;font-size: 11px;color: #e2e2e2; margin-right: 25px;top: 270px;"> &copy; Moises Muálem / WWF-Brasil </div>
 </div>
 </div>
 <div class="row-2">
-<p><i class="font-serif"><span>Posted on</span> <span class="text-primary"> 12 dez 2023</span></i></p>
-<p class="title font30 text-uppercase"><strong>COP28: Cientistas reiteram que a Amazônia pode se tornar uma bomba de carbono</strong></p>
-<p>Sudeste do bioma já sente redução de 28% nas chuvas e aumento de temperatura em mais de 2ºC devido à destruição da floresta
-</p>
+<p><i class="font-serif"><span>Posted on</span> <span class="text-primary"> 15 jan 2024</span></i></p>
+<p class="title font30 text-uppercase"><strong>Desmatamento migra da Amazônia para o Cerrado em 2023, indica Deter</strong></p>
+<p>Na Amazônia, houve queda de 50% dos alertas de desmatamento em relação ao ano anterior; no Cerrado crescimento foi de 44% em ...</p>
 <div class="btn btn-default"><i class="fas fa-arrow-right"></i></div>
 </div>
 </a>
 </div>
 <div class="col-sm-4">
-<a class="news-block" href="?87460/COP28-Conquistas-do-ARPA-foram-tema-de-debate-em-Dubai" title="">
+<a class="news-block" href="?87640/Organizacoes-da-sociedade-civil-pedem-revisao-de-PL-que-isenta-BR-319-de-licenciamento-ambiental" title="">
 <div>
-<div class="cover-image" style="background-image:url('//wwfbrnew.awsassets.panda.org/img/photo_5158975507931442587_y_128062.jpg');background-size:cover;background-position:50% 50%;">
-<div style="position:absolute;right: -5px;font-size: 11px;color: #e2e2e2; margin-right: 25px;top: 270px;"> &copy; Trícia Oliveira / WWF-Brasil</div>
+<div class="cover-image" style="background-image:url('//wwfbrnew.awsassets.panda.org/img/br-319---foto-christian-braga---idesam_128426.jpg');background-size:cover;background-position:50% 50%;">
+<div style="position:absolute;right: -5px;font-size: 11px;color: #e2e2e2; margin-right: 25px;top: 270px;"> &copy; Christian Braga / Idesam</div>
 </div>
 </div>
 <div class="row-2">
-<p><i class="font-serif"><span>Posted on</span> <span class="text-primary"> 11 dez 2023</span></i></p>
-<p class="title font30 text-uppercase"><strong>COP28: Conquistas do ARPA foram tema de debate em Dubai</strong></p>
-<p>Impactos do Programa Áreas Protegidas da Amazônia para a conservação e enfrentamento à crise climática foram o foco de painel ...</p>
+<p><i class="font-serif"><span>Posted on</span> <span class="text-primary"> 22 dez 2023</span></i></p>
+<p class="title font30 text-uppercase"><strong>Organizações da sociedade civil pedem revisão de PL que isenta BR-319 de licenciamento ambiental</strong></p>
+<p>Entidades ressaltam a importância do processo de um “licenciamento ambiental completo e transparente, com ampla participação ...</p>
 <div class="btn btn-default"><i class="fas fa-arrow-right"></i></div>
 </div>
 </a>
@@ -1097,7 +1097,7 @@ width: 100% !important;
 <div class="marginbottom50"></div>
 </objtemplate>
 <objtemplate id="148808" objtemplate_id="4012" objtemplate_filename="international-2column-card">
-<section date_created="1702436463" hash="7884C42629BB9AC6403DC53C20EC0D8D"><objtemplate><!--[--><div class="template501"><div class="container"><div class="title-underline font30-xs">#AgirÉUrgente</div><!--[--><!--]--></div></div><div class="marginbottom50"></div><!--]-->
+<section date_created="1705506310" hash="7884C42629BB9AC6403DC53C20EC0D8D"><objtemplate><!--[--><div class="template501"><div class="container"><div class="title-underline font30-xs">#AgirÉUrgente</div><!--[--><!--]--></div></div><div class="marginbottom50"></div><!--]-->
 </objtemplate>
 </section>
 </objtemplate>
@@ -1156,7 +1156,7 @@ width: 100% !important;
 <div class="marginbottom50"></div>
 </objtemplate>
 <objtemplate id="148805" objtemplate_id="1004" objtemplate_filename="2014lp-5050.pictext">
-<section date_created="1702436463" hash="4DF6660C70301CB47B5F2BBB5612D5EE"><objtemplate><!--[--><div class="template515"><div class="container-fluid"><div class="row"><!--[--><div class="col-sm-6 col-md-7"><p><img class="img-responsive" src="//wwfbrnew.awsassets.panda.org/img/box_destaque_ra_126366.png"><div style="position:inherit;right:-5px;bottom:45px;font-size:11px;color:#e2e2e2;margin-right:50px;"> &copy; WWF-Brasil</div></p></div><div class="col-sm-6 col-md-4 col-md-offset-1"><!----><!----><p><h2><strong>RELATÓRIO ANUAL 2022: A gente não faz nada sozinho</strong></h2>
+<section date_created="1705506310" hash="4DF6660C70301CB47B5F2BBB5612D5EE"><objtemplate><!--[--><div class="template515"><div class="container-fluid"><div class="row"><!--[--><div class="col-sm-6 col-md-7"><p><img class="img-responsive" src="//wwfbrnew.awsassets.panda.org/img/box_destaque_ra_126366.png"><div style="position:inherit;right:-5px;bottom:45px;font-size:11px;color:#e2e2e2;margin-right:50px;"> &copy; WWF-Brasil</div></p></div><div class="col-sm-6 col-md-4 col-md-offset-1"><!----><!----><p><h2><strong>RELATÓRIO ANUAL 2022: A gente não faz nada sozinho</strong></h2>
 <br />
 Trabalhamos em cooperação com populações tradicionais, produtores agrícolas e empresas a fim de restaurar matas nativas, valorizar os produtos da sociobiodiversidade e multiplicar as possibilidades de uma economia justa e sustentável.<br />
 <br />
@@ -1169,7 +1169,7 @@ Resistimos com coragem e colaboração, dois dos valores que nos guiam, e estamo
 </section>
 </objtemplate>
 <objtemplate id="148793" objtemplate_id="1001" objtemplate_filename="2014lp-carouselslider">
-<section date_created="1702436463" hash="70E5DA73152B32F870AD94CE94DEEDCB"><objtemplate>
+<section date_created="1705506310" hash="70E5DA73152B32F870AD94CE94DEEDCB"><objtemplate>
 <style>
 .template1001 .slide-item .slide-intro {
 max-width: 90%;
@@ -1188,12 +1188,12 @@ font-size: 1.2em !important;
 </section>
 </objtemplate>
 <objtemplate id="148806" objtemplate_id="4012" objtemplate_filename="international-2column-card">
-<section date_created="1702436464" hash="F57232FDFEFBDADDCB58847B00F22018"><objtemplate><!--[--><div class="template501"><div class="container"><div class="title-underline font30-xs">Apoie o WWF-Brasil </div><!--[--><div class="row marginbottom50"><!--[--><div class="col-sm-6"><div><img style="height:343px;object-fit:cover;" class="img-full-width" src="//wwfbrnew.awsassets.panda.org/img/img_4852--1-_127501.jpg" alt=""></div><div class="news-block" style="width:85%;margin:0 auto;margin-top:-18%;position:relative;margin-left:7%;box-shadow:none;background-color:rgba(255, 255, 255, 0.94);"><div class="row-2"><p class="title text-center font30 text-uppercase"><strong>Kit Mora no Brasil - Fauna </strong></p><!----><div style="text-align:center;margin-top:20px;"><a href="https://www.lojafauna.com.br/colecao-2024/" target="_blank" class="btn-primary" style="display:inline-block;" title="Kit Mora no Brasil - Fauna ">Compre aqui </a></div></div></div></div><div class="col-sm-6"><div><img style="height:343px;object-fit:cover;" class="img-full-width" src="//wwfbrnew.awsassets.panda.org/img/aquarela_44504--3-_127124.jpg" alt=""></div><div class="news-block" style="width:85%;margin:0 auto;margin-top:-18%;position:relative;margin-left:7%;box-shadow:none;background-color:rgba(255, 255, 255, 0.94);"><div class="row-2"><p class="title text-center font30 text-uppercase"><strong>Dominós - Araquarela </strong></p><!----><div style="text-align:center;margin-top:20px;"><a href="https://www.araquarela.com.br/parceria" target="_blank" class="btn-primary" style="display:inline-block;" title="Dominós - Araquarela ">Compre aqui</a></div></div></div></div><!--]--></div><div class="row marginbottom50"><!--[--><div class="col-sm-6"><div><img style="height:343px;object-fit:cover;" class="img-full-width" src="//wwfbrnew.awsassets.panda.org/img/2-collum-image-woverlay-text--34-_127125.png" alt=""></div><div class="news-block" style="width:85%;margin:0 auto;margin-top:-18%;position:relative;margin-left:7%;box-shadow:none;background-color:rgba(255, 255, 255, 0.94);"><div class="row-2"><p class="title text-center font30 text-uppercase"><strong>Coleção Conectado no Planeta - Malwee</strong></p><!----><div style="text-align:center;margin-top:20px;"><a href="https://www.malwee.com.br/collections/wwf-geral" target="_blank" class="btn-primary" style="display:inline-block;" title="Coleção Conectado no Planeta - Malwee">Compre aqui </a></div></div></div></div><div class="col-sm-6"><div><img style="height:343px;object-fit:cover;" class="img-full-width" src="//wwfbrnew.awsassets.panda.org/img/2-collum-image-woverlay-text--35-_127126.png" alt=""></div><div class="news-block" style="width:85%;margin:0 auto;margin-top:-18%;position:relative;margin-left:7%;box-shadow:none;background-color:rgba(255, 255, 255, 0.94);"><div class="row-2"><p class="title text-center font30 text-uppercase"><strong>Shampoos em barra - B.O.B</strong></p><!----><div style="text-align:center;margin-top:20px;"><a href="https://www.usebob.com.br/collections/linha-infantil" target="_blank" class="btn-primary" style="display:inline-block;" title="Shampoos em barra - B.O.B">Compre aqui </a></div></div></div></div><!--]--></div><!--]--></div></div><div class="marginbottom50"></div><!--]-->
+<section date_created="1705506310" hash="F57232FDFEFBDADDCB58847B00F22018"><objtemplate><!--[--><div class="template501"><div class="container"><div class="title-underline font30-xs">Apoie o WWF-Brasil </div><!--[--><div class="row marginbottom50"><!--[--><div class="col-sm-6"><div><img style="height:343px;object-fit:cover;" class="img-full-width" src="//wwfbrnew.awsassets.panda.org/img/img_4852--1-_127501.jpg" alt=""></div><div class="news-block" style="width:85%;margin:0 auto;margin-top:-18%;position:relative;margin-left:7%;box-shadow:none;background-color:rgba(255, 255, 255, 0.94);"><div class="row-2"><p class="title text-center font30 text-uppercase"><strong>Kit Mora no Brasil - Fauna </strong></p><!----><div style="text-align:center;margin-top:20px;"><a href="https://www.lojafauna.com.br/colecao-2024/" target="_blank" class="btn-primary" style="display:inline-block;" title="Kit Mora no Brasil - Fauna ">Compre aqui </a></div></div></div></div><div class="col-sm-6"><div><img style="height:343px;object-fit:cover;" class="img-full-width" src="//wwfbrnew.awsassets.panda.org/img/aquarela_44504--3-_127124.jpg" alt=""></div><div class="news-block" style="width:85%;margin:0 auto;margin-top:-18%;position:relative;margin-left:7%;box-shadow:none;background-color:rgba(255, 255, 255, 0.94);"><div class="row-2"><p class="title text-center font30 text-uppercase"><strong>Dominós - Araquarela </strong></p><!----><div style="text-align:center;margin-top:20px;"><a href="https://www.araquarela.com.br/parceria" target="_blank" class="btn-primary" style="display:inline-block;" title="Dominós - Araquarela ">Compre aqui</a></div></div></div></div><!--]--></div><div class="row marginbottom50"><!--[--><div class="col-sm-6"><div><img style="height:343px;object-fit:cover;" class="img-full-width" src="//wwfbrnew.awsassets.panda.org/img/2-collum-image-woverlay-text--34-_127125.png" alt=""></div><div class="news-block" style="width:85%;margin:0 auto;margin-top:-18%;position:relative;margin-left:7%;box-shadow:none;background-color:rgba(255, 255, 255, 0.94);"><div class="row-2"><p class="title text-center font30 text-uppercase"><strong>Coleção Conectado no Planeta - Malwee</strong></p><!----><div style="text-align:center;margin-top:20px;"><a href="https://www.malwee.com.br/collections/wwf-geral" target="_blank" class="btn-primary" style="display:inline-block;" title="Coleção Conectado no Planeta - Malwee">Compre aqui </a></div></div></div></div><div class="col-sm-6"><div><img style="height:343px;object-fit:cover;" class="img-full-width" src="//wwfbrnew.awsassets.panda.org/img/2-collum-image-woverlay-text--35-_127126.png" alt=""></div><div class="news-block" style="width:85%;margin:0 auto;margin-top:-18%;position:relative;margin-left:7%;box-shadow:none;background-color:rgba(255, 255, 255, 0.94);"><div class="row-2"><p class="title text-center font30 text-uppercase"><strong>Shampoos em barra - B.O.B</strong></p><!----><div style="text-align:center;margin-top:20px;"><a href="https://www.usebob.com.br/collections/linha-infantil" target="_blank" class="btn-primary" style="display:inline-block;" title="Shampoos em barra - B.O.B">Compre aqui </a></div></div></div></div><!--]--></div><!--]--></div></div><div class="marginbottom50"></div><!--]-->
 </objtemplate>
 </section>
 </objtemplate>
 <objtemplate id="148804" objtemplate_id="4011" objtemplate_filename="international-carousel-testimonial">
-<section date_created="1702436464" hash="30BBB186F3BB1EA98F7349ABFDA8A1AD"><objtemplate><style type="text/css">
+<section date_created="1705506310" hash="30BBB186F3BB1EA98F7349ABFDA8A1AD"><objtemplate><style type="text/css">
 #international-carousel-testimonial a {
 color: #dd681b;
 display: inline;
@@ -1233,34 +1233,34 @@ background: #e1e1e1 !important;
 </section>
 </objtemplate>
 <objtemplate id="148799" objtemplate_id="454" objtemplate_filename="getunik.pandaorg3.2-findus">
-<section date_created="1702436464" hash="8456B092D177BF814B706F77DBE61583"><objtemplate><!--[--><div class="template519"><div class="container-fluid"><div class="title-underline font30-xs">WWF-Brasil nas Redes Sociais </div><ul class="socials"><!--[--><li class="social"><a href="https://instagram.com/wwfbrasil" title="Instagram " target="_blank"><i class="fab fa-instagram"></i><div class="text-uppercase">Instagram </div></a></li><li class="social"><a href="https://twitter.com/wwfbrasil" title="Twitter " target="_blank"><i class="fab fa-twitter"></i><div class="text-uppercase">Twitter </div></a></li><li class="social"><a href="https://facebook.com/WWFBrasil" title="Facebook " target="_blank"><i class="fab fa-facebook"></i><div class="text-uppercase">Facebook </div></a></li><li class="social"><a href="https://linkedin.com/company/wwf-brasil" title="Linkedin" target="_blank"><i class="fab fa-linkedin"></i><div class="text-uppercase">Linkedin</div></a></li><li class="social"><a href="https://youtube.com/wwf-brasil" title="YouTube" target="_blank"><i class="fab fa-youtube"></i><div class="text-uppercase">YouTube</div></a></li><!--]--></ul></div></div><div class="marginbottom50"></div><!--]-->
+<section date_created="1705506310" hash="8456B092D177BF814B706F77DBE61583"><objtemplate><!--[--><div class="template519"><div class="container-fluid"><div class="title-underline font30-xs">WWF-Brasil nas Redes Sociais </div><ul class="socials"><!--[--><li class="social"><a href="https://instagram.com/wwfbrasil" title="Instagram " target="_blank"><i class="fab fa-instagram"></i><div class="text-uppercase">Instagram </div></a></li><li class="social"><a href="https://twitter.com/wwfbrasil" title="Twitter " target="_blank"><i class="fab fa-twitter"></i><div class="text-uppercase">Twitter </div></a></li><li class="social"><a href="https://facebook.com/WWFBrasil" title="Facebook " target="_blank"><i class="fab fa-facebook"></i><div class="text-uppercase">Facebook </div></a></li><li class="social"><a href="https://linkedin.com/company/wwf-brasil" title="Linkedin" target="_blank"><i class="fab fa-linkedin"></i><div class="text-uppercase">Linkedin</div></a></li><li class="social"><a href="https://youtube.com/wwf-brasil" title="YouTube" target="_blank"><i class="fab fa-youtube"></i><div class="text-uppercase">YouTube</div></a></li><!--]--></ul></div></div><div class="marginbottom50"></div><!--]-->
 </objtemplate>
 </section>
 </objtemplate>
 <objtemplate id="148798" objtemplate_id="4008" objtemplate_filename="international-share">
-<section date_created="1702436464" hash="C21D2515994884B5D7F7C6A103544309"><objtemplate><!---->
+<section date_created="1705506310" hash="C21D2515994884B5D7F7C6A103544309"><objtemplate><!---->
 </objtemplate>
 </section>
 </objtemplate>
 <objtemplate id="148807" objtemplate_id="4012" objtemplate_filename="international-2column-card">
-<section date_created="1702436464" hash="ADF97EE1E8B9F5C7B6959A6563E32158"><objtemplate><!--[--><div class="template501"><div class="container"><!----><!--[--><!--]--></div></div><div class="marginbottom50"></div><!--]-->
+<section date_created="1705506310" hash="ADF97EE1E8B9F5C7B6959A6563E32158"><objtemplate><!--[--><div class="template501"><div class="container"><!----><!--[--><!--]--></div></div><div class="marginbottom50"></div><!--]-->
 </objtemplate>
 </section>
 </objtemplate>
 <objtemplate id="148800" objtemplate_id="401" objtemplate_filename="getunik.pandaorg3.1-latest-media-release">
 </objtemplate>
 <objtemplate id="148795" objtemplate_id="4012" objtemplate_filename="international-2column-card">
-<section date_created="1702436464" hash="4E5D11F71C750D2780A52D29C4FE02D0"><objtemplate><!--[--><div class="template501"><div class="container"><!----><!--[--><!--]--></div></div><div class="marginbottom50"></div><!--]-->
+<section date_created="1705506311" hash="4E5D11F71C750D2780A52D29C4FE02D0"><objtemplate><!--[--><div class="template501"><div class="container"><!----><!--[--><!--]--></div></div><div class="marginbottom50"></div><!--]-->
 </objtemplate>
 </section>
 </objtemplate>
 <objtemplate id="148803" objtemplate_id="4012" objtemplate_filename="international-2column-card">
-<section date_created="1702436464" hash="3580D852A6B95A217926414A65FD4990"><objtemplate><!--[--><div class="template501"><div class="container"><!----><!--[--><!--]--></div></div><div class="marginbottom50"></div><!--]-->
+<section date_created="1705506311" hash="3580D852A6B95A217926414A65FD4990"><objtemplate><!--[--><div class="template501"><div class="container"><!----><!--[--><!--]--></div></div><div class="marginbottom50"></div><!--]-->
 </objtemplate>
 </section>
 </objtemplate>
 <objtemplate id="148802" objtemplate_id="4012" objtemplate_filename="international-2column-card">
-<section date_created="1702436464" hash="33A846BF591AD21AD8475B38CEA533C0"><objtemplate><!--[--><div class="template501"><div class="container"><!----><!--[--><!--]--></div></div><div class="marginbottom50"></div><!--]-->
+<section date_created="1705506311" hash="33A846BF591AD21AD8475B38CEA533C0"><objtemplate><!--[--><div class="template501"><div class="container"><!----><!--[--><!--]--></div></div><div class="marginbottom50"></div><!--]-->
 </objtemplate>
 </section>
 </objtemplate>
