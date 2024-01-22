@@ -1,10 +1,17 @@
 import unittest
 import requests
+import pytest
+import time
 
 from .. import webpages
 
 
 class TestFetch(unittest.TestCase):
+
+    @pytest.fixture(autouse=True)
+    def slow_down_tests(self):
+        yield
+        time.sleep(0.5)
 
     def test_regular_fetch(self):
         url = "https://web.archive.org/web/https://bostonglobe.com"

@@ -1,6 +1,7 @@
 import unittest
 import datetime as dt
 import time
+import pytest
 
 import mcmetadata
 from .. import extract
@@ -10,6 +11,11 @@ from ..exceptions import BadContentError
 
 
 class TestExtract(unittest.TestCase):
+
+    @pytest.fixture(autouse=True)
+    def slow_down_tests(self):
+        yield
+        time.sleep(0.5)
 
     def setUp(self) -> None:
         webpages.DEFAULT_TIMEOUT_SECS = 30  # try to avoid timeout errors
