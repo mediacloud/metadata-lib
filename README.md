@@ -67,6 +67,7 @@ When adding new tests, re-run 'scripts/get-test-web-content.py'
 Version History
 ---------------
 
+* __v0.11.2__: Fix title parsing edge case, update requirements 
 * __v0.11.1__: Add new `urls.unique_url_hash` helper to centralize logic for generating a unique hash for a URL, also 
                returned from `extract` in case you choose to use it 
 * __v0.11.0__: (error release)
