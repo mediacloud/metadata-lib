@@ -3,7 +3,7 @@
         <head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("https://www.cbc.ca/news/canada/kitchener-waterloo/teen-driver-charged-following-collision-near-shakespeare-opp-say-1.5230335?cmp=rss","20220721144434","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -295,7 +295,7 @@
         <noscript><img src="https://web.archive.org/web/20220721144434im_/https://www.cbc.ca/akam/13/pixel_27db6329?a=dD02YmRjMDg4OTNjNWViNmIzMmJjYjliYzM0YjlkYTQ2ODMyZDMxYmI2JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;"/></noscript></body>
     </html><!--
      FILE ARCHIVED ON 14:44:34 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:53:48 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:09:03 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -303,13 +303,12 @@
 -->
 <!--
 playback timings (ms):
-  captures_list: 714.04
-  exclusion.robots: 0.211
-  exclusion.robots.policy: 0.197
-  cdx.remote: 0.083
-  esindex: 0.013
-  LoadShardBlock: 542.279 (3)
-  PetaboxLoader3.resolve: 294.196 (3)
-  PetaboxLoader3.datanode: 614.462 (4)
-  load_resource: 396.048
+  exclusion.robots: 0.269
+  exclusion.robots.policy: 0.246
+  cdx.remote: 0.181
+  esindex: 0.017
+  LoadShardBlock: 403.13 (6)
+  PetaboxLoader3.datanode: 130.062 (7)
+  PetaboxLoader3.resolve: 327.049 (3)
+  load_resource: 100.648
 -->

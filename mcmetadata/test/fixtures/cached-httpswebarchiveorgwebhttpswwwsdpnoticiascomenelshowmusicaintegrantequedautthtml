@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("https://www.sdpnoticias.com/enelshow/musica/integrante-queda-u-t-t.html","20220724231430","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -60,7 +60,7 @@
     window.lazyLoadOptions = [{}, {elements_selector: ".lazy-ad", unobserve_entered: true, callback_enter: loadAsyncAd}];
   </script><script async="" src="https://web.archive.org/web/20220724231430js_/https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.4.0/dist/lazyload.min.js"></script></body></html><!--
      FILE ARCHIVED ON 23:14:30 Jul 24, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:52:05 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:08:03 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -68,13 +68,12 @@
 -->
 <!--
 playback timings (ms):
-  captures_list: 1000.569
-  exclusion.robots: 0.302
-  exclusion.robots.policy: 0.284
-  cdx.remote: 0.102
-  esindex: 0.014
-  LoadShardBlock: 937.948 (3)
-  PetaboxLoader3.datanode: 982.622 (4)
-  load_resource: 254.956
-  PetaboxLoader3.resolve: 86.176
+  exclusion.robots: 0.2
+  exclusion.robots.policy: 0.184
+  cdx.remote: 0.17
+  esindex: 0.016
+  LoadShardBlock: 164.144 (6)
+  PetaboxLoader3.datanode: 289.952 (7)
+  load_resource: 495.678
+  PetaboxLoader3.resolve: 310.06
 -->

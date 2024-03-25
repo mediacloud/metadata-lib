@@ -1,7 +1,7 @@
 <!doctype html><html lang="en" data-theme="heavy-blue" data-reactroot=""><head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("https://www.thestar.com/business/economy/opinion/2019/08/23/what-the-fed-could-learn-from-canada.html","20220721144440","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -11,7 +11,7 @@
 <link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ" />
 <!-- End Wayback Rewrite JS Include -->
 <meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" name="viewport"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="msapplication-TileColor" content="#FFFFFF"/><meta name="msapplication-TileImage" content="/favicon-thestar-144.png"/><meta name="msapplication-square70x70logo" content="/favicon-thestar-70.png"/><meta name="msapplication-square150x150logo" content="/favicon-thestar-150.png"/><meta name="msapplication-square310x310logo" content="/favicon-thestar-310.png"/><meta name="apple-mobile-web-app-title" content="thestar.com"/><meta name="application-name" content="thestar.com"/><meta property="fb:pages" content="184906186150"/><meta property="fb:pages" content="228549210541681"/><meta property="fb:pages" content="163075187111670"/><meta property="fb:pages" content="134392236659479"/><meta property="article:content_tier" content="metered"/><link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/web/20220721144440im_/https://www.thestar.com/favicon-thestar.ico"/><link rel="apple-touch-icon-precomposed" href="/web/20220721144440im_/https://www.thestar.com/favicon-thestar-152.png"/><link rel="apple-touch-icon-precomposed" sizes="152x152" href="/web/20220721144440im_/https://www.thestar.com/favicon-thestar-152.png"/><link rel="apple-touch-icon-precomposed" sizes="144x144" href="/web/20220721144440im_/https://www.thestar.com/favicon-thestar-144.png"/><link rel="apple-touch-icon-precomposed" sizes="120x120" href="/web/20220721144440im_/https://www.thestar.com/favicon-thestar-120.png"/><link rel="apple-touch-icon-precomposed" sizes="114x114" href="/web/20220721144440im_/https://www.thestar.com/favicon-thestar-114.png"/><link rel="apple-touch-icon-precomposed" sizes="72x72" href="/web/20220721144440im_/https://www.thestar.com/favicon-thestar-72.png"/><link rel="apple-touch-icon-precomposed" href="/web/20220721144440im_/https://www.thestar.com/favicon-thestar-57.png"/><link rel="preconnect" href="https://web.archive.org/web/20220721144440/https://fonts.googleapis.com/"/><link rel="preconnect" href="https://web.archive.org/web/20220721144440/https://fonts.gstatic.com/"/><link href="https://web.archive.org/web/20220721144440cs_/https://fonts.googleapis.com/css2?family=Roboto:wght@500&amp;display=swap" rel="stylesheet"/><link rel="preload" href="/web/20220721144440/https://www.thestar.com/assets/fonts/TorstarTextO3-Roman.ttf" as="font" type="font/ttf" crossorigin="anonymous"/><link rel="preload" href="/web/20220721144440/https://www.thestar.com/assets/fonts/TorstarTextO3-Italic.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="preload" href="/web/20220721144440/https://www.thestar.com/assets/fonts/TorstarTextO3-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="preload" href="/web/20220721144440/https://www.thestar.com/assets/fonts/TorstarDeckCondensed-Roman.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="preload" href="/web/20220721144440/https://www.thestar.com/assets/fonts/TorstarDeckCondensed-Semibold.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="preload" href="/web/20220721144440/https://www.thestar.com/assets/fonts/merriweather/MerriweatherSans-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="preload" href="/web/20220721144440/https://www.thestar.com/assets/fonts/merriweather/MerriweatherSans-Italic.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="preload" href="/web/20220721144440/https://www.thestar.com/assets/fonts/merriweather/MerriweatherSans-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="preload" href="/web/20220721144440/https://www.thestar.com/assets/fonts/merriweather/MerriweatherSans-BoldItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="preload" href="/web/20220721144440/https://www.thestar.com/assets/fonts/merriweather/MerriweatherSans-Black.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="preconnect" href="//web.archive.org/web/20220721144440/https://prebid.the-ozone-project.com/"/><link rel="dns-prefetch" href="//web.archive.org/web/20220721144440/https://prebid.the-ozone-project.com/"/><link rel="preconnect" href="//web.archive.org/web/20220721144440/https://elb.the-ozone-project.com/"/><link rel="dns-prefetch" href="//web.archive.org/web/20220721144440/https://elb.the-ozone-project.com/"/><script src="https://web.archive.org/web/20220721144440js_/https://prebid.the-ozone-project.com/hw/torstar/toronto-star-adunits.js"></script><script src="https://web.archive.org/web/20220721144440js_/https://e377.thestar.com/script.js"></script>
-      
+
       <title data-react-helmet="true">What the Fed could learn from Canada | The Star</title>
       <meta data-react-helmet="true" name="storyuuid" content="20595394-ceeb-4817-ac26-f64e9afae1f0"/><meta data-react-helmet="true" name="description" content="The central bank, which has developed a pretty poor track record for meeting its inflation and employment goals, should set some deadlines."/><meta data-react-helmet="true" name="keywords" content="Federal Reserve,Bank of Canada,inflation,employment,monetary policy,smg_opinion,smg2_economy,smg2_business"/><meta data-react-helmet="true" name="news_keywords" content="Federal Reserve,Bank of Canada,inflation,employment,monetary policy,smg_opinion,smg2_economy,smg2_business"/><meta data-react-helmet="true" property="article:publisher" content="https://www.facebook.com/torontostar"/><meta data-react-helmet="true" property="article:published_time" content="2019-08-23"/><meta data-react-helmet="true" property="article:modified_time" content="2019-08-23T15:42:45.878Z"/><meta data-react-helmet="true" property="article:section" content="Opinion"/><meta data-react-helmet="true" property="og:title" content="Opinion | What the Fed could learn from Canada"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:url" content="https://web.archive.org/web/20220721144440/https://www.thestar.com/business/economy/opinion/2019/08/23/what-the-fed-could-learn-from-canada.html"/><meta data-react-helmet="true" property="og:description" content="The central bank, which has developed a pretty poor track record for meeting its inflation and employment goals, should set some deadlines."/><meta data-react-helmet="true" property="og:site_name" content="thestar.com"/><meta data-react-helmet="true" property="og:image" content="https://web.archive.org/web/20220721144440im_/https://images.thestar.com/OcnArdq5VP9qqxAtcZRn28z-oic=/1200x749/smart/filters:cb(1566574963912):format(webp)/https://www.thestar.com/content/dam/thestar/business/economy/opinion/2019/08/23/what-the-fed-could-learn-from-canada/fed.jpg"/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:domain" content="thestar.com"/><meta data-react-helmet="true" name="twitter:site" content="@TorontoStar"/><meta data-react-helmet="true" name="twitter:title" content="Opinion | What the Fed could learn from Canada"/><meta data-react-helmet="true" name="twitter:description" content="The central bank, which has developed a pretty poor track record for meeting its inflation and employment goals, should set some deadlines."/><meta data-react-helmet="true" name="twitter:image" content="https://web.archive.org/web/20220721144440im_/https://images.thestar.com/OcnArdq5VP9qqxAtcZRn28z-oic=/1200x749/smart/filters:cb(1566574963912):format(webp)/https://www.thestar.com/content/dam/thestar/business/economy/opinion/2019/08/23/what-the-fed-could-learn-from-canada/fed.jpg"/><meta data-react-helmet="true" name="twitter:creator" content=""/><meta data-react-helmet="true" name="parsely-title" content="What the Fed could learn from Canada"/><meta data-react-helmet="true" name="parsely-link" content="https://www.thestar.com/business/economy/opinion/2019/08/23/what-the-fed-could-learn-from-canada.html"/><meta data-react-helmet="true" name="parsely-type" content="post"/><meta data-react-helmet="true" name="parsely-author" content=""/><meta data-react-helmet="true" name="parsely-image-url" content="https://images.thestar.com/OcnArdq5VP9qqxAtcZRn28z-oic=/1200x749/smart/filters:cb(1566574963912):format(webp)/https://www.thestar.com/content/dam/thestar/business/economy/opinion/2019/08/23/what-the-fed-could-learn-from-canada/fed.jpg"/><meta data-react-helmet="true" name="parsely-pub-date" content="2019-08-23T15:42:43.359Z"/><meta data-react-helmet="true" name="parsely-section" content="business|economy|opinion"/><meta data-react-helmet="true" name="parsely-tags" content="Federal Reserve, Bank of Canada, inflation, employment, monetary policy, smg_opinion, smg2_economy, smg2_business, word count: 350-700 words, inHouseArticle: false, trust: Opinion, tlc_business"/><meta data-react-helmet="true" name="parsely-metadata" content="{&quot;storyuuid&quot;: &quot;20595394-ceeb-4817-ac26-f64e9afae1f0&quot;}"/><meta data-react-helmet="true" name="parsely-network-canonical" content="https://www.thestar.com/business/economy/opinion/2019/08/23/what-the-fed-could-learn-from-canada.html"/><meta data-react-helmet="true" name="mpp-exclude"/><meta data-react-helmet="true" property="article:tag" content="Business, Finance, &amp; Economics"/><meta data-react-helmet="true" property="vf:unique_id" content="20595394-ceeb-4817-ac26-f64e9afae1f0"/>
       <link data-react-helmet="true" rel="amphtml" href="https://web.archive.org/web/20220721144440/https://www.thestar.com/amp/business/economy/opinion/2019/08/23/what-the-fed-could-learn-from-canada.html"/><link data-react-helmet="true" rel="canonical" href="https://web.archive.org/web/20220721144440/https://www.thestar.com/business/economy/opinion/2019/08/23/what-the-fed-could-learn-from-canada.html"/><link data-react-helmet="true" rel="alternate" type="application/rss+xml" href="https://web.archive.org/web/20220721144440/https://www.thestar.com/feeds.articles.business.economy.opinion.rss" title="RSS feed for articles in Toronto Star"/>
@@ -61,7 +61,7 @@ window.__PRELOADED_STATE__ = {"loaded":true,"comscore":"pageview_candidate","mai
       var d = document.getElementsByTagName('script')[0];
       d.parentNode.insertBefore(s, d);
     })()
-    
+
     ;(function(w,p){w[p]=w[p]||function(){w[p].q=w[p].q||[];w[p].q.push(arguments)}})(window,"Kumulos");
 
     Kumulos("init", {
@@ -72,8 +72,8 @@ window.__PRELOADED_STATE__ = {"loaded":true,"comscore":"pageview_candidate","mai
             window.kumulosTokens = n;
           }
     });
-    
-   
+
+
 
 
   }
@@ -518,7 +518,7 @@ apstag.init({
 </script>
 <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[23]</script><script id="__LOADABLE_REQUIRED_CHUNKS___ext" type="application/json">{"namedChunks":["StnSmartPlayer"]}</script><script async="" data-chunk="bundle" src="/web/20220721144440js_/https://www.thestar.com/static/vendors~bundle.chunk.js?v=d333aec9"></script><script async="" data-chunk="bundle" src="/web/20220721144440js_/https://www.thestar.com/static/bundle.js?v=f1d63e4b"></script><script async="" data-chunk="StnSmartPlayer" src="/web/20220721144440js_/https://www.thestar.com/static/StnSmartPlayer.chunk.js?v=d92b0b75"></script></body></html><!--
      FILE ARCHIVED ON 14:44:40 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:59:39 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:09:58 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -526,13 +526,12 @@ apstag.init({
 -->
 <!--
 playback timings (ms):
-  captures_list: 132.19
-  exclusion.robots: 0.167
-  exclusion.robots.policy: 0.154
-  cdx.remote: 0.085
-  esindex: 0.013
-  LoadShardBlock: 77.555 (3)
-  PetaboxLoader3.datanode: 86.759 (4)
-  load_resource: 117.043
-  PetaboxLoader3.resolve: 77.387
+  exclusion.robots: 0.224
+  exclusion.robots.policy: 0.208
+  cdx.remote: 0.142
+  esindex: 0.016
+  LoadShardBlock: 625.012 (6)
+  PetaboxLoader3.datanode: 323.672 (7)
+  load_resource: 221.659
+  PetaboxLoader3.resolve: 123.866
 -->

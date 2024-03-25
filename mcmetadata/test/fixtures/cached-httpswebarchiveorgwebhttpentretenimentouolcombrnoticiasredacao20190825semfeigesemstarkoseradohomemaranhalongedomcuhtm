@@ -1,7 +1,7 @@
 <!DOCTYPE html> <html lang="pt-br"> <head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("https://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm","20220721143647","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -437,7 +437,7 @@
     });
 }</script> </body> </html><!--
      FILE ARCHIVED ON 14:36:47 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:50:49 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:13:27 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -445,13 +445,12 @@
 -->
 <!--
 playback timings (ms):
-  captures_list: 233.038
-  exclusion.robots: 0.121
-  exclusion.robots.policy: 0.112
-  cdx.remote: 0.056
-  esindex: 0.01
-  LoadShardBlock: 192.258 (3)
-  PetaboxLoader3.datanode: 1243.131 (5)
-  load_resource: 1303.89 (2)
-  PetaboxLoader3.resolve: 191.571 (2)
+  exclusion.robots: 0.147
+  exclusion.robots.policy: 0.129
+  cdx.remote: 0.11
+  esindex: 0.014
+  LoadShardBlock: 765.805 (6)
+  PetaboxLoader3.datanode: 305.013 (8)
+  PetaboxLoader3.resolve: 339.577 (3)
+  load_resource: 309.391 (2)
 -->

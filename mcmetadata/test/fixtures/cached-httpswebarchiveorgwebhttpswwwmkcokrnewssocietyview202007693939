@@ -3,7 +3,7 @@
 <head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("https://www.mk.co.kr/news/society/view/2020/07/693939/","20220721135650","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -50,7 +50,7 @@
     <meta data-rh="true" property="twitter:card" content="summary_large_image"/>
     <meta data-rh="true" property="og:article:author" content="매일경제"/>
 
-    
+
     <meta property="dable:item_id" content="2020693939">
     <meta property="dable:author" content="류영상">
     <meta property="article:section" content="society">
@@ -67,7 +67,7 @@
     <meta property="fb:app_id" content="1739759202996969"/>
     <meta name="twitter:site" value="@mk_sokbo"/>
     <meta name="classification" content="">
-    
+
 <script type="text/javascript">!function(){var t="https:"==document.location.protocol,o=(t?"https:":"http:")+"//web.archive.org/web/20220721135650/https://www.googletagservices.com/tag/js/gpt.js";document.write("<script src='"+o+"'></sc"+"ript>")}();</script>
 
 <script type="text/javascript">
@@ -108,8 +108,8 @@ try {
 	.setTargeting("mk_login", mk_login)
 	.setTargeting("login_type", login_type)
 	.setTargeting("keywords", keywords);
-	
-	googletag.pubads().collapseEmptyDivs(true); 
+
+	googletag.pubads().collapseEmptyDivs(true);
 	//googletag.pubads().enableSyncRendering();
 	googletag.pubads().enableSingleRequest();
 	googletag.enableServices();
@@ -400,7 +400,7 @@ var mkScrollNewsInfo = {
 		var accessHours = this.access_time.getHours();
 		var accessMinutes = this.access_time.getMinutes();
 		var accessSeconds = this.access_time.getSeconds();
-		
+
 		if(accessMonth < 10) {
 			accessMonth = "0"+accessMonth;
 		}
@@ -423,7 +423,7 @@ var mkScrollNewsInfo = {
 		if(tmpDomain.length > 2) {
 			this.domain = tmpDomain[2];
 		}
-		
+
 		this.params += "&domain="+this.domain+"&uripath="+this.uripath+"&access_time="+this.access_time+"&view_time="+this.view_time+"&read_time="+this.read_time+"&readfinish="+this.readfinish;
 		console.log(this.params);
 	}
@@ -443,7 +443,7 @@ window.addEventListener('beforeunload', function() {
 	try {
 		mkScrollNewsInfo.calViewTime();
 		mkScrollNewsInfo.configParam();
-		
+
 		var img= new Image();
 		img.src="https://web.archive.org/web/20220721135650/https://www25.mk.co.kr:8444/news/scrolldata/?" + mkScrollNewsInfo.params;
 	} catch (e) {}
@@ -452,7 +452,7 @@ window.addEventListener('pagehide', function() {
 	try {
 		mkScrollNewsInfo.calViewTime();
 		mkScrollNewsInfo.configParam();
-		
+
 		var img= new Image();
 		img.src="https://web.archive.org/web/20220721135650/https://www25.mk.co.kr:8444/news/scrolldata/?" + mkScrollNewsInfo.params;
 	} catch (e) {}
@@ -531,7 +531,7 @@ window.addEventListener('pagehide', function() {
         //-->
     </script>
     <!--// News Log  -->
-    
+
 <script type="text/javascript">
 $().ready(function() {
     var maxt = 0, rt = 3.45, weight = 0.4, st;
@@ -546,20 +546,20 @@ $().ready(function() {
             }
         } catch(err) {}
     }, 500);
-    
-    
+
+
     $(window).on('beforeunload ',function() {
         //ga('send', 'event', 'rating', 10);
         var diff = ((new Date()).getTime() - st.getTime())/1000, rating = (diff/maxt)*10;
         if(rating > 10) rating = 10;
-    
+
         //console.log(diff + ' | ' + maxt);
         //console.log(parseInt(rating));
     });
 });
 </script>
-    
-    
+
+
 <!-- 팝업 -->
 <!--if IE 7 배경-->
 <div id="overlay" class="overlay" style="display: none;"></div>
@@ -573,10 +573,10 @@ $().ready(function() {
 	<img src="//web.archive.org/web/20220721135650im_/https://img.mk.co.kr/main/201509/pop_browser_update.jpg" alt="매경닷컴 홈페이지는 인터넷 익스플로러 8 이상을 지원합니다" usemap="#map_popup">
 </div>
 <!--// 팝업 -->
-    
-    
+
+
 <div id="Wrap">
-    
+
     <!--상단 네이게이션바 js-->
     <script type="text/javascript" src="https://web.archive.org/web/20220721135650js_/https://www.mk.co.kr/news/js/header_move.js"></script>
     <!--검색 js-->
@@ -659,7 +659,7 @@ $().ready(function() {
     <!-- 메뉴 //-->
 <div class="menubx_wrap" id="move_gnb_total_list" style="display:none;">
     <div class="menubx">
-        
+
             <div class="depth_col">
                 <ul class="depth_list">
                     <li class="tit">뉴스</li>
@@ -795,8 +795,8 @@ $().ready(function() {
     <!--// header -->
     <!--// 200911_수정 -->
 
-    
-    
+
+
 	<!-- Google DFP TC 광고 시작-->
 	<div class="ad_header_view">
 		<div id="google_dfp_TC_728x90,970x90,970x250,fluid">
@@ -818,7 +818,7 @@ $().ready(function() {
 						</li>
 						<li class="lasttime">입력 : 2020.07.07 10:42:42 &nbsp; 수정 : 2020.07.07 12:20:27</li>
                         <!-- 댓글영역 노출공간 -->
-						    
+
                         <li class="reple_out">
                         <a href="#reple"><div class="reple_box_out"><img src="//web.archive.org/web/20220721135650im_/https://img.mk.co.kr/news/2020/ic_reple.png" class="reple_icon_sm" alt="댓글"/> <span id="reply_btn_text"></span></div></a>
                         </li>
@@ -840,8 +840,8 @@ $().ready(function() {
 		</div>
 	</div>
 	<!--// view top -->
-						    
-						    
+
+
 	<!--// sns box -->
 	<div class="sns_mbox" style="display:none;">
 		<div class="sns_left" id="sns_left">
@@ -857,27 +857,27 @@ $().ready(function() {
 		</div>
 	</div>
 	<!--// sns box -->
-						    
-						    
+
+
 	<!-- content -->
 	<div id="Content">
-						    
+
 		<!--  left contets -->
 		<div class="left_content">
 			<div id="article_body" itemprop="articleBody">
-				<div class="art_txt"><!--[[--image0--]]//--> 수도권과 광주, 대전을 중심으로 코로나19 확산세가 지속하는데 더해 해외유입 사례까지 증가하면서 7일 일일 신규 확진자 수는 이틀째 40명대를 기록했다. 
+				<div class="art_txt"><!--[[--image0--]]//--> 수도권과 광주, 대전을 중심으로 코로나19 확산세가 지속하는데 더해 해외유입 사례까지 증가하면서 7일 일일 신규 확진자 수는 이틀째 40명대를 기록했다.
 <br><br>중앙방역대책본부(방대본)는 이날 0시 기준으로 코로나19 신규 확진자가 44명 늘어 누적 1만3181명이라고 밝혔다.
-<br><br>일일 신규 확진자는 전날(48명)에 이어 이틀 연속 40명대를 유지했다. 감염경로를 보면 해외유입이 24명으로, 지역발생 20명보다 더 많다. 
+<br><br>일일 신규 확진자는 전날(48명)에 이어 이틀 연속 40명대를 유지했다. 감염경로를 보면 해외유입이 24명으로, 지역발생 20명보다 더 많다.
 <br><div style="text-align:center; border:0; width:100%; margin:0 auto;"><div id="google_dfp_MC_2x1,fluid" style="float:inherit; padding: 20px 40px 9px 40px;"><script type="text/javascript">googletag.display("google_dfp_MC_2x1,fluid");</script></div></div><br>해외유입 24명 가운데 16명은 검역 과정에서 확인됐다. 3명 중 2명은 공항이나 항만을 통해 입국하는 과정에서 나온 셈이다.
-<br><br>나머지 8명은 입국한 뒤 경기(6명), 대구(1명), 전북(1명) 지역의 거주지나 시설에서 자가격리하던 중 확진됐다. 
+<br><br>나머지 8명은 입국한 뒤 경기(6명), 대구(1명), 전북(1명) 지역의 거주지나 시설에서 자가격리하던 중 확진됐다.
 <br><br>방역당국은 해외에서 유입된 확진자 모두 검역 또는 격리 과정에서 발견되고 있고, 지역사회 전파로 이어진 사례가 없어 위험도는 크지 않은 것으로 보고 있으나 일각에서는 무증상 입국 시 국내 이동 과정에서 지역사회에서 부분적으로라도 노출될 수밖에 없어 해외유입 감염이 코로나19 확산의 뇌관으로도 작용할 수 있다는 우려를 제기하고 있다.
 <br><br>지역발생 신규 확진자 20명을 보면 서울 3명, 경기 7명, 인천 2명 등 수도권이 12명이다. 또 현재 '사회적 거리두기' 2단계가 시행 중인 광주에서는 6명이 새로 확진됐으며 대전에서도 확진자가 2명 나왔다.
-<br><br>지역감염과 해외유입을 합쳐 보면 수도권이 총 18명이다. 또 수도권을 포함해 전국 7개 시·도에서 확진자가 나왔다. 코로나19 사망자는 1명 늘어 총 285명이 됐다. 
-<br><br>방대본은 경기도의료원 수원병원에 입원해 치료를 받던 85세 남성이 전날 숨졌다고 밝혔다. 지난 6월 8일 코로나19 확진 판정을 받은 지 약 한 달 만이다. 
-<div style="padding:15px 15px 15px 0; text-align:left; float:left; margin-right:5px; margin-bottom:15px;"><div id="google_dfp_MC_250x250"><script type="text/javascript">googletag.display("google_dfp_MC_250x250"); </script></div></div><br><br>국내 코로나19 치명률은 2.16%다. 이날 0시까지 격리해제된 환자는 66명 늘어 총 1만1914명이다. 격리 치료중인 확진자는 23명 줄어 982명으로 집계되면서 1000명 아래로 떨어졌다. 
-<br><br>현재까지 코로나19 검사를 받은 사람은 총 134만6194명이다. 이 가운데 130만9338명이 음성 판정을 받았고 나머지 2만3675명은 결과를 기다리고 있다. 
+<br><br>지역감염과 해외유입을 합쳐 보면 수도권이 총 18명이다. 또 수도권을 포함해 전국 7개 시·도에서 확진자가 나왔다. 코로나19 사망자는 1명 늘어 총 285명이 됐다.
+<br><br>방대본은 경기도의료원 수원병원에 입원해 치료를 받던 85세 남성이 전날 숨졌다고 밝혔다. 지난 6월 8일 코로나19 확진 판정을 받은 지 약 한 달 만이다.
+<div style="padding:15px 15px 15px 0; text-align:left; float:left; margin-right:5px; margin-bottom:15px;"><div id="google_dfp_MC_250x250"><script type="text/javascript">googletag.display("google_dfp_MC_250x250"); </script></div></div><br><br>국내 코로나19 치명률은 2.16%다. 이날 0시까지 격리해제된 환자는 66명 늘어 총 1만1914명이다. 격리 치료중인 확진자는 23명 줄어 982명으로 집계되면서 1000명 아래로 떨어졌다.
+<br><br>현재까지 코로나19 검사를 받은 사람은 총 134만6194명이다. 이 가운데 130만9338명이 음성 판정을 받았고 나머지 2만3675명은 결과를 기다리고 있다.
 <br><br>[류영상 기자 ifyouare@mkinternet.com]<br>[ⓒ 매일경제 &amp; mk.co.kr, 무단전재 및 재배포 금지]
-        
+
 					<!--이미지 키우는 스크립트-->
 					<script>window.jQuery || document.write("<script src='//web.archive.org/web/20220721135650/https://common.mk.co.kr/common/include/mklib/jquery.js'>")</script>
 					<script type="text/javascript" src="//web.archive.org/web/20220721135650js_/https://www.mk.co.kr/news/js/zoom.js"></script>
@@ -885,7 +885,7 @@ $().ready(function() {
 			</div><div class="tagbox"><a href="https://web.archive.org/web/20220721135650/https://www.mk.co.kr/news/list_kword.php?kword=%C4%DA%B7%CE%B3%AA19" class="tag" target="_blank" data-category="keyword" data-label="코로나19" ga-evnt-ctg="page:뉴스-기사" ga-evnt-act="section:태그" ga-evnt-idx="코로나19">#코로나19</a><a href="https://web.archive.org/web/20220721135650/https://www.mk.co.kr/news/list_kword.php?kword=%BD%C5%B1%D4+%C8%AE%C1%F8" class="tag" target="_blank" data-category="keyword" data-label="신규 확진" ga-evnt-ctg="page:뉴스-기사" ga-evnt-act="section:태그" ga-evnt-idx="신규 확진">#신규 확진</a></div>
 
 			<!--// art -->
-    
+
 			<div id="bottom_art">
 <div class="t_hotnews">
     <h3><span>오늘의 핫뉴스 <img src="//web.archive.org/web/20220721135650im_/https://img.mk.co.kr/main/2015/mk_new/ic_hot_icon.gif" alt="hot" style="position:absolute; right:0"></span></h3>
@@ -927,7 +927,7 @@ $().ready(function() {
 				    <h3>댓글</h3>
                 </a>
 				<div class="reple"><script type="text/javascript">
-window.livereOptions = { 
+window.livereOptions = {
 refer : 'news.mk.co.kr/newsRead.php?year=2020&no=693939',
 site : 'https://web.archive.org/web/20220721135650/https://www.mk.co.kr/news/society/view/2020/07/693939/'
 };
@@ -1009,12 +1009,12 @@ e.parentNode.insertBefore(j, e);
     var pageReated = function (idx) {
         if(idx > rel_limit) idx = 0;
         else if(idx <0) idx = rel_limit;
-        
+
         rel_idx = idx;
 
         var list_html = '';
         try {
-            for (var i = 0; i < Object.keys(rel_json[idx]).length; i++) {            
+            for (var i = 0; i < Object.keys(rel_json[idx]).length; i++) {
                 list_html += '<li> <a href="' + rel_json[idx][i]['link'] + '" data-category="related" data-label="' + rel_json[idx][i]['year'] + '/' + rel_json[idx][i]['no'] + '" ga-evnt-ctg="page:뉴스-기사"  ga-act-ctg="page:section:관련뉴스"  ga-evnt-idx="' + (i + 1 < 10 ? '0': '') + (i + 1) + '-' + rel_json[idx][i]['year'] + '' + rel_json[idx][i]['no'] + '" >' + rel_json[idx][i]['title'] + '</a></li>';
             }
         } catch(e) {}
@@ -1027,8 +1027,8 @@ e.parentNode.insertBefore(j, e);
         <a href="javascript:void(0);" onclick="pageReated(--rel_idx);" class="btn_prev" ga-evnt-ctg="page:뉴스-기사" ga-act-ctg="page:section:관련뉴스" ga-evnt-idx="pre"><img alt="이전 배너" src="//web.archive.org/web/20220721135650im_/https://img.mk.co.kr/main/201509/btn_bn_prev.gif"></a><a href="javascript:void(0);" onclick="pageReated(++rel_idx);" class="btn_next" ga-evnt-ctg="page:뉴스-기사" ga-act-ctg="page:section:관련뉴스" ga-evnt-idx="next"><img alt="다음 배너" src="//web.archive.org/web/20220721135650im_/https://img.mk.co.kr/main/201509/btn_bn_next.gif"></a>
     </div>
 
-    
-    
+
+
 	<ul class="rel_art">
 		<li>
 			<a href="https://web.archive.org/web/20220721135650/https://www.mk.co.kr/news/economy/view/2022/07/640962/" data-category="related" data-label="2022/640962" ga-evnt-ctg="page:뉴스-기사" ga-evnt-act="section:관련뉴스" ga-evnt-idx="01-2022640962">[단독] 기온 예측도 없이…기후위기 대응하라..</a>
@@ -1065,7 +1065,7 @@ e.parentNode.insertBefore(j, e);
     <div class="many_art_tit">
         <h3>인기뉴스</h3>
 	</div>
-	
+
 	<ul class="tab_bestclick">
 		<li class="on"><a href="#n" ga-evnt-ctg="page:뉴스-기사" ga-evnt-act="section:인기뉴스-종합" ga-evnt-idx="종합탭">종합</a></li>
 		<li><a href="#n" ga-evnt-ctg="page:뉴스-기사" ga-evnt-act="section:인기뉴스-연예" ga-evnt-idx="연예탭">연예</a></li>
@@ -1197,12 +1197,12 @@ dable('renderWidget', 'dablewidget_370KVvox');
 </script>
 </div>
 </div>
-<!-- End 우측_리스트_SNS인기기사 / For inquiries, visit http://dable.io --> 
+<!-- End 우측_리스트_SNS인기기사 / For inquiries, visit http://dable.io -->
 <div class="aside1">
 	<div class="many_art_tit" style="margin-bottom:20px">
 		<h3>포토</h3>
 	</div>
-    
+
 	<iframe id="xy_inc_todayPhoto" width="300" height="224" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" src="//web.archive.org/web/20220721135650if_/https://common.mk.co.kr/common/include/inc_todayPhoto_mk_20210402.php?sc=40100044&amp;mc=ES" title="포토"></iframe>
 </div>
 
@@ -1221,7 +1221,7 @@ dable('renderWidget', 'dablewidget_370KVvox');
         <a href="javascript:void(0);" class="btn_prev"><img alt="이전 배너" src="//web.archive.org/web/20220721135650im_/https://img.mk.co.kr/main/201509/btn_bn_prev.gif"></a>
         <a href="javascript:void(0);" class="btn_next"><img alt="다음 배너" src="//web.archive.org/web/20220721135650im_/https://img.mk.co.kr/main/201509/btn_bn_next.gif"></a>
     </div>
-    
+
 </div>
 <!--// banner -->
 <div id="google_dfp_BR_300x250" class="ad_rightbottom" style="border-top:none"><script type="text/javascript">googletag.display('google_dfp_BR_300x250'); </script></div>
@@ -1236,8 +1236,8 @@ dable('renderWidget', 'dablewidget_370KVvox');
 		</script>
 		<!--// right aside -->
 		</div>
-				    
-			
+
+
 		</div>
 		<!--// content -->
 		<div class="ad_footer" style="padding-top:30px; padding-bottom:0px">
@@ -1247,14 +1247,14 @@ dable('renderWidget', 'dablewidget_370KVvox');
 			</div>
 			</center>
 		</div>
-				    
-				    
+
+
 		<div id="google_dfp_MC_1x1,110x110">
 			<script type="text/javascript">googletag.display('google_dfp_MC_1x1,110x110'); </script>
 		</div><div class="sitemap_menu2">
 	<div class="sitemap_in">
 		<h4 class="hidden">전체 메뉴</h4>
-		
+
 	<div class="ct1">
 		<ul>
 			<li class="tit"><a href="https://web.archive.org/web/20220721135650/https://www.mk.co.kr/news/" ga-evnt-ctg="page:common" ga-evnt-act="section:FNB" ga-evnt-idx="뉴스">뉴스</a></li><li><a href="https://web.archive.org/web/20220721135650/https://www.mk.co.kr/news/economy/" ga-evnt-ctg="page:common" ga-evnt-act="section:FNB" ga-evnt-idx="경제">경제</a></li>
@@ -1387,7 +1387,7 @@ var selectUrlMove=function(frm){
 	}
 }
 </script>
-<div id="footer2_2019"> 
+<div id="footer2_2019">
     <div class="pd10">
 
         <div class="inbox">
@@ -1456,7 +1456,7 @@ function submit_check(){
 	//cm = document.getElementById('mail_form');
 
 	// E-Mail Check
-	var i, alpa, dot, gol,E_Mail_Error=1;	
+	var i, alpa, dot, gol,E_Mail_Error=1;
 
 	if( cm.tomail.value.length < 5 ) {
 		alert('받는 분의 메일 주소를 정확히 입력해 주시기 바랍니다.');
@@ -1471,7 +1471,7 @@ function submit_check(){
 		cm.tomail.focus();
 		return;
 	}
-	
+
 
 	if( cm.frommail.value.length < 5 || CheckEmail( cm.frommail.value ) != true  ) {
 		alert('보내는 분의 메일 주소를 정확히 입력해 주시기 바랍니다.');
@@ -1479,23 +1479,23 @@ function submit_check(){
 		cm.frommail.focus();
 		return;
 	}
-	
+
 	if( cm.subject.value != '' ) {
 		if( str_count( cm.subject.value ) > 80 ) {
 			alert( '제목은 80자까지만 작성이 가능합니다.' );
 			var cut_memo = str_cut( cm.subject.value, 80, '' );
-			cm.subject.value = cut_memo;		
+			cm.subject.value = cut_memo;
 			return;
-		}	
+		}
 	}
 
 	if( cm.send_message.value != '' ) {
 		if( str_count( cm.send_message.value ) > 200 ) {
 			alert( '전할 메시지는 200자까지만 작성이 가능합니다.' );
 			var cut_memo = str_cut( cm.send_message.value, 200, '' );
-			cm.send_message.value = cut_memo;		
+			cm.send_message.value = cut_memo;
 			return;
-		}	
+		}
 	}
 
 	if( cm.fromname.value.length < 2 ) {
@@ -1575,9 +1575,9 @@ function str_cut( str, len, tail ) {
 .sendnews_layer_pop .bt_popup{clear:both; margin:20px 0 0 230px; text-align:center}
 .sendnews_tit h1{position:relative; top:19px; left:20px; float:left;}
 .sendnews_tit h2{position:relative; top:19px; left:30px; float:left;}
-.sendnews_tit .send_mailtit {position:relative; top:19px; left:20px; float:left;} 
+.sendnews_tit .send_mailtit {position:relative; top:19px; left:20px; float:left;}
 </style>
-<!-- layer_메일보내기 --> 
+<!-- layer_메일보내기 -->
 
 
 <div class="sendnews_layer_wrap" style="display:none" id="layerMail">
@@ -1589,7 +1589,7 @@ function str_cut( str, len, tail ) {
 		<input type="hidden" name="cm" value="">
 		<input type="hidden" name="cUserID" value=""/>
 		<input type="hidden" name="linkUrl" value="https://www.mk.co.kr/news/society/view/2020/07/693939/"/>
-		
+
     	<div class="sendnews_tit">
          <div class="send_mailtit"><img src="//web.archive.org/web/20220721135650im_/https://img.mk.co.kr/news/2017/t_mknews_pop.png" alt="mk뉴스"></div>
          <h2><img src="//web.archive.org/web/20220721135650im_/https://img.mk.co.kr/mkde/epaper/t_popup_mail.png" alt="메일보내기"></h2>
@@ -1601,8 +1601,8 @@ function str_cut( str, len, tail ) {
     		<dd><input type="text" id="tomail" name="tomail" value="">
     			<!-- <p style='margin-top:3px'>
     			<span class='important'><img src='//img.mk.co.kr/mkde/epaper/bu_important.gif' alt='필수 입력'></span>
-    			<span class='etc'>받는 사람이 여러 명일 경우, 콤마( , )로 구분해주세요</span> 
-    			</p>--> 
+    			<span class='etc'>받는 사람이 여러 명일 경우, 콤마( , )로 구분해주세요</span>
+    			</p>-->
     		</dd>
     		<dt><label for="subject">제목</label></dt>
     		<dd><input type="text" id="subject" name="subject" value="" maxlength="100"></dd>
@@ -1622,7 +1622,7 @@ function str_cut( str, len, tail ) {
     		<a href="#" onclick="javascript:submit_check();" class="bt_send_mail">메일보내기</a>
     		<a href="#" onclick="javascript:closeMail();" class="bt_cancel_mail">취&nbsp;&nbsp;&nbsp;소</a>
     	</div>
-    	
+
     	</form>
     </div>
 </div>
@@ -1636,7 +1636,7 @@ function str_cut( str, len, tail ) {
 <!-- Cache End : f5d2a50c474fe670430bcbd3f4087aae, Cached : 2022.07.21 22:56:47, Expired : 2022.07.21 22:59:47-->
 <!--
      FILE ARCHIVED ON 13:56:50 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:55:00 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:14:18 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -1644,13 +1644,12 @@ function str_cut( str, len, tail ) {
 -->
 <!--
 playback timings (ms):
-  captures_list: 151.606
-  exclusion.robots: 0.164
-  exclusion.robots.policy: 0.151
-  cdx.remote: 0.067
-  esindex: 0.012
-  LoadShardBlock: 116.399 (3)
-  PetaboxLoader3.datanode: 73.148 (4)
-  load_resource: 324.438
-  PetaboxLoader3.resolve: 278.922
+  exclusion.robots: 0.247
+  exclusion.robots.policy: 0.222
+  cdx.remote: 0.198
+  esindex: 0.016
+  LoadShardBlock: 277.735 (6)
+  PetaboxLoader3.datanode: 220.353 (7)
+  PetaboxLoader3.resolve: 140.541 (2)
+  load_resource: 166.854
 -->

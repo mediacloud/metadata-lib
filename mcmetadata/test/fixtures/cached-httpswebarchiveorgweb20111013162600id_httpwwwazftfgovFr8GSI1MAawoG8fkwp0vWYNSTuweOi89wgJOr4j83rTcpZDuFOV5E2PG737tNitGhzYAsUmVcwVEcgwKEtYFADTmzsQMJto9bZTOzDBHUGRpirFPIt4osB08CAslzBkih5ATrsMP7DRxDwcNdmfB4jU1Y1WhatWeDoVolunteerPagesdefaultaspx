@@ -2,8 +2,8 @@
 
 <html id="ctl00_Html1" __expr-val-dir="ltr" dir="ltr">
 <head id="ctl00_Head1"><meta name="GENERATOR" content="Microsoft SharePoint" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Expires" content="0" /><title>
-	
-	
+
+
 
 </title><link rel="stylesheet" type="text/css" href="/Style%20Library/AZFTF.css"/>
 <link rel="stylesheet" type="text/css" href="/_layouts/1033/styles/HtmlEditorCustomStyles.css?rev=8SKxtNx33FmoDhbbfB27UA%3D%3D"/>
@@ -54,7 +54,7 @@
 
     </script>
     <!--Placeholder for additional overrides-->
-    
+
 	<style type="text/css">
 		.ms-pagetitleareaframe table, .ms-titleareaframe
 		{
@@ -67,7 +67,7 @@
 			display:none;
 		}
 	</style>
-	
+
 
     <script language="javascript" src="/_catalogs/scripts/ftf_scripts.js"></script>
     <script language="javascript" src="/_catalogs/scripts/hpSlider.js"></script>
@@ -87,7 +87,7 @@
             border-left: 1px #d4cba8 none;
             border-right: 1px #d4cba8 none;
         }
-        
+
         td.ms-sbtext
         {
             padding: 3px 0 0 0;
@@ -96,7 +96,7 @@
             font-weight: bold;
             color: #53503d;
         }
-        
+
         .breadcrumb
         {
             font-size: 10px;
@@ -106,7 +106,7 @@
             margin-bottom: 10px;
             text-align: left;
         }
-        
+
         .ms-sbplain
         {
             border: 1px #7f9db9 solid;
@@ -122,7 +122,7 @@
 </style></head>
 <body onload="javascript:_spBodyOnLoadWrapper();">
     <div align="center">
-        
+
         <form name="aspnetForm" method="post" action="/(F(QffFaAtuJkk4KYnVRkHNwD3VvD3jK2jZ3qKdpwTdY2JCxj_UF05AcpXjTj4zGZW4KDFZYdUuMDWjYBNZpKc2KrG_OxRkPJE1GXMTLimvHnQk2V6WmStPDIEygi-3urC0ZttJlSSEfFNL5g7KU0W1uAH4PxI1))/WhatWeDo/Volunteer/Pages/default.aspx" id="aspnetForm">
 <input type="hidden" name="__SPSCEditMenu" id="__SPSCEditMenu" value="true" />
 <input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="" />
@@ -152,7 +152,7 @@ var L_Menu_SiteTheme="";
 </script>
 <script src="/ScriptResource.axd?d=nsdPklBgrGox76QUOGhDY9tAPnWJOkjPERbNo-4xSNLBvFcwHxjCtnyMa1KFXcH27YrObASUNAR6Esl-WLnWJe1V9fvOMprVl0NF_DwqbiqorRc0iYQm7CRTCRq3Fjp-33pH_5AtgXQdwNqWobQ1914ffAU1&amp;t=ffffffffeb4c7cb9" type="text/javascript"></script>
 <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAgLlgrC1BgLw9Z3WC9DNpMGrTcEvDWZ7cvzYOxIxXEcf" />
-        
+
         <table border="0" cellpadding="0" width="953px" cellspacing="0">
             <tr>
                 <td align="right" style="width: 600px">
@@ -160,15 +160,15 @@ var L_Menu_SiteTheme="";
                 </td>
                 <td align="right" style="width: 200px">
                     <!--- --- --- Site Actions Menu --- --- --->
-                    
+
                 </td>
                 <td align="right" style="width: 153px">
-                    
+
 <!-- Begin Action Menu Markup -->
 <table height=100% class="ms-siteaction" cellpadding=0 cellspacing=0>
 	<tr>
 					   <td class="ms-siteactionsmenu" id="siteactiontd">
-					   
+
 					</td>
 	</tr>
 </table>
@@ -179,10 +179,10 @@ var L_Menu_SiteTheme="";
             <tr>
                 <td align="center" colspan="3">
                     <!--- --- --- Page Status Console --- --- --->
-                    
+
 
                     <!--- --- --- Page Edit Toolbar --- --- --->
-                    
+
 <!-- Console -->
 <span id="ctl00_ctl07_publishingContext1"></span>
 
@@ -207,7 +207,7 @@ var L_Menu_SiteTheme="";
                             <img src="/Style%20Library/Images/ftf-logo.png" width="294" height="64" alt="First Things First" border="0" /></a></div>
                     <div id="search">
                         <!--- --- ---  Search --- --- --->
-                        
+
 							<div id="SRSB"> <div id="ctl00_PlaceHolderSearchArea_SearchBox" class="search">
 	<table class="ms-sbtable ms-sbtable-ex" border="0">
 		<tr class="ms-sbrow">
@@ -215,7 +215,7 @@ var L_Menu_SiteTheme="";
 		</tr>
 	</table>
 </div></div>
-                        
+
                         <!--- --- ---  End of Search --- --- --->
                     </div>
                     <div id="az-gov-banner">
@@ -686,8 +686,8 @@ var L_Menu_SiteTheme="";
                         </ul>
                     </div>
                 </div>
-                 <div class="breadcrumb"> 
-	<span id="ctl00_PlaceHolderTitleBreadcrumb_siteMapPath"><span><a title="First Things First" class="ms-sitemapdirectional" href="/(F(QffFaAtuJkk4KYnVRkHNwD3VvD3jK2jZ3qKdpwTdY2JCxj_UF05AcpXjTj4zGZW4KDFZYdUuMDWjYBNZpKc2KrG_OxRkPJE1GXMTLimvHnQk2V6WmStPDIEygi-3urC0ZttJlSSEfFNL5g7KU0W1uAH4PxI1))/Pages/default.aspx">Home</a></span><span> &gt; </span><span><a title="What We Do" class="ms-sitemapdirectional" href="/(F(QffFaAtuJkk4KYnVRkHNwD3VvD3jK2jZ3qKdpwTdY2JCxj_UF05AcpXjTj4zGZW4KDFZYdUuMDWjYBNZpKc2KrG_OxRkPJE1GXMTLimvHnQk2V6WmStPDIEygi-3urC0ZttJlSSEfFNL5g7KU0W1uAH4PxI1))/WHATWEDO/Pages/default.aspx">What We Do</a></span><span> &gt; </span><span class="breadcrumbCurrent">What You Can Do</span></span> </div> 
+                 <div class="breadcrumb">
+	<span id="ctl00_PlaceHolderTitleBreadcrumb_siteMapPath"><span><a title="First Things First" class="ms-sitemapdirectional" href="/(F(QffFaAtuJkk4KYnVRkHNwD3VvD3jK2jZ3qKdpwTdY2JCxj_UF05AcpXjTj4zGZW4KDFZYdUuMDWjYBNZpKc2KrG_OxRkPJE1GXMTLimvHnQk2V6WmStPDIEygi-3urC0ZttJlSSEfFNL5g7KU0W1uAH4PxI1))/Pages/default.aspx">Home</a></span><span> &gt; </span><span><a title="What We Do" class="ms-sitemapdirectional" href="/(F(QffFaAtuJkk4KYnVRkHNwD3VvD3jK2jZ3qKdpwTdY2JCxj_UF05AcpXjTj4zGZW4KDFZYdUuMDWjYBNZpKc2KrG_OxRkPJE1GXMTLimvHnQk2V6WmStPDIEygi-3urC0ZttJlSSEfFNL5g7KU0W1uAH4PxI1))/WHATWEDO/Pages/default.aspx">What We Do</a></span><span> &gt; </span><span class="breadcrumbCurrent">What You Can Do</span></span> </div>
                 <!----------  End primary navigation  ---------->
             </div>
             <!----------  End header  ---------->
@@ -696,7 +696,7 @@ var L_Menu_SiteTheme="";
                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <td align="left" valign="top" width="640px">
-                                
+
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 	<tr>
 		<td id="MSOZoneCell_WebPartWPQ3" vAlign="top"><table TOPLEVEL border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -713,7 +713,7 @@ var L_Menu_SiteTheme="";
 
                             </td>
                             <td align="right" valign="top">
-                                
+
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 	<tr>
 		<td id="MSOZoneCell_WebPartWPQ2" vAlign="top"><table TOPLEVEL border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -731,11 +731,11 @@ var L_Menu_SiteTheme="";
             </div>
             <div class="mainContainer">
                 <div id="content-home">
-                    
-	
-	
-	
-	
+
+
+
+
+
 	<div class="pageContent">
 		<div id="ctl00_PlaceHolderMain_PageContent__ControlWrapper_RichHtmlField" style="display:inline"><table border=0 cellspacing=0 cellpadding=0 width="100%">
 <tbody>
@@ -786,18 +786,18 @@ var L_Menu_SiteTheme="";
 <td valign=top><span style="color:#bd631b;font-size:14px;font-weight:bold">SHARE YOUR STORY</span><br>First Things First wants to <a title="" href="/pages/WebMainPT.aspx?PageId=7D538C9315C846adB234C548CAF5DD9B" target="_blank">hear from you</a>.</td></tr></tbody></table></p></div>
 	</div>
 	<table width="100%" cellpadding="0" cellspacing="0" border="0">
-		
+
 		<tr>
 			<td width="90%" valign="top" colspan="2">
-				
+
 			</td>
 		</tr>
 		<tr>
 			<td width="70%" valign="top" class="padright20">
-				
+
 			</td>
 			<td width="30%" valign="top" class="padLeft20">
-				
+
 			</td>
 		</tr>
 	</table>
@@ -822,9 +822,9 @@ var L_Menu_SiteTheme="";
         </div>
         <!----------  End header  ---------->
         <!--- --- ---  Hidden Placeholders --- --- --->
-        
+
         <!--- --- ---  End of Hidden Placeholders --- --- --->
-        
+
 
 <script type="text/javascript">
 //<![CDATA[
@@ -841,7 +841,7 @@ if(typeof document.body.onload == 'function')
 {
  document.body.onload = function()
  {
-S622C1022__onload();        
+S622C1022__onload();
   document.getElementById('ctl00_PlaceHolderSearchArea_SearchBox_S622C1022_InputKeywords').name = 'InputKeywords';
  }
 }
@@ -849,14 +849,14 @@ else
 {
  document.body.onload = function()
  {
-  eval(S622C1022__onload);        
+  eval(S622C1022__onload);
   document.getElementById('ctl00_PlaceHolderSearchArea_SearchBox_S622C1022_InputKeywords').name = 'InputKeywords';
  }
 }
 
-function S622C1022_OSBEK(event1) { 
+function S622C1022_OSBEK(event1) {
 if((event1.which == 10) || (event1.which == 13))
-{   
+{
 S622C1022_Submit();
 }
 }

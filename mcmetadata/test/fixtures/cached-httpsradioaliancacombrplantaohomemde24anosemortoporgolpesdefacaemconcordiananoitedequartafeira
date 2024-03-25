@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
-  <meta name="csrf-token" content="wm9AnAr6KhGGKUI3hV04zvw1WZa20v4v0ZzDupjU">
+  <meta name="csrf-token" content="CPgYiJGKvuS8NHF23POwuRsPCO8JpX1tPD3X1PGx">
   <!-- Tell the browser to be responsive to screen width -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#ed3338">
@@ -15,26 +15,25 @@
   <meta name="google-site-verification" content="7bfFKUFpGd0AYMmy27uxVItGaML6AeGzaWyJQG0QbOs" />
   <meta property="fb:admins" content="100001115401800" />
   <meta property="fb:admins" content="100000014892397" />
-  
+
       <base href="https://radioalianca.com.br/">
     <link rel="alternate" type="application/rss+xml" title="Feed RSS para radioalianca.com.br" href="https://radioalianca.com.br/rss" />
-      <title>Homem de 24 anos é morto por golpes de faca em Concórdia na noite de quarta-feira | Rádio Aliança FM 101,7</title>
-          <link rel="amphtml" href="https://radioalianca.com.br/amp/plantao/homem-de-24-anos-e-morto-por-golpes-de-faca-em-concordia-na-noite-de-quarta-feira">
-        <meta property="twitter:card" content="summary" />
+      <title>Rádio Aliança FM 101,7</title>
+    <meta property="twitter:card" content="summary" />
     <meta property="twitter:site" content="@radioaliancafm" />
-    <meta property="twitter:title" content="Homem de 24 anos é morto por golpes de faca em Concórdia na noite de quarta-feira" />
-    <meta property="twitter:description" content="Segundo crime de homicídio ocorreu na frente de uma residência, no Imperial" />
-    <meta property="twitter:image" content="https://radioalianca.com.br/cms/storage/news/20230112062112_1.jpg" />
-    <meta property="twitter:url" content="https://radioalianca.com.br/plantao/homem-de-24-anos-e-morto-por-golpes-de-faca-em-concordia-na-noite-de-quarta-feira" />
-    <meta property="og:image" content="https://radioalianca.com.br/cms/storage/news/20230112062112_1.jpg" />
-    <meta property="og:image:alt" content="Homem de 24 anos é morto por golpes de faca em Concórdia na noite de quarta-feira" />
-    <meta property="og:title" content="Homem de 24 anos é morto por golpes de faca em Concórdia na noite de quarta-feira" />
-    <meta property="og:description" content="Segundo crime de homicídio ocorreu na frente de uma residência, no Imperial" />
+    <meta property="twitter:title" content="Rádio Aliança FM 101,7" />
+    <meta property="twitter:description" content="A Rádio Aliança FM 101,7 consolidou-se trazendo informações sobre concórdia e região nas mais diversas matérias, desde cultura até política, passando por emprego, edução e ciência." />
+    <meta property="twitter:image" content="https://radioalianca.com.br/img/logo_seo.png" />
+    <meta property="twitter:url" content="https://radioalianca.com.br/" />
+    <meta property="og:image" content="https://radioalianca.com.br/img/logo_seo.png" />
+    <meta property="og:image:alt" content="Rádio Aliança FM 101,7" />
+    <meta property="og:title" content="Rádio Aliança FM 101,7" />
+    <meta property="og:description" content="A Rádio Aliança FM 101,7 consolidou-se trazendo informações sobre concórdia e região nas mais diversas matérias, desde cultura até política, passando por emprego, edução e ciência." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://radioalianca.com.br/plantao/homem-de-24-anos-e-morto-por-golpes-de-faca-em-concordia-na-noite-de-quarta-feira">
+    <meta property="og:url" content="https://radioalianca.com.br/">
     <meta property="og:site_name" content="Rádio Aliança FM 101,7" />
     <meta name="keywords" content="notícias, jornalismo, rádio, rádio AM, aliança, concórdia, região" />
-    <meta name="description" content="Segundo crime de homicídio ocorreu na frente de uma residência, no Imperial" />
+    <meta name="description" content="A Rádio Aliança FM 101,7 consolidou-se trazendo informações sobre concórdia e região nas mais diversas matérias, desde cultura até política, passando por emprego, edução e ciência. Clique e saiba mais." />
     <meta name="turbolinks-cache-control" content="no-cache">
   <!-- Styles -->
   <link href="/css/style.css?id=90e469e731bd3b7b3cf3" rel="stylesheet" media="all">
@@ -170,6 +169,11 @@
                                             <li class="">
                         <a href="/regiao">
                           Região
+                        </a>
+                      </li>
+                                            <li class="">
+                        <a href="/eleicoes-2024">
+                          Eleições 2024
                         </a>
                       </li>
                                             <li class="">
@@ -344,6 +348,11 @@
                 </a>
               </li>
                           <li>
+                <a href="eleicoes-2024">
+                  Eleições 2024
+                </a>
+              </li>
+                          <li>
                 <a href="concordia">
                   Concórdia
                 </a>
@@ -426,13 +435,13 @@
   </div>
 </div>
 <div>
-  <div class="home_main_section ui-container-top">
+    <div class="home_main_section ui-container-top">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
-                                                          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-item">
+                                            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-item">
                   <a itemprop="item" href="https://radioalianca.com.br">
                     <span itemprop="name">
                       Página inicial
@@ -440,356 +449,42 @@
                   </a>
                   <meta itemprop="position" content="1" />
                 </li>
-                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-item">
-                  <a itemprop="item" href="https://radioalianca.com.br/plantao">
-                    <span itemprop="name">
-                      Plantão
-                    </span>
-                  </a>
-                  <meta itemprop="position" content="2" />
-                </li>
                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-item active" aria-current="page">
                   <span itemprop="name">
-                    Homem de 24 anos é morto por golpes de faca em Concórdia na noite de quarta-feira
+                    Página não encontrada
                   </span>
-                  <meta itemprop="position" content="3" />
+                  <meta itemprop="position" content="2" />
                 </li>
-                          </ol>
+                                        </ol>
           </nav>
         </div>
       </div>
     </div>
   </div>
-
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "NewsArticle",
-    "mainEntityOfPage": {"@type": "WebPage","@id": "https://radioalianca.com.br/plantao/homem-de-24-anos-e-morto-por-golpes-de-faca-em-concordia-na-noite-de-quarta-feira"},
-    "headline": "Homem de 24 anos é morto por golpes de faca em Concórdia na noite de quarta-feira",
-    "datePublished": 2023-01-12T06:18:10-03:00,
-    "dateModified": 2023-01-17T23:50:30-03:00,
-    "description": "Segundo crime de homicídio ocorreu na frente de uma residência, no Imperial",
-    "author": {
-      "@type": "Person",
-      "name": "Jocimar Soares"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Rádio Aliança 750khz",
-      "logo": {
-        "@type": "ImageObject",
-        "url": https://radioalianca.com.br/img/logo_topo.png,
-        "width": 251,
-        "height": 63
-      }
-    },
-    "image": {
-      "@type": "ImageObject",
-      "url": https://radioalianca.com.br/cms/storage/news/20230112062112_1.jpg
-      "height": 1200,
-      "width": 900
-    }
-  }
-</script>
-
-<div class="top_intern ui-container-top d-print-none">
-  <div class="container">
-    <div>
-      <!-- Div vazia pois o vue está removendo tudo o que existe dentro do elemento em que ele está -->
-                                    </div>
-    <div class="top_intern__box ui-bg-news" style="background-color: #ff0000">
-      <div class="row h-100 align-items-center justify-content-between">
-        <div class="col-md-8 col-12">
-          <div class="top_intern__title">
-            <div class="row align-items-center">
-              <h2 class="ui-title ui-title--white mb-0">
-                Plantão
-              </h2>
-              <!-- <div class="top_intern__filtro d-none d-md-block">
-                    Filtre por categoria <img class="img" src="/img/icon-menu-white.png" alt="Submenu">
-                    <div class="top_intern__filtro__itens">
-                      <div class="box_itens">
-                        <ul class="row">
-                                                    <li class="col-md-6 col-12">
-                            <a href="">
-                              Geral
-                            </a>
-                          </li>
-                                                    <li class="col-md-6 col-12">
-                            <a href="">
-                              Geral
-                            </a>
-                          </li>
-                                                    <li class="col-md-6 col-12">
-                            <a href="">
-                              Geral
-                            </a>
-                          </li>
-                                                    <li class="col-md-6 col-12">
-                            <a href="">
-                              Geral
-                            </a>
-                          </li>
-                                                    <li class="col-md-6 col-12">
-                            <a href="">
-                              Geral
-                            </a>
-                          </li>
-                                                    <li class="col-md-6 col-12">
-                            <a href="">
-                              Geral
-                            </a>
-                          </li>
-                                                    <li class="col-md-6 col-12">
-                            <a href="">
-                              Geral
-                            </a>
-                          </li>
-                                                  </ul>
-                      </div>
-                    </div>
-                  </div> -->
+    <div class="news_intern ui-container">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8 col-lg-9 col-12">
+            <div class="news_intern__title">
+              <h1 class="ui-title-intern ui-color-news text-center">Oops. Parece que a página que você está tentando acessar não existe :(</h1>
+            </div>
+            <div class="news_intern__lead leadfont ui-container-bottom text-center">
+              <p>Clique no botão abaixo para ser redirecionado para a página inicial do site.</p>
             </div>
           </div>
         </div>
-        <!-- <div class="col-xl-3 col-lg-4 col-md-4 col-12">
-              <div class="top_intern__search">
-                <form action="/busca" method="GET">
-                  <input aria-label="Busca" type="search" placeholder="Buscar" class="ui-input" required minlength="3" name="search">
-                  <button type="submit">
-                    <img src="/img/icon-search-white.png" alt="Buscar">
-                  </button>
-                </form>
-              </div>
-            </div> -->
-      </div>
-    </div>
-  </div>
-</div>
-<div class="news_intern ui-container d-print-none">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-xl-8 col-lg-9 col-12">
-        <div class="news_intern__info">
-          <div class="row">
-            <span class="date">
-              12 jan 23 |  5h27
-            </span>
-                        <span class="author">
-              Por <b>Jocimar Soares</b>
-            </span>
-                      </div>
-        </div>
-        <div class="news_intern__title">
-          <h1 class="ui-title-intern ui-color-news" style="color: #ff0000">Homem de 24 anos é morto por golpes de faca em Concórdia na noite de quarta-feira</h1>
-        </div>
-                <div class="news_intern__lead leadfont ui-container-bottom">
-          <p>Segundo crime de homicídio ocorreu na frente de uma residência, no Imperial</p>
-        </div>
-                <div class="news_intern__image ui-container">
-          <div class="image">
-            <div class="seo">
-              <img src="https://radioalianca.com.br/cms/storage/news/20230112062112_1.jpg" alt="Homem de 24 anos é morto por golpes de faca em Concórdia na noite de quarta-feira" title="Homem de 24 anos é morto por golpes de faca em Concórdia na noite de quarta-feira">
-            </div>
-                        <the-news-image :extras="[]" :imagem="&quot;https:\/\/radioalianca.com.br\/cms\/storage\/news\/20230112062112_1.jpg&quot;" :nome="&quot;V\u00edtima apresentava de seis a sete perfura\u00e7\u00f5es por arma branca.\/Foto: Divulga\u00e7\u00e3o\/Bombeiros&quot;"></the-news-image>
-                      </div>
-        </div>
-                <div class="news_intern__options">
-          <div class="row align-items-center justify-content-center justify-content-md-start">
-            <span class="share">
-              <!-- PASSAR PARÂMETRO URL E SLUG DA NOTÍCIA EM COMPONENTE -->
-              <the-share url="https://radioalianca.com.br/plantao/homem-de-24-anos-e-morto-por-golpes-de-faca-em-concordia-na-noite-de-quarta-feira"></the-share>
-            </span>
-            <span class="letters">
-              <button class="first" onclick="fonte('a')">
-                <img src="/img/icon-letter-more.png" alt="Zoom" title="Aumentar fonte">
+        <div class="row justify-content-center">
+          <div class="col-xl-4 col-lg-5 col-12">
+            <a href="/">
+              <button class="ui-button ui-button--logo ui-button--full">
+                Retornar para a Página inicial :)
               </button>
-              <button onclick="fonte('d')">
-                <img src="/img/icon-letter-less.png" alt="Zoom" title="Diminuir fonte">
-              </button>
-            </span>
-            <span class="print d-none d-md-block" onclick="window.print();return false;">
-              <img src="/img/icon-print.png" alt="Imprimir" title="Imprimir">
-            </span>
+            </a>
           </div>
         </div>
-        <div class="news_intern_text">
-          <div class="ui-description"><p>A noite da quarta-feira, dia 11, foi marcada pelo segundo crime de homicídio em Concórdia, no ano de 2023. O fato aconteceu na rua Gilson Gilmar Ghidorsi, ligação entre os bairros Imperial e Nações. A vítima, de 24 anos foi morta por golpes de faca e o suspeito foi preso momentos depois.</p><p><br></p><p>Conforme informações apuradas pela reportagem da Rádio Aliança, a vítima, identificada como Bruno Romão dos Santos, de 24 anos, foi agredida quando retornava para casa, por volta das 21h, e a emboscada pode ter ocorrido em um carreiro, que serve para pessoas a pé cortarem caminho. Ele trabalhava em uma empresa no centro. O agressor poderia estar escondido em um matagal e surpreendido a vítima. Conforme testemunhas, Bruno chegou a fugir das agressões, mas foi perseguido, gritou por socorro e caiu na frente de uma residência na rua Gilson Gilmar Ghidorsi, já no bairro Imperial.</p><p><br></p><p>O Corpo de Bombeiros Voluntários de Concórdia chegou a ser acionado, mas encontrou o homem já em óbito no local. A estimativa é que foram de seis a sete golpes de faca que atingiram o homem no peito e abdômen.</p><p><br></p><p>De acordo com relatos, a vítima, que é natural de outro estado, estava indo para casa da atual namorada, que mora nas proximidades. O suspeito do crime é o ex-companheiro da mulher, que foi preso nas imediações da BRF, momentos depois. Os dois estavam separados há poucos meses Tão logo, a Polícia Militar foi acionada para o fato, iniciou-se as buscas e o setor de inteligência da PM visualizou o suspeito em frente a um bar e fez a abordagem. Ele foi conduzido à Central de Polícia Civil.</p><p><br></p><p>Este é o segundo caso de homicídio registrado nesse ano em Concórdia. Conforme já informado pela Aliança FM, o primeiro aconteceu na noite do último dia 4, no bairro Nova Brasília, em Concórdia, onde um homem de 22 anos foi morto pela própria companheira com mais de 30 golpes de faca. Tem ainda mais um caso de tentativa de homicídio, ocorrida no Industriários, na noite do domingo, dia 8. Neste fato, o homem de 36 anos foi atingido por golpe de arma branca no pescoço. Ele está internado Hospital São Francisco.</p><p><br></p><p><br></p><p><br></p></div>
-        </div>
-                <div class="news_intern__gallery">
-          <the-gallery :images="[]" :imagem="&quot;https:\/\/radioalianca.com.br\/cms\/storage\/news\/20230112062112_1.jpg&quot;" :nome="&quot;V\u00edtima apresentava de seis a sete perfura\u00e7\u00f5es por arma branca.\/Foto: Divulga\u00e7\u00e3o\/Bombeiros&quot;"></the-gallery>
-        </div>
-
-        
-        <div class="news_intern__comments ui-container-top">
-          <the-news-comments link="https://radioalianca.com.br/plantao/homem-de-24-anos-e-morto-por-golpes-de-faca-em-concordia-na-noite-de-quarta-feira" />
-        </div>
       </div>
-            <div class="col-12">
-        <div class="news_intern__rel ui-container-top" style="">
-          <h4>
-                        Notícias Relacionadas
-                      </h4>
-                    <div class="news_intern__list">
-            <ul class="row">
-                                                           <li class="col-md-6 col-12">
-                <div class="ui-horizontal-box border_bottom_news">
-                  <a href="https://radioalianca.com.br/plantao/pm-prende-homem-por-trafico-de-drogas-em-concordia-1-2-3">
-                    <div class="row">
-                      <div class="col-lg-6 col-12">
-                        <div class="image" style="background-image: url(https://radioalianca.com.br/cms/storage/news/20231218123617_prisao.jpg);">
-                        </div>
-                      </div>
-                      <div class="col-lg-6 col-12">
-                        <div class="image-top">
-                          <div class="row justify-content-between align-items-center">
-                            <div class="category ui-bg-news" style="background-color: #ff0000">
-                              Plantão
-                            </div>
-                            <div class="date">
-                              18 dez | 12h14
-                            </div>
-                            <div class="icon">
-                                                                                        </div>
-                          </div>
-                        </div>
-                        <div class="box home_box">
-                          <div class="title ui-color-news" style="color: #ff0000">
-                            <h2 style="color: #ff0000">
-                              PM prende homem por tráfico de drogas em Concórdia</h2>
-                          </div>
-                                                    <div class="lead">
-                            <p>Caso aconteceu nesta domingo, na rua Marcelino Ramos.</p>
-                          </div>
-                                                  </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                </li>
-                                               <li class="col-md-6 col-12">
-                <div class="ui-horizontal-box border_bottom_news">
-                  <a href="https://radioalianca.com.br/plantao/motorista-morre-em-acidente-entre-caminhonete-e-onibus-no-oeste">
-                    <div class="row">
-                      <div class="col-lg-6 col-12">
-                        <div class="image" style="background-image: url(https://radioalianca.com.br/cms/storage/news/20231216091751_transito-motorista-morre-em-acidente-entre-caminhonete-e-onibus-em-xanxere-1-912.jpg);">
-                        </div>
-                      </div>
-                      <div class="col-lg-6 col-12">
-                        <div class="image-top">
-                          <div class="row justify-content-between align-items-center">
-                            <div class="category ui-bg-news" style="background-color: #ff0000">
-                              Plantão
-                            </div>
-                            <div class="date">
-                              16 dez |  9h16
-                            </div>
-                            <div class="icon">
-                                                                                        </div>
-                          </div>
-                        </div>
-                        <div class="box home_box">
-                          <div class="title ui-color-news" style="color: #ff0000">
-                            <h2 style="color: #ff0000">
-                              Motorista morre em acidente entre caminhonete e ônibus no Oeste</h2>
-                          </div>
-                                                    <div class="lead">
-                            <p>Jovem de 25 anos ficou preso nas ferragens após colisão no início da manhã deste sábado.</p>
-                          </div>
-                                                  </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                </li>
-                                                                                                                                                                                                                                                                                                        <li class="col-md-3 col-12">
-                  <a href="https://radioalianca.com.br/plantao/trabalhador-perde-a-vida-durante-trabalho-de-corte-de-arvore-no-interior-de-concordia">
-                    <div class="ui-smalling-box">
-                      <div class="date">
-                        14 dez | 16h53
-                      </div>
-                      <div class="title ui-color-news" style="color: #ff0000">
-                        <h2 style="color: #ff0000">
-                          Trabalhador perde a vida durante trabalho de corte de árvore no interior de Concórdia</h2>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                                                                <li class="col-md-3 col-12">
-                  <a href="https://radioalianca.com.br/plantao/onibus-com-43-passageiros-capota-e-deixa-varios-feridos">
-                    <div class="ui-smalling-box">
-                      <div class="date">
-                        07 dez | 15h03
-                      </div>
-                      <div class="title ui-color-news" style="color: #ff0000">
-                        <h2 style="color: #ff0000">
-                          Ônibus com 43 passageiros capota e deixa vários feridos</h2>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                                                                <li class="col-md-3 col-12">
-                  <a href="https://radioalianca.com.br/plantao/chuva-ja-causa-transtornos-em-seara-e-regiao">
-                    <div class="ui-smalling-box">
-                      <div class="date">
-                        07 dez | 14h14
-                      </div>
-                      <div class="title ui-color-news" style="color: #ff0000">
-                        <h2 style="color: #ff0000">
-                          Chuva já causa transtornos em Seara e região</h2>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                                                                <li class="col-md-3 col-12">
-                  <a href="https://radioalianca.com.br/plantao/cabo-do-corpo-de-bombeiros-da-detalhes-da-ocorrencia-de-afogamento-no-interior-de-capinzal">
-                    <div class="ui-smalling-box">
-                      <div class="date">
-                        03 dez | 20h00
-                      </div>
-                      <div class="title ui-color-news" style="color: #ff0000">
-                        <h2 style="color: #ff0000">
-                          Cabo do Corpo de Bombeiros dá detalhes da ocorrência de afogamento no interior de Capinzal</h2>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                                            </ul>
-          </div>
-                  </div>
-      </div>
-            <div class="col-12">
-                                              </div>
     </div>
   </div>
-</div>
-
-<div class="d-none d-print-block">
-  <div class="news_intern__info">
-    <div class="row">
-      <span class="date">
-        12 jan 23 |  5h27
-      </span>
-      <span class="author">
-        Por <b>Jocimar Soares</b>
-      </span>
-    </div>
-  </div>
-  <div class="news_intern__title">
-    <h1 class="ui-title-intern ui-color-news" style="color: #ff0000">Homem de 24 anos é morto por golpes de faca em Concórdia na noite de quarta-feira</h1>
-  </div>
-    <div class="news_intern__lead leadfont ui-container-bottom">
-    <p>Segundo crime de homicídio ocorreu na frente de uma residência, no Imperial</p>
-  </div>
-    <div class="news_intern__image ui-container">
-    <div class="image">
-      <img src="https://radioalianca.com.br/cms/storage/news/20230112062112_1.jpg" alt="Homem de 24 anos é morto por golpes de faca em Concórdia na noite de quarta-feira" title="Homem de 24 anos é morto por golpes de faca em Concórdia na noite de quarta-feira">
-    </div>
-  </div>
-  <p>A noite da quarta-feira, dia 11, foi marcada pelo segundo crime de homicídio em Concórdia, no ano de 2023. O fato aconteceu na rua Gilson Gilmar Ghidorsi, ligação entre os bairros Imperial e Nações. A vítima, de 24 anos foi morta por golpes de faca e o suspeito foi preso momentos depois.</p><p><br></p><p>Conforme informações apuradas pela reportagem da Rádio Aliança, a vítima, identificada como Bruno Romão dos Santos, de 24 anos, foi agredida quando retornava para casa, por volta das 21h, e a emboscada pode ter ocorrido em um carreiro, que serve para pessoas a pé cortarem caminho. Ele trabalhava em uma empresa no centro. O agressor poderia estar escondido em um matagal e surpreendido a vítima. Conforme testemunhas, Bruno chegou a fugir das agressões, mas foi perseguido, gritou por socorro e caiu na frente de uma residência na rua Gilson Gilmar Ghidorsi, já no bairro Imperial.</p><p><br></p><p>O Corpo de Bombeiros Voluntários de Concórdia chegou a ser acionado, mas encontrou o homem já em óbito no local. A estimativa é que foram de seis a sete golpes de faca que atingiram o homem no peito e abdômen.</p><p><br></p><p>De acordo com relatos, a vítima, que é natural de outro estado, estava indo para casa da atual namorada, que mora nas proximidades. O suspeito do crime é o ex-companheiro da mulher, que foi preso nas imediações da BRF, momentos depois. Os dois estavam separados há poucos meses Tão logo, a Polícia Militar foi acionada para o fato, iniciou-se as buscas e o setor de inteligência da PM visualizou o suspeito em frente a um bar e fez a abordagem. Ele foi conduzido à Central de Polícia Civil.</p><p><br></p><p>Este é o segundo caso de homicídio registrado nesse ano em Concórdia. Conforme já informado pela Aliança FM, o primeiro aconteceu na noite do último dia 4, no bairro Nova Brasília, em Concórdia, onde um homem de 22 anos foi morto pela própria companheira com mais de 30 golpes de faca. Tem ainda mais um caso de tentativa de homicídio, ocorrida no Industriários, na noite do domingo, dia 8. Neste fato, o homem de 36 anos foi atingido por golpe de arma branca no pescoço. Ele está internado Hospital São Francisco.</p><p><br></p><p><br></p><p><br></p>
-</div>
-</div>
 <footer>
   <div class="footer__map ui-container">
     <div class="container">
@@ -872,6 +567,11 @@
                                         <li>
                       <a href="/regiao">
                         Região
+                      </a>
+                    </li>
+                                        <li>
+                      <a href="/eleicoes-2024">
+                        Eleições 2024
                       </a>
                     </li>
                                         <li>
@@ -1017,7 +717,7 @@
     </div>
   </div>
 </footer>
-<the-player :programming="{&quot;id&quot;:81,&quot;name&quot;:&quot;Misturad\u00e3o 101&quot;,&quot;lead&quot;:&quot;Um programa que mistura o alto astral e informa\u00e7\u00f5es, al\u00e9m de m\u00fasica sertaneja, ga\u00fachas, de bandas&quot;,&quot;image&quot;:&quot;https:\/\/radioalianca.com.br\/cms\/storage\/programmings\/20230505155107_Misturad__o_101.jpg&quot;,&quot;date&quot;:&quot;wednesday&quot;,&quot;start_at&quot;:&quot;12:00&quot;,&quot;end_at&quot;:&quot;13:55&quot;,&quot;speaker&quot;:&quot;Jaderson Miguel&quot;,&quot;start_time&quot;:&quot;12h00&quot;,&quot;end_time&quot;:&quot;13h55&quot;}" :contact="{&quot;id&quot;:1,&quot;phone&quot;:&quot;(49) 3441-2801&quot;,&quot;whatsapp&quot;:&quot;(49) 98803-2032&quot;,&quot;facebook&quot;:&quot;https:\/\/www.facebook.com\/radioaliancaconcordia&quot;,&quot;instagram&quot;:&quot;https:\/\/www.instagram.com\/radioalianca_&quot;,&quot;email&quot;:&quot;contato@radioalianca.com.br&quot;,&quot;phoneFormated&quot;:&quot;4934412801&quot;,&quot;whatsappFormated&quot;:&quot;49988032032&quot;}"></the-player>
+<the-player :programming="{&quot;id&quot;:46,&quot;name&quot;:&quot;Misturad\u00e3o 101&quot;,&quot;lead&quot;:&quot;Notici\u00e1rio com os destaques locais e regionais&quot;,&quot;image&quot;:&quot;https:\/\/radioalianca.com.br\/cms\/storage\/programmings\/20230505103526_Misturad__o_101.jpg&quot;,&quot;date&quot;:&quot;monday&quot;,&quot;start_at&quot;:&quot;12:00&quot;,&quot;end_at&quot;:&quot;13:55&quot;,&quot;speaker&quot;:&quot;Diane Villasboas&quot;,&quot;start_time&quot;:&quot;12h00&quot;,&quot;end_time&quot;:&quot;13h55&quot;}" :contact="{&quot;id&quot;:1,&quot;phone&quot;:&quot;(49) 3441-2801&quot;,&quot;whatsapp&quot;:&quot;(49) 98803-2032&quot;,&quot;facebook&quot;:&quot;https:\/\/www.facebook.com\/radioaliancaconcordia&quot;,&quot;instagram&quot;:&quot;https:\/\/www.instagram.com\/radioalianca_&quot;,&quot;email&quot;:&quot;contato@radioalianca.com.br&quot;,&quot;phoneFormated&quot;:&quot;4934412801&quot;,&quot;whatsappFormated&quot;:&quot;49988032032&quot;}"></the-player>
   </div>
   <script async src="/js/script.min.js?id=8c981ee76ab710e2a38g" data-turbolinks-suppress-warning></script>
 </body>

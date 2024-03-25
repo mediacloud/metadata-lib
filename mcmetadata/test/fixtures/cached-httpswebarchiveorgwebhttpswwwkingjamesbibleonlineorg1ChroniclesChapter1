@@ -3,7 +3,7 @@
 <head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("https://www.kingjamesbibleonline.org/1-Chronicles-Chapter-1/","20230511173145","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -37,7 +37,7 @@ function increaseFontSize(id, increaseFactor){
      style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
      currentSize = parseFloat(style);
 	 var newSize = currentSize + increaseFactor;
-	
+
 	 if (newSize < 8) {
 	  newSize = 8;
 	}
@@ -45,9 +45,9 @@ function increaseFontSize(id, increaseFactor){
 	  newSize = 100;
 	}
      txt.style.fontSize = newSize + 'px';
-	 
+
     var xmlhttp=new XMLHttpRequest();
-	
+
 		xmlhttp.open("GET", "/fontsizeajax.php?7945&fontsize="+newSize,true);
 		xmlhttp.send();
 }
@@ -72,14 +72,14 @@ body {
 
 .audiop {width: 100%;max-height: 20px;}
 .audiomodal {
-  display: none; 
-  position: fixed; 
-  z-index: 899; 
+  display: none;
+  position: fixed;
+  z-index: 899;
   overflow: none;
   bottom: 0;
   width: 100%;
-  height: 45px; 
-  -webkit-animation-name: fadeIn; 
+  height: 45px;
+  -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 0.4s;
   animation-name: fadeIn;
   animation-duration: 0.4s;
@@ -107,7 +107,7 @@ body {
 
 /* Add Animation */
 @-webkit-keyframes slideIn {
-  from {bottom: -300px; opacity: 0} 
+  from {bottom: -300px; opacity: 0}
   to {bottom: 0; opacity: 1}
 }
 @keyframes slideIn {
@@ -115,11 +115,11 @@ body {
   to {bottom: 0; opacity: 1}
 }
 @-webkit-keyframes fadeIn {
-  from {opacity: 0} 
+  from {opacity: 0}
   to {opacity: 1}
 }
 @keyframes fadeIn {
-  from {opacity: 0} 
+  from {opacity: 0}
   to {opacity: 1}
 }
 
@@ -334,7 +334,7 @@ var maxchapters = {
         	getVerses(this.value);
         });
     }
-    
+
     triggerChange(books);
 
     function getVerses() {
@@ -378,7 +378,7 @@ var maxchapters = {
     }
 
 
-	
+
 </script>
 
 <section>
@@ -614,7 +614,7 @@ function showtoggle(id) {
   showelement.classList.toggle("w3-show");
 }
 
-function hidetoggle(id) { 
+function hidetoggle(id) {
   var hideelement = document.getElementById(id);
   hideelement.classList.toggle("w3-hide");
 }
@@ -624,7 +624,7 @@ function hidetoggle(id) {
  function getVote(int) {
  if (window.XMLHttpRequest) {
  xmlhttp = new XMLHttpRequest();
- } else { 
+ } else {
  xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
  }
  xmlhttp.onreadystatechange = function() {
@@ -635,11 +635,11 @@ function hidetoggle(id) {
  xmlhttp.open("GET", "/ajaxreadingcheckbox.php?7945&vote=" + int, true);
  xmlhttp.send();
  }
- 
- 
+
+
 
  </script>
-<div class="push"></div> <div class="adsense center"> <script async src="https://web.archive.org/web/20230511173145js_/https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3004108712154911" crossorigin="anonymous"></script>  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3004108712154911" data-ad-slot="5299549845" data-ad-format="horizontal" data-full-width-responsive="true"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div> <div class="push"></div> <footer> <div class="footer_up"> <div class="main"> <div class="footer_logo"></div> <div class="footer_left"> <div class="menus"> <div class="title cinzel">KJV Bible</div> <ul> <li><strong><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/index.php" title="KJV Standard">KJV Standard</a></strong></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/1611-Bible/" title="KJV 1611 A.D.">KJV 1611</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/1769-King-James-Bible-Introduction/" title="KJV Introduction">KJV Introduction</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Apocrypha-Books/" title="KJV Apocrypha">KJV Apocrypha</a></li> <li><a href="https://web.archive.org/web/20230511173145/https://m.kingjamesbibleonline.org/" title="KJV Mobile Site">KJV Mobile Site</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/King-James-Bible-Store/" title="KJV Store">KJV Store</a></li> </ul> </div> <div class="menus"> <div class="title cinzel">Study Tools</div> <ul> <li><strong><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Bible-Trivia-Questions/" title="Bible Trivia Questions">Bible Trivia Questions</a></strong></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/verse-of-day.php" title="Verse of the Day">Verse of the Day</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Inspirational-Images/" title="Inspirational Images">Inspirational Images</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Popular-Bible-Verses.php" title="Popular Bible Verses">Popular Bible Verses</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Bible-Verses/" title="Bible Verses by Topic">Bible Verses by Topic</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/bible-stories/" title="Bible Stories">Bible Stories</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Bible-in-Year.php" title="Bible in a Year Reading">Bible in a Year Reading</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/bible-commentaries/" title="Bible Commentaries">Bible Commentaries</a></li> </ul> </div> </div> <div class="footer_right"> <div class="menus"> <div class="title cinzel">Community</div> <ul> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Bible-Questions/" title="Bible Questions">Ask a Bible Question</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Bible-Discussion/" title="Bible Discussion">Bible Discussion</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Share-Testimony/" title="Christian Testimonies">Christian Testimonies</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Add-Bible-to-Your-Website.php">Add KJV to your Website</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Donate.php" title="Donate or Volunteer">Donate or Volunteer</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/become-a-christian.php" title="How to Become a Christian">Become a Christian</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Prayer-Requests/" title="Prayer Requests">Prayer Requests</a></li> </ul> </div> <div class="menus right padd-rt"> <div class="title cinzel" title="">About</div> <ul> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/King-James-Version/" title="About the King James Version">About KJV</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/King-James-Bible-English/" title="About KJV English">About KJV English</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/About.php" title="About this King James Bible Online Website">About Website</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/FAQ.php" title="FAQ (Frequently Asked Questions)">FAQ</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Sitemap.php" title="Sitemap">Sitemap</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Contact_Us.php" title="Contact Us">Contact Us</a></li> </ul> </div> <div class="clr"></div> </div> <div class="clr"></div> </div> </div> <div class="footer_low"> <div class="main"> <div class="right"> <div><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Privacy-Policy.php" title="Privacy Policy">Privacy Policy</a></div> <ul> <li><a target="_blank" rel="noopener" href="https://web.archive.org/web/20230511173145/https://www.facebook.com/KingJamesBibleOnline" title="King James Bible on Facebook" class="fb"><i class="social_ic f"></i></a></li> </ul> <div class="clr"></div> </div> <div class="left">&copy; 2023 King James Bible Online&trade;</div> <div class="gototop center"><a href="#top">&#9650; Top</a></div> <div class="clr"></div> </div> </div> </footer>  </div> 
+<div class="push"></div> <div class="adsense center"> <script async src="https://web.archive.org/web/20230511173145js_/https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3004108712154911" crossorigin="anonymous"></script>  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3004108712154911" data-ad-slot="5299549845" data-ad-format="horizontal" data-full-width-responsive="true"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> </div> <div class="push"></div> <footer> <div class="footer_up"> <div class="main"> <div class="footer_logo"></div> <div class="footer_left"> <div class="menus"> <div class="title cinzel">KJV Bible</div> <ul> <li><strong><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/index.php" title="KJV Standard">KJV Standard</a></strong></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/1611-Bible/" title="KJV 1611 A.D.">KJV 1611</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/1769-King-James-Bible-Introduction/" title="KJV Introduction">KJV Introduction</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Apocrypha-Books/" title="KJV Apocrypha">KJV Apocrypha</a></li> <li><a href="https://web.archive.org/web/20230511173145/https://m.kingjamesbibleonline.org/" title="KJV Mobile Site">KJV Mobile Site</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/King-James-Bible-Store/" title="KJV Store">KJV Store</a></li> </ul> </div> <div class="menus"> <div class="title cinzel">Study Tools</div> <ul> <li><strong><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Bible-Trivia-Questions/" title="Bible Trivia Questions">Bible Trivia Questions</a></strong></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/verse-of-day.php" title="Verse of the Day">Verse of the Day</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Inspirational-Images/" title="Inspirational Images">Inspirational Images</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Popular-Bible-Verses.php" title="Popular Bible Verses">Popular Bible Verses</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Bible-Verses/" title="Bible Verses by Topic">Bible Verses by Topic</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/bible-stories/" title="Bible Stories">Bible Stories</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Bible-in-Year.php" title="Bible in a Year Reading">Bible in a Year Reading</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/bible-commentaries/" title="Bible Commentaries">Bible Commentaries</a></li> </ul> </div> </div> <div class="footer_right"> <div class="menus"> <div class="title cinzel">Community</div> <ul> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Bible-Questions/" title="Bible Questions">Ask a Bible Question</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Bible-Discussion/" title="Bible Discussion">Bible Discussion</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Share-Testimony/" title="Christian Testimonies">Christian Testimonies</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Add-Bible-to-Your-Website.php">Add KJV to your Website</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Donate.php" title="Donate or Volunteer">Donate or Volunteer</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/become-a-christian.php" title="How to Become a Christian">Become a Christian</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Prayer-Requests/" title="Prayer Requests">Prayer Requests</a></li> </ul> </div> <div class="menus right padd-rt"> <div class="title cinzel" title="">About</div> <ul> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/King-James-Version/" title="About the King James Version">About KJV</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/King-James-Bible-English/" title="About KJV English">About KJV English</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/About.php" title="About this King James Bible Online Website">About Website</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/FAQ.php" title="FAQ (Frequently Asked Questions)">FAQ</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Sitemap.php" title="Sitemap">Sitemap</a></li> <li><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Contact_Us.php" title="Contact Us">Contact Us</a></li> </ul> </div> <div class="clr"></div> </div> <div class="clr"></div> </div> </div> <div class="footer_low"> <div class="main"> <div class="right"> <div><a href="/web/20230511173145/https://www.kingjamesbibleonline.org/Privacy-Policy.php" title="Privacy Policy">Privacy Policy</a></div> <ul> <li><a target="_blank" rel="noopener" href="https://web.archive.org/web/20230511173145/https://www.facebook.com/KingJamesBibleOnline" title="King James Bible on Facebook" class="fb"><i class="social_ic f"></i></a></li> </ul> <div class="clr"></div> </div> <div class="left">&copy; 2023 King James Bible Online&trade;</div> <div class="gototop center"><a href="#top">&#9650; Top</a></div> <div class="clr"></div> </div> </div> </footer>  </div>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -655,7 +655,7 @@ function hidetoggle(id) {
 </html>
 <!--
      FILE ARCHIVED ON 17:31:45 May 11, 2023 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:59:25 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:16:21 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -663,13 +663,12 @@ function hidetoggle(id) {
 -->
 <!--
 playback timings (ms):
-  captures_list: 188.826
-  exclusion.robots: 0.196
-  exclusion.robots.policy: 0.183
-  cdx.remote: 0.084
-  esindex: 0.01
-  LoadShardBlock: 117.463 (3)
-  PetaboxLoader3.datanode: 274.812 (5)
-  load_resource: 371.059 (2)
-  PetaboxLoader3.resolve: 118.977
+  exclusion.robots: 0.112
+  exclusion.robots.policy: 0.101
+  cdx.remote: 0.098
+  esindex: 0.009
+  LoadShardBlock: 748.25 (6)
+  PetaboxLoader3.datanode: 223.264 (8)
+  load_resource: 254.707 (2)
+  PetaboxLoader3.resolve: 117.966
 -->

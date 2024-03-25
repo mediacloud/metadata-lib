@@ -3,7 +3,7 @@
   <head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("https://www.womblebonddickinson.com/us/people-search","20240114053150","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -84,21 +84,21 @@
             <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://web.archive.org/web/20240114053150if_/https://www.googletagmanager.com/ns.html?id=GTM-KMP3P2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    
+
         <a href="#main-content" class="visually-hidden focusable skip-link">
       Skip to main content
     </a>
-    
+
       <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
-    
+
 
 <div class="pre-header bg--off-white">
   <div class="container">
       <div class="region region--pre-header">
     <div id="block-wbdgeolocationpopuplanguageselectorblock" class="has-submenus small block block--wbd-geo-popup block--wbd-geo-popup-lang-selector-block">
   <div class="block--inner">
-    
-        
+
+
     <div class="content">
           <div class="wbd-language-selector">
   <ul class="menu clean-list">
@@ -117,11 +117,11 @@
   </div>
 </div>
 <nav role="navigation" id="block-preheadernav" class="block--pre-header-nav has-submenus small block block-menu navigation menu--pre-header-nav">
-            
-  <h2 class="block--title visually-hidden" id="block-preheadernav-menu">Pre header nav</h2>
-  
 
-        
+  <h2 class="block--title visually-hidden" id="block-preheadernav-menu">Pre header nav</h2>
+
+
+
               <ul class="menu">
                     <li class="menu-item">
                             <a href="/web/20240114053150/https://www.womblebonddickinson.com/us/careers" target="_self" rel="briefcase" data-drupal-link-system-path="node/3690">                  <svg xmlns="http://www.w3.org/2000/svg">
@@ -161,7 +161,7 @@
           </a>
                       </li>
         </ul>
-  
+
 
 
 
@@ -185,11 +185,11 @@
 
       <div class="region region--header">
     <nav role="navigation" id="block-mainnavigationus" class="block--navigation has-submenus large block block-menu navigation menu--main-us">
-            
-  <h2 class="block--title visually-hidden" id="block-mainnavigationus-menu">Main Navigation US</h2>
-  
 
-        
+  <h2 class="block--title visually-hidden" id="block-mainnavigationus-menu">Main Navigation US</h2>
+
+
+
               <ul class="menu">
                     <li class="menu-item menu-item--expanded">
                   <a href="/web/20240114053150/https://www.womblebonddickinson.com/us/our-services" rel="mm-expertise" class="is-megamenu mobile--hide-submenu mobile--disable-submenu-toggle" data-drupal-link-system-path="node/12245">Services</a>
@@ -231,10 +231,10 @@
                   <a href="/web/20240114053150/https://www.womblebonddickinson.com/us/sectors/transport" target="_self" data-drupal-link-system-path="node/604">Transport</a>
                       </li>
         </ul>
-  
+
               </li>
         </ul>
-  
+
               </li>
                 <li class="menu-item menu-item--expanded">
                   <a href="/web/20240114053150/https://www.womblebonddickinson.com/us/locations" target="_self" rel="mm-locations" class="is-megamenu" data-drupal-link-system-path="node/2367">Locations</a>
@@ -267,7 +267,7 @@
                   <a href="/web/20240114053150/https://www.womblebonddickinson.com/us/locations/teesside" data-drupal-link-system-path="node/11492">Teesside</a>
                       </li>
         </ul>
-  
+
               </li>
                 <li class="sub-menu-item menu-item--expanded">
                   <a href="/web/20240114053150/https://www.womblebonddickinson.com/us/locations" target="_self" rel="" data-drupal-link-system-path="node/2367">United States</a>
@@ -345,10 +345,10 @@
                   <a href="/web/20240114053150/https://www.womblebonddickinson.com/us/locations/winston-salem" data-drupal-link-system-path="node/461">Winston-Salem</a>
                       </li>
         </ul>
-  
+
               </li>
         </ul>
-  
+
               </li>
                 <li class="menu-item menu-item--expanded">
                   <a href="/web/20240114053150/https://www.womblebonddickinson.com/us/insights" target="_self" rel="mm-insights" class="is-megamenu" data-drupal-link-system-path="node/2992">Insights</a>
@@ -366,7 +366,7 @@
                   <a href="/web/20240114053150/https://www.womblebonddickinson.com/us/insights/perspectives" data-drupal-link-system-path="node/8833">Perspectives</a>
                       </li>
         </ul>
-  
+
               </li>
                 <li class="menu-item">
                   <a href="/web/20240114053150/https://www.womblebonddickinson.com/us/people" target="_self" rel="" data-drupal-link-system-path="people">People</a>
@@ -379,7 +379,7 @@
           </a>
                       </li>
         </ul>
-  
+
 
 
 
@@ -400,8 +400,8 @@
           <div class="region region--post-header">
     <div class="views-exposed-form block block--views block--views-exposed-filter-blockpeople-page-1" data-drupal-selector="views-exposed-form-people-page-1" id="block-exposedformpeoplepage-1-2">
   <div class="block--inner">
-    
-        
+
+
     <div class="content">
           <form action="/web/20240114053150/https://www.womblebonddickinson.com/us/people" method="get" id="views-exposed-form-people-page-1" accept-charset="UTF-8">
   <div class="form--inline clearfix">
@@ -459,8 +459,8 @@
     <div class="region region--search-strip">
     <div id="block-wbdsearchreactapp" class="block block--wbd-search block--wbd-search-block">
   <div class="block--inner">
-    
-        
+
+
     <div class="content">
           <div id="wbd-search"></div>
 
@@ -471,7 +471,7 @@
   </div>
 
 
-  
+
 
 
 <div class="main-content bg--light-grey">
@@ -480,8 +480,8 @@
             <div class="region region--pre-content">
     <div id="block-wbd-breadcrumbs" class="block block--system block--system-breadcrumb-block">
   <div class="block--inner">
-    
-        
+
+
     <div class="content">
             <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
     <ol>
@@ -500,20 +500,20 @@
 
   </div>
 
-    
-    
 
-    
 
-    
+
+
+
+
       <div class="region region--content">
     <div data-drupal-messages-fallback class="hidden"></div>
 <div id="block-wbd-page-title" class="block block--core block--page-title-block">
   <div class="block--inner">
-    
-        
+
+
     <div class="content">
-          
+
   <h1 class="page-title"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">People search</span>
 </h1>
 
@@ -523,19 +523,19 @@
 </div>
 <div id="block-wbd-content" class="block block--system block--system-main-block">
   <div class="block--inner">
-    
-        
+
+
     <div class="content">
-          
+
 <article role="article" about="/us/people-search" typeof="schema:WebPage" class="node node--type-page node--view-mode-full">
 
-  
+
       <span property="schema:name" content="People search" class="rdf-meta hidden"></span>
 
 
 
   <div class="node__content">
-    
+
   </div>
 
 </article>
@@ -545,8 +545,8 @@
 </div>
 <div id="block-wbdpeoplesearchreactapp" class="block block--wbd-people-search block--wbd-people-search-block">
   <div class="block--inner">
-    
-        
+
+
     <div class="content">
           <div id="wbd-people-search"></div>
 <style>
@@ -563,7 +563,7 @@
 
 
 
-    
+
   </div>
   </div>
 
@@ -576,11 +576,11 @@
     <a href="https://web.archive.org/web/20240114053150/https://www.womblebonddickinson.com/us"><img src="/web/20240114053150im_/https://www.womblebonddickinson.com/themes/custom/wbd/assets/images/misc/logo_light.svg" alt="Womble Bond Dickinson logo" class="site-footer--logo"/></a>
       <div class="region region--footer">
     <nav role="navigation" id="block-footer" class="block--footer-menu block block-menu navigation menu--footer">
-            
-  <h2 class="block--title visually-hidden" id="block-footer-menu">Footer</h2>
-  
 
-        
+  <h2 class="block--title visually-hidden" id="block-footer-menu">Footer</h2>
+
+
+
               <ul class="menu">
                     <li class="menu-item">
                   <a href="/web/20240114053150/https://www.womblebonddickinson.com/us/sitemap" target="_self" data-drupal-link-system-path="node/4788">Sitemap</a>
@@ -601,20 +601,20 @@
                   <a href="https://web.archive.org/web/20240114053150/https://womble.avature.net/careers">Careers</a>
                       </li>
         </ul>
-  
+
 
 
 
   </nav>
 <div id="block-footersocialicons" class="block--footer-icons block block--block-content block--block-content82aebbf9-a95d-401b-a8ee-4a4964cda308">
   <div class="block--inner">
-    
-        
+
+
     <div class="content">
-          
+
             <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="text-align-right"><a href="https://web.archive.org/web/20240114053150/https://www.twitter.com/wbd_us" target="_blank"><svg class="wbdi fg--white sz--md" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/web/20240114053150im_/https://www.womblebonddickinson.com/themes/custom/wbd/assets/svg/defs.svg#foot-twitter" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></a><a href="https://web.archive.org/web/20240114053150/https://www.linkedin.com/company/womble-bond-dickinson-us-llp/" target="_blank"><svg class="wbdi fg--white sz--md" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/web/20240114053150im_/https://www.womblebonddickinson.com/themes/custom/wbd/assets/svg/defs.svg#foot-linkedin" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></a><a href="https://web.archive.org/web/20240114053150/https://www.youtube.com/c/WombleBondDickinsonUSLLP" target="_blank"><svg class="wbdi fg--white sz--md" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/web/20240114053150im_/https://www.womblebonddickinson.com/themes/custom/wbd/assets/svg/defs.svg#foot-youtube-play" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></a><a href="https://web.archive.org/web/20240114053150/https://www.facebook.com/WombleBondDickinsonLaw" target="_blank"><svg class="wbdi fg--white sz--md" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/web/20240114053150im_/https://www.womblebonddickinson.com/themes/custom/wbd/assets/svg/defs.svg#foot-facebook-f" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></a></p>
 </div>
-      
+
         </div>
   </div>
 </div>
@@ -625,22 +625,22 @@
     <div class="region region--post-footer">
     <div id="block-footerstermsinfo" class="block--footer-terms block block--block-content block--block-content041c8f52-ff6d-4beb-86db-90286d48253c">
   <div class="block--inner">
-    
-        
+
+
     <div class="content">
-          
+
             <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p class="text-align-center">Copyright © 2024. "Womble Bond Dickinson", the “law firm” or the "firm" refers to the network of member firms of Womble Bond Dickinson (International) Limited, consisting of Womble Bond Dickinson (UK) LLP and Womble Bond Dickinson (US) LLP. Each of Womble Bond Dickinson (UK) LLP and Womble Bond Dickinson (US) LLP is a separate legal entity operating as an independent law firm. Womble Bond Dickinson (International) Limited does not practise law. Please see <a href="/web/20240114053150/https://www.womblebonddickinson.com/legal-notices" target="_blank" title="Legal Notices">www.womblebonddickinson.com/legal-notices</a> for further details.</p>
 </div>
-      
+
         </div>
   </div>
 </div>
 <div id="block-locations" class="block--footer-locations block block--block-content block--block-content2e962d27-ad80-4b40-aa14-2a18099564ad">
   <div class="block--inner">
-    
-        
+
+
     <div class="content">
-          
+
             <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><ul><li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="d3c83041-9263-493b-b04b-00c47fd56608" href="/web/20240114053150/https://www.womblebonddickinson.com/us/locations/atlanta" title="Atlanta, GA, US">Atlanta</a></li>
 	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="d381f023-7ac7-4d5a-8684-b499b2b2dfb8" href="/web/20240114053150/https://www.womblebonddickinson.com/us/locations/baltimore" title="Baltimore, MD, US">Baltimore</a></li>
 	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="27ac24ea-755b-4297-b749-62bedce390cd" href="/web/20240114053150/https://www.womblebonddickinson.com/us/locations/boston" title="Boston, MA, US">Boston</a></li>
@@ -674,7 +674,7 @@
 	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="f868b8f5-4ca4-4035-87a2-3952e4f27445" href="/web/20240114053150/https://www.womblebonddickinson.com/us/locations/teesside" title="Teesside">Teesside</a></li>
 	<li><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="b5428201-fac2-4fd4-a098-a4c521b364cd" href="/web/20240114053150/https://www.womblebonddickinson.com/us/locations/winston-salem" title="Winston-Salem, NC, US">Winston-Salem</a></li>
 </ul></div>
-      
+
         </div>
   </div>
 </div>
@@ -760,7 +760,7 @@
 </html>
 <!--
      FILE ARCHIVED ON 05:31:50 Jan 14, 2024 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:52:18 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:07:08 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -768,13 +768,12 @@
 -->
 <!--
 playback timings (ms):
-  captures_list: 117.666
-  exclusion.robots: 0.285
-  exclusion.robots.policy: 0.264
-  cdx.remote: 0.108
-  esindex: 0.02
-  LoadShardBlock: 62.615 (3)
-  PetaboxLoader3.datanode: 171.13 (4)
-  load_resource: 162.804
-  PetaboxLoader3.resolve: 42.307
+  exclusion.robots: 0.199
+  exclusion.robots.policy: 0.182
+  cdx.remote: 0.191
+  esindex: 0.021
+  LoadShardBlock: 309.408 (6)
+  PetaboxLoader3.datanode: 387.298 (7)
+  load_resource: 312.577
+  PetaboxLoader3.resolve: 47.199
 -->

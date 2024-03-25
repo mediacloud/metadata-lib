@@ -48,12 +48,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://bimg.mk.co.kr/library/css/font_montserrat-notosans.css" rel="stylesheet">
-<link rel="stylesheet" href="https://static.mk.co.kr/2022/news/pc/css/base.css?v=202311071741">
-<link rel="stylesheet" href="https://static.mk.co.kr/2022/news/pc/css/libs/swiper.min.css?v=202311071741">
-<link rel="stylesheet" href="https://static.mk.co.kr/2022/news/pc/css/libs/jquery-ui.min.css?v=202311071741">
-<link rel="stylesheet" href="https://static.mk.co.kr/2022/news/pc/css/layout.css?v=202311071741">
-<link rel="stylesheet" href="https://static.mk.co.kr/2022/news/pc/css/ui.css?v=202311071741">
-<link rel="stylesheet" href="https://static.mk.co.kr/2022/news/pc/css/style.css?v=202311071741">
+<link rel="stylesheet" href="https://static.mk.co.kr/2022/news/pc/css/base.css?v=202402161525">
+<link rel="stylesheet" href="https://static.mk.co.kr/2022/news/pc/css/libs/swiper.min.css?v=202402161525">
+<link rel="stylesheet" href="https://static.mk.co.kr/2022/news/pc/css/libs/jquery-ui.min.css?v=202402161525">
+<link rel="stylesheet" href="https://static.mk.co.kr/2022/news/pc/css/layout.css?v=202402161525">
+<link rel="stylesheet" href="https://static.mk.co.kr/2022/news/pc/css/ui.css?v=202402161525">
+<link rel="stylesheet" href="https://static.mk.co.kr/2022/news/pc/css/style.css?v=202402161525">
 <script src="https://static.mk.co.kr/2022/news/pc/js/libs/jquery-1.11.3.min.js?v=202310120930"></script>
 <script src="https://static.mk.co.kr/2022/news/pc/js/libs/swiper.min.js?v=202310120930"></script>
 <script src="https://static.mk.co.kr/2022/news/pc/js/libs/jquery-ui.min.js?v=202310120930"></script>
@@ -170,7 +170,7 @@ googletag.pubads()
 .setTargeting('CODE_ID', 'MK100801')
 .setTargeting('article_num', '9419376')
 .setTargeting('title', '종합 코로나19 신규확진 44명중 해외유입 24명')
-.setTargeting('url', 'https://www.mk.co.kr/news/society/9419376')
+.setTargeting('url', window.location.href.replace('=','-'))
 .setTargeting('publish_date', '2020/07/07')
 .setTargeting('journalist', '류영상')
 .setTargeting('keywords', ['코로나19','신규 확진'])
@@ -185,6 +185,10 @@ googletag.pubads()
 .setTargeting('referer', document.referrer ? document.referrer.split('/')[2] : '')
 .setTargeting('is_paid_content', '')
 .setTargeting('has_adult_content', "");
+if (location.search) {
+googletag.pubads()
+.setTargeting('outlinked', location.search.replace(/[^0-9A-Za-z]/g, ' ').trim().split(' '));
+}
 googletag.pubads().setPublisherProvidedId();
 googletag.enableServices();
 });
@@ -230,7 +234,7 @@ $(function () {
 Handlebars.registerHelper('ifPositiveNumber', function (number, options) {
 return parseInt(number) >= 0 ? options.fn(this) : options.inverse(this);
 });
-let json = '{"_DATA":[{"date":"2024-01-17 18:05:39","prepare_price":"2,435.9","code":"KSP","prepare_rate":-2.47,"price":"2,435.90","name":"코스피","mark":-1},{"date":"2024-01-17 18:05:39","prepare_price":"833.05","code":"KSQ","prepare_rate":-2.55,"price":"833.05","name":"코스닥","mark":-1},{"date":"2024-01-17 18:05:32","prepare_price":"326.11","code":"K200","prepare_rate":-2.58,"price":"326.11","name":"코스피200","mark":-1},{"date":"2024-01-17 23:59:45","prepare_price":"20","code":"MUSD","prepare_rate":0.0,"price":"1,346.50","name":"미국 USD","mark":-1},{"date":"2024-01-18 00:48:25","prepare_price":"0","code":"KRW-BTC","prepare_rate":-0.54,"price":"58,700,000","name":"비트코인","mark":-1},{"date":"2024-01-18 00:48:25","prepare_price":"0","code":"KRW-ETH","prepare_rate":0.11,"price":"3,506,000","name":"이더리움","mark":1},{"date":"2024-01-18 00:48:25","prepare_price":"0","code":"KRW-XRP","prepare_rate":-0.76,"price":"783","name":"리플","mark":-1}]}';
+let json = '{"_DATA":[{"date":"2024-03-25 18:05:40","prepare_price":"2,737.57","code":"KSP","prepare_rate":-0.4,"price":"2,737.57","name":"코스피","mark":-1},{"date":"2024-03-25 18:05:40","prepare_price":"913.69","code":"KSQ","prepare_rate":1.07,"price":"913.69","name":"코스닥","mark":1},{"date":"2024-03-25 18:05:33","prepare_price":"370.73","code":"K200","prepare_rate":-0.52,"price":"370.73","name":"코스피200","mark":-1},{"date":"2024-03-25 23:59:22","prepare_price":"16.5","code":"MUSD","prepare_rate":0.0,"price":"1,343.00","name":"미국 USD","mark":-1},{"date":"2024-03-26 00:13:12","prepare_price":"0","code":"KRW-BTC","prepare_rate":4.43,"price":"98,990,000","name":"비트코인","mark":1},{"date":"2024-03-26 00:13:12","prepare_price":"0","code":"KRW-ETH","prepare_rate":3.38,"price":"5,079,000","name":"이더리움","mark":1},{"date":"2024-03-26 00:12:06","prepare_price":"0","code":"KRW-XRP","prepare_rate":0.27,"price":"916","name":"리플","mark":1}]}';
 let stock_list = JSON.parse(json);
 const template = Handlebars.compile($("#stock_list_source").html());
 $("#top_stock_list").html(template(stock_list));
@@ -257,7 +261,7 @@ setFlowTxt();
 </li>
 {{/each}}
 </script>
-<section class="stock_flow_sec_n top_bar" style="background:#7d7d7d">
+<section class="stock_flow_sec stock_flow_sec_n4 top_bar">
 <div class="set_inner">
 <h2 class="sec_ttl is_blind">주가 정보</h2>
 <div class="stock_flow_wrap flow_ui">
@@ -335,24 +339,20 @@ document.querySelector('.main_menu_nav_news').classList.add('active');
 <span>마이페이지</span>
 </a>
 </li>
-<li class="nav_item dropdown type_down">
-<button type="button" aria-controls="langs_dropdown" aria-haspopup="listbox" aria-expanded="false" class="nav_link dropdown_toggle">
-<span>Language</span>
-<i class="arw arw_s bottom"></i>
-</button>
-<div id="langs_dropdown" class="dropdown_menu">
-<ul role="listbox">
-<li class="dropdown_item active" role="option">
-<button type="button" onclick="javascript:location.href='//www.mk.co.kr/'" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="top" data-label="한국어">한국어</button>
+<li class="nav_item">
+<a href="/en" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="top" data-label="영어">
+<span class="eng">ENG</span>
+</a>
 </li>
-<li class="dropdown_item" role="option">
-<button type="button" onclick="javascript:window.open('https://pulse.mk.co.kr/')" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="top" data-label="영어">English</button>
+<li class="nav_item">
+<a href="/jp" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="top" data-label="일본어">
+<span class="jpn">JPN</span>
+</a>
 </li>
-<li class="dropdown_item" role="option">
-<button type="button" onclick="javascript:window.open('https://www.mk.co.kr/china/')" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="top" data-label="중국어">中國語</button>
-</li>
-</ul>
-</div>
+<li class="nav_item">
+<a href="/cn" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="top" data-label="중국어">
+<span class="chn">CHN</span>
+</a>
 </li>
 </ul>
 </nav>
@@ -430,7 +430,7 @@ $('#areaLogout2').css('display', 'block');
 <h3 class="nav_ttl">&nbsp;</h3>
 <ul class="nav menu_list dep2_menu_list">
 <li class="nav_item menu_node">
-<a href="https://pulsenews.co.kr/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="hamburger">영문뉴스</a>
+<a href="https://pulsenews.co.kr/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="hamburger">Pulse</a>
 </li>
 <li class="nav_item menu_node">
 <a href="https://www.mk.co.kr/china/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="hamburger">MK China</a>
@@ -457,9 +457,6 @@ $('#areaLogout2').css('display', 'block');
 </li>
 <li class="nav_item menu_node">
 <a href="http://raythem.com/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="hamburger">레이더M</a>
-</li>
-<li class="nav_item menu_node">
-<a href="https://raythep.mk.co.kr/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="hamburger">레이더P</a>
 </li>
 <li class="nav_item menu_node">
 <a href="https://www.mk.co.kr/today-paper/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="hamburger">오늘의 매경</a>
@@ -524,6 +521,12 @@ $('#areaLogout2').css('display', 'block');
 <li class="nav_item menu_node">
 <a href="https://www.mk.co.kr/car/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="hamburger">Car</a>
 </li>
+<li class="nav_item menu_node">
+<a href="https://mk.tigergds.com/" target="_blank" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="hamburger">AGL해외골프</a>
+</li>
+<li class="nav_item menu_node">
+<a href="https://funeral.mk.co.kr/" target="_blank" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="hamburger">MK 장례</a>
+</li>
 </ul>
 </div>
 <div class="nav_col_group">
@@ -566,7 +569,7 @@ $('#areaLogout2').css('display', 'block');
 </li>
 -->
 <li class="nav_item menu_node">
-<a href="https://subscribe.mk.co.kr/index.php?TM=S&MM=1" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="hamburger">구독신청</a>
+<a href="https://www.mk.co.kr/membership/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="hamburger">구독신청</a>
 </li>
 <li class="nav_item menu_node">
 <a href="http://maekyungopen.mk.co.kr/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="hamburger">매경오픈</a>
@@ -942,8 +945,8 @@ googletag.cmd.push(function() { googletag.display('BR_custom_rectangle'); });
 </ul>
 </div>
 <div class="ad_bottom_wrap">
-<a href="https://www.mk.co.kr/weekly/" target="_blank">
-<img src="https://wimg.mk.co.kr/svc/banner/202312/9259eace-3b2b-40b7-be13-98edc83db7b8.jpg" alt="MK위클리연재">
+<a href="https://www.mk.co.kr/etc/login-benefit" target="_blank">
+<img src="https://wimg.mk.co.kr/svc/banner/202401/f8f08c86-be89-4ef6-a1a2-1da26f62802b.jpg" alt="로그인 혜택페이지">
 </a>
 </div>
 <div class="reaction_btn_wrap">
@@ -1223,147 +1226,147 @@ googletag.cmd.push(function() { googletag.display('BC_billboard'); });
 <div class="mid_inner">
 <div class="sec_head">
 <h2 class="sec_ttl">인기뉴스</h2>
-<p class="time_info">2024-01-18 00:29 기준</p>
+<p class="time_info">2024-03-25 23:49 기준</p>
 </div>
 <div class="sec_body">
 <div class="popular_news_wrap">
 <ul class="news_list ">
 <li class="news_node">
-<a href="https://www.mk.co.kr/news/society/10922692" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="001" data-id="10922692">
+<a href="https://www.mk.co.kr/news/society/10972702" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="001" data-id="10972702">
 <span class="num c_point">1</span>
 <div class="thumb_area">
-<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202401/16/news-p.v1.20240116.7b3dc0ee91204698ac0b05618b4910d1_T1.jpg" alt="">
+<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202403/24/rcv.YNA.20231112.PYH2023111202730001300_T1.jpg" alt="">
 </div>
 <div class="txt_area">
-<h3 class="news_ttl">“승진턱 화끈하네”…우럭 105만원 결제한 공무원, 결국</h3>
+<h3 class="news_ttl">“여보, 우리 차에도 있어?”…12월부터 5인승 이상 車에 꼭 두세요</h3>
 <div class="info_group">
-<p class="time_info" data-format="timeAgo">2024-01-16 20:57:21</p>
+<p class="time_info" data-format="timeAgo">2024-03-24 14:09:45</p>
 </div>
 </div>
 </a>
 </li>
 <li class="news_node">
-<a href="https://www.mk.co.kr/news/stock/10922753" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="002" data-id="10922753">
+<a href="https://www.mk.co.kr/news/world/10973185" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="002" data-id="10973185">
 <span class="num c_point">2</span>
 <div class="thumb_area">
-<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202401/17/news-p.v1.20240116.a27e1d44caab4da9aa0d1391ab30949a_T1.png" alt="">
+<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202403/25/news-p.v1.20240325.288e892153224a1f80f46625aef931ff_T1.jpg" alt="">
 </div>
 <div class="txt_area">
-<h3 class="news_ttl">세금 세금 또 세금…“주식으로 돈 번게 죄?” 3중 과세에 다 한국 떠난다</h3>
+<h3 class="news_ttl">이 남성이 부르자 판빙빙도 달려갔다…39조원 갑부男의 정체</h3>
 <div class="info_group">
-<p class="time_info" data-format="timeAgo">2024-01-17 06:41:38</p>
+<p class="time_info" data-format="timeAgo">2024-03-25 08:57:22</p>
 </div>
 </div>
 </a>
 </li>
 <li class="news_node">
-<a href="https://www.mk.co.kr/news/economy/10923221" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="003" data-id="10923221">
+<a href="https://www.mk.co.kr/news/business/10972756" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="003" data-id="10972756">
 <span class="num c_point">3</span>
 <div class="thumb_area">
-<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202401/17/news-p.v1.20240117.f21b7e2512fc43abb46f36accf3001e8_T1.jpeg" alt="">
+<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202403/24/news-p.v1.20240201.48b05fc7105c406fb0e4a06d73e82d6d_T1.png" alt="">
 </div>
 <div class="txt_area">
-<h3 class="news_ttl">“귀신 들린 집, 바로 사라”…영끌족이 격하게 공감하는 까닭</h3>
+<h3 class="news_ttl">아이 낳으면 1억 주는 기업 또 나왔다…‘제2의 부영’ 어딘가보니</h3>
 <div class="info_group">
-<p class="time_info" data-format="timeAgo">2024-01-17 15:06:15</p>
+<p class="time_info" data-format="timeAgo">2024-03-24 15:26:58</p>
 </div>
 </div>
 </a>
 </li>
 <li class="news_node">
-<a href="https://www.mk.co.kr/news/economy/10922877" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="004" data-id="10922877">
+<a href="https://www.mk.co.kr/news/business/10973087" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="004" data-id="10973087">
 <span class="num c_point">4</span>
 <div class="thumb_area">
-<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202401/17/rcv.YNA.20230627.PYH2023062709390001300_T1.jpg" alt="">
+<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202403/24/news-p.v1.20240312.678c467fb962498192186b117c275320_T1.jpg" alt="">
 </div>
 <div class="txt_area">
-<h3 class="news_ttl">담뱃값 8000원 인상땐 ‘이게 가능’…2030년 흡연율 25% 달성</h3>
+<h3 class="news_ttl">프랑스에 라면공장 짓는 ‘이 남자’...마크롱도 매년 만나자고 초대한다는데</h3>
 <div class="info_group">
-<p class="time_info" data-format="timeAgo">2024-01-17 10:03:54</p>
+<p class="time_info" data-format="timeAgo">2024-03-24 22:20:14</p>
 </div>
 </div>
 </a>
 </li>
 <li class="news_node">
-<a href="https://www.mk.co.kr/news/world/10922433" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="005" data-id="10922433">
+<a href="https://www.mk.co.kr/news/world/10973171" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="005" data-id="10973171">
 <span class="num c_point">5</span>
 <div class="thumb_area">
-<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202401/16/rcv.YNA.20240108.PGT20240108018701009_T1.jpg" alt="">
+<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202403/25/news-p.v1.20240325.764cdcf37c3f4e1ba166459cb3bab1ba_T1.jpg" alt="">
 </div>
 <div class="txt_area">
-<h3 class="news_ttl">“한국 싫어 이민 갈랬더니”…내 앞에 300만명 줄섰다는 미국</h3>
+<h3 class="news_ttl">“내 도박 빚 직접 갚아줬다”…절친 통역사의 배신, 마침내 입 여는 오타니</h3>
 <div class="info_group">
-<p class="time_info" data-format="timeAgo">2024-01-16 16:33:08</p>
+<p class="time_info" data-format="timeAgo">2024-03-25 08:31:01</p>
 </div>
 </div>
 </a>
 </li>
 <li class="news_node">
-<a href="https://www.mk.co.kr/news/business/10923170" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="006" data-id="10923170">
+<a href="https://www.mk.co.kr/news/society/10972891" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="006" data-id="10972891">
 <span class="num c_point">6</span>
 <div class="thumb_area">
-<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202401/17/news-p.v1.20230601.6e65d9a0563b401481f2fa8564faec0a_T1.jpg" alt="">
+<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202403/24/news-p.v1.20240324.190db94d274545959814e2d037630ea8_T1.jpg" alt="">
 </div>
 <div class="txt_area">
-<h3 class="news_ttl">2년만에 반도체 왕좌서 내려온 삼성...다시 1위 꿰찬 기업은</h3>
+<h3 class="news_ttl">“걔 가방 짝퉁처럼 보이더니 역시”…모조 명품 최다 브랜드는</h3>
 <div class="info_group">
-<p class="time_info" data-format="timeAgo">2024-01-17 14:34:03</p>
+<p class="time_info" data-format="timeAgo">2024-03-24 17:13:22</p>
 </div>
 </div>
 </a>
 </li>
 <li class="news_node">
-<a href="https://www.mk.co.kr/news/it/10922709" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="007" data-id="10922709">
+<a href="https://www.mk.co.kr/news/society/10972929" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="007" data-id="10972929">
 <span class="num c_point">7</span>
 <div class="thumb_area">
-<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202401/16/news-p.v1.20240116.660d9eff6965431d95fda743582d8e0b_T1.png" alt="">
+<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202403/25/20240325_01110124000005_L00.jpg" alt="">
 </div>
 <div class="txt_area">
-<h3 class="news_ttl">죽었다 깨어나도 한국 못이긴다…삼성·LG 버거운데 서울대까지 등판</h3>
+<h3 class="news_ttl">인천서 KTX 타고 영호남·강릉 간다</h3>
 <div class="info_group">
-<p class="time_info" data-format="timeAgo">2024-01-16 21:49:53</p>
+<p class="time_info" data-format="timeAgo">2024-03-24 17:27:00</p>
 </div>
 </div>
 </a>
 </li>
 <li class="news_node">
-<a href="https://www.mk.co.kr/news/world/10923588" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="008" data-id="10923588">
+<a href="https://www.mk.co.kr/news/society/10973385" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="008" data-id="10973385">
 <span class="num c_point">8</span>
 <div class="thumb_area">
-<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202401/17/rcv.YNA.20240117.PXI20240117013601009_T1.jpg" alt="">
+<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202403/25/news-p.v1.20240325.916a8312b7d144a5ba33d26fbae7d27e_T1.jpg" alt="">
 </div>
 <div class="txt_area">
-<h3 class="news_ttl">이대로 가면 중국이란 거인 쓰러진다…30년래 최악 성장률 ‘피크차이나’</h3>
+<h3 class="news_ttl">의대 교수 ‘무더기 사직’ 현실화…전국 대부분 의대 동참</h3>
 <div class="info_group">
-<p class="time_info" data-format="timeAgo">2024-01-17 19:39:35</p>
+<p class="time_info" data-format="timeAgo">2024-03-25 12:24:32</p>
 </div>
 </div>
 </a>
 </li>
 <li class="news_node">
-<a href="https://www.mk.co.kr/news/world/10921959" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="009" data-id="10921959">
+<a href="https://www.mk.co.kr/news/society/10973337" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="009" data-id="10973337">
 <span class="num c_point">9</span>
 <div class="thumb_area">
-<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202401/16/news-p.v1.20240116.728d423a64b6468ba908be0ecde70ce2_T1.jpg" alt="">
+<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202403/25/news-p.v1.20240325.7fad6b3a6a034f7cae87ead52205ac38_T1.jpg" alt="">
 </div>
 <div class="txt_area">
-<h3 class="news_ttl">“한반도 올해 핵전쟁 발발 가능성”…북핵 협상가 강력 경고, 그의 해법은</h3>
+<h3 class="news_ttl">사직 반대한 의대 女교수 “치료해야 할 소아암 환자 있다…우리 떠나면 진짜 의료대란”</h3>
 <div class="info_group">
-<p class="time_info" data-format="timeAgo">2024-01-16 09:47:10</p>
+<p class="time_info" data-format="timeAgo">2024-03-25 11:20:12</p>
 </div>
 </div>
 </a>
 </li>
 <li class="news_node">
-<a href="https://www.mk.co.kr/news/business/10921825" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="010" data-id="10921825">
+<a href="https://www.mk.co.kr/news/economy/10973343" class="news_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="인기뉴스" data-idx="010" data-id="10973343">
 <span class="num c_point">10</span>
 <div class="thumb_area">
-<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202401/15/news-p.v1.20240115.adc890aed24a445fb813edf5fd5b8d16_T1.png" alt="">
+<img class="lazy" src="https://static.mk.co.kr/trans_30x13.png" data-src="https://wimg.mk.co.kr/news/cms/202403/25/news-p.v1.20240325.109d0c0f72ce440c9d815580d54b1cd5_T1.png" alt="">
 </div>
 <div class="txt_area">
-<h3 class="news_ttl">“미국에 투자 줄인다” 그럼 한국으로?…세계 1위 기업의 결정은</h3>
+<h3 class="news_ttl">“비트코인 200억 있다” 자랑하던 사기꾼…실제 계좌 까보니 ‘1원’</h3>
 <div class="info_group">
-<p class="time_info" data-format="timeAgo">2024-01-15 22:10:08</p>
+<p class="time_info" data-format="timeAgo">2024-03-25 11:25:44</p>
 </div>
 </div>
 </a>
@@ -1446,73 +1449,73 @@ target_type: 'mix'
 <div class="photo_news_wrap swiper-container swiper-container-initialized swiper-container-horizontal">
 <div class="photo_list swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
 <div class="photo_node swiper-slide">
-<a href="/news/hot-issues/10923194" class="photo_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="포토" data-idx="001" data-id="10923194">
+<a href="/news/photos/10973709" class="photo_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="포토" data-idx="001" data-id="10973709">
 <div class="thumb_area">
-<img src="https://wimg.mk.co.kr/svc/desking/1000/index/202401/A10923194_35_20240117145345.png" alt="">
+<img src="https://wimg.mk.co.kr/svc/desking/1000/index/202403/A10973709_35_20240325161902.png" alt="">
 </div>
 <div class="txt_area">
 <h3 class="photo_ttl">
-뉴진스 하니, 금발로 뽐낸 독보적 비주얼
+&lsquo;마그네틱&rsquo; 아일릿, 하이틴 사랑법 알려드려요
 </h3>
 </div>
 </a>
 </div>
 <div class="photo_node swiper-slide">
-<a href="/news/photos/10923149" class="photo_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="포토" data-idx="002" data-id="10923149">
+<a href="/news/hot-issues/10973257" class="photo_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="포토" data-idx="002" data-id="10973257">
 <div class="thumb_area">
-<img src="https://wimg.mk.co.kr/svc/desking/1000/index/202401/A10923149_35_20240117142507.jpg" alt="">
+<img src="https://wimg.mk.co.kr/svc/desking/1000/index/202403/A10973257_35_20240325101857.png" alt="">
 </div>
 <div class="txt_area">
 <h3 class="photo_ttl">
-안재홍·이솜, 다정한 손하트
+‘이병헌♥’ 이민정, 럭셔리 공항패션
 </h3>
 </div>
 </a>
 </div>
 <div class="photo_node swiper-slide">
-<a href="/news/photos/10921790" class="photo_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="포토" data-idx="003" data-id="10921790">
+<a href="/news/hot-issues/10971868" class="photo_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="포토" data-idx="003" data-id="10971868">
 <div class="thumb_area">
-<img src="https://wimg.mk.co.kr/svc/desking/1000/index/202401/A10921790_35_20240115222206.png" alt="">
+<img src="https://wimg.mk.co.kr/svc/desking/1000/index/202403/A10971868_35_20240322161536.png" alt="">
 </div>
 <div class="txt_area">
 <h3 class="photo_ttl">
-박보검, 조각같은 옆모습
+‘아이유♥’ 이종석, 남친룩의 정석
 </h3>
 </div>
 </a>
 </div>
 <div class="photo_node swiper-slide">
-<a href="/news/hot-issues/10919335" class="photo_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="포토" data-idx="004" data-id="10919335">
+<a href="/news/hot-issues/10971702" class="photo_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="포토" data-idx="004" data-id="10971702">
 <div class="thumb_area">
-<img src="https://wimg.mk.co.kr/svc/desking/1000/index/202401/A10919335_35_20240112082701.png" alt="">
+<img src="https://wimg.mk.co.kr/svc/desking/1000/index/202403/A10971702_35_20240322143404.png" alt="">
 </div>
 <div class="txt_area">
 <h3 class="photo_ttl">
-송혜교 염혜란 다정한 투샷…“우리 이모님”
+뉴진스 다니엘, 셀린느 글로벌 앰버서더 발탁
 </h3>
 </div>
 </a>
 </div>
 <div class="photo_node swiper-slide">
-<a href="/news/photos/10918672" class="photo_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="포토" data-idx="005" data-id="10918672">
+<a href="/news/hot-issues/10971424" class="photo_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="포토" data-idx="005" data-id="10971424">
 <div class="thumb_area">
-<img src="https://wimg.mk.co.kr/svc/desking/1000/index/202401/A10918672_35_20240111130109.png" alt="">
+<img src="https://wimg.mk.co.kr/svc/desking/1000/index/202403/A10971424_35_20240322093605.png" alt="">
 </div>
 <div class="txt_area">
 <h3 class="photo_ttl">
-아이유, 해맑은 출국인사
+블랙핑크 지수, 우아美
 </h3>
 </div>
 </a>
 </div>
 <div class="photo_node swiper-slide">
-<a href="/news/hot-issues/10918227" class="photo_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="포토" data-idx="006" data-id="10918227">
+<a href="/news/photos/10971645" class="photo_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="포토" data-idx="006" data-id="10971645">
 <div class="thumb_area">
-<img src="https://wimg.mk.co.kr/svc/desking/1000/index/202401/A10918227_35_20240110180401.png" alt="">
+<img src="https://wimg.mk.co.kr/svc/desking/1000/index/202403/A10971645_35_20240322131448.png" alt="">
 </div>
 <div class="txt_area">
 <h3 class="photo_ttl">
-BTS 뷔, 장발에 상의탈의
+지창욱, 인간 조각상 사진 몰아보기
 </h3>
 </div>
 </a>
@@ -1554,19 +1557,19 @@ googletag.cmd.push(function() { googletag.display('BC_floor_billboard'); });
 <div class="wrap_body swiper-container">
 <ul class="notice_list swiper-wrapper">
 <li class="notice_node swiper-slide" style="overflow:hidden;">
-<a href="https://www.mk.co.kr/news/notice/10923409" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="알림" data-idx="001" data-id="10923409">[알립니다]  소규모주택정비사업 과정</a>
+<a href="https://www.mk.co.kr/news/notice/10973834" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="알림" data-idx="001" data-id="10973834">[알립니다] 토지 보상·투자 전략 특강</a>
 </li>
 <li class="notice_node swiper-slide" style="overflow:hidden;">
-<a href="https://www.mk.co.kr/news/notice/10922594" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="알림" data-idx="002" data-id="10922594">[알립니다]  제7기 매경·환경재단 'ESG 리더십 과정'</a>
+<a href="https://www.mk.co.kr/news/notice/10971059" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="알림" data-idx="002" data-id="10971059">[알립니다] 매일경제 창간 58주년 해외여행·골드바 쏩니다</a>
 </li>
 <li class="notice_node swiper-slide" style="overflow:hidden;">
-<a href="https://www.mk.co.kr/news/notice/10920609" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="알림" data-idx="003" data-id="10920609">[알립니다] 제10기 매경 빅데이터 & AI 최고위 과정</a>
+<a href="https://www.mk.co.kr/news/notice/10969675" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="알림" data-idx="003" data-id="10969675">[알립니다] 빅데이터·AI 최고위 과정</a>
 </li>
 <li class="notice_node swiper-slide" style="overflow:hidden;">
-<a href="https://www.mk.co.kr/news/notice/10914734" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="알림" data-idx="004" data-id="10914734">[알립니다] 신문의 날 표어·캐릭터 내달말까지 공모합니다</a>
+<a href="https://www.mk.co.kr/news/notice/10968609" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="알림" data-idx="004" data-id="10968609">[알립니다] 미디어 혁신 이끌 매경 경력기자 모집</a>
 </li>
 <li class="notice_node swiper-slide" style="overflow:hidden;">
-<a href="https://www.mk.co.kr/news/notice/10912946" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="알림" data-idx="005" data-id="10912946">[알립니다]  매경 구독하면 푸짐한 선물</a>
+<a href="https://www.mk.co.kr/news/notice/10966468" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="알림" data-idx="005" data-id="10966468">'기회의 왕국' 캄보디아 열린다</a>
 </li>
 </ul>
 </div>
@@ -1583,19 +1586,19 @@ googletag.cmd.push(function() { googletag.display('BC_floor_billboard'); });
 <div class="wrap_body swiper-container">
 <ul class="notice_list swiper-wrapper">
 <li class="notice_node swiper-slide" style="overflow:hidden;">
-<a href="https://www.mk.co.kr/news/notice/10830185" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="공지" data-idx="001" data-id="10830185">매경닷컴 이용약관 개정</a>
+<a href="https://www.mk.co.kr/news/notice/10959153" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="공지" data-idx="001" data-id="10959153">[알립니다] 정진기언론문화상 후보 찾습니다</a>
 </li>
 <li class="notice_node swiper-slide" style="overflow:hidden;">
-<a href="https://www.mk.co.kr/news/notice/10827019" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="공지" data-idx="002" data-id="10827019">방화벽 교체로 인한 서비스 중단 안내</a>
+<a href="https://www.mk.co.kr/news/notice/10830185" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="공지" data-idx="002" data-id="10830185">매경닷컴 이용약관 개정</a>
 </li>
 <li class="notice_node swiper-slide" style="overflow:hidden;">
-<a href="https://www.mk.co.kr/news/notice/10815435" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="공지" data-idx="003" data-id="10815435">'MZ 영웅' 에드가 플랜스展 독자 1500명을 초대합니다</a>
+<a href="https://www.mk.co.kr/news/notice/10827019" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="공지" data-idx="003" data-id="10827019">방화벽 교체로 인한 서비스 중단 안내</a>
 </li>
 <li class="notice_node swiper-slide" style="overflow:hidden;">
-<a href="https://www.mk.co.kr/news/culture/10797732" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="공지" data-idx="004" data-id="10797732">'나쁜 책'이 소개한 '좋은 책' 돌풍 … 매경 좋은 콘텐츠의 힘</a>
+<a href="https://www.mk.co.kr/news/notice/10815435" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="공지" data-idx="004" data-id="10815435">'MZ 영웅' 에드가 플랜스展 독자 1500명을 초대합니다</a>
 </li>
 <li class="notice_node swiper-slide" style="overflow:hidden;">
-<a href="https://www.mk.co.kr/news/notice/10778512" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="공지" data-idx="005" data-id="10778512">[알립니다] 휴가철 동반자 손안의 매경 재테크 뉴스가 24시간 넘실</a>
+<a href="https://www.mk.co.kr/news/culture/10797732" class="notice_item" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="공지" data-idx="005" data-id="10797732">'나쁜 책'이 소개한 '좋은 책' 돌풍 … 매경 좋은 콘텐츠의 힘</a>
 </li>
 </ul>
 </div>
@@ -1748,6 +1751,12 @@ googletag.cmd.push(function() { googletag.display('BC_floor_billboard'); });
 <li class="nav_item">
 <a href="https://www.mk.co.kr/car/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="사이트맵">Car</a>
 </li>
+<li class="nav_item">
+<a href="https://mk.tigergds.com/" target="_blank" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="사이트맵">AGL해외골프</a>
+</li>
+<li class="nav_item">
+<a href="https://funeral.mk.co.kr/" target="_blank" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="사이트맵">MK 장례</a>
+</li>
 </ul>
 </div>
 <div class="nav_col_group">
@@ -1762,9 +1771,6 @@ googletag.cmd.push(function() { googletag.display('BC_floor_billboard'); });
 </li>
 <li class="nav_item">
 <a href="http://raythem.com/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="사이트맵">레이더M</a>
-</li>
-<li class="nav_item">
-<a href="https://raythep.mk.co.kr/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="사이트맵">레이더P</a>
 </li>
 <li class="nav_item">
 <a href="https://www.mk.co.kr/today-paper/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="사이트맵">오늘의 매경</a>
@@ -1829,7 +1835,7 @@ googletag.cmd.push(function() { googletag.display('BC_floor_billboard'); });
 <a href="//www.mk.co.kr/news/special-edition/citylife/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="사이트맵">시티라이프</a>
 </li>
 <li class="nav_item">
-<a href="https://gfw.mk.co.kr/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="사이트맵">골프포위민</a>
+<a href="https://mkgolf.mk.co.kr/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="사이트맵">매경GOLF</a>
 </li>
 </ul>
 </div>
@@ -1867,10 +1873,13 @@ googletag.cmd.push(function() { googletag.display('BC_floor_billboard'); });
 <a href="https://mktest.mk.co.kr/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="사이트맵">매경TEST</a>
 </li>
 </ul>
-<a href="http://subscribe.mk.co.kr/index.php?TM=S&MM=1" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="사이트맵"><h3 class="nav_ttl">서비스</h3></a>
+<a href="https://www.mk.co.kr/membership/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="사이트맵"><h3 class="nav_ttl">서비스</h3></a>
 <ul class="nav">
 <li class="nav_item">
-<a href="http://subscribe.mk.co.kr/index.php?TM=S&MM=1" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="사이트맵">구독신청</a>
+<a href="https://www.mk.co.kr/membership/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="사이트맵">구독신청</a>
+</li>
+<li class="nav_item">
+<a href="https://account.mk.co.kr/p/epaper/checkPhoneInfo/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="e신문 결제확인">e신문 결제확인</a>
 </li>
 <li class="nav_item">
 <a href="//www.mk.co.kr/etc/mobile_info/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="사이트맵">MK모바일</a>
@@ -1906,8 +1915,8 @@ googletag.cmd.push(function() { googletag.display('BC_floor_billboard'); });
 <ul class="nav">
 <li class="nav_item"><a href="https://etc.mk.co.kr/company/intro/sub01_1.php" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="회사정보 (매일경제)">회사소개</a></li>
 <li class="nav_item"><a href="https://etc.mk.co.kr/company/intro/sub01_2.php" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="회사정보 (매일경제)">회사연혁</a></li>
-<li class="nav_item"><a href="http://adcenter.mk.co.kr/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="회사정보 (매일경제)">광고안내</a></li>
-<li class="nav_item"><a href="http://subscribe.mk.co.kr/index.php?TM=S&MM=1" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="회사정보 (매일경제)">구독신청</a></li>
+<li class="nav_item"><a href="https://adcenter.mk.co.kr/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="회사정보 (매일경제)">광고안내</a></li>
+<li class="nav_item"><a href="https://www.mk.co.kr/membership/" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="회사정보 (매일경제)">구독신청</a></li>
 <li class="nav_item"><a href="https://recruit.mk.co.kr/pages/recruit.php" class="nav_link" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="회사정보 (매일경제)">인재채용</a></li>
 </ul>
 </nav>
@@ -1954,7 +1963,7 @@ googletag.cmd.push(function() { googletag.display('BC_floor_billboard'); });
 Copyright (c) 매경닷컴. All rights reserved. 무단 전재, 재배포 및 AI학습 이용 금지
 </div>
 </div>
-<div class="site_map_area">
+<div class="site_map_area sitemap_new">
 <div class="dropdown type_up">
 <button type="button" aria-controls="family_dropdown" aria-haspopup="listbox" aria-expanded="false" class="dropdown_toggle">
 <span>매경 Family site</span>
@@ -1977,10 +1986,31 @@ Copyright (c) 매경닷컴. All rights reserved. 무단 전재, 재배포 및 AI
 <button type="button" onclick="window.open('https://luxmen.mk.co.kr/')" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="bottom">매경LUXMEN</button>
 </li>
 <li class="dropdown_item" role="option">
+<button type="button" onclick="window.open('https://mkgolf.mk.co.kr/')" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="bottom">매경GOLF</button>
+</li>
+<li class="dropdown_item" role="option">
 <button type="button" onclick="window.open('https://m-print.mk.co.kr/')" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="bottom">M-Print</button>
 </li>
 <li class="dropdown_item" role="option">
 <button type="button" onclick="window.open('https://kdx.kr/')" data-category_1depth="뉴스" data-category_2depth="뷰"  data-section="bottom">KDX 한국데이터거래소</button>
+</li>
+</ul>
+</div>
+</div>
+<div class="dropdown type_up lang_drop_wrap">
+<button type="button" aria-controls="family_dropdown" aria-haspopup="listbox" aria-expanded="false" class="dropdown_toggle">
+<span>Language</span>
+</button>
+<div id="language_dropdown" class="dropdown_menu">
+<ul role="listbox">
+<li class="dropdown_item" role="option">
+<button type="button" onclick="window.open('/en')">ENG</button>
+</li>
+<li class="dropdown_item" role="option">
+<button type="button" onclick="window.open('/jp')">JPN</button>
+</li>
+<li class="dropdown_item" role="option">
+<button type="button" onclick="window.open('/cn')">CHN</button>
 </li>
 </ul>
 </div>

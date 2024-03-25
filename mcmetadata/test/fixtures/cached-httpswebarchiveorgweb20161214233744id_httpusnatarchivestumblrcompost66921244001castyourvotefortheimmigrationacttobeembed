@@ -18,7 +18,7 @@
 
                             _gaq.push(['_setCustomVar', 2, 'User_Logged_In', 'No', 3]);
                 _gaq.push(['_trackPageview', '/post/66921244001/cast-your-vote-for-the-immigration-act-to-be/embed?route=%2Fpost%2F%3Aid%2F%3Asummary%2Fembed']);
-            
+
             (function() {
                 var s = document.createElement('script');
                 s.async = true;
@@ -97,14 +97,14 @@
             };
             l(w,'load',a);
         }(window, document));
-</script></head><body 
-                id="embed_post_embed_code_page"        
-    
-        
+</script></head><body
+                id="embed_post_embed_code_page"
 
-                class="flag--reblog-ui-refresh identity base identity-refresh embed_post_embed_code_page logged_out without_auto_paginate layout_modular"        
-    
-        
+
+
+                class="flag--reblog-ui-refresh identity base identity-refresh embed_post_embed_code_page logged_out without_auto_paginate layout_modular"
+
+
 ><div class="l-header-container l-header-container--refresh l-header-container--unstuck always-fullwidth" prima-component="header"><div class="l-header  logged-out-header hide-logo"><h1 class="logo"><style>
         .logo.filled .inner,
         .logo:hover .inner {

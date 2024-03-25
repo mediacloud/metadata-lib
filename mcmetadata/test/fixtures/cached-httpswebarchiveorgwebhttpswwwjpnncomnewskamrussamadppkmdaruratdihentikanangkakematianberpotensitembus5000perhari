@@ -1,7 +1,7 @@
 <!DOCTYPE html> <html lang="id"> <head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("https://www.jpnn.com/news/kamrussamad-ppkm-darurat-dihentikan-angka-kematian-berpotensi-tembus-5000-per-hari","20220721150811","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -90,7 +90,7 @@
         $(window).scroll(function() {var stickyLeft = $('.ans-160x600.left'), stickyRight = $('.ans-160x600.right'), ScrollStart = $(window).scrollTop(), ScrollEnd = $(window).height();var footerOffsetTop = $('footer').offset().top;if (ScrollStart >= 60) {stickyLeft.addClass('sl-fixed');stickyRight.addClass('sr-fixed');} else {stickyLeft.removeClass('sl-fixed');stickyRight.removeClass('sr-fixed');}if ((ScrollStart + ScrollEnd) > footerOffsetTop) {$('.ans-sky').addClass('static');stickyRight.addClass('sl-absolute');stickyRight.addClass('sr-absolute');} else {$('.ans-sky').removeClass('static');stickyRight.removeClass('sl-absolute');stickyRight.removeClass('sr-absolute');}if ((ScrollStart + ScrollEnd) > footerOffsetTop) {$('.ans-sky').addClass('static');stickyLeft.addClass('sl-absolute');stickyLeft.addClass('sr-absolute');} else {$('.ans-sky').removeClass('static');stickyLeft.removeClass('sl-absolute');stickyLeft.removeClass('sr-absolute');}});</script><script>$(document).ready(function() {$('.spinner').hide();});$('a.showfull').click(function() {$(this).text($(this).text() == 'More +' ? 'Show Less -' : 'More +');$(this).prev().toggle();});</script> <script>$('img').each(function() {$(this).on("error", function() {var imgOrigin = $(this).attr('image-origin');$(this).attr("src", imgOrigin);console.log(imgOrigin);});});</script> <script src="https://web.archive.org/web/20220721150811js_/https://www.jpnn.com/assets/js/lazyload.min.js"></script> <script>(function() {function logElementEvent(eventName, element) {}function logEvent(eventName, elementsLeft) {}new LazyLoad();}());</script><script defer src="https://web.archive.org/web/20220721150811js_/https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="" data-cf-beacon="{&quot;rayId&quot;:&quot;72e4d9b9df009e50&quot;,&quot;token&quot;:&quot;497114f55f034ce592ea620c92f1ed31&quot;,&quot;version&quot;:&quot;2022.6.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
 </body> </html><!--
      FILE ARCHIVED ON 15:08:11 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:59:38 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:17:01 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -98,13 +98,12 @@
 -->
 <!--
 playback timings (ms):
-  captures_list: 86.543
-  exclusion.robots: 0.119
-  exclusion.robots.policy: 0.109
-  cdx.remote: 0.057
-  esindex: 0.009
-  LoadShardBlock: 56.34 (3)
-  PetaboxLoader3.datanode: 108.842 (4)
-  load_resource: 102.339
-  PetaboxLoader3.resolve: 23.501
+  exclusion.robots: 0.111
+  exclusion.robots.policy: 0.098
+  cdx.remote: 0.09
+  esindex: 0.012
+  LoadShardBlock: 517.332 (6)
+  PetaboxLoader3.datanode: 295.839 (7)
+  load_resource: 233.416
+  PetaboxLoader3.resolve: 131.295
 -->

@@ -35,9 +35,9 @@ $(document).ready(function(){
 	}
 
 	// Obtiene los valores de la fecha, hora, minutos y segundos del servidor
-	var jDate = '17/01/2024';
-	var jHora = '13';
-	var jMin = '3';
+	var jDate = '25/03/2024';
+	var jHora = '12';
+	var jMin = '9';
 	var jSec = '10';
 
 	// Actualiza la capa #hora-servidor
@@ -80,7 +80,7 @@ $(document).ready(function(){
 </head>
 <body class="BODY">
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
- <tr> 
+ <tr>
   <TD width="25%" height="100%" class="bkg-izq">&nbsp;</TD>
   <td width="990" height="100%" class="bkg-centro_cabecera">
 	<link href="informectes.css" rel="stylesheet" type="text/css">
@@ -89,7 +89,7 @@ $(document).ready(function(){
   <tr>
    <td width="12" height="50"></td>
    <td width="383">
-     <span class='fecha2'>Mi&eacute;rcoles, 17 de Enero de 2024</span><span class='fecha1'> | Corrientes - Argentina</span>	   
+     <span class='fecha2'>Lunes, 25 de Marzo de 2024</span><span class='fecha1'> | Corrientes - Argentina</span>
    </td>
    <td width="250"><div id="caja_busqueda">
        <form id="form_b" name="form_b" method="post" action="buscar.asp" class="form_b">
@@ -103,7 +103,7 @@ $(document).ready(function(){
                </td>
              </tr>
            </table>
-         </form>	
+         </form>
      </div>   </td>
 
    <td width="345" align="center" valign="middle"><img src="imagenes/radioenvivo.png" width="189" height="25" /></td>
@@ -111,10 +111,10 @@ $(document).ready(function(){
  </table>
 </div>
 <div class="cabe_sombra1">
-</div> 
+</div>
 
 <div class="cabecera_ppal">
-  
+
    <table width="990" border="0" cellspacing="0" cellpadding="0">
      <tr>
        <td width="313">
@@ -163,12 +163,12 @@ $(document).ready(function(){
        </td>
      </tr>
    </table>
-   
-  
+
+
 
 </div>
-  
-  
+
+
   <div class="cabe_linea_bajo_logo"></div>
  </div>
  <div class="linea_bajo_menu">
@@ -178,7 +178,7 @@ $(document).ready(function(){
     <td width="73" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=1">Pol&iacute;tica</a></div></td>
     <td width="185" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=2">Informaci&oacute;n General</a></div></td>
     <td width="77" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=3">Policial</a></div></td>
-    <td width="85" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=4">Deportes</a></div></td>    
+    <td width="85" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=4">Deportes</a></div></td>
     <td width="95" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=5">Nacional</a></div></td>
     <td width="116" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=6">Internacional</a></div></td>
     <td width="74" valign="top" class="linea_derecha_menu"><div align="center" class="menu"><a href="verseccion.asp?seccion=7">Astros</a></div></td>
@@ -213,25 +213,25 @@ $(document).ready(function(){
            <tr>
              <td><div>
                <div><div class ='titulo'>La Provincia encara obras de canalización en Yapeyú</div>
-                            
+
                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
                              <tr>
                                <td width="64%">
-                               
-                               <div class='volanta_fecha'>Viernes, 30 de abril de 2021</div>									 
+
+                               <div class='volanta_fecha'>Viernes, 30 de abril de 2021</div>
 
                                </td>
                                <td width="36%" align="right">
-                               
+
                                </td>
                              </tr>
                            </table>
                            <IMG src='galeria/regreg3232dd.jpg' class='fotonota_ap'><div class='intro'>El Gobierno de la Provincia se encuentra realizando cerca de cinco mil metros de canalización de desagües pluviales en Yapeyú, con el objeto de encauzar el agua en tiempos de lluvia que provoca serios problemas de inundación en la zona, especialmente en el sector sur de viviendas ubicado en el acceso al éjido urbano de la localidad.<br></div><span class ='cuerpo'><br><br>Dichas obras fueron motivadas debido a las precipitaciones de gran intensidad registradas últimamente, el tiempo pico de lluvia muy corto debido a las fuertes pendientes y a la precaria red de desagüe existente, constituida por zanjas con obstrucciones localizadas.<br><br><br><br>Ante este cuadro de situación, la Coordinación de Proyecto del ministerio de Obras y Servicios Públicos, diseñó un sistema de desagües pluviales para dar respuesta efectiva a esa problemática, obra en marcha que dicho organismo supervisa.<br><br><br><br>En este sentido se trabaja en la construcción de sendos canales a cielo abierto; uno principal que aproximadamente de 2.800 metros de largo, y otro canal secundario de una longitud de 1.900 metros, completando una extensión total de 4.700 metros que descargan en el arroyo Guaviraví, al sur de Yapeyú que a su vez desemboca en el río Uruguay.<br><br><br><br>En diferentes cruces de esta canalización se instalan tubos de hormigón armado, en secciones de baterías, para asegurar la libre circulación vial en la zona.</span><br><br>
 									 <div>
-                                     
+
 									 </div>
              </div>
-               
+
                             </td>
            </tr>
            <tr>
@@ -240,7 +240,7 @@ $(document).ready(function(){
          </table></td>
        </tr>
      </table>
-      
+
       </td>
       <td width="330" valign="top">
         <div id="contenedores_columnas">
@@ -248,46 +248,45 @@ $(document).ready(function(){
 		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
 			<tr>
 			 <td valign='top' align="center">
-			  <IMG src='galeria/RAQUETAS.jpg' class='foto_destacada1'>		   
+			  <IMG src='galeria/tres dias.jpg' class='foto_destacada1'>
 			 </td>
-			</tr> 
+			</tr>
          <tr>
 			 <td valign='top'>
-			 <span class="volanta_col3">MELBOURNE</span>
+			 <span class="volanta_col3">Fray José de la Quintana</span>
 			 </td>
 	    </tr>
 			<tr>
 			 <td valign='top'>
-				<a href='vernota.asp?id_noticia=54478' class ='titulo_col3'>Etcheverry se cruzará con Djokovic en la tercera ronda en Australia</a><br />		   
-			 </td>
-			</tr> 
-	    <tr>
-			 <td valign='top'>
-			  
-			 
-					 <a href='vernota.asp?id_noticia=54478' class ='intro_col3'>
-El platense le ganó al francés Monfils por 6-4, 6-4 y 6-4 en dos horas y 14 minutos y en la próxima instancia jugaría ante el serbio Djokovic, que superó al australiano Alexei Popyrin por 6-3, 4-6, 7-6 (4) y 6-3.</a> 
-					 
+				<a href='vernota.asp?id_noticia=55103' class ='titulo_col3'>A tres días volvieron a robar la bomba de agua de la Escuela</a><br />
 			 </td>
 			</tr>
-      
+	    <tr>
+			 <td valign='top'>
+
+
+					 <a href='vernota.asp?id_noticia=55103' class ='intro_col3'>Al igual que el jueves de la semana pasada, las autoridades escolares se encontraron con el robo de la bomba de agua y esta vez de un acondicionador de aire de uno de los salones de la Escuela Nº 956 “Nuestra Señora de la Medalla Milagrosa”.</a>
+
+			 </td>
+			</tr>
+
 			<tr>
-			 <td> 
-			  
+			 <td>
+
 	     </td>
-			</tr>  
-             	
+			</tr>
+
              <tr>
 			 <td class="linea_p_separa">
 			 </td>
-			</tr> 			
+			</tr>
 		 </table>
 		 <div align='center' style='margin:0px 0px 0px 0px'><img src='publicidad/bneme.gif' width='300' border='0' align='center'></div><div align='center' style='margin:10px 0px 10px 0px'><img src='publicidad/2023gob250x100.gif' width='320' border='0' align='center'></div><div align='center' style='margin:0px 0px 0px 0px'><img src='publicidad/2023pep250x100.gif' width='320' border='0' align='center'></div><div id='separa_lineas_puntos'></div>
 		<table width="98%" border="0" cellspacing="0" cellpadding="0" align="center">
 		 <tr>
 		  <td height="10">
 			</td>
-		 </tr>	
+		 </tr>
     </table>
 		<table width="98%" border="0" cellspacing="0" cellpadding="0" align="center">
 		 <tr>
@@ -301,8 +300,8 @@ El platense le ganó al francés Monfils por 6-4, 6-4 y 6-4 en dos horas y 14 mi
 		 <tr class="tabla_encuesta">
 			<td>
 				<form id="formencuesta" class="form" name="formencuesta" method="post" action="grabarencuesta.asp">
-					<div class='encuesta_titulo'>CUÁL ES TU MASCOTA FAVORITA?</div><table width='215' border='0' cellspacing='3' cellpadding='0'><tr><td width='30' height='30'  align='right' valign='middle'><input name='opencuesta' type='radio' value='39' /></td><td><span class='encuesta_opciones'>1- GATO</span></td></tr><tr><td width='30' height='30'  align='right' valign='middle'><input name='opencuesta' type='radio' value='40' /></td><td><span class='encuesta_opciones'>2- PERRO</span></td></tr></table>           
-					
+					<div class='encuesta_titulo'>CREES QUE LA LEY ÓMNIBUS ¿TE AYUDA O TE HUNDE?</div><table width='215' border='0' cellspacing='3' cellpadding='0'><tr><td width='30' height='30'  align='right' valign='middle'><input name='opencuesta' type='radio' value='41' /></td><td><span class='encuesta_opciones'>1- ME AYUDA</span></td></tr><tr><td width='30' height='30'  align='right' valign='middle'><input name='opencuesta' type='radio' value='42' /></td><td><span class='encuesta_opciones'>2- ME HUNDE</span></td></tr></table>
+
 						<div class="linea_p_separa_e">
 						</div>
 						<div align="center" style="height:40px;">
@@ -316,161 +315,158 @@ El platense le ganó al francés Monfils por 6-4, 6-4 y 6-4 en dos horas y 14 mi
 		 <tr>
 		  <td height="10">
 			</td>
-		 </tr>	
+		 </tr>
     </table>
-		
+
 		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
 			<tr>
 			 <td valign='top' align="center">
-			  <IMG src='galeria/PALAVECINO.jpg' class='foto_destacada1'>		   
+			  <IMG src='galeria/LA SEÑORA.jpg' class='foto_destacada1'>
 			 </td>
-			</tr> 
+			</tr>
          <tr>
 			 <td valign='top'>
-			 <span class="volanta_col3">RIVER</span>
+			 <span class="volanta_col3">CON CUSTODIA POLICIAL</span>
 			 </td>
 	    </tr>
 			<tr>
 			 <td valign='top'>
-				<a href='vernota.asp?id_noticia=54477' class ='titulo_col3'>Inter Miami quiere a Palavecino junto a Messi</a><br />		   
-			 </td>
-			</tr> 
-	    <tr>
-			 <td valign='top'>
-			  
-			 
-					 <a href='vernota.asp?id_noticia=54477' class ='intro_col3'>
-El equipo de la Major League Soccer se puso en contacto con la dirigencia millonaria mientras el plantel realiza la pretemporada en Estados Unidos.</a> 
-					 
+				<a href='vernota.asp?id_noticia=55102' class ='titulo_col3'>Causa Catastro: trasladaron a Corrientes a Teresa Vázquez</a><br />
 			 </td>
 			</tr>
-      
+	    <tr>
+			 <td valign='top'>
+
+
+					 <a href='vernota.asp?id_noticia=55102' class ='intro_col3'>Personal de la Dirección de Trata de Personas, búsqueda y captura de la Policía de Corrientes trasladadaron bajo una importante custodia, a Teresa Vázquez la mujer sindicada como cabecilla de la organización delictiva dedicada a la venta irregular.</a>
+
+			 </td>
+			</tr>
+
 			<tr>
-			 <td> 
-			  
+			 <td>
+
 	     </td>
-			</tr>  
-             	
+			</tr>
+
              <tr>
 			 <td class="linea_p_separa">
 			 </td>
-			</tr> 			
+			</tr>
 		 </table>
-		 
+
 		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
 			<tr>
 			 <td valign='top' align="center">
-			  <IMG src='galeria/BELLA VISTA .jpg' class='foto_destacada1'>		   
+			  <IMG src='galeria/UF7RNRIBP5C3BPLZQRZ42DWBOI.jpg' class='foto_destacada1'>
 			 </td>
-			</tr> 
+			</tr>
          <tr>
 			 <td valign='top'>
-			 <span class="volanta_col3">BELLA VISTA</span>
+			 <span class="volanta_col3">Rosario</span>
 			 </td>
 	    </tr>
 			<tr>
 			 <td valign='top'>
-				<a href='vernota.asp?id_noticia=54475' class ='titulo_col3'>Brutal golpiza a mujer que reclamó el salario de los hijos</a><br />		   
-			 </td>
-			</tr> 
-	    <tr>
-			 <td valign='top'>
-			  
-			 
-					 <a href='vernota.asp?id_noticia=54475' class ='intro_col3'>El hecho sucedió cuando fue a buscar los chicos a la casa del papá de los menores. En el ataque que realizó el hombre frente a los niños también participó la exsuegra. Espera que la Justicia actúe en consecuencia.</a> 
-					 
+				<a href='vernota.asp?id_noticia=55100' class ='titulo_col3'>Amenaza de narcotraficantes a Ángel Di María y su familia</a><br />
 			 </td>
 			</tr>
-      
+	    <tr>
+			 <td valign='top'>
+
+
+					 <a href='vernota.asp?id_noticia=55100' class ='intro_col3'>
+Sospechosos a bordo de un auto arrojaron un trozo de nylon negro con una nota en la entrada del country Funes Hills Miraflores, donde el campeón del mundo suele quedarse en sus estadías en la provincia. La Policía provincial los está custodiando.</a>
+
+			 </td>
+			</tr>
+
 			<tr>
-			 <td> 
-			  
+			 <td>
+
 	     </td>
-			</tr>  
-             	
+			</tr>
+
              <tr>
 			 <td class="linea_p_separa">
 			 </td>
-			</tr> 			
+			</tr>
 		 </table>
-		 
+
 		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
 			<tr>
 			 <td valign='top' align="center">
-			  <IMG src='galeria/trata d personas.jpg ' class='foto_destacada1'>		   
+			  <IMG src='galeria/messi de ajedrez.jpg' class='foto_destacada1'>
 			 </td>
-			</tr> 
+			</tr>
          <tr>
 			 <td valign='top'>
-			 <span class="volanta_col3">Trata de personas</span>
+			 <span class="volanta_col3">Impacto en el ajedrez</span>
 			 </td>
 	    </tr>
 			<tr>
 			 <td valign='top'>
-				<a href='vernota.asp?id_noticia=54473' class ='titulo_col3'>Encontraron en Corrientes a una misionera desaparecida desde el año pasado</a><br />		   
-			 </td>
-			</tr> 
-	    <tr>
-			 <td valign='top'>
-			  
-			 
-					 <a href='vernota.asp?id_noticia=54473' class ='intro_col3'>
-En noviembre su familia denunció la ausencia de esta persona de 28 años.</a> 
-					 
+				<a href='vernota.asp?id_noticia=55099' class ='titulo_col3'>Un niño argentino derrotó a Magnus Carlsen el mejor jugador del mundo</a><br />
 			 </td>
 			</tr>
-      
+	    <tr>
+			 <td valign='top'>
+
+
+					 <a href='vernota.asp?id_noticia=55099' class ='intro_col3'>En el primer enfrentamiento entre ambos, el niño se impuso en una partida “bullet” (a un minuto para cada jugador) correspondiente al circuito de torneos Bullet Brawl</a>
+
+			 </td>
+			</tr>
+
 			<tr>
-			 <td> 
-			  
+			 <td>
+
 	     </td>
-			</tr>  
-             	
+			</tr>
+
              <tr>
 			 <td class="linea_p_separa">
 			 </td>
-			</tr> 			
+			</tr>
 		 </table>
-		 
+
 		 <table width='100%' border='0' cellpadding="0" cellspacing="0">
 			<tr>
 			 <td valign='top' align="center">
-			  <IMG src='galeria/agustín.jpg' class='foto_destacada1'>		   
+			  <IMG src='galeria/roturas.jpg' class='foto_destacada1'>
 			 </td>
-			</tr> 
+			</tr>
          <tr>
 			 <td valign='top'>
-			 <span class="volanta_col3">FUE PARA RECUPERARSE</span>
+			 <span class="volanta_col3">CONFLICTO SALARIAL</span>
 			 </td>
 	    </tr>
 			<tr>
 			 <td valign='top'>
-				<a href='vernota.asp?id_noticia=54457' class ='titulo_col3'>Familiares de Agustín quien falleció en el hospital de salud mental pidieron justicia</a><br />		   
-			 </td>
-			</tr> 
-	    <tr>
-			 <td valign='top'>
-			  
-			 
-					 <a href='vernota.asp?id_noticia=54457' class ='intro_col3'>
-El muchacho tenía 24 años se internó voluntariamente el 21 de diciembre de 2023 y no volvieron a verlo.
-</a> 
-					 
+				<a href='vernota.asp?id_noticia=55090' class ='titulo_col3'>Atacaron colectivos de Turismo Miramar por prestar servicio en el paro</a><br />
 			 </td>
 			</tr>
-      
+	    <tr>
+			 <td valign='top'>
+
+
+					 <a href='vernota.asp?id_noticia=55090' class ='intro_col3'>"Están tirando con balines de acero en la zona del colegio Figuerero, sería por Rafaela. Y por Alta Gracia. Avisé al 911. Y por Maipú tiraron ladrillo", alertó uno de los conductores de Turismo Miramar.</a>
+
+			 </td>
+			</tr>
+
 			<tr>
-			 <td> 
-			  
+			 <td>
+
 	     </td>
-			</tr>  
-             	
+			</tr>
+
              <tr>
 			 <td class="linea_p_separa">
 			 </td>
-			</tr> 			
+			</tr>
 		 </table>
-		 
+
         <table width='100%' border='0' cellpadding='0' cellspacing='0'>
 				 <tr>
 				  <td align="center">
@@ -480,9 +476,9 @@ El muchacho tenía 24 años se internó voluntariamente el 21 de diciembre de 20
 				<tr>
 				 <td class="linea_p_separa">
 				 </td>
-				</tr> 			
-        </table>	    
-				
+				</tr>
+        </table>
+
 </div>
 
       </td>
@@ -509,12 +505,12 @@ El muchacho tenía 24 años se internó voluntariamente el 21 de diciembre de 20
         www.informecorrientes.com | All rights reserved<br />
         Corrientes - Argentina<br />
         @informecorrientes.com</p>
-    </div>  
+    </div>
     </td>
     <td width="198" class="pie_der_logo">
      <a href="http://www.chamigonet.com.ar" target="_blank">
-       <img src="imagenes/logo_chamigonet.png" width="145" height="50" border="0" class="logo_chamigonet">		 
-     </a>    
+       <img src="imagenes/logo_chamigonet.png" width="145" height="50" border="0" class="logo_chamigonet">
+     </a>
     </td>
   </tr>
 </table>

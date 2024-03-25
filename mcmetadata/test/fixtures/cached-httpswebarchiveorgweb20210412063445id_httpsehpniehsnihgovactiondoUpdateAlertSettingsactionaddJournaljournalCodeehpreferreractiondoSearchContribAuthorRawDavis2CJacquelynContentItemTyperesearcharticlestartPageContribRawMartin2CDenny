@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"     class="pb-page"  data-request-id="77d222d1-1943-47c1-9288-2dca5a8e4051"  
+<html lang="en"     class="pb-page"  data-request-id="77d222d1-1943-47c1-9288-2dca5a8e4051"
 ><head data-pb-dropzone="head"><meta name="pbContext" content=";wgroup:string:EHP Publication Websites;website:website:ehp-site;page:string:Alert Subscription by Email"/>
 
 
@@ -39,7 +39,7 @@
 
 
         <meta property="og:url" content=""/>
-    
+
 
 
 
@@ -172,7 +172,7 @@ a:hover {
 
 /* Cleaning up rendering of related articles on toc */
 
-.corrections__title .loa-authors-trunc, 
+.corrections__title .loa-authors-trunc,
 .corrections__title .parent-item {
     display: none;
 }
@@ -183,7 +183,7 @@ a:hover {
 }
 
 /* Padding so links don't bump into icons */
-.author-instructions__navigation [role=button]:after, 
+.author-instructions__navigation [role=button]:after,
 .author-instructions__navigation a:after {
     padding-left: 10px;
 }
@@ -204,7 +204,7 @@ a:hover {
 
 .separator {
     margin-top: 30px;
-} 
+}
 
 /* LIT-225690 */
 bold {
@@ -231,7 +231,7 @@ hr.section__separator {
     height: 1px;
 }
 
-/* EHP-178 */ 
+/* EHP-178 */
 h4.article-section__title {
     font-style: italic;
 }
@@ -330,7 +330,7 @@ article .tab__pane a.badge-type {
 
 .do .link__description p {
     margin: 0;
-} 
+}
 
 .do .link__title {
     font-size: 1rem;
@@ -364,17 +364,6 @@ article .tab__pane a.badge-type {
 
 
 
-    
-
-
-
-
-
-
-
-    
-        
-    
 
 
 
@@ -393,12 +382,22 @@ article .tab__pane a.badge-type {
 
 
 
-    
-    
-            
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <link rel="canonical" href="https://ehp.niehs.nih.gov/action/doUpdateAlertSettings?action=addJournal&journalCode=ehp&referrer=%2Faction%2FdoSearch%3FContribAuthorRaw%3DDavis%2C+Jacquelyn&ContentItemType=research-article&startPage=&ContribRaw=Martin%2C+Denny">
-        
 
 
 
@@ -462,7 +461,8 @@ article .tab__pane a.badge-type {
 
 
 
-    
+
+
 </head>
 <body class="pb-ui">
 
@@ -520,36 +520,36 @@ article .tab__pane a.badge-type {
 
 
         <div data-widget-def="general-html-asset" data-widget-id="165e198a-d9ee-4e8a-b033-98808a1c2fed" class="hide-menu-dropzone-xs">
-        
 
 
 
-        
+
+
         <header class="header base" data-db-parent-of="sb1">
 <a href="#afterNav" class="sr-only-focusable">Skip to main content</a>
 
 
 
 
-        
+
         <div class="container"><div class="row"><div class=" col-xs-12">
 
 
 
-        
-        
 
 
 
-        
-    
+
+
+
+
 
 </div></div></div>
 
 
 
 
-        
+
         <div class="scrollThenFix">
 
 
@@ -561,16 +561,16 @@ article .tab__pane a.badge-type {
 
 
         <div data-widget-def="ux3-layout-widget" data-widget-id="f3992bda-f515-41a7-a6c2-85c77bd2ff4b" class="container header--first-row">
-        
 
 
 
-        
+
+
         <div class="pull-left">
 
 
 
-        
+
         <h1 id="logo" class="header__logo">
    <a href="/" title="Environmental Health Perspectives Main Page">
       <img src="/pb-assets/images/logos/headerLogo-1545137939450.png" alt="Environmental Health Perspectives" >
@@ -588,15 +588,15 @@ article .tab__pane a.badge-type {
 
 
         <div data-widget-def="ux3-general-image" data-widget-id="356480d2-5a43-4019-8f39-fe7718a91559" class="open-access-img">
-        
 
 
 
-        
+
+
         <a href="/about-ehp/open-access" title="Open Access logo"><img id="" alt="Open Access logo" src="/pb-assets/images/logos/openAccess-1557518115713.png"/></a>
 
         </div>
-    
+
 
 
 
@@ -608,19 +608,19 @@ article .tab__pane a.badge-type {
 
 
         <div data-widget-def="UX3QuickSearchWidget" data-widget-id="2ab8c5e1-89d0-4f69-aaad-ceb29b9ce168" class="header__quick-menu">
-        
 
 
 
-        
+
+
         <a href="#" title="search" data-db-target-for="sb1" class="quick-menu__item"><i aria-hidden="true" class="block-icon icon-search"></i></a><div data-db-target-of="sb1" class="dropBlock__holder quick-search__dropBlock quickSearchFormContainer"><div class="container"><div class="quick-search"><div class="clearfix"><form action="/action/doSearch" name="defaultQuickSearch" method="get" title="Quick Search" class="quick-search--form"><div class="quick-search--input"><div class="input-group option-0"><label for="quick-search-input" class="sr-only">Quick search</label><input id="quick-search-input" type="search" name="AllField" placeholder="Enter search terms here" data-auto-complete-max-words="7" data-auto-complete-max-chars="32" data-contributors-conf="3" data-topics-conf="3" data-publication-titles-conf="3" data-history-items-conf="3" value="" class="autocomplete"/><i class="icon-Icon_Search"></i></div></div><div class="quick-search--button"><button type="submit" title="Search" class="btn quick-search__button">Search</button></div></form></div></div></div></div>
 
         </div>
-    
+
 </div>
 
         </div>
-    
+
 
 
 
@@ -632,45 +632,45 @@ article .tab__pane a.badge-type {
 
 
         <div data-widget-def="ux3-layout-widget" data-widget-id="c76399aa-0643-4b38-875a-73f93c92f22f" class="primary-bg-color text-onDark drawer__nav">
-        
 
 
 
-        
+
+
         <div class="container"><div class="row"><div>
 
 
 
-        
+
         <a href="#afterNav-cqd" class="sr-only-focusable">Skip main navigation</a><div class="main-nav"><a href="#main-menu" data-target="main-menu" data-toggle="nav" class="main-nav__toggle__controller"><i class="icon-menu2"><span class="sr-only">Close Drawer Menu</span></i><i class="icon-close_thin"><span class="sr-only">Open Drawer Menu</span></i></a><nav role="navigation" id="main-menu" data-ctrl-res="screen-sm" class="drawer__nav container gutterless hidden-sm hidden-xs"><a href="#" data-redirect-to="/" class="menu-header hidden-md hidden-lg">Home</a><ul id="menubar" role="menubar" class="menubar rlist--inline"><li role="menuitem" aria-label="Home" id="menu-item-main-menu-0" class="menu-item"><a href="/"><span>Home</span></a></li><li role="menuitem" aria-label="Current Issue" id="menu-item-main-menu-1" class="menu-item"><a href="/toc/ehp/current"><span>Current Issue</span></a></li><li role="menuitem" aria-label="Archives" id="menu-item-main-menu-2" class="menu-item"><a href="/loi/ehp"><span>Archives</span></a></li><li role="menuitem" aria-haspopup="true" aria-label="Collections" id="menu-item-main-menu-3" class="dropdown menu-parent"><a href="#" id="main-menu-1" data-toggle="dropdown" class="dropdown__toggle"><span>Collections</span><i aria-hidden="true" class="icon-arrow_r pull-right hidden-md hidden-lg"></i><i aria-hidden="true" class="icon-section_arrow_d pull-right hidden-sm hidden-xs"></i></a><ul aria-labelledby="main-menu-1" role="menu" class="rlist dropdown__menu"><li role="menuitem" tabindex="-1" aria-label="Curated Collections" class="menu-item"><a href="/curated-collections"><span>Curated Collections</span></a></li><li role="menuitem" tabindex="-1" aria-label="Chinese Collection" class="menu-item"><a href="/loi/cehp"><span>Chinese Collection</span></a></li><li role="menuitem" tabindex="-1" aria-label="Podcasts" class="menu-item"><a href="/collections/podcasts/trp"><span>Podcasts</span></a></li><li role="menuitem" tabindex="-1" aria-label="Conference Abstracts" class="menu-item"><a href="/conference-abstracts"><span>Conference Abstracts</span></a></li><li role="menuitem" tabindex="-1" aria-label="Archived Collections" class="menu-item"><a href="/collections/archived"><span>Archived Collections</span></a></li></ul></li><li role="menuitem" aria-haspopup="true" aria-label="Authors" id="menu-item-main-menu-4" class="dropdown menu-parent"><a href="#" id="main-menu-2" data-toggle="dropdown" class="dropdown__toggle"><span>Authors</span><i aria-hidden="true" class="icon-arrow_r pull-right hidden-md hidden-lg"></i><i aria-hidden="true" class="icon-section_arrow_d pull-right hidden-sm hidden-xs"></i></a><ul aria-labelledby="main-menu-2" role="menu" class="rlist dropdown__menu"><li role="menuitem" tabindex="-1" aria-label="Author Hub" class="menu-item"><a href="/authors/hub"><span>Author Hub</span></a></li><li role="menuitem" tabindex="-1" aria-label="Submit" class="menu-item"><a href="https://www.editorialmanager.com/ehp"><span>Submit</span></a></li></ul></li><li role="menuitem" aria-haspopup="true" aria-label="About" id="menu-item-main-menu-5" class="dropdown menu-parent"><a href="#" id="main-menu-3" data-toggle="dropdown" class="dropdown__toggle"><span>About</span><i aria-hidden="true" class="icon-arrow_r pull-right hidden-md hidden-lg"></i><i aria-hidden="true" class="icon-section_arrow_d pull-right hidden-sm hidden-xs"></i></a><ul aria-labelledby="main-menu-3" role="menu" class="rlist dropdown__menu"><li role="menuitem" tabindex="-1" aria-label="About EHP" class="menu-item"><a href="/about-ehp"><span>About EHP</span></a></li><li role="menuitem" tabindex="-1" aria-label="EHP Editors" class="menu-item"><a href="/about-ehp/editorial-boards/ehp"><span>EHP Editors</span></a></li><li role="menuitem" tabindex="-1" aria-label="Editorial Boards" class="menu-item"><a href="/about-ehp/editorial-boards"><span>Editorial Boards</span></a></li><li role="menuitem" tabindex="-1" aria-label="Connect" class="menu-item"><a href="/about-ehp/connect"><span>Connect</span></a></li><li role="menuitem" tabindex="-1" aria-label="Contact" class="menu-item"><a href="/about-ehp/contact"><span>Contact</span></a></li></ul></li></ul></nav><span id="afterNav-cqd" tabindex="-1"></span></div><div class="header__dropzone">
 
 
 
-        
+
         <a href="/action/doUpdateAlertSettings?action=addJournal&amp;journalCode=ehp&amp;referrer=/action/doUpdateAlertSettings?action&#x3D;addJournal&amp;journalCode&#x3D;ehp&amp;referrer&#x3D;%2Faction%2FdoSearch%3FContribAuthorRaw%3DDavis%2C+Jacquelyn&amp;ContentItemType&#x3D;research-article&amp;startPage&#x3D;&amp;ContribRaw&#x3D;Martin%2C+Denny" title="Manage Site Alerts" aria-label="Manage Site Alerts"><i class="icon-Icon_Alerts"></i></a>
 
 
 
 
-        
+
         <!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" async="async" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-4faab26f2cff13a7"></script><a href="#" data-db-target-for="2fda3746-ad22-46f2-9632-14012914ece0" data-db-switch="icon-close_thin" data-slide-target="#2fda3746-ad22-46f2-9632-14012914ece0_Pop" class="share__ctrl w-slide__btn"><i aria-hidden="true" class="icon-Icon_Share"></i><span>Share</span></a><div data-db-target-of="2fda3746-ad22-46f2-9632-14012914ece0" id="2fda3746-ad22-46f2-9632-14012914ece0_Pop" class="share__block dropBlock__holder fixed"><div class="pb-dropzone" data-pb-dropzone="shareBlock" title="shareBlock"></div><span class="sr-only">Share on</span><ul class="rlist w-slide--list addthis addthis_toolbox addthis_default_style addthis_32x32_style"><li><a role="link" class="addthis_button_facebook">Facebook</a></li><li><a role="link" class="addthis_button_twitter">Twitter</a></li><li><a role="link" class="addthis_button_linkedin">Linked In</a></li><li><a role="link" class="addthis_button_reddit">Reddit</a></li><li><a role="link" class="addthis_button_email">Email</a></li></ul></div>
 </div>
 </div></div></div>
 
         </div>
-    
+
 </div>
 
 <span id="afterNav" tabindex="-1"></span>
 </header>
 
         </div>
-    
 
 
 
 
-        
+
+
         <main class="content">
 
 
@@ -682,72 +682,72 @@ article .tab__pane a.badge-type {
 
 
         <div data-widget-def="alertsByEmail" data-widget-id="58fe48eb-be3e-440b-822a-53d1cc9813eb" class="alerts__user">
-        
 
 
 
-        
+
+
             <h1 class="">
                 Sign up for e-mail alerts
             </h1>
-        
-        
+
+
 
 
 
 <form action="/action/doUpdateAlertSettings" method="post"><div class="alert__user__email__header">
-        
+
             Subscribe to ToC Alert:
-        
+
     </div>
     <label for="email" class="alerts__user__email__label">Please enter your email:</label>
     <input id="email" class="alerts__user__email" type="email" name="email" value="" />
 
-    
 
 
 
-        
+
+
 
 
 
 
         <script src='//www.google.com/recaptcha/api.js?render=explicit&onload=loadRecaptcha&hl=en' async defer></script>
         <div class="g-recaptcha "  data-sitekey="6Lc4HR8TAAAAAPFSxfchztMruqn2dTwPIQ9vaX9b" ></div>
-    
 
 
-    
+
+
 
 
     <div class="error"></div>
 
     <input type="submit" value="Submit" />
-    
-    
+
+
         <input id="referrer" type="hidden" name="referrer" value="/action/doSearch?ContribAuthorRaw=Davis, Jacquelyn" />
-    
+
         <input id="startPage" type="hidden" name="startPage" value="" />
-    
+
         <input id="journalCode" type="hidden" name="journalCode" value="ehp" />
-    
+
         <input id="ContribRaw" type="hidden" name="ContribRaw" value="Martin, Denny" />
-    
+
         <input id="action" type="hidden" name="action" value="addJournal" />
-    
+
         <input id="ContentItemType" type="hidden" name="ContentItemType" value="research-article" />
-    
+
 
     <input type="hidden" name="firstTime" value="false" /></form>
 
         </div>
-    
+
 </main>
 
 
 
 
-        
+
         <footer class="footer">
 
 
@@ -759,16 +759,16 @@ article .tab__pane a.badge-type {
 
 
         <div data-widget-def="ux3-layout-widget" data-widget-id="81a18a14-d709-41fd-9bb6-25a7fc1e13df" class="footer-top clearfix">
-        
 
 
 
-        
+
+
         <div class="container"><div class="row"><div class="col-lg-3 col-sm-4">
 
 
 
-        
+
         <div class="footer__logo">
     <a href="/" title="Environmental Health Perspectives main page">
         <img alt="Logo for Environmental Health Perspectives" src="/pb-assets/images/logos/footerLogo-1545137939423.png">
@@ -778,7 +778,7 @@ article .tab__pane a.badge-type {
 
 
 
-        
+
         <div class="contact">
    <div class="contact">
       <nav class="contact__nav">
@@ -804,16 +804,16 @@ article .tab__pane a.badge-type {
 
 
         <div data-widget-def="ux3-layout-widget" data-widget-id="7286ab10-2970-45f7-a31e-5f8ba1aa385f" class="footer-top clearfix">
-        
 
 
 
-        
+
+
         <div class="col-sm-4 col-sm-3">
 
 
 
-        
+
         <h5 class="border-top">Support and Resources</h5>
 <ul class="rlist">
    <li><a href="https://www.editorialmanager.com/ehp/" target="_blank">Submit Manuscript</a></li>
@@ -826,7 +826,7 @@ article .tab__pane a.badge-type {
 
 
 
-        
+
         <h5 class="border-top">About <em>EHP</em></h5>
 <ul class="rlist">
    <li><a href="/about-ehp/copyright-permissions">Copyright and Permissions</a></li>
@@ -838,11 +838,11 @@ article .tab__pane a.badge-type {
 </div>
 
         </div>
-    
+
 </div></div></div>
 
         </div>
-    
+
 
 
 
@@ -854,27 +854,27 @@ article .tab__pane a.badge-type {
 
 
         <div data-widget-def="ux3-layout-widget" data-widget-id="6e6da9b7-371e-4ea0-827e-8de5915b8cd5" class="footer-bottom text-onDark">
-        
 
 
 
-        
+
+
         <div class="container"><div class="row"><div class=" col-md-6">
 
 
 
-        
+
         <a href="/privacy">Privacy Policy</a> | Environmental Health Perspectives, 111 TW Alexander Drive, Durham, NC 27713
 </div><div class=" col-md-6"></div></div></div>
 
         </div>
-    
+
 </footer>
 
 
 
 
-        
+
         <!-- Bot analytics test -->
 <script src="https://api.b2c.com/api/init-260u9k3l7hxtcferh76.js" data-cfasync="false" async></script>
 <noscript><img src="https://api.b2c.com/api/noscript-260u9k3l7hxtcferh76.gif"></noscript>
@@ -885,7 +885,7 @@ article .tab__pane a.badge-type {
     </div>
 
 
-	
+
     <script src="/products/ehp/releasedAssets/js/build.lazyload.bundle-13c1c32fa09e242b0d57.js"></script><script src="/products/ehp/releasedAssets/js/main.bundle-1f84726e0f3592644c31.js"></script>
 <script type="text/javascript" src="/wro/k48v~product.js"></script>
 
@@ -919,7 +919,7 @@ article .tab__pane a.badge-type {
 
 
 
-    
+
 
 
 

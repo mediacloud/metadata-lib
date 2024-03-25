@@ -3,7 +3,7 @@
   <head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("https://www.atv.hu/belfold/20190730/gyarfas-ugyvedje-aki-a-vadiratot-alkotta-nem-biztos-hogy-az-ugy-minden-reszletet-megismerte","20220725010824","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -82,7 +82,7 @@
 </html>
 <!--
      FILE ARCHIVED ON 01:08:24 Jul 25, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:54:27 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:13:22 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -90,13 +90,12 @@
 -->
 <!--
 playback timings (ms):
-  captures_list: 109.305
-  exclusion.robots: 0.268
-  exclusion.robots.policy: 0.251
-  cdx.remote: 0.111
-  esindex: 0.016
-  LoadShardBlock: 54.46 (3)
-  PetaboxLoader3.datanode: 117.82 (4)
-  load_resource: 212.298
-  PetaboxLoader3.resolve: 116.142
+  exclusion.robots: 0.204
+  exclusion.robots.policy: 0.187
+  cdx.remote: 0.168
+  esindex: 0.015
+  LoadShardBlock: 528.153 (6)
+  PetaboxLoader3.datanode: 429.196 (7)
+  load_resource: 320.54
+  PetaboxLoader3.resolve: 164.649
 -->

@@ -5,7 +5,7 @@
 <!DOCTYPE html><html lang="de"><head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("https://www.finanznachrichten.de/nachrichten-2016-08/38189388-bittium-oyj-bittium-corporation-s-half-year-financial-report-january-june-2016-004.htm","20220721144021","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -48,7 +48,7 @@
             appId: "1:303111472022:web:6d8b3fe9658bf905"
         });</script><!-- IVW - begin preload of IOM web manager --><link rel="preload" href="https://web.archive.org/web/20220721144021/https://data-49bb023f99.finanznachrichten.de/iomm/latest/manager/base/es6/bundle.js" as="script" id="IOMmBundle"><link rel="preload" href="https://web.archive.org/web/20220721144021/https://data-49bb023f99.finanznachrichten.de/iomm/latest/bootstrap/loader.js" as="script"><script type="text/javascript" src="https://web.archive.org/web/20220721144021js_/https://data-49bb023f99.finanznachrichten.de/iomm/latest/bootstrap/loader.js"></script></body></html><!--
      FILE ARCHIVED ON 14:40:21 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:55:04 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:05:35 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -56,13 +56,12 @@
 -->
 <!--
 playback timings (ms):
-  captures_list: 459.772
-  exclusion.robots: 0.227
-  exclusion.robots.policy: 0.214
-  cdx.remote: 0.076
-  esindex: 0.012
-  LoadShardBlock: 394.672 (3)
-  PetaboxLoader3.resolve: 229.38 (4)
-  PetaboxLoader3.datanode: 287.377 (4)
-  load_resource: 192.582
+  exclusion.robots: 0.238
+  exclusion.robots.policy: 0.209
+  cdx.remote: 0.18
+  esindex: 0.023
+  LoadShardBlock: 543.21 (6)
+  PetaboxLoader3.datanode: 185.503 (7)
+  load_resource: 73.997
+  PetaboxLoader3.resolve: 35.638
 -->

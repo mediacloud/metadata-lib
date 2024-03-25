@@ -7,7 +7,7 @@
 <head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("https://www.ozap.com/actu/invites-salut-les-terriens-recoit-florent-pagny-et-frederic-lopez/544047","20220721144454","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -210,7 +210,7 @@ jad.cmd.push(function() {
     var wadsNextAdIsloaded = false;
 
     var pageArticleDiapoPositions = [];
-    
+
     var jadConfigDiapo = Object.assign({}, jadConfig, {
         page: "/120157152/PUREMEDIAS_FR_WEB/diaporama",
         autoRefreshEnabled: false,
@@ -295,7 +295,7 @@ jad.cmd.push(function() {
     };
 </script>
 </head>
-<body class="ltr"> 
+<body class="ltr">
 
 <script>
 var isAdBlocked = true;
@@ -744,7 +744,7 @@ var eStatTag=function(a){"use strict";function b(a){R&&(console.debug?console.de
     var custom_dimmensions;
     $j(function() {
                 var custom_dimensions = {hasVideoContent:false};
-        
+
         var adblock=(typeof wads !== 'undefined')?(wads.public.adblockDetected()?'adblock':'no-adblock'):'adblock-nc';
         custom_dimensions['adblockHit'] = adblock;
         custom_dimensions['adblockSession'] = adblock;
@@ -772,7 +772,7 @@ var eStatTag=function(a){"use strict";function b(a){R&&(console.debug?console.de
             // Google Discover tracking
             tracker.send({"dimension25": document.referrer}, ["t0"]);
 
-            var pageViewSent = false;            
+            var pageViewSent = false;
             function sendPageView(method, consent)
             {
                 if (!pageViewSent) {
@@ -780,26 +780,26 @@ var eStatTag=function(a){"use strict";function b(a){R&&(console.debug?console.de
                         tracker.send({"allowAdPersonalizationSignals": false}, ["t0"]);
                     } else {
                         tracker.send({"allowAdFeatures": false}, ["t0"]);
-                    }    
+                    }
                     custom_dimensions.triggerMethod = method;
                     tracker.send(custom_dimensions, ["t0"]);
                     tracker.send({ "hitType": "pageview" }, ["t0"]);
                 }
                 pageViewSent = true;
             }
-            
+
             window.didomiOnReady = window.didomiOnReady || [];
-            window.didomiOnReady.push(function (Didomi) { 
+            window.didomiOnReady.push(function (Didomi) {
                 const consent = Didomi.isConsentRequired()
                         ? Didomi.getUserConsentStatusForVendor("c:googleana-XMqagawa") && Didomi.getUserConsentStatusForVendor("google")
-                        : true;        
+                        : true;
                 custom_dimensions.didomiConsent = Didomi.getUserConsentStatusForVendor("c:googleana-XMqagawa") ?? false;
                 sendPageView("didomiOnReady", consent);
             });
             setTimeout(function () { sendPageView("timeout", false); }, 1000);
 
                 tracker.addTarget("gtm", "GTM");
-        
+
         tracker.addTrigger('clic', 'Click').setTargets(["t0"]);
         tracker.addTrigger('diapo', 'Diaporama');
         tracker.addTrigger('facebook', 'Facebook');
@@ -913,7 +913,7 @@ var eStatTag=function(a){"use strict";function b(a){R&&(console.debug?console.de
 </body>
 </html><!--
      FILE ARCHIVED ON 14:44:54 Jul 21, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:03:52 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:05:05 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -921,13 +921,12 @@ var eStatTag=function(a){"use strict";function b(a){R&&(console.debug?console.de
 -->
 <!--
 playback timings (ms):
-  captures_list: 1168.854
-  exclusion.robots: 0.282
-  exclusion.robots.policy: 0.261
-  cdx.remote: 0.117
-  esindex: 0.016
-  LoadShardBlock: 1124.118 (3)
-  PetaboxLoader3.resolve: 1146.597 (3)
-  PetaboxLoader3.datanode: 88.028 (5)
-  load_resource: 144.885 (2)
+  exclusion.robots: 0.112
+  exclusion.robots.policy: 0.097
+  cdx.remote: 0.098
+  esindex: 0.01
+  LoadShardBlock: 530.197 (6)
+  PetaboxLoader3.datanode: 355.572 (8)
+  load_resource: 582.492 (2)
+  PetaboxLoader3.resolve: 322.473 (2)
 -->

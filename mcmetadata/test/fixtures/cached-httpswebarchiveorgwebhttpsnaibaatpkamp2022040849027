@@ -3,7 +3,7 @@
 <head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("https://naibaat.pk/amp/2022/04/08/49027/","20220929002532","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -398,7 +398,7 @@ pre{white-space:pre-wrap}.clearfix:after,.clearfix:before{display:table;content:
 		--footer-bg-color:#f3f3f3;
 		--footer-nav-bg-color:#ffffff;
 	}
-	
+
 
 
 </style><link rel="stylesheet" id="font-awesome-css" href="https://web.archive.org/web/20220929002532cs_/https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="all"/>
@@ -418,15 +418,15 @@ pre{white-space:pre-wrap}.clearfix:after,.clearfix:before{display:table;content:
 
 		<div class="sidebar-brand type-text">
 
-			
+
 			<div class="brand-name">
 				Naibaat			</div>
 
-			
+
 				<div class="brand-description">
 					Urdu News Paper				</div>
 
-			
+
 		</div>
 
 		<nav id="menu" itemscope itemtype="http://schema.org/SiteNavigationElement" class="amp-menu"><span class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1089"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/">&#1575;&#1729;&#1605; &#1582;&#1576;&#1585;&#1740;&#1722;</a></span><span class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3734"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/%d8%aa%d8%a7%d8%b2%db%81-%d8%aa%d8%b1%db%8c%d9%86/">&#1578;&#1575;&#1586;&#1729; &#1578;&#1585;&#1740;&#1606;</a></span><span class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-1079"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/category/%d9%be%d8%a7%da%a9%d8%b3%d8%aa%d8%a7%d9%86/">&#1662;&#1575;&#1705;&#1587;&#1578;&#1575;&#1606;</a></span><span class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1085"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/category/%d8%b9%d8%a7%d9%84%d9%85%db%8c-%d8%ae%d8%a8%d8%b1%db%8c%da%ba/">&#1593;&#1575;&#1604;&#1605;&#1740; &#1582;&#1576;&#1585;&#1740;&#1722;</a></span><span class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1084"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/category/%d8%b3%d8%a7%d8%a6%d9%86%d8%b3-%d8%a7%d9%88%d8%b1-%d9%b9%db%8c%da%a9%d9%86%d8%a7%d9%84%d9%88%d8%ac%db%8c/">&#1587;&#1575;&#1574;&#1606;&#1587; &#1575;&#1608;&#1585; &#1657;&#1740;&#1705;&#1606;&#1575;&#1604;&#1608;&#1580;&#1740;</a></span><span class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1082"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/category/%d8%b4%d9%88%d8%a8%d8%b2/">&#1588;&#1608;&#1576;&#1586;</a></span><span class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1083"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/category/%da%a9%d8%a7%d9%84%d9%85/">&#1705;&#1575;&#1604;&#1605;</a></span><span class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1080"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/category/%d8%a8%d8%b2%d9%86%d8%b3/">&#1576;&#1586;&#1606;&#1587;</a></span><span class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1081"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/category/%da%a9%da%be%db%8c%d9%84/">&#1705;&#1726;&#1740;&#1604;</a></span><span class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5433"><a href="https://web.archive.org/web/20220929002532/https://e.naibaat.pk/Pre/lahore/Default.aspx">&#1575;&#1740; &#1662;&#1740;&#1662;&#1585;</a></span><span class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5522"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/Fonts-dw.zip">&#1601;&#1608;&#1606;&#1657; &#1672;&#1575;&#1572;&#1606; &#1604;&#1608;&#1672;</a></span><span class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1086"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/category/%d8%b5%d8%ad%d8%aa-%d9%88-%d8%aa%d8%b9%d9%84%db%8c%d9%85/">&#1589;&#1581;&#1578; &#1608; &#1578;&#1593;&#1604;&#1740;&#1605;</a></span><span class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1583"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/category/%d9%88%db%8c%da%88%db%8c%d9%88%d8%b2/">&#1608;&#1740;&#1672;&#1740;&#1608;&#1586;</a></span><span class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1092"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/category/%d8%ae%d8%b5%d9%88%d8%b5%db%8c-%d9%81%db%8c%da%86%d8%b1%d8%b2/">&#1582;&#1589;&#1608;&#1589;&#1740; &#1601;&#1740;&#1670;&#1585;&#1586;</a></span><span class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1093"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/category/%d8%af%d9%84%da%86%d8%b3%d9%be-%d9%88-%d8%b9%d8%ac%db%8c%d8%a8/">&#1583;&#1604;&#1670;&#1587;&#1662; &#1608; &#1593;&#1580;&#1740;&#1576;</a></span><span class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3736"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/category/%d9%86%d9%85%d8%a7%db%8c%d8%a7%da%ba-%d8%ae%d8%a8%d8%b1%db%8c%da%ba/">&#1606;&#1605;&#1575;&#1740;&#1575;&#1722; &#1582;&#1576;&#1585;&#1740;&#1722;</a></span><span class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5716"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/category/%d8%a8%d9%84%d8%a7%da%af%d8%b2/">&#1576;&#1604;&#1575;&#1711;&#1586;</a></span><span class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35653"><a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/naibaat-sunday-magzine/">&#1587;&#1606;&#1672;&#1746; &#1605;&#1740;&#1711;&#1586;&#1740;&#1606;</a></span></nav>		<div class="sidebar-footer">
@@ -477,7 +477,7 @@ pre{white-space:pre-wrap}.clearfix:after,.clearfix:before{display:table;content:
 			&#1587;&#1575;&#1606;&#1581;&#1729; &#1605;&#1585;&#1740; &#1705;&#1740;&#1587;: &#1593;&#1583;&#1575;&#1604;&#1578; &#1606;&#1746; &#1705;&#1605;&#1588;&#1606;&#1585; &#1585;&#1575;&#1608;&#1604;&#1662;&#1606;&#1672;&#1740; &#1705;&#1608; &#1591;&#1604;&#1576; &#1705;&#1585; &#1604;&#1740;&#1575;		</h1>
 					<div class="post-thumbnail">
 				<amp-img width="450" height="300" src="https://web.archive.org/web/20220929002532im_/https://naibaat.pk/wp-content/uploads/2022/04/murree-450x300.jpg" class="attachment-better-amp-large size-better-amp-large wp-post-image" alt="سانحہ مری کیس: عدالت نے کمشنر راولپنڈی کو طلب کر لیا" layout="responsive"></amp-img>			</div>
-		
+
 		<div class="post-meta">
 						<a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/author/irfan-rana/" class="post-author-avatar"><amp-img alt="" src="https://web.archive.org/web/20220929002532im_/https://secure.gravatar.com/avatar/69e2423c843e1ea375f2e99d88adbeb3?s=26&amp;d=mm&amp;r=g" class="avatar avatar-26 photo avatar-default" height="26" width="26"></amp-img></a>By <a href="https://web.archive.org/web/20220929002532/https://naibaat.pk/amp/author/irfan-rana/">Irfan Rana</a> on &#1575;&#1662;&#1585;&#1740;&#1604; 8, 2022		</div>
 
@@ -588,7 +588,7 @@ pre{white-space:pre-wrap}.clearfix:after,.clearfix:before{display:table;content:
 			</script>
 		</amp-analytics>
 
-	
+
 </footer>
 </div>
 
@@ -597,7 +597,7 @@ pre{white-space:pre-wrap}.clearfix:after,.clearfix:before{display:table;content:
 </html>
 <!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1664411131 --><!--
      FILE ARCHIVED ON 00:25:32 Sep 29, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:58:51 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:21:05 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -605,13 +605,12 @@ pre{white-space:pre-wrap}.clearfix:after,.clearfix:before{display:table;content:
 -->
 <!--
 playback timings (ms):
-  captures_list: 223.219
-  exclusion.robots: 0.199
-  exclusion.robots.policy: 0.185
-  cdx.remote: 0.081
-  esindex: 0.013
-  LoadShardBlock: 171.85 (3)
-  PetaboxLoader3.datanode: 178.178 (4)
-  load_resource: 164.329
-  PetaboxLoader3.resolve: 40.31
+  exclusion.robots: 0.327
+  exclusion.robots.policy: 0.292
+  cdx.remote: 0.331
+  esindex: 0.015
+  LoadShardBlock: 899.033 (6)
+  PetaboxLoader3.datanode: 317.782 (7)
+  load_resource: 226.294
+  PetaboxLoader3.resolve: 122.184
 -->

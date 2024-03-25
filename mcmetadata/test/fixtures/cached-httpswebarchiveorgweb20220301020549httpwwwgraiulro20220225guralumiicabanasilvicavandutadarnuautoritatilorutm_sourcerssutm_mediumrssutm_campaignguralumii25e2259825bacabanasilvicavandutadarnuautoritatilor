@@ -5,7 +5,7 @@
 <head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("http://www.graiul.ro/2022/02/25/gura-lumii-%e2%98%ba-cabana-silvica-vanduta-dar-nu-autoritatilor/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=gura-lumii-%25e2%2598%25ba-cabana-silvica-vanduta-dar-nu-autoritatilor","20220301020549","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -22,7 +22,7 @@
     <link rel="pingback" href=""/>
     		    <!-- PVC Template -->
     <script type="text/template" id="pvc-stats-view-template">
-    <i class="pvc-stats-icon medium" aria-hidden="true"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="chart-bar" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-chart-bar fa-w-16 fa-2x"><path fill="currentColor" d="M396.8 352h22.4c6.4 0 12.8-6.4 12.8-12.8V108.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v230.4c0 6.4 6.4 12.8 12.8 12.8zm-192 0h22.4c6.4 0 12.8-6.4 12.8-12.8V140.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v198.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h22.4c6.4 0 12.8-6.4 12.8-12.8V204.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v134.4c0 6.4 6.4 12.8 12.8 12.8zM496 400H48V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16zm-387.2-48h22.4c6.4 0 12.8-6.4 12.8-12.8v-70.4c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v70.4c0 6.4 6.4 12.8 12.8 12.8z" class=""></path></svg></i> 
+    <i class="pvc-stats-icon medium" aria-hidden="true"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="chart-bar" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-chart-bar fa-w-16 fa-2x"><path fill="currentColor" d="M396.8 352h22.4c6.4 0 12.8-6.4 12.8-12.8V108.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v230.4c0 6.4 6.4 12.8 12.8 12.8zm-192 0h22.4c6.4 0 12.8-6.4 12.8-12.8V140.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v198.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h22.4c6.4 0 12.8-6.4 12.8-12.8V204.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v134.4c0 6.4 6.4 12.8 12.8 12.8zM496 400H48V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16zm-387.2-48h22.4c6.4 0 12.8-6.4 12.8-12.8v-70.4c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v70.4c0 6.4 6.4 12.8 12.8 12.8z" class=""></path></svg></i>
 	 <%= total_view %> total views	<% if ( today_view > 0 ) { %>
 		<span class="views_today">,  <%= today_view %> views today</span>
 	<% } %>
@@ -66,7 +66,7 @@
 				var em_version = '7.3.2';
 				var em_track_user = true;
 				var em_no_track_reason = '';
-				
+
 								var disableStrs = [
 															'ga-disable-UA-65267027-1',
 									];
@@ -124,7 +124,7 @@
 						}
 
 						if ( type === 'event' ) {
-							
+
 															parameters.send_to = exactmetrics_frontend.ua;
 								__gtagDataLayer( type, name, parameters );
 													} else {
@@ -302,23 +302,23 @@ var vars = {"rest_api_url":"https:\/\/web.archive.org\/web\/20220301020549\/http
 			jQuery(document).ready(function() {
 				// CUSTOM AJAX CONTENT LOADING FUNCTION
 				var ajaxRevslider = function(obj) {
-				
+
 					// obj.type : Post Type
 					// obj.id : ID of Content to Load
 					// obj.aspectratio : The Aspect Ratio of the Container / Media
 					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
-					
+
 					var content = "";
 
 					data = {};
-					
+
 					data.action = 'revslider_ajax_call_front';
 					data.client_action = 'get_slider_html';
 					data.token = '4b651ec4f3';
 					data.type = obj.type;
 					data.id = obj.id;
 					data.aspectratio = obj.aspectratio;
-					
+
 					// SYNC AJAX REQUEST
 					jQuery.ajax({
 						type:"post",
@@ -328,17 +328,17 @@ var vars = {"rest_api_url":"https:\/\/web.archive.org\/web\/20220301020549\/http
 						async:false,
 						success: function(ret, textStatus, XMLHttpRequest) {
 							if(ret.success == true)
-								content = ret.data;								
+								content = ret.data;
 						},
 						error: function(e) {
 							console.log(e);
 						}
 					});
-					
+
 					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
-					 return content;						 
+					 return content;
 				};
-				
+
 				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
 				var ajaxRemoveRevslider = function(obj) {
 					return jQuery(obj.selector+" .rev_slider").revkill();
@@ -349,7 +349,7 @@ var vars = {"rest_api_url":"https:\/\/web.archive.org\/web\/20220301020549\/http
 					if (jQuery.fn.tpessential != undefined) {
 						clearInterval(extendessential);
 						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
-							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});
 							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
 							// func: the Function Name which is Called once the Item with the Post Type has been clicked
 							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
@@ -365,7 +365,7 @@ var vars = {"rest_api_url":"https:\/\/web.archive.org\/web\/20220301020549\/http
 <!-- JS generated by theme -->
 
 <script>
-    
+
 
 var td_blocks = []; //here we store all the items for the current page
 
@@ -387,8 +387,8 @@ function td_block() {
     this.ajax_pagination_infinite_stop = ''; //show load more at page x
 }
 
-    
-    
+
+
         // td_js_generator - mini detector
         (function(){
             var html_tag = document.getElementsByTagName("html")[0];
@@ -427,8 +427,8 @@ function td_block() {
             }
 
         })();
-    
-    
+
+
 var td_viewport_interval_list=[{"limit_bottom":767,"sidebar_width":228},{"limit_bottom":1018,"sidebar_width":300},{"limit_bottom":1140,"sidebar_width":324}];
 var td_animation_stack_effect="type1";
 var tds_animation_stack=true;
@@ -463,7 +463,7 @@ var td_ad_background_click_target="";
 <!-- Header style compiled by theme -->
 
 <style>
-    
+
 
 body {
 	background-color:#d6d6d6;
@@ -678,13 +678,13 @@ body {
 	}
 
 
-    
+
     .td-grid-style-4 .entry-title
     {
         background-color: rgba(33, 162, 237, 0.7);
     }
 
-    
+
     .td-header-top-menu,
     .td-header-top-menu a,
     .td-header-wrap .td-header-top-menu-full .td-header-top-menu,
@@ -694,7 +694,7 @@ body {
         color: #ffffff;
     }
 
-    
+
     .top-header-menu .current-menu-item > a,
     .top-header-menu .current-menu-ancestor > a,
     .top-header-menu .current-category-ancestor > a,
@@ -702,18 +702,18 @@ body {
         color: #acb6bf;
     }
 
-    
+
     .td-header-wrap .td-header-sp-top-widget .td-icon-font {
         color: #ffffff;
     }
 
-    
+
     .td-header-wrap .td-header-sp-top-widget i.td-icon-font:hover {
         color: #b3babf;
     }
 
 
-    
+
     .td-header-wrap .td-header-menu-wrap-full,
     .sf-menu > .current-menu-ancestor > a,
     .sf-menu > .current-category-ancestor > a,
@@ -752,7 +752,7 @@ body {
     }
 
 
-    
+
     .sf-menu ul .td-menu-item > a:hover,
     .sf-menu ul .sfHover > a,
     .sf-menu ul .current-menu-ancestor > a,
@@ -793,29 +793,29 @@ body {
     }
 
 
-    
+
     .td-header-wrap .td-header-menu-wrap .sf-menu > li > a,
     .td-header-wrap .header-search-wrap .td-icon-search {
         color: #ffffff;
     }
 
-    
+
     .post .td-post-header .entry-title {
         color: #1c63a3;
     }
 
-    
+
     .td-module-meta-info .td-post-author-name a {
     	color: #666666;
     }
 
-    
+
     .td-post-content,
     .td-post-content p {
     	color: #212121;
     }
 
-    
+
     .td-post-content h1,
     .td-post-content h2,
     .td-post-content h3,
@@ -825,7 +825,7 @@ body {
     	color: #686868;
     }
 
-    
+
     .post blockquote p,
     .page blockquote p {
     	color: #1e73be;
@@ -836,20 +836,20 @@ body {
     }
 
 
-    
+
     .td-page-header h1,
     .woocommerce-page .page-title {
     	color: #1c63a3;
     }
 
-    
+
     .td-page-content p,
     .td-page-content .td_block_text_with_title,
     .woocommerce-page .page-description > p {
     	color: #2b2b2b;
     }
 
-    
+
     .td-page-content h1,
     .td-page-content h2,
     .td-page-content h3,
@@ -866,24 +866,24 @@ body {
 
 
 
-    
+
     .top-header-menu > li > a,
     .td-header-sp-top-menu .td_data_time {
         font-size:13px;
-	
+
     }
-    
+
     .sf-menu > .td-menu-item > a {
         font-size:14px;
 	font-weight:normal;
-	
+
     }
-    
+
     .td_mod_mega_menu .item-details a {
         font-size:12px;
-	
+
     }
-    
+
     .block-title > span,
     .block-title > a,
     .widgettitle,
@@ -892,67 +892,67 @@ body {
     .woocommerce div.product .woocommerce-tabs ul.tabs li a,
     .woocommerce .product .products h2 {
         font-weight:bold;
-	
+
     }
-    
+
     .td-post-author-name a {
         font-size:13px;
-	
+
     }
-    
+
     .td-post-date .entry-date {
         font-size:13px;
-	
+
     }
-    
+
     .td-big-grid-meta .td-post-category,
     .td_module_wrap .td-post-category,
     .td-module-image .td-post-category {
         font-size:10px;
-	
+
     }
-    
+
     .td-subcat-filter .td-subcat-dropdown a,
     .td-subcat-filter .td-subcat-list a,
     .td-subcat-filter .td-subcat-dropdown span {
         font-size:14px;
-	
+
     }
-    
+
     .td-excerpt {
         font-size:16px;
-	
+
     }
 
 
-	
+
     .td-post-content p,
     .td-post-content {
         font-family:Tahoma, Verdana, Geneva;
 	font-size:16px;
-	
+
     }
-    
+
     .post .td-category a {
         font-size:11px;
-	
+
     }
-    
+
     .post header .td-post-author-name,
     .post header .td-post-author-name a {
         font-size:14px;
-	
+
     }
-    
+
     .post header .td-post-date .entry-date {
         font-size:14px;
-	
+
     }
-    
+
     .post header .td-post-views span,
     .post header .td-post-comments {
         font-size:12px;
-	
+
     }
 </style>
 
@@ -1037,9 +1037,9 @@ Header style 3
 
     <div class="td-header-top-menu-full">
         <div class="td-container td-header-row td-header-top-menu">
-            
+
     <div class="top-bar-style-1">
-        
+
 <div class="td-header-sp-top-menu">
 
     <div class="td_data_time">marți, 1 martie 2022</div><div class="menu-top-container"><ul id="menu-graiul_top" class="top-header-menu"><li id="menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-first td-menu-item td-normal-menu menu-item-546"><a href="https://web.archive.org/web/20220301020549/http://www.graiul.ro/redactia/">Redacţia</a></li>
@@ -1530,7 +1530,7 @@ td_blocks.push(block_td_uid_29_621d7f7e11059);
         <div class="td-pb-row">
                                     <div class="td-pb-span8 td-main-content" role="main">
                             <div class="td-ss-main-content">
-                                
+
 
     <article id="post-170262" class="post-170262 post type-post status-publish format-standard has-post-thumbnail hentry category-actualitatea" itemscope itemtype="http://schema.org/Article">
         <div class="td-post-header">
@@ -1539,7 +1539,7 @@ td_blocks.push(block_td_uid_29_621d7f7e11059);
             <header class="td-post-title">
                 <h1 itemprop="name" class="entry-title">Gura lumii ☺ Cabană silvică vândută, dar nu autorităților</h1>
 
-                
+
 
                 <div class="td-module-meta-info">
                     <div class="td-post-author-name">De <a itemprop="author" href="https://web.archive.org/web/20220301020549/http://www.graiul.ro/author/editor/">Graiul Maramureşului</a> - </div>                    <div class="td-post-date"><time itemprop="dateCreated" class="entry-date updated td-module-date" datetime="2022-02-25T10:29:25+00:00">25 februarie 2022</time><meta itemprop="interactionCount" content="UserComments:0"/></div>                    <div class="td-post-comments"><a href="https://web.archive.org/web/20220301020549/http://www.graiul.ro/2022/02/25/gura-lumii-%e2%98%ba-cabana-silvica-vanduta-dar-nu-autoritatilor/#respond"><i class="td-icon-comments"></i>0</a></div>                    <div class="td-post-views"><i class="td-icon-views"></i><span class="td-nr-views-170262">83</span></div>                </div>
@@ -1549,7 +1549,7 @@ td_blocks.push(block_td_uid_29_621d7f7e11059);
 
         </div>
 
-        
+
 
         <div class="td-post-content">
 
@@ -1563,7 +1563,7 @@ Autoritatea locală nu a cumpărat-o, deși ar fi vrut, pentru că s-a opus Cons
 
 
         <footer>
-                        
+
             <div class="td-post-source-tags">
                                             </div>
 
@@ -1600,7 +1600,7 @@ td_blocks.push(block_td_uid_30_621d7f7e16ad2);
             <div class="item-details">
                 <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="https://web.archive.org/web/20220301020549/http://www.graiul.ro/2022/02/28/donatii-pentru-refugiatii-si-militarii-ucraineni/" rel="bookmark" title="Donații pentru refugiații și militarii ucraineni">Donații pentru refugiații și militarii ucraineni</a></h3>            </div>
         </div>
-        
+
 	</div> <!-- ./td-related-span4 -->
 
 	<div class="td-related-span4">
@@ -1611,7 +1611,7 @@ td_blocks.push(block_td_uid_30_621d7f7e16ad2);
             <div class="item-details">
                 <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="https://web.archive.org/web/20220301020549/http://www.graiul.ro/2022/02/28/peste-100-locuri-de-cazare-pentru-refugati-in-targu-lapus/" rel="bookmark" title="Peste 100 locuri de cazare pentru refugați în Târgu Lăpuș">Peste 100 locuri de cazare pentru refugați în Târgu Lăpuș</a></h3>            </div>
         </div>
-        
+
 	</div> <!-- ./td-related-span4 -->
 
 	<div class="td-related-span4">
@@ -1622,7 +1622,7 @@ td_blocks.push(block_td_uid_30_621d7f7e16ad2);
             <div class="item-details">
                 <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="https://web.archive.org/web/20220301020549/http://www.graiul.ro/2022/02/28/tarifele-majorate-la-energie-opresc-investitiile-in-comunele-maramuresene/" rel="bookmark" title="Tarifele majorate la energie opresc investițiile în comunele maramureșene!">Tarifele majorate la energie opresc investițiile în comunele maramureșene!</a></h3>            </div>
         </div>
-        
+
 	</div> <!-- ./td-related-span4 --></div><!--./row-fluid-->
 
 	<div class="td-related-row">
@@ -1635,7 +1635,7 @@ td_blocks.push(block_td_uid_30_621d7f7e16ad2);
             <div class="item-details">
                 <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="https://web.archive.org/web/20220301020549/http://www.graiul.ro/2022/02/28/incepe-indiguirea-paraului-tomnatec-in-repedea/" rel="bookmark" title="Începe îndiguirea pârâului Tomnatec în Repedea">Începe îndiguirea pârâului Tomnatec în Repedea</a></h3>            </div>
         </div>
-        
+
 	</div> <!-- ./td-related-span4 -->
 
 	<div class="td-related-span4">
@@ -1646,7 +1646,7 @@ td_blocks.push(block_td_uid_30_621d7f7e16ad2);
             <div class="item-details">
                 <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="https://web.archive.org/web/20220301020549/http://www.graiul.ro/2022/02/28/in-borsa-se-vor-construi-12-instalatii-noi-pe-cablu-30-km-de-partii-si-centru-spa/" rel="bookmark" title="În Borșa se vor construi 12 instalații noi pe cablu, 30 km de pârtii și centru spa!">În Borșa se vor construi 12 instalații noi pe cablu, 30 km de pârtii și centru spa!</a></h3>            </div>
         </div>
-        
+
 	</div> <!-- ./td-related-span4 -->
 
 	<div class="td-related-span4">
@@ -1657,16 +1657,16 @@ td_blocks.push(block_td_uid_30_621d7f7e16ad2);
             <div class="item-details">
                 <h3 itemprop="name" class="entry-title td-module-title"><a itemprop="url" href="https://web.archive.org/web/20220301020549/http://www.graiul.ro/2022/02/28/apel-umanitar-amu/" rel="bookmark" title="Apel umanitar AMU">Apel umanitar AMU</a></h3>            </div>
         </div>
-        
+
 	</div> <!-- ./td-related-span4 --></div><!--./row-fluid--></div><div class="td-next-prev-wrap"><a href="#" class="td-ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_30_621d7f7e16ad2" data-td_block_id="td_uid_30_621d7f7e16ad2"><i class="td-icon-font td-icon-menu-left"></i></a><a href="#" class="td-ajax-next-page" id="next-page-td_uid_30_621d7f7e16ad2" data-td_block_id="td_uid_30_621d7f7e16ad2"><i class="td-icon-font td-icon-menu-right"></i></a></div></div> <!-- ./block -->
                         <div class="comments" id="comments">
-                            
+
 	                            <div class="td-comments-title-wrap">
 		                            		                            <h4 class="block-title"><span>NICIUN COMENTARIU</span></h4>
 	                            </div>
 
-	                            
-	                        
+
+
                             	<div id="respond" class="comment-respond">
 		<h3 id="reply-title" class="comment-reply-title">LĂSAŢI UN MESAJ <small><a rel="nofollow" id="cancel-comment-reply-link" href="/web/20220301020549/http://www.graiul.ro/2022/02/25/gura-lumii-%e2%98%ba-cabana-silvica-vanduta-dar-nu-autoritatilor/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=gura-lumii-%25e2%2598%25ba-cabana-silvica-vanduta-dar-nu-autoritatilor#respond" style="display:none;">Renunţaţi la răspuns</a></small></h3><form action="https://web.archive.org/web/20220301020549/http://www.graiul.ro/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><input type="hidden" autocomplete="off" autocorrect="off" name="V-d-ne-XSGX-F-J-lf" value=""/><div class="clearfix"></div><p class="comment-form-input-wrap"><textarea placeholder="Comentariu:" id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p><p class="comment-form-input-wrap">
             <span class="comment-req-wrap"><input class="" id="author" name="author" placeholder="Nume:" type="text" value="" size="30"/></span></p>
@@ -2942,10 +2942,10 @@ var pp_ajax_form = {"ajaxurl":"https:\/\/web.archive.org\/web\/20220301020549\/h
 <!-- JS generated by theme -->
 
 <script>
-    
 
 
-            
+
+
 
                 jQuery(window).ready(function() {
 
@@ -2979,15 +2979,15 @@ var pp_ajax_form = {"ajaxurl":"https:\/\/web.archive.org\/web\/20220301020549\/h
                     }
                 });
 
-            
-            
+
+
 
                 jQuery().ready(function jQuery_ready() {
                     td_ajax_count.td_get_views_counts_ajax("post","[170262]");
                 });
-            
 
-	
+
+
 
 		(function(){
 			var html_jquery_obj = jQuery('html');
@@ -3030,15 +3030,15 @@ var pp_ajax_form = {"ajaxurl":"https:\/\/web.archive.org\/web\/20220301020549\/h
 			}
 		})();
 
-	
-	
+
+
 </script>
 
 
 </body>
 </html><!--
      FILE ARCHIVED ON 02:05:49 Mar 01, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:56:12 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:07:59 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -3046,13 +3046,12 @@ var pp_ajax_form = {"ajaxurl":"https:\/\/web.archive.org\/web\/20220301020549\/h
 -->
 <!--
 playback timings (ms):
-  captures_list: 205.949
-  exclusion.robots: 0.131
-  exclusion.robots.policy: 0.121
-  cdx.remote: 0.062
-  esindex: 0.008
-  LoadShardBlock: 148.574 (3)
-  PetaboxLoader3.datanode: 102.019 (4)
-  load_resource: 329.195
-  PetaboxLoader3.resolve: 284.069
+  exclusion.robots: 0.195
+  exclusion.robots.policy: 0.179
+  cdx.remote: 0.141
+  esindex: 0.013
+  LoadShardBlock: 382.326 (6)
+  PetaboxLoader3.resolve: 392.757 (3)
+  PetaboxLoader3.datanode: 155.733 (7)
+  load_resource: 378.228
 -->

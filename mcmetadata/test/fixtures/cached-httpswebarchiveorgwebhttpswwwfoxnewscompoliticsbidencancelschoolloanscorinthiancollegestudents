@@ -3,7 +3,7 @@
   <head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("https://www.foxnews.com/politics/biden-cancel-school-loans-corinthian-college-students","20231008103508","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -116,7 +116,7 @@
         "name": "Fox News Flash top headlines for June 1",
         "uploadDate": "2022-06-01T13:55:48-04:00",
         "duration": "PT2M39S",
-        
+
         "thumbnailUrl": "https://web.archive.org/web/20231008103508/https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/074fed39-dfcd-44d9-8ada-6e72c3e1ada4/633f56c9-7f56-4578-8ef0-9e7da6a3ce0c/1280x720/match/image.jpg"
       }
     </script><script data-n-head="ssr" src="//web.archive.org/web/20231008103508js_/https://static.foxnews.com/static/orion/scripts/core/pages/articles.new/loader.js"></script><link rel="preload" href="/web/20231008103508/https://www.foxnews.com/_wzln/cbdac7f.js" as="script"><link rel="preload" href="/web/20231008103508/https://www.foxnews.com/_wzln/07bfdd3.js" as="script"><link rel="preload" href="/web/20231008103508/https://www.foxnews.com/_wzln/bfb4b58.js" as="script"><link rel="preload" href="/web/20231008103508/https://www.foxnews.com/_wzln/d7fb93b.js" as="script"><style data-vue-ssr-id="f19138fc:0">.video-player[data-v-b8a95802]{width:100%;height:100%}</style>
@@ -203,7 +203,7 @@
 </html>
 <!--
      FILE ARCHIVED ON 10:35:08 Oct 08, 2023 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:54:52 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:21:01 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -211,13 +211,12 @@
 -->
 <!--
 playback timings (ms):
-  captures_list: 128.009
-  exclusion.robots: 0.274
-  exclusion.robots.policy: 0.254
-  cdx.remote: 0.117
-  esindex: 0.015
-  LoadShardBlock: 65.225 (3)
-  PetaboxLoader3.datanode: 98.379 (4)
-  load_resource: 259.829
-  PetaboxLoader3.resolve: 87.889
+  exclusion.robots: 0.179
+  exclusion.robots.policy: 0.164
+  cdx.remote: 0.159
+  esindex: 0.013
+  LoadShardBlock: 376.892 (6)
+  PetaboxLoader3.datanode: 422.593 (7)
+  load_resource: 415.361
+  PetaboxLoader3.resolve: 201.162
 -->

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--[if (gt IE 9)|!(IE)]> <!--><html lang="en" class="no-js page-interactive section-business page-theme-standard template-minimal tone-news page-interactive-default limit-small layout-xlarge app-interactive" itemid="https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html" itemtype="http://schema.org/NewsArticle" itemscope xmlns:og="http://opengraphprotocol.org/schema/"><!--<![endif]-->
+<!--[if (gt IE 9)|!(IE)]> <!--><html lang="en" class="no-js page-interactive section-business page-theme-standard template-minimal tone-news page-interactive-default limit-small layout-xlarge app-interactive" itemid="https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html" itemtype="https://schema.org/NewsArticle" itemscope xmlns:og="http://opengraphprotocol.org/schema/"><!--<![endif]-->
 <!--[if IE 9]> <html lang="en" class="no-js ie9 lt-ie10 page-interactive section-business page-theme-standard template-minimal tone-news page-interactive-default limit-small layout-xlarge app-interactive" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
 <!--[if IE 8]> <html lang="en" class="no-js ie8 lt-ie10 lt-ie9 page-interactive section-business page-theme-standard template-minimal tone-news page-interactive-default limit-small layout-xlarge app-interactive" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
 <!--[if (lt IE 8)]> <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 page-interactive section-business page-theme-standard template-minimal tone-news page-interactive-default limit-small layout-xlarge app-interactive" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
@@ -45,7 +45,7 @@ if (inAndroid || iniOS) document.documentElement.classList.add('nyt-hide-shell')
 <meta name="DISPLAYDATE" content="Dec. 10, 2018" />
 <meta name="dat" content="Dec. 10, 2018" />
 <meta name="author" content="Jennifer Valentino-DeVries" /><meta name="author" content="Natasha Singer" /><meta name="author" content="Michael H. Keller" /><meta name="author" content="Aaron Krolik" />
-<title data-rh="true">Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret - The New York Times</title><meta data-rh="true" name="robots" content="noarchive, max-image-preview:large"/><meta data-rh="true" name="description" content="Dozens of companies use smartphone locations to help advertisers and even hedge funds. They say it’s anonymous, but the data shows how personal it is."/><meta data-rh="true" property="og:url" content="https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"/><meta data-rh="true" property="og:type" content="article"/><meta data-rh="true" property="og:title" content="Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret (Published 2018)"/><meta data-rh="true" property="og:image" content="https://static01.nyt.com/images/2018/12/10/business/10location-promo/10location-promo-facebookJumbo.jpg?year=2018&amp;h=550&amp;w=1050&amp;s=49a560667fe9e0ba3efe36299728d7e3f5f1b251c4eb2ba1986d53cf53a6cccd&amp;k=ZQJBKqZ0VN"/><meta data-rh="true" property="og:image:alt" content=""/><meta data-rh="true" property="og:description" content="Dozens of companies use smartphone locations to help advertisers and even hedge funds. They say it’s anonymous, but the data shows how personal it is."/><meta data-rh="true" property="twitter:url" content="https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"/><meta data-rh="true" property="twitter:title" content="Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret (Published 2018)"/><meta data-rh="true" property="twitter:description" content="Dozens of companies use smartphone locations to help advertisers and even hedge funds. They say it’s anonymous, but the data shows how personal it is."/><meta data-rh="true" property="twitter:image" content="https://static01.nyt.com/images/2018/12/10/business/10location-promo/10location-promo-videoSixteenByNine3000.jpg?year=2018&amp;h=1688&amp;w=3000&amp;s=6b8468c5185a5a6c52184b692f419a45dec9e4e74d2b39827d646932fba79003&amp;k=ZQJBKqZ0VN&amp;tw=1"/><meta data-rh="true" property="twitter:image:alt" content=""/><meta data-rh="true" property="twitter:card" content="summary_large_image"/> <link data-rh="true" rel="canonical" href="https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"/> <script data-rh="true" type="application/ld+json">{"@context":"http://schema.org","@type":"NewsArticle","description":"Dozens of companies use smartphone locations to help advertisers and even hedge funds. They say it’s anonymous, but the data shows how personal it is.","image":[{"@context":"http://schema.org","@type":"ImageObject","url":"https://static01.nyt.com/images/2018/12/10/business/10location-promo/10location-promo-videoSixteenByNineJumbo1600.jpg","height":900,"width":1600,"contentUrl":"https://static01.nyt.com/images/2018/12/10/business/10location-promo/10location-promo-videoSixteenByNineJumbo1600.jpg","creditText":""},{"@context":"http://schema.org","@type":"ImageObject","url":"https://static01.nyt.com/images/2018/12/10/business/10location-promo/10location-promo-superJumbo-v2.jpg","height":1365,"width":2048,"contentUrl":"https://static01.nyt.com/images/2018/12/10/business/10location-promo/10location-promo-superJumbo-v2.jpg","creditText":""}],"mainEntityOfPage":"https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html","url":"https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html","inLanguage":"en-US","author":[{"@context":"http://schema.org","@type":"Person","url":"https://www.nytimes.com/by/jennifer-valentino-devries","name":"Jennifer Valentino-DeVries"},{"@context":"http://schema.org","@type":"Person","url":"https://www.nytimes.com/by/natasha-singer","name":"Natasha Singer"},{"@context":"http://schema.org","@type":"Person","url":"","name":"Michael H. Keller"},{"@context":"http://schema.org","@type":"Person","url":"","name":"Aaron Krolik"}],"dateModified":"2019-03-11T17:16:43.638Z","datePublished":"2018-12-10T08:06:34.000Z","headline":"Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret","publisher":{"@id":"https://www.nytimes.com/#publisher","name":"The New York Times"},"hasPart":{"@type":"WebPageElement","isAccessibleForFree":false,"cssSelector":".meteredContent"},"copyrightHolder":{"@id":"https://www.nytimes.com/#publisher","name":"The New York Times"},"sourceOrganization":{"@id":"https://www.nytimes.com/#publisher","name":"The New York Times"},"copyrightYear":2024,"isAccessibleForFree":false,"isPartOf":{"@type":["CreativeWork","Product"],"name":"The New York Times","productID":"nytimes.com:basic"}}</script><script data-rh="true" type="application/ld+json">{"@context":"http://schema.org","@type":"NewsMediaOrganization","name":"The New York Times","logo":{"@context":"http://schema.org","@type":"ImageObject","url":"https://static01.nyt.com/images/icons/t_logo_291_black.png","height":291,"width":291,"contentUrl":"https://static01.nyt.com/images/icons/t_logo_291_black.png","creditText":"The New York Times"},"url":"https://www.nytimes.com/","@id":"https://www.nytimes.com/#publisher","diversityPolicy":"https://www.nytco.com/company/diversity-and-inclusion/","ethicsPolicy":"https://www.nytco.com/company/standards-ethics/","masthead":"https://www.nytimes.com/interactive/2023/01/28/admin/the-new-york-times-masthead.html","foundingDate":"1851-09-18","sameAs":"https://en.wikipedia.org/wiki/The_New_York_Times"}</script><meta data-rh="true" property="article:published_time" content="2018-12-10T08:06:34.000Z"/><meta data-rh="true" property="article:modified_time" content="2019-03-11T17:16:43.638Z"/><meta data-rh="true" http-equiv="Content-Language" content="en"/><meta data-rh="true" name="articleid" content="100000006254043"/><meta data-rh="true" name="nyt_uri" content="nyt://interactive/6fdc0dc7-78da-5852-b4eb-a263725cf4c6"/><meta data-rh="true" name="pubp_event_id" content="pubp://event/ae2599708dd04a878b7d139709ec9c94"/><meta data-rh="true" name="image" content="https://static01.nyt.com/images/2018/12/10/business/10location-promo/10location-promo-facebookJumbo.jpg?year=2018&amp;h=550&amp;w=1050&amp;s=49a560667fe9e0ba3efe36299728d7e3f5f1b251c4eb2ba1986d53cf53a6cccd&amp;k=ZQJBKqZ0VN"/><meta data-rh="true" name="byl" content="By Jennifer Valentino-DeVries, Natasha Singer, Michael H. Keller and Aaron Krolik"/><meta data-rh="true" name="news_keywords" content="Mobile Apps,Data Mining;Big Data,Online advertising,Privacy,Computer security,Map"/><meta data-rh="true" name="pdate" content="20181210"/><meta data-rh="true" property="article:section" content="Business"/><meta data-rh="true" property="article:tag" content="Mobile Applications"/><meta data-rh="true" property="article:tag" content="Data-Mining and Database Marketing"/><meta data-rh="true" property="article:tag" content="Online Advertising"/><meta data-rh="true" property="article:tag" content="Privacy"/><meta data-rh="true" property="article:tag" content="Computer Security"/><meta data-rh="true" property="article:tag" content="Maps"/><meta data-rh="true" property="article:opinion" content="false"/><meta data-rh="true" property="article:content_tier" content="metered"/><meta data-rh="true" name="CG" content="business"/><meta data-rh="true" name="SCG" content=""/><meta data-rh="true" name="CN" content="big-techs-breach-of-trust"/><meta data-rh="true" name="CT" content="spotlight"/><meta data-rh="true" name="hostApp" content="vi"/><meta data-rh="true" name="adBlocker" content/><meta data-rh="true" name="adTargeting" content/><meta data-rh="true" name="adtargeting" content="{}"/><link data-rh="true" rel="shortcut icon" href="/vi-assets/static-assets/favicon-d2483f10ef688e6f89e23806b9700298.ico"/><link data-rh="true" rel="apple-touch-icon" href="/vi-assets/static-assets/apple-touch-icon-28865b72953380a40aa43318108876cb.png"/><link data-rh="true" rel="apple-touch-icon-precomposed" sizes="144×144" href="/vi-assets/static-assets/ios-ipad-144x144-28865b72953380a40aa43318108876cb.png"/><link data-rh="true" rel="apple-touch-icon-precomposed" sizes="114×114" href="/vi-assets/static-assets/ios-iphone-114x144-080e7ec6514fdc62bcbb7966d9b257d2.png"/><link data-rh="true" rel="apple-touch-icon-precomposed" href="/vi-assets/static-assets/ios-default-homescreen-57x57-43808a4cd5333b648057a01624d84960.png"/>
+<title data-rh="true">Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret - The New York Times</title><meta data-rh="true" name="robots" content="noarchive, max-image-preview:large"/><meta data-rh="true" name="description" content="Dozens of companies use smartphone locations to help advertisers and even hedge funds. They say it’s anonymous, but the data shows how personal it is."/><meta data-rh="true" property="og:url" content="https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"/><meta data-rh="true" property="og:type" content="article"/><meta data-rh="true" property="og:title" content="Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret (Published 2018)"/><meta data-rh="true" property="og:image" content="https://static01.nyt.com/images/2018/12/10/business/10location-promo/10location-promo-facebookJumbo.jpg?year=2018&amp;h=550&amp;w=1050&amp;s=49a560667fe9e0ba3efe36299728d7e3f5f1b251c4eb2ba1986d53cf53a6cccd&amp;k=ZQJBKqZ0VN"/><meta data-rh="true" property="og:image:alt" content=""/><meta data-rh="true" property="og:description" content="Dozens of companies use smartphone locations to help advertisers and even hedge funds. They say it’s anonymous, but the data shows how personal it is."/><meta data-rh="true" property="twitter:url" content="https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"/><meta data-rh="true" property="twitter:title" content="Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret (Published 2018)"/><meta data-rh="true" property="twitter:description" content="Dozens of companies use smartphone locations to help advertisers and even hedge funds. They say it’s anonymous, but the data shows how personal it is."/><meta data-rh="true" property="twitter:image" content="https://static01.nyt.com/images/2018/12/10/business/10location-promo/10location-promo-videoSixteenByNine3000.jpg?year=2018&amp;h=1688&amp;w=3000&amp;s=6b8468c5185a5a6c52184b692f419a45dec9e4e74d2b39827d646932fba79003&amp;k=ZQJBKqZ0VN&amp;tw=1"/><meta data-rh="true" property="twitter:image:alt" content=""/><meta data-rh="true" property="twitter:card" content="summary_large_image"/> <link data-rh="true" rel="canonical" href="https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"/> <script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","description":"Dozens of companies use smartphone locations to help advertisers and even hedge funds. They say it’s anonymous, but the data shows how personal it is.","image":[{"@context":"https://schema.org","@type":"ImageObject","url":"https://static01.nyt.com/images/2018/12/10/business/10location-promo/10location-promo-videoSixteenByNineJumbo1600.jpg","height":900,"width":1600,"contentUrl":"https://static01.nyt.com/images/2018/12/10/business/10location-promo/10location-promo-videoSixteenByNineJumbo1600.jpg","creditText":""},{"@context":"https://schema.org","@type":"ImageObject","url":"https://static01.nyt.com/images/2018/12/10/business/10location-promo/10location-promo-superJumbo-v2.jpg","height":1365,"width":2048,"contentUrl":"https://static01.nyt.com/images/2018/12/10/business/10location-promo/10location-promo-superJumbo-v2.jpg","creditText":""}],"mainEntityOfPage":"https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html","url":"https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html","inLanguage":"en-US","author":[{"@context":"https://schema.org","@type":"Person","url":"https://www.nytimes.com/by/jennifer-valentino-devries","name":"Jennifer Valentino-DeVries"},{"@context":"https://schema.org","@type":"Person","url":"https://www.nytimes.com/by/natasha-singer","name":"Natasha Singer"},{"@context":"https://schema.org","@type":"Person","url":"","name":"Michael H. Keller"},{"@context":"https://schema.org","@type":"Person","url":"","name":"Aaron Krolik"}],"dateModified":"2019-03-11T17:16:43.638Z","datePublished":"2018-12-10T08:06:34.000Z","headline":"Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret","publisher":{"@id":"https://www.nytimes.com/#publisher","name":"The New York Times"},"hasPart":{"@type":"WebPageElement","isAccessibleForFree":false,"cssSelector":".meteredContent"},"copyrightHolder":{"@id":"https://www.nytimes.com/#publisher","name":"The New York Times"},"sourceOrganization":{"@id":"https://www.nytimes.com/#publisher","name":"The New York Times"},"copyrightYear":2024,"isAccessibleForFree":false,"isPartOf":{"@type":["CreativeWork","Product"],"name":"The New York Times","productID":"nytimes.com:basic"}}</script><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"The New York Times","logo":{"@context":"https://schema.org","@type":"ImageObject","url":"https://static01.nyt.com/images/icons/t_logo_291_black.png","height":291,"width":291,"contentUrl":"https://static01.nyt.com/images/icons/t_logo_291_black.png","creditText":"The New York Times"},"url":"https://www.nytimes.com/","@id":"https://www.nytimes.com/#publisher","diversityPolicy":"https://www.nytco.com/company/diversity-and-inclusion/","ethicsPolicy":"https://www.nytco.com/company/standards-ethics/","masthead":"https://www.nytimes.com/interactive/2023/01/28/admin/the-new-york-times-masthead.html","foundingDate":"1851-09-18","sameAs":"https://en.wikipedia.org/wiki/The_New_York_Times"}</script><meta data-rh="true" property="article:published_time" content="2018-12-10T08:06:34.000Z"/><meta data-rh="true" property="article:modified_time" content="2019-03-11T17:16:43.638Z"/><meta data-rh="true" http-equiv="Content-Language" content="en"/><meta data-rh="true" name="articleid" content="100000006254043"/><meta data-rh="true" name="nyt_uri" content="nyt://interactive/6fdc0dc7-78da-5852-b4eb-a263725cf4c6"/><meta data-rh="true" name="pubp_event_id" content="pubp://event/ae2599708dd04a878b7d139709ec9c94"/><meta data-rh="true" name="image" content="https://static01.nyt.com/images/2018/12/10/business/10location-promo/10location-promo-facebookJumbo.jpg?year=2018&amp;h=550&amp;w=1050&amp;s=49a560667fe9e0ba3efe36299728d7e3f5f1b251c4eb2ba1986d53cf53a6cccd&amp;k=ZQJBKqZ0VN"/><meta data-rh="true" name="byl" content="By Jennifer Valentino-DeVries, Natasha Singer, Michael H. Keller and Aaron Krolik"/><meta data-rh="true" name="news_keywords" content="Mobile Apps,Data Mining;Big Data,Online advertising,Privacy,Computer security,Map"/><meta data-rh="true" name="pdate" content="20181210"/><meta data-rh="true" property="article:section" content="Business"/><meta data-rh="true" property="article:tag" content="Mobile Applications"/><meta data-rh="true" property="article:tag" content="Data-Mining and Database Marketing"/><meta data-rh="true" property="article:tag" content="Online Advertising"/><meta data-rh="true" property="article:tag" content="Privacy"/><meta data-rh="true" property="article:tag" content="Computer Security"/><meta data-rh="true" property="article:tag" content="Maps"/><meta data-rh="true" property="article:opinion" content="false"/><meta data-rh="true" property="article:content_tier" content="metered"/><meta data-rh="true" name="CG" content="business"/><meta data-rh="true" name="SCG" content=""/><meta data-rh="true" name="CN" content="big-techs-breach-of-trust"/><meta data-rh="true" name="CT" content="spotlight"/><meta data-rh="true" name="hostApp" content="vi"/><meta data-rh="true" name="adBlocker" content/><meta data-rh="true" name="adTargeting" content/><meta data-rh="true" name="adtargeting" content="{}"/><link data-rh="true" rel="shortcut icon" href="/vi-assets/static-assets/favicon-d2483f10ef688e6f89e23806b9700298.ico"/><link data-rh="true" rel="apple-touch-icon" href="/vi-assets/static-assets/apple-touch-icon-28865b72953380a40aa43318108876cb.png"/><link data-rh="true" rel="apple-touch-icon-precomposed" sizes="144×144" href="/vi-assets/static-assets/ios-ipad-144x144-28865b72953380a40aa43318108876cb.png"/><link data-rh="true" rel="apple-touch-icon-precomposed" sizes="114×114" href="/vi-assets/static-assets/ios-iphone-114x144-080e7ec6514fdc62bcbb7966d9b257d2.png"/><link data-rh="true" rel="apple-touch-icon-precomposed" href="/vi-assets/static-assets/ios-default-homescreen-57x57-43808a4cd5333b648057a01624d84960.png"/>
 <link id="legacy-zam5nzz" rel="stylesheet" type="text/css" href="https://typeface.nyt.com/css/zam5nzz.css" media="all" />
 <link rel="stylesheet" type="text/css" media="screen" href="/vi-assets/static-assets/nyt5/20190823-143533-mbipe/css/styles.css" />
 
@@ -54,7 +54,7 @@ if (inAndroid || iniOS) document.documentElement.classList.add('nyt-hide-shell')
       <script>
       !function(r){var n,t;r=r||self,n=r.Abra,(t=r.Abra=function(){"use strict";var r=Array.isArray,n=function(r,n,t){var e=r(t,n),u=e[0],o=e[1];if(null==u||""===u)return n;for(var i=String(u).split("."),a=0;a<i.length&&(n=n[i[a]]);a++);return null==n&&(n=o),null!=n?n:null},t=function(r,n,t){return r(t,n).reduce((function(r,n){return parseFloat(r)+parseFloat(n)}),0)},e=function(r,n,t){var e=r(t,n);return e[0]/e[1]},u=function(r,n,t){var e=r(t,n);return e[0]%e[1]},o=function(r,n,t){return r(t,n).reduce((function(r,n){return parseFloat(r)*parseFloat(n)}),1)},i=function(r,n,t){var e=r(t,n),u=e[0],o=e[1];return void 0===o?-u:u-o};function a(n){return!(r(n)&&0===n.length||!n)}var f=function(r,n,t){for(var e,u=0;u<t.length;u++)if(!a(e=r(t[u],n)))return e;return e},c=function(r,n,t){var e;for(e=0;e<t.length-1;e+=2)if(a(r(t[e],n)))return r(t[e+1],n);return t.length===e+1?r(t[e],n):null},l=function(r,n,t){return!a(r(t,n)[0])},v=function(r,n,t){for(var e,u=0;u<t.length;u++)if(a(e=r(t[u],n)))return e;return e},d=function(r,n,t){var e=r(t,n);return e[0]===e[1]},s=function(r,n,t){var e=r(t,n);return e[0]!==e[1]},h=function(r,n,t){var e=r(t,n),u=e[0],o=e[1];return!(!o||void 0===o.indexOf)&&-1!==o.indexOf(u)},g=function(r,n,t){var e=r(t,n);return e[0]>e[1]},p=function(r,n,t){var e=r(t,n);return e[0]>=e[1]},b=function(r,n,t){var e=r(t,n),u=e[0],o=e[1],i=e[2];return void 0===i?u<o:u<o&&o<i},w=function(r,n,t){var e=r(t,n),u=e[0],o=e[1],i=e[2];return void 0===i?u<=o:u<=o&&o<=i},y=function(r,n,t){var e=t[0],u=t[1],o=t.slice(2),i=r(e,n);if(!i)return null;if(0===o.length)return null;if(1===o.length)return r(o[0],n);if(4294967295===o[0])return r(o[1],n);for(var a=function(r){var n,t,e,u,o,i=[],a=[t=1732584193,e=4023233417,~t,~e,3285377520],f=[],c=unescape(encodeURI(r))+"\x80",l=c.length;for(f[r=--l/4+2|15]=8*l;~l;)f[l>>2]|=c.charCodeAt(l)<<8*~l--;for(n=l=0;n<r;n+=16){for(t=a;l<80;t=[t[4]+(i[l]=l<16?~~f[n+l]:2*c|c<0)+1518500249+[e&u|~e&o,c=341275144+(e^u^o),882459459+(e&u|e&o|u&o),c+1535694389][l++/5>>2]+((c=t[0])<<5|c>>>27),c,e<<30|e>>>2,u,o])c=i[l-3]^i[l-8]^i[l-14]^i[l-16],e=t[1],u=t[2],o=t[3];for(l=5;l;)a[--l]+=t[l]}return a[0]>>>0}(i+" "+r(u,n));o.length>1;){var f=o.splice(0,2),c=f[0],l=f[1];if(a<=r(c,n))return r(l,n)}return 0===o.length?null:r(o[0],n)},k=function(r,n,t){var e=t[0],u=t[1],o=r(e,n);return null==o?null:new RegExp(u).test(o)};return function(a,m,O,A){void 0===a&&(a={}),void 0===m&&(m={}),void 0===O&&(O={}),void 0===A&&(A=!1);var j=function(){var r={},n=function(n){if(n)for(var t,e=decodeURIComponent(n[1]),u=/(?:^|,)([^,=]+)=([^,]*)/g;t=u.exec(e);){var o=t,i=o[1],a=o[2];r[i]=a||null}};n(document.cookie.match(/(?:^|;) *abra-overrides=([^;]+)/)),n(window.location.search.match(/(?:\?|&)abra-overrides=([^&]+)/));var t=/(?:^|;) *abra-nuke=true(?:;|$)/.test(document.cookie)||/(?:\?|&)abra-nuke=true(?:&|$)/.test(window.location.search);return[r,t]}(),x=j[0],E=j[1];Object.keys(O).forEach((function(r){x[r]=O[r]}));var F,C=A||E,R=(F={var:n,if:c,"===":d,"!==":s,and:f,or:v,"!":l,">":g,">=":p,"<":b,"<=":w,"+":t,"-":i,"*":o,"/":e,"%":u,in:h,abtest_partition:y,regex_match:k,ref:function(r,n,t){var e=r(t,n)[0];return U(e)}},function n(t,e){if(e||(e={}),r(t))return t.map((function(r){return n(r,e)}));if(!function(n){return"object"==typeof n&&null!==n&&!r(n)&&1===Object.keys(n).length}(t))return t;var u=function(r){return Object.keys(r)[0]}(t),o=t[u];r(o)||(o=[o]);var i=F[u];if(!i)throw new Error("Unrecognized operation "+u);return i(n,e,o)}),U=function(r){if(!r)return null;var n=x[r];if(void 0===n){if(!C){if(Object.prototype.hasOwnProperty.call(x,r))throw new Error("circular logic");x[r]=void 0,n=R(a[r],m)}void 0===n&&(n=null),x[r]=n}return n};return U}}()).noConflict=function(){return r.Abra=n,t}}(this);
 
-      (function () { var NYTD="undefined"!=typeof window&&window.NYTD?window.NYTD:{};var _f=function(t){if(window.Abra&&"function"==typeof window.Abra){NYTD.Abra=function(n){var e=(n.document.cookie.match(/(?:^|;) *nyt-a=([^;]*)/)||[])[1],a=[];n.dataLayer=n.dataLayer||[],s.config=t.abraConfig||{},s.reportedAllocations={},s.reportedExposures={};var r=(t.abraURL||"").match(/current[/]([a-zA-Z-]+).json/i);s.integration=r&&r.length>1?r[1]:"";try{s.version=n.Abra(s.config)(".ver")}catch(t){s.version=0}var o=s.config,i={agent_id:e},c=n.Abra(o,i);function s(t){return s.getAbraSync(t).variant}return s.getAbraSync=function(t){var n=s.reportedAllocations[t];if(void 0!==n)return{variant:n,allocated:!0};var e=null,a=!1;try{e=c(t),a=!0}catch(t){}return{variant:e,allocated:a}},s.reportExposure=function(t){var e=s.getAbraSync(t).variant;void 0!==s.reportedExposures[t]&&e===s.reportedExposures[t]||(s.reportedExposures[t]=e,n.dataLayer.push({event:"ab-expose",abtest:{test:t,variant:e||"0",config_ver:s.version,integration:s.integration}}))},s.alloc=function(){Object.keys(s.config).filter(function(t){return!t.includes(".")}).forEach(function(t){var n=s.getAbraSync(t);n.allocated&&(s.reportedAllocations[t]=n.variant,a.push({test:t,variant:n.variant}))}),n.dataLayer.push({event:"ab-alloc",abtest:{batch:a}})},s.alloc(),s}(this);var n="SJ_xpn_storylines_desktop_cwv_0124";if("1_xpn_in_story"===window.NYTD.Abra.getAbraSync(n).variant){document.documentElement.classList.add("SJ_xpn_storylines_desktop_cwv_0124-1_xpn_in_story")}if("2_xpn_hamburger"===window.NYTD.Abra.getAbraSync(n).variant){document.documentElement.classList.add("SJ_xpn_storylines_desktop_cwv_0124-2_xpn_hamburger")}if("3_xpn_top_only"===window.NYTD.Abra.getAbraSync(n).variant){document.documentElement.classList.add("SJ_xpn_storylines_desktop_cwv_0124-3_xpn_top_only")}if("1_hide_hb"===window.NYTD.Abra.getAbraSync("SJ_hideDesktopHamburger_cwv_1223").variant){document.documentElement.classList.add("SJ_hideDesktopHamburger_cwv_1223-1_hide_hb")}}};;_f.apply(null, [{"abraConfig":{".ver":16538,"UPSHOT_wordlebotGuessDetail_011624":{"abtest_partition":[{"var":"agent_id"},"UPSHOT_wordlebotGuessDetail_011624",3865470565,"0_Control",4080218930,"1_ShowDetail",4294967295,"0_Control"]},"SUBCON_RES_AIG_SURVEY_228":{"abtest_partition":[{"var":"agent_id"},"SUBCON_RES_AIG_SURVEY_228",4080218930,"0_Control",4294967295,"1_Variant"]},"STYLN_user_state_api_1122":{"abtest_partition":[{"var":"regi_id"},"STYLN_user_state_api_1122",4294967295,"1_User_State"]},"STYLN_trust_metering":{"abtest_partition":[{"var":"agent_id"},"STYLN_trust_metering",4294967295,"1_variant"]},"STYLN_tracking_beacon":{"abtest_partition":[{"var":"agent_id"},"STYLN_tracking_beacon",2147483647,"0_control",4294967295,"1_beacon"]},"STYLN_pharmacy_client_side":{"abtest_partition":[{"var":"agent_id"},"STYLN_pharmacy_client_side",42949672,"1_variant",64424508,"1_variant",150323854,"1_variant",214748364,"1_variant",4294967295,"1_variant"]},"STYLN_live_transition_alerts":{"abtest_partition":[{"var":"agent_id"},"STYLN_live_transition_alerts",4294967295,"1_show"]},"STYLN_live_polling_push":{"abtest_partition":[{"var":"agent_id"},"STYLN_live_polling_push",214748364,"0_hide",4294967295,"1_show"]},"STYLN_live_newupdates":{"abtest_partition":[{"var":"agent_id"},"STYLN_live_newupdates",214748364,"control",4294967295,"variant"]},"STYLN_liveblog_email":{"abtest_partition":[{"var":"agent_id"},"STYLN_liveblog_email",2147483647,"0_control",4294967295,"1_signup"]},"STYLN_lb_pinned_video":{"abtest_partition":[{"var":"agent_id"},"STYLN_lb_pinned_video",4294967295,"1_pin"]},"STYLN_lb_newposts":{"abtest_partition":[{"var":"agent_id"},"STYLN_lb_newposts",4080218930,"0_control",4294967295,"1_lb_newposts"]},"STANDCON_CONV_EXISTING_SUBS_BAR1_EXPERIMENT_2212":{"abtest_partition":[{"var":"agent_id"},"STANDCON_CONV_EXISTING_SUBS_BAR1_EXPERIMENT_2212",3006477106,"v7",3221225471,"v0",3865470565,"v0",4294967295,"v4"]},"SJ_xpn_storylines_desktop_cwv_0124":{"abtest_partition":[{"var":"agent_id"},"SJ_xpn_storylines_desktop_cwv_0124",214748364,"0_Control",429496729,"1_xpn_in_story",644245093,"2_xpn_hamburger",858993458,"3_xpn_top_only"]},"SJ_subx_holdout_aa_fake":{"abtest_partition":[{"var":"regi_id"},"SJ_subx_holdout_aa_fake",429496729,"0_control",858993458,"1_variant"]},"SJ_regi_welcome_1123":{"if":[{"and":[{"===":[{"var":"user_type"},"regi"]}]},{"abtest_partition":[{"var":"regi_id"},"SJ_regi_welcome_1123",1460288880,"0_control",2877628087,"1_old",4294967295,"2_new"]}]},"SJ_regi_bottom_sheet_1223":{"abtest_partition":[{"var":"regi_id"},"SJ_regi_bottom_sheet_1223",214748364,"0_control",429496729,"1_bottom"]},"SJ_hideDesktopHamburger_cwv_1223":{"abtest_partition":[{"var":"agent_id"},"SJ_hideDesktopHamburger_cwv_1223",429496729,"0_control",858993458,"1_hide_hb"]},"SJ_bottom_sheet_rollout_0626":{"if":[{"and":[{"===":[{"var":"user_type"},"sub"]},{"===":[{"ref":"SJ_universal_holdout_0722"},"1_test"]}]},{"abtest_partition":[{"var":"regi_id"},"SJ_bottom_sheet_rollout_0626",429496729,"0_Control",4294967295,"1_Test"]}]},"SJ_AA_OnboardingFlow_CrossPlatform_Exposure_Test":{"if":[{"and":[{"===":[{"ref":"SJ_subx_holdout_aa_fake"},"1_variant"]}]},{"abtest_partition":[{"var":"regi_id"},"SJ_AA_OnboardingFlow_CrossPlatform_Exposure_Test",283467841,"0_Control",455266532,"2_Test_Variant_B",515396075,"1_Test_Variant_A",627065224,"2_Test_Variant_B",635655159,null,644245093,"0_Control",867583393,"1_Test_Variant_A"]}]},"ON_news_upsell_sale":{"abtest_partition":[{"var":"agent_id"},"ON_news_upsell_sale",3865470565,"1_news_upsell",4294967295,"1_news_upsell"]},"MX_OMA_Truncator_1108":{"abtest_partition":[{"var":"agent_id"},"MX_OMA_Truncator_1108"]},"MX_OMA_HomeDock_12_24":{"abtest_partition":[{"var":"agent_id"},"MX_OMA_HomeDock_12_24",42958262,"0_Control",128849018,null,171794396,"1_HomeDockCollapsible",214739774,"2_HomeDockDismissible7"]},"MX_OMA_DOCK_TEST":{"abtest_partition":[{"var":"agent_id"},"MX_OMA_DOCK_TEST",4294967295,"1_Variant"]},"MX_NewArchitecture_PostLoginOffer":{"abtest_partition":[{"var":"agent_id"},"MX_NewArchitecture_PostLoginOffer",21474835,"0_control",42949672,"1_variant",64424508,"0_control",85899345,"1_variant",579820584,"0_control",1073741823,"1_variant",1438814043,"0_control",1803886263,"1_variant",1825361100,"0_control",1846835936,"1_variant",1868310773,"0_control",1889785609,"1_variant",1911260446,"0_control",1932735282,"1_variant",1954210119,"0_control",1975684955,"1_variant",1997159792,"0_control",2018634628,"1_variant",2040109465,"0_control",2061584301,"1_variant",2083059138,"0_control",2104533974,"1_variant",2126008811,"0_control",2147483647,"1_variant"]},"MX_NewArchitecture_gateway":{"if":[{"and":[{"===":[{"ref":"MX_NewArchitecture_MeterReal"},"1_variant"]}]},{"abtest_partition":[{"var":"agent_id"},"MX_NewArchitecture_gateway",21474835,"1_variant",107374181,"1_variant",1073741823,"1_variant",1116691496,"1_variant",1159641169,"1_variant",1267015351,"1_variant",1503238553,"1_variant",1717986917,"1_variant",1932735282,"1_variant",2126008811,"1_variant",4294967295,"1_variant"]}]},"MKT_not_ready_to_sub_survey":{"abtest_partition":[{"var":"agent_id"},"MKT_not_ready_to_sub_survey",3221225471,"0_control",3435973836,"1_survey",4294967295,"0_control"]},"MKT_CK_PLO_PRO_Header_Test_122023":{"abtest_partition":[{"var":"agent_id"},"MKT_CK_PLO_PRO_Header_Test_122023"]},"DFP_Prebid_0723":{"abtest_partition":[{"var":"agent_id"},"DFP_Prebid_0723_3",4294967295,"3_Index_PubMatic"]},"AMS_FrictionCircumventionMobile_cwv":{"abtest_partition":[{"var":"agent_id"},"AMS_FrictionCircumventionMobile_cwv",14319420,"0_control",28634546,"1_high-mid-truncation",42949672,"2_low-mid-truncation",243421565,"0_control",443833329,"1_high-mid-truncation",644245093,"2_low-mid-truncation",672883935,"0_control",701514187,"1_high-mid-truncation",730144439,"2_low-mid-truncation",744463860,"0_control",758778986,"1_high-mid-truncation",773094112,"2_low-mid-truncation",787413533,"0_control",801728659,"1_high-mid-truncation",816043785,"2_low-mid-truncation",830363206,"0_control",844678332,"1_high-mid-truncation",858993458,"2_low-mid-truncation",873312879,"0_control",887628005,"1_high-mid-truncation",901943131,"2_low-mid-truncation",916262552,"0_control",930577678,"1_high-mid-truncation",944892804,"2_low-mid-truncation",959212225,"0_control",973527351,"1_high-mid-truncation",987842477,"2_low-mid-truncation",1002161898,"0_control",1016477024,"1_high-mid-truncation",1030792150,"2_low-mid-truncation",1045111571,"0_control",1059426697,"1_high-mid-truncation",1073741823,"2_low-mid-truncation",1088061244,"0_control",1102376370,"1_high-mid-truncation",1116691496,"2_low-mid-truncation",1131010917,"0_control",1145326043,"1_high-mid-truncation",1159641169,"2_low-mid-truncation",1173960590,"0_control",1188275716,"1_high-mid-truncation",1202590842,"2_low-mid-truncation",1216910263,"0_control",1231225389,"1_high-mid-truncation",1245540515,"2_low-mid-truncation",1259859936,"0_control",1274175062,"1_high-mid-truncation",1288490188,"2_low-mid-truncation",1302809609,"0_control",1317124735,"1_high-mid-truncation",1331439861,"2_low-mid-truncation",1445995228,"0_control",1560516236,"1_high-mid-truncation",1675037244,"2_low-mid-truncation",1947106243,"0_control",2219093637,"1_high-mid-truncation",2491081031,"2_low-mid-truncation",2920663660,"0_control",3350117440,"1_high-mid-truncation",3779571219,"2_low-mid-truncation",3951404271,"0_control",4123185783,"1_high-mid-truncation",4294967295,"2_low-mid-truncation"]},"AMS_FrictionCircumventionDesktop_cwv":{"abtest_partition":[{"var":"agent_id"},"AMS_FrictionCircumventionDesktop_cwv",14319420,"0_control",28634546,"1_high-mid-truncation",42949672,"2_low-mid-truncation",243421565,"0_control",443833329,"1_high-mid-truncation",644245093,"2_low-mid-truncation",672883935,"0_control",701514187,"1_high-mid-truncation",730144439,"2_low-mid-truncation",744463860,"0_control",758778986,"1_high-mid-truncation",773094112,"2_low-mid-truncation",787413533,"0_control",801728659,"1_high-mid-truncation",816043785,"2_low-mid-truncation",830363206,"0_control",844678332,"1_high-mid-truncation",858993458,"2_low-mid-truncation",873312879,"0_control",887628005,"1_high-mid-truncation",901943131,"2_low-mid-truncation",916262552,"0_control",930577678,"1_high-mid-truncation",944892804,"2_low-mid-truncation",959212225,"0_control",973527351,"1_high-mid-truncation",987842477,"2_low-mid-truncation",1002161898,"0_control",1016477024,"1_high-mid-truncation",1030792150,"2_low-mid-truncation",1045111571,"0_control",1059426697,"1_high-mid-truncation",1073741823,"2_low-mid-truncation",1088061244,"0_control",1102376370,"1_high-mid-truncation",1116691496,"2_low-mid-truncation",1131010917,"0_control",1145326043,"1_high-mid-truncation",1159641169,"2_low-mid-truncation",1173960590,"0_control",1188275716,"1_high-mid-truncation",1202590842,"2_low-mid-truncation",1216910263,"0_control",1231225389,"1_high-mid-truncation",1245540515,"2_low-mid-truncation",1259859936,"0_control",1274175062,"1_high-mid-truncation",1288490188,"2_low-mid-truncation",1302809609,"0_control",1317124735,"1_high-mid-truncation",1331439861,"2_low-mid-truncation",1345759282,"0_control",1360074408,"1_high-mid-truncation",1374389534,"2_low-mid-truncation",1560542006,"0_control",1746638644,"1_high-mid-truncation",1932735282,"2_low-mid-truncation",2133207176,"0_control",2333618940,"1_high-mid-truncation",2534030704,"2_low-mid-truncation",2934974491,"0_control",3335798019,"1_high-mid-truncation",3736621547,"2_low-mid-truncation",3922774019,"0_control",4108870657,"1_high-mid-truncation",4294967295,"2_low-mid-truncation"]},"ACCT_EarlyGiftRenewal":{"abtest_partition":[{"var":"regi_id"},"ACCT_EarlyGiftRenewal",4294967295,"0_Control"]}}}]); })();
+      (function () { var NYTD="undefined"!=typeof window&&window.NYTD?window.NYTD:{};var _f=function(t){if(window.Abra&&"function"==typeof window.Abra){NYTD.Abra=function(n){var e=(n.document.cookie.match(/(?:^|;) *nyt-a=([^;]*)/)||[])[1],a=[];n.dataLayer=n.dataLayer||[],d.config=t.abraConfig||{},d.reportedAllocations={},d.reportedExposures={};var r=(t.abraURL||"").match(/current[/]([a-zA-Z-]+).json/i);d.integration=r&&r.length>1?r[1]:"";try{d.version=n.Abra(d.config)(".ver")}catch(t){d.version=0}var o=d.config,i={agent_id:e},c=n.Abra(o,i);function d(t){return d.getAbraSync(t).variant}return d.getAbraSync=function(t){var n=d.reportedAllocations[t];if(void 0!==n)return{variant:n,allocated:!0};var e=null,a=!1;try{e=c(t),a=!0}catch(t){}return{variant:e,allocated:a}},d.reportExposure=function(t){var e=d.getAbraSync(t).variant;void 0!==d.reportedExposures[t]&&e===d.reportedExposures[t]||(d.reportedExposures[t]=e,n.dataLayer.push({event:"ab-expose",abtest:{test:t,variant:e||"0",config_ver:d.version,integration:d.integration}}))},d.alloc=function(){Object.keys(d.config).filter(function(t){return!t.includes(".")}).forEach(function(t){var n=d.getAbraSync(t);n.allocated&&(d.reportedAllocations[t]=n.variant,a.push({test:t,variant:n.variant}))}),n.dataLayer.push({event:"ab-alloc",abtest:{batch:a}})},d.alloc(),d}(this);var n="SJ_xpn_storylines_desktop_cwv_0124";if("1_xpn_in_story"===window.NYTD.Abra.getAbraSync(n).variant){document.documentElement.classList.add("SJ_xpn_storylines_desktop_cwv_0124-1_xpn_in_story")}if("2_xpn_hamburger"===window.NYTD.Abra.getAbraSync(n).variant){document.documentElement.classList.add("SJ_xpn_storylines_desktop_cwv_0124-2_xpn_hamburger")}if("3_xpn_top_only"===window.NYTD.Abra.getAbraSync(n).variant){document.documentElement.classList.add("SJ_xpn_storylines_desktop_cwv_0124-3_xpn_top_only")}window.NYTD.Abra.config&&Object.prototype.hasOwnProperty.call(window.NYTD.Abra.config,"SHA_UnlimitedGift_0124")&&document.cookie.includes("SHA_UGT=1")&&document.documentElement.classList.add("unlimited-gift")}};;_f.apply(null, [{"abraConfig":{".ver":17455,"UPSHOT_wordleStateV2_0306":{"abtest_partition":[{"var":"agent_id"},"UPSHOT_wordleStateV2_0306",3435973836,"0_Control",4294967295,"0_Control"]},"UPSHOT_wordlebotGuessDetail_013024":{"abtest_partition":[{"var":"agent_id"},"UPSHOT_wordlebotGuessDetail_013024",3650722201,"0_Control",3865470565,"1_ShowDetail",4080218930,"2_ShowSomeDetail",4294967295,"3_ShowReaderDetail"]},"UPSHOT_wordlebotGuessDetail_011624":{"abtest_partition":[{"var":"agent_id"},"UPSHOT_wordlebotGuessDetail_011624",3865470565,"0_Control",4080218930,"1_ShowDetail",4294967295,"0_Control"]},"SUBX_regi_alloc_holdout_2024H1":{"abtest_partition":[{"var":"regi_id"},"SUBX_regi_alloc_holdout_2024H1",214748364,"0_holdout",429496729,"1_best_experience",4294967295,"2_testing"]},"SUBX_agent_alloc_holdout_2024H1":{"abtest_partition":[{"var":"agent_id"},"SUBX_agent_alloc_holdout_2024H1",214748364,"0_holdout",429496729,"1_best_experience",4294967295,"2_testing"]},"SUBCON_RES_AIG_SURVEY_228":{"abtest_partition":[{"var":"agent_id"},"SUBCON_RES_AIG_SURVEY_228",4080218930,"0_Control",4294967295,"1_Variant"]},"STYLN_user_state_api_1122":{"abtest_partition":[{"var":"regi_id"},"STYLN_user_state_api_1122",4294967295,"1_User_State"]},"STYLN_lb_pinned_video":{"abtest_partition":[{"var":"agent_id"},"STYLN_lb_pinned_video",4294967295,"1_pin"]},"STORY_inlineModules_0124":{"abtest_partition":[{"var":"agent_id"},"STORY_inlineModules_0124",4294967295,"0_unstructured_modules"]},"STANDCON_CONV_EXISTING_SUBS_BAR1_EXPERIMENT_2212":{"abtest_partition":[{"var":"agent_id"},"STANDCON_CONV_EXISTING_SUBS_BAR1_EXPERIMENT_2212",3006477106,"v7",3221225471,"v0",3865470565,"v0",4294967295,"v4"]},"SJ_disrupter_V2_increased_cadence":{"if":[{"and":[{"!":{"in":[{"ref":"SUBX_regi_alloc_holdout_2024H1"},["1_best_experience","0_holdout"]]}}]},{"abtest_partition":[{"var":"regi_id"},"SJ_disrupter_V2_increased_cadence",1460288880,"0_control",2877628087,"1_medium_intensity",4294967295,"2_high_intensity"]}]},"SJ_bottom_sheet_rollout_0626":{"if":[{"and":[{"===":[{"var":"user_type"},"sub"]},{"===":[{"ref":"SJ_universal_holdout_0722"},"1_test"]}]},{"abtest_partition":[{"var":"regi_id"},"SJ_bottom_sheet_rollout_0626",429496729,"0_Control",4294967295,"1_Test"]}]},"SHA_UnlimitedGift_0124":{"if":[{"or":[{"regex_match":[{"var":"user_entitlements"},"(^|\\W)HD|MM|MSD|MTD|TPR($|\\W)"]}]},{"abtest_partition":[{"var":"regi_id"},"SHA_UnlimitedGift_0124",14315125,"0_Control",28630251,"1_Unlimited",42949672,"2_UnlimitedEmail",229046310,"0_Control",415142948,"1_Unlimited",601295420,"2_UnlimitedEmail",1045064326,"0_Control",1488833232,"1_Unlimited",1932735282,"2_UnlimitedEmail"]}]},"ON_news_upsell_sale":{"abtest_partition":[{"var":"agent_id"},"ON_news_upsell_sale",3865470565,"1_news_upsell",4294967295,"1_news_upsell"]},"OMA_FEDERATED_QUERY":{"abtest_partition":[{"var":"agent_id"},"OMA_FEDERATED_QUERY"]},"MX_Turn_Off_CAPI_0324":{"abtest_partition":[{"var":"agent_id"},"MX_Turn_Off_CAPI_0324",4294967295,"0_no_capi"]},"MX_OMA_Truncator_1108":{"abtest_partition":[{"var":"agent_id"},"MX_OMA_Truncator_1108"]},"MX_OMA_HomeDock_12_24":{"abtest_partition":[{"var":"agent_id"},"MX_OMA_HomeDock_12_24_1",4294967295,"0_Control"]},"MX_OMA_DOCK_TEST":{"abtest_partition":[{"var":"agent_id"},"MX_OMA_DOCK_TEST",4294967295,"1_Variant"]},"MX_NewArchitecture_WirecutterLP":{"abtest_partition":[{"var":"agent_id"},"MX_NewArchitecture_WirecutterLP",214748364,"0_control",408021892,null,622770257,"1_variant"]},"MX_NewArchitecture_PostLoginOffer":{"abtest_partition":[{"var":"agent_id"},"MX_NewArchitecture_PostLoginOffer",21474835,"1_variant",42949672,"1_variant",536870911,"1_variant",901943131,"1_variant",923417968,"1_variant",944892804,"1_variant",966367641,"1_variant",987842477,"1_variant",1009317314,"1_variant",1030792150,"1_variant",1052266987,"1_variant",1073741823,"1_variant",1095216659,"1_variant",1116691496,"1_variant",1159641169,"1_variant",1202590842,"1_variant",1267015351,"1_variant",1352914697,"1_variant",1417339207,"1_variant",1503238553,"1_variant",1567663062,"1_variant",1632087571,"1_variant",1696512081,"1_variant",1739461754,"1_variant",1803886263,"1_variant",1846835936,"1_variant",1889785609,"1_variant",1932735282,"1_variant",1975684955,"1_variant",2040109465,"1_variant",2083059138,"1_variant",4294967295,"1_variant"]},"MX_NewArchitecture_gateway":{"if":[{"and":[{"===":[{"ref":"MX_NewArchitecture_MeterReal"},"1_variant"]}]},{"abtest_partition":[{"var":"agent_id"},"MX_NewArchitecture_gateway",21474835,"1_variant",107374181,"1_variant",1073741823,"1_variant",1116691496,"1_variant",1159641169,"1_variant",1267015351,"1_variant",1503238553,"1_variant",1717986917,"1_variant",1932735282,"1_variant",2126008811,"1_variant",4294967295,"1_variant"]}]},"MX_FF_WELCOME_AD":{"abtest_partition":[{"var":"agent_id"},"MX_FF_WELCOME_AD",4294967295,"1_Variant"]},"MKT_not_ready_to_sub_survey":{"abtest_partition":[{"var":"agent_id"},"MKT_not_ready_to_sub_survey",3221225471,"0_control",3435973836,"1_survey",4294967295,"0_control"]},"CONV_GUAC_PLOPRO_SLAYER_0224":{"abtest_partition":[{"var":"agent_id"},"CONV_GUAC_PLOPRO_SLAYER_0224"]},"CONV_GUAC_Dock_HDUpsell_0524":{"abtest_partition":[{"var":"agent_id"},"CONV_GUAC_Dock_HDUpsell_0524"]},"CONV_GUAC_CKLP_ExpressCheckOut_RollOut_0124":{"abtest_partition":[{"var":"agent_id"},"CONV_GUAC_CKLP_ExpressCheckOut_RollOut_0124",4294967295,"1_expresscheckout"]},"CONV_GUAC_AALP_SLAYER_0224":{"abtest_partition":[{"var":"agent_id"},"CONV_GUAC_AALP_SLAYER_0224"]},"CONV_GUAC_AALP_HDAnchor_Test_0424":{"abtest_partition":[{"var":"agent_id"},"CONV_GUAC_AALP_HDAnchor_Test_0424",1460288880,"0_control",2877628087,"1_anchor",4294967295,"2_send_to_lp"]},"AMS_FrictionCircumventionMobile_cwv":{"abtest_partition":[{"var":"agent_id"},"AMS_FrictionCircumventionMobile_cwv",14315125,"2_low-mid-truncation",214726889,"2_low-mid-truncation",243357141,"2_low-mid-truncation",257672267,"2_low-mid-truncation",271987393,"2_low-mid-truncation",286302519,"2_low-mid-truncation",300617645,"2_low-mid-truncation",314932771,"2_low-mid-truncation",329247897,"2_low-mid-truncation",343563023,"2_low-mid-truncation",357878149,"2_low-mid-truncation",372193275,"2_low-mid-truncation",386508401,"2_low-mid-truncation",400823527,"2_low-mid-truncation",415138653,"2_low-mid-truncation",429453779,"2_low-mid-truncation",443768905,"2_low-mid-truncation",558289913,"2_low-mid-truncation",830277307,"2_low-mid-truncation",1259731087,"2_low-mid-truncation",4294967295,"2_low-mid-truncation"]},"AMS_FrictionCircumventionDesktop_cwv":{"abtest_partition":[{"var":"agent_id"},"AMS_FrictionCircumventionDesktop_cwv",14315125,"2_low-mid-truncation",214726889,"2_low-mid-truncation",243357141,"2_low-mid-truncation",257672267,"2_low-mid-truncation",271987393,"2_low-mid-truncation",286302519,"2_low-mid-truncation",300617645,"2_low-mid-truncation",314932771,"2_low-mid-truncation",329247897,"2_low-mid-truncation",343563023,"2_low-mid-truncation",357878149,"2_low-mid-truncation",372193275,"2_low-mid-truncation",386508401,"2_low-mid-truncation",400823527,"2_low-mid-truncation",415138653,"2_low-mid-truncation",429453779,"2_low-mid-truncation",443768905,"2_low-mid-truncation",458084031,"2_low-mid-truncation",644180669,"2_low-mid-truncation",844592433,"2_low-mid-truncation",1245415961,"2_low-mid-truncation",4294967295,"2_low-mid-truncation"]},"AA_OnboardingFlow_MVPFlowAppSequence_WebandApp_V1":{"if":[{"and":[{"regex_match":[{"var":"user_entitlements"},"(^|\\W)MM($|\\W)"]},{"regex_match":[{"var":"user_entitlements"},"(^|\\W)CKG($|\\W)"]},{"regex_match":[{"var":"user_entitlements"},"(^|\\W)ATH($|\\W)"]},{"regex_match":[{"var":"user_entitlements"},"(^|\\W)WC($|\\W)"]},{"regex_match":[{"var":"user_entitlements"},"(^|\\W)XWD($|\\W)"]},{"!":{"in":[{"ref":"SUBX_regi_alloc_holdout_2024H1"},["1_best_experience","0_holdout"]]}},{"!==":[{"var":"app_version"},"10.44.0"]}]},{"abtest_partition":[{"var":"regi_id"},"AA_OnboardingFlow_MVPFlowAppSequence_WebandApp_V1",773094112,"1_appFirst",1546188226,"2_appLater",2319282339,"0_control",2821793512,"1_appFirst",3324304686,"2_appLater",3938485009,"0_control",4009351970,"1_appFirst",4080218930,"2_appLater",4094821819,"0_control",4108995211,"1_appFirst",4123168603,"2_appLater",4137771492,"0_control",4151944884,"1_appFirst",4166118276,"2_appLater",4180721165,"0_control",4194894557,"1_appFirst",4209067949,"2_appLater",4223670838,"0_control",4237844230,"1_appFirst",4252017622,"2_appLater",4266620511,"0_control",4280793903,"1_appFirst",4294967295,"2_appLater"]}]}}}]); })();
       (function () { var _f=function(e){var r=function(){var r=e.url;try{r+=window.location.search.slice(1).split("&").reduce(function(e,r){return"ip-override"===r.split("=")[0]?"?"+r:e},"")}catch(e){console.warn(e)}var n=new XMLHttpRequest;for(var t in n.withCredentials=!0,n.open("POST",r,!0),n.setRequestHeader("Content-Type","application/json"),e.headers)n.setRequestHeader(t,e.headers[t]);return n.send(e.body),n};window.userXhrObject=r(),window.userXhrRefresh=function(){return window.userXhrObject=r(),window.userXhrObject}};;_f.apply(null, [{"url":"https://samizdat-graphql.nytimes.com/graphql/v2","body":"{\"operationName\":\"UserQuery\",\"variables\":{},\"query\":\"   query UserQuery {     user {       __typename       profile {         displayName         email       }       userInfo {         regiId         entitlements         demographics {           emailSubscriptions           wat         }       }       subscriptionDetails {         bundleType         cancellationDate         graceStartDate         graceEndDate         isFreeTrial         hasQueuedSub         startDate         endDate         status         hasActiveEntitlements         entitlements         billingSource         promotionTierType         subscriptionName         subscriptionProducts         subscriptionLabels       }     }   } \"}","headers":{"nyt-app-type":"project-vi","nyt-app-version":"0.0.5","nyt-token":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs+/oUCTBmD/cLdmcecrnBMHiU/pxQCn2DDyaPKUOXxi4p0uUSZQzsuq1pJ1m5z1i0YGPd1U1OeGHAChWtqoxC7bFMCXcwnE1oyui9G1uobgpm1GdhtwkR7ta7akVTcsF8zxiXx7DNXIPd2nIJFH83rmkZueKrC4JVaNzjvD+Z03piLn5bHWU6+w+rA+kyJtGgZNTXKyPh6EC6o5N+rknNMG5+CdTq35p8f99WjFawSvYgP9V64kgckbTbtdJ6YhVP58TnuYgr12urtwnIqWP9KSJ1e5vmgf3tunMqWNm6+AnsqNj8mCLdCuc5cEB74CwUeQcP2HQQmbCddBy2y0mEwIDAQAB","Accept":"application/json","Content-Type":"application/json"}}]); })();
       </script>
 <script id="page-config-data" type="text/json">{"pageconfig":{"collections":{"SECTION":["business"],"SPOTLIGHT":["bigtechsbreachoftrust"]}}}</script>
@@ -286,9 +286,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     <div class="ad sharetools-inline-article-ad hidden nocontent robots-nocontent"></div>
   </div>
   <div class="user-tools-button-group button-group">
-    
-    
-    
+
+
+
   </div>
 </div>
   </div>
@@ -325,25 +325,25 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 </nav>
 
   <div id="page" class="page">
-    
+
     <main id="main" class="main" role="main">
       <article id="story" class="story theme-interactive theme-minimal">
-        
+
         <header class="story-header interactive-header">
           <div class="story-meta">
             <button class="button comments-button theme-kicker"></button>
-            
+
             <h1 class="story-heading interactive-headline" itemprop="headline">Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret</h1>
             <div class="story-meta-footer interactive-meta-footer">
               <div class="interactive-byline">
     <p class="byline-dateline">
-      <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person">
-      By <span class="byline-author" data-byline-name="JENNIFER VALENTINO-DEVRIES" itemprop="name">JENNIFER VALENTINO-DEVRIES</span>, 
-    </span><span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person">
-      <span class="byline-author" data-byline-name="NATASHA SINGER" itemprop="name">NATASHA SINGER</span>, 
-    </span><span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person">
-      <span class="byline-author" data-byline-name="MICHAEL H. KELLER" itemprop="name">MICHAEL H. KELLER</span> and 
-    </span><span class="byline last-byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person">
+      <span class="byline" itemprop="author creator" itemscope itemtype="https://schema.org/Person">
+      By <span class="byline-author" data-byline-name="JENNIFER VALENTINO-DEVRIES" itemprop="name">JENNIFER VALENTINO-DEVRIES</span>,
+    </span><span class="byline" itemprop="author creator" itemscope itemtype="https://schema.org/Person">
+      <span class="byline-author" data-byline-name="NATASHA SINGER" itemprop="name">NATASHA SINGER</span>,
+    </span><span class="byline" itemprop="author creator" itemscope itemtype="https://schema.org/Person">
+      <span class="byline-author" data-byline-name="MICHAEL H. KELLER" itemprop="name">MICHAEL H. KELLER</span> and
+    </span><span class="byline last-byline" itemprop="author creator" itemscope itemtype="https://schema.org/Person">
       <span class="byline-author" data-byline-name="AARON KROLIK" itemprop="name">AARON KROLIK</span>
     </span>
       <time class="dateline" datetime="2018-12-10" itemprop="dateModified" content="2018-12-10">DEC. 10, 2018</time>
@@ -351,8 +351,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   </div>
               <p class="interactive-leadin summary">
                 <span class="summary-text">Dozens of companies use smartphone locations to help advertisers and even hedge funds. They say it’s anonymous, but the data shows how personal it is.</span>
-                
-                
+
+
               </p>
             </div>
           </div>
@@ -2642,13 +2642,13 @@ body {
 
 
 <div class="rad-article" data-slug="00location">
-  
 
 
-  
+
+
 <div class="rad-cover stacked-cover"
      style="background-color:#FFFFFF">
-  
+
 
   <style>
     #locations-top-graphic {
@@ -2719,8 +2719,8 @@ body {
       <h1 class="rad-headline">Your Apps Know Where You Were Last Night, and They’re Not Keeping It Secret</h1>
       <p class="rad-summary">Dozens of companies use smartphone locations to help advertisers and even hedge funds. They say it’s anonymous, but the data shows how personal it is.</p>
       <p class="rad-byline-pubdate"><span class="rad-byline">By <a class="byline-author" href="https://www.nytimes.com/by/jennifer-valentino-devries">JENNIFER VALENTINO-DeVRIES</a>, <a class="byline-author" href="https://www.nytimes.com/by/natasha-singer">NATASHA SINGER</a>, MICHAEL H. KELLER and AARON KROLIK</span>	<time class="rad-pubdate">DEC. 10, 2018</time></p>
-      
-      
+
+
     </div><!-- close story-meta -->
   </header>
 </div>
@@ -2728,94 +2728,94 @@ body {
 
 
 <div class="rad-story-body">
-  
-    
+
+
     <p class="paragraph">The millions of dots on the map trace highways, side streets and bike trails &#x2014; each one following the path of an anonymous cellphone user.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">One path tracks someone from a home outside Newark to a nearby Planned Parenthood, remaining there for more than an hour. Another represents a person who travels with the mayor of New York during the day and returns to Long Island at night.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Yet another leaves a house in upstate New York at 7 a.m. and travels to a middle school 14 miles away, staying until late afternoon each school day. Only one person makes that trip: Lisa Magrin, a 46-year-old math teacher. Her smartphone goes with her.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">An app on the device gathered her location information, which was then sold without her knowledge. It recorded her whereabouts as often as every two seconds, according to a database of more than a million phones in the New York area that was reviewed by The New York Times. While Ms. Magrin&#x2019;s identity was not disclosed in those records, The Times was able to easily connect her to that dot.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">The app tracked her as she went to a Weight Watchers meeting and to her dermatologist&#x2019;s office for a minor procedure. It followed her hiking with her dog and staying at her ex-boyfriend&#x2019;s home, information she found disturbing.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">&#x201C;It&#x2019;s the thought of people finding out those intimate details that you don&#x2019;t want people to know,&#x201D; said Ms. Magrin, who allowed The Times to review her location data.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Like many consumers, Ms. Magrin knew that apps could track people&#x2019;s movements. But as smartphones have become ubiquitous and technology more accurate, an industry of snooping on people&#x2019;s daily habits has spread and grown more intrusive.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="rad-interactive full_bleed" id="interactive-2017-11-06-location-intro"  data-id="100000006222434" data-slug="2017-11-06-location-intro">
   <div class="rad-interactive-wrapper">
-    
+
       <h2 class="interactive-headline">intro</h2>
-      
-    
+
+
     <!--
 
 ======================================================
@@ -2853,175 +2853,175 @@ require(['foundation/main'], function() {
   </div>
 </div>
 
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
     <p class="paragraph">At least 75 companies receive anonymous, precise location data from apps whose users enable location services to get local news and weather or other information, The Times found. Several of those businesses claim to track up to 200 million mobile devices in the United States &#x2014; about half those in use last year. The database reviewed by The Times &#x2014; a sample of information gathered in 2017 and held by one company &#x2014; reveals people&#x2019;s travels in startling detail, accurate to within a few yards and in some cases updated more than 14,000 times a day.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph"><em>[Learn how to <a href="https://www.nytimes.com/2018/12/10/technology/prevent-location-data-sharing.html?action=click&amp;module=Intentional&amp;pgtype=Article">stop apps from tracking your location</a>.]</em></p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">These companies sell, use or analyze the data to cater to advertisers, retail outlets and even hedge funds seeking insights into consumer behavior. It&#x2019;s a hot market, with sales of location-targeted advertising reaching an <a href="https://shop.biakelsey.com/product/2018-u-s-local-mobile-local-social-ad-forecast" title="BIA Advisory Services forecast">estimated</a> $21 billion this year. IBM has gotten into the industry, with its purchase of <a href="https://www.ibm.com/case-studies/mcdonalds-watson-advertising">the Weather Channel&#x2019;s apps</a>. The social network Foursquare <a href="https://venturebeat.com/2018/10/02/foursquare-raises-33-million-for-ad-and-location-analytics/">remade itself</a> as a location marketing company. Prominent investors in location start-ups include <a href="https://www.businesswire.com/news/home/20180518005397/en/Cuebiq-Raises-27-Million-Growth-Capital">Goldman Sachs</a> and <a href="https://blog.safegraph.com/safegraph-raises-16-million-series-a-e8e88eeb7beb">Peter Thiel</a>, the PayPal co-founder.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Businesses say their interest is in the patterns, not the identities, that the data reveals about consumers. They note that the information apps collect is tied not to someone&#x2019;s name or phone number but to a unique ID. But those with access to the raw data &#x2014; including employees or clients &#x2014; could still identify a person without consent. They could follow someone they knew, by pinpointing a phone that regularly spent time at that person&#x2019;s home address. Or, working in reverse, they could attach a name to an anonymous dot, by seeing where the device spent nights and using public records to figure out who lived there.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Many location companies say that when phone users enable location services, their data is fair game. But, The Times found, the explanations people see when prompted to give permission are often incomplete or misleading. An app may tell users that granting access to their location will help them get traffic information, but not mention that the data will be shared and sold. That disclosure is often buried in a vague privacy policy.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">&#x201C;Location information can reveal some of the most intimate details of a person&#x2019;s life &#x2014; whether you&#x2019;ve visited a psychiatrist, whether you went to an A.A. meeting, who you might date,&#x201D; said Senator Ron Wyden, Democrat of Oregon, who has proposed bills to limit the collection and sale of such data, which are largely unregulated in the United States.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">&#x201C;It&#x2019;s not right to have consumers kept in the dark about how their data is sold and shared and then leave them unable to do anything about it,&#x201D; he added.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
+
+
+
+
+
+
+
+
     <h4 class="header">Mobile Surveillance Devices</h4>
 
-    
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
+
     <p class="paragraph">After Elise Lee, a nurse in Manhattan, saw that her device had been tracked to the main operating room at the hospital where she works, she expressed concern about her privacy and that of her patients.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">&#x201C;It&#x2019;s very scary,&#x201D; said Ms. Lee, who allowed The Times to examine her location history in the data set it reviewed. &#x201C;It feels like someone is following me, personally.&#x201D;</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">The mobile location industry began as a way to customize apps and target ads for nearby businesses, but it has morphed into a data collection and analysis machine.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Retailers look to tracking companies to tell them about their own customers and their competitors&#x2019;. For <a href="https://www.youtube.com/watch?v=BVZc86CZovU">a web seminar</a> last year, Elina Greenstein, an executive at the location company GroundTruth, mapped out the path of a hypothetical consumer from home to work to show potential clients how tracking could reveal a person&#x2019;s preferences. For example, someone may search online for healthy recipes, but GroundTruth can see that the person often eats at fast-food restaurants.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">&#x201C;We look to understand who a person is, based on where they&#x2019;ve been and where they&#x2019;re going, in order to influence what they&#x2019;re going to do next,&#x201D; Ms. Greenstein said.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Financial firms can use the information to make investment decisions before a company reports earnings &#x2014; seeing, for example, if more people are working on a factory floor, or going to a retailer&#x2019;s stores.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="rad-interactive jumbo" id="interactive-00location-gfx-pp"  data-id="100000006201699" data-slug="00location-gfx-pp">
   <div class="rad-interactive-wrapper">
-    
+
       <h2 class="interactive-headline">planned parenthood</h2>
-      
-    
+
+
     <!--
 
 ======================================================
@@ -3059,65 +3059,65 @@ require(['foundation/main'], function() {
   </div>
 </div>
 
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
     <p class="paragraph">Health care facilities are among the more enticing but troubling areas for tracking, as Ms. Lee&#x2019;s reaction demonstrated. Tell All Digital, a Long Island advertising firm that is a client of a location company, says it runs <a href="https://www.npr.org/sections/health-shots/2018/05/25/613127311/digital-ambulance-chasers-law-firms-send-ads-to-patients-phones-inside-ers">ad campaigns</a> for personal injury lawyers targeting people anonymously in emergency rooms.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">&#x201C;The book &#x2018;1984,&#x2019; we&#x2019;re kind of living it in a lot of ways,&#x201D; said Bill Kakis, a managing partner at Tell All.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Jails, schools, a military base and a nuclear power plant &#x2014; even crime scenes &#x2014; appeared in the data set The Times reviewed. One person, perhaps a detective, arrived at the site of a late-night homicide in Manhattan, then spent time at a nearby hospital, returning repeatedly to the local police station.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Two location firms, Fysical and <a href="https://blog.safegraph.com/inauguration-attendees-make-significantly-less-money-than-womens-march-attendees-7cb8b056556a">SafeGraph</a>, mapped people attending the 2017 presidential inauguration. <a href="https://medium.com/fysicalblog/the-2017-womens-march-in-washington-had-3x-the-attendance-as-trump-s-inauguration-267fc7f6968c">On Fysical&#x2019;s map</a>, a bright red box near the Capitol steps indicated the general location of President Trump and those around him, cellphones pinging away. Fysical&#x2019;s chief executive said in an email that the data it used was anonymous. SafeGraph did not respond to requests for comment.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="rad-interactive full_bleed" id="interactive-00location-gfx-school"  data-id="100000006201633" data-slug="00location-gfx-school">
   <div class="rad-interactive-wrapper">
-    
+
       <h2 class="interactive-headline">school</h2>
-      
-    
+
+
     <!--
 
 ======================================================
@@ -3155,65 +3155,65 @@ require(['foundation/main'], function() {
   </div>
 </div>
 
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
     <p class="paragraph">More than 1,000 popular apps contain location-sharing code from such companies, according to 2018 data from <a href="https://mightysignal.com/">MightySignal</a>, a mobile analysis firm. Google&#x2019;s Android system was found to have about 1,200 apps with such code, compared with about 200 on Apple&#x2019;s iOS.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">The most prolific company was Reveal Mobile, based in North Carolina, which had location-gathering code in more than 500 apps, including many that provide local news. A Reveal spokesman said that the popularity of its code showed that it helped app developers make ad money and consumers get free services.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">To evaluate location-sharing practices, The Times tested 20 apps, most of which had been flagged by <a href="https://www.appcensus.mobi/">researchers</a> and industry insiders as potentially sharing the data. Together, 17 of the apps sent exact latitude and longitude to about 70 businesses. Precise location data from one app, WeatherBug on iOS, was received by 40 companies. When contacted by The Times, some of the companies that received that data described it as &#x201C;unsolicited&#x201D; or &#x201C;inappropriate.&#x201D;</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">WeatherBug, owned by GroundTruth, asks users&#x2019; permission to collect their location and tells them the information will be used to personalize ads. GroundTruth said that it typically sent the data to ad companies it worked with, but that if they didn&#x2019;t want the information they could ask to stop receiving it.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="rad-interactive jumbo" id="interactive-2018-11-06-location-mayor"  data-id="100000006221847" data-slug="2018-11-06-location-mayor">
   <div class="rad-interactive-wrapper">
-    
+
       <h2 class="interactive-headline">mayor</h2>
-      
-    
+
+
     <!--
 
 ======================================================
@@ -3251,141 +3251,141 @@ require(['foundation/main'], function() {
   </div>
 </div>
 
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
     <p class="paragraph">The Times also identified more than 25 other companies that have said in marketing materials or interviews that they sell location data or services, including targeted advertising.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph"><em> [Read more about <a href="https://www.nytimes.com/2018/12/10/technology/location-tracking-apps-privacy.html?action=click&amp;module=Intentional&amp;pgtype=Article">how The Times analyzed location tracking companies</a>.]</em></p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">The spread of this information raises questions about how securely it is handled and whether it is vulnerable to hacking, said Serge Egelman, a computer security and privacy researcher affiliated with the University of California, Berkeley.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">&#x201C;There are really no consequences&#x201D; for companies that don&#x2019;t protect the data, he said, &#x201C;other than bad press that gets forgotten about.&#x201D;</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
+
+
+
+
+
+
+
+
     <h4 class="header">A Question of Awareness</h4>
 
-    
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Companies that use location data say that people agree to share their information in exchange for customized services, rewards and discounts. Ms. Magrin, the teacher, noted that she liked that tracking technology let her record her jogging routes.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Brian Wong, chief executive of Kiip, a mobile ad firm that has also sold anonymous data from some of the apps it works with, says users give apps permission to use and share their data. &#x201C;You are receiving these services for free because advertisers are helping monetize and pay for it,&#x201D; he said, adding, &#x201C;You would have to be pretty oblivious if you are not aware that this is going on.&#x201D;</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">But Ms. Lee, the nurse, had a different view. &#x201C;I guess that&#x2019;s what they have to tell themselves,&#x201D; she said of the companies. &#x201C;But come on.&#x201D;</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Ms. Lee had given apps on her iPhone access to her location only for certain purposes &#x2014; helping her find parking spaces, sending her weather alerts &#x2014; and only if they did not indicate that the information would be used for anything else, she said. Ms. Magrin had allowed about a dozen apps on her Android phone access to her whereabouts for services like traffic notifications.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <figure class="media photo large" data-id="100000006239481"  data-slug="10locationSUB">
   <div class="rad-media-wrapper">
     <div class="image" style="background-color: #867a67">
       <div class="rad-spinner"></div>
-    
+
       <img class="rad-lazy media-viewer-candidate"
         src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'
         style='height: 0 !important; padding-bottom: 66.66666666666666%'
         data-pattern='https://static01.nyt.com/images/2018/12/10/us/10locationSUB/{{file}}'
         data-widths='{"master":[{"size":180,"filename":"merlin_147153585_c1210910-1182-4f3c-b648-b69c91a21b1a-master180.jpg"},{"size":495,"filename":"merlin_147153585_c1210910-1182-4f3c-b648-b69c91a21b1a-master495.jpg"},{"size":675,"filename":"merlin_147153585_c1210910-1182-4f3c-b648-b69c91a21b1a-master675.jpg"},{"size":1024,"filename":"merlin_147153585_c1210910-1182-4f3c-b648-b69c91a21b1a-jumbo.jpg"},{"size":2048,"filename":"merlin_147153585_c1210910-1182-4f3c-b648-b69c91a21b1a-superJumbo.jpg"}],"square":[{"size":75,"filename":"merlin_147153585_c1210910-1182-4f3c-b648-b69c91a21b1a-thumbStandard.jpg"},{"size":150,"filename":"merlin_147153585_c1210910-1182-4f3c-b648-b69c91a21b1a-thumbLarge.jpg"},{"size":320,"filename":"merlin_147153585_c1210910-1182-4f3c-b648-b69c91a21b1a-square320.jpg"},{"size":640,"filename":"merlin_147153585_c1210910-1182-4f3c-b648-b69c91a21b1a-square640.jpg"}],"threeTwo":[{"size":75,"filename":"merlin_147153585_c1210910-1182-4f3c-b648-b69c91a21b1a-videoThumb.jpg"},{"size":190,"filename":"merlin_147153585_c1210910-1182-4f3c-b648-b69c91a21b1a-thumbWide.jpg"},{"size":225,"filename":"merlin_147153585_c1210910-1182-4f3c-b648-b69c91a21b1a-mediumThreeByTwo225.jpg"},{"size":768,"filename":"merlin_147153585_c1210910-1182-4f3c-b648-b69c91a21b1a-videoLarge.jpg"}]}'
         data-master-ratio='0.6666666666666666'
-      
+
         data-mediaviewer-src='https://static01.nyt.com/images/2018/12/10/us/10locationSUB/merlin_147153585_c1210910-1182-4f3c-b648-b69c91a21b1a-superJumbo.jpg'
         data-mediaviewer-caption='An app on Lisa Magrin&rsquo;s cellphone collected her location information, which was then shared with other companies. The data revealed her daily habits, including hikes with her dog, Lulu.'
         data-mediaviewer-credit='Nathaniel Brooks for The New York Times'
-      
-      
+
+
         data-safe-area='{"top":0,"right":0,"bottom":0,"left":0}'
-      
+
         data-mobile-square='false'
         itemprop="url"/>
     </div>
 
-    
+
       <div class="rad-caption">
   <div class="rad-caption-wrapper">
     <span class="rad-caption-text">An app on Lisa Magrin&rsquo;s cellphone collected her location information, which was then shared with other companies. The data revealed her daily habits, including hikes with her dog, Lulu.</span>
@@ -3393,90 +3393,90 @@ require(['foundation/main'], function() {
   </div>
 </div>
 
-    
+
   </div>
 </figure>
 
-    
-    
-  
-    
+
+
+
+
     <p class="paragraph">But it is easy to share information without realizing it. Of the 17 apps that The Times saw sending precise location data, just three on iOS and one on Android told users in a prompt during the permission process that the information could be used for advertising. Only one app, GasBuddy, which identifies nearby gas stations, indicated that data could also be shared to &#x201C;analyze industry trends.&#x201D;</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">More typical was theScore, a sports app: When prompting users to grant access to their location, it said the data would help &#x201C;recommend local teams and players that are relevant to you.&#x201D; The app passed precise coordinates to 16 advertising and location companies.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">A spokesman for theScore said that the language in the prompt was intended only as a &#x201C;quick introduction to certain key product features&#x201D; and that the full uses of the data were described in the app&#x2019;s privacy policy.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">The Weather Channel app, owned by an IBM subsidiary, told users that sharing their locations would let them get personalized local weather reports. IBM said the subsidiary, the Weather Company, discussed other uses in its privacy policy and in a separate &#x201C;privacy settings&#x201D; section of the app. Information on advertising was included there, but a part of the app called &#x201C;location settings&#x201D; made no mention of it.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="rad-diptych"  data-id="100000006249112" data-slug="10location4">
-  
+
 <figure class="media photo large" data-id="100000006249112"  data-slug="10location4">
   <div class="rad-media-wrapper">
     <div class="image" style="background-color: #979fa9">
       <div class="rad-spinner"></div>
-    
+
       <img class="rad-lazy media-viewer-candidate"
         src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'
         style='height: 0 !important; padding-bottom: 177.77777777777777%'
         data-pattern='https://static01.nyt.com/images/2018/12/05/business/10location4/{{file}}'
         data-widths='{"master":[{"size":180,"filename":"00location4-master180.jpg"},{"size":495,"filename":"00location4-master495.jpg"},{"size":576,"filename":"00location4-jumbo.jpg"},{"size":675,"filename":"00location4-master675.jpg"},{"size":1080,"filename":"00location4-superJumbo.jpg"}],"square":[{"size":75,"filename":"00location4-thumbStandard.jpg"},{"size":150,"filename":"00location4-thumbLarge.jpg"},{"size":320,"filename":"00location4-square320.jpg"},{"size":640,"filename":"00location4-square640.jpg"}],"threeTwo":[{"size":75,"filename":"00location4-videoThumb.jpg"},{"size":190,"filename":"00location4-thumbWide.jpg"},{"size":225,"filename":"00location4-mediumThreeByTwo225.jpg"},{"size":768,"filename":"00location4-videoLarge.jpg"}]}'
         data-master-ratio='1.7777777777777777'
-      
+
         data-mediaviewer-src='https://static01.nyt.com/images/2018/12/05/business/10location4/00location4-superJumbo.jpg'
         data-mediaviewer-caption='A notice that Android users saw when theScore, a sports app, asked for access to their location data.'
         data-mediaviewer-credit=''
-      
-      
+
+
         data-safe-area='{"top":0,"right":0,"bottom":0,"left":0}'
-      
+
         data-mobile-square='false'
         itemprop="url"/>
     </div>
 
-    
+
       <div class="rad-caption">
   <div class="rad-caption-wrapper">
     <span class="rad-caption-text">A notice that Android users saw when theScore, a sports app, asked for access to their location data.</span>
@@ -3484,7 +3484,7 @@ require(['foundation/main'], function() {
   </div>
 </div>
 
-    
+
   </div>
 </figure>
 
@@ -3492,26 +3492,26 @@ require(['foundation/main'], function() {
   <div class="rad-media-wrapper">
     <div class="image" style="background-color: #375981">
       <div class="rad-spinner"></div>
-    
+
       <img class="rad-lazy media-viewer-candidate"
         src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'
         style='height: 0 !important; padding-bottom: 177.77777777777777%'
         data-pattern='https://static01.nyt.com/images/2018/12/05/business/10location3/{{file}}'
         data-widths='{"master":[{"size":180,"filename":"00location3-master180.jpg"},{"size":495,"filename":"00location3-master495.jpg"},{"size":576,"filename":"00location3-jumbo.jpg"},{"size":675,"filename":"00location3-master675.jpg"},{"size":750,"filename":"00location3-superJumbo.jpg"}],"square":[{"size":75,"filename":"00location3-thumbStandard.jpg"},{"size":150,"filename":"00location3-thumbLarge.jpg"},{"size":320,"filename":"00location3-square320.jpg"},{"size":640,"filename":"00location3-square640.jpg"}],"threeTwo":[{"size":75,"filename":"00location3-videoThumb.jpg"},{"size":190,"filename":"00location3-thumbWide.jpg"},{"size":225,"filename":"00location3-mediumThreeByTwo225.jpg"}]}'
         data-master-ratio='1.7777777777777777'
-      
+
         data-mediaviewer-src='https://static01.nyt.com/images/2018/12/05/business/10location3/00location3-superJumbo.jpg'
         data-mediaviewer-caption='The Weather Channel app showed iPhone users this message when it first asked for their location data.'
         data-mediaviewer-credit=''
-      
-      
+
+
         data-safe-area='{"top":0,"right":0,"bottom":0,"left":0}'
-      
+
         data-mobile-square='false'
         itemprop="url"/>
     </div>
 
-    
+
       <div class="rad-caption">
   <div class="rad-caption-wrapper">
     <span class="rad-caption-text">The Weather Channel app showed iPhone users this message when it first asked for their location data.</span>
@@ -3519,79 +3519,79 @@ require(['foundation/main'], function() {
   </div>
 </div>
 
-    
+
   </div>
 </figure>
 
 </div>
 
-    
-  
-    
+
+
+
     <p class="paragraph">The app did not explicitly disclose that the company had also analyzed the data for hedge funds &#x2014; a pilot program that was promoted on the company&#x2019;s website. An IBM spokesman said the pilot had ended. (IBM <a href="https://weather.com/en-US/twc/privacy-policy">updated the app&#x2019;s privacy policy</a> on Dec. 5, after queries from The Times, to say that it might share aggregated location data for commercial purposes such as analyzing foot traffic.)</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Even industry insiders acknowledge that many people either don&#x2019;t read those policies or may not fully understand their opaque language. Policies for apps that funnel location information to help investment firms, for instance, have said the data is used for market analysis, or simply shared for business purposes.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">&#x201C;Most people don&#x2019;t know what&#x2019;s going on,&#x201D; said Emmett Kilduff, the chief executive of Eagle Alpha, which sells data to financial firms and hedge funds. Mr. Kilduff said responsibility for complying with data-gathering regulations fell to the companies that collected it from people.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Many location companies say they voluntarily take steps to protect users&#x2019; privacy, but policies vary widely.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">For example, Sense360, which focuses on the restaurant industry, says it <a href="https://sense360.com/portfolio/additional-information-protect-user-privacy/">scrambles data</a> within a 1,000-foot square around the device&#x2019;s approximate home location. Another company, Factual, says that it collects data from consumers at home, but that its database doesn&#x2019;t contain their addresses.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="rad-interactive jumbo" id="interactive-2018-11-06-location-dpa"  data-id="100000006203971" data-slug="2018-11-06-location-dpa">
   <div class="rad-interactive-wrapper">
-    
+
       <h2 class="interactive-headline">diptych</h2>
-      
-    
+
+
     <!--
 
 ======================================================
@@ -3629,218 +3629,218 @@ require(['foundation/main'], function() {
   </div>
 </div>
 
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
     <p class="paragraph">Some companies say they delete the location data after using it to serve ads, some use it for ads and pass it along to data aggregation companies, and others keep the information for years.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Several people in the location business said that it would be relatively simple to figure out individual identities in this kind of data, but that they didn&#x2019;t do it. Others suggested it would require so much effort that hackers wouldn&#x2019;t bother.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">It &#x201C;would take an enormous amount of resources,&#x201D; said Bill Daddi, a spokesman for Cuebiq, which analyzes anonymous location data to help retailers and others, and raised more than $27 million this year from investors including Goldman Sachs and Nasdaq Ventures. Nevertheless, Cuebiq encrypts its information, logs employee queries and sells aggregated analysis, he said.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">There is no federal law limiting the collection or use of such data. Still, apps that ask for access to users&#x2019; locations, prompting them for permission while leaving out important details about how the data will be used, may run afoul of federal rules on deceptive business practices, said Maneesha Mithal, a privacy official at the Federal Trade Commission.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">&#x201C;You can&#x2019;t cure a misleading just-in-time disclosure with information in a privacy policy,&#x201D; Ms. Mithal said.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
+
+
+
+
+
+
+
+
     <h4 class="header">Following the Money</h4>
 
-    
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Apps form the backbone of this new location data economy.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">The app developers can make money by directly selling their data, or by sharing it for location-based ads, which command a premium. Location data companies pay half a cent to two cents per user per month, according to offer letters to app makers reviewed by The Times.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Targeted advertising is by far the most common use of the information.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Google and Facebook, which dominate the mobile ad market, also lead in location-based advertising. Both companies collect the data from their own apps. They say they don&#x2019;t sell it but keep it for themselves to personalize their services, sell targeted ads across the internet and track whether the ads lead to sales at brick-and-mortar stores. Google, which also receives precise location information from apps that use its ad services, said it modified that data to make it less exact.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Smaller companies compete for the rest of the market, including by selling data and analysis to financial institutions. This segment of the industry is small but growing, expected to reach about $250 million a year by 2020, according to the market research firm Opimas.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Apple and Google have a financial interest in keeping developers happy, but both have taken steps to limit location data collection. In the most recent version of Android, apps that are not in use can collect locations &#x201C;a few times an hour,&#x201D; instead of continuously.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Apple has been stricter, for example requiring apps to justify collecting location details in pop-up messages. But Apple&#x2019;s <a href="https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/requesting-permission/">instructions</a> for writing these pop-ups do not mention advertising or data sale, only features like getting &#x201C;estimated travel times.&#x201D;</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">A spokesman said the company mandates that developers use the data only to provide a service directly relevant to the app, or to serve advertising that met Apple&#x2019;s guidelines.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">Apple recently shelved plans that industry insiders say would have significantly curtailed location collection. Last year, the company said an upcoming version of iOS would show a blue bar onscreen whenever an app not in use was gaining access to location data.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">The discussion served as a &#x201C;warning shot&#x201D; to people in the location industry, David Shim, chief executive of the location company <a href="https://www.placed.com/">Placed</a>, said at <a href="https://www.youtube.com/watch?v=ExDwELoLAJ8">an industry event</a> last year.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">After examining maps showing the locations extracted by their apps, Ms. Lee, the nurse, and Ms. Magrin, the teacher, immediately limited what data those apps could get. Ms. Lee said she told the other operating-room nurses to do the same.</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
-    
+
+
+
+
+
+
+
+
+
     <p class="paragraph">&#x201C;I went through all their phones and just told them: &#x2018;You have to turn this off. You have to delete this,&#x2019;&#x201D; Ms. Lee said. &#x201C;Nobody knew.&#x201D;</p>
 
-    
-    
-    
-    
-    
-    
-    
-  
 
-  
+
+
+
+
+
+
+
+
+
 </div>
 
 
-  
+
 
   <div class="rad-article-credits">
-    
+
     Adam Satariano contributed reporting.
     <p></p>
   </div>
@@ -3855,40 +3855,40 @@ require(['foundation/main'], function() {
   <h2>Related Coverage</h2>
   <div class="rad-series-link-wrapper">
     <ul class="rad-series-links">
-  
-    
+
+
     <li>
       <a class="rad-series-link"
-         href="undefined/interactive/2018/09/12/technology/kids-apps-data-privacy-google-twitter.html" 
+         href="undefined/interactive/2018/09/12/technology/kids-apps-data-privacy-google-twitter.html"
          data-publish-path=""
-         data-dev-path="" 
-         data-slug="" 
+         data-dev-path=""
+         data-slug=""
          data-id="100000006100885">
         <div class="promo-image">
-          
-            
+
+
 <figure class="media photo" data-id="100000006102080"  data-slug="kids-apps-data-privacy-google-twitter-1536772651289">
   <div class="rad-media-wrapper">
     <div class="image" style="background-color: #ccc">
       <div class="rad-spinner"></div>
-    
+
       <img class="rad-lazy"
         src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'
         style='height: 0 !important; padding-bottom: 66.66666666666666%'
         data-pattern='https://static01.nyt.com/images/2018/09/12/technology/kids-apps-data-privacy-google-twitter-1536772651289/{{file}}'
         data-widths='{"master":[{"size":180,"filename":"kids-apps-data-privacy-google-twitter-1536772651289-master180.jpg"},{"size":495,"filename":"kids-apps-data-privacy-google-twitter-1536772651289-master495.jpg"},{"size":600,"filename":"kids-apps-data-privacy-google-twitter-1536772651289-jumbo.jpg"},{"size":600,"filename":"kids-apps-data-privacy-google-twitter-1536772651289-superJumbo.jpg"}],"square":[{"size":75,"filename":"kids-apps-data-privacy-google-twitter-1536772651289-thumbStandard.jpg"},{"size":150,"filename":"kids-apps-data-privacy-google-twitter-1536772651289-thumbLarge.jpg"},{"size":320,"filename":"kids-apps-data-privacy-google-twitter-1536772651289-square320.jpg"}],"threeTwo":[{"size":75,"filename":"kids-apps-data-privacy-google-twitter-1536772651289-videoThumb.jpg"},{"size":190,"filename":"kids-apps-data-privacy-google-twitter-1536772651289-thumbWide.jpg"},{"size":225,"filename":"kids-apps-data-privacy-google-twitter-1536772651289-mediumThreeByTwo225.jpg"}]}'
         data-master-ratio='0.6666666666666666'
-      
-      
+
+
         data-mobile-square='false'
         itemprop="url"/>
     </div>
 
-    
+
   </div>
 </figure>
 
-          
+
         </div>
         <div class="promo-info">
           <h3>How Game Apps That Captivate Kids Have Been Collecting Their Data</h3>
@@ -3896,40 +3896,40 @@ require(['foundation/main'], function() {
         </div>
       </a>
     </li>
-    
-    
+
+
     <li>
       <a class="rad-series-link"
-         href="https://www.nytimes.com/2018/05/10/technology/cellphone-tracking-law-enforcement.html" 
+         href="https://www.nytimes.com/2018/05/10/technology/cellphone-tracking-law-enforcement.html"
          data-publish-path=""
-         data-dev-path="" 
-         data-slug="" 
+         data-dev-path=""
+         data-slug=""
          data-id="100000005893116">
         <div class="promo-image">
-          
-            
+
+
 <figure class="media photo" data-id="100000005894609"  data-slug="11Locationtrack-1-print">
   <div class="rad-media-wrapper">
     <div class="image" style="background-color: #ccc">
       <div class="rad-spinner"></div>
-    
+
       <img class="rad-lazy"
         src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'
         style='height: 0 !important; padding-bottom: 76.11111111111111%'
         data-pattern='https://static01.nyt.com/images/2018/05/11/autossell/11Locationtrack-1-print/{{file}}'
         data-widths='{"master":[{"size":180,"filename":"merlin_137958045_4bbac06e-d120-4e68-ac9a-803b9aa8c829-master180.jpg"},{"size":495,"filename":"merlin_137958045_4bbac06e-d120-4e68-ac9a-803b9aa8c829-master495.jpg"},{"size":675,"filename":"merlin_137958045_4bbac06e-d120-4e68-ac9a-803b9aa8c829-master675.jpg"},{"size":1024,"filename":"merlin_137958045_4bbac06e-d120-4e68-ac9a-803b9aa8c829-jumbo.jpg"},{"size":1742,"filename":"merlin_137958045_4bbac06e-d120-4e68-ac9a-803b9aa8c829-superJumbo.jpg"}],"square":[{"size":75,"filename":"10Locationtrack2-thumbStandard.jpg"},{"size":150,"filename":"10Locationtrack2-thumbLarge.jpg"},{"size":320,"filename":"10Locationtrack2-square320.jpg"},{"size":640,"filename":"10Locationtrack2-square640.jpg"}],"threeTwo":[{"size":75,"filename":"10Locationtrack2-videoThumb.jpg"},{"size":190,"filename":"10Locationtrack2-thumbWide.jpg"},{"size":225,"filename":"10Locationtrack2-mediumThreeByTwo225.jpg"},{"size":768,"filename":"10Locationtrack2-videoLarge.jpg"}]}'
         data-master-ratio='0.7611111111111111'
-      
-      
+
+
         data-mobile-square='false'
         itemprop="url"/>
     </div>
 
-    
+
   </div>
 </figure>
 
-          
+
         </div>
         <div class="promo-info">
           <h3>Service Meant to Monitor Inmates’ Calls Could Track You, Too</h3>
@@ -3937,40 +3937,40 @@ require(['foundation/main'], function() {
         </div>
       </a>
     </li>
-    
-    
+
+
     <li>
       <a class="rad-series-link"
-         href="https://www.nytimes.com/2018/05/19/technology/phone-apps-stalking.html" 
+         href="https://www.nytimes.com/2018/05/19/technology/phone-apps-stalking.html"
          data-publish-path=""
-         data-dev-path="" 
-         data-slug="" 
+         data-dev-path=""
+         data-slug=""
          data-id="100000005900453">
         <div class="promo-image">
-          
-            
+
+
 <figure class="media photo" data-id="100000005908724"  data-slug="18stalkerware6">
   <div class="rad-media-wrapper">
     <div class="image" style="background-color: #ccc">
       <div class="rad-spinner"></div>
-    
+
       <img class="rad-lazy"
         src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'
         style='height: 0 !important; padding-bottom: 53.888888888888886%'
         data-pattern='https://static01.nyt.com/images/2018/05/18/us/18stalkerware6/{{file}}'
         data-widths='{"master":[{"size":180,"filename":"merlin_138354531_de298b5c-4501-4e07-9044-50a402a528be-master180.jpg"},{"size":495,"filename":"merlin_138354531_de298b5c-4501-4e07-9044-50a402a528be-master495.jpg"},{"size":675,"filename":"merlin_138354531_de298b5c-4501-4e07-9044-50a402a528be-master675.jpg"},{"size":1024,"filename":"merlin_138354531_de298b5c-4501-4e07-9044-50a402a528be-jumbo.jpg"},{"size":2048,"filename":"merlin_138354531_de298b5c-4501-4e07-9044-50a402a528be-superJumbo.jpg"}],"square":[{"size":75,"filename":"18stalkerware6-thumbStandard-v2.jpg"},{"size":150,"filename":"18stalkerware6-thumbLarge-v2.jpg"},{"size":320,"filename":"18stalkerware6-square320.jpg"},{"size":640,"filename":"18stalkerware6-square640.jpg"}],"threeTwo":[{"size":75,"filename":"18stalkerware6-videoThumb-v2.jpg"},{"size":190,"filename":"18stalkerware6-thumbWide-v2.jpg"},{"size":225,"filename":"18stalkerware6-mediumThreeByTwo225-v2.jpg"},{"size":768,"filename":"18stalkerware6-videoLarge-v2.jpg"}]}'
         data-master-ratio='0.5388888888888889'
-      
-      
+
+
         data-mobile-square='false'
         itemprop="url"/>
     </div>
 
-    
+
   </div>
 </figure>
 
-          
+
         </div>
         <div class="promo-info">
           <h3>Hundreds of Apps Can Empower Stalkers to Track Their Victims</h3>
@@ -3978,7 +3978,7 @@ require(['foundation/main'], function() {
         </div>
       </a>
     </li>
-    
+
 </ul>
 
   </div>
@@ -3996,7 +3996,7 @@ require(['foundation/main'], function() {
     'soft_nav': true,
     'stack': false,
     'stack_share_tools': true,
-    
+
   }; });
   define('_nytg/00location/assets', function() { return 'https://static01.nyt.com/newsgraphics/2018/11/06/location/04af4ce32fdcdfccb9dd88ad43cd0cf429d6328a/'; });
   define('_nytg/00location/big-assets', function() { return 'https://static01.nyt.com/newsgraphics/2018/11/06/location/assets/'; });
@@ -4008,14 +4008,14 @@ require(['foundation/main'], function() {
 
 <!-- Pipeline: 2018-11-06-location | December 10, 2018, 09:42AM | 04af4ce32fdcdfccb9dd88ad43cd0cf429d6328a -->
 </div>
-        
+
         <section id="related-coverage" class="related-coverage nocontent robots-nocontent">
   <div class="nocontent robots-nocontent">
     <header>
       <h2 class="section-heading">More on NYTimes.com</h2>
     </header>
     <ul class="menu layout-horizontal theme-story">
-      
+
     </ul>
   </div>
 </section>
@@ -4032,7 +4032,7 @@ require(['foundation/main'], function() {
     <ul>
       <li>
         <a href="https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice" itemprop="copyrightNotice">
-            &copy; <span itemprop="copyrightYear">2024</span><span itemprop="copyrightHolder provider sourceOrganization" itemscope itemtype="http://schema.org/Organization" itemid="http://www.nytimes.com"><span itemprop="name"> The New York Times Company</span><meta itemprop="tickerSymbol" content="NYSE NYT"/></span>
+            &copy; <span itemprop="copyrightYear">2024</span><span itemprop="copyrightHolder provider sourceOrganization" itemscope itemtype="https://schema.org/Organization" itemid="http://www.nytimes.com"><span itemprop="name"> The New York Times Company</span><meta itemprop="tickerSymbol" content="NYSE NYT"/></span>
         </a>
       </li>
       <li class="visually-hidden">

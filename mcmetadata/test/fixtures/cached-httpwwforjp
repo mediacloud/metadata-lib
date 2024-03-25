@@ -26,7 +26,7 @@
 <link rel="stylesheet" href="/shared/css/slick/slick-theme.css">
 <link rel="stylesheet" href="/shared/css/screen_2018.css?230927" media="all">
 <link rel="stylesheet" href="/shared/css/print.css" media="print">
-<link rel="stylesheet" href="/css/local.css?20230315" media="all">
+<link rel="stylesheet" href="/css/local.css?20240314" media="all">
 <link rel="stylesheet" href="/ranking/css/ranking.css" media="all">
 <!--[if lt IE 9]>
 <script src="/shared/js/html5shiv.js"></script>
@@ -163,47 +163,128 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div class="drawer-container t-gutter" role="main">
 		<div class="top-bodyArea">
 
-			<section>
-<ul class="top-keyvisual">
+<section>
+    <ul class="top-keyvisual tk_np">
+    <li class="bg--white">
+        <div class="top-keyvisual__container">
+          <div
+            class="top-keyvisual__txt-area top-keyvisual__txt-area--left bg--white"
+          >
+            <div class="title-container txt-bg-container">
+              <p class="top-keyvisual__tit top-keyvisual__tit--2">EARTH HOUR 2024</p>
+            </div>
+            <span class="top-keyvisual__txt top-keyvisual__txt--2"
+              >世界中で同じ日・同じ時刻に消灯するEARTH HOUR（アースアワー）。<br />
+              今年は3月23日（土）午後8時30分からです。ぜひ、ご参加ください。​</span
+            >
+            <a
+              href="/campaign/earthhour-info/2024/"
+              class="btn--sqr btn--blk_brdr"
+              ><span>詳しく見る</span></a
+            >
+          </div>
 
-<li><span class="top-keyvisual__txt-area">
-						<span class="top-keyvisual__sub-tit"></span>
-						<span class="top-keyvisual__tit">野生動物<br>アドプト・ギフト</span>
-						<span class="top-keyvisual__txt">大切なひとへのプレゼントに</span>
-					</span>
-					<a href="/adoptgift/"><span>詳しく見る</span></a><div class="top-keyvisual__background"><figure class="image"><img data-src="/image/topKV_41.webp" alt="たいせつな誰かに、あるいは自分に
-野生動物アドプト・ギフトを贈りませんか？" class="lazyload imgExpansion objectFitImage pcInline"><img data-src="/image/topKV_sp_41.webp" alt="たいせつな誰かに、あるいは自分に
-野生動物アドプト・ギフトを贈りませんか？" class="lazyload imgExpansion objectFitImage spInline"><figcaption></figcaption></figure></div></li>
+          <div class="top-keyvisual__img">
+            <figure class="image">
+              <img
+                data-src="/image/topKV_earthhour.webp"
+                alt="世界中で同じ日・同じ時刻に消灯するEARTH HOUR（アースアワー）"
+                class="lazyload imgExpansion objectFitImage pcInline"
+              /><img
+                data-src="/image/topKV_earthhour.webp"
+                alt="世界中で同じ日・同じ時刻に消灯するEARTH HOUR（アースアワー）"
+                class="lazyload imgExpansion objectFitImage spInline"
+              />
+              <figcaption class="cptn-wht cptn-bg"></figcaption>
+            </figure>
+          </div>
+        </div>
+      </li>
+       <li>
+        <div class="top-keyvisual__container">
+          <div class="top-keyvisual__txt-area top-keyvisual__txt-area--left">
+            <div class="title-container">
+              <p class="top-keyvisual__tit top-keyvisual__tit--2">好きだから。<br>その気持ちを<br>支援のきっかけに。</p>
+            </div>
+            <span class="top-keyvisual__txt top-keyvisual__txt--2"
+              >今ならイラストレーター・Noritakeさんのオリジナルイラスト入り天然素材の麻バッグをプレゼント！</span
+            >
+            <a href="/campaign/speciallp/save_forest/" class="btn--sqr btn--wht"
+              ><span>詳しく見る</span></a
+            >
+          </div>
+          <div class="top-keyvisual__img">
+            <figure class="image">
+              <img
+                data-src="/image/topKV_いつか会いたい動物のために.jpeg"
+                alt="日本の市場からIUU漁業をなくすために、あなたの力を貸してください！"
+                class="lazyload imgExpansion objectFitImage pcInline"
+              /><img
+                data-src="/image/topKV_いつか会いたい動物のために.jpeg"
+                alt="日本の市場からIUU漁業をなくすために、あなたの力を貸してください！"
+                class="lazyload imgExpansion objectFitImage spInline"
+              />
+              <figcaption class="cptn-wht cptn-bg">©Martin Harvey / WWF</figcaption>
+            </figure>
+          </div>
+        </div>
+      </li>
+      <li class="bg--white">
+        <div class="top-keyvisual__container">
+          <div
+            class="top-keyvisual__txt-area top-keyvisual__txt-area--left bg--white"
+          >
+            <div class="title-container txt-bg-container">
+              <p class="top-keyvisual__tit top-keyvisual__tit--2">野生動物<br>アドプト・ギフト</p>
+            </div>
+            <span class="top-keyvisual__txt top-keyvisual__txt--2"
+              >絶滅のおそれのある野生動物と、その生息環境を保全するために。<br>たいせつな誰かに、あるいは自分に<br>
+野生動物アドプト・ギフトを贈りませんか？​</span
+            >
+            <a
+              href="/adoptgift/"
+              class="btn--sqr btn--blk_brdr"
+              ><span>詳しく見る</span></a
+            >
+          </div>
 
+          <div class="top-keyvisual__img">
+            <figure class="image">
+              <img
+                data-src="/image/topKV_野生動物をまもるギフト.jpeg"
+                alt="野生動物をまもるギフト"
+                class="lazyload imgExpansion objectFitImage pcInline"
+              /><img
+                data-src="/image/topKV_野生動物をまもるギフト.jpeg"
+                alt="野生動物をまもるギフト"
+                class="lazyload imgExpansion objectFitImage spInline"
+              />
+              <figcaption class="cptn-wht cptn-bg"></figcaption>
+            </figure>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="top-keyvisual__container">
+          <div class="top-keyvisual__txt-area top-keyvisual__txt-area--left">
+            <div class="title-container">
+              <p class="top-keyvisual__tit top-keyvisual__tit--2">WWFの運営する<br />通販ショップ<br />PANDA SHOP</p>
+            </div>
+            <span class="top-keyvisual__txt top-keyvisual__txt--2">お買い上げによって生まれた利益は、全てWWFの活動に活用されます。</span>
+            <a href="https://shop.wwf.or.jp/" class="btn--sqr btn--wht" target=”_blank”><span>詳しく見る</span></a>
+          </div>
+          <div class="top-keyvisual__img">
+            <figure class="image">
+              <img data-src="/image/topKV_38.jpg" alt="" class="lazyload imgExpansion objectFitImage pcInline">
+              <img data-src="/image/topKV_sp_38.jpg" alt="" class="lazyload imgExpansion objectFitImage spInline">
+              <figcaption class="cptn-blk"></figcaption>
+            </figure>
+          </div>
+        </div>
+      </li>
 
-
-
-
-<li><span class="top-keyvisual__txt-area">
-						<span class="top-keyvisual__sub-tit"></span>
-						<span class="top-keyvisual__tit">好きだから。<br>その気持ちを<br>支援のきっかけに。</span>
-						<span class="top-keyvisual__txt"></span>
-					</span>
-					<a href="/campaign/speciallp/save_forest/"><span>詳しく見る</span></a><div class="top-keyvisual__background"><figure class="image"><img data-src="/image/topKV_34.png" alt="イラストレーター・Noritakeさんのオリジナルイラスト入り天然素材の麻バッグプレゼント中！" class="lazyload imgExpansion objectFitImage pcInline"><img data-src="/image/topKV_sp_34.png" alt="イラストレーター・Noritakeさんのオリジナルイラスト入り天然素材の麻バッグプレゼント中！" class="lazyload imgExpansion objectFitImage spInline"><figcaption></figcaption></figure></div></li>
-<li><span class="top-keyvisual__txt-area">
-						<span class="top-keyvisual__sub-tit">奴隷労働や乱獲された魚を私たちは食べている!?</span>
-						<span class="top-keyvisual__tit">署名のお願い</span>
-						<span class="top-keyvisual__txt">日本の市場からIUU漁業をなくすために、あなたの力を貸してください！</span>
-					</span>
-					<a href="https://www.change.org/IUUfishing"><span>Change.orgへ</span></a><div class="top-keyvisual__background"><figure class="image"><img data-src="/image/topKV_35.png" alt="日本の市場からIUU漁業をなくすために、あなたの力を貸してください！" class="lazyload imgExpansion objectFitImage pcInline"><img data-src="/image/topKV_sp_35.png" alt="日本の市場からIUU漁業をなくすために、あなたの力を貸してください！" class="lazyload imgExpansion objectFitImage spInline"><figcaption></figcaption></figure></div></li>
-
-
- <li><span class="top-keyvisual__txt-area">
-						<span class="top-keyvisual__sub-tit">お買物しながら環境保全</span>
-						<span class="top-keyvisual__tit">WWFジャパン公式通販「PANDA SHOP」</span>
-						<span class="top-keyvisual__txt">利益はすべてWWFの活動に役立てられます</span>
-					</span>
-					<a href="https://shop.wwf.or.jp/"><span>詳しく見る</span></a><div class="top-keyvisual__background"><figure class="image"><img data-src="/image/topKV_38.png" alt="WWFジャパン公式通販「PANDA SHOP」" class="lazyload imgExpansion objectFitImage pcInline"><img data-src="/image/topKV_sp_38.png" alt="WWFジャパン公式通販「PANDA SHOP」" class="lazyload imgExpansion objectFitImage spInline"><!--<figcaption></figcaption>--></figure></div></li>
-                    
-                    
-                    
-				</ul>
-			</section>
+    </ul>
+</section>
 			<section class="top-about clearfix">
 				<h1>WWFは環境保全に取り組む<br>
 				公益財団法人です。</h1>
@@ -268,63 +349,63 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="sectionBody__pc-980 sectionBody__sp">
 								<ul class="listLink listLinkType3">
 
-									<li><a href="/activities/activity/5522.html">
-										<div class="image"><figure><img src="/image/article/article_images/20240112wildlife01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>撮影　鈴木陽樹</figcaption></figure></div>
+									<li><a href="/staffblog/tips/5582.html">
+										<div class="image"><figure><img src="/image/article/article_images/20240325_forest_fsc01.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© J.Mima / WWF Japan</figcaption></figure></div>
+										<ul class="tablink"><li>スタッフブログ</li><li>豆知識</li></ul>
+										<p>「ネイチャー・ポジティブ」を実現する一歩</p>
+
+										<time datetime="2024-03-25">2024/03/25</time>
+
+									</a></li>
+
+
+									<li><a href="/staffblog/event_notice/5578.html">
+										<div class="image"><figure><img src="/image/article/article_images/20240322_climate_01.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© Earth Hour-Aruba / Ana María Martínez</figcaption></figure></div>
+										<ul class="tablink"><li>スタッフブログ</li><li>イベント告知</li></ul>
+										<p>いよいよアースアワー2024　スタッフがラジオに出演します！</p>
+
+										<time datetime="2024-03-22">2024/03/22</time>
+
+									</a></li>
+
+
+									<li><a href="/activities/activity/5512.html">
+										<div class="image"><figure><img src="/image/article/article_images/20240222climate01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© naturepl.com Suzi Eszterhas WWF</figcaption></figure></div>
 										<ul class="tablink"><li>WWFの活動</li><li>活動報告</li></ul>
-										<p>旧稲葉集落で進む水辺再生～西表島浦内川での活動レポート </p>
-	
-										<time datetime="2024-01-12">2024/01/12</time>
-	
+										<p>日本企業脱炭素本気度ウォッチ</p>
+
+										<time datetime="2024-03-21">2024/03/21</time>
+
 									</a></li>
 
 
-									<li><a href="/staffblog/news/5519.html">
-										<div class="image"><figure><img src="/image/article/article_images/20220215wildlife01s.jpg" alt="" class="imgExpansion objectFitImage"><figcaption>© Yosuke Amano / WWF</figcaption></figure></div>
+									<li><a href="/activities/activity/5574.html">
+										<div class="image"><figure><img src="/image/article/article_images/20240312sustainable01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© WWF Japan</figcaption></figure></div>
+										<ul class="tablink"><li>WWFの活動</li><li>活動報告</li></ul>
+										<p>「持続可能な天然ゴム」を目指して　インドネシアでブリヂストンとの協働がスタート</p>
+
+										<time datetime="2024-03-21">2024/03/21</time>
+
+									</a></li>
+
+
+									<li><a href="/staffblog/news/5572.html">
+										<div class="image"><figure><img src="/image/article/article_images/20240320wildlife01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© camilodiazphotography / WWF-Colombia</figcaption></figure></div>
 										<ul class="tablink"><li>スタッフブログ</li><li>ニュース</li></ul>
-										<p>絵本のご紹介『コアラのなみだ』</p>
-	
-										<time datetime="2024-01-10">2024/01/10</time>
-	
+										<p>「カエル」の日に、初心にカエル</p>
+
+										<time datetime="2024-03-20">2024/03/20</time>
+
 									</a></li>
 
 
-									<li><a href="/staffblog/news/5520.html">
-										<div class="image"><figure><img src="/image/article/article_images/20231227_wildlife01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>左 © WWF-US / Keith Arnold　右 © WWF-Sweden / Ola Jennersten</figcaption></figure></div>
-										<ul class="tablink"><li>スタッフブログ</li><li>ニュース</li></ul>
-										<p>今日は110番の日～だれでもできる違法取引のパトロール～</p>
-	
-										<time datetime="2024-01-10">2024/01/10</time>
-	
-									</a></li>
-
-
-									<li><a href="/staffblog/activity/5500.html">
-										<div class="image"><figure><img src="/image/article/article_images/20240101sustainable01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© Jasper Doest / WWF</figcaption></figure></div>
+									<li><a href="/staffblog/activity/5576.html">
+										<div class="image no-image"></div>
 										<ul class="tablink"><li>スタッフブログ</li><li>活動報告</li></ul>
-										<p>2024年　新年のご挨拶</p>
-	
-										<time datetime="2024-01-01">2024/01/01</time>
-	
-									</a></li>
+										<p>科学館でワークショップを実施しました！</p>
 
+										<time datetime="2024-03-18">2024/03/18</time>
 
-									<li><a href="/activities/lib/5518.html">
-										<div class="image"><figure><img src="/image/article/article_images/20231226forest01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© Andre Dib / WWF Brazil</figcaption></figure></div>
-										<ul class="tablink"><li>WWFの活動</li><li>資料・レポート</li></ul>
-										<p>「見えない大豆」の森林破壊　～日本の食に含まれる本当の大豆の量と影響～ </p>
-	
-										<time datetime="2023-12-27">2023/12/27</time>
-	
-									</a></li>
-
-
-									<li><a href="/activities/news/5516.html">
-										<div class="image"><figure><img src="/image/article/article_images/20231225wildlife01s.webp" alt="" class="imgExpansion objectFitImage"><figcaption>© FreeImages.com / ltshears</figcaption></figure></div>
-										<ul class="tablink"><li>WWFの活動</li><li>ニュース</li></ul>
-										<p>世界の先進事例から：韓国で進む野生動物利用に関する法整備</p>
-	
-										<time datetime="2023-12-26">2023/12/26</time>
-	
 									</a></li>
 
 
@@ -333,15 +414,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<li><a href="/newarticles">もっと見る</a></li>
 								</ul>
 <div style="width:60%; margin:0 auto;"><div style="width:50%; float:left;margin:0 auto;"><ul class="link">
-	
+
 	<li><a href="/activities/statement/"><span class="SPhidden">WWFが提出した</span>声明・要請</a></li>
 
-	
+
 </ul></div><div style="width:50%; float:right;margin:0 auto;"><ul class="link">
-	
-	
+
+
 <li><a href="/activities/library/"><span class="SPhidden">WWFによる</span>資料・レポート</a></li>
-	
+
 </ul></div></div>
 							</div>
 						</div>
@@ -363,9 +444,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 しかし解決できるのも私たち人間です。<br>
 さぁ、解決する側に回りましょう。
 </p><ul class="link">
-	
+
 	<li><a href="/support/#message">あなたの力を貸してください</a></li>
-	
+
 </ul>
 							<!-- /column --></div>
 						<!-- /twoColumnsType --></div>
@@ -376,81 +457,81 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="bodyAreaBg clearfix">
                     <h2 class="center">
                         人気記事
-                        <span class="date">（2023/12/01 ～ 2023/12/15）</span>
+                        <span class="date">（2024/03/01 ～ 2024/03/15）</span>
                     </h2>
                     <div class="sectionBody__pc-980 sectionBody__sp">
                         <ol class="listLayout">
                 <li>
 
-                  <a href="/staffblog/activity/5485.html" class="grid">
+                  <a href="/activities/basicinfo/409.html" class="grid">
 
 
                     <div class="image">
                       <figure>
-                        <img src="/image/article/article_images/20231204climate01s.webp" alt="" class="imgExpansion objectFitImage">
-                        <figcaption>© Y.Sato/WWF Japan</figcaption>
+                        <img src="/image/article/article_images/20230328climate01s.jpg" alt="" class="imgExpansion objectFitImage">
+                        <figcaption>© Debra Garside</figcaption>
+                      </figure>
+                    </div>
+
+                    <div class="content">
+                      <ul class="tablink">
+                        <li>WWFの活動</li>
+                        <li>基礎情報</li>
+                      </ul>
+                      <p>Science Based Targetsイニシアティブ（SBTi）とは</p>
+                      <div class="author">
+
+                        <time datetime="2023-03-28">2023/03/28</time>
+
+                      </div>
+                    </div>
+                  </a>
+                </li>                <li>
+
+                  <a href="/staffblog/news/5563.html" class="grid">
+
+
+                    <div class="image">
+                      <figure>
+                        <img src="/image/article/article_images/20240311_msg_02.webp" alt="" class="imgExpansion objectFitImage">
+                        <figcaption>© J.Mima / WWF Japan</figcaption>
                       </figure>
                     </div>
 
                     <div class="content">
                       <ul class="tablink">
                         <li>スタッフブログ</li>
-                        <li>活動報告</li>
+                        <li>ニュース</li>
                       </ul>
-                      <p>COP28現地発信：日本が「化石賞」を受賞しました</p>
+                      <p>2024年の3月11日に寄せて </p>
                       <div class="author">
 
-                        <time datetime="2023-12-04">2023/12/04</time>
+                        <time datetime="2024-03-11">2024/03/11</time>
 
                       </div>
                     </div>
                   </a>
                 </li>                <li>
 
-                  <a href="/activities/activity/5497.html" class="grid">
+                  <a href="/staffblog/news/5556.html" class="grid">
 
 
                     <div class="image">
                       <figure>
-                        <img src="/image/article/article_images/20231220_climate_01s.webp" alt="" class="imgExpansion objectFitImage">
-                        <figcaption>© WWF-japan</figcaption>
+                        <img src="/image/article/article_images/20240303_wildlife_01.webp" alt="" class="imgExpansion objectFitImage">
+                        <figcaption>© Shutterstock / Ritesh Chaudhary / WWF</figcaption>
                       </figure>
                     </div>
 
                     <div class="content">
                       <ul class="tablink">
-                        <li>WWFの活動</li>
-                        <li>活動報告</li>
+                        <li>スタッフブログ</li>
+                        <li>ニュース</li>
                       </ul>
-                      <p>COP28 結果報告</p>
+                      <p>野生生物の危機を考える　～3月3日「世界野生生物 の日」に</p>
                       <div class="author">
 
-                        <time datetime="2023-12-14">2023/12/14</time>
-
-                      </div>
-                    </div>
-                  </a>
-                </li>                <li>
-
-                  <a href="/activities/activity/5461.html" class="grid">
-
-
-                    <div class="image">
-                      <figure>
-                        <img src="/image/article/article_images/20231114climate01s.jpg" alt="" class="imgExpansion objectFitImage">
-                        <figcaption>© WWFジャパン</figcaption>
-                      </figure>
-                    </div>
-
-                    <div class="content">
-                      <ul class="tablink">
-                        <li>WWFの活動</li>
-                        <li>活動報告</li>
-                      </ul>
-                      <p>気候変動に関するCOP28会議について</p>
-                      <div class="author">
-
-                        <time datetime="2023-11-14">2023/11/14</time>
+                        <time datetime="2024-03-03">2024/03/03</time>
 
                       </div>
                     </div>
@@ -469,40 +550,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<h2 class="titStyle2 center">お知らせ</h2>
 						<ul class="listLink listLinkType5 listLinkType5__time">
 
-								<li><a href="/news/5521.html">
+								<li><a href="/staffblog/event_notice/5578.html">
 
 
-									<time datetime="2024-01-04">2024/01/04</time>
+									<time datetime="2024-03-22">2024/03/22</time>
 
-									<span>令和６年１月、能登半島地震により被災された皆さまへ</span></a></li>
+									<span>いよいよアースアワー2024　スタッフがラジオに出演します！</span></a></li>
 
-								<li><a href="/news/5469.html">
-
-
-									<time datetime="2023-12-22">2023/12/22</time>
-
-									<span>【採用情報】WWFジャパン 契約職員募集のお知らせ（次世代リーダー育成プログラム担当）</span></a></li>
-
-								<li><a href="/news/5084.html">
+								<li><a href="/news/5579.html">
 
 
-									<time datetime="2023-12-21">2023/12/21</time>
+									<time datetime="2024-03-22">2024/03/22</time>
 
-									<span>【採用情報】WWFジャパン 一般職員募集のお知らせ（海外の森林保全および森林産品等の持続可能な調達推進担当）</span></a></li>
+									<span>【業務委託】WWFジャパン 自然保護室 個人コンサルタント(PSPグループ)募集のお知らせ</span></a></li>
 
-								<li><a href="/news/5484.html">
-
-
-									<time datetime="2023-12-06">2023/12/06</time>
-
-									<span>【採用情報】WWFジャパン 契約職員募集のお知らせ（海洋水産グループ　ブルーファイナンス担当）</span></a></li>
-
-								<li><a href="/news/5486.html">
+								<li><a href="/staffblog/event_notice/5570.html">
 
 
-									<time datetime="2023-12-04">2023/12/04</time>
+									<time datetime="2024-03-13">2024/03/13</time>
 
-									<span>年末年始の休業のお知らせ</span></a></li>
+									<span>アースアワー：世界で最大の一時間を！</span></a></li>
+
+								<li><a href="/news/5279.html">
+
+
+									<time datetime="2024-03-01">2024/03/01</time>
+
+									<span>【採用情報】WWFジャパン 一般職員募集のお知らせ（水産業由来を中心としたプラスチック汚染対策担当（海洋水産分野））</span></a></li>
+
+								<li><a href="/news/5546.html">
+
+
+									<time datetime="2024-02-15">2024/02/15</time>
+
+									<span>【採用情報】WWFジャパン 契約職員募集のお知らせ（Public Sector Partnershipグループ　インドネシア駐在員）</span></a></li>
 
 						</ul>
 						<ul class="btn">
@@ -516,7 +597,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="banner-lists">
  <div class="banner-item">
                 <div class="image">
-                  <a href="/campaign/da/"><img data-src="/image/bnr_da2023aw.png" alt="ご寄付のお願い　森を守るピース" class="lazyload"></a>
+                  <a href="/campaign/da/"><img data-src="/image/bnr_da2024ss.webp" alt="ご寄付のお願い　よみがえれコアラの森、これからの物語。 - Koalas Forever! The Story of the Future." class="lazyload"></a>
                 </div>
               </div>
               <div class="banner-item">
@@ -1075,7 +1156,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<option value="http://www.wwf.pl/?referer=wwfja">Poland</option>
 						<option value="http://www.wwf.pt/?referer=wwfja">Portugal</option>
 						<option value="http://romania.panda.org/?referer=wwfja">Romania</option>
-						
+
 						<option value="http://www.panda.org/who_we_are/wwf_offices/senegal/?referer=wwfja">Senegal</option>
 						<option value="http://www.panda.org/sr/?referer=wwfja">Serbia</option>
 						<option value="http://www.wwf.sg/?referer=wwfja">Singapore</option>
@@ -1139,7 +1220,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="/shared/js/libs_2018.js"></script>
 <script src="/shared/js/slick/slick.js"></script>
 <script src="/shared/js/slick/libs_top.js"></script>
-<script src="/js/libs_2018.js"></script>
+<script src="/js/libs_2018.js?20240314"></script>
+<script src="/script.jsp?id=228"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.5.1/velocity.min.js"></script>
 <script src="/js/classes/cookie.js"></script>

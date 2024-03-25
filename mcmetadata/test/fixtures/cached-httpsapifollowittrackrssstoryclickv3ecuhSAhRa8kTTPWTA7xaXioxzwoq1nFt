@@ -33,7 +33,7 @@
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title="The Trussville Tribune &raquo; Feed" href="https://www.trussvilletribune.com/feed/" />
 <link rel="alternate" type="application/rss+xml" title="The Trussville Tribune &raquo; Comments Feed" href="https://www.trussvilletribune.com/comments/feed/" />
-		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.23.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.25.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
 		<!-- Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -->
 					<!-- No tracking code set -->
 				<!-- / Google Analytics by MonsterInsights -->
@@ -81,7 +81,7 @@ var WP_Statistics_Tracker_Object = {"hitRequestUrl":"https:\/\/www.trussvilletri
 </script>
 <script type='text/javascript' src='https://www.trussvilletribune.com/wp-content/plugins/wp-statistics/assets/js/tracker.js?ver=5.7.4' id='wp-statistics-tracker-js'></script>
 <link rel="https://api.w.org/" href="https://www.trussvilletribune.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.trussvilletribune.com/wp-json/wp/v2/posts/140385" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.trussvilletribune.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.trussvilletribune.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.trussvilletribune.com/wp-includes/wlwmanifest.xml" />
 <meta name="generator" content="WordPress 5.7.4" />
 <link rel="canonical" href="https://www.trussvilletribune.com/2022/03/02/three-students-from-center-point-receive-academic-scholarships/" />
 <link rel='shortlink' href='https://www.trussvilletribune.com/?p=140385' />
@@ -100,7 +100,7 @@ var WP_Statistics_Tracker_Object = {"hitRequestUrl":"https:\/\/www.trussvilletri
 					transition-delay: 0ms;
 				}
 					</style>
-		<!-- Analytics by WP Statistics v14.3.4 - https://wp-statistics.com/ -->
+		<!-- Analytics by WP Statistics v14.5.2 - https://wp-statistics.com/ -->
 
 <!-- Dynamic Widgets by QURL loaded - http://www.dynamic-widgets.com //-->
         <script>
@@ -156,7 +156,7 @@ oneSignal_options['notifyButton']['text'] = {};
 <link rel="apple-touch-icon" href="https://www.trussvilletribune.com/wp-content/uploads/2022/03/cropped-38052269_10156468517028959_9130994145085620224_n-180x180.jpg" />
 <meta name="msapplication-TileImage" content="https://www.trussvilletribune.com/wp-content/uploads/2022/03/cropped-38052269_10156468517028959_9130994145085620224_n-270x270.jpg" />
 		<style type="text/css" id="wp-custom-css">
-			
+
 
 .top_banner {height: 0px;}
 
@@ -223,7 +223,7 @@ opacity: 1;
 #navigation ul.device-menu li.dm-active > a, #navigation .device-menu li.dm-active > .responsive-caret, .widget li:hover .cat_num, .news-ticker li i, .mom_breadcrumb .sep, .scrollToTop:hover,
 ul.products li .mom_product_thumbnail .mom_woo_cart_bt .button:hover, .main_tabs .tabs li.active > a, .toggle_active .toggle_icon:before, #navigation .nav-button.active, .mom-main-color, .mom-main-color a,
 #buddypress div#item-header div#item-meta a, #buddypress div#subnav.item-list-tabs ul li.selected a, #buddypress div#subnav.item-list-tabs ul li.current a, #buddypress div.item-list-tabs ul li span, #buddypress div#object-nav.item-list-tabs ul li.selected a, #buddypress div#object-nav.item-list-tabs ul li.current a, .mom_bp_tabbed_widgets .main_tabs .tabs a.selected, #buddypress div.activity-meta a.button, .generic-button a, .top_banner a{color:#dd3333;}.mom-social-icons li a.vector_icon:hover, .owl-dot.active span, .feature-slider .fs-nav .selected, #navigation .nav-button.nav-cart span.numofitems{background:#dd3333;}#comments .single-comment .comment-content .comment-reply-link:hover, #comments .single-comment .comment-content .comment-edit-link:hover, .post.sticky{border-color:#dd3333;}h1, h2, h3, h4, h5, h6{color:#dd3333;}a{color:#dd5252;}a:hover{color:#dd0000;}a:active{color:#dd3333;}.base-box .read-more-link, .read-more-link{color:#dd3333;}.header{background-image:url('https://www.trussvilletribune.com/wp-content/uploads/2019/12/001-subtle-light-pattern-background-texture.jpg');}</style><style type="text/css">
-    
+
 .header > .inner, .header .logo {
 line-height: 160px;
 height: 160px;
@@ -250,7 +250,7 @@ height: 160px;
 </style>
     </head>
     <body data-rsssl=1 class="post-template-default single single-post postid-140385 single-format-standard right-sidebar singular fade-imgs-in-appear navigation_highlight_ancestor ticker_has_live_time time_in_twelve_format one-side-wide both-sidebars open_images_in_lightbox" itemscope="itemscope" itemtype="http://schema.org/WebPage">
-    
+
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -261,7 +261,7 @@ height: 160px;
    		<div class="mom-e3lanat-wrap  ">
 	<div class="mom-e3lanat " style="">
 		<div class="mom-e3lanat-inner">
-		
+
 		</div>
 	</div>	<!--Mom ads-->
 	</div>
@@ -285,23 +285,23 @@ height: 160px;
         <div class="top-right-content">
             		    <ul class="mom-social-icons">
                     <li class="twitter"><a target="_blank" class="vector_icon" href="https://twitter.com/TrussTribune"><i class="fa-icon-twitter"></i></a></li>
-        
-                <li class="facebook"><a target="_blank" class="vector_icon" href="https://www.facebook.com/TheTrussvilleTribune"><i class="fa-icon-facebook "></i></a></li>        
-        
-        
+
+                <li class="facebook"><a target="_blank" class="vector_icon" href="https://www.facebook.com/TheTrussvilleTribune"><i class="fa-icon-facebook "></i></a></li>
+
+
                         <li class="linkedin"><a target="_blank" class="vector_icon" href="https://www.linkedin.com/company/the-trussville-tribune/about/"><i class="fa-icon-linkedin"></i></a></li>
-        
+
                         <li class="youtube"><a target="_blank" class="vector_icon" href="https://www.youtube.com/channel/UC1giFKCWoARtBLW2Q6BgZlA"><i class="fa-icon-youtube"></i></a></li>
-        
+
                         <li class="instagram"><a target="_blank" class="vector_icon" href="https://www.instagram.com/trussvilletribune/"><i class="fa-icon-instagram"></i></a></li>
-        
-        
-        
 
-        
 
-        
-                        	
+
+
+
+
+
+
 	    </ul>
                     </div> <!--tb right-->
 </div>
@@ -314,21 +314,21 @@ height: 160px;
                                                                     <img   width="300" height="37" alt="The Trussville Tribune" data-src="https://www.trussvilletribune.com/wp-content/uploads/2019/12/tibanner-300x37-1.gif" class="mom_retina_logo lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="mom_retina_logo" src="https://www.trussvilletribune.com/wp-content/uploads/2019/12/tibanner-300x37-1.gif" width="300" height="37" alt="The Trussville Tribune" /></noscript>
                         		                    </a>
 
-					
+
                     </div>
                                         <div class="header-right">
                                   		<script type="text/javascript">
 		jQuery(document).ready(function($) {
-			$('.e3lanat-rotator-id-638 .mom-e3lanat-inner').imagesLoaded( function() {
-			jQuery('.e3lanat-rotator-id-638 .mom-e3lanat-inner').boxSlider({
+			$('.e3lanat-rotator-id-722 .mom-e3lanat-inner').imagesLoaded( function() {
+			jQuery('.e3lanat-rotator-id-722 .mom-e3lanat-inner').boxSlider({
 				autoScroll: true,
 				timeout: 5000,
 				speed: 800,
 				effect: 'fade',
 				pauseOnHover: true,
-				next:'.e3lanat-rotator-id-638 .adr-next',
-				prev: '.e3lanat-rotator-id-638 .adr-prev'
-				
+				next:'.e3lanat-rotator-id-722 .adr-next',
+				prev: '.e3lanat-rotator-id-722 .adr-prev'
+
 			});
 
 			});
@@ -336,9 +336,9 @@ height: 160px;
 		});
 	</script>
 		<div class="mom-e3lanat-wrap  ">
-	<div class="mom-e3lanat e3lanat-layout-rotator e3lanat-rotator-id-638" style="width:500px; height:95px;">
+	<div class="mom-e3lanat e3lanat-layout-rotator e3lanat-rotator-id-722" style="width:500px; height:95px;">
 		<div class="mom-e3lanat-inner">
-		
+
 				<div class="mom-e3lan" data-id="97097" style=" ">
 					<a href="https://www.trussville.com/" target="_blank"><img  alt="Trussville Gas and Water" width="500" height="95" data-src="https://www.trussvilletribune.com/wp-content/uploads/2018/06/TGWbanner_2018_171_67_1_485734_TBJ_B_D75_V1_sold.gif" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://www.trussvilletribune.com/wp-content/uploads/2018/06/TGWbanner_2018_171_67_1_485734_TBJ_B_D75_V1_sold.gif" alt="Trussville Gas and Water" width="500" height="95"></noscript></a>
 		 	</div><!--mom ad-->
@@ -352,7 +352,7 @@ height: 160px;
 	</div>	<!--Mom ads-->
 	</div>
                     </div> <!--header right-->
-                    
+
                 <div class="clear"></div>
                 </div>
             </header>
@@ -456,7 +456,7 @@ height: 160px;
                     </div> <!--ajax search results-->
                     </div> <!--sw inner-->
                     </div> <!--search wrap-->
-                    
+
         		    </div> <!--nav-buttons-->
 
                 </div>
@@ -465,24 +465,24 @@ height: 160px;
             	    <div class="boxed-content-wrapper clearfix">
                         <div class="nav-shaddow"></div>
                          <div style="margin-top:-17px; margin-bottom:20px;"></div>
-            
+
             <div class="inner">
-                        
+
         <div class="breaking-news">
     <div class="the_ticker" >
     <div class="bn-title"><span>LATEST NEWS</span></div>
     <div class="news-ticker " data-timeout="5000">
         <ul>
-            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/01/16/blount-county-crash-closes-i-65-north/">Blount County crash closes I-65 north</a></li>
-            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/01/16/james-herring-june-22-1970-january-10-2024/">James Herring (June 22, 1970 — January 10, 2024)</a></li>
-            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/01/16/johnnie-ruth-echols-october-12-1931-january-13-2024/">Johnnie Ruth Echols (October 12, 1931 — January 13, 2024)</a></li>
-            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/01/16/wilburn-dyrel-barnett-december-29-1927-january-14-2024/">Wilburn &#8220;Dyrel&#8221; Barnett (December 29, 1927 — January 14, 2024)</a></li>
-            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/01/16/james-jim-kelley-january-30-1939-january-12-2024/">James &#8220;Jim&#8221; Kelley (January 30, 1939 — January 12, 2024)</a></li>
-            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/01/16/charles-awtrey-august-28-1931-january-12-2024/">Charles Awtrey (August 28, 1931 — January 12, 2024)</a></li>
-            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/01/16/beverly-england-may-26-1950-january-13-2024/">Beverly England (May 26, 1950 — January 13, 2024)</a></li>
-            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/01/16/jeffrey-horn-january-13-1962-january-13-2024/">Jeffrey Horn (January 13, 1962 — January 13, 2024)</a></li>
-            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/01/16/3-arrested-for-shoplifting-in-trussville-3/">3 arrested for shoplifting in Trussville</a></li>
-            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/01/16/sean-of-the-south-good-old-days/">Sean of the South: Good Old Days</a></li>
+            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/03/23/63-year-old-man-killed-in-birmingham-assault/">63-year-old man killed in Birmingham assault</a></li>
+            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/03/23/center-point-woman-wanted-on-burglary-property-theft-charges/">Center Point woman wanted on burglary, property theft charges</a></li>
+            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/03/22/12-year-old-shot-at-carson-road-apartments/">12-year-old shot at Carson Road apartments</a></li>
+            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/03/22/update-arrest-made-in-birmingham-homicide/">Update: Arrest made in Birmingham homicide</a></li>
+            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/03/22/crash-closes-i-59-southbound-lanes/">Crash closes I-59 southbound lanes</a></li>
+            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/03/22/pinson-man-wanted-on-burglary-property-theft-charges/">Pinson man wanted on burglary, property theft charges</a></li>
+            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/03/21/pinson-council-sets-date-for-upcoming-cityfest-celebrating-20-years/">Pinson Council sets date for upcoming CityFest celebrating 20 years</a></li>
+            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/03/21/moody-fire-department-spring-carnival-starts-next-week/">Moody Fire Department Spring Carnival starts next week</a></li>
+            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/03/21/birmingham-man-arrested-in-trussville-burglary/">Birmingham man arrested in Trussville burglary</a></li>
+            <li><i class="fa-icon-double-angle-right"></i><a href="https://www.trussvilletribune.com/2024/03/21/trussville-rotary-announces-march-student-teacher-of-the-month/">Trussville Rotary announces March student, teacher of the month</a></li>
         </ul>
     </div> <!--news ticker-->
     </div>
@@ -490,13 +490,13 @@ height: 160px;
         </div> <!--breaking news-->
             </div>
     <div class="inner">
-        
+
                             <div class="main_container">
            <div class="main-col">
                                 <div class="category-title">
                         <div class="mom_breadcrumb breadcrumb breadcrumbs"><div class="breadcrumbs-plus">
 <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="https://www.trussvilletribune.com/" class="home"><span itemprop="title">Home</span></a></span> <span class='separator'><i class="sep fa-icon-double-angle-right"></i></span> <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="https://www.trussvilletribune.com/category/education/" title="Education"><span itemprop="title">Education</span></a></span> <span class='separator'><i class="sep fa-icon-double-angle-right"></i></span> <span itemprop="name">Three Center Point students received academic scholarships</span></div></div>                </div>
-                                        <div class='ai-viewports ai-viewport-0 ai-insert-5-25282378' style='margin: 8px auto; text-align: center; display: block; clear: both;' data-insertion-position='prepend' data-selector='.ai-insert-5-25282378' data-insertion-no-dbg data-code='PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTUnIHN0eWxlPSdtYXJnaW46IDhweCBhdXRvOyB0ZXh0LWFsaWduOiBjZW50ZXI7IGRpc3BsYXk6IGJsb2NrOyBjbGVhcjogYm90aDsnPgo8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+PCEtLQoKbXliYW5uZXJzPQpbCiI8YSBocmVmPVwiaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL21qZGlzY291bnR3YXJlaG91c2UvXCIgdGFyZ2V0ID0g4oCcX2JsYW5rPjxpbWcgc3JjPVwiaHR0cHM6Ly93d3cudHJ1c3N2aWxsZXRyaWJ1bmUuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIzLzA0L0RXMjAyMS0zLXNjYWxlZC5qcGdcIiB3aWR0aD1cIlwiIGhlaWdodD1cIlwiIGFsdD1cIlwiIHRpdGxlPVwiXCIgYm9yZGVyPVwiMFwiPjwvYT4iLAoiPGEgaHJlZj1cImh0dHBzOi8vd3d3LmNsb3NldHNieWRlc2lnbi5jb20vU2NoZWR1bGVSZXF1ZXN0cy8/dXRtX3NvdXJjZT1UUklCTUVESUEmdXRtX21lZGl1bT1kaXNwbGF5JnV0bV9jYW1wYWlnbj10b3BiYW5uZXJcIiB0YXJnZXQgPSDigJxfYmxhbms+PGltZyBzcmM9XCJodHRwczovL3d3dy50cnVzc3ZpbGxldHJpYnVuZS5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDcvQ2xvc2V0cy1ieS1EZXNpZ24tMDcxNjIzXzgwMC3Dly05OV8wNy4xNy4yMDIzX1RydXNzdmlsbGUtVHJpYnVuZV9XQS5qcGdcIiB3aWR0aD1cIlwiIGhlaWdodD1cIlwiIGFsdD1cIlwiIHRpdGxlPVwiXCIgYm9yZGVyPVwiMFwiPjwvYT4iLApdCnJhbmRvbU51bWJlciA9IE1hdGgucmFuZG9tKCkKdmFyIHNob3dfbXliYW5uZXJzID0gbXliYW5uZXJzW01hdGguZmxvb3IocmFuZG9tTnVtYmVyICogbXliYW5uZXJzLmxlbmd0aCldCmRvY3VtZW50LndyaXRlKHNob3dfbXliYW5uZXJzKTsKLy8gLS0+PC9zY3JpcHQ+Cjxub3NjcmlwdD4KPGEgaHJlZj0iaHR0cDovL2ptZ2FyZGVucy5jb20iPjxpbWcgc3JjPSJodHRwczovL3d3dy50cnVzc3ZpbGxldHJpYnVuZS5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMTYvMDYvSk1Hd2Vic2lkZS5qcGciIHdpZHRoPSIiIGhlaWdodD0iIiBhbHQ9IiIgdGl0bGU9IiIgYm9yZGVyPSIwIj48L2E+Cjwvbm9zY3JpcHQ+PC9kaXY+Cg==' data-block='5'></div>
+                                        <div class='ai-viewports ai-viewport-0 ai-insert-5-76581858' style='margin: 8px auto; text-align: center; display: block; clear: both;' data-insertion-position='prepend' data-selector='.ai-insert-5-76581858' data-insertion-no-dbg data-code='PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTUnIHN0eWxlPSdtYXJnaW46IDhweCBhdXRvOyB0ZXh0LWFsaWduOiBjZW50ZXI7IGRpc3BsYXk6IGJsb2NrOyBjbGVhcjogYm90aDsnPgo8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+PCEtLQoKbXliYW5uZXJzPQpbCiI8YSBocmVmPVwiaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL21qZGlzY291bnR3YXJlaG91c2UvXCIgdGFyZ2V0ID0g4oCcX2JsYW5rPjxpbWcgc3JjPVwiaHR0cHM6Ly93d3cudHJ1c3N2aWxsZXRyaWJ1bmUuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIzLzA0L0RXZG9sbGFyZGF5ei1zY2FsZWQuanBnXCIgd2lkdGg9XCJcIiBoZWlnaHQ9XCJcIiBhbHQ9XCJcIiB0aXRsZT1cIlwiIGJvcmRlcj1cIjBcIj48L2E+IiwKIjxhIGhyZWY9XCJodHRwczovL3d3dy5jbG9zZXRzYnlkZXNpZ24uY29tL1NjaGVkdWxlUmVxdWVzdHMvP3V0bV9zb3VyY2U9VFJJQk1FRElBJnV0bV9tZWRpdW09ZGlzcGxheSZ1dG1fY2FtcGFpZ249dG9wYmFubmVyXCIgdGFyZ2V0ID0g4oCcX2JsYW5rPjxpbWcgc3JjPVwiaHR0cHM6Ly93d3cudHJ1c3N2aWxsZXRyaWJ1bmUuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIzLzA3L0Nsb3NldHMtYnktRGVzaWduLTA3MTYyM184MDAtw5ctOTlfMDcuMTcuMjAyM19UcnVzc3ZpbGxlLVRyaWJ1bmVfV0EuanBnXCIgd2lkdGg9XCJcIiBoZWlnaHQ9XCJcIiBhbHQ9XCJcIiB0aXRsZT1cIlwiIGJvcmRlcj1cIjBcIj48L2E+IiwKIjxhIGhyZWY9XCJodHRwczovL3d3dy5mYmN0RWFzdGVyLm9yZ1wiIHRhcmdldCA9IOKAnF9ibGFuaz48aW1nIHNyYz1cImh0dHBzOi8vd3d3LnRydXNzdmlsbGV0cmlidW5lLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyNC8wMy9GaXJzdC1CYXB0aXN0LUJhbm5lcl9UcnVzc3ZpbGxlLVRyaWJ1bmVfODAwLcOXLTk5LV8wMTAzMjAyNF9MTC5qcGdcIiB3aWR0aD1cIlwiIGhlaWdodD1cIlwiIGFsdD1cIlwiIHRpdGxlPVwiXCIgYm9yZGVyPVwiMFwiPjwvYT4iLAoiPGEgaHJlZj1cImh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9PUzFTcG9ydHNJbmp1cnlDbGluaWMvXCIgdGFyZ2V0ID0g4oCcX2JsYW5rPjxpbWcgc3JjPVwiaHR0cHM6Ly93d3cudHJ1c3N2aWxsZXRyaWJ1bmUuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDI0LzAzL0Jhbm5lci1BZC1HcmFwaGljLVRyaWJ1bmUtTWFyY2gtMjAyMy0xLmpwZ1wiIHdpZHRoPVwiXCIgaGVpZ2h0PVwiXCIgYWx0PVwiXCIgdGl0bGU9XCJcIiBib3JkZXI9XCIwXCI+PC9hPiIsCl0KcmFuZG9tTnVtYmVyID0gTWF0aC5yYW5kb20oKQp2YXIgc2hvd19teWJhbm5lcnMgPSBteWJhbm5lcnNbTWF0aC5mbG9vcihyYW5kb21OdW1iZXIgKiBteWJhbm5lcnMubGVuZ3RoKV0KZG9jdW1lbnQud3JpdGUoc2hvd19teWJhbm5lcnMpOwovLyAtLT48L3NjcmlwdD4KPG5vc2NyaXB0Pgo8YSBocmVmPSJodHRwOi8vam1nYXJkZW5zLmNvbSI+PGltZyBzcmM9Imh0dHBzOi8vd3d3LnRydXNzdmlsbGV0cmlidW5lLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAxNi8wNi9KTUd3ZWJzaWRlLmpwZyIgd2lkdGg9IiIgaGVpZ2h0PSIiIGFsdD0iIiB0aXRsZT0iIiBib3JkZXI9IjAiPjwvYT4KPC9ub3NjcmlwdD48L2Rpdj4K' data-block='5'></div>
 
 <div class="base-box blog-post p-single bp-horizontal-share post-140385 post type-post status-publish format-standard has-post-thumbnail category-education category-trussvilleclayandpinsonlifestyle category-trussvilleclayandpinsonnews tag-alabama-am-university tag-aniyah-owens tag-center-point-high-school tag-heritage-bronze-award tag-heritage-gold-award tag-heritage-silver-award tag-isaiah-latten tag-kayla-williams tag-office-of-student-financial-aid-and-scholarships"itemscope itemtype="http://schema.org/Article">
 <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
@@ -527,11 +527,11 @@ height: 160px;
             <p>From The Tribune staff reports</p>
 <p>CENTER POINT — Three students from Center Point High School received academic scholarships from Alabama A&amp;M University.</p>
 <p>Alabama A&amp;M University currently offers seven levels of academic scholarships to in-state and out-of-state students.</p>
-<div class='ai-viewports ai-viewport-2 ai-viewport-3 ai-insert-61-32963836' style='margin: 8px auto; text-align: center; display: block; clear: both;' data-insertion-position='prepend' data-selector='.ai-insert-61-32963836' data-insertion-no-dbg data-code='PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTYxJyBzdHlsZT0nbWFyZ2luOiA4cHggYXV0bzsgdGV4dC1hbGlnbjogY2VudGVyOyBkaXNwbGF5OiBibG9jazsgY2xlYXI6IGJvdGg7Jz4KPGEgaHJlZj0iaHR0cHM6Ly93d3cuY291cnRlc3liaXJtaW5naGFtLmNvbS8iIHRhcmdldCA9IOKAnF9ibGFuaz48aW1nIHNyYz0+PGltZyBzcmM9Imh0dHBzOi8vd3d3LnRydXNzdmlsbGV0cmlidW5lLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyMi8wMi9Db3VydGVzeS1CdWljay1HbWNfMjAyMjE0MDJfMjUweDI1MF9UcnVzc3ZpbGxlLVRyaWJ1bmVfbXQuZ2lmIiB3aWR0aD0iMjUwIiBoZWlnaHQ9IjI1MCIgYWx0PSJDb3VydGVzeSBHTUMiPjwvYT48L2Rpdj4K' data-block='61'></div>
+<div class='ai-viewports ai-viewport-2 ai-viewport-3 ai-insert-61-73788680' style='margin: 8px auto; text-align: center; display: block; clear: both;' data-insertion-position='prepend' data-selector='.ai-insert-61-73788680' data-insertion-no-dbg data-code='PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTYxJyBzdHlsZT0nbWFyZ2luOiA4cHggYXV0bzsgdGV4dC1hbGlnbjogY2VudGVyOyBkaXNwbGF5OiBibG9jazsgY2xlYXI6IGJvdGg7Jz4KPGEgaHJlZj0iaHR0cHM6Ly93d3cudHJ1c3N2aWxsZXRyaWJ1bmUuY29tLyI+PGltZyBzcmM9Imh0dHBzOi8vd3d3LnRydXNzdmlsbGV0cmlidW5lLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8wMi9UcmlidW5lQXBwV0VCLXNjYWxlZC5qcGciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiBhbHQ9IlRydXNzdmlsbGUgVHJpYnVuZSBBcHAiPjwvYT48L2Rpdj4K' data-block='61'></div>
 
 <p>Kayla Williams was awarded the Office of Student Financial Aid and Scholarships Heritage Gold Award. Williams will receive a total annual value of $5,000, including a $250 book voucher per semester.</p>
 <p>To be considered for the award, Williams had to have a minimum high school GPA of 3.25 or above and an ACT score of 17. In addition, the renewal requirements for Williams to maintain her award are a cumulative GPA of 2.75 and complete a minimum of 30 credit hours per academic year.</p>
-<div class='ai-viewports ai-viewport-2 ai-viewport-3 ai-insert-61-35031925' style='margin: 8px auto; text-align: center; display: block; clear: both;' data-insertion-position='prepend' data-selector='.ai-insert-61-35031925' data-insertion-no-dbg data-code='PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTYxJyBzdHlsZT0nbWFyZ2luOiA4cHggYXV0bzsgdGV4dC1hbGlnbjogY2VudGVyOyBkaXNwbGF5OiBibG9jazsgY2xlYXI6IGJvdGg7Jz4KPGEgaHJlZj0iaHR0cDovL3d3dy5wYXJjZWxzdG9vLmNvbSIgdGFyZ2V0ID0g4oCcX2JsYW5rPjxpbWcgc3JjPT48aW1nIHNyYz0iaHR0cHM6Ly93d3cudHJ1c3N2aWxsZXRyaWJ1bmUuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIxLzA4L1BhcmNlbHMtVG9vXzIwMjEwOTA3XzI1MHgyNTBfVHJ1c3N2aWxsZS1UcmlidW5lX210LmdpZiJ3aWR0aD0iMjUwIiBoZWlnaHQ9IjI1MCIgYWx0PSJQYXJjZWwgVG8gR28iPjwvYT48L2Rpdj4K' data-block='61'></div>
+<div class='ai-viewports ai-viewport-2 ai-viewport-3 ai-insert-61-56226534' style='margin: 8px auto; text-align: center; display: block; clear: both;' data-insertion-position='prepend' data-selector='.ai-insert-61-56226534' data-insertion-no-dbg data-code='PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTYxJyBzdHlsZT0nbWFyZ2luOiA4cHggYXV0bzsgdGV4dC1hbGlnbjogY2VudGVyOyBkaXNwbGF5OiBibG9jazsgY2xlYXI6IGJvdGg7Jz4KPGEgaHJlZj0idGVsOjIwNTg4NzI1MDAiIHRhcmdldCA9IOKAnF9ibGFuaz48aW1nIHNyYz0iaHR0cHM6Ly93d3cudHJ1c3N2aWxsZXRyaWJ1bmUuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIzLzA1L09mZmljZS1TcGFjZS1mb3ItUmVudC0yLnBuZyIgd2lkdGg9IjI1MCIgaGVpZ2h0PSIyNTAiIGFsdD0iT2ZmaWNlIFNwYWNlIHRvIFJlbnQiPjwvYT48L2Rpdj4K' data-block='61'></div>
 
 <p>Isaiah Latten was awarded the Office of Student Financial Aid and Scholarships Heritage Silver Award. Latten will receive a total annual value of $3,500, including a $250 book voucher per semester.</p>
 <p>To be considered for the award, Latten had to have a minimum high school GPA of 3.0-3.24 and an ACT score of 17. In addition, the renewal requirements for Latten to maintain his award are a cumulative GPA of 2.75 and complete a minimum of 30 credit hours per academic year.</p>
@@ -543,19 +543,19 @@ height: 160px;
 				<a href='https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.45-AM.png'><img width="251" height="300"   alt="" aria-describedby="gallery-1-140389" data-srcset="https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.45-AM-251x300.png 251w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.45-AM-857x1024.png 857w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.45-AM-768x918.png 768w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.45-AM.png 1004w"  data-src="https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.45-AM-251x300.png" data-sizes="(max-width: 251px) 100vw, 251px" class="attachment-medium size-medium lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="251" height="300" src="https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.45-AM-251x300.png" class="attachment-medium size-medium" alt="" aria-describedby="gallery-1-140389" srcset="https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.45-AM-251x300.png 251w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.45-AM-857x1024.png 857w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.45-AM-768x918.png 768w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.45-AM.png 1004w" sizes="(max-width: 251px) 100vw, 251px" /></noscript></a>
 			</dt>
 				<dd class='wp-caption-text gallery-caption' id='gallery-1-140389'>
-				Kayla Williams (Photo courtesy of CPHS Twitter) 
+				Kayla Williams (Photo courtesy of CPHS Twitter)
 				</dd></dl><dl class='gallery-item'>
 			<dt class='gallery-icon portrait'>
 				<a href='https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.55-AM.png'><img width="251" height="300"   alt="" aria-describedby="gallery-1-140390" data-srcset="https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.55-AM-251x300.png 251w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.55-AM-858x1024.png 858w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.55-AM-768x916.png 768w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.55-AM.png 1068w"  data-src="https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.55-AM-251x300.png" data-sizes="(max-width: 251px) 100vw, 251px" class="attachment-medium size-medium lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="251" height="300" src="https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.55-AM-251x300.png" class="attachment-medium size-medium" alt="" aria-describedby="gallery-1-140390" srcset="https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.55-AM-251x300.png 251w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.55-AM-858x1024.png 858w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.55-AM-768x916.png 768w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.55-AM.png 1068w" sizes="(max-width: 251px) 100vw, 251px" /></noscript></a>
 			</dt>
 				<dd class='wp-caption-text gallery-caption' id='gallery-1-140390'>
-				Isaiah Latten (Photo courtesy of CPHS Twitter) 
+				Isaiah Latten (Photo courtesy of CPHS Twitter)
 				</dd></dl><dl class='gallery-item'>
 			<dt class='gallery-icon portrait'>
 				<a href='https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.35-AM.png'><img width="242" height="300"   alt="" aria-describedby="gallery-1-140388" data-srcset="https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.35-AM-242x300.png 242w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.35-AM-827x1024.png 827w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.35-AM-768x951.png 768w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.35-AM.png 1144w"  data-src="https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.35-AM-242x300.png" data-sizes="(max-width: 242px) 100vw, 242px" class="attachment-medium size-medium lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="242" height="300" src="https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.35-AM-242x300.png" class="attachment-medium size-medium" alt="" aria-describedby="gallery-1-140388" srcset="https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.35-AM-242x300.png 242w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.35-AM-827x1024.png 827w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.35-AM-768x951.png 768w, https://www.trussvilletribune.com/wp-content/uploads/2022/03/Screen-Shot-2022-03-02-at-8.56.35-AM.png 1144w" sizes="(max-width: 242px) 100vw, 242px" /></noscript></a>
 			</dt>
 				<dd class='wp-caption-text gallery-caption' id='gallery-1-140388'>
-				Aniyah Owens (Photo courtesy of CPHS Twitter) 
+				Aniyah Owens (Photo courtesy of CPHS Twitter)
 				</dd></dl><br style="clear: both" />
 		</div>
 
@@ -586,17 +586,17 @@ document.write(show_mybanners);
 <a href="http://jmgardens.com"><img  width="" height="" alt="" title="" border="0" data-src="https://www.trussvilletribune.com/wp-content/uploads/2016/06/JMGwebside.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://www.trussvilletribune.com/wp-content/uploads/2016/06/JMGwebside.jpg" width="" height="" alt="" title="" border="0"></noscript></a>
 </noscript></div>
 <!-- AI CONTENT END 2 -->
-      
+
 
             <div class="post-tags">
             <span class="pt-title">Tags: </span> <a href="https://www.trussvilletribune.com/tag/alabama-am-university/" rel="tag">Alabama A&amp;M University</a><a href="https://www.trussvilletribune.com/tag/aniyah-owens/" rel="tag">Aniyah Owens</a><a href="https://www.trussvilletribune.com/tag/center-point-high-school/" rel="tag">Center Point high school</a><a href="https://www.trussvilletribune.com/tag/heritage-bronze-award/" rel="tag">Heritage Bronze Award</a><a href="https://www.trussvilletribune.com/tag/heritage-gold-award/" rel="tag">Heritage Gold Award</a><a href="https://www.trussvilletribune.com/tag/heritage-silver-award/" rel="tag">Heritage Silver Award</a><a href="https://www.trussvilletribune.com/tag/isaiah-latten/" rel="tag">Isaiah Latten</a><a href="https://www.trussvilletribune.com/tag/kayla-williams/" rel="tag">Kayla Williams</a><a href="https://www.trussvilletribune.com/tag/office-of-student-financial-aid-and-scholarships/" rel="tag">Office of Student Financial Aid and Scholarships</a>        </div> <!-- post tags -->
-    
+
        <div class="mom-social-share ss-horizontal border-box php-share" data-id="140385">
                     <div class="ss-icon facebook">
                 <a href="#" onclick="window.open('http://www.facebook.com/sharer/sharer.php?u=https://www.trussvilletribune.com/2022/03/02/three-students-from-center-point-receive-academic-scholarships/', 'Share This', 'menubar=no,toolbar=no,resizable=no,scrollbars=no, width=600,height=455');"><span class="icon"><i class="fa-icon-facebook"></i>Share</span></a>
                 <span class="count">0</span>
             </div> <!--icon-->
-        
+
                     <div class="ss-icon twitter">
                 <a href="http://twitter.com/share?text=Three Center Point students received academic scholarships&url=https://www.trussvilletribune.com/2022/03/02/three-students-from-center-point-receive-academic-scholarships/" onclick="window.open(this.href, 'Post this on twitter', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,width=600,height=455');"><span class="icon"><i class="fa-icon-twitter"></i>Tweet</span></a>
             </div> <!--icon-->
@@ -663,26 +663,26 @@ onclick="javascript:window.open(this.href, '_blank', 'menubar=no,toolbar=no,resi
             <div class="base-box single-box">
                 <ul class="single-related-posts">
 	   	     	       <li>
-			                        <a href="https://www.trussvilletribune.com/2024/01/16/3-arrested-for-shoplifting-in-trussville-3/"><img  data-hidpi="https://www.trussvilletribune.com/wp-content/uploads/2024/01/Screenshot-2024-01-16-7.23.05-PM-610x379.jpg" alt="3 arrested for shoplifting in Trussville" data-src="https://www.trussvilletribune.com/wp-content/uploads/2024/01/Screenshot-2024-01-16-7.23.05-PM-190x122.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://www.trussvilletribune.com/wp-content/uploads/2024/01/Screenshot-2024-01-16-7.23.05-PM-190x122.jpg" data-hidpi="https://www.trussvilletribune.com/wp-content/uploads/2024/01/Screenshot-2024-01-16-7.23.05-PM-610x379.jpg" alt="3 arrested for shoplifting in Trussville"></noscript></a>
-			                        <h4><a itemprop="name" href="https://www.trussvilletribune.com/2024/01/16/3-arrested-for-shoplifting-in-trussville-3/">3 arrested for shoplifting in Trussville</a></h4>
+			                        <a href="https://www.trussvilletribune.com/2024/03/23/center-point-woman-wanted-on-burglary-property-theft-charges/"><img  data-hidpi="https://www.trussvilletribune.com/wp-content/uploads/2024/03/Stephanie-Nicole-Howard.png" alt="Center Point woman wanted on burglary, property theft charges" data-src="https://www.trussvilletribune.com/wp-content/uploads/2024/03/Stephanie-Nicole-Howard-190x122.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://www.trussvilletribune.com/wp-content/uploads/2024/03/Stephanie-Nicole-Howard-190x122.png" data-hidpi="https://www.trussvilletribune.com/wp-content/uploads/2024/03/Stephanie-Nicole-Howard.png" alt="Center Point woman wanted on burglary, property theft charges"></noscript></a>
+			                        <h4><a itemprop="name" href="https://www.trussvilletribune.com/2024/03/23/center-point-woman-wanted-on-burglary-property-theft-charges/">Center Point woman wanted on burglary, property theft charges</a></h4>
                         <div class="mom-post-meta">
-			<time datetime="2024-01-16T16:23:30-06:00">January 16, 2024</time>
+			<time datetime="2024-03-23T14:20:35-05:00">March 23, 2024</time>
 			</div>
                 </li>
 
 	       <li>
-			                        <a href="https://www.trussvilletribune.com/2024/01/16/sean-of-the-south-good-old-days/"><img  data-hidpi="https://www.trussvilletribune.com/wp-content/uploads/2021/11/Screen-Shot-2021-11-16-at-2.08.45-PM-610x380.png" alt="Sean of the South: Good Old Days" data-src="https://www.trussvilletribune.com/wp-content/uploads/2021/11/Screen-Shot-2021-11-16-at-2.08.45-PM-190x122.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://www.trussvilletribune.com/wp-content/uploads/2021/11/Screen-Shot-2021-11-16-at-2.08.45-PM-190x122.png" data-hidpi="https://www.trussvilletribune.com/wp-content/uploads/2021/11/Screen-Shot-2021-11-16-at-2.08.45-PM-610x380.png" alt="Sean of the South: Good Old Days"></noscript></a>
-			                        <h4><a itemprop="name" href="https://www.trussvilletribune.com/2024/01/16/sean-of-the-south-good-old-days/">Sean of the South: Good Old Days</a></h4>
+			                        <a href="https://www.trussvilletribune.com/2024/03/22/pinson-man-wanted-on-burglary-property-theft-charges/"><img  data-hidpi="https://www.trussvilletribune.com/wp-content/uploads/2024/03/Jacob-Scott-Junkins.png" alt="Pinson man wanted on burglary, property theft charges" data-src="https://www.trussvilletribune.com/wp-content/uploads/2024/03/Jacob-Scott-Junkins-190x122.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://www.trussvilletribune.com/wp-content/uploads/2024/03/Jacob-Scott-Junkins-190x122.png" data-hidpi="https://www.trussvilletribune.com/wp-content/uploads/2024/03/Jacob-Scott-Junkins.png" alt="Pinson man wanted on burglary, property theft charges"></noscript></a>
+			                        <h4><a itemprop="name" href="https://www.trussvilletribune.com/2024/03/22/pinson-man-wanted-on-burglary-property-theft-charges/">Pinson man wanted on burglary, property theft charges</a></h4>
                         <div class="mom-post-meta">
-			<time datetime="2024-01-16T16:20:45-06:00">January 16, 2024</time>
+			<time datetime="2024-03-22T12:57:22-05:00">March 22, 2024</time>
 			</div>
                 </li>
 
 	       <li>
-			                        <a href="https://www.trussvilletribune.com/2024/01/16/pinson-valley-arts-council-to-host-mingle-while-youre-single-event-on-valentines-day/"><img  data-hidpi="https://www.trussvilletribune.com/wp-content/uploads/2024/01/Attachment.jpeg" alt="Pinson Valley Arts Council to host ‘Mingle While You’re Single’ event on Valentine’s Day" data-src="https://www.trussvilletribune.com/wp-content/uploads/2024/01/Attachment-190x122.jpeg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://www.trussvilletribune.com/wp-content/uploads/2024/01/Attachment-190x122.jpeg" data-hidpi="https://www.trussvilletribune.com/wp-content/uploads/2024/01/Attachment.jpeg" alt="Pinson Valley Arts Council to host ‘Mingle While You’re Single’ event on Valentine’s Day"></noscript></a>
-			                        <h4><a itemprop="name" href="https://www.trussvilletribune.com/2024/01/16/pinson-valley-arts-council-to-host-mingle-while-youre-single-event-on-valentines-day/">Pinson Valley Arts Council to host ‘Mingle While You’re Single’ event on Valentine’s Day</a></h4>
+			                        <a href="https://www.trussvilletribune.com/2024/03/21/pinson-council-sets-date-for-upcoming-cityfest-celebrating-20-years/"><img  data-hidpi="https://www.trussvilletribune.com/wp-content/uploads/2024/03/Roberts-610x380.jpg" alt="Pinson Council sets date for upcoming CityFest celebrating 20 years" data-src="https://www.trussvilletribune.com/wp-content/uploads/2024/03/Roberts-190x122.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://www.trussvilletribune.com/wp-content/uploads/2024/03/Roberts-190x122.jpg" data-hidpi="https://www.trussvilletribune.com/wp-content/uploads/2024/03/Roberts-610x380.jpg" alt="Pinson Council sets date for upcoming CityFest celebrating 20 years"></noscript></a>
+			                        <h4><a itemprop="name" href="https://www.trussvilletribune.com/2024/03/21/pinson-council-sets-date-for-upcoming-cityfest-celebrating-20-years/">Pinson Council sets date for upcoming CityFest celebrating 20 years</a></h4>
                         <div class="mom-post-meta">
-			<time datetime="2024-01-16T15:54:20-06:00">January 16, 2024</time>
+			<time datetime="2024-03-21T22:07:45-05:00">March 21, 2024</time>
 			</div>
                 </li>
 
@@ -691,13 +691,13 @@ onclick="javascript:window.open(this.href, '_blank', 'menubar=no,toolbar=no,resi
 
 <div id="comments" class="comments-area">
 
-	
-		
-	
+
+
+
 </div><!-- #comments .comments-area -->
             </div> <!--main column-->
                         <div class="clear"></div>
-</div> <!--main container-->            
+</div> <!--main container-->
             <div class="sidebar main-sidebar" role="complementary" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
             <div class="widget widget_search"><div class="search-form default-search-form">
     <form method="get" action="https://www.trussvilletribune.com">
@@ -706,22 +706,22 @@ onclick="javascript:window.open(this.href, '_blank', 'menubar=no,toolbar=no,resi
     </form>
 </div>
 </div><div class="widget widget_text"><div class="widget-head"><h3 class="widget-title"><span>Tribune Unscripted</span></h3></div>			<div class="textwidget"><div style='padding:56.25% 0 0 0;position:relative;'><iframe  allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;' data-src='https://vimeo.com/showcase/9792417/embed' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='></iframe></div></div>
-		</div><div class="extendedwopts-hide extendedwopts-tablet extendedwopts-mobile widget block-widget"><div class='ai-viewports ai-viewport-1 ai-insert-57-78305833' style='margin: 8px 0; clear: both;' data-insertion-position='prepend' data-selector='.ai-insert-57-78305833' data-insertion-no-dbg data-code='PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTU3JyBzdHlsZT0nbWFyZ2luOiA4cHggMDsgY2xlYXI6IGJvdGg7Jz4KPGEgaHJlZj0iaHR0cHM6Ly93d3cudHJ1c3N2aWxsZXRyaWJ1bmUuY29tLyI+PGltZyBzcmM9Imh0dHBzOi8vd3d3LnRydXNzdmlsbGV0cmlidW5lLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8wMi9UcmlidW5lQXBwV0VCLXNjYWxlZC5qcGciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiBhbHQ9IlRydXNzdmlsbGUgVHJpYnVuZSBBcHAiPjwvYT48L2Rpdj4K' data-block='57'></div>
+		</div><div class="extendedwopts-hide extendedwopts-tablet extendedwopts-mobile widget block-widget"><div class='ai-viewports ai-viewport-1 ai-insert-57-13724593' style='margin: 8px 0; clear: both;' data-insertion-position='prepend' data-selector='.ai-insert-57-13724593' data-insertion-no-dbg data-code='PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTU3JyBzdHlsZT0nbWFyZ2luOiA4cHggMDsgY2xlYXI6IGJvdGg7Jz4KPGEgaHJlZj0iaHR0cHM6Ly93d3cuY291cnRlc3liaXJtaW5naGFtLmNvbS8iIHRhcmdldCA9IOKAnF9ibGFuaz48aW1nIHNyYz0+PGltZyBzcmM9Imh0dHBzOi8vd3d3LnRydXNzdmlsbGV0cmlidW5lLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyMi8wMi9Db3VydGVzeS1CdWljay1HbWNfMjAyMjE0MDJfMjUweDI1MF9UcnVzc3ZpbGxlLVRyaWJ1bmVfbXQuZ2lmIiB3aWR0aD0iMjUwIiBoZWlnaHQ9IjI1MCIgYWx0PSJDb3VydGVzeSBHTUMiPjwvYT48L2Rpdj4K' data-block='57'></div>
 
-</div><div class="extendedwopts-hide extendedwopts-tablet extendedwopts-mobile widget block-widget"><div class='ai-viewports ai-viewport-1 ai-insert-57-50267389' style='margin: 8px 0; clear: both;' data-insertion-position='prepend' data-selector='.ai-insert-57-50267389' data-insertion-no-dbg data-code='PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTU3JyBzdHlsZT0nbWFyZ2luOiA4cHggMDsgY2xlYXI6IGJvdGg7Jz4KPGEgaHJlZj0iaHR0cHM6Ly93d3cucmVkbW91bnRhaW5nbGFzcy5jb20vP3V0bV9zb3VyY2U9VFJJQk1FRElBJnV0bV9tZWRpdW09ZGlzcGxheSZ1dG1fY2FtcGFpZ249cHJpb3JpdHlzcXVhcmUiIHRhcmdldCA9IOKAnF9ibGFuaz48aW1nIHNyYz0iaHR0cHM6Ly93d3cudHJ1c3N2aWxsZXRyaWJ1bmUuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIzLzA3L1JlZC1Nb3VudGFpbi1HbGFzcy0wNzE3MjNfMjAyMzA3MTdfMjUweDI1MF9oX1RydXNzdmlsbGUtVHJpYnVuZV9tdC5naWYiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiBhbHQ9IlRydXNzdmlsbGUgVHJpYnVuZSBBcHAiPjwvYT48L2Rpdj4K' data-block='57'></div>
+</div><div class="extendedwopts-hide extendedwopts-tablet extendedwopts-mobile widget block-widget"><div class='ai-viewports ai-viewport-1 ai-insert-57-58415190' style='margin: 8px 0; clear: both;' data-insertion-position='prepend' data-selector='.ai-insert-57-58415190' data-insertion-no-dbg data-code='PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTU3JyBzdHlsZT0nbWFyZ2luOiA4cHggMDsgY2xlYXI6IGJvdGg7Jz4KPGEgaHJlZj0iaHR0cDovL3d3dy5wYXJjZWxzdG9vLmNvbSIgdGFyZ2V0ID0g4oCcX2JsYW5rPjxpbWcgc3JjPT48aW1nIHNyYz0iaHR0cHM6Ly93d3cudHJ1c3N2aWxsZXRyaWJ1bmUuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIxLzA4L1BhcmNlbHMtVG9vXzIwMjEwOTA3XzI1MHgyNTBfVHJ1c3N2aWxsZS1UcmlidW5lX210LmdpZiJ3aWR0aD0iMjUwIiBoZWlnaHQ9IjI1MCIgYWx0PSJQYXJjZWwgVG8gR28iPjwvYT48L2Rpdj4K' data-block='57'></div>
 
-</div><div class="extendedwopts-hide extendedwopts-tablet extendedwopts-mobile widget block-widget"><div class='ai-viewports ai-viewport-1 ai-insert-57-22913839' style='margin: 8px 0; clear: both;' data-insertion-position='prepend' data-selector='.ai-insert-57-22913839' data-insertion-no-dbg data-code='PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTU3JyBzdHlsZT0nbWFyZ2luOiA4cHggMDsgY2xlYXI6IGJvdGg7Jz4KPGEgaHJlZj0iaHR0cHM6Ly90cnVzc3ZpbGxlLm9yZy9kZXBhcnRtZW50cy9wYXJrcy1yZWNyZWF0aW9uL2F0aGxldGljcy8iIHRhcmdldCA9IOKAnF9ibGFuaz48aW1nIHNyYz0iaHR0cHM6Ly93d3cudHJ1c3N2aWxsZXRyaWJ1bmUuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDI0LzAxL1ZvbGxleWJhbGwtYWQucG5nIiB3aWR0aD0iMjUwIiBoZWlnaHQ9IjI1MCIgYWx0PSJZb3V0aCBWb2xsZXliYWxsIj48L2E+PC9kaXY+Cg==' data-block='57'></div>
+</div><div class="extendedwopts-hide extendedwopts-tablet extendedwopts-mobile widget block-widget"><div class='ai-viewports ai-viewport-1 ai-insert-57-64814311' style='margin: 8px 0; clear: both;' data-insertion-position='prepend' data-selector='.ai-insert-57-64814311' data-insertion-no-dbg data-code='PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTU3JyBzdHlsZT0nbWFyZ2luOiA4cHggMDsgY2xlYXI6IGJvdGg7Jz4KPGEgaHJlZj0iaHR0cHM6Ly93d3cudHJ1c3N2aWxsZXRyaWJ1bmUuY29tLyI+PGltZyBzcmM9Imh0dHBzOi8vd3d3LnRydXNzdmlsbGV0cmlidW5lLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8wMi9UcmlidW5lQXBwV0VCLXNjYWxlZC5qcGciIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiBhbHQ9IlRydXNzdmlsbGUgVHJpYnVuZSBBcHAiPjwvYT48L2Rpdj4K' data-block='57'></div>
 
-</div><div class="extendedwopts-hide extendedwopts-tablet extendedwopts-mobile widget block-widget"><div class='ai-viewports ai-viewport-1 ai-insert-57-10356038' style='margin: 8px 0; clear: both;' data-insertion-position='prepend' data-selector='.ai-insert-57-10356038' data-insertion-no-dbg data-code='PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTU3JyBzdHlsZT0nbWFyZ2luOiA4cHggMDsgY2xlYXI6IGJvdGg7Jz4KPGEgaHJlZj0iaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL3Byb2ZpbGUucGhwP2lkPTYxNTUxNTEwMTgxNDQ3Jm1pYmV4dGlkPWdpazJmQiIgdGFyZ2V0ID0g4oCcX2JsYW5rPjxpbWcgc3JjPSJodHRwczovL3d3dy50cnVzc3ZpbGxldHJpYnVuZS5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMjMvMTIvMTcwMTg5NTEyOTQxNV9pbWFnZTEuanBlZyIgd2lkdGg9IjI1MCIgaGVpZ2h0PSIyNTAiIGFsdD0iQm91amVlIEJpbnMiPjwvYT48L2Rpdj4K' data-block='57'></div>
+</div><div class="extendedwopts-hide extendedwopts-tablet extendedwopts-mobile widget block-widget"><div class='ai-viewports ai-viewport-1 ai-insert-57-59446823' style='margin: 8px 0; clear: both;' data-insertion-position='prepend' data-selector='.ai-insert-57-59446823' data-insertion-no-dbg data-code='PGRpdiBjbGFzcz0nY29kZS1ibG9jayBjb2RlLWJsb2NrLTU3JyBzdHlsZT0nbWFyZ2luOiA4cHggMDsgY2xlYXI6IGJvdGg7Jz4KPGEgaHJlZj0iaHR0cHM6Ly93d3cucmVkbW91bnRhaW5nbGFzcy5jb20vP3V0bV9zb3VyY2U9VFJJQk1FRElBJnV0bV9tZWRpdW09ZGlzcGxheSZ1dG1fY2FtcGFpZ249cHJpb3JpdHlzcXVhcmUiIHRhcmdldCA9IOKAnF9ibGFuaz48aW1nIHNyYz0iaHR0cHM6Ly93d3cudHJ1c3N2aWxsZXRyaWJ1bmUuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIzLzA3L1JlZC1Nb3VudGFpbi1HbGFzcy0wNzE3MjNfMjAyMzA3MTdfMjUweDI1MF9oX1RydXNzdmlsbGUtVHJpYnVuZV9tdC5naWYiIHdpZHRoPSIyNTAiIGhlaWdodD0iMjUwIiBhbHQ9IlRydXNzdmlsbGUgVHJpYnVuZSBBcHAiPjwvYT48L2Rpdj4K' data-block='57'></div>
 
 </div>
            </div> <!--main sidebar-->
             <div class="clear"></div>                      </div> <!--main inner-->
-            
+
       </div> <!--content boxed wrapper-->
                         <footer id="footer">
                 <div class="inner">
-	     			        	    
+
         <div class="clear"></div>
                 </div> <!--// footer inner-->
             </footer> <!--//footer-->
@@ -743,14 +743,14 @@ var eadPublic = [];
 <script type='text/javascript' src='https://www.trussvilletribune.com/wp-content/plugins/embed-any-document/js/embed-public.min.js?ver=2.7.4' id='awsm-ead-public-js'></script>
 <script type='text/javascript' id='apss-frontend-mainjs-js-extra'>
 /* <![CDATA[ */
-var frontend_ajax_object = {"ajax_url":"https:\/\/www.trussvilletribune.com\/wp-admin\/admin-ajax.php","ajax_nonce":"750c02036b"};
+var frontend_ajax_object = {"ajax_url":"https:\/\/www.trussvilletribune.com\/wp-admin\/admin-ajax.php","ajax_nonce":"0cc9bbeec0"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://www.trussvilletribune.com/wp-content/plugins/accesspress-social-share/js/frontend.js?ver=4.5.6' id='apss-frontend-mainjs-js'></script>
 <script type='text/javascript' src='https://www.trussvilletribune.com/wp-content/themes/goodnews5/js/plugins.js?ver=1.0' id='plugins-js'></script>
 <script type='text/javascript' id='Momizat-main-js-js-extra'>
 /* <![CDATA[ */
-var momAjaxL = {"url":"https:\/\/www.trussvilletribune.com\/wp-admin\/admin-ajax.php","nonce":"ad1df0288f","success":"check your email to complete subscription","error":"Already subscribed","error2":"Email invalid","werror":"Enter a valid city name.","nomore":"No More Posts","homeUrl":"https:\/\/www.trussvilletribune.com","viewAll":"View All","noResults":"Sorry, no posts matched your criteria","bodyad":""};
+var momAjaxL = {"url":"https:\/\/www.trussvilletribune.com\/wp-admin\/admin-ajax.php","nonce":"1a7f8d3487","success":"check your email to complete subscription","error":"Already subscribed","error2":"Email invalid","werror":"Enter a valid city name.","nomore":"No More Posts","homeUrl":"https:\/\/www.trussvilletribune.com","viewAll":"View All","noResults":"Sorry, no posts matched your criteria","bodyad":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://www.trussvilletribune.com/wp-content/themes/goodnews5/js/main.js?ver=1.0' id='Momizat-main-js-js'></script>
@@ -841,19 +841,19 @@ null!=b&&b.addEventListener("click",e=>{m("euconsent-v2");m("__lxG__consent__v2"
 m("cmplz_policy_id");m("cmplz_statistics");m("moove_gdpr_popup");m("real_cookie_banner-blog:1-tcf");m("real_cookie_banner-blog:1");e=document.querySelector("#ai-iab-tcf-status");null!=e&&(e.textContent="CONSENT COOKIES DELETED")})},5)});function da(b){setTimeout(function(){"function"==typeof ai_process_rotations_in_element&&ai_process_rotations_in_element(b);"function"==typeof ai_process_lists&&ai_process_lists();"function"==typeof ai_process_ip_addresses&&ai_process_ip_addresses();"function"==typeof ai_process_filter_hooks&&
 ai_process_filter_hooks();"function"==typeof ai_adb_process_blocks&&ai_adb_process_blocks(b);"function"==typeof ai_process_impressions&&1==ai_tracking_finished&&ai_process_impressions();"function"==typeof ai_install_click_trackers&&1==ai_tracking_finished&&ai_install_click_trackers();"function"==typeof ai_install_close_buttons&&ai_install_close_buttons(document)},5)}function ia(b){var e=b?b.split("?")[1]:window.location.search.slice(1);b={};if(e){e=e.split("#")[0];e=e.split("&");for(var p=0;p<e.length;p++){var z=
 e[p].split("="),C=void 0,x=z[0].replace(/\[\d*\]/,function(L){C=L.slice(1,-1);return""});z="undefined"===typeof z[1]?"":z[1];x=x.toLowerCase();z=z.toLowerCase();b[x]?("string"===typeof b[x]&&(b[x]=[b[x]]),"undefined"===typeof C?b[x].push(z):b[x][C]=z):b[x]=z}}return b}};
-ai_run_328213752257 = function(){
+ai_run_575367761082 = function(){
 ai_document_write=document.write;document.write=function(a){"interactive"==document.readyState?(console.error("document.write called after page load: ",a),"undefined"!=typeof ai_js_errors&&ai_js_errors.push(["document.write called after page load",a,0])):ai_document_write.call(document,a)};
-ai_insert_viewport_code ('ai-insert-57-10356038');
-ai_insert_viewport_code ('ai-insert-57-22913839');
-ai_insert_viewport_code ('ai-insert-57-50267389');
-ai_insert_viewport_code ('ai-insert-57-78305833');
-ai_insert_viewport_code ('ai-insert-61-35031925');
-ai_insert_viewport_code ('ai-insert-61-32963836');
-ai_insert_viewport_code ('ai-insert-5-25282378');
-ai_insert_viewport_code ('ai-insert-61-58822943');
-ai_insert_viewport_code ('ai-insert-61-43604773');
+ai_insert_viewport_code ('ai-insert-57-59446823');
+ai_insert_viewport_code ('ai-insert-57-64814311');
+ai_insert_viewport_code ('ai-insert-57-58415190');
+ai_insert_viewport_code ('ai-insert-57-13724593');
+ai_insert_viewport_code ('ai-insert-61-56226534');
+ai_insert_viewport_code ('ai-insert-61-73788680');
+ai_insert_viewport_code ('ai-insert-5-76581858');
+ai_insert_viewport_code ('ai-insert-61-28253559');
+ai_insert_viewport_code ('ai-insert-61-48887554');
 };
-if (document.readyState === 'complete' || (document.readyState !== 'loading' && !document.documentElement.doScroll)) ai_run_328213752257 (); else document.addEventListener ('DOMContentLoaded', ai_run_328213752257);
+if (document.readyState === 'complete' || (document.readyState !== 'loading' && !document.documentElement.doScroll)) ai_run_575367761082 (); else document.addEventListener ('DOMContentLoaded', ai_run_575367761082);
 ai_js_code = true;
 </script>
     </body>

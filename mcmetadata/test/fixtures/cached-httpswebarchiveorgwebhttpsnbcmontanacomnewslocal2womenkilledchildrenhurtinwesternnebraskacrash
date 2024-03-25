@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("https://nbcmontana.com/news/local/2-women-killed-children-hurt-in-western-nebraska-crash","20220724231330","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -514,7 +514,7 @@ if (sinclairDigital.survey) {
     document.body.appendChild(scriptEl);
 }</script></div></div></div></body></html><!--
      FILE ARCHIVED ON 23:13:30 Jul 24, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:56:19 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:03:01 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -522,13 +522,12 @@ if (sinclairDigital.survey) {
 -->
 <!--
 playback timings (ms):
-  captures_list: 198.929
-  exclusion.robots: 0.15
-  exclusion.robots.policy: 0.14
-  cdx.remote: 0.06
-  esindex: 0.01
-  LoadShardBlock: 167.244 (3)
-  PetaboxLoader3.datanode: 189.203 (4)
-  load_resource: 160.032
-  PetaboxLoader3.resolve: 32.885
+  exclusion.robots: 0.189
+  exclusion.robots.policy: 0.167
+  cdx.remote: 0.178
+  esindex: 0.022
+  LoadShardBlock: 214.436 (6)
+  PetaboxLoader3.datanode: 158.94 (7)
+  load_resource: 223.084
+  PetaboxLoader3.resolve: 113.847
 -->

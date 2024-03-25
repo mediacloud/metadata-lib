@@ -3,7 +3,7 @@
 	<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
 <script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
 <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("https://web.archive.org/web");
   __wm.wombat("http://www.prigepp.org/index.php","20220724231331","https://web.archive.org/","web","https://web-static.archive.org/_static/",
@@ -135,12 +135,12 @@ $(document).ready(function() {
     <!-- ul>
         <li><a href="becas.php">BECAS</a></li>
         <li><a href="novedades.php">NOVEDADES</a></li>
-  </ul -->  
+  </ul -->
   <ul>
     <li><a href="staff.php">EQUIPO</a></li>
     <li><a href="publicaciones.php">PUBLICACIONES</a></li>
     <li><a href="tesis.php">TESIS</a></li>
-    
+
     <!-- li><a href="web_conferencias.php">CONFERENCIAS</a></li -->
     <!-- li><a href="#">VISITA VIRTUAL DEL AULA</a></li -->
   </ul>
@@ -182,7 +182,7 @@ $(document).ready(function() {
             <!-- NOVEDADES -->
             <div class="seccion3">
               <h6 style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #42408a">Novedades</h6>
-              
+
               <div class="grid4col" style="background-image: none;">
 
                 <!-- div class="boxNews">
@@ -218,7 +218,7 @@ $(document).ready(function() {
     box-shadow: 0px 0px 10px #888888;"><div style="width:100%; font-size: 16px">21ª EDICIÓN</div><h3 style="font-size: 16px">Maestría Virtual en Género, Sociedad y Políticas</h3></div>
                   <p style="margin:10px 0;">Título intermedio: Diploma Superior en Ciencias Sociales con mención en Género y Políticas Públicas.</p>
                   <p style="margin:10px 0;">Inscripción abierta hasta el <br />
-                <strong>6 de marzo de 2022</strong></p> <p> <a href="informacion_maestria_GSyP.php"><span class="more">Más información</span></a> 
+                <strong>6 de marzo de 2022</strong></p> <p> <a href="informacion_maestria_GSyP.php"><span class="more">Más información</span></a>
                     <a href="inscripcion.php"><span class="more">Inscripción</span></a></p>
 
                     end BANNER MAESTRIA -->
@@ -245,7 +245,7 @@ $(document).ready(function() {
                   <p style="margin:10px 0;"><strong>Dirigido a Operadores de Justicia de toda la región, integrantes de ONGs y académicos. Título oficial otorgado por FLACSO Argentina. </strong></p>
                   <p style="margin:10px 0;">Inscripción abierta hasta el <strong>25 de julio de 2022</strong></p> <p> <a href="informacion_diploma_DRGyJ.php"><span class="more">más información</span></a>
                     <a href="inscripcion.php"><span class="more">Inscripción</span></a></p>
-                    
+
                     <!-- end BANNER GENERO Y JUSTICIA -->
 
 <!-- BANNER MAESTRIA
@@ -266,7 +266,7 @@ $(document).ready(function() {
     font-size: 16px;
     color: #FFF;
     box-shadow: 0px 0px 10px #888888;"><h3 style="font-size: 16px">Género, TransGénero, y PostGénero en las Politicas del Cuerpo y las Disidencias en las Américas Latinas</h3></div>
-                    <p style="margin:10px 0;">Inscripción abierta hasta el <strong>15 de junio de 2020</strong></p> 
+                    <p style="margin:10px 0;">Inscripción abierta hasta el <strong>15 de junio de 2020</strong></p>
                     <p><a href="inscripcion.php"><span class="more">Inscripción</span></a></p>
   end-BANNER maestria -->
 
@@ -309,26 +309,26 @@ $(document).ready(function() {
 function comprobar_usuario(){
 	if(document.getElementById('usuario').value!='' && document.getElementById('password').value!=''){
 		document.getElementById('accion').value = 'S';
-		document.getElementById('formulario').submit();		
+		document.getElementById('formulario').submit();
 	}
 }
 
 function oc_campo(id, value) {
 	if(document.getElementById(id).value == value) {
 		document.getElementById(id).value = '';
-	}	
+	}
 }
 
 function oc2_campo(id, value) {
 	if(document.getElementById(id).value == '') {
 		document.getElementById(id).value = value;
-	}	
+	}
 }
 //-->
 </script>
 <div class="login">
   <h2 class="tituloMenu">INGRESAR A MI CUENTA</h2>
-  <form name="formulario" id="formulario" method="POST" action="login.php" onsubmit="return false;" style="margin-top:10px"> 
+  <form name="formulario" id="formulario" method="POST" action="login.php" onsubmit="return false;" style="margin-top:10px">
   	<input type="hidden" name="accion" id="accion" value=""/>
     <div style="width:140px; height:60px; float:left;">
       <div style="margin:0 0 5px 0;">
@@ -359,9 +359,9 @@ function oc2_campo(id, value) {
 	<div>
 		<p>FLACSO Argentina<br/>
 		Ayacucho 555 - C1026AAC<br/>
-		Ciudad de Buenos Aires, Argentina 
+		Ciudad de Buenos Aires, Argentina
 			<br/>
-			Tel.: (5411) 5238-9300 int. 337 
+			Tel.: (5411) 5238-9300 int. 337
 			<br/>
 			Fax: (5411) 4375-1373<br/>
 			prigepp@prigepp.org<br/>
@@ -379,7 +379,7 @@ function oc2_campo(id, value) {
 </html>
 <!--
      FILE ARCHIVED ON 23:13:31 Jul 24, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:56:17 Jan 17, 2024.
+     INTERNET ARCHIVE ON 15:06:51 Mar 25, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -387,13 +387,12 @@ function oc2_campo(id, value) {
 -->
 <!--
 playback timings (ms):
-  captures_list: 149.503
-  exclusion.robots: 0.111
-  exclusion.robots.policy: 0.102
-  cdx.remote: 0.054
-  esindex: 0.01
-  LoadShardBlock: 94.487 (3)
-  PetaboxLoader3.datanode: 96.045 (4)
-  load_resource: 135.389
-  PetaboxLoader3.resolve: 72.193
+  exclusion.robots: 0.114
+  exclusion.robots.policy: 0.101
+  cdx.remote: 0.173
+  esindex: 0.013
+  LoadShardBlock: 444.428 (6)
+  PetaboxLoader3.datanode: 358.186 (7)
+  load_resource: 253.931
+  PetaboxLoader3.resolve: 112.645
 -->
