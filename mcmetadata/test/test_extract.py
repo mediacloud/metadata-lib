@@ -103,6 +103,8 @@ class TestExtract(unittest.TestCase):
         assert url == results['url']
         assert 'unique_url_hash' in results
         assert 'other' not in results
+        assert 'version' in results
+        assert results['version'] == mcmetadata.__version__
 
     def test_other_metadata(self):
         url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"

@@ -1,7 +1,52 @@
 [build-system]
-requires = [
-    "setuptools>=42",
-    "wheel",
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
 
+[project]
+name = "mediacloud-metadata"
+version = "1.0.0"
+authors = [
+    {name='Rahul Bhargava', email='rahul@mediacloud.org'}
 ]
-build-backend = "setuptools.build_meta"
+description='Media Cloud news article metadata extraction'
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    # for date guessing
+    "htmldate==1.8.*", "dateparser==1.2.*",
+    # for domain name and URL extraction
+    "tldextract==5.1.*",
+    "url-normalize==1.4.*",
+    "furl==2.1.*",
+    # for language detection
+    "py3langid==0.2.*",
+    # various content extractors we try to use
+    "newspaper3k==0.2.*", "goose3==3.1.*", "BeautifulSoup4==4.12.*", "readability-lxml==0.8.*",
+    "trafilatura==1.8.*", "boilerpy3==1.0.*",
+    # support
+    "requests",         # leave un-versioned so dependencies can sort of which version is best
+    "faust-cchardet==2.1.*",  # BeautifulSoup4 speedup
+    "surt==0.3.1"
+]
+
+[tool.flit.module]
+name = "mcmetadata"
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit", "flake8", "mypy", "isort", "types-urllib3", "types-requests"
+]
+test = [ "pytest", "parameterized" ]
+
+[project.urls]
+"Homepage" = "https://mediacloud.org"
+"Bug Tracker" = "https://github.com/mediacloud/meta-extractor/issues"
+"Source Code" = "https://github.com/mediacloud/meta-extractor"

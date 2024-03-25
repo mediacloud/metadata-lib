@@ -2,6 +2,7 @@ from typing import Dict, Optional, Any, Mapping
 import logging
 import datetime as dt
 import time
+import importlib.metadata
 
 from . import webpages
 from . import content
@@ -10,7 +11,8 @@ from . import titles
 from . import languages
 from . import dates
 
-__version__ = "0.12.1"
+# work around to read the version from the pyproject.toml so it is maintained in one place
+__version__ = importlib.metadata.version('mediacloud-metadata')
 
 logger = logging.getLogger(__name__)
 
