@@ -13,13 +13,13 @@ Version 1
 Version 0
 ---------
 
-* __v0.12.0__: Add new const to centrally store MC User-Agent (`mcmetadata.webpages.MEDIA_CLOUD_USER_AGENT`) 
-* __v0.11.2__: Fix title parsing and url normalization edge cases, update requirements 
-* __v0.11.1__: Add new `urls.unique_url_hash` helper to centralize logic for generating a unique hash for a URL, also 
-               returned from `extract` in case you choose to use it 
+* __v0.12.0__: Add new const to centrally store MC User-Agent (`mcmetadata.webpages.MEDIA_CLOUD_USER_AGENT`)
+* __v0.11.2__: Fix title parsing and url normalization edge cases, update requirements
+* __v0.11.1__: Add new `urls.unique_url_hash` helper to centralize logic for generating a unique hash for a URL, also
+               returned from `extract` in case you choose to use it
 * __v0.11.0__: (error release)
 * __v0.10.0__: Support defaults and overrides in `extract`, returning execution time stats, requirements updates, more
-               handling of malformed URLs 
+               handling of malformed URLs
 * __v0.9.5__: Updated requirements, update non-news site list, fix failing unit tests, tweak title parsing logic
 * __v0.9.4__: Updated requirements to use faust-cchardet for py >3.9 support
 * __v0.9.3__: Updated content extractor dependencies, added py.typing for typing support
@@ -29,14 +29,14 @@ Version 0
 * __v0.8.2__: small fix to url parsing
 * __v0.8.1__: handle IP addresses in canonical_domain helper
 * __v0.8.0__: update dependencies, fix various edge-case bugs
-* __v0.7.9__: fix `include_other_metadata` processing, upgrade underlying libraries to latest, remove leading and 
+* __v0.7.9__: fix `include_other_metadata` processing, upgrade underlying libraries to latest, remove leading and
               trailing whitespace from extracted text
 * __v0.7.8__: add optional `include_other_metadata` arg to extract method, which includes top_image and authors and
               other less validated metadata in results
 * __v0.7.7__: fix typo
 * __v0.7.6__: fix distribution packaging error
 * __v0.7.5__: add performance monitoring, handle invalid URLs, add a list of high volume non-news domains that might be
-              worth ignoring (based on high volume "noise" domains in our production database) 
+              worth ignoring (based on high volume "noise" domains in our production database)
 * __v0.7.4__: don't treat shortened URLs as homepage ones, also more aggressively strip URL query params
 * __v0.7.3__: tweak title extraction for multipart titles, add is_homepage helper boolean
 * __v0.7.2__: fix extraction argument bug introduced in last release, fix some more test cases

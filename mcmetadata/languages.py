@@ -1,7 +1,8 @@
-from typing import Optional
-import py3langid as langid
-import re
 import logging
+import re
+from typing import Optional
+
+import py3langid as langid
 import trafilatura.utils
 
 logger = logging.getLogger(__name__)

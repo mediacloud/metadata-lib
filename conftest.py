@@ -1,5 +1,6 @@
-import pytest
 from distutils.util import strtobool
+
+import pytest
 
 
 def pytest_addoption(parser):

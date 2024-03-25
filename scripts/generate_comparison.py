@@ -6,10 +6,10 @@ we are getting results we expect from the code as we evaluate different librarie
 
 import csv
 import logging
+import multiprocessing as mp
+from typing import Dict, Optional
 
 import dateparser
-from typing import Dict, Optional
-import multiprocessing as mp
 
 import mcmetadata
 

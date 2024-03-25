@@ -1,10 +1,10 @@
 import unittest
 from typing import Optional
+
 import pytest
-from . import filesafe_url
-from .. import titles
-from .. import webpages
-from . import read_fixture
+
+from .. import titles, webpages
+from . import filesafe_url, read_fixture
 
 
 @pytest.fixture

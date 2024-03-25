@@ -1,6 +1,6 @@
 import datetime as dt
-from typing import Optional
 import logging
+from typing import Optional
 
 import dateparser
 import htmldate

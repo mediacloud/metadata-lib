@@ -1,12 +1,9 @@
 import unittest
 
-from . import read_fixture
-from .. import content
-from .. import webpages
-from .. import languages
-from . import filesafe_url
-
 import pytest
+
+from .. import content, languages, webpages
+from . import filesafe_url, read_fixture
 
 
 @pytest.fixture

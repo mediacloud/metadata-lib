@@ -1,7 +1,8 @@
-import unittest
-import requests
-import pytest
 import time
+import unittest
+
+import pytest
+import requests
 
 from .. import webpages
 

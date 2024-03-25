@@ -1,15 +1,14 @@
+import time
 import unittest
 from typing import Optional
-import requests
-import lxml.html
-import time
-import pytest
-from . import filesafe_url
 
-from . import read_fixture
-from .. import content
-from .. import webpages
+import lxml.html
+import pytest
+import requests
+
+from .. import content, webpages
 from ..exceptions import BadContentError
+from . import filesafe_url, read_fixture
 
 
 @pytest.fixture

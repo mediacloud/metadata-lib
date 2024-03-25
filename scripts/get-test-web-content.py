@@ -1,7 +1,9 @@
 import os
 import re
-from surt import surt
 import time
+
+from surt import surt
+
 from mcmetadata import webpages
 
 """

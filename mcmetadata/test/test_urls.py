@@ -1,7 +1,8 @@
-import unittest
 import hashlib
-from parameterized import parameterized
 import time
+import unittest
+
+from parameterized import parameterized
 
 from .. import urls
 

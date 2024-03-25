@@ -1,12 +1,13 @@
+import hashlib
+import ipaddress
 import logging
+import pathlib
 import re
-import tldextract
 from typing import Optional
+
+import tldextract
 import url_normalize
 from furl import furl
-import ipaddress
-import pathlib
-import hashlib
 
 from .urlshortners import URL_SHORTENER_HOSTNAMES
 

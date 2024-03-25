@@ -1,13 +1,12 @@
-import unittest
 import datetime as dt
-from parameterized import parameterized
 import time
-import pytest
+import unittest
 
-from . import read_fixture
-from .. import dates
-from .. import webpages
-from . import filesafe_url
+import pytest
+from parameterized import parameterized
+
+from .. import dates, webpages
+from . import filesafe_url, read_fixture
 
 
 @pytest.fixture

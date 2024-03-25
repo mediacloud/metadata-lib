@@ -1,15 +1,10 @@
-from typing import Dict, Optional, Any, Mapping
-import logging
 import datetime as dt
-import time
 import importlib.metadata
+import logging
+import time
+from typing import Any, Dict, Mapping, Optional
 
-from . import webpages
-from . import content
-from . import urls
-from . import titles
-from . import languages
-from . import dates
+from . import content, dates, languages, titles, urls, webpages
 
 # work around to read the version from the pyproject.toml so it is maintained in one place
 __version__ = importlib.metadata.version('mediacloud-metadata')

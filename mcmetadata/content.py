@@ -1,20 +1,21 @@
+import collections
 import logging
-from abc import ABC, abstractmethod
 import re
-import dateparser
-import newspaper
-from goose3 import Goose
+from abc import ABC, abstractmethod
 from typing import Dict
-from bs4 import BeautifulSoup
-from boilerpy3 import extractors as bp3_extractors
+
+import dateparser
+import lxml.etree
+import newspaper
 import readability
 import trafilatura
-import collections
-import lxml.etree
-from lxml.html.clean import Cleaner
+from boilerpy3 import extractors as bp3_extractors
+from bs4 import BeautifulSoup
+from goose3 import Goose
 from lxml.html import fromstring, tostring
+from lxml.html.clean import Cleaner
 
-from .exceptions import UnableToExtractError, BadContentError
+from .exceptions import BadContentError, UnableToExtractError
 from .text import strip_tags
 
 logger = logging.getLogger(__name__)

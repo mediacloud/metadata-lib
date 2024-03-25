@@ -1,12 +1,12 @@
-import unittest
 import datetime as dt
 import time
+import unittest
+
 import pytest
 
 import mcmetadata
-from .. import extract
-from .. import webpages
-from .. import content
+
+from .. import content, extract, webpages
 from ..exceptions import BadContentError
 
 

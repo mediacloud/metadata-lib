@@ -4,15 +4,15 @@ Media Cloud Metadata Extractor
 🚧 _under construction_ 🚧
 
 This is a package to extract a domain, title, publication date, text, and language content from the URL or text of an
-online news story. The methods for each are extracted from the larger [Media Cloud project](https://mediacloud.org), 
-but also build on numerous 3rd party  libraries. The metadata extracted includes: 
+online news story. The methods for each are extracted from the larger [Media Cloud project](https://mediacloud.org),
+but also build on numerous 3rd party  libraries. The metadata extracted includes:
 * the original URL of publication
 * a normalized URL useful for de-duplication
 * the canonical domain published on
 * the date of publication
 * the primary language used in the article text
 * the title of the article
-* a normalized title useful for de-duplication 
+* a normalized title useful for de-duplication
 * the text content of the news article
 * the name of the library used to extract the article content
 
@@ -61,7 +61,7 @@ Distribution
 
 ### Test Cache
 
-Test are run against fixtures by default.  This can be changed with the use of '--use-cache=False' when running tests. 
+Test are run against fixtures by default.  This can be changed with the use of '--use-cache=False' when running tests.
 When adding new tests, re-run 'scripts/get-test-web-content.py'
 
 

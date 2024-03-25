@@ -1,8 +1,8 @@
-from typing import Optional
-import re
 import logging
+import re
 import string
 from html import unescape
+from typing import Optional
 
 from . import text
 
