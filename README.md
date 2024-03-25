@@ -67,6 +67,7 @@ When adding new tests, re-run 'scripts/get-test-web-content.py'
 Version History
 ---------------
 
+* __v0.12.1__: Small dependency updates
 * __v0.12.0__: Add new const to centrally store MC User-Agent (`mcmetadata.webpages.MEDIA_CLOUD_USER_AGENT`) 
 * __v0.11.2__: Fix title parsing and url normalization edge cases, update requirements 
 * __v0.11.1__: Add new `urls.unique_url_hash` helper to centralize logic for generating a unique hash for a URL, also 
