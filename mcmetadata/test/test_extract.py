@@ -113,7 +113,7 @@ class TestExtract(unittest.TestCase):
         assert results['text_extraction_method'] == content.METHOD_TRAFILATURA
         assert results['other']['raw_title'] == "India's 75th Year Of Freedom: Why Was August 15 Chosen As Independence Day?"
         assert results['other']['raw_publish_date'] == dt.datetime(2022, 8, 14, 0, 0)
-        assert results['other']['top_image_url'].startswith("https://im.indiatimes.in/content/2022/Aug/flag_62f496a5df908.jpg")
+        assert results['other']['top_image_url'].startswith("https://im.indiatimes.in/content/2022/Aug/flag_62f4964dc6314.jpg")
         assert len(results['other']['authors']) == 1
 
     def test_whitespace_removal(self):
