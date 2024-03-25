@@ -5,7 +5,7 @@ import os
 
 REQUIRED_PACKAGES = [
     # for date guessing
-    "htmldate==1.7.*", "dateparser==1.2.*",
+    "htmldate==1.8.*", "dateparser==1.2.*",
     # for domain name and URL extraction
     "tldextract==5.1.*",
     "url-normalize==1.4.*",
@@ -13,8 +13,8 @@ REQUIRED_PACKAGES = [
     # for language detection
     "py3langid==0.2.*",
     # various content extractors we try to use
-    "newspaper3k==0.2.*", "goose3==3.1.*", "BeautifulSoup4>=4.11,<4.13", "readability-lxml==0.8.*",
-    "trafilatura>=1.4,<1.7", "boilerpy3==1.0.*",
+    "newspaper3k==0.2.*", "goose3==3.1.*", "BeautifulSoup4==4.12.*", "readability-lxml==0.8.*",
+    "trafilatura==1.8.*", "boilerpy3==1.0.*",
     # support
     "requests",         # leave un-versioned so dependencies can sort of which version is best
     "faust-cchardet==2.1.*",  # BeautifulSoup4 speedup
