@@ -41,25 +41,32 @@ metadata = extract(url="https://my.awesome.news/story-path",
                    html_text="<html><head><title>my webpage ... </html>")
 ```
 
+Development
+-----------
 
-Distribution
-------------
+If you are interested in adding code to this module, first clone the GitHub repository.
 
-### Prep Release
+### Installing
+
+* `flit install`
+* `pre-commit install`
+
+### Testing
+
+`pytest`
+
+### Distributing a New Version
+
 1. Run `pytest` to make sure all the test pass
-2. Update the version number in `mcmetadata/__init__.py`
-3. Make a brief note in the version history section below about the changes
+2. Update the version number in `pyproject.toml`
+3. Make a brief note in the `CHANGELOG.md` about what changes
 4. Commit the changes
-5. Tag the commit with a semantic version number - 'v*.*.*'
+5. Tag the commit with a semantic version number - `v*.*.*`
 6. Push to repo to GitHub
+7. Run `flit build` to create an install package
+8. Run `flit publish` to upload it to PyPI
 
-### Manual Release
-
-1. Run `python setup.py sdist` to create an installation package
-2. Run `twine upload --repository-url https://test.pypi.org/legacy/ dist/*` to upload it to PyPI's test platform
-3. Run `twine upload dist/*` to upload it to PyPI
-
-### Test Cache
+#### Test Cache
 
 Test are run against fixtures by default.  This can be changed with the use of '--use-cache=False' when running tests.
 When adding new tests, re-run 'scripts/get-test-web-content.py'

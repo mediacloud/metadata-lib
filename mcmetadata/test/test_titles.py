@@ -53,7 +53,7 @@ class TestTitle(unittest.TestCase):
     def test_pt_home_in_title_word(self):
         # we try to remove "home" from titles, but "homem" is a PT word so make sure we don't remove that
         self._fetch_and_validate(
-            "https://radioalianca.com.br/plantao/homem-de-24-anos-e-morto-por-golpes-de-faca-em-concordia-na-noite-de-quarta-feira",
+            "https://web.archive.org/web/20230115021305/https://radioalianca.com.br/plantao/homem-de-24-anos-e-morto-por-golpes-de-faca-em-concordia-na-noite-de-quarta-feira",
             "Homem de 24 anos é morto por golpes de faca em Concórdia na noite de quarta-feira"
         )
 
