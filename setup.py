@@ -14,7 +14,7 @@ REQUIRED_PACKAGES = [
     "py3langid==0.2.*",
     # various content extractors we try to use
     "newspaper3k==0.2.*", "goose3==3.1.*", "BeautifulSoup4>=4.11,<4.13", "readability-lxml==0.8.*",
-    "trafilatura>=1.4,<1.7", "boilerpy3==1.0.*",
+    "trafilatura>=1.4,<1.9", "boilerpy3==1.0.*",
     # support
     "requests",         # leave un-versioned so dependencies can sort of which version is best
     "faust-cchardet==2.1.*",  # BeautifulSoup4 speedup
