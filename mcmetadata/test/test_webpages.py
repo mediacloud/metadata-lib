@@ -42,7 +42,7 @@ class TestFetch(unittest.TestCase):
     def test_bad_response(self):
         url = "https://uionline.detma.org/static/glossary.aspx?term=WHYOPTPMTTWOWAIVERRQSTS"
         try:
-            _, _ = webpages.fetch(url) # raises a 403
+            _, _ = webpages.fetch(url)  # raises a 403
             assert False
         except RuntimeError:
             assert True

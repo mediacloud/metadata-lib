@@ -135,7 +135,7 @@ class TestExtract(unittest.TestCase):
     def test_memento_without_original_url(self):
         try:
             url = "https://web.archive.org/web/20210412063445id_/https://ehp.niehs.nih.gov/action/doUpdateAlertSettings?action=addJournal&journalCode=ehp&referrer=/action/doSearch?ContribAuthorRaw=Davis%2C+Jacquelyn&ContentItemType=research-article&startPage=&ContribRaw=Martin%2C+Denny"
-            results = extract(url, include_other_metadata=True)
+            _ = extract(url, include_other_metadata=True)
             assert False
         except BadContentError:
             assert True

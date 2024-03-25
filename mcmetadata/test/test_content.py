@@ -4,8 +4,7 @@ import requests
 import lxml.html
 import time
 import pytest
-import re
-from surt import surt
+from . import filesafe_url
 
 from . import read_fixture
 from .. import content
@@ -18,14 +17,7 @@ def use_cache(pytestconfig):
     return pytestconfig.getoption('--use-cache')
 
 
-def filesafe_url(url):
-    url = re.sub('"', "", url)
-    s = surt(url) 
-    filesafe_surt = "cached-"+re.sub("\W+", "", url)
-    return filesafe_surt
-
-
-#@pytest.mark.usefixtures("use_cache")
+# @pytest.mark.usefixtures("use_cache")
 class TestContentParsers(unittest.TestCase):
 
     URL = "https://web.archive.org/web/https://www.cnn.com/2021/04/30/politics/mcconnell-1619-project-education-secretary/index.html"
@@ -39,10 +31,10 @@ class TestContentParsers(unittest.TestCase):
 
     def setUp(self) -> None:
         webpages.DEFAULT_TIMEOUT_SECS = 30  # try to avoid timeout errors
-        if(self.use_cache):
+        if self.use_cache:
             try:
                 self.html_content = read_fixture(filesafe_url(self.URL))
-            except:
+            except Exception:
                 self.html_content, _ = webpages.fetch(self.URL)
         else:
             self.html_content, self.response = webpages.fetch(self.URL)
@@ -98,12 +90,12 @@ class TestContentFromUrl(unittest.TestCase):
 
     def tearDown(self):
         time.sleep(1)  # sleep time in seconds
-    
+
     def _fetch_and_validate(self, url: str, expected_method: Optional[str]):
-        if(self.use_cache):
+        if self.use_cache:
             try:
                 html_text = read_fixture(filesafe_url(url))
-            except:
+            except Exception:
                 html_text, _ = webpages.fetch(url)
         else:
             html_text, _ = webpages.fetch(url)
@@ -124,7 +116,7 @@ class TestContentFromUrl(unittest.TestCase):
         try:
             self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
             assert False
-        except BadContentError as _:
+        except BadContentError:
             assert True
 
     def test_failing_url(self):
@@ -132,7 +124,7 @@ class TestContentFromUrl(unittest.TestCase):
         try:
             self._fetch_and_validate(url, None)
             assert False
-        except requests.exceptions.InvalidSchema as _:
+        except requests.exceptions.InvalidSchema:
             # this is an image, so it should return nothing
             assert True
 

@@ -59,5 +59,5 @@ def _from_text(content: str) -> Optional[str]:
     try:
         lang, prob = langid.classify(decoded_content)
         return lang
-    except Exception as _:
+    except Exception:
         return None

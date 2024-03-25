@@ -12,19 +12,19 @@ the tests against known cached content instead of having to query the IA everyti
 
 test_directory = "../mcmetadata/test"
 
-url_regex = "(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
+url_regex = r"(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})"
 
-test_files = [p for p in os.listdir(test_directory) if p.split(".")[-1]=="py"]
+test_files = [p for p in os.listdir(test_directory) if p.split(".")[-1] == "py"]
 
 
 all_urls = []
 for f in test_files:
-	with open(test_directory+"/"+f, "r") as file:
-		text = file.read()
-		urls = re.findall(url_regex, text)
-		for url in urls:
-			if ".jpeg" not in url:
-				all_urls.append(url[:-1])
+    with open(os.path.join(test_directory, f), "r") as file:
+        text = file.read()
+        urls = re.findall(url_regex, text)
+        for url in urls:
+            if ".jpeg" not in url:
+                all_urls.append(url[:-1])
 
 final_urls = list(set(all_urls))
 
@@ -35,29 +35,29 @@ output_directory = "../mcmetadata/test/fixtures/"
 
 for url in final_urls:
 
-	url = re.sub('"', "", url)
-	s = surt(url) 
-	filesafe_surt = "cached-"+re.sub("\W+", "", url)
+    url = re.sub('"', "", url)
+    s = surt(url)
+    filesafe_surt = "cached-" + re.sub(r"\W+", "", url)
 
-	print(f"Fetching content for {url}")
-	keep_trying = True
-	tries = 0
-	content = None
-	while keep_trying:
-		try:
-			content, _ = webpages.fetch(url)
-		except:
-			time.sleep(1)
-			tries += 1
-			if tries > 10:
-				keep_trying = False
-		else:
-			keep_trying = False
+    print(f"Fetching content for {url}")
+    keep_trying = True
+    tries = 0
+    content = None
+    while keep_trying:
+        try:
+            content, _ = webpages.fetch(url)
+        except Exception:
+            time.sleep(1)
+            tries += 1
+            if tries > 10:
+                keep_trying = False
+        else:
+            keep_trying = False
 
-	if content:
-		print(f"OK, saving: {filesafe_surt}")
-		out = open(output_directory+filesafe_surt, "w")
-		out.write(content)
-		out.close()
-	else:
-		print(f"Failed: {filesafe_surt}")
+    if content:
+        print(f"OK, saving: {filesafe_surt}")
+        out = open(output_directory + filesafe_surt, "w")
+        out.write(content)
+        out.close()
+    else:
+        print(f"Failed: {filesafe_surt}")

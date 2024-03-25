@@ -2,26 +2,17 @@ import unittest
 import datetime as dt
 from parameterized import parameterized
 import time
+import pytest
 
 from . import read_fixture
 from .. import dates
 from .. import webpages
-
-import pytest
-import re
-from surt import surt
+from . import filesafe_url
 
 
 @pytest.fixture
 def use_cache(request):
     return request.config.getoption('--use-cache')
-
-
-def filesafe_url(url):
-    url = re.sub('"', "", url)
-    s = surt(url) 
-    filesafe_surt = "cached-"+re.sub("\W+", "", url)
-    return filesafe_surt
 
 
 class TestDates(unittest.TestCase):
@@ -40,7 +31,7 @@ class TestDates(unittest.TestCase):
         if self.use_cache:
             try:
                 raw_html = read_fixture(filesafe_url(url))
-            except:
+            except Exception:
                 raw_html, _ = webpages.fetch(url, timeout=120)
         else:
             raw_html, _ = webpages.fetch(url, timeout=120)

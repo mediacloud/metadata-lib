@@ -4,22 +4,14 @@ from . import read_fixture
 from .. import content
 from .. import webpages
 from .. import languages
+from . import filesafe_url
 
 import pytest
-import re
-from surt import surt
 
 
 @pytest.fixture
 def use_cache(request):
     return request.config.getoption('--use-cache')
-
-
-def filesafe_url(url):
-    url = re.sub('"', "", url)
-    s = surt(url) 
-    filesafe_surt = "cached-"+re.sub("\W+", "", url)
-    return filesafe_surt
 
 
 class TestLanguageFromText(unittest.TestCase):
@@ -29,10 +21,10 @@ class TestLanguageFromText(unittest.TestCase):
         self.use_cache = use_cache
 
     def _fetch_and_validate(self, url: str, expected_language_code: str):
-        if(self.use_cache):
+        if self.use_cache:
             try:
                 html_text = read_fixture(filesafe_url(url))
-            except:
+            except Exception:
                 html_text, _ = webpages.fetch(url)
         else:
             html_text, _ = webpages.fetch(url)
@@ -74,16 +66,16 @@ class TestLanguageFromText(unittest.TestCase):
 
 
 class TestLanguageFromHtml(unittest.TestCase):
-    
+
     @pytest.fixture(autouse=True)
     def get_use_cache(self, use_cache):
         self.use_cache = use_cache
 
     def _fetch_and_validate(self, url: str, expected_language_code: str):
-        if(self.use_cache):
+        if self.use_cache:
             try:
                 html_text = read_fixture(filesafe_url(url))
-            except:
+            except Exception:
                 html_text, _ = webpages.fetch(url)
         else:
             html_text, _ = webpages.fetch(url)

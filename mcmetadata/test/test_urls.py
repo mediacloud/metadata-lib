@@ -35,7 +35,7 @@ class TestCanonicalDomain(unittest.TestCase):
         ("https://travel.gc.ca", "travel.gc.ca"),
         ("http://rn.gov.br/", "rn.gov.br"),
         ('http://www.ma.gov.br/', 'ma.gov.br')
-        ])
+    ])
     def test_canonical_domain(self, test_url, domain):
         assert urls.canonical_domain(test_url) == domain
 
@@ -135,13 +135,13 @@ class TestIsHomepageUrl(unittest.TestCase):
 
     def test_basic(self):
         url = "http://www.nytimes.com"
-        assert urls.is_homepage_url(url) == True
+        assert urls.is_homepage_url(url) is True
 
     def test_ending_slashes(self):
         url = "http://www.nytimes.com/"
-        assert urls.is_homepage_url(url) == True
+        assert urls.is_homepage_url(url) is True
         url = "http://www.wired.com///"
-        assert urls.is_homepage_url(url) == True
+        assert urls.is_homepage_url(url) is True
 
     def test_language_code(self):
         url = "http://www.nytimes.com/en"
@@ -164,7 +164,7 @@ class TestIsHomepageUrl(unittest.TestCase):
         assert urls.is_homepage_url(url) is False
 
     def test_whitespace(self):
-        url = ' https://www.letras.com.br/banda-n-drive/eden ' # a real URL from an RSS we fetched
+        url = ' https://www.letras.com.br/banda-n-drive/eden '  # a real URL from an RSS we fetched
         assert urls.is_homepage_url(url) is False
 
 

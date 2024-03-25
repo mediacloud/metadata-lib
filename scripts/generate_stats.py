@@ -17,7 +17,7 @@ if __name__ == "__main__":
         for r in reader:
             try:
                 mcmetadata.extract(r['url'])
-            except:
+            except Exception:
                 pass  # just skip on any failure - we just want the overall stats
     print("Stats (in elapsed seconds):")
     for s in mcmetadata.STAT_NAMES:

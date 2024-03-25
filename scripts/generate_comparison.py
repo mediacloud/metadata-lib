@@ -49,7 +49,7 @@ def generate_comparison_csv(input_file: str, parallel: bool):
         else:
             results = [_comparison_worker(r) for r in reader if r is not None]
     # write out csv for manual review
-    with open(input_file.split('.')[0]+"-comparison.csv", 'w') as outfile:
+    with open(input_file.split('.')[0] + "-comparison.csv", 'w') as outfile:
         cols = ['url', 'pub_date', 'pub_date_guess', 'pub_date_match', 'pub_date_diff',
                 'language', 'language_guess', 'language_match',
                 'title', 'title_guess', 'title_match']

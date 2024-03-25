@@ -69,7 +69,7 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
         if len(title_parts) > 2:  # there are multiple parts, could be prefix, suffice, content, or some combo
             # we see media-name suffixes a lot more than prefixes, so err on the side of removing suffix and keeping prefix
             if len(title_parts[0]) < SHORT_TITLE_THRESHOLD:
-                title = normalized_title[0: -len(title_parts[-1])-2]
+                title = normalized_title[0: -len(title_parts[-1]) - 2]
             else:
                 # but it could be multiple suffixes, so check by length
                 last_part_index = len(title_parts) - 1  # start with the last one
@@ -77,14 +77,14 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
                     last_part_index -= 1
                 if last_part_index == len(title_parts) - 1:  # err on the side of keeping just the first part
                     last_part_index = 0
-                end_str_index = sum([len(title_parts[i]) + 3 for i in range(last_part_index+1, len(title_parts))])
+                end_str_index = sum([len(title_parts[i]) + 3 for i in range(last_part_index + 1, len(title_parts))])
                 title = normalized_title[0:-end_str_index]
         elif len(title_parts) > 1:  # there is a single prefix or suffix we might want to remove
             if len(title_parts[0]) < SHORT_TITLE_THRESHOLD:  # this is probably a prefix
                 if len(title_parts[1]) < SHORT_TITLE_THRESHOLD:  # if both short, then probable a suffixed title
                     title = normalized_title[:-len(title_parts[1]) - 2:]
                 else:  # second part is long, so consider it a prefixed title
-                    title = normalized_title[len(title_parts[0])+2:]
+                    title = normalized_title[len(title_parts[0]) + 2:]
             else:  # probably one or more suffixes
                 title = title_parts[0]
 
@@ -122,7 +122,7 @@ def _normalize_text_for_comparison(title_part: str) -> str:
     new_title = title_part
     new_title = text.strip_tags(new_title)  # junk HTML
     new_title = params_pattern.sub(" ", new_title)  # URL params
-    #new_title = separator_pattern.sub(SEPARATOR_PLACEHOLDER, new_title)  # keep all separators
+    # new_title = separator_pattern.sub(SEPARATOR_PLACEHOLDER, new_title)  # keep all separators
     new_title = new_title.strip(string.punctuation)  # ditch all punctuation
     new_title = whitespace_pattern.sub(" ", new_title)  # cleanup remaining whitespace
     new_title = new_title[:MAX_TITLE_LENGTH]

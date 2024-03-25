@@ -18,18 +18,18 @@ with open(pathlib.Path(base_dir, 'data', 'domain-skip-list.txt')) as f:
 logger = logging.getLogger(__name__)
 
 blog_domain_pattern = re.compile(
-        r'\.go\.com|\.wordpress\.com|\.blogspot\.|\.livejournal\.com|\.privet\.ru|\.wikia\.com'
-        r'|\.24open\.ru|\.patch\.com|\.tumblr\.com|\.github\.io|\.typepad\.com'
-        r'|\.squarespace\.com|\.substack\.com|\.iheart\.com|\.ampproject\.org|\.mail\.ru|\.wixsite\.com'
-        r'|\.medium.com|\.free\.fr|\.list-manage\.com|\.over-blog\.com|\.weebly\.com|\.typeform\.com'
-        r'|\.nationbuilder\.com|\.tripod\.com|\.insanejournal\.com|\.cloudfront\.net|\.wpengine\.com'
-        r'|\.noblogs\.org|\.formstack\.com|\.altervista\.org|\.home\.blog|\.kinja\.com|\.sagepub\.com'
-        r'|\.ning\.com|\.hypotheses\.org|\.narod\.ru|\.submittable\.com|\.smalltownpapers\.com'
-        r'|\.herokuapp\.com|\.newsvine\.com|\.newsmemory\.com|\.beforeitsnews\.com|\.jimdo\.com'
-        r'|\.wickedlocal\.com|\.radio\.com|\.stackexchange\.com|\.buzzsprout\.com'
-        r'|\.appspot\.com|\.simplecast\.com|\.fc2\.com|\.podomatic\.com|\.azurewebsites\.|\.sharepoint\.com'
-        r'|\.windows\.net|\.wix\.com|\.googleblog\.com|\.hubpages\.com|\.gitlab\.io|\.blogs\.com'
-        r'|\.shinyapps\.io', re.I)
+    r'\.go\.com|\.wordpress\.com|\.blogspot\.|\.livejournal\.com|\.privet\.ru|\.wikia\.com'
+    r'|\.24open\.ru|\.patch\.com|\.tumblr\.com|\.github\.io|\.typepad\.com'
+    r'|\.squarespace\.com|\.substack\.com|\.iheart\.com|\.ampproject\.org|\.mail\.ru|\.wixsite\.com'
+    r'|\.medium.com|\.free\.fr|\.list-manage\.com|\.over-blog\.com|\.weebly\.com|\.typeform\.com'
+    r'|\.nationbuilder\.com|\.tripod\.com|\.insanejournal\.com|\.cloudfront\.net|\.wpengine\.com'
+    r'|\.noblogs\.org|\.formstack\.com|\.altervista\.org|\.home\.blog|\.kinja\.com|\.sagepub\.com'
+    r'|\.ning\.com|\.hypotheses\.org|\.narod\.ru|\.submittable\.com|\.smalltownpapers\.com'
+    r'|\.herokuapp\.com|\.newsvine\.com|\.newsmemory\.com|\.beforeitsnews\.com|\.jimdo\.com'
+    r'|\.wickedlocal\.com|\.radio\.com|\.stackexchange\.com|\.buzzsprout\.com'
+    r'|\.appspot\.com|\.simplecast\.com|\.fc2\.com|\.podomatic\.com|\.azurewebsites\.|\.sharepoint\.com'
+    r'|\.windows\.net|\.wix\.com|\.googleblog\.com|\.hubpages\.com|\.gitlab\.io|\.blogs\.com'
+    r'|\.shinyapps\.io', re.I)
 
 
 def _is_suffix_only_parsed_url(parsed_url) -> bool:
@@ -109,7 +109,7 @@ def _fix_common_url_mistakes(url: str) -> Optional[str]:
     url = bad_slashes_url_pattern.sub(r'/', url)
     url = re.sub(missing_port_url_pattern, r"\1\2", url)
     url = missing_domain_slash_url_pattern.sub(r"\1/?", url)
-    url = spaces_url_pattern.sub( r'%20', url)
+    url = spaces_url_pattern.sub(r'%20', url)
     return url
 
 
@@ -162,11 +162,11 @@ def _remove_query_params(url: str) -> str:
     ]
     if 'facebook.com' in uri.host.lower():
         # Additional parameters specifically for the facebook.com host
-        parameters_to_remove += [ 'ref', 'fref', 'hc_location' ]
+        parameters_to_remove += ['ref', 'fref', 'hc_location']
     if 'nytimes.com' in uri.host.lower():
         # Additional parameters specifically for the nytimes.com host
         parameters_to_remove += ['emc', 'partner', '_r', 'hp', 'inline', 'smid', 'WT.z_sma', 'bicmp', 'bicmlukp',
-            'bicmst', 'bicmet', 'abt', 'abg']
+                                 'bicmst', 'bicmet', 'abt', 'abg']
     if 'livejournal.com' in uri.host.lower():
         # Additional parameters specifically for the livejournal.com host
         parameters_to_remove += ['thread', 'nojs']
@@ -290,7 +290,7 @@ HOMEPAGE_URL_PATH_REGEXES = [
 
 def is_homepage_url(raw_url: str) -> bool:
     """Returns true if URL is a homepage-like URL (ie. not an article)."""
-    url = raw_url.strip() # remove whitespace
+    url = raw_url.strip()  # remove whitespace
     if is_shortened_url(url):  # if it is shortened than it should get a free pass becasue we have to resolve it later
         return False
     uri = furl(url)

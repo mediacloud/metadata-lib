@@ -94,7 +94,7 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
     # content
     t1 = time.monotonic()
     if 'text_content' in overrides:
-        article = dict(extraction_method = content.METHOD_OVERRIDEN,
+        article = dict(extraction_method=content.METHOD_OVERRIDEN,
                        text=overrides['text_content'])
     else:
         article = content.from_html(final_url, raw_html, include_other_metadata)

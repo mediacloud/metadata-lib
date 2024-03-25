@@ -13,6 +13,6 @@ class TestFeedNormalization(unittest.TestCase):
         ('http://aaA.bbB:123/ccc?c=3&b=2&a=1#Z', 'http://aaa.bbb:123/ccc?a=1&b=2&c=3#z'),
         ('http://peoplesdailyng.com/feed/', 'http://peoplesdailyng.com/feed'),
         ('https://www.peoplesdailyng.com/feed', 'http://peoplesdailyng.com/feed'),
-        ])
+    ])
     def test_normalize(self, test_url, normalized_url):
         assert feeds.normalize_url(test_url) == normalized_url

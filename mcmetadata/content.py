@@ -56,7 +56,7 @@ def from_html(url: str, html_text: str, include_metadata: bool = False) -> Dict:
     """
     # now try each extractor against the same HTML
     for extractor_info in extractors:
-        
+
         try:
             # logger.debug("Trying {}".format(extractor_info['method']))
             extractor = extractor_info['instance']
@@ -67,8 +67,7 @@ def from_html(url: str, html_text: str, include_metadata: bool = False) -> Dict:
                 return extractor.content
         except BadContentError as e:
             raise e
-        except Exception as e:
-
+        except Exception:
             # if the extractor fails for any reason, just continue on to the next one
             pass
     method_success_stats[METHOD_FAILED] += 1  # track how many failures we've had too
@@ -229,23 +228,22 @@ class LxmlExtractor(AbstractExtractor):
     """
     An inefficient fallback extractor that should work in all contexts
     """
-    
-    def extract(self, url: str, html_text: str, include_metadata: bool = False):
-        cleaner = Cleaner(scripts=True, javascript=True, 
-                comments=True, style=True, links=True, meta=True,
-                add_nofollow=False, page_structure=True, 
-                processing_instructions=True, embedded=True,
-                frames=True, forms=True, annoying_tags=True, 
-                allow_tags=[None],safe_attrs_only=False)
 
+    def extract(self, url: str, html_text: str, include_metadata: bool = False):
+        cleaner = Cleaner(scripts=True, javascript=True,
+                          comments=True, style=True, links=True, meta=True,
+                          add_nofollow=False, page_structure=True,
+                          processing_instructions=True, embedded=True,
+                          frames=True, forms=True, annoying_tags=True,
+                          allow_tags=[None], safe_attrs_only=False)
 
         parsed = lxml.etree.HTML(html_text)
-        #This ensures that the etree is cast correctly-
-        #It seems like pages with multiple head nodes sometimes confuse
-        #the parser without this step
+        # This ensures that the etree is cast correctly-
+        # It seems like pages with multiple head nodes sometimes confuse
+        # the parser without this step
         circular = fromstring(tostring(parsed))
         content_string = tostring(cleaner.clean_html(circular))
-        
+
         self.content = {
             "url": url,
             'text': content_string,
@@ -255,8 +253,6 @@ class LxmlExtractor(AbstractExtractor):
             'authors': None,
             'extraction_method': METHOD_LXML,
         }
-        
-        
 
 
 # based by findings from trafilatura paper, but customized to performance on EN and ES sources (see tests)
