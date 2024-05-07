@@ -4,6 +4,10 @@ Version History
 Version 1
 ---------
 
+
+### V1.0.1
+* version bump to test automatic releases
+
 ### v1.0.0
 * small dependency updates
 * changed version management system
