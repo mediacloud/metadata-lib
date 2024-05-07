@@ -160,7 +160,7 @@ class TrafilaturaExtractor(AbstractExtractor):
 
     def extract(self, url: str, html_text: str, include_metadata: bool = False):
         results = trafilatura.bare_extraction(html_text, only_with_metadata=include_metadata, url=url,
-                                              include_images=include_metadata)
+                                              include_images=include_metadata, favor_precision=True)
         image_urls = []
         if include_metadata:
             # pull out the images embedded in the markdown

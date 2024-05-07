@@ -182,6 +182,21 @@ class TestContentFromUrl(unittest.TestCase):
         except BadContentError:
             assert True
 
+    def test_no_related_links_1(self):
+        url = 'https://web.archive.org/web/20240507150742/https://www.ibtimes.co.uk/falling-inflation-shifts-focus-when-ecb-could-cut-rates-1722106'
+        results = self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
+        closing_str = 'Copyright AFP 2023. All rights reserved.'
+        # tailing links that shouldn't be included
+        copyright_index = results['text'].index('Copyright AFP 2023. All rights reserved.')
+        trailing_content = results['text'][copyright_index + len(closing_str):]
+        assert len(trailing_content) < 20
+
+    def test_no_related_links_3(self):
+        url = 'https://web.archive.org/web/20240507151403/https://www.bfmtv.com/cote-d-azur/nice-25-personnes-expulsees-lors-d-operations-anti-squat-menees-dans-le-quartier-des-liserons_AN-202312150639.html'
+        results = self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
+        most_read_header = "Les plus lus"  # visual sidebar content of most read articles
+        assert most_read_header not in results['text']
+
 
 if __name__ == "__main__":
     unittest.main()
