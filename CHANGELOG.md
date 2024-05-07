@@ -4,6 +4,8 @@ Version History
 Version 1
 ---------
 
+### V1.0.2
+* version bump to test automatic releases
 
 ### V1.0.1
 * version bump to test automatic releases
