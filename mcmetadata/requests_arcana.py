@@ -15,7 +15,16 @@ sites will talk to you!
 
 YOU HAVE BEEN WARNED!!!
 
-In a file of it's own to hide the nastiness and fragility.
+Admissions:
+
+In this library so Media Cloud didn't need to create another
+library/module.
+
+Was written/cribbed for the mediacloud specific use case,
+and does not provide the fullest possible flexibiliy
+
+In a file of it's own to hide the nastiness, fragility,
+and the possibility that it's not suitable for general use!
 """
 
 import logging
@@ -36,6 +45,11 @@ class CustomHttpAdapter(requests.adapters.HTTPAdapter):
 
     def __init__(self, ssl_context: ssl.SSLContext):
         self._ssl_context = ssl_context
+
+        # NOTE! feed_seeker creates CustomHttpAdapters with alternate
+        # retry settings (halves retry attempts, and enables backoff).
+        # This may need (re)visiting to harmonize behavior across
+        # all of Media Cloud fetching!
         super().__init__()      # calls init_poolmanager
 
     def init_poolmanager(self, connections, maxsize, block=requests.adapters.DEFAULT_POOLBLOCK, **pool_kwargs) -> None:
