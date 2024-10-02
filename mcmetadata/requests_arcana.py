@@ -114,6 +114,7 @@ def insecure_requests_session(user_agent: str) -> requests.Session:
 
     session = requests.session()
     session.mount("https://", CustomHttpAdapter(ctx))
+    session.mount("http://", CustomHttpAdapter(ctx))  # for retries
 
     # Overwriting entire headers dict to get as close as possible to
     # Scrapy (only Host is out of place).  Both "Connection: close" and
