@@ -148,6 +148,7 @@ def log_http_requests() -> None:
 
     http.client.HTTPConnection.send = new_send  # type: ignore[method-assign]
 
+
 if __name__ == "__main__":
     # run in mcmetadata (no venv required)
     from webpages import MEDIA_CLOUD_USER_AGENT
