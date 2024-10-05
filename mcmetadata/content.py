@@ -29,7 +29,6 @@ everything_cleaner = Cleaner(scripts=True, javascript=True, comments=True, style
                              safe_attrs_only=False)
 readability.readability.html_cleaner = everything_cleaner
 
-
 METHOD_NEWSPAPER_3k = 'newspaper3k'
 METHOD_GOOSE_3 = 'goose3'
 METHOD_BEAUTIFUL_SOUP_4 = 'beautifulsoup4'
@@ -109,6 +108,7 @@ class Newspaper3kExtractor(AbstractExtractor):
             'url': url,
             'text': doc.text,
             'title': doc.title,
+            'canonical_url': None,
             'potential_publish_date': doc.publish_date,
             'top_image_url': doc.top_image,
             'authors': doc.authors,
@@ -125,6 +125,7 @@ class GooseExtractor(AbstractExtractor):
             'url': url,
             'text': g3_article.cleaned_text,
             'title': g3_article.title,
+            'canonical_url': None,
             'potential_publish_date': g3_article.publish_date,
             'top_image_url': g3_article.top_image.src if g3_article.top_image else None,
             'authors': g3_article.authors,
@@ -142,6 +143,7 @@ class BoilerPipe3Extractor(AbstractExtractor):
                 'url': url,
                 'text': bp_doc.content,
                 'title': bp_doc.title,
+                'canonical_url': None,
                 'potential_publish_date': None,
                 'top_image_url': None,
                 'authors': None,
@@ -174,6 +176,7 @@ class TrafilaturaExtractor(AbstractExtractor):
             'url': url,
             'text': text,
             'title': results['title'],
+            'canonical_url': results['url'],
             'potential_publish_date': dateparser.parse(results['date']),
             'top_image_url': image_urls[0] if len(image_urls) > 0 else None,
             'authors': results['author'].split(',') if results['author'] else None,
@@ -190,6 +193,7 @@ class ReadabilityExtractor(AbstractExtractor):
                 'url': url,
                 'text': strip_tags(doc.summary()),  # remove any tags that readability leaves in place (links)
                 'title': doc.title(),
+                'canonical_url': None,
                 'potential_publish_date': None,
                 'top_image_url': None,
                 'authors': None,
@@ -201,7 +205,6 @@ class ReadabilityExtractor(AbstractExtractor):
 
 
 class RawHtmlExtractor(AbstractExtractor):
-
     REMOVE_LIST = {'[document]', 'noscript', 'header', 'html', 'meta', 'head', 'input', 'script', 'style'}
 
     def __init__(self):
@@ -214,10 +217,12 @@ class RawHtmlExtractor(AbstractExtractor):
         for t in text:
             if t.parent.name not in self.REMOVE_LIST:
                 output += '{} '.format(t)
+        canonical_url = soup.find('link', rel='canonical')['href'] if soup.find('link', rel='canonical') else None
         self.content = {
             'url': url,
             'text': output,
             'title': None,
+            'canonical_url': canonical_url,
             'potential_publish_date': None,
             'top_image_url': None,
             'authors': None,
@@ -249,6 +254,7 @@ class LxmlExtractor(AbstractExtractor):
             "url": url,
             'text': content_string,
             'title': None,
+            'canonical_url': None,
             'potential_publish_date': None,
             'top_image_url': None,
             'authors': None,

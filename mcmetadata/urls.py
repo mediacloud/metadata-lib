@@ -40,7 +40,7 @@ def _is_suffix_only_parsed_url(parsed_url) -> bool:
 def canonical_domain(raw_url: str) -> str:
     """
     Return a useful canonical domain name given a url. In general this is the logical unique part of the domain.
-    However, to support news-based media research, this takes into account a list of exceptinos where this isn't the
+    However, to support news-based media research, this takes into account a list of exceptions where this isn't the
     case (wordpress.com, substack.com, etc). This also handles Google AMP domains appropriately.
     Created by James O'Toole with input from Emily Ndulue, Linas Valiukas, Anissa Piere, and Fernando Bermejo.
     :param raw_url: the full URL to extract a unique domain from
@@ -292,7 +292,7 @@ HOMEPAGE_URL_PATH_REGEXES = [
 def is_homepage_url(raw_url: str) -> bool:
     """Returns true if URL is a homepage-like URL (ie. not an article)."""
     url = raw_url.strip()  # remove whitespace
-    if is_shortened_url(url):  # if it is shortened than it should get a free pass becasue we have to resolve it later
+    if is_shortened_url(url):  # if it is shortened than it should get a free pass because we have to resolve it later
         return False
     uri = furl(url)
     for homepage_url_path_regex in HOMEPAGE_URL_PATH_REGEXES:
