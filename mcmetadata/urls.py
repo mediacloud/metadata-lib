@@ -12,9 +12,12 @@ from furl import furl
 from .urlshortners import URL_SHORTENER_HOSTNAMES
 
 # a list of high-volume domains that Media Cloud has historically ingested from, but are not news domains
+# NOTE! `is_non_news_domain` function catches FQDNs that are (in) subdomains, and should be preferred.
+# Perhaps mark NON_NEWS_DOMAINS as deprecated (see https://peps.python.org/pep-0562/)??
 base_dir = pathlib.Path(__file__).parent.resolve()
 with open(pathlib.Path(base_dir, 'data', 'domain-skip-list.txt')) as f:
-    NON_NEWS_DOMAINS = [line.strip() for line in f.readlines() if len(line.strip()) > 0]
+    # guarantee lower case for is_non_news_domain:
+    NON_NEWS_DOMAINS = [line.strip().lower() for line in f.readlines() if len(line.strip()) > 0]
 
 logger = logging.getLogger(__name__)
 
@@ -331,3 +334,22 @@ def unique_url_hash(url: str) -> str:
     normalized_url = normalize_url(url)
     hashed_url = hashlib.sha256(normalized_url.encode("utf-8")).hexdigest()
     return hashed_url
+
+
+def is_non_news_domain(fqdn: str) -> bool:
+    """
+    Return True if fully-qualified domain name `fqdn` appears in
+    NON_NEWS_DOMAINS, or contains a suffix in NON_NEWS_DOMAINS.
+
+    This should be the preferred way to check for non-news sites
+    (originally created in story-indexer, moved here for use by
+    rss-fetcher)
+    """
+    # could be written as "any" on a comprehension:
+    # looks like that's 15% slower in Python 3.10,
+    # and harder to for me to... comprehend! -phil
+    fqdn = fqdn.lower()
+    for nnd in NON_NEWS_DOMAINS:
+        if fqdn == nnd or fqdn.endswith("." + nnd):
+            return True
+    return False
