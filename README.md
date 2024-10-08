@@ -1,11 +1,10 @@
 Media Cloud Metadata Extractor
 ==============================
 
-🚧 _under construction_ 🚧
-
 This is a package to extract a domain, title, publication date, text, and language content from the URL or text of an
 online news story. The methods for each are extracted from the larger [Media Cloud project](https://mediacloud.org),
-but also build on numerous 3rd party  libraries. The metadata extracted includes:
+but also build on numerous 3rd party libraries. The metadata extracted includes:
+
 * the original URL of publication
 * a normalized URL useful for de-duplication
 * the canonical domain published on
@@ -15,6 +14,8 @@ but also build on numerous 3rd party  libraries. The metadata extracted includes
 * a normalized title useful for de-duplication
 * the text content of the news article
 * the name of the library used to extract the article content
+
+Other often-reused methods and configuration related to the mediacloud service also live in this package. 
 
 
 Installation
@@ -63,8 +64,6 @@ If you are interested in adding code to this module, first clone the GitHub repo
 4. Commit the changes
 5. Tag the commit with a semantic version number - `v*.*.*`
 6. Push to repo to GitHub
-7. Run `flit build` to create an install package
-8. Run `flit publish` to upload it to PyPI
 
 #### Test Cache
 
