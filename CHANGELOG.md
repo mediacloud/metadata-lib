@@ -4,6 +4,9 @@ Version History
 Version 1
 ---------
 
+### V1.1.0
+* add requests_arcana.py for use across Media Cloud stack
+
 ### V1.0.2
 * version bump to test automatic releases
 
