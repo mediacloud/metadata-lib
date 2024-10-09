@@ -145,6 +145,7 @@ class TestExtract(unittest.TestCase):
         overrides = dict(
             text_content="This is some text",
             article_title="This is a title",
+            canonical_url="https://www.example.com/",
             language="pt",
             publication_date=dt.date(2023, 1, 1)
         )
@@ -160,6 +161,7 @@ class TestExtract(unittest.TestCase):
         assert results['article_title'] == overrides['article_title']
         assert results['language'] == overrides['language']
         assert results['publication_date'] == overrides['publication_date']
+        assert results['canonical_url'] == overrides['canonical_url']
 
     def test_default_title(self):
         # throws too short error if no default
@@ -180,6 +182,17 @@ class TestExtract(unittest.TestCase):
         defaults = dict(publication_date=dt.datetime(2023, 2, 1))
         results = extract("https://www.example.com", html_text=html, defaults=defaults)
         assert results['publication_date'] == defaults['publication_date']
+
+    def test_canonical_url(self):
+        canonical_url = 'https://www.example.com/sample-page'
+        # extract from page with <Link> as per: https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls
+        html = f"<html><head><link rel='canonical' href='{canonical_url}' /></head><body><h1>Sample Content</h1><p>sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf</p><p>Copyright 2024</p></body></html>"
+        results = extract("https://www.example.com", html_text=html)
+        assert results['canonical_url'] == canonical_url
+        # extract from page with <Meta> as per: https://developers.facebook.com/docs/sharing/webmasters/getting-started/versioned-link/
+        html = f"<html><head><meta property='og:url' content='{canonical_url}' /></head><body><h1>Sample Content</h1><p>sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf sdf asdf asfewaf lkjl;kjf ;iasjfoijfésadsf</p><p>Copyright 2024</p></body></html>"
+        results = extract("https://www.example.com", html_text=html)
+        assert results['canonical_url'] == canonical_url
 
 
 class TestStats(unittest.TestCase):

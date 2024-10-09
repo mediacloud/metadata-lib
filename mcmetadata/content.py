@@ -108,7 +108,7 @@ class Newspaper3kExtractor(AbstractExtractor):
             'url': url,
             'text': doc.text,
             'title': doc.title,
-            'canonical_url': None,
+            'canonical_url': doc.canonical_link,
             'potential_publish_date': doc.publish_date,
             'top_image_url': doc.top_image,
             'authors': doc.authors,
@@ -125,7 +125,7 @@ class GooseExtractor(AbstractExtractor):
             'url': url,
             'text': g3_article.cleaned_text,
             'title': g3_article.title,
-            'canonical_url': None,
+            'canonical_url': g3_article.canonical_link,
             'potential_publish_date': g3_article.publish_date,
             'top_image_url': g3_article.top_image.src if g3_article.top_image else None,
             'authors': g3_article.authors,
@@ -154,7 +154,7 @@ class BoilerPipe3Extractor(AbstractExtractor):
             pass
 
 
-# Trafilatura outputs images in teh raw text in Markdown format
+# Trafilatura outputs images in the raw text in Markdown format
 markdown_img_path_pattern = re.compile(r"!\[[^\]]*\]\((.*?)\)")
 
 
@@ -217,12 +217,18 @@ class RawHtmlExtractor(AbstractExtractor):
         for t in text:
             if t.parent.name not in self.REMOVE_LIST:
                 output += '{} '.format(t)
-        canonical_url = soup.find('link', rel='canonical')['href'] if soup.find('link', rel='canonical') else None
+
+        can_url = None
+        if can_link := soup.find("link", rel="canonical"):
+            can_url = can_link.get("href")
+        elif can_link := soup.find('meta', attrs={'property': 'og:url'}):
+            can_url = can_link.get("content")
+
         self.content = {
             'url': url,
             'text': output,
             'title': None,
-            'canonical_url': canonical_url,
+            'canonical_url': can_url,
             'potential_publish_date': None,
             'top_image_url': None,
             'authors': None,
@@ -250,11 +256,17 @@ class LxmlExtractor(AbstractExtractor):
         circular = fromstring(tostring(parsed))
         content_string = tostring(cleaner.clean_html(circular))
 
+        can_url = None
+        if can_link := parsed.xpath("//link[@rel='canonical']/@href"):
+            can_url = can_link[0]
+        elif can_link := parsed.xpath("//meta[@property='og:url']/@content"):
+            can_url = can_link[0]
+
         self.content = {
             "url": url,
             'text': content_string,
             'title': None,
-            'canonical_url': None,
+            'canonical_url': can_url,
             'potential_publish_date': None,
             'top_image_url': None,
             'authors': None,
