@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 # Publication dates more than this many days in the future will be ignored (because they are probably bad guesses)
 MAX_FUTURE_PUB_DATE = 90
 
-STAT_NAMES = ['total', 'fetch', 'url', 'pub_date', 'content', 'title', 'language', 'canonical_url']
+STAT_NAMES = ['total', 'fetch', 'url', 'pub_date', 'content', 'title', 'language']
 stats = {s: 0 for s in STAT_NAMES}
 
 
@@ -120,13 +120,10 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
     stats_accumulator['language'] += language_duration
 
     # canonical url
-    t1 = time.monotonic()
     if 'canonical_url' in overrides:
         canonical_url = overrides['canonical_url']
     else:
         canonical_url = article.get('canonical_url')
-    canonical_url_duration = time.monotonic() - t1
-    stats_accumulator['canonical_url'] += canonical_url_duration
 
     total_duration = time.monotonic() - t0
     stats_accumulator['total'] += total_duration
