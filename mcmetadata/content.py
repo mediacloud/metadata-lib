@@ -176,7 +176,7 @@ class TrafilaturaExtractor(AbstractExtractor):
             'url': url,
             'text': text,
             'title': results['title'],
-            'canonical_url': results['url'],
+            'canonical_url': results['url'],  # Warning: This will not work with Trafilatura v1.11.* and later
             'potential_publish_date': dateparser.parse(results['date']),
             'top_image_url': image_urls[0] if len(image_urls) > 0 else None,
             'authors': results['author'].split(',') if results['author'] else None,
