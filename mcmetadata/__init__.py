@@ -119,6 +119,12 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
     language_duration = time.monotonic() - t1
     stats_accumulator['language'] += language_duration
 
+    # canonical url
+    if 'canonical_url' in overrides:
+        canonical_url = overrides['canonical_url']
+    else:
+        canonical_url = article.get('canonical_url')
+
     total_duration = time.monotonic() - t0
     stats_accumulator['total'] += total_duration
 
@@ -128,6 +134,7 @@ def extract(url: str, html_text: Optional[str] = None, include_other_metadata: O
         normalized_url=normalized_url,
         unique_url_hash=urls.unique_url_hash(final_url),
         canonical_domain=canonical_domain,
+        canonical_url=canonical_url,
         publication_date=pub_date,
         language=full_language[:2] if full_language else full_language,  # keep this as a two-letter code, like "en"
         full_language=full_language,  # could be a full region language code, like "en-AU"
