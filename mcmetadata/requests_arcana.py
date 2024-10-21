@@ -50,9 +50,15 @@ class CustomHttpAdapter(requests.adapters.HTTPAdapter):
         # retry settings (halves retry attempts, and enables backoff).
         # This may need (re)visiting to harmonize behavior across
         # all of Media Cloud fetching!
-        super().__init__()      # calls init_poolmanager
+        super().__init__()  # calls init_poolmanager
 
-    def init_poolmanager(self, connections, maxsize, block=requests.adapters.DEFAULT_POOLBLOCK, **pool_kwargs) -> None:
+    def init_poolmanager(
+        self,
+        connections,
+        maxsize,
+        block=requests.adapters.DEFAULT_POOLBLOCK,
+        **pool_kwargs,
+    ) -> None:
         self.poolmanager = urllib3.poolmanager.PoolManager(
             num_pools=connections,
             maxsize=maxsize,
@@ -120,12 +126,14 @@ def insecure_requests_session(user_agent: str) -> requests.Session:
     # Scrapy (only Host is out of place).  Both "Connection: close" and
     # "Connection: keep-alive" cause NPR Akamai https connections to hang!!
     # (http connections seem to hang regardless)
-    session.headers = CaseInsensitiveDict({
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9",
-        "Accept-Language": "en",
-        "User-Agent": user_agent,
-        "Accept-Encoding": "gzip, deflate",
-    })
+    session.headers = CaseInsensitiveDict(
+        {
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9",
+            "Accept-Language": "en",
+            "User-Agent": user_agent,
+            "Accept-Encoding": "gzip, deflate",
+        }
+    )
 
     return session
 

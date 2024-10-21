@@ -1,4 +1,3 @@
-
 class UnableToExtractError(RuntimeError):
     """
     Thrown when none of the content extractors worked on a given URL
@@ -12,6 +11,7 @@ class UnableToExtractError(RuntimeError):
 
 class UnknownLanguageException(Exception):
     """Raised when the input language is invalid"""
+
     pass
 
 
@@ -19,4 +19,5 @@ class BadContentError(RuntimeError):
     """
     Thrown when the content is not suitable for parsing, ie: too short
     """
+
     pass

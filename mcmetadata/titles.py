@@ -11,21 +11,27 @@ logger = logging.getLogger(__name__)
 SHORT_TITLE_THRESHOLD = 20
 
 title_meta_pattern = "(?:og:title|hdl|twitter:title|dc.title|dcterms.title|title)"
-meta_tag_pattern_1 = re.compile(r"<meta[^>]*(?:name|property)=.%s.[^>]* content=\"([^\"]+)\"" % title_meta_pattern,
-                                re.S | re.I)
-meta_tag_pattern_2 = re.compile(r"<meta[^>]*(?:name|property)=.%s.[^>]* content=\'([^\']+)\'" % title_meta_pattern,
-                                re.S | re.I)
+meta_tag_pattern_1 = re.compile(
+    r"<meta[^>]*(?:name|property)=.%s.[^>]* content=\"([^\"]+)\"" % title_meta_pattern,
+    re.S | re.I,
+)
+meta_tag_pattern_2 = re.compile(
+    r"<meta[^>]*(?:name|property)=.%s.[^>]* content=\'([^\']+)\'" % title_meta_pattern,
+    re.S | re.I,
+)
 
 title_tag_pattern = re.compile(r"<title(?: [^>]*)?>(.*?)</title>", re.S | re.I)
 
 h1_tag_pattern = re.compile(r"<h1(?: [^>]*)?>(.*?)</h1>", re.S | re.I)
 
-whitespace_pattern = re.compile(r'\s+')
+whitespace_pattern = re.compile(r"\s+")
 
-home_pattern = re.compile(r'^\W+home\W+', re.I)
+home_pattern = re.compile(r"^\W+home\W+", re.I)
 
 
-def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 0) -> Optional[str]:
+def from_html(
+    html_text: str, fallback_title: str = None, trim_to_length: int = 0
+) -> Optional[str]:
     """
     Parse the content for tags that might indicate the story's title. Tuned for online news webpages.
     src: https://github.com/mediacloud/backend/blob/master/apps/common/src/python/mediawords/util/parse_html.py#L160
@@ -39,7 +45,9 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
     # looks for meta tag titles first
     match = meta_tag_pattern_1.search(html_text)
     title = match.group(1) if match else None
-    if (title is None) or (len(title) < SHORT_TITLE_THRESHOLD):  # check for same pattern in single quotes
+    if (title is None) or (
+        len(title) < SHORT_TITLE_THRESHOLD
+    ):  # check for same pattern in single quotes
         match = meta_tag_pattern_2.search(html_text)
         title = match.group(1) if match else None
 
@@ -53,12 +61,12 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
         title = text.strip_tags(title)
         title = unescape(title)
         title = title.strip()
-        title = whitespace_pattern.sub(' ', title)
+        title = whitespace_pattern.sub(" ", title)
         # Moved from _get_medium_title_from_response()
-        title = home_pattern.sub('', title)
+        title = home_pattern.sub("", title)
 
     # if we didn't find anything, fall back on what the upstream code might have found as a candidate
-    if title is None or title == '':
+    if title is None or title == "":
         title = fallback_title
 
     if (title is not None) and len(title) > 0:
@@ -66,25 +74,38 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
         normalized_title = _normalize_text_for_comparison(title)
         title_parts = separator_pattern.split(normalized_title)
         # title_parts = normalized_title.split(SEPARATOR_PLACEHOLDER)
-        if len(title_parts) > 2:  # there are multiple parts, could be prefix, suffice, content, or some combo
+        if (
+            len(title_parts) > 2
+        ):  # there are multiple parts, could be prefix, suffice, content, or some combo
             # we see media-name suffixes a lot more than prefixes, so err on the side of removing suffix and keeping prefix
             if len(title_parts[0]) < SHORT_TITLE_THRESHOLD:
-                title = normalized_title[0: -len(title_parts[-1]) - 2]
+                title = normalized_title[0 : -len(title_parts[-1]) - 2]
             else:
                 # but it could be multiple suffixes, so check by length
                 last_part_index = len(title_parts) - 1  # start with the last one
                 while len(title_parts[last_part_index]) < SHORT_TITLE_THRESHOLD:
                     last_part_index -= 1
-                if last_part_index == len(title_parts) - 1:  # err on the side of keeping just the first part
+                if (
+                    last_part_index == len(title_parts) - 1
+                ):  # err on the side of keeping just the first part
                     last_part_index = 0
-                end_str_index = sum([len(title_parts[i]) + 3 for i in range(last_part_index + 1, len(title_parts))])
+                end_str_index = sum(
+                    [
+                        len(title_parts[i]) + 3
+                        for i in range(last_part_index + 1, len(title_parts))
+                    ]
+                )
                 title = normalized_title[0:-end_str_index]
-        elif len(title_parts) > 1:  # there is a single prefix or suffix we might want to remove
+        elif (
+            len(title_parts) > 1
+        ):  # there is a single prefix or suffix we might want to remove
             if len(title_parts[0]) < SHORT_TITLE_THRESHOLD:  # this is probably a prefix
-                if len(title_parts[1]) < SHORT_TITLE_THRESHOLD:  # if both short, then probable a suffixed title
-                    title = normalized_title[:-len(title_parts[1]) - 2:]
+                if (
+                    len(title_parts[1]) < SHORT_TITLE_THRESHOLD
+                ):  # if both short, then probable a suffixed title
+                    title = normalized_title[: -len(title_parts[1]) - 2 :]
                 else:  # second part is long, so consider it a prefixed title
-                    title = normalized_title[len(title_parts[0]) + 2:]
+                    title = normalized_title[len(title_parts[0]) + 2 :]
             else:  # probably one or more suffixes
                 title = title_parts[0]
 
@@ -92,7 +113,11 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
     match = h1_tag_pattern.search(html_text)
     if match and len(match.groups()) == 1:
         h1_title = unescape(text.strip_tags(match.group(1))).strip()
-        if (not title) or (len(h1_title) > SHORT_TITLE_THRESHOLD) and (h1_title in title.strip()):
+        if (
+            (not title)
+            or (len(h1_title) > SHORT_TITLE_THRESHOLD)
+            and (h1_title in title.strip())
+        ):
             title = h1_title
 
     # optionally trim to a max length
@@ -103,8 +128,8 @@ def from_html(html_text: str, fallback_title: str = None, trim_to_length: int = 
     return title.strip() if title else None
 
 
-params_pattern = re.compile(r'\&#?[a-z0-9]*', re.I)
-separator_pattern = re.compile(r' [:\|-] ')
+params_pattern = re.compile(r"\&#?[a-z0-9]*", re.I)
+separator_pattern = re.compile(r" [:\|-] ")
 MAX_TITLE_LENGTH = 1024
 SEPARATOR_PLACEHOLDER = "| "
 
