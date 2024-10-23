@@ -12,17 +12,19 @@ logger = logging.getLogger(__file__)
 
 
 if __name__ == "__main__":
-    with open('random-stories-small.csv') as infile:
+    with open("random-stories-small.csv") as infile:
         reader = csv.DictReader(infile)
         for r in reader:
             try:
-                mcmetadata.extract(r['url'])
+                mcmetadata.extract(r["url"])
             except Exception:
                 pass  # just skip on any failure - we just want the overall stats
     print("Stats (in elapsed seconds):")
     for s in mcmetadata.STAT_NAMES:
-        print("  {}: {} ({:.3%})".format(
-            s,
-            mcmetadata.stats.get(s),
-            mcmetadata.stats.get(s) / mcmetadata.stats.get('total')
-        ))
+        print(
+            "  {}: {} ({:.3%})".format(
+                s,
+                mcmetadata.stats.get(s),
+                mcmetadata.stats.get(s) / mcmetadata.stats.get("total"),
+            )
+        )

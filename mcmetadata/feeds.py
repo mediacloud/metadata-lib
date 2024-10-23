@@ -19,29 +19,29 @@ def normalize_url(url: str) -> str:
     # make https into http, remove redundant port info
     scheme = a.scheme
     netloc = a.netloc
-    nls = netloc.split(':', 1)   # netloc, split into host[:port]
-    if scheme == 'https':
-        scheme = 'http'
-        if len(nls) > 1 and nls[1] == '443':
+    nls = netloc.split(":", 1)  # netloc, split into host[:port]
+    if scheme == "https":
+        scheme = "http"
+        if len(nls) > 1 and nls[1] == "443":
             netloc = nls[0]
-    elif scheme == 'http':
-        if len(nls) > 1 and nls[1] == '80':
+    elif scheme == "http":
+        if len(nls) > 1 and nls[1] == "80":
             netloc = nls[0]
 
     # remove www prefix
-    if netloc.startswith('www.'):
+    if netloc.startswith("www."):
         netloc = netloc[4:]
 
     # remove trailing slash from path
     path = a.path
-    if path.endswith('/'):
+    if path.endswith("/"):
         path = path[:-1]
 
     # put it back together
     u = f"{scheme}://{netloc}{path}"
 
     # reassemble query in sorted order:
-    q = '&'.join(sorted(a.query.split('&')))
+    q = "&".join(sorted(a.query.split("&")))
     if q:
         u = f"{u}?{q}"
     if a.fragment:

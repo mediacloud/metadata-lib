@@ -13,7 +13,7 @@ from . import filesafe_url, read_fixture
 
 @pytest.fixture
 def use_cache(pytestconfig):
-    return pytestconfig.getoption('--use-cache')
+    return pytestconfig.getoption("--use-cache")
 
 
 # @pytest.mark.usefixtures("use_cache")
@@ -44,7 +44,9 @@ class TestContentParsers(unittest.TestCase):
         extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
         # verify result has no tags as well, since we have to remove them by hand
-        text_has_html = lxml.html.fromstring(extractor.content['text']).find('.//*') is not None
+        text_has_html = (
+            lxml.html.fromstring(extractor.content["text"]).find(".//*") is not None
+        )
         assert text_has_html is False
 
     def test_trafilatura(self):
@@ -99,15 +101,15 @@ class TestContentFromUrl(unittest.TestCase):
         else:
             html_text, _ = webpages.fetch(url)
         results = content.from_html(url, html_text)
-        assert results['url'] == url
-        assert len(results['text']) > content.MINIMUM_CONTENT_LENGTH
-        assert results['extraction_method'] == expected_method
+        assert results["url"] == url
+        assert len(results["text"]) > content.MINIMUM_CONTENT_LENGTH
+        assert results["extraction_method"] == expected_method
         return results
 
     def test_failure_javascript_alert(self):
         url = "https://web.archive.org/web/http://www.prigepp.org/aula-foro-answer.php?idcomentario=301c4&idforo=cc0&idcrso=467&CodigoUni=100190"
         results = self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
-        assert "Dirigido a Operadores de Justicia de toda la región" in results['text']
+        assert "Dirigido a Operadores de Justicia de toda la región" in results["text"]
 
     def test_failure_all_javascript(self):
         # this is rendered all by JS, so we can't do anything
@@ -138,25 +140,36 @@ class TestContentFromUrl(unittest.TestCase):
 
     def test_lanacion(self):
         # this one has a "Javascript required" check, which readability-lxml doesn't support but Trifilatura does
-        url = 'https://web.archive.org/web/https://www.lanacion.com.ar/seguridad/cordoba-en-marzo-asesinaron-a-tres-mujeres-nid1884942/'
+        url = "https://web.archive.org/web/https://www.lanacion.com.ar/seguridad/cordoba-en-marzo-asesinaron-a-tres-mujeres-nid1884942/"
         results = self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
-        assert "Cuando llegaron los agentes encontraron a la mujer en el dormitorio tirada" in results['text']
+        assert (
+            "Cuando llegaron los agentes encontraron a la mujer en el dormitorio tirada"
+            in results["text"]
+        )
 
     def test_cnn(self):
         url = "https://web.archive.org/web/https://www.cnn.com/2021/04/30/politics/mcconnell-1619-project-education-secretary/index.html"
         results = self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
-        assert "McConnell is calling on the education secretary to abandon the idea." in results['text']
+        assert (
+            "McConnell is calling on the education secretary to abandon the idea."
+            in results["text"]
+        )
 
     def test_from_url_informe_correintes(self):
         url = "http://www.informecorrientes.com/vernota.asp?id_noticia=44619"
         results = self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
-        assert "En este sentido se trabaja en la construcción de sendos canales a cielo abierto" in results['text']
+        assert (
+            "En este sentido se trabaja en la construcción de sendos canales a cielo abierto"
+            in results["text"]
+        )
 
     def test_from_url_página_12(self):
         # this one has a "Javascript required" check, which readability-lxml doesn't support but Trifilatura does
         url = "https://web.archive.org/web/https://www.pagina12.com.ar/338796-coronavirus-en-argentina-se-registraron-26-053-casos-y-561-m"
         results = self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
-        assert "Por otro lado, fueron realizados en el día 84.085 tests" in results['text']
+        assert (
+            "Por otro lado, fueron realizados en el día 84.085 tests" in results["text"]
+        )
 
     def test_method_success_stats(self):
         url = "https://web.archive.org/web/https://www.pagina12.com.ar/338796-coronavirus-en-argentina-se-registraron-26-053-casos-y-561-m"
@@ -171,8 +184,10 @@ class TestContentFromUrl(unittest.TestCase):
     def test_encoding_fix(self):
         url = "https://web.archive.org/web/https://www.mk.co.kr/news/society/view/2020/07/693939/"
         results = self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
-        assert "Á" not in results['text']  # this would be there if the encoding isn't being read right
-        assert "수도권과" in results['text']
+        assert (
+            "Á" not in results["text"]
+        )  # this would be there if the encoding isn't being read right
+        assert "수도권과" in results["text"]
 
     def test_too_short_content(self):
         url = "https://web.archive.org/web/20161214233744id_/http://usnatarchives.tumblr.com/post/66921244001/cast-your-vote-for-the-immigration-act-to-be/embed"

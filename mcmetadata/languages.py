@@ -7,8 +7,14 @@ import trafilatura.utils
 
 logger = logging.getLogger(__name__)
 
-meta_tag_pattern1 = re.compile(r"<meta[^>]* (?:name|property)=.dc\.language.[^>]* content=\"([^\"]+)\"", re.S | re.I)
-meta_tag_pattern2 = re.compile(r"<meta[^>]* (?:http-equiv)=.Content-Language.[^>]* content=\"([^\"]+)\"", re.S | re.I)
+meta_tag_pattern1 = re.compile(
+    r"<meta[^>]* (?:name|property)=.dc\.language.[^>]* content=\"([^\"]+)\"",
+    re.S | re.I,
+)
+meta_tag_pattern2 = re.compile(
+    r"<meta[^>]* (?:http-equiv)=.Content-Language.[^>]* content=\"([^\"]+)\"",
+    re.S | re.I,
+)
 html_tag_pattern = re.compile(r"<html[^>]* (?:xml:lang|lang)=\"([^\"]+)\"", re.S | re.I)
 
 
@@ -21,7 +27,9 @@ def from_html(html: str, content: Optional[str] = None) -> Optional[str]:
     # first check for document-level tags
     dc_language_tag_matches = meta_tag_pattern1.search(html)
     http_equiv_language_tag_matches = meta_tag_pattern2.search(html)
-    html_language_matches = html_tag_pattern.search(html)   # fall back to HTML-level language
+    html_language_matches = html_tag_pattern.search(
+        html
+    )  # fall back to HTML-level language
     if dc_language_tag_matches:
         language_indication = dc_language_tag_matches.group(1)
     elif http_equiv_language_tag_matches:
@@ -35,7 +43,9 @@ def from_html(html: str, content: Optional[str] = None) -> Optional[str]:
     return _pick_between_languages(language_indication, language_guess)
 
 
-def _pick_between_languages(indication: Optional[str], guess: Optional[str]) -> Optional[str]:
+def _pick_between_languages(
+    indication: Optional[str], guess: Optional[str]
+) -> Optional[str]:
     if (indication is not None) and (guess is not None):
         # if they are the same language then return the one with higher resolution
         if guess.startswith(indication):
@@ -44,7 +54,9 @@ def _pick_between_languages(indication: Optional[str], guess: Optional[str]) -> 
             return indication
         # Prefer the detected language if both are set, because the indication often comes from an unconfiured CMS
         # This happens a lot in non-english langauges
-        logger.debug("Language mismatch - indicated {} but guessed {}".format(indication, guess))
+        logger.debug(
+            "Language mismatch - indicated {} but guessed {}".format(indication, guess)
+        )
         return guess
     elif (indication is None) and (guess is not None):
         return guess

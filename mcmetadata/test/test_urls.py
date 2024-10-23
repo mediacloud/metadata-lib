@@ -12,31 +12,57 @@ class TestCanonicalDomain(unittest.TestCase):
     def tearDown(self):
         time.sleep(1)  # sleep time in seconds
 
-    @parameterized.expand([
-        ("https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey", "france24.com"),
-        ("https://www.bizjournals.com/bizjournals/news/2022/06/02/remote-raise-salary-promotion-pwc-hiring.html", "bizjournals.com"),
-        # make sure .org works right
-        ("https://www.kpbs.org/news/2019/jul/09/migrants-cameroon-protest-immigration-process-tiju/", "kpbs.org"),
-        # make sure hyphen doesn't mess things up
-        ("https://www.kenya-today.com/media/moi-burial-confused-ruto-as-matiangi-declares-tuesday-a-public-holiday#comments", "kenya-today.com"),
-        # check wordpress exception case
-        ("https://datatherapy.wordpress.com/2019/03/13/aligning-your-data-and-methods-your-mission/", "datatherapy.wordpress.com"),
-        ("https://wordpress.com/blog/2022/05/19/your-website-looks-great-so-should-your-emails/", "wordpress.com"),
-        # check out an AMP CDN case
-        ("https://www-example-com.cdn.ampproject.org/c/www.example.com/amp/doc.html", "www.example.com"),
-        # try IP address as well
-        ("https://147.182.248.18/2022/09/16/incrementan-accidentes-viales-en-toluca-en-dias-patrios/", "147.182.248.18"),
-        # governmental suffixes
-        ("http://www.gov.cn/", "gov.cn"),
-        # close to but not 'www'
-        ("http://wwf.or.jp/", "wwf.or.jp"),
-        ("http://wwf.org.br/", "wwf.org.br"),
-        # non-us examples
-        ("https://www.sydney.edu.au", "sydney.edu.au"),
-        ("https://travel.gc.ca", "travel.gc.ca"),
-        ("http://rn.gov.br/", "rn.gov.br"),
-        ('http://www.ma.gov.br/', 'ma.gov.br')
-    ])
+    @parameterized.expand(
+        [
+            (
+                "https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey",
+                "france24.com",
+            ),
+            (
+                "https://www.bizjournals.com/bizjournals/news/2022/06/02/remote-raise-salary-promotion-pwc-hiring.html",
+                "bizjournals.com",
+            ),
+            # make sure .org works right
+            (
+                "https://www.kpbs.org/news/2019/jul/09/migrants-cameroon-protest-immigration-process-tiju/",
+                "kpbs.org",
+            ),
+            # make sure hyphen doesn't mess things up
+            (
+                "https://www.kenya-today.com/media/moi-burial-confused-ruto-as-matiangi-declares-tuesday-a-public-holiday#comments",
+                "kenya-today.com",
+            ),
+            # check wordpress exception case
+            (
+                "https://datatherapy.wordpress.com/2019/03/13/aligning-your-data-and-methods-your-mission/",
+                "datatherapy.wordpress.com",
+            ),
+            (
+                "https://wordpress.com/blog/2022/05/19/your-website-looks-great-so-should-your-emails/",
+                "wordpress.com",
+            ),
+            # check out an AMP CDN case
+            (
+                "https://www-example-com.cdn.ampproject.org/c/www.example.com/amp/doc.html",
+                "www.example.com",
+            ),
+            # try IP address as well
+            (
+                "https://147.182.248.18/2022/09/16/incrementan-accidentes-viales-en-toluca-en-dias-patrios/",
+                "147.182.248.18",
+            ),
+            # governmental suffixes
+            ("http://www.gov.cn/", "gov.cn"),
+            # close to but not 'www'
+            ("http://wwf.or.jp/", "wwf.or.jp"),
+            ("http://wwf.org.br/", "wwf.org.br"),
+            # non-us examples
+            ("https://www.sydney.edu.au", "sydney.edu.au"),
+            ("https://travel.gc.ca", "travel.gc.ca"),
+            ("http://rn.gov.br/", "rn.gov.br"),
+            ("http://www.ma.gov.br/", "ma.gov.br"),
+        ]
+    )
     def test_canonical_domain(self, test_url, domain):
         assert urls.canonical_domain(test_url) == domain
 
@@ -106,7 +132,9 @@ class TestNormalizeUrl(unittest.TestCase):
         assert normalized_url == url_without_utm
         url = "http://fake.com/article?foo=123&baz=321"
         normalized_url = urls.normalize_url(url)
-        assert normalized_url == "http://fake.com/article?baz=321&foo=123"  # they get ordered
+        assert (
+            normalized_url == "http://fake.com/article?baz=321&foo=123"
+        )  # they get ordered
         url = "http://fake.com/article?utm_foo=123&baz=321"
         normalized_url = urls.normalize_url(url)
         assert normalized_url == "http://fake.com/article?baz=321"
@@ -115,7 +143,10 @@ class TestNormalizeUrl(unittest.TestCase):
         assert normalized_url == "http://fake.com/article?foo=123"
         url = "https://www.uniradioinforma.com/noticias/coronavirus/677354/covid-segunda-causa-de-muerte-en-mexico-en-2021.html?utm_source=feed&utm_medium=link&utm_campaign=rss"
         normalized_url = urls.normalize_url(url)
-        assert normalized_url == "http://uniradioinforma.com/noticias/coronavirus/677354/covid-segunda-causa-de-muerte-en-mexico-en-2021.html"
+        assert (
+            normalized_url
+            == "http://uniradioinforma.com/noticias/coronavirus/677354/covid-segunda-causa-de-muerte-en-mexico-en-2021.html"
+        )
 
     def test_remove_port(self):
         expected_url = "http://do.ma.in/what/ever"
@@ -165,7 +196,7 @@ class TestIsHomepageUrl(unittest.TestCase):
         assert urls.is_homepage_url(url) is False
 
     def test_whitespace(self):
-        url = ' https://www.letras.com.br/banda-n-drive/eden '  # a real URL from an RSS we fetched
+        url = " https://www.letras.com.br/banda-n-drive/eden "  # a real URL from an RSS we fetched
         assert urls.is_homepage_url(url) is False
 
 
@@ -193,8 +224,8 @@ class TestNonNewsDomains(unittest.TestCase):
             assert len(domain) > 0
 
     def test_inclusion(self):
-        assert 'tiktok.com' in urls.NON_NEWS_DOMAINS
-        assert 'cnn.com' not in urls.NON_NEWS_DOMAINS
+        assert "tiktok.com" in urls.NON_NEWS_DOMAINS
+        assert "cnn.com" not in urls.NON_NEWS_DOMAINS
 
 
 class TestUniqueUrlHash(unittest.TestCase):
@@ -206,13 +237,18 @@ class TestUniqueUrlHash(unittest.TestCase):
 
     def test_already_normalized_url(self):
         test_url = "http://thekenyatimes.com/counties/kisumu-traders-alerted-about-cartels-in-stalls-issuance/"
-        expected_hash = hashlib.sha256(test_url.encode('utf-8')).hexdigest()
+        expected_hash = hashlib.sha256(test_url.encode("utf-8")).hexdigest()
         assert urls.unique_url_hash(test_url) == expected_hash
 
     def test_normalizing(self):
-        bad_hash = hashlib.sha256("https://upstract.com/x/fdf95bf448e1f2a8?ref=rss".encode('utf-8')).hexdigest()
-        good_hash = hashlib.sha256(urls.normalize_url("https://upstract.com/x/fdf95bf448e1f2a8").encode('utf-8'))\
-            .hexdigest()
+        bad_hash = hashlib.sha256(
+            "https://upstract.com/x/fdf95bf448e1f2a8?ref=rss".encode("utf-8")
+        ).hexdigest()
+        good_hash = hashlib.sha256(
+            urls.normalize_url("https://upstract.com/x/fdf95bf448e1f2a8").encode(
+                "utf-8"
+            )
+        ).hexdigest()
         assert good_hash != bad_hash
         test_url = "https://upstract.com/x/fdf95bf448e1f2a8?ref=rss"
         unique_hash = urls.unique_url_hash(test_url)

@@ -23,21 +23,35 @@ logger = logging.getLogger(__name__)
 MINIMUM_CONTENT_LENGTH = 200  # less than this and it doesn't count as working extraction (experimentally determined)
 
 # customize readability to remove all tags
-everything_cleaner = Cleaner(scripts=True, javascript=True, comments=True, style=True, links=True, meta=True,
-                             add_nofollow=False, page_structure=True, processing_instructions=True, embedded=True,
-                             frames=True, forms=True, annoying_tags=True, remove_tags=[], remove_unknown_tags=True,
-                             safe_attrs_only=False)
+everything_cleaner = Cleaner(
+    scripts=True,
+    javascript=True,
+    comments=True,
+    style=True,
+    links=True,
+    meta=True,
+    add_nofollow=False,
+    page_structure=True,
+    processing_instructions=True,
+    embedded=True,
+    frames=True,
+    forms=True,
+    annoying_tags=True,
+    remove_tags=[],
+    remove_unknown_tags=True,
+    safe_attrs_only=False,
+)
 readability.readability.html_cleaner = everything_cleaner
 
-METHOD_NEWSPAPER_3k = 'newspaper3k'
-METHOD_GOOSE_3 = 'goose3'
-METHOD_BEAUTIFUL_SOUP_4 = 'beautifulsoup4'
-METHOD_BOILER_PIPE_3 = 'boilerpipe3'
-METHOD_READABILITY = 'readability'
-METHOD_TRAFILATURA = 'trafilatura'
-METHOD_LXML = 'lxml'
-METHOD_FAILED = 'failed'  # placeholder for stats
-METHOD_OVERRIDEN = 'overriden'
+METHOD_NEWSPAPER_3k = "newspaper3k"
+METHOD_GOOSE_3 = "goose3"
+METHOD_BEAUTIFUL_SOUP_4 = "beautifulsoup4"
+METHOD_BOILER_PIPE_3 = "boilerpipe3"
+METHOD_READABILITY = "readability"
+METHOD_TRAFILATURA = "trafilatura"
+METHOD_LXML = "lxml"
+METHOD_FAILED = "failed"  # placeholder for stats
+METHOD_OVERRIDEN = "overriden"
 
 # track stats on how frequently each method succeeds (keyed by the METHOD_XYZ constants)
 method_success_stats = collections.Counter()
@@ -59,11 +73,11 @@ def from_html(url: str, html_text: str, include_metadata: bool = False) -> Dict:
 
         try:
             # logger.debug("Trying {}".format(extractor_info['method']))
-            extractor = extractor_info['instance']
+            extractor = extractor_info["instance"]
             extractor.extract(url, html_text, include_metadata)
             if extractor.worked():
-                method_success_stats[extractor.content['extraction_method']] += 1
-                extractor.content['text'] = extractor.content['text'].strip()
+                method_success_stats[extractor.content["extraction_method"]] += 1
+                extractor.content["text"] = extractor.content["text"].strip()
                 return extractor.content
         except BadContentError as e:
             raise e
@@ -91,7 +105,7 @@ class AbstractExtractor(ABC):
         # if there was some reasonable amount of none-tag content then we'll assume things worked
         if self.content is None:
             return False
-        text_no_tags = self.content['text']
+        text_no_tags = self.content["text"]
         if len(text_no_tags) > MINIMUM_CONTENT_LENGTH:
             return True
         else:
@@ -105,14 +119,14 @@ class Newspaper3kExtractor(AbstractExtractor):
         doc.download(input_html=html_text)
         doc.parse()
         self.content = {
-            'url': url,
-            'text': doc.text,
-            'title': doc.title,
-            'canonical_url': doc.canonical_link,
-            'potential_publish_date': doc.publish_date,
-            'top_image_url': doc.top_image,
-            'authors': doc.authors,
-            'extraction_method': METHOD_NEWSPAPER_3k,
+            "url": url,
+            "text": doc.text,
+            "title": doc.title,
+            "canonical_url": doc.canonical_link,
+            "potential_publish_date": doc.publish_date,
+            "top_image_url": doc.top_image,
+            "authors": doc.authors,
+            "extraction_method": METHOD_NEWSPAPER_3k,
         }
 
 
@@ -122,14 +136,14 @@ class GooseExtractor(AbstractExtractor):
         g = Goose()
         g3_article = g.extract(raw_html=html_text)
         self.content = {
-            'url': url,
-            'text': g3_article.cleaned_text,
-            'title': g3_article.title,
-            'canonical_url': g3_article.canonical_link,
-            'potential_publish_date': g3_article.publish_date,
-            'top_image_url': g3_article.top_image.src if g3_article.top_image else None,
-            'authors': g3_article.authors,
-            'extraction_method': METHOD_GOOSE_3,
+            "url": url,
+            "text": g3_article.cleaned_text,
+            "title": g3_article.title,
+            "canonical_url": g3_article.canonical_link,
+            "potential_publish_date": g3_article.publish_date,
+            "top_image_url": g3_article.top_image.src if g3_article.top_image else None,
+            "authors": g3_article.authors,
+            "extraction_method": METHOD_GOOSE_3,
         }
 
 
@@ -140,14 +154,14 @@ class BoilerPipe3Extractor(AbstractExtractor):
             extractor = bp3_extractors.ArticleExtractor()
             bp_doc = extractor.get_doc(html_text)
             self.content = {
-                'url': url,
-                'text': bp_doc.content,
-                'title': bp_doc.title,
-                'canonical_url': None,
-                'potential_publish_date': None,
-                'top_image_url': None,
-                'authors': None,
-                'extraction_method': METHOD_BOILER_PIPE_3,
+                "url": url,
+                "text": bp_doc.content,
+                "title": bp_doc.title,
+                "canonical_url": None,
+                "potential_publish_date": None,
+                "top_image_url": None,
+                "authors": None,
+                "extraction_method": METHOD_BOILER_PIPE_3,
             }
         except AttributeError:
             # getting some None errors on tag parsing, which suggests invalid HTML so let the next one try
@@ -161,26 +175,32 @@ markdown_img_path_pattern = re.compile(r"!\[[^\]]*\]\((.*?)\)")
 class TrafilaturaExtractor(AbstractExtractor):
 
     def extract(self, url: str, html_text: str, include_metadata: bool = False):
-        results = trafilatura.bare_extraction(html_text, only_with_metadata=include_metadata, url=url,
-                                              include_images=include_metadata)
+        results = trafilatura.bare_extraction(
+            html_text,
+            only_with_metadata=include_metadata,
+            url=url,
+            include_images=include_metadata,
+        )
         image_urls = []
         if include_metadata:
             # pull out the images embedded in the markdown
-            for match in markdown_img_path_pattern.finditer(results['text']):
+            for match in markdown_img_path_pattern.finditer(results["text"]):
                 image_urls.append(match.group(1))
             # remove the image links from the full text
-            text = markdown_img_path_pattern.sub("", results['text'])
+            text = markdown_img_path_pattern.sub("", results["text"])
         else:
-            text = results['text']
+            text = results["text"]
         self.content = {
-            'url': url,
-            'text': text,
-            'title': results['title'],
-            'canonical_url': results['url'],  # Warning: This will not work with Trafilatura v1.11.* and later
-            'potential_publish_date': dateparser.parse(results['date']),
-            'top_image_url': image_urls[0] if len(image_urls) > 0 else None,
-            'authors': results['author'].split(',') if results['author'] else None,
-            'extraction_method': METHOD_TRAFILATURA,
+            "url": url,
+            "text": text,
+            "title": results["title"],
+            "canonical_url": results[
+                "url"
+            ],  # Warning: This will not work with Trafilatura v1.11.* and later
+            "potential_publish_date": dateparser.parse(results["date"]),
+            "top_image_url": image_urls[0] if len(image_urls) > 0 else None,
+            "authors": results["author"].split(",") if results["author"] else None,
+            "extraction_method": METHOD_TRAFILATURA,
         }
 
 
@@ -190,14 +210,16 @@ class ReadabilityExtractor(AbstractExtractor):
         try:
             doc = readability.Document(html_text)
             self.content = {
-                'url': url,
-                'text': strip_tags(doc.summary()),  # remove any tags that readability leaves in place (links)
-                'title': doc.title(),
-                'canonical_url': None,
-                'potential_publish_date': None,
-                'top_image_url': None,
-                'authors': None,
-                'extraction_method': METHOD_READABILITY,
+                "url": url,
+                "text": strip_tags(
+                    doc.summary()
+                ),  # remove any tags that readability leaves in place (links)
+                "title": doc.title(),
+                "canonical_url": None,
+                "potential_publish_date": None,
+                "top_image_url": None,
+                "authors": None,
+                "extraction_method": METHOD_READABILITY,
             }
         except lxml.etree.ParserError:
             # getting "Document is empty" error, which means it didn't parse so let the next extractor try
@@ -205,34 +227,44 @@ class ReadabilityExtractor(AbstractExtractor):
 
 
 class RawHtmlExtractor(AbstractExtractor):
-    REMOVE_LIST = {'[document]', 'noscript', 'header', 'html', 'meta', 'head', 'input', 'script', 'style'}
+    REMOVE_LIST = {
+        "[document]",
+        "noscript",
+        "header",
+        "html",
+        "meta",
+        "head",
+        "input",
+        "script",
+        "style",
+    }
 
     def __init__(self):
         super(RawHtmlExtractor, self).__init__()
 
     def extract(self, url: str, html_text: str, include_metadata: bool = False):
-        soup = BeautifulSoup(html_text, 'lxml')
+        soup = BeautifulSoup(html_text, "lxml")
         text = soup.find_all(string=True)
-        output = ''
+        output = ""
         for t in text:
             if t.parent.name not in self.REMOVE_LIST:
-                output += '{} '.format(t)
+                output += "{} ".format(t)
 
         can_url = None
         if can_link := soup.find("link", rel="canonical"):
             can_url = can_link.get("href")
-        elif can_link := soup.find('meta', attrs={'property': 'og:url'}):
+        elif can_link := soup.find("meta", attrs={"property": "og:url"}):
             can_url = can_link.get("content")
 
         self.content = {
-            'url': url,
-            'text': output,
-            'title': None,
-            'canonical_url': can_url,
-            'potential_publish_date': None,
-            'top_image_url': None,
-            'authors': None,
-            'extraction_method': METHOD_BEAUTIFUL_SOUP_4,
+            "url": url,
+            "text": output,
+            "title": None,
+            "canonical_url": can_url,
+            "potential_publish_date": None,
+            "top_image_url": None,
+            "authors": None,
+            "extraction_method": METHOD_BEAUTIFUL_SOUP_4,
         }
 
 
@@ -242,15 +274,26 @@ class LxmlExtractor(AbstractExtractor):
     """
 
     def extract(self, url: str, html_text: str, include_metadata: bool = False):
-        cleaner = Cleaner(scripts=True, javascript=True,
-                          comments=True, style=True, links=True, meta=True,
-                          add_nofollow=False, page_structure=True,
-                          processing_instructions=True, embedded=True,
-                          frames=True, forms=True, annoying_tags=True,
-                          allow_tags=[None], safe_attrs_only=False)
+        cleaner = Cleaner(
+            scripts=True,
+            javascript=True,
+            comments=True,
+            style=True,
+            links=True,
+            meta=True,
+            add_nofollow=False,
+            page_structure=True,
+            processing_instructions=True,
+            embedded=True,
+            frames=True,
+            forms=True,
+            annoying_tags=True,
+            allow_tags=[None],
+            safe_attrs_only=False,
+        )
 
         parsed = lxml.etree.HTML(html_text)
-        # This ensures that the etree is cast correctly-
+        # This ensures that the etree is cast correctly
         # It seems like pages with multiple head nodes sometimes confuse
         # the parser without this step
         circular = fromstring(tostring(parsed))
@@ -264,13 +307,13 @@ class LxmlExtractor(AbstractExtractor):
 
         self.content = {
             "url": url,
-            'text': content_string,
-            'title': None,
-            'canonical_url': can_url,
-            'potential_publish_date': None,
-            'top_image_url': None,
-            'authors': None,
-            'extraction_method': METHOD_LXML,
+            "text": content_string,
+            "title": None,
+            "canonical_url": can_url,
+            "potential_publish_date": None,
+            "top_image_url": None,
+            "authors": None,
+            "extraction_method": METHOD_LXML,
         }
 
 
@@ -283,5 +326,5 @@ extractors = [
     dict(method=METHOD_NEWSPAPER_3k, instance=Newspaper3kExtractor()),
     # this one should never fail (if there is any content at all) because it just parses HTML
     dict(method=METHOD_BEAUTIFUL_SOUP_4, instance=RawHtmlExtractor()),
-    dict(method=METHOD_LXML, instance=LxmlExtractor())
+    dict(method=METHOD_LXML, instance=LxmlExtractor()),
 ]

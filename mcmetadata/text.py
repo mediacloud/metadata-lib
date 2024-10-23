@@ -1,6 +1,7 @@
 """
 Extracted from django.utils.html
 """
+
 from html.parser import HTMLParser
 
 

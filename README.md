@@ -15,7 +15,7 @@ but also build on numerous 3rd party libraries. The metadata extracted includes:
 * the text content of the news article
 * the name of the library used to extract the article content
 
-Other often-reused methods and configuration related to the mediacloud service also live in this package. 
+Other often-reused methods and configuration related to the mediacloud service also live in this package.
 
 
 Installation

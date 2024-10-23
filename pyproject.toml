@@ -42,7 +42,13 @@ name = "mcmetadata"
 
 [project.optional-dependencies]
 dev = [
-    "pre-commit", "flake8", "mypy", "isort", "types-urllib3", "types-requests"
+    "pre-commit==3.8.*",
+    "flake8==6.1.*",
+    "mypy==1.6.*",
+    "isort==5.12.*",
+    "types-urllib3==1.26.*",
+    "types-requests==2.32.*",
+    "black==24.4.*"
 ]
 test = [ "pytest", "parameterized" ]
 
@@ -50,3 +56,6 @@ test = [ "pytest", "parameterized" ]
 "Homepage" = "https://mediacloud.org"
 "Bug Tracker" = "https://github.com/mediacloud/meta-extractor/issues"
 "Source Code" = "https://github.com/mediacloud/meta-extractor"
+
+[tool.isort]
+profile = "black"
