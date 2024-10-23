@@ -4,6 +4,10 @@ Version History
 Version 1
 ---------
 
+### V1.2.0
+* metadata now includes Canonical Url when available
+* introduce black preformatter 
+
 ### V1.1.0
 * add requests_arcana.py for use across Media Cloud stack
 
