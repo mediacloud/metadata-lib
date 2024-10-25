@@ -29,8 +29,12 @@ dependencies = [
     # for language detection
     "py3langid==0.2.*",
     # various content extractors we try to use
-    "newspaper3k==0.2.*", "goose3==3.1.*", "BeautifulSoup4==4.12.*", "readability-lxml==0.8.*",
-    "trafilatura==1.8.*", "boilerpy3==1.0.*",
+    "newspaper3k==0.2.*",
+    "goose3==3.1.*",
+    "BeautifulSoup4==4.12.*",
+    "readability-lxml==0.8.*",
+    "trafilatura==1.8.*", # must stay below v1.11.* to allow easy extraction of canonical_url
+    "boilerpy3==1.0.*",
     # support
     "requests",         # leave un-versioned so dependencies can sort of which version is best
     "faust-cchardet==2.1.*",  # BeautifulSoup4 speedup
