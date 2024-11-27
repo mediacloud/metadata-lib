@@ -80,11 +80,15 @@ def extract(
     # url
     t1 = time.monotonic()
     normalized_url = urls.normalize_url(final_url)
-    canonical_domain = urls.canonical_domain(final_url)
     is_homepage_url = urls.is_homepage_url(url)
     is_shortened_url = urls.is_shortened_url(url)
     url_duration = time.monotonic() - t1
     stats_accumulator["url"] += url_duration
+    
+    if 'canonical_domain' in overrides:
+        canonical_domain = overrides['canonical_domain']
+    else:
+        canonical_domain = urls.canonical_domain(final_url)
 
     # pub date stuff
     t1 = time.monotonic()
