@@ -4,6 +4,9 @@ Version History
 Version 1
 ---------
 
+### V1.3.1
+* Fix CI Bug from out-of-date dependency
+
 ### V1.3.0
 * Add option to optionally override canonical_domain 
 
