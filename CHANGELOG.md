@@ -4,6 +4,9 @@ Version History
 Version 1
 ---------
 
+### V1.4.0
+* add ignore_loggers and sentry_ignore_loggers
+
 ### V1.3.1
 * Fix CI Bug from out-of-date dependency
 
@@ -12,7 +15,7 @@ Version 1
 
 ### V1.2.0
 * metadata now includes Canonical Url when available
-* introduce black preformatter 
+* introduce black preformatter
 
 ### V1.1.0
 * add requests_arcana.py for use across Media Cloud stack
