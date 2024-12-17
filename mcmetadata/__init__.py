@@ -17,6 +17,24 @@ MAX_FUTURE_PUB_DATE = 90
 STAT_NAMES = ["total", "fetch", "url", "pub_date", "content", "title", "language"]
 stats = {s: 0 for s in STAT_NAMES}
 
+# from https://github.com/counterdata-network/story-processor/blob/03f6de5dfdb69f6d3ae26972844b62eaf8f0f39d/processor/__init__.py#L49C1-L56C2
+LOGGERS_IGNORE_INFO = [
+    # NOTE! in sorted order!
+    "readability.readability",
+    "trafilatura.core",
+    "trafilatura.htmlprocessing",
+    "trafilatura.metadata",
+    "trafilatura.readability_lxml",
+    "trafilatura.xml",
+]
+
+# from https://github.com/counterdata-network/story-processor/blob/03f6de5dfdb69f6d3ae26972844b62eaf8f0f39d/processor/__init__.py#L93-L96
+SENTRY_LOGGERS_TO_IGNORE = [
+    # NOTE! in sorted order!
+    "htmldate.utils",
+    "trafilatura.core",
+]
+
 
 def extract(
     url: str,
@@ -189,3 +207,24 @@ def extract(
 def reset_stats():
     global stats
     stats = {s: 0 for s in STAT_NAMES}
+
+
+def ignore_loggers() -> None:
+    """
+    Quiet down logging from libraries this module uses.
+    """
+    for name in LOGGERS_IGNORE_INFO:
+        logging.getLogger(name).setLevel(logging.WARNING)
+
+
+def sentry_ignore_loggers() -> None:
+    """
+    Tell sentry.io SDK to ignore loggers that can consume event
+    quotas.  It's possible that this alone is sufficient for that
+    purpose, and ignore_loggers need not be called if sentry quota
+    is your only concern.
+    """
+    import sentry_sdk.integrations.logging
+
+    for name in SENTRY_LOGGERS_TO_IGNORE:
+        sentry_sdk.integrations.logging.ignore_logger(name)
