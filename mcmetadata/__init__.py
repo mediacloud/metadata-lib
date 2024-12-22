@@ -33,6 +33,7 @@ SENTRY_LOGGERS_TO_IGNORE = [
     # NOTE! in sorted order!
     "htmldate.utils",
     "trafilatura.core",
+    "trafilatura.utils",
 ]
 
 
@@ -102,9 +103,9 @@ def extract(
     is_shortened_url = urls.is_shortened_url(url)
     url_duration = time.monotonic() - t1
     stats_accumulator["url"] += url_duration
-    
-    if 'canonical_domain' in overrides:
-        canonical_domain = overrides['canonical_domain']
+
+    if "canonical_domain" in overrides:
+        canonical_domain = overrides["canonical_domain"]
     else:
         canonical_domain = urls.canonical_domain(final_url)
 

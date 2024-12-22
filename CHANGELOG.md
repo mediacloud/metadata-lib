@@ -4,6 +4,9 @@ Version History
 Version 1
 ---------
 
+### V1.4.1
+* add trafilatura.utils to SENTRY_LOGGERS_TO_IGNORE
+
 ### V1.4.0
 * add ignore_loggers and sentry_ignore_loggers
 
@@ -11,7 +14,7 @@ Version 1
 * Fix CI Bug from out-of-date dependency
 
 ### V1.3.0
-* Add option to optionally override canonical_domain 
+* Add option to optionally override canonical_domain
 
 ### V1.2.0
 * metadata now includes Canonical Url when available
