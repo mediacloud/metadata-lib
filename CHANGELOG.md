@@ -4,6 +4,9 @@ Version History
 Version 1
 ---------
 
+### V1.4.2
+* fix small top image url extraction bug
+
 ### V1.4.1
 * add trafilatura.utils to SENTRY_LOGGERS_TO_IGNORE
 
