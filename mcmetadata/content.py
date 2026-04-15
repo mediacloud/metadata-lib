@@ -198,7 +198,7 @@ class TrafilaturaExtractor(AbstractExtractor):
                 "url"
             ],  # Warning: This will not work with Trafilatura v1.11.* and later
             "potential_publish_date": dateparser.parse(results["date"]),
-            "top_image_url": image_urls[0] if len(image_urls) > 0 else None,
+            "top_image_url": image_urls[0] if len(image_urls) > 0 else results["image"],
             "authors": results["author"].split(",") if results["author"] else None,
             "extraction_method": METHOD_TRAFILATURA,
         }
