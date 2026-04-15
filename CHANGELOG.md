@@ -4,6 +4,9 @@ Version History
 Version 1
 ---------
 
+### V1.4.3
+* no changes, just release maintenace and automation work
+
 ### V1.4.2
 * fix small top image url extraction bug
 
