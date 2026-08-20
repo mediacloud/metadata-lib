@@ -42,7 +42,7 @@ class TestExtract(unittest.TestCase):
 
     def test_no_date(self):
         # Fail gracefully for webpages that aren't news articles, and thus don't have publication dates
-        results = extract(url="https://web.archive.org/web/https://example.com/")
+        results = extract(url="https://web.archive.org/web/https://google.com/")
         assert "publication_date" in results
         assert results["publication_date"] is None
         assert "is_homepage" in results
