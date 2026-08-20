@@ -57,7 +57,8 @@ dev = [
     "isort==5.12.*",
     "types-urllib3==1.26.*",
     "types-requests==2.32.*",
-    "black==24.4.*"
+    "black==24.4.*",
+    "warcio==1.8.*"
 ]
 test = [ "pytest", "parameterized", "requests-mock" ]
 
