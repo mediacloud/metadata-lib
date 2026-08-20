@@ -28,8 +28,8 @@ dependencies = [
     # for date guessing
     "htmldate==1.10.*", "dateparser==1.4.*",
     # for domain name and URL extraction
-    "tldextract==5.1.*",
-    "url-normalize==1.4.*",
+    "tldextract==5.3.*",
+    "url-normalize==3.0.*",
     "furl==2.1.*",
     # for language detection
     "py3langid==0.2.*",
