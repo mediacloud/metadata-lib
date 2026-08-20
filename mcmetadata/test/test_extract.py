@@ -79,14 +79,14 @@ class TestExtract(unittest.TestCase):
 
     def test_archived_url(self):
         # properly handle pages at web archives (via memento headers)
-        test_url = "https://web.archive.org/web/https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"
+        test_url = "https://web.archive.org/web/20250428221027/https://www.canarias7.es/cultura/cimientos-artes-escenicas-20220718203045-nt.html"
         results = extract(test_url)
         assert "canonical_domain" in results
-        assert results["canonical_domain"] == "nytimes.com"
+        assert results["canonical_domain"] == "canarias7.es"
         assert "original_url" in results
         assert (
             results["url"]
-            == "https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"
+            == "https://www.canarias7.es/cultura/cimientos-artes-escenicas-20220718203045-nt.html"
         )
 
     def test_language(self):
