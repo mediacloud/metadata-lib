@@ -49,10 +49,10 @@ class TestExtract(unittest.TestCase):
         assert results["is_homepage"] is False
 
     def test_observers(self):
-        test_url = "https://web.archive.org/web/https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
+        test_url = "https://web.archive.org/web/20190827141420/https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
         results = extract(test_url)
         assert "publication_date" in results
-        assert results["publication_date"] == dt.datetime(2019, 8, 27, 0, 0)
+        assert results["publication_date"] == dt.datetime(2019, 8, 26, 0, 0)
         assert "text_content" in results
         assert len(results["text_content"]) > 7000
         assert "text_extraction_method" in results
@@ -69,7 +69,7 @@ class TestExtract(unittest.TestCase):
         assert "original_url" in results
         assert (
             results["original_url"]
-            == "https://web.archive.org/web/https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
+            == "https://web.archive.org/web/20190827141420/https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
         )
         assert "url" in results
         assert (
