@@ -26,7 +26,7 @@ classifiers = [
 ]
 dependencies = [
     # for date guessing
-    "htmldate==1.8.*", "dateparser==1.2.*",
+    "htmldate==1.10.*", "dateparser==1.4.*",
     # for domain name and URL extraction
     "tldextract==5.1.*",
     "url-normalize==1.4.*",
