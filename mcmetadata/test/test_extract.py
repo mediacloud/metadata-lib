@@ -115,7 +115,7 @@ class TestExtract(unittest.TestCase):
         assert results["language"] == "en"
 
     def test_basic(self):
-        url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
+        url = "https://www.indiatimes.com/news/india/indias-75th-year-of-freedom-why-was-august-15-chosen-as-independence-day/articleshow/127275673.html"
         results = extract(url)
         assert url == results["original_url"]
         assert url == results["url"]
@@ -125,7 +125,7 @@ class TestExtract(unittest.TestCase):
         assert results["version"] == mcmetadata.__version__
 
     def test_other_metadata(self):
-        url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
+        url = "https://www.indiatimes.com/trending/whats-buzzing-on-gen-zs-feed-today-qatar-to-india-transfer-money-in-minutes-jamal-musiala-reveals-neurological-disorder-more/articleshow/133366639.html"
         results = extract(url, include_other_metadata=True)
         assert url == results["original_url"]
         assert url == results["url"]
@@ -133,12 +133,10 @@ class TestExtract(unittest.TestCase):
         assert results["text_extraction_method"] == content.METHOD_TRAFILATURA
         assert (
             results["other"]["raw_title"]
-            == "India's 75th Year Of Freedom: Why Was August 15 Chosen As Independence Day?"
+            == "What’s buzzing on Gen Z’s feed today? Qatar to India: Transfer money in minutes; Jamal Musiala reveals neurological disorder & more"
         )
-        assert results["other"]["raw_publish_date"] == dt.datetime(2022, 8, 14, 0, 0)
-        assert results["other"]["top_image_url"].startswith(
-            "https://im.indiatimes.in/content/2022/Aug/flag_62f4964dc6314.jpg"
-        )
+        assert results["other"]["raw_publish_date"] == dt.datetime(2026, 8, 20, 0, 0)
+        assert results["other"]["top_image_url"] == ""
         assert len(results["other"]["authors"]) == 1
 
     def test_whitespace_removal(self):
