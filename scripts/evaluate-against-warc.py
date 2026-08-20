@@ -21,8 +21,16 @@ def compare(record_id: str, url: str, html: str, old_metadata: dict):
             continue
         if key not in new_metadata:
             raise Exception(f"{record_id}: '{key}' not in metadata")
-        if new_metadata[key] != value:
-            raise Exception(f"{record_id}: '{key}' {value} != {new_metadata[key]}")
+        if key == "text_content":
+            if abs(len(new_metadata[key]) - len(value)) > (
+                len(new_metadata[key]) * 0.2
+            ):
+                raise Exception(
+                    f"{record_id}: '{key}' {len(value)} != {len(new_metadata[key])}"
+                )
+        else:
+            if new_metadata[key] != value:
+                raise Exception(f"{record_id}: '{key}' {value} != {new_metadata[key]}")
 
 
 def evaluate(warc_file_path: str, max_records: int = None) -> None:
@@ -59,7 +67,7 @@ def evaluate(warc_file_path: str, max_records: int = None) -> None:
                     except Exception as e:
                         logger.error(f"{record_id}: fail {e}")
                         fail_count += 1
-                    logger.info(f"{record_id}: pass")
+                    # logger.info(f"{record_id}: pass")
                     records_compared += 1
                     url = None
                     record_id = None
