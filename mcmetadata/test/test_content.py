@@ -16,7 +16,10 @@ class TestContentMetadata(unittest.TestCase):
     def test_top_image(self):
         html_text = read_fixture(self.URL)
         meta = content.from_html(self.URL, html_text)
+        meta = content.from_html(self.URL, html_text, False)
+        assert meta["extraction_method"] == "trafilatura"
         assert meta["top_image_url"] == self.EXPRECTED_IMG_URL
+        meta = content.from_html(self.URL, html_text, True)
 
 
 class TestContentParsers(unittest.TestCase):
