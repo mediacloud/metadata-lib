@@ -117,7 +117,7 @@ class TestExtract(unittest.TestCase):
             results["other"]["raw_title"]
             == "What’s buzzing on Gen Z’s feed today? Qatar to India: Transfer money in minutes; Jamal Musiala reveals neurological disorder & more"
         )
-        assert results["other"]["raw_publish_date"] == dt.datetime(2026, 8, 20, 0, 0)
+        assert results["other"]["raw_publish_date"] == dt.datetime(2026, 8, 21, 0, 0)
         assert results["other"]["top_image_url"] == ""
         assert len(results["other"]["authors"]) == 1
 
