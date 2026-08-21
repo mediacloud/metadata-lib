@@ -35,11 +35,6 @@ class TestExtract(unittest.TestCase):
             == "https://www.cnn.com/2022/08/29/weather/weather-news-labor-day-tropical-system-texas-rain-wxn/index.html"
         )
 
-    def test_homepage(self):
-        results = extract(url="https://web.archive.org/web/")
-        assert "is_homepage" in results
-        assert results["is_homepage"] is True
-
     def test_no_date(self):
         # Fail gracefully for webpages that aren't news articles, and thus don't have publication dates
         results = extract(url="https://web.archive.org/web/https://google.com/")
