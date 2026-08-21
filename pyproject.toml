@@ -29,7 +29,7 @@ dependencies = [
     "url-normalize==3.0.*",
     "furl==2.1.*",
     # for language detection
-    "py3langid==0.2.*",
+    "py3langid==0.3.*",
     # various content extractors we try to use
     "newspaper3k==0.2.*",
     "goose3==3.1.*",
