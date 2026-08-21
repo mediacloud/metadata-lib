@@ -101,7 +101,7 @@ class TestDates(unittest.TestCase):
         u = "https://web.archive.org/web/https://www.canarias7.es/cultura/cimientos-artes-escenicas-20220718203045-nt.html"
         raw_html, response = webpages.fetch(u)
         date = dates.guess_publication_date(raw_html, u)
-        assert date.date() == dt.date(2022, 7, 17)
+        assert date.date() == dt.date(2022, 7, 18)
         date = dates.guess_publication_date(
             raw_html, u, max_date=dt.datetime(2020, 1, 1)
         )

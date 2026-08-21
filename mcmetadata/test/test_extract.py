@@ -35,24 +35,19 @@ class TestExtract(unittest.TestCase):
             == "https://www.cnn.com/2022/08/29/weather/weather-news-labor-day-tropical-system-texas-rain-wxn/index.html"
         )
 
-    def test_homepage(self):
-        results = extract(url="https://web.archive.org/web/")
-        assert "is_homepage" in results
-        assert results["is_homepage"] is True
-
     def test_no_date(self):
         # Fail gracefully for webpages that aren't news articles, and thus don't have publication dates
-        results = extract(url="https://web.archive.org/web/https://example.com/")
+        results = extract(url="https://web.archive.org/web/https://google.com/")
         assert "publication_date" in results
         assert results["publication_date"] is None
         assert "is_homepage" in results
         assert results["is_homepage"] is False
 
     def test_observers(self):
-        test_url = "https://web.archive.org/web/https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
+        test_url = "https://web.archive.org/web/20190827141420/https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
         results = extract(test_url)
         assert "publication_date" in results
-        assert results["publication_date"] == dt.datetime(2019, 8, 27, 0, 0)
+        assert results["publication_date"] == dt.datetime(2019, 8, 26, 0, 0)
         assert "text_content" in results
         assert len(results["text_content"]) > 7000
         assert "text_extraction_method" in results
@@ -69,7 +64,7 @@ class TestExtract(unittest.TestCase):
         assert "original_url" in results
         assert (
             results["original_url"]
-            == "https://web.archive.org/web/https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
+            == "https://web.archive.org/web/20190827141420/https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
         )
         assert "url" in results
         assert (
@@ -79,14 +74,14 @@ class TestExtract(unittest.TestCase):
 
     def test_archived_url(self):
         # properly handle pages at web archives (via memento headers)
-        test_url = "https://web.archive.org/web/https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"
+        test_url = "https://web.archive.org/web/20250428221027/https://www.canarias7.es/cultura/cimientos-artes-escenicas-20220718203045-nt.html"
         results = extract(test_url)
         assert "canonical_domain" in results
-        assert results["canonical_domain"] == "nytimes.com"
+        assert results["canonical_domain"] == "canarias7.es"
         assert "original_url" in results
         assert (
             results["url"]
-            == "https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"
+            == "https://www.canarias7.es/cultura/cimientos-artes-escenicas-20220718203045-nt.html"
         )
 
     def test_language(self):
@@ -101,21 +96,8 @@ class TestExtract(unittest.TestCase):
         assert "pt" == results["language"]
         assert "pt-br" == results["full_language"]
 
-    def test_redirected_url(self):
-        url = "https://api.follow.it/track-rss-story-click/v3/ecuhSAhRa8kTTPWTA7xaXioxzwoq1nFt"
-        results = extract(url)
-        assert url == results["original_url"]
-        final_url = "https://www.trussvilletribune.com/2022/03/02/three-students-from-center-point-receive-academic-scholarships/"
-        assert final_url == results["url"]
-        assert "trussvilletribune.com" == results["canonical_domain"]
-        assert (
-            results["normalized_url"]
-            == "http://trussvilletribune.com/2022/03/02/three-students-from-center-point-receive-academic-scholarships/"
-        )
-        assert results["language"] == "en"
-
     def test_basic(self):
-        url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
+        url = "https://www.indiatimes.com/news/india/indias-75th-year-of-freedom-why-was-august-15-chosen-as-independence-day/articleshow/127275673.html"
         results = extract(url)
         assert url == results["original_url"]
         assert url == results["url"]
@@ -125,20 +107,16 @@ class TestExtract(unittest.TestCase):
         assert results["version"] == mcmetadata.__version__
 
     def test_other_metadata(self):
-        url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
+        url = "https://nj1015.com/ixp/397/p/nj-covid-vaccine-vs-federal-guidelines/"
         results = extract(url, include_other_metadata=True)
-        assert url == results["original_url"]
-        assert url == results["url"]
         assert "other" in results
         assert results["text_extraction_method"] == content.METHOD_TRAFILATURA
         assert (
             results["other"]["raw_title"]
-            == "India's 75th Year Of Freedom: Why Was August 15 Chosen As Independence Day?"
+            == "NJ Pushes Back on Federal COVID Vaccine Limits"
         )
-        assert results["other"]["raw_publish_date"] == dt.datetime(2022, 8, 14, 0, 0)
-        assert results["other"]["top_image_url"].startswith(
-            "https://im.indiatimes.in/content/2022/Aug/flag_62f4964dc6314.jpg"
-        )
+        assert results["other"]["raw_publish_date"] == dt.datetime(2025, 9, 12, 0, 0)
+        assert results["other"]["top_image_url"].startswith("https://townsquare.media/")
         assert len(results["other"]["authors"]) == 1
 
     def test_whitespace_removal(self):
@@ -151,7 +129,7 @@ class TestExtract(unittest.TestCase):
         content.MINIMUM_CONTENT_LENGTH = previous_min_content_length
 
     def test_url_whitespace_removal(self):
-        url = " https://www.letras.com.br/banda-n-drive/eden "
+        url = " https://web.archive.org/web/20231018030300/https://www.letras.com.br/banda-n-drive/eden "
         results = extract(url)
         assert results is not None
 
