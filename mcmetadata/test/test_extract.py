@@ -136,7 +136,7 @@ class TestExtract(unittest.TestCase):
         content.MINIMUM_CONTENT_LENGTH = previous_min_content_length
 
     def test_url_whitespace_removal(self):
-        url = " https://www.letras.com.br/banda-n-drive/eden "
+        url = " https://web.archive.org/web/20231018030300/https://www.letras.com.br/banda-n-drive/eden "
         results = extract(url)
         assert results is not None
 

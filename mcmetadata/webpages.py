@@ -30,6 +30,8 @@ def fetch(
     """
     custom_user_agent = user_agent or DEFAULT_USER_AGENT
     custom_timeout = timeout or DEFAULT_TIMEOUT_SECS
+    # remove leading or trailing whitespace (we've seen this on real URLs from feeds)
+    url = url.strip()
     # grab HTML only once so each library doesn't have to do it
     response = requests.get(
         url, headers={"User-Agent": custom_user_agent}, timeout=custom_timeout
