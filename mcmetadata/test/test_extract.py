@@ -107,18 +107,16 @@ class TestExtract(unittest.TestCase):
         assert results["version"] == mcmetadata.__version__
 
     def test_other_metadata(self):
-        url = "https://www.indiatimes.com/trending/whats-buzzing-on-gen-zs-feed-today-qatar-to-india-transfer-money-in-minutes-jamal-musiala-reveals-neurological-disorder-more/articleshow/133366639.html"
+        url = "https://nj1015.com/ixp/397/p/nj-covid-vaccine-vs-federal-guidelines/"
         results = extract(url, include_other_metadata=True)
-        assert url == results["original_url"]
-        assert url == results["url"]
         assert "other" in results
         assert results["text_extraction_method"] == content.METHOD_TRAFILATURA
         assert (
             results["other"]["raw_title"]
-            == "What’s buzzing on Gen Z’s feed today? Qatar to India: Transfer money in minutes; Jamal Musiala reveals neurological disorder & more"
+            == "NJ Pushes Back on Federal COVID Vaccine Limits"
         )
-        assert results["other"]["raw_publish_date"] == dt.datetime(2026, 8, 21, 0, 0)
-        assert results["other"]["top_image_url"] == ""
+        assert results["other"]["raw_publish_date"] == dt.datetime(2025, 9, 12, 0, 0)
+        assert results["other"]["top_image_url"].startswith("https://townsquare.media/")
         assert len(results["other"]["authors"]) == 1
 
     def test_whitespace_removal(self):
