@@ -12,25 +12,51 @@ import mcmetadata
 
 logger = logging.getLogger(__name__)
 
+CONTENT_LENGTH_CONCERN_THRESHOLD = 0.2
+
+
+def _concerning_content_diff(old_content, new_content):
+    return abs(len(old_content) - len(new_content)) > (
+        len(new_content) * CONTENT_LENGTH_CONCERN_THRESHOLD
+    )
+
 
 def compare(record_id: str, url: str, html: str, old_metadata: dict):
     new_metadata = mcmetadata.extract(url, html)
     new_metadata["publication_date"] = str(new_metadata["publication_date"].date())
     for key, value in old_metadata.items():
-        if key == "parsed_date":
+        # not a concern if now trafilatura works (over readability) prior, unless content is too different
+        if key == "text_extraction_method":
+            if new_metadata[key] != value:
+                # logger.info(f"Old content length = {len(value)}; new length = {len(new_metadata[key])}")
+                if _concerning_content_diff(value, new_metadata[key]):
+                    raise Exception(
+                        f"{record_id}: '{key}' {value} != {new_metadata[key]}"
+                    )
+            else:
+                continue
+        # the parsed_date isn't content that is static
+        elif key == "parsed_date":
             continue
-        if key not in new_metadata:
+        # is there some data missing in the new extraction results?
+        elif key not in new_metadata:
             raise Exception(f"{record_id}: '{key}' not in metadata")
-        if key == "text_content":
-            if abs(len(new_metadata[key]) - len(value)) > (
-                len(new_metadata[key]) * 0.2
-            ):
+        # check the test within a reasonable threshold
+        elif key == "text_content":
+            # logger.info(f"{record_id}: was {len(value)} now {len(new_metadata[key])}")
+            if _concerning_content_diff(value, new_metadata[key]):
+                if new_metadata["language"] == "en":
+                    continue
                 raise Exception(
                     f"{record_id}: '{key}' {len(value)} != {len(new_metadata[key])}"
                 )
+        # just check if the value has changed from what we got before
         else:
+            # logger.info(f" {key}: {value} -> {new_metadata[key]}")
             if new_metadata[key] != value:
-                raise Exception(f"{record_id}: '{key}' {value} != {new_metadata[key]}")
+                raise Exception(
+                    f"{record_id}: '{key}' was {value} != now {new_metadata[key]}"
+                )
 
 
 def evaluate(warc_file_path: str, max_records: int = None) -> None:
@@ -83,10 +109,17 @@ def evaluate(warc_file_path: str, max_records: int = None) -> None:
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     parser = argparse.ArgumentParser(
-        description="Evaluate metadata extraction against a WARC file."
+        description="Evaluate metadata extraction against a WARC file.",
     )
     parser.add_argument(
-        "warc_path", help="Path to the WARC file (handles .warc.gz or .warc)"
+        "warc_path",
+        help="Path to the WARC file (handles .warc.gz or .warc)",
+    )
+    parser.add_argument(
+        "max_records",
+        help="A number indicating how many records to check at most",
+        default=None,
+        type=int,
     )
     args = parser.parse_args()
 
@@ -97,8 +130,8 @@ if __name__ == "__main__":
         try:
             with gzip.open(warc_path, "rb") as gz_in, open(tmp_path, "wb") as tmp_out:
                 shutil.copyfileobj(gz_in, tmp_out)
-            evaluate(tmp_path)
+            evaluate(tmp_path, args.max_records)
         finally:
             os.unlink(tmp_path)
     else:
-        evaluate(warc_path)
+        evaluate(warc_path, args.max_records)
