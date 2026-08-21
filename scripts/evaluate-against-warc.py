@@ -91,7 +91,7 @@ def evaluate(warc_file_path: str, max_records: int = None) -> None:
                         )
                         pass_count += 1
                     except Exception as e:
-                        logger.error(f"{record_id}: fail {e}")
+                        logger.error(f"fail {e}")
                         fail_count += 1
                     # logger.info(f"{record_id}: pass")
                     records_compared += 1
