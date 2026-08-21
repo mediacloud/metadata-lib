@@ -79,8 +79,8 @@ def from_html(url: str, html_text: str, include_metadata: bool = False) -> Dict:
                 method_success_stats[extractor.content["extraction_method"]] += 1
                 extractor.content["text"] = extractor.content["text"].strip()
                 return extractor.content
-        except BadContentError as e:
-            raise e
+        except BadContentError as bce:
+            raise bce
         except Exception:
             # if the extractor fails for any reason, just continue on to the next one
             pass
@@ -177,29 +177,27 @@ class TrafilaturaExtractor(AbstractExtractor):
     def extract(self, url: str, html_text: str, include_metadata: bool = False):
         results = trafilatura.bare_extraction(
             html_text,
-            only_with_metadata=include_metadata,
             url=url,
             include_images=include_metadata,
+            with_metadata=True,  # important to get title, authors, url, etc.
         )
         image_urls = []
         if include_metadata:
             # pull out the images embedded in the markdown
-            for match in markdown_img_path_pattern.finditer(results["text"]):
+            for match in markdown_img_path_pattern.finditer(results.text):
                 image_urls.append(match.group(1))
             # remove the image links from the full text
-            text = markdown_img_path_pattern.sub("", results["text"])
+            text = markdown_img_path_pattern.sub("", results.text)
         else:
-            text = results["text"]
+            text = results.text
         self.content = {
             "url": url,
             "text": text,
-            "title": results["title"],
-            "canonical_url": results[
-                "url"
-            ],  # Warning: This will not work with Trafilatura v1.11.* and later
-            "potential_publish_date": dateparser.parse(results["date"]),
-            "top_image_url": image_urls[0] if len(image_urls) > 0 else results["image"],
-            "authors": results["author"].split(",") if results["author"] else None,
+            "title": results.title,
+            "canonical_url": results.url,
+            "potential_publish_date": dateparser.parse(results.date),
+            "top_image_url": image_urls[0] if len(image_urls) > 0 else results.image,
+            "authors": results.author.split(",") if results.author else None,
             "extraction_method": METHOD_TRAFILATURA,
         }
 
