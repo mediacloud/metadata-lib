@@ -214,14 +214,16 @@ class TestStats(unittest.TestCase):
 
     def test_reset(self):
         url = "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm"
-        _ = extract(url)
+        raw_html = read_fixture(url)
+        _ = extract(url, raw_html)
         assert mcmetadata.stats.get("total") > 0
         mcmetadata.reset_stats()
         assert mcmetadata.stats.get("total") == 0
 
     def test_total_works(self):
         url = "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm"
-        _ = extract(url)
+        raw_html = read_fixture(url)
+        _ = extract(url, raw_html)
         assert mcmetadata.stats.get("total") > 0
         for s in mcmetadata.STAT_NAMES:
             assert s in mcmetadata.stats  # stat is recorded
@@ -233,7 +235,8 @@ class TestStats(unittest.TestCase):
         mcmetadata.reset_stats()
         local_stats = {s: 0 for s in mcmetadata.STAT_NAMES}
         url = "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm"
-        _ = extract(url, stats_accumulator=local_stats)
+        raw_html = read_fixture(url)
+        _ = extract(url, raw_html, stats_accumulator=local_stats)
         for s in mcmetadata.STAT_NAMES:  # verify global counter didn't count
             assert s in mcmetadata.stats
             assert mcmetadata.stats.get(s) == 0
