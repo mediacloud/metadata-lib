@@ -1,5 +1,4 @@
 import hashlib
-import time
 import unittest
 
 from parameterized import parameterized
@@ -8,9 +7,6 @@ from .. import urls
 
 
 class TestCanonicalDomain(unittest.TestCase):
-
-    def tearDown(self):
-        time.sleep(1)  # sleep time in seconds
 
     @parameterized.expand(
         [

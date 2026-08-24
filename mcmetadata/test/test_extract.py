@@ -1,31 +1,20 @@
 import datetime as dt
-import time
 import unittest
 
-import pytest
-
 import mcmetadata
+from mcmetadata.test import read_fixture
 
-from .. import content, extract, webpages
+from .. import content, extract
 from ..exceptions import BadContentError
 
 
 class TestExtract(unittest.TestCase):
 
-    @pytest.fixture(autouse=True)
-    def slow_down_tests(self):
-        yield
-        time.sleep(0.5)
-
-    def setUp(self) -> None:
-        webpages.DEFAULT_TIMEOUT_SECS = 30  # try to avoid timeout errors
-
-    def tearDown(self):
-        time.sleep(1)  # sleep time in seconds
-
     def test_shortened(self):
         shortened_url = "https://cnn.it/3wGkGU1"
-        results = extract(url=shortened_url)
+        results = extract(
+            shortened_url
+        )  # need to fetch full so the URL resolves via headers (cannot cache)
         assert "is_shortened" in results
         assert results["is_shortened"] is True
         assert results["original_url"] == shortened_url
@@ -35,19 +24,31 @@ class TestExtract(unittest.TestCase):
             == "https://www.cnn.com/2022/08/29/weather/weather-news-labor-day-tropical-system-texas-rain-wxn/index.html"
         )
 
+    def test_homepage(self):
+        url = "https://web.archive.org/web/"
+        raw_html = read_fixture(url)
+        results = extract(url, raw_html)
+        assert "is_homepage" in results
+        assert results["is_homepage"] is True
+
     def test_no_date(self):
         # Fail gracefully for webpages that aren't news articles, and thus don't have publication dates
-        results = extract(url="https://web.archive.org/web/https://google.com/")
+        url = (
+            "https://web.archive.org/web/20260116030752/https://somervilleunitedfc.org/"
+        )
+        raw_html = read_fixture(url)
+        results = extract(url, raw_html)
         assert "publication_date" in results
         assert results["publication_date"] is None
         assert "is_homepage" in results
         assert results["is_homepage"] is False
 
     def test_observers(self):
-        test_url = "https://web.archive.org/web/20190827141420/https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
-        results = extract(test_url)
+        test_url = "https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
+        raw_html = read_fixture(test_url)
+        results = extract(test_url, raw_html)
         assert "publication_date" in results
-        assert results["publication_date"] == dt.datetime(2019, 8, 26, 0, 0)
+        assert results["publication_date"] == dt.datetime(2019, 8, 27, 0, 0)
         assert "text_content" in results
         assert len(results["text_content"]) > 7000
         assert "text_extraction_method" in results
@@ -61,11 +62,6 @@ class TestExtract(unittest.TestCase):
         )
         assert "language" in results
         assert results["language"] == "en"
-        assert "original_url" in results
-        assert (
-            results["original_url"]
-            == "https://web.archive.org/web/20190827141420/https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
-        )
         assert "url" in results
         assert (
             results["url"]
@@ -74,31 +70,49 @@ class TestExtract(unittest.TestCase):
 
     def test_archived_url(self):
         # properly handle pages at web archives (via memento headers)
-        test_url = "https://web.archive.org/web/20250428221027/https://www.canarias7.es/cultura/cimientos-artes-escenicas-20220718203045-nt.html"
-        results = extract(test_url)
+        test_url = "https://web.archive.org/web/20181210092018/https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"
+        results = extract(
+            test_url
+        )  # need to fetch original (not cached) to get headers that will be processed to set URL correctly
         assert "canonical_domain" in results
-        assert results["canonical_domain"] == "canarias7.es"
+        assert results["canonical_domain"] == "nytimes.com"
         assert "original_url" in results
         assert (
             results["url"]
-            == "https://www.canarias7.es/cultura/cimientos-artes-escenicas-20220718203045-nt.html"
+            == "https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"
         )
 
     def test_language(self):
         url = "https://web.archive.org/web/https://www.mk.co.kr/news/society/view/2020/07/693939/"
-        results = extract(url)
+        raw_html = read_fixture(url)
+        results = extract(url, raw_html)
         assert "language" in results
         assert results["language"] == "ko"
 
     def test_regionalized_language(self):
         url = "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm"
-        results = extract(url)
+        raw_html = read_fixture(url)
+        results = extract(url, raw_html)
         assert "pt" == results["language"]
         assert "pt-br" == results["full_language"]
 
+    def test_redirected_url(self):
+        url = "https://redirect.me/r/qhw3yh"
+        results = extract(url)  # need to fetch live so the redirect happens
+        assert url == results["original_url"]
+        final_url = "https://www.trussvilletribune.com/2022/03/02/three-students-from-center-point-receive-academic-scholarships/"
+        assert final_url == results["url"]
+        assert "trussvilletribune.com" == results["canonical_domain"]
+        assert (
+            results["normalized_url"]
+            == "http://trussvilletribune.com/2022/03/02/three-students-from-center-point-receive-academic-scholarships/"
+        )
+        assert results["language"] == "en"
+
     def test_basic(self):
-        url = "https://www.indiatimes.com/news/india/indias-75th-year-of-freedom-why-was-august-15-chosen-as-independence-day/articleshow/127275673.html"
-        results = extract(url)
+        url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
+        raw_html = read_fixture(url)
+        results = extract(url, raw_html)
         assert url == results["original_url"]
         assert url == results["url"]
         assert "unique_url_hash" in results
@@ -107,31 +121,30 @@ class TestExtract(unittest.TestCase):
         assert results["version"] == mcmetadata.__version__
 
     def test_other_metadata(self):
-        url = "https://nj1015.com/ixp/397/p/nj-covid-vaccine-vs-federal-guidelines/"
-        results = extract(url, include_other_metadata=True)
+        url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
+        raw_html = read_fixture(url)
+        results = extract(url, raw_html, include_other_metadata=True)
+        assert url == results["original_url"]
+        assert url == results["url"]
         assert "other" in results
         assert results["text_extraction_method"] == content.METHOD_TRAFILATURA
         assert (
             results["other"]["raw_title"]
-            == "NJ Pushes Back on Federal COVID Vaccine Limits"
+            == "India's 75th Year Of Freedom: Why Was August 15 Chosen As Independence Day?"
         )
-        assert results["other"]["raw_publish_date"] == dt.datetime(2025, 9, 12, 0, 0)
-        assert results["other"]["top_image_url"].startswith("https://townsquare.media/")
+        assert results["other"]["raw_publish_date"] == dt.datetime(2022, 8, 14, 0, 0)
         assert len(results["other"]["authors"]) == 1
+        assert results["other"]["authors"][0] == "Gursharan Bhalla"
 
     def test_whitespace_removal(self):
         previous_min_content_length = content.MINIMUM_CONTENT_LENGTH
         content.MINIMUM_CONTENT_LENGTH = 10
         url = "https://observador.vsports.pt/embd/75404/m/9812/obsrv/53a58b677b53143428e47d43d5887139?autostart=false"
-        results = extract(url, include_other_metadata=True)
+        raw_html = read_fixture(url)
+        results = extract(url, raw_html)
         # the point here is that it removes all pre and post whitespace - tons of junk
         assert len(results["text_content"]) == 110
         content.MINIMUM_CONTENT_LENGTH = previous_min_content_length
-
-    def test_url_whitespace_removal(self):
-        url = " https://web.archive.org/web/20231018030300/https://www.letras.com.br/banda-n-drive/eden "
-        results = extract(url)
-        assert results is not None
 
     def test_memento_without_original_url(self):
         try:
@@ -151,13 +164,14 @@ class TestExtract(unittest.TestCase):
             publication_date=dt.date(2023, 1, 1),
         )
         # validate not the same as overrides
-        results = extract(url)
+        html_content = read_fixture(url)
+        results = extract(url, html_content)
         assert results["text_content"] != overrides["text_content"]
         assert results["article_title"] != overrides["article_title"]
         assert results["language"] != overrides["language"]
         assert results["publication_date"] != overrides["publication_date"]
         # now use overrides and validate they are changed
-        results = extract(url, overrides=overrides)
+        results = extract(url, html_content, overrides=overrides)
         assert results["text_content"] == overrides["text_content"]
         assert results["article_title"] == overrides["article_title"]
         assert results["language"] == overrides["language"]

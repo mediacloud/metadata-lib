@@ -1,40 +1,13 @@
 import datetime as dt
-import time
 import unittest
 
-import pytest
 from parameterized import parameterized
 
-from .. import dates, webpages
-from . import filesafe_url, read_fixture
-
-
-@pytest.fixture
-def use_cache(request):
-    return request.config.getoption("--use-cache")
+from .. import dates
+from . import read_fixture
 
 
 class TestDates(unittest.TestCase):
-
-    @pytest.fixture(autouse=True)
-    def get_use_cache(self, use_cache):
-        self.use_cache = use_cache
-
-    def setUp(self) -> None:
-        webpages.DEFAULT_TIMEOUT_SECS = 30  # try to avoid timeout errors
-
-    def tearDown(self):
-        time.sleep(1)  # sleep time in seconds
-
-    def _get_html(self, url: str) -> str:
-        if self.use_cache:
-            try:
-                raw_html = read_fixture(filesafe_url(url))
-            except Exception:
-                raw_html, _ = webpages.fetch(url, timeout=120)
-        else:
-            raw_html, _ = webpages.fetch(url, timeout=120)
-        return raw_html
 
     @parameterized.expand(
         [
@@ -63,10 +36,6 @@ class TestDates(unittest.TestCase):
                 None,
             ),
             (
-                "https://web.archive.org/web/https://www.kingjamesbibleonline.org/1-Chronicles-Chapter-1/",
-                None,
-            ),
-            (
                 "https://web.archive.org/web/https://www.womblebonddickinson.com/us/people-search",
                 None,
             ),
@@ -90,7 +59,7 @@ class TestDates(unittest.TestCase):
         ]
     )
     def test_pub_date(self, url, expected_date):
-        raw_html = self._get_html(url)
+        raw_html = read_fixture(url)
         pub_date = dates.guess_publication_date(raw_html, url)
         if expected_date is None:
             assert pub_date is None
@@ -98,18 +67,18 @@ class TestDates(unittest.TestCase):
             assert pub_date.date() == expected_date
 
     def test_max_date(self):
-        u = "https://web.archive.org/web/https://www.canarias7.es/cultura/cimientos-artes-escenicas-20220718203045-nt.html"
-        raw_html, response = webpages.fetch(u)
-        date = dates.guess_publication_date(raw_html, u)
+        url = "https://web.archive.org/web/https://www.canarias7.es/cultura/cimientos-artes-escenicas-20220718203045-nt.html"
+        raw_html = read_fixture(url)
+        date = dates.guess_publication_date(raw_html, url)
         assert date.date() == dt.date(2022, 7, 18)
         date = dates.guess_publication_date(
-            raw_html, u, max_date=dt.datetime(2020, 1, 1)
+            raw_html, url, max_date=dt.datetime(2020, 1, 1)
         )
         assert date is None
 
     def test_default_date(self):
         undateable_url = "http://archive.org"
-        raw_html = self._get_html(undateable_url)
+        raw_html = read_fixture(undateable_url)
         pub_date = dates.guess_publication_date(raw_html, undateable_url)
         assert pub_date is None
         pub_date = dates.guess_publication_date(

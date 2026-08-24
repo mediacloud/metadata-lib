@@ -15,7 +15,7 @@ class TestFetch(unittest.TestCase):
         time.sleep(0.5)
 
     def test_regular_fetch(self):
-        url = "https://web.archive.org/web/https://bostonglobe.com"
+        url = "https://bostonglobe.com"
         html, response = webpages.fetch(url)
         assert response.status_code == 200
         assert "Boston Globe" in html

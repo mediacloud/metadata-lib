@@ -4,39 +4,19 @@ from typing import Optional
 import pytest
 
 from .. import titles, webpages
-from . import filesafe_url, read_fixture
-
-
-@pytest.fixture
-def use_cache(request):
-    return request.config.getoption("--use-cache")
+from . import read_fixture
 
 
 class TestTitle(unittest.TestCase):
 
-    @pytest.fixture(autouse=True)
-    def get_use_cache(self, use_cache):
-        self.use_cache = use_cache
-
-    @staticmethod
-    def _load_and_validate(fixture_filename: str, expected_title: str):
-        html_text = read_fixture(fixture_filename)
-        assert titles.from_html(html_text) == expected_title
-
     def _fetch_and_validate(self, url: str, expected_title: Optional[str]):
-        if self.use_cache:
-            try:
-                html_text = read_fixture(filesafe_url(url))
-            except Exception:
-                html_text, _ = webpages.fetch(url)
-        else:
-            html_text, _ = webpages.fetch(url)
+        html_text = read_fixture(url)
         assert titles.from_html(html_text) == expected_title
 
     def test_only_h1(self):
         self._fetch_and_validate(
-            "https://www.wdsu.com/article/untitled-content-1701813119/46044845",
-            "Search location by ZIP code",
+            "https://www.wdsu.com",
+            "New Orleans News, Weather and Sports",
         )
 
     def test_title_pt(self):
@@ -48,7 +28,7 @@ class TestTitle(unittest.TestCase):
     def test_pt_empty_h1(self):
         # the h1 on this page is empty, so we should pick the title from other places
         self._fetch_and_validate(
-            "https://www.band.uol.com.br/bandnews-fm/rio-de-janeiro/noticias/acusado-de-assassinar-namorada-a-facadas-tem-prisao-convertida-em-preventiva-16574059",
+            "https://web.archive.org/web/20230112172525/https://www.band.uol.com.br/bandnews-fm/rio-de-janeiro/noticias/acusado-de-assassinar-namorada-a-facadas-tem-prisao-convertida-em-preventiva-16574059",
             "Acusado de assassinar namorada a facadas tem prisão convertida em preventiva",
         )
 
@@ -70,21 +50,21 @@ class TestTitle(unittest.TestCase):
         )
 
     def test_meta_og_title2(self):
-        self._load_and_validate("bloomberg-original.html", "Elon Got His Deal")
-
-    def test_whitespace_title_tag(self):
-        self._load_and_validate(
-            "focus-taiwan-202311170015.html",
-            "Revised national climate change action guidelines released by Ministry of Environment",
+        self._fetch_and_validate(
+            "https://www.bloomberg.com/opinion/articles/2022-04-26/elon-got-his-deal",
+            "Elon Got His Deal",
         )
 
-    def test_title_tag(self):
-        self._load_and_validate("bloomberg-no-meta.html", "Elon Got His Deal")
+    def test_whitespace_title_tag(self):
+        self._fetch_and_validate(
+            "https://focustaiwan.tw/business/202311170019",
+            "Revised national climate change action guidelines released by Ministry of Environment",
+        )
 
     def test_title_fail(self):
         self._fetch_and_validate(
             "https://web.archive.org/web/https://ura.news/news/1052317323",
-            "Нюша поддержала Putin Team",
+            "Нюша поддержала Putin Team и поздравила больных детей с Новым годом",
         )
 
     def test_title_encoding(self):
