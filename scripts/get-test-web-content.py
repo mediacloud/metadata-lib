@@ -9,7 +9,7 @@ from mcmetadata.test import cached_url_file_name
 The purpose of this script is to grab all of the urls present in the tests directory and cache the content in the
 fixtures folder. The filenames will be equal to the alphanumeric content of the surt-ified url- this way, we can run
 the tests against known cached content instead of having to query the IA everytime we want to test.
-Run from root directory as python scrips/get-test-web-content.py
+Run from root directory as python scripts/get-test-web-content.py
 """
 
 TEST_DIR = "mcmetadata/test"
