@@ -1,19 +1,12 @@
-import time
 import unittest
 from typing import Optional
 
 import lxml.html
-import pytest
 import requests
 
 from .. import content, webpages
 from ..exceptions import BadContentError
-from . import filesafe_url, read_fixture
-
-
-@pytest.fixture
-def use_cache(pytestconfig):
-    return pytestconfig.getoption("--use-cache")
+from . import read_fixture
 
 
 class TestContentMetadata(unittest.TestCase):
@@ -21,37 +14,20 @@ class TestContentMetadata(unittest.TestCase):
     EXPRECTED_IMG_URL = "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-02/260225-moderna-covid-vaccine-vl-312p-924ca2.jpg"
 
     def test_top_image(self):
-        html_text, response = webpages.fetch(self.URL)
-        meta = content.from_html(self.URL, html_text, False)
-        assert meta["top_image_url"] == self.EXPRECTED_IMG_URL
-        meta = content.from_html(self.URL, html_text, True)
+        html_text = read_fixture(self.URL)
+        meta = content.from_html(self.URL, html_text)
         assert meta["top_image_url"] == self.EXPRECTED_IMG_URL
 
 
-# @pytest.mark.usefixtures("use_cache")
 class TestContentParsers(unittest.TestCase):
 
     URL = "https://web.archive.org/web/https://www.cnn.com/2021/04/30/politics/mcconnell-1619-project-education-secretary/index.html"
 
-    @pytest.fixture(autouse=True)
-    def get_use_cache(self, use_cache):
-        self.use_cache = use_cache
-
-    def tearDown(self):
-        time.sleep(1)  # sleep time in seconds
-
     def setUp(self) -> None:
-        webpages.DEFAULT_TIMEOUT_SECS = 30  # try to avoid timeout errors
-        if self.use_cache:
-            try:
-                self.html_content = read_fixture(filesafe_url(self.URL))
-            except Exception:
-                self.html_content, _ = webpages.fetch(self.URL)
-        else:
-            self.html_content, self.response = webpages.fetch(self.URL)
+        # load the content once and run parsers on exact same HTML
+        self.html_content = read_fixture(self.URL)
 
     def test_readability(self):
-
         extractor = content.ReadabilityExtractor()
         extractor.extract(self.URL, self.html_content)
         assert extractor.worked() is True
@@ -94,25 +70,12 @@ class TestContentParsers(unittest.TestCase):
 
 class TestContentFromUrl(unittest.TestCase):
 
-    def setUp(self) -> None:
-        webpages.DEFAULT_TIMEOUT_SECS = 30  # try to avoid timeout errors
-
-    @pytest.fixture(autouse=True)
-    def get_use_cache(self, use_cache):
-        self.use_cache = use_cache
-
-    def tearDown(self):
-        time.sleep(1)  # sleep time in seconds
-
     def _fetch_and_validate(self, url: str, expected_method: Optional[str]):
-        if self.use_cache:
-            try:
-                html_text = read_fixture(filesafe_url(url))
-            except Exception:
-                html_text, _ = webpages.fetch(url)
-        else:
-            html_text, _ = webpages.fetch(url)
-        results = content.from_html(url, html_text)
+        # these should all be cached locally
+        html_text = read_fixture(url)
+        results = content.from_html(
+            url, html_text
+        )  # will throw BadContentError if needed
         assert results["url"] == url
         assert len(results["text"]) > content.MINIMUM_CONTENT_LENGTH
         assert results["extraction_method"] == expected_method
@@ -130,24 +93,6 @@ class TestContentFromUrl(unittest.TestCase):
             self._fetch_and_validate(url, content.METHOD_TRAFILATURA)
             assert False
         except BadContentError:
-            assert True
-
-    def test_failing_url(self):
-        url = "chrome://newtab/"
-        try:
-            self._fetch_and_validate(url, None)
-            assert False
-        except requests.exceptions.InvalidSchema:
-            # this is an image, so it should return nothing
-            assert True
-
-    def test_not_html(self):
-        url = "https://s3.amazonaws.com/CFSV2/obituaries/photos/4736/635311/5fecf89b1a6fb.jpeg"
-        try:
-            self._fetch_and_validate(url, None)
-            assert False
-        except RuntimeError:
-            # this is an image, so it should return nothing
             assert True
 
     def test_lanacion(self):
@@ -207,6 +152,26 @@ class TestContentFromUrl(unittest.TestCase):
             self._fetch_and_validate(url, None)
             assert False
         except BadContentError:
+            assert True
+
+    def test_failing_url(self):
+        # run this one against live internet connection to verify schema fails
+        url = "chrome://newtab/"
+        try:
+            _, _ = webpages.fetch(url)
+            assert False
+        except requests.exceptions.InvalidSchema:
+            # this is an image, so it should return nothing
+            assert True
+
+    def test_not_html(self):
+        # run this one against live internet to get image because that won't cache
+        url = "https://s3.amazonaws.com/CFSV2/obituaries/photos/4736/635311/5fecf89b1a6fb.jpeg"
+        try:
+            _, _ = webpages.fetch(url)
+            assert False
+        except RuntimeError:
+            # this is an image, so it should return nothing
             assert True
 
 

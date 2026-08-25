@@ -1,30 +1,13 @@
 import unittest
 
-import pytest
-
-from .. import content, languages, webpages
-from . import filesafe_url, read_fixture
-
-
-@pytest.fixture
-def use_cache(request):
-    return request.config.getoption("--use-cache")
+from .. import content, languages
+from . import read_fixture
 
 
 class TestLanguageFromText(unittest.TestCase):
 
-    @pytest.fixture(autouse=True)
-    def get_use_cache(self, use_cache):
-        self.use_cache = use_cache
-
     def _fetch_and_validate(self, url: str, expected_language_code: str):
-        if self.use_cache:
-            try:
-                html_text = read_fixture(filesafe_url(url))
-            except Exception:
-                html_text, _ = webpages.fetch(url)
-        else:
-            html_text, _ = webpages.fetch(url)
+        html_text = read_fixture(url)
         article = content.from_html(url, html_text)
         lang_code = languages._from_text(article["text"])
         assert lang_code == expected_language_code
@@ -67,18 +50,8 @@ class TestLanguageFromText(unittest.TestCase):
 
 class TestLanguageFromHtml(unittest.TestCase):
 
-    @pytest.fixture(autouse=True)
-    def get_use_cache(self, use_cache):
-        self.use_cache = use_cache
-
     def _fetch_and_validate(self, url: str, expected_language_code: str):
-        if self.use_cache:
-            try:
-                html_text = read_fixture(filesafe_url(url))
-            except Exception:
-                html_text, _ = webpages.fetch(url)
-        else:
-            html_text, _ = webpages.fetch(url)
+        html_text = read_fixture(url)
         article = content.from_html(url, html_text)
         lang_code = languages.from_html(html_text, article["text"])
         assert lang_code == expected_language_code

@@ -8,6 +8,7 @@ repos:
       - id: end-of-file-fixer
       - id: check-yaml
       - id: check-added-large-files
+        exclude: ^mcmetadata/test/fixtures/
       - id: check-json
       - id: check-toml
 #  - repo: http://github.com/pre-commit/mirrors-mypy
