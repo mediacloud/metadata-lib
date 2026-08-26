@@ -6,7 +6,7 @@ import requests
 
 from .. import content, webpages
 from ..exceptions import BadContentError
-from . import read_fixture
+from . import mock_fetch
 
 
 class TestContentMetadata(unittest.TestCase):
@@ -14,7 +14,7 @@ class TestContentMetadata(unittest.TestCase):
     EXPRECTED_IMG_URL = "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-02/260225-moderna-covid-vaccine-vl-312p-924ca2.jpg"
 
     def test_top_image(self):
-        html_text = read_fixture(self.URL)
+        html_text, _ = mock_fetch(self.URL)
         meta = content.from_html(self.URL, html_text)
         assert meta["top_image_url"] == self.EXPRECTED_IMG_URL
 
@@ -25,7 +25,7 @@ class TestContentParsers(unittest.TestCase):
 
     def setUp(self) -> None:
         # load the content once and run parsers on exact same HTML
-        self.html_content = read_fixture(self.URL)
+        self.html_content, _ = mock_fetch(self.URL)
 
     def test_readability(self):
         extractor = content.ReadabilityExtractor()
@@ -72,7 +72,7 @@ class TestContentFromUrl(unittest.TestCase):
 
     def _fetch_and_validate(self, url: str, expected_method: Optional[str]):
         # these should all be cached locally
-        html_text = read_fixture(url)
+        html_text, _ = mock_fetch(url)
         results = content.from_html(
             url, html_text
         )  # will throw BadContentError if needed

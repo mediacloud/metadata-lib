@@ -5,6 +5,8 @@ import pytest
 import requests
 
 from .. import webpages
+from ..exceptions import BadContentError
+from . import mock_fetch
 
 
 class TestFetch(unittest.TestCase):
@@ -16,18 +18,21 @@ class TestFetch(unittest.TestCase):
 
     def test_regular_fetch(self):
         url = "https://bostonglobe.com"
-        html, response = webpages.fetch(url)
+        html_bytes, response = webpages.fetch(url)
         assert response.status_code == 200
-        assert "Boston Globe" in html
+        assert isinstance(html_bytes, bytes)
+        html_text = webpages.html_from_bytes(html_bytes)
+        assert "Boston Globe" in html_text
         assert response.encoding == "utf-8"
 
     def test_non_utf8_encoding_fix(self):
         url = "https://web.archive.org/web/https://www.mk.co.kr/news/society/view/2020/07/693939/"
-        html, response = webpages.fetch(url, fix_encoding=False)
+        html_bytes, response = webpages.fetch(url, fix_encoding=False)
         assert response.status_code == 200
+        assert isinstance(html_bytes, bytes)
         assert response.encoding == "ISO-8859-1"
         assert response.apparent_encoding == "EUC-KR"
-        html, response = webpages.fetch(url, fix_encoding=True)
+        html_bytes, response = webpages.fetch(url, fix_encoding=True)
         assert response.status_code == 200
         assert response.encoding == "EUC-KR"
         assert response.apparent_encoding == "EUC-KR"
@@ -47,6 +52,35 @@ class TestFetch(unittest.TestCase):
             assert False
         except RuntimeError:
             assert True
+
+    class TestFinalUrl(unittest.TestCase):
+
+        def test_archived_url(self):
+            # properly handle pages at web archives (via memento headers)
+            original_url = "https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"
+            test_url = "https://web.archive.org/web/20181210092018/https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"
+            headers = {
+                "memento-datetime": "Mon, 10 Dec 2018 09:20:18 GMT",
+                "link": f'<{original_url}>; rel="original"',
+            }
+            raw_html, response = mock_fetch(test_url, headers=headers)
+            final_url = webpages.final_url(response)
+            # Did it correctly pull the original URL out of the link header because the memento-datetime was there?
+            assert final_url == original_url
+
+        def test_memento_without_original_url(self):
+            try:
+                test_url = "https://web.archive.org/web/20210412063445id_/https://ehp.niehs.nih.gov/action/doUpdateAlertSettings?action=addJournal&journalCode=ehp&referrer=/action/doSearch?ContribAuthorRaw=Davis%2C+Jacquelyn&ContentItemType=research-article&startPage=&ContribRaw=Martin%2C+Denny"
+                headers = {
+                    "memento-datetime": "Mon, 10 Dec 2018 09:20:18 GMT",
+                }
+                raw_html, response = mock_fetch(test_url, headers=headers)
+                _ = webpages.final_url(
+                    response
+                )  # should raise BadContentError, since archived but we can't tell from where
+                assert False
+            except BadContentError:
+                assert True
 
 
 if __name__ == "__main__":

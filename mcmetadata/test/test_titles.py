@@ -4,13 +4,13 @@ from typing import Optional
 import pytest
 
 from .. import titles, webpages
-from . import read_fixture
+from . import mock_fetch
 
 
 class TestTitle(unittest.TestCase):
 
     def _fetch_and_validate(self, url: str, expected_title: Optional[str]):
-        html_text = read_fixture(url)
+        html_text, _ = mock_fetch(url)
         assert titles.from_html(html_text) == expected_title
 
     def test_only_h1(self):
