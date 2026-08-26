@@ -6,7 +6,10 @@ build-backend = "flit_core.buildapi"
 name = "mediacloud-metadata"
 version = "1.4.3"
 authors = [
-    {name='Rahul Bhargava', email='rahul@mediacloud.org'}
+    {name='Rahul Bhargava'},
+    {name='Paige Gulley'},
+    {name='Michael Hudson Nkotagu'},
+    {name='Phil Budne'},
 ]
 description='Media Cloud news article metadata extraction'
 readme = "README.md"
