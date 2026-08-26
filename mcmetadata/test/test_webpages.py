@@ -16,18 +16,21 @@ class TestFetch(unittest.TestCase):
 
     def test_regular_fetch(self):
         url = "https://bostonglobe.com"
-        html, response = webpages.fetch(url)
+        html_bytes, response = webpages.fetch(url)
         assert response.status_code == 200
-        assert "Boston Globe" in html
+        assert isinstance(html_bytes, bytes)
+        html_text = webpages.html_from_bytes(html_bytes)
+        assert "Boston Globe" in html_text
         assert response.encoding == "utf-8"
 
     def test_non_utf8_encoding_fix(self):
         url = "https://web.archive.org/web/https://www.mk.co.kr/news/society/view/2020/07/693939/"
-        html, response = webpages.fetch(url, fix_encoding=False)
+        html_bytes, response = webpages.fetch(url, fix_encoding=False)
         assert response.status_code == 200
+        assert isinstance(html_bytes, bytes)
         assert response.encoding == "ISO-8859-1"
         assert response.apparent_encoding == "EUC-KR"
-        html, response = webpages.fetch(url, fix_encoding=True)
+        html_bytes, response = webpages.fetch(url, fix_encoding=True)
         assert response.status_code == 200
         assert response.encoding == "EUC-KR"
         assert response.apparent_encoding == "EUC-KR"

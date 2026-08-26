@@ -44,6 +44,7 @@ def extract(
     defaults: Mapping[str, Any] = {},
     overrides: Mapping[str, Any] = {},
     stats_accumulator: Mapping[str, int] = None,
+    html_bytes: Optional[bytes] = None,
 ) -> Dict:
     """
     The core method of this library - returns all the useful information extracted from the HTML of the next
@@ -66,6 +67,9 @@ def extract(
                  stats yourself _instead_ of in the module-level `stats` counter. If you pass this in then the
                  timings for the call will _not_ be added to the module-level `stats` counter. Should contain keys
                  for `STAT_NAMES` (see above).
+    :param bytes html_bytes: (optional) Supply the raw HTML bytes you already fetched from that URL. If provided,
+                             encoding detection is done once using trafilatura's decode_file. Takes precedence over
+                             html_text if both are supplied.
     """
     if (
         stats_accumulator is None
@@ -74,8 +78,12 @@ def extract(
     t0 = time.monotonic()
     # first fetch the real content (if we need to)
     t1 = t0
-    if html_text is None:
-        raw_html, response = webpages.fetch(url)
+    if html_bytes is not None:
+        # Caller supplied raw bytes; decode once here so all downstream code gets a str
+        final_url = url
+        raw_html = webpages.html_from_bytes(html_bytes)
+    elif html_text is None:
+        raw_html_bytes, response = webpages.fetch(url)
         # check for archived URLs
         if "memento-datetime" in response.headers:
             try:
@@ -88,6 +96,7 @@ def extract(
                 final_url = response.url  # followed all the redirects
         else:
             final_url = response.url  # followed all the redirects
+        raw_html = webpages.html_from_bytes(raw_html_bytes)
     else:
         final_url = (
             url  # trust that the user knows which URL the content actually came from

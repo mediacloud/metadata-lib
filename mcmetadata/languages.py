@@ -3,7 +3,6 @@ import re
 from typing import Optional
 
 import py3langid as langid
-import trafilatura.utils
 
 logger = logging.getLogger(__name__)
 
@@ -67,10 +66,8 @@ def _pick_between_languages(
 
 
 def _from_text(content: str) -> Optional[str]:
-    # make sure a misleading encoding doesn't mess us up
-    decoded_content = trafilatura.utils.decode_file(content)
     try:
-        lang, prob = langid.classify(decoded_content)
+        lang, prob = langid.classify(content)
         return lang
     except Exception:
         return None
