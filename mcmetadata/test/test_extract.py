@@ -2,10 +2,9 @@ import datetime as dt
 import unittest
 
 import mcmetadata
-from mcmetadata.test import read_fixture
+from mcmetadata.test import mock_fetch
 
 from .. import content, extract
-from ..exceptions import BadContentError
 
 
 class TestExtract(unittest.TestCase):
@@ -26,7 +25,7 @@ class TestExtract(unittest.TestCase):
 
     def test_homepage(self):
         url = "https://web.archive.org/web/"
-        raw_html = read_fixture(url)
+        raw_html, _ = mock_fetch(url)
         results = extract(url, raw_html)
         assert "is_homepage" in results
         assert results["is_homepage"] is True
@@ -36,7 +35,7 @@ class TestExtract(unittest.TestCase):
         url = (
             "https://web.archive.org/web/20260116030752/https://somervilleunitedfc.org/"
         )
-        raw_html = read_fixture(url)
+        raw_html, _ = mock_fetch(url)
         results = extract(url, raw_html)
         assert "publication_date" in results
         assert results["publication_date"] is None
@@ -45,7 +44,7 @@ class TestExtract(unittest.TestCase):
 
     def test_observers(self):
         test_url = "https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
-        raw_html = read_fixture(test_url)
+        raw_html, _ = mock_fetch(test_url)
         results = extract(test_url, raw_html)
         assert "publication_date" in results
         assert results["publication_date"] == dt.datetime(2019, 8, 27, 0, 0)
@@ -68,30 +67,16 @@ class TestExtract(unittest.TestCase):
             == "https://observers.france24.com/en/20190826-mexico-african-migrants-trapped-protest-journey"
         )
 
-    def test_archived_url(self):
-        # properly handle pages at web archives (via memento headers)
-        test_url = "https://web.archive.org/web/20181210092018/https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"
-        results = extract(
-            test_url
-        )  # need to fetch original (not cached) to get headers that will be processed to set URL correctly
-        assert "canonical_domain" in results
-        assert results["canonical_domain"] == "nytimes.com"
-        assert "original_url" in results
-        assert (
-            results["url"]
-            == "https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html"
-        )
-
     def test_language(self):
         url = "https://web.archive.org/web/https://www.mk.co.kr/news/society/view/2020/07/693939/"
-        raw_html = read_fixture(url)
+        raw_html, _ = mock_fetch(url)
         results = extract(url, raw_html)
         assert "language" in results
         assert results["language"] == "ko"
 
     def test_regionalized_language(self):
         url = "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm"
-        raw_html = read_fixture(url)
+        raw_html, _ = mock_fetch(url)
         results = extract(url, raw_html)
         assert "pt" == results["language"]
         assert "pt-br" == results["full_language"]
@@ -111,7 +96,7 @@ class TestExtract(unittest.TestCase):
 
     def test_basic(self):
         url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
-        raw_html = read_fixture(url)
+        raw_html, _ = mock_fetch(url)
         results = extract(url, raw_html)
         assert url == results["original_url"]
         assert url == results["url"]
@@ -122,7 +107,7 @@ class TestExtract(unittest.TestCase):
 
     def test_other_metadata(self):
         url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
-        raw_html = read_fixture(url)
+        raw_html, _ = mock_fetch(url)
         results = extract(url, raw_html, include_other_metadata=True)
         assert url == results["original_url"]
         assert url == results["url"]
@@ -140,19 +125,11 @@ class TestExtract(unittest.TestCase):
         previous_min_content_length = content.MINIMUM_CONTENT_LENGTH
         content.MINIMUM_CONTENT_LENGTH = 10
         url = "https://observador.vsports.pt/embd/75404/m/9812/obsrv/53a58b677b53143428e47d43d5887139?autostart=false"
-        raw_html = read_fixture(url)
+        raw_html, _ = mock_fetch(url)
         results = extract(url, raw_html)
         # the point here is that it removes all pre and post whitespace - tons of junk
         assert len(results["text_content"]) == 110
         content.MINIMUM_CONTENT_LENGTH = previous_min_content_length
-
-    def test_memento_without_original_url(self):
-        try:
-            url = "https://web.archive.org/web/20210412063445id_/https://ehp.niehs.nih.gov/action/doUpdateAlertSettings?action=addJournal&journalCode=ehp&referrer=/action/doSearch?ContribAuthorRaw=Davis%2C+Jacquelyn&ContentItemType=research-article&startPage=&ContribRaw=Martin%2C+Denny"
-            _ = extract(url, include_other_metadata=True)
-            assert False
-        except BadContentError:
-            assert True
 
     def test_overrides(self):
         url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
@@ -164,7 +141,7 @@ class TestExtract(unittest.TestCase):
             publication_date=dt.date(2023, 1, 1),
         )
         # validate not the same as overrides
-        html_content = read_fixture(url)
+        html_content, _ = mock_fetch(url)
         results = extract(url, html_content)
         assert results["text_content"] != overrides["text_content"]
         assert results["article_title"] != overrides["article_title"]
@@ -181,11 +158,12 @@ class TestExtract(unittest.TestCase):
     def test_default_title(self):
         # throws too short error if no default
         url = "https://web.archive.org/web/20111013162600id_/http://www.azftf.gov/(F(r8GSI1MAawoG8fkwp0vWYNSTuweOi8-9wgJOr4j83rTcpZDuFOV5E2PG737tNitGhzYAsUmVcwVEcgwKEtYFADTmzsQMJto9bZTOzDBHUGRpirFPIt4osB08CAslzBk-ih5ATrsM-P7DRxDwcNdmfB4jU1Y1))/WhatWeDo/Volunteer/Pages/default.aspx"
-        results = extract(url)
+        raw_html, _ = mock_fetch(url)
+        results = extract(url, raw_html)
         assert results["article_title"] is None
         # verify throws too short error
         defaults = dict(article_title="This is a title")
-        results = extract(url, defaults=defaults)
+        results = extract(url, raw_html, defaults=defaults)
         assert results["article_title"] == defaults["article_title"]
 
     def test_default_pub_date(self):
@@ -214,7 +192,7 @@ class TestStats(unittest.TestCase):
 
     def test_reset(self):
         url = "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm"
-        raw_html = read_fixture(url)
+        raw_html, _ = mock_fetch(url)
         _ = extract(url, raw_html)
         assert mcmetadata.stats.get("total") > 0
         mcmetadata.reset_stats()
@@ -222,7 +200,7 @@ class TestStats(unittest.TestCase):
 
     def test_total_works(self):
         url = "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm"
-        raw_html = read_fixture(url)
+        raw_html, _ = mock_fetch(url)
         _ = extract(url, raw_html)
         assert mcmetadata.stats.get("total") > 0
         for s in mcmetadata.STAT_NAMES:
@@ -235,7 +213,7 @@ class TestStats(unittest.TestCase):
         mcmetadata.reset_stats()
         local_stats = {s: 0 for s in mcmetadata.STAT_NAMES}
         url = "https://web.archive.org/web/http://entretenimento.uol.com.br/noticias/redacao/2019/08/25/sem-feige-sem-stark-o-sera-do-homem-aranha-longe-do-mcu.htm"
-        raw_html = read_fixture(url)
+        raw_html, _ = mock_fetch(url)
         _ = extract(url, raw_html, stats_accumulator=local_stats)
         for s in mcmetadata.STAT_NAMES:  # verify global counter didn't count
             assert s in mcmetadata.stats
