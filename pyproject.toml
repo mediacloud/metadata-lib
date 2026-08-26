@@ -59,7 +59,7 @@ dev = [
     "types-requests==2.32.*",
     "black==24.4.*"
 ]
-test = [ "pytest", "parameterized" ]
+test = [ "pytest", "parameterized", "requests-mock" ]
 
 [project.urls]
 "Homepage" = "https://mediacloud.org"

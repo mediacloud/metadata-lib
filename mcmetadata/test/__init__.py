@@ -1,6 +1,10 @@
 import hashlib
 import logging
 import os
+from typing import Tuple
+
+import requests
+import requests_mock
 
 import mcmetadata.webpages as webpages
 
@@ -11,19 +15,25 @@ fixtures_dir = os.path.join(test_dir, "fixtures")
 logger = logging.getLogger(__name__)
 
 
-def read_fixture(url: str) -> str:
+def mock_fetch(url: str, headers: dict = None) -> Tuple[str, requests.Response]:
     """
-    This wll either load the cached HTML from disk, or run a live request and return HTML
+    Loads the cached HTML for `url` from disk and mocks the HTTP request so that
+    `webpages.fetch(url)` returns it, exercising the real fetch code path. Falls back to a
+    live request on a cache miss.  Returns the decoded HTML string and response.
     """
-    try:
-        cached_file_name = cached_url_file_name(url)
-        with open(os.path.join(fixtures_dir, cached_file_name)) as f:
-            html_text = f.read()
-        return html_text
-    except FileNotFoundError:
+    if headers is None:
+        headers = {}
+    cached_file_path = os.path.join(fixtures_dir, cached_url_file_name(url))
+    if not os.path.exists(cached_file_path):
         logger.error(f"Cache miss on URL: loading live fetch {url}")
-        html_text, response = webpages.fetch(url)
-        return html_text
+        html_bytes, response = webpages.fetch(url)
+        return webpages.html_from_bytes(html_bytes), response
+    with open(cached_file_path) as f:
+        html_text = f.read()
+    with requests_mock.Mocker() as m:
+        m.get(url, text=html_text, headers=headers)
+        html_bytes, response = webpages.fetch(url)
+    return webpages.html_from_bytes(html_bytes), response
 
 
 def cached_url_file_name(url: str) -> str:
