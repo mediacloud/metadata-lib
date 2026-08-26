@@ -2,6 +2,8 @@ import logging
 
 import requests
 
+from mcmetadata.exceptions import BadContentError
+
 logger = logging.getLogger(__name__)
 
 DEFAULT_TIMEOUT_SECS = (
@@ -60,3 +62,22 @@ def fetch(
             response.encoding = response.apparent_encoding
     html_text = response.text
     return html_text, response
+
+
+def final_url(response: requests.Response) -> str:
+    """
+    The final URL might be the result of redirects, or an original URL if hosted at an archive
+    """
+    url = response.url  # followed all the redirects
+    if "memento-datetime" in response.headers:  # we hit an archive like Wayback Machine
+        try:
+            url = response.links["original"][
+                "url"
+            ]  # the original url archived by the provider
+        except KeyError:
+            # maybe the responder doesn't provide the desired headers, so just fall back on the full URL because
+            # there's nothing else we can really do
+            raise BadContentError(
+                "memento-datetime header without original url, skipping to avoid incorrect domain/url"
+            )
+    return url
