@@ -4,7 +4,7 @@ import unittest
 from parameterized import parameterized
 
 from .. import dates
-from . import read_fixture
+from . import mock_fetch
 
 
 class TestDates(unittest.TestCase):
@@ -59,7 +59,7 @@ class TestDates(unittest.TestCase):
         ]
     )
     def test_pub_date(self, url, expected_date):
-        raw_html = read_fixture(url)
+        raw_html, _ = mock_fetch(url)
         pub_date = dates.guess_publication_date(raw_html, url)
         if expected_date is None:
             assert pub_date is None
@@ -68,7 +68,7 @@ class TestDates(unittest.TestCase):
 
     def test_max_date(self):
         url = "https://web.archive.org/web/https://www.canarias7.es/cultura/cimientos-artes-escenicas-20220718203045-nt.html"
-        raw_html = read_fixture(url)
+        raw_html, _ = mock_fetch(url)
         date = dates.guess_publication_date(raw_html, url)
         assert date.date() == dt.date(2022, 7, 18)
         date = dates.guess_publication_date(
@@ -78,7 +78,7 @@ class TestDates(unittest.TestCase):
 
     def test_default_date(self):
         undateable_url = "http://archive.org"
-        raw_html = read_fixture(undateable_url)
+        raw_html, _ = mock_fetch(undateable_url)
         pub_date = dates.guess_publication_date(raw_html, undateable_url)
         assert pub_date is None
         pub_date = dates.guess_publication_date(

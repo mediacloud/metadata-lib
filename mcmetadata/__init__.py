@@ -76,18 +76,7 @@ def extract(
     t1 = t0
     if html_text is None:
         raw_html, response = webpages.fetch(url)
-        # check for archived URLs
-        if "memento-datetime" in response.headers:
-            try:
-                final_url = response.links["original"][
-                    "url"
-                ]  # the original url archived
-            except KeyError:
-                # maybe the responder doesn't provide the desired headers, so just fall back on the full URL because
-                # there's nothing else we can really do
-                final_url = response.url  # followed all the redirects
-        else:
-            final_url = response.url  # followed all the redirects
+        final_url = webpages.final_url(response)
     else:
         final_url = (
             url  # trust that the user knows which URL the content actually came from

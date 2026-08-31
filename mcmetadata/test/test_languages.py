@@ -1,13 +1,13 @@
 import unittest
 
 from .. import content, languages
-from . import read_fixture
+from . import mock_fetch
 
 
 class TestLanguageFromText(unittest.TestCase):
 
     def _fetch_and_validate(self, url: str, expected_language_code: str):
-        html_text = read_fixture(url)
+        html_text, _ = mock_fetch(url)
         article = content.from_html(url, html_text)
         lang_code = languages._from_text(article["text"])
         assert lang_code == expected_language_code
@@ -51,7 +51,7 @@ class TestLanguageFromText(unittest.TestCase):
 class TestLanguageFromHtml(unittest.TestCase):
 
     def _fetch_and_validate(self, url: str, expected_language_code: str):
-        html_text = read_fixture(url)
+        html_text, _ = mock_fetch(url)
         article = content.from_html(url, html_text)
         lang_code = languages.from_html(html_text, article["text"])
         assert lang_code == expected_language_code
