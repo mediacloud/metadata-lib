@@ -23,7 +23,9 @@ def _concerning_content_diff(old_content, new_content):
 
 def compare(record_id: str, url: str, html: str, old_metadata: dict):
     new_metadata = mcmetadata.extract(url, html)
-    new_metadata["publication_date"] = str(new_metadata["publication_date"].date())
+    # guess_publication_date() legitimately returns None when no date could be found
+    pub_date = new_metadata["publication_date"]
+    new_metadata["publication_date"] = str(pub_date.date()) if pub_date else None
     for key, value in old_metadata.items():
         # not a concern if now trafilatura works (over readability) prior, unless content is too different
         if key == "text_extraction_method":
