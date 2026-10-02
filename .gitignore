@@ -7,3 +7,4 @@ dist
 venv/
 *.warc.gz
 *.warc
+comparison-results*

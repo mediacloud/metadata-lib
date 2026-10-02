@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Metadata extraction comparison</title>
+<style>
+  :root {
+    --border: #d8dee4;
+    --bg-sidebar: #f6f8fa;
+    --bg-main: #ffffff;
+    --text: #24292f;
+    --text-muted: #57606a;
+    --accent: #0969da;
+    --diff-bg: #ffe3e3;
+    --diff-border: #d33b3b;
+    --ins-bg: #e6ffed;
+    --ins-text: #22863a;
+    --del-bg: #ffeef0;
+    --del-text: #b31d28;
+    --warn-bg: #fff8c5;
+    --warn-border: #9a6700;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg-main);
+  }
+  #app { display: flex; height: 100vh; }
+  #sidebar {
+    width: 340px;
+    flex-shrink: 0;
+    border-right: 1px solid var(--border);
+    background: var(--bg-sidebar);
+    display: flex;
+    flex-direction: column;
+  }
+  #sidebar header {
+    padding: 14px 16px 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  #sidebar h1 {
+    font-size: 15px;
+    margin: 0 0 2px;
+    cursor: pointer;
+  }
+  #sidebar h1:hover {
+    text-decoration: underline;
+  }
+  #source-warc {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin: 0 0 8px;
+    word-break: break-all;
+  }
+  .sidebar-select {
+    width: 100%;
+    padding: 5px 6px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .sidebar-select:last-of-type {
+    margin-bottom: 0;
+  }
+  #doc-count {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 6px;
+  }
+  #doc-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    flex: 1;
+  }
+  #doc-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 8px 16px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    font-size: 13px;
+  }
+  #doc-list li:hover { background: #eaeef2; }
+  #doc-list li.active { background: #ddebff; }
+  #doc-list li .sim-dot {
+    flex-shrink: 0;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    margin-top: 4px;
+    background: #b8c0c8;
+  }
+  #doc-list li .sim-dot.low { background: var(--del-text); }
+  #doc-list li .sim-dot.mid { background: #d4a72c; }
+  #doc-list li .sim-dot.high { background: var(--ins-text); }
+  #doc-list li .doc-text { min-width: 0; flex: 1; }
+  #doc-list li .doc-title {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  #doc-list li .doc-url {
+    display: block;
+    color: var(--text-muted);
+    font-size: 11px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  #doc-list li.has-error .doc-title::before {
+    content: "\26A0 ";
+    color: var(--del-text);
+  }
+  #main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px 28px 60px;
+  }
+  #summary-view h2 {
+    font-size: 18px;
+    margin: 0 0 16px;
+  }
+  .stat-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .stat-tile {
+    flex: 1;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    background: var(--bg-sidebar);
+  }
+  .stat-tile .stat-value {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .stat-tile .stat-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 2px;
+  }
+  .stat-tile.warn .stat-value { color: var(--warn-border); }
+  .section-hint {
+    font-weight: 400;
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+  #field-stats-table td.match-rate-low { color: var(--del-text); font-weight: 600; }
+  #field-stats-table td.match-rate-high { color: var(--ins-text); }
+  .hist-chart {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    height: 160px;
+    padding: 24px 4px 0;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+  .hist-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    min-width: 0;
+  }
+  .hist-count {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-bottom: 3px;
+  }
+  .hist-bar {
+    width: 100%;
+    max-width: 32px;
+    background: var(--accent);
+    border-radius: 4px 4px 0 0;
+    min-height: 1px;
+  }
+  .hist-label {
+    font-size: 10px;
+    color: var(--text-muted);
+    margin-top: 6px;
+    white-space: nowrap;
+  }
+  #doc-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+  #doc-header h2 {
+    font-size: 16px;
+    margin: 0;
+    word-break: break-word;
+  }
+  #nav-buttons button {
+    padding: 4px 10px;
+    border: 1px solid var(--border);
+    background: var(--bg-main);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  #nav-buttons button:hover { background: var(--bg-sidebar); }
+  #doc-url {
+    font-size: 12px;
+    margin-bottom: 18px;
+  }
+  #doc-url a { color: var(--accent); }
+  .error-banner {
+    background: var(--del-bg);
+    color: var(--del-text);
+    border: 1px solid var(--diff-border);
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-bottom: 16px;
+    font-size: 13px;
+  }
+  table.meta-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 24px;
+  }
+  table.meta-table th, table.meta-table td {
+    border: 1px solid var(--border);
+    padding: 6px 10px;
+    text-align: left;
+    vertical-align: top;
+    word-break: break-word;
+  }
+  table.meta-table th {
+    background: var(--bg-sidebar);
+    width: 160px;
+  }
+  table.meta-table td.value {
+    width: calc((100% - 160px) / 2);
+  }
+  table.meta-table td.diff {
+    background: var(--diff-bg);
+    color: var(--diff-border);
+    font-weight: 600;
+  }
+  table.meta-table td.warn {
+    background: var(--warn-bg);
+    color: var(--warn-border);
+    font-weight: 600;
+  }
+  table.meta-table td.empty {
+    background: repeating-linear-gradient(
+      45deg, var(--bg-sidebar), var(--bg-sidebar) 6px, var(--bg-main) 6px, var(--bg-main) 12px
+    );
+    color: var(--text-muted);
+  }
+  h3.section-title {
+    font-size: 14px;
+    margin: 0 0 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .similarity-badge {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 10px;
+    background: var(--bg-sidebar);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+  }
+  .similarity-badge.low { background: var(--del-bg); color: var(--del-text); border-color: var(--diff-border); }
+  .similarity-badge.high { background: var(--ins-bg); color: var(--ins-text); }
+  #diff-note {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+  }
+  #text-diff {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 12px 14px;
+    max-height: 60vh;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 12.5px;
+    line-height: 1.5;
+  }
+  .fallback-columns {
+    display: flex;
+    gap: 14px;
+  }
+  .fallback-columns > div {
+    flex: 1;
+    min-width: 0;
+  }
+  .fallback-columns h4 {
+    font-size: 12px;
+    margin: 0 0 4px;
+    color: var(--text-muted);
+  }
+  .diff-ins { background: var(--ins-bg); color: var(--ins-text); text-decoration: none; }
+  .diff-del { background: var(--del-bg); color: var(--del-text); text-decoration: line-through; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="sidebar">
+    <header>
+      <h1 id="summary-title" title="Back to summary">Extraction comparison</h1>
+      <div id="source-warc"></div>
+      <select id="filter-domain" class="sidebar-select">
+        <option value="">All domains</option>
+      </select>
+      <select id="filter-language" class="sidebar-select">
+        <option value="">All languages</option>
+      </select>
+      <select id="filter-field-error" class="sidebar-select">
+        <option value="">Any field</option>
+      </select>
+      <select id="sort-order" class="sidebar-select">
+        <option value="original">Original order</option>
+        <option value="similarity">Lowest similarity first</option>
+      </select>
+      <div id="doc-count"></div>
+    </header>
+    <ul id="doc-list"></ul>
+  </div>
+  <div id="main">
+    <div id="summary-view">
+      <h2>Summary</h2>
+      <div id="summary-stats" class="stat-row"></div>
+      <h3 class="section-title">Field-level accuracy <span class="section-hint">(excludes parsed_date, unique_url_hash, version, text_content)</span></h3>
+      <table class="meta-table" id="field-stats-table">
+        <thead><tr><th>Field</th><td class="value"><strong>Matches</strong></td><td class="value"><strong>Differs</strong></td><td class="value"><strong>Match rate</strong></td></tr></thead>
+        <tbody id="field-stats-body"></tbody>
+      </table>
+      <h3 class="section-title">text_content similarity distribution</h3>
+      <div id="similarity-histogram" class="hist-chart"></div>
+    </div>
+    <div id="doc-view" style="display:none;">
+      <div id="doc-header">
+        <h2 id="doc-title"></h2>
+        <div id="nav-buttons">
+          <button id="prev-btn">← Prev</button>
+          <button id="next-btn">Next →</button>
+        </div>
+      </div>
+      <div id="doc-url"></div>
+      <div id="error-banner" class="error-banner" style="display:none;"></div>
+      <table class="meta-table">
+        <thead><tr><th>Field</th><td class="value"><strong>Old (warc)</strong></td><td class="value"><strong>New (code)</strong></td></tr></thead>
+        <tbody id="meta-body"></tbody>
+      </table>
+      <div id="text-section">
+        <h3 class="section-title">text_content diff <span id="similarity-badge" class="similarity-badge"></span></h3>
+        <div id="diff-note" style="display:none;"></div>
+        <div id="text-diff"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="compare.js"></script>
+</body>
+</html>
