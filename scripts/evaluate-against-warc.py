@@ -1,3 +1,12 @@
+"""
+Internal Media Cloud evaluation utility tool.
+
+This code walks a Media Cloud generated WARC file to compare changes from prior versions of
+metadata extraction to new code. It is most helpful for quick reviews and spot checks. The
+`compare-to-warc` script is more comprehensive, but this script is maintained here to help with
+quick pokes.
+"""
+
 import argparse
 import gzip
 import json

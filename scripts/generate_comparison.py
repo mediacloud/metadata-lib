@@ -1,4 +1,6 @@
 """
+Internal Media Cloud evaluation utility tool.
+
 Run URLs from our production system through the pipeline and save a CSV that lets us compare results to see if
 this code produces similar metadata to the system the heuristics were extracted from. Useful for validating that
 we are getting results we expect from the code as we evaluate different libraries and solutions.

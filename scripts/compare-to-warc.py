@@ -1,6 +1,9 @@
 """
-Generate before/after comparison data for qualitative review of metadata extraction changes
-(particularly `text_content` after a trafilatura upgrade) against a previously-processed WARC file.
+Internal Media Cloud evaluation utility tool.
+
+This code generates a before/after comparison data for qualitative review of metadata extraction
+changes (particularly `text_content` after a trafilatura upgrade) against a previously-processed
+Media Cloud generated WARC file.
 
 For each story in the WARC file, this pulls out the metadata that was recorded when the WARC was
 generated (the "old" result) and re-runs the current `mcmetadata` code against the same HTML (the
