@@ -79,7 +79,7 @@ def canonical_domain(raw_url: str) -> str:
             + parsed_domain.top_domain_under_public_suffix.lower()
         )
     else:
-        # default to "registered domain" the URL is attributed to
+        # default to "public domain" of the URL -- which gives us things like 'bbc.co.uk' while ignoring localhost
         candidate_domain = parsed_domain.top_domain_under_public_suffix.lower()
 
     # also handle amp URLs smartly
