@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "mediacloud-metadata"
-version = "1.4.3"
+version = "2.0.0"
 authors = [
     {name='Rahul Bhargava'},
     {name='Paige Gulley'},

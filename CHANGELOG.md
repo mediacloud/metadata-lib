@@ -1,6 +1,21 @@
 Version History
 ===============
 
+Version 2
+---------
+
+### V2.0.0
+A major release that significantly updates the extraction libraries we depend on. We validated performance
+accuracy  reasonably with new scripts that compared new performance to past across thousands of stories, but
+of course  can't catch any pathological failure modes for specific types of content or sources. You'll notice
+some new metadata fields (especially from Trafilatura), but existing fields haven't changed in what they are
+reporting.
+Details:
+* Upgrade underlying extraction libraries
+* Updates to support Python 3.10-3.13
+* Revise unit tests to try and reduce transient network-baed failures
+* Add internal scripts for comparing extraction results across library changes
+
 Version 1
 ---------
 
