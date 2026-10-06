@@ -5,3 +5,6 @@ build
 dist
 *.egg-info
 venv/
+*.warc.gz
+*.warc
+comparison-results*

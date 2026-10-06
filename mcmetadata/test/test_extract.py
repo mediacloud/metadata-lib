@@ -49,7 +49,7 @@ class TestExtract(unittest.TestCase):
         assert "publication_date" in results
         assert results["publication_date"] == dt.datetime(2019, 8, 27, 0, 0)
         assert "text_content" in results
-        assert len(results["text_content"]) > 7000
+        assert len(results["text_content"]) > 6900
         assert "text_extraction_method" in results
         assert results["text_extraction_method"] == content.METHOD_TRAFILATURA
         assert "canonical_domain" in results

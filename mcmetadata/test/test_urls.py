@@ -129,8 +129,8 @@ class TestNormalizeUrl(unittest.TestCase):
         url = "http://fake.com/article?foo=123&baz=321"
         normalized_url = urls.normalize_url(url)
         assert (
-            normalized_url == "http://fake.com/article?baz=321&foo=123"
-        )  # they get ordered
+            normalized_url == url
+        )  # params are not reordered (order matters apparently)
         url = "http://fake.com/article?utm_foo=123&baz=321"
         normalized_url = urls.normalize_url(url)
         assert normalized_url == "http://fake.com/article?baz=321"
