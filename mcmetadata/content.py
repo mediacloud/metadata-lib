@@ -179,7 +179,7 @@ class TrafilaturaExtractor(AbstractExtractor):
             html_text,
             url=url,
             include_images=include_metadata,
-            with_metadata=True,  # important to get title, authors, url, etc.
+            with_metadata=True,  # this is critical(!) to pull out title, authors, url, etc.
         )
         image_urls = []
         if include_metadata:
