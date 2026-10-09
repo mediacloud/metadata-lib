@@ -155,6 +155,49 @@ class TestExtract(unittest.TestCase):
         assert results["publication_date"] == overrides["publication_date"]
         assert results["canonical_url"] == overrides["canonical_url"]
 
+    def test_each_override_works_on_its_own(self):
+        # the combined test above passes every override at once, which can hide a key only reachable when
+        # one of them is used alone
+        url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
+        html_content, _ = mock_fetch(url)
+        overrides = dict(
+            text_content="This is some text",
+            article_title="This is a title",
+            canonical_url="https://www.example.com/",
+            canonical_domain="example.com",
+            language="pt",
+            publication_date=dt.date(2023, 1, 1),
+        )
+        for key, value in overrides.items():
+            results = extract(url, html_content, overrides={key: value})
+            assert results is not None, key
+
+    def test_text_content_override_alone(self):
+        # a text_content override used to blow up looking for a title key that path never set
+        url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
+        html_content, _ = mock_fetch(url)
+        results = extract(
+            url, html_content, overrides=dict(text_content="This is some text")
+        )
+        assert results["text_content"] == "This is some text"
+        assert results["text_extraction_method"] == content.METHOD_OVERRIDEN
+        # the other fields still get parsed out of the HTML, since they weren't overridden
+        assert results["article_title"] == extract(url, html_content)["article_title"]
+
+    def test_text_content_override_with_other_metadata(self):
+        url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
+        html_content, _ = mock_fetch(url)
+        results = extract(
+            url,
+            html_content,
+            include_other_metadata=True,
+            overrides=dict(text_content="This is some text"),
+        )
+        # nothing was extracted from the HTML, so these have nothing to report
+        assert results["other"] == dict(
+            raw_title=None, raw_publish_date=None, top_image_url=None, authors=None
+        )
+
     def test_default_title(self):
         # throws too short error if no default
         url = "https://web.archive.org/web/20111013162600id_/http://www.azftf.gov/(F(r8GSI1MAawoG8fkwp0vWYNSTuweOi8-9wgJOr4j83rTcpZDuFOV5E2PG737tNitGhzYAsUmVcwVEcgwKEtYFADTmzsQMJto9bZTOzDBHUGRpirFPIt4osB08CAslzBk-ih5ATrsM-P7DRxDwcNdmfB4jU1Y1))/WhatWeDo/Volunteer/Pages/default.aspx"
