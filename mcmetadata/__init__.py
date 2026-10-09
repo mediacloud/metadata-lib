@@ -44,6 +44,7 @@ def extract(
     defaults: Mapping[str, Any] = {},
     overrides: Mapping[str, Any] = {},
     stats_accumulator: Mapping[str, int] = None,
+    include_links: Optional[bool] = False,
 ) -> Dict:
     """
     The core method of this library - returns all the useful information extracted from the HTML of the next
@@ -66,6 +67,14 @@ def extract(
                  stats yourself _instead_ of in the module-level `stats` counter. If you pass this in then the
                  timings for the call will _not_ be added to the module-level `stats` counter. Should contain keys
                  for `STAT_NAMES` (see above).
+    :param bool include_links: Pass in true to also return a `links` list of the hyperlinks found inside the story
+                               text, in the order they appear and with repeats kept. Each entry is a dict with a
+                               `text` key (the visible link text) and an `href` key (the URL, made absolute against
+                               the article URL). Same-page anchors and `mailto:`-style links are left out.
+                               The list is None if the extractor that won can't see links at all (`boilerpipe3`),
+                               or if you passed a `text_content` override, so there was no HTML to read them from.
+                               Warning - when trafilatura does the extracting this can also change `text_content`,
+                               because asking it for links changes which blocks of the page it keeps.
     """
     if (
         stats_accumulator is None
@@ -118,7 +127,9 @@ def extract(
             extraction_method=content.METHOD_OVERRIDEN, text=overrides["text_content"]
         )
     else:
-        article = content.from_html(final_url, raw_html, include_other_metadata)
+        article = content.from_html(
+            final_url, raw_html, include_other_metadata, include_links
+        )
     content_duration = time.monotonic() - t1
     stats_accumulator["content"] += content_duration
 
@@ -176,6 +187,9 @@ def extract(
         is_shortened=is_shortened_url,
         version=__version__,
     )
+    if include_links:
+        # None (not []) when we couldn't look - a text_content override, or an extractor that drops the markup
+        results["links"] = article.get("links")
     if include_other_metadata:
         # other metadata we've done less robust validation on, but might be useful
         results["other"] = dict(
