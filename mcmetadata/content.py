@@ -2,7 +2,8 @@ import collections
 import logging
 import re
 from abc import ABC, abstractmethod
-from typing import Dict
+from typing import Dict, Iterable, Iterator, List, Optional, Tuple
+from urllib.parse import urljoin
 
 import dateparser
 import lxml.etree
@@ -57,7 +58,57 @@ METHOD_OVERRIDEN = "overriden"
 method_success_stats = collections.Counter()
 
 
-def from_html(url: str, html_text: str, include_metadata: bool = False) -> Dict:
+def _to_content_links(
+    anchors: Iterable[Tuple[Optional[str], Optional[str]]], base_url: Optional[str]
+) -> List[Dict[str, str]]:
+    """
+    Turn (visible text, href) pairs found in an extracted article body into a list of dicts with `text` and
+    `href` keys, in the order they appear in the story. Hrefs are made absolute against `base_url` and the
+    visible text has its whitespace collapsed. Same-page anchors and non-web schemes (mailto, tel, javascript)
+    get dropped because they don't point at another document. Repeats are kept, so a URL linked twice shows
+    up twice.
+    """
+    links: List[Dict[str, str]] = []
+    for anchor_text, href in anchors:
+        if not href:
+            continue
+        href = href.strip()
+        if not href or href.startswith("#"):
+            continue
+        url = urljoin(base_url, href) if base_url else href
+        if not url.lower().startswith(("http://", "https://")):
+            continue
+        links.append({"text": " ".join((anchor_text or "").split()), "href": url})
+    return links
+
+
+def _anchors_from_elements(
+    elements: Iterable, href_attribute: str = "href"
+) -> Iterator[Tuple[str, Optional[str]]]:
+    """Yield (visible text, href) pairs for lxml link elements, flattening any markup nested inside them."""
+    for element in elements:
+        yield "".join(element.itertext()), element.get(href_attribute)
+
+
+def _links_from_fragment(
+    fragment: Optional[str], base_url: Optional[str]
+) -> List[Dict[str, str]]:
+    """Pull the links out of an HTML fragment holding just the extracted article body."""
+    if not fragment:
+        return []
+    try:
+        anchors = fromstring(fragment).xpath("descendant-or-self::a[@href]")
+    except (lxml.etree.ParserError, lxml.etree.XMLSyntaxError):
+        return []
+    return _to_content_links(_anchors_from_elements(anchors), base_url)
+
+
+def from_html(
+    url: str,
+    html_text: str,
+    include_metadata: bool = False,
+    include_links: bool = False,
+) -> Dict:
     """
     Try a series of extractors to pull content out of HTML. The idea is to try as hard as can to get
     good content, but fallback to at least get something useful. The writeup at this site was very helpful:
@@ -66,6 +117,10 @@ def from_html(url: str, html_text: str, include_metadata: bool = False) -> Dict:
     :param url: this is useful to pass in for some metadata parsing
     :param include_metadata: true to try and extract any other metdata the underlying extractor supports, which can
                              create a notable performance hit
+    :param include_links: true to also return a `links` list of the hyperlinks found within the extracted body
+                          text, in order and with repeats kept. Each entry is a dict with a `text` key (the
+                          visible link text) and an `href` key (the absolute URL). See `AbstractExtractor.extract`
+                          for the per-extractor caveats.
     :return: a dict of with url, text, title, publish_date, top_image_url, authors, and extraction_method keys
     """
     # now try each extractor against the same HTML
@@ -74,7 +129,7 @@ def from_html(url: str, html_text: str, include_metadata: bool = False) -> Dict:
         try:
             # logger.debug("Trying {}".format(extractor_info['method']))
             extractor = extractor_info["instance"]
-            extractor.extract(url, html_text, include_metadata)
+            extractor.extract(url, html_text, include_metadata, include_links)
             if extractor.worked():
                 method_success_stats[extractor.content["extraction_method"]] += 1
                 extractor.content["text"] = extractor.content["text"].strip()
@@ -98,7 +153,16 @@ class AbstractExtractor(ABC):
         self.content = None
 
     @abstractmethod
-    def extract(self, url: str, html_text: str, include_metadata: bool = False):
+    def extract(
+        self,
+        url: str,
+        html_text: str,
+        include_metadata: bool = False,
+        include_links: bool = False,
+    ):
+        """
+        Fill in the `content` property by running this extractor over the HTML.
+        """
         pass
 
     def worked(self) -> bool:
@@ -114,8 +178,15 @@ class AbstractExtractor(ABC):
 
 class Newspaper3kExtractor(AbstractExtractor):
 
-    def extract(self, url, html_text: str, include_metadata: bool = False):
-        doc = newspaper.Article(url)
+    def extract(
+        self,
+        url,
+        html_text: str,
+        include_metadata: bool = False,
+        include_links: bool = False,
+    ):
+        # keeping the article HTML around is the only way to see the links, so only pay for it when asked
+        doc = newspaper.Article(url, keep_article_html=include_links)
         doc.download(input_html=html_text)
         doc.parse()
         self.content = {
@@ -128,11 +199,19 @@ class Newspaper3kExtractor(AbstractExtractor):
             "authors": doc.authors,
             "extraction_method": METHOD_NEWSPAPER_3k,
         }
+        if include_links:
+            self.content["links"] = _links_from_fragment(doc.article_html, url)
 
 
 class GooseExtractor(AbstractExtractor):
 
-    def extract(self, url, html_text: str, include_metadata: bool = False):
+    def extract(
+        self,
+        url,
+        html_text: str,
+        include_metadata: bool = False,
+        include_links: bool = False,
+    ):
         g = Goose()
         g3_article = g.extract(raw_html=html_text)
         self.content = {
@@ -145,11 +224,22 @@ class GooseExtractor(AbstractExtractor):
             "authors": g3_article.authors,
             "extraction_method": METHOD_GOOSE_3,
         }
+        if include_links:
+            # `cleaned_text` has the anchors stripped, but the raw top node still has them
+            self.content["links"] = _links_from_fragment(
+                g3_article.top_node_raw_html, url
+            )
 
 
 class BoilerPipe3Extractor(AbstractExtractor):
 
-    def extract(self, url: str, html_text: str, include_metadata: bool = False):
+    def extract(
+        self,
+        url: str,
+        html_text: str,
+        include_metadata: bool = False,
+        include_links: bool = False,
+    ):
         try:
             extractor = bp3_extractors.ArticleExtractor()
             bp_doc = extractor.get_doc(html_text)
@@ -163,6 +253,9 @@ class BoilerPipe3Extractor(AbstractExtractor):
                 "authors": None,
                 "extraction_method": METHOD_BOILER_PIPE_3,
             }
+            if include_links:
+                # boilerpy3 works on text blocks and discards the markup, so there are no links to recover
+                self.content["links"] = None
         except AttributeError:
             # getting some None errors on tag parsing, which suggests invalid HTML so let the next one try
             pass
@@ -170,15 +263,24 @@ class BoilerPipe3Extractor(AbstractExtractor):
 
 # Trafilatura outputs images in the raw text in Markdown format
 markdown_img_path_pattern = re.compile(r"!\[[^\]]*\]\((.*?)\)")
+# ... and with include_links on it writes hyperlinks the same way, so we unwrap those back to their anchor text
+markdown_link_pattern = re.compile(r"\[([^\]]*)\]\([^)]*\)")
 
 
 class TrafilaturaExtractor(AbstractExtractor):
 
-    def extract(self, url: str, html_text: str, include_metadata: bool = False):
+    def extract(
+        self,
+        url: str,
+        html_text: str,
+        include_metadata: bool = False,
+        include_links: bool = False,
+    ):
         results = trafilatura.bare_extraction(
             html_text,
             url=url,
             include_images=include_metadata,
+            include_links=include_links,
             with_metadata=True,  # this is critical(!) to pull out title, authors, url, etc.
         )
         image_urls = []
@@ -190,6 +292,9 @@ class TrafilaturaExtractor(AbstractExtractor):
             text = markdown_img_path_pattern.sub("", results.text)
         else:
             text = results.text
+        if include_links:
+            # leave the anchor text in place, but drop the "(url)" half of trafilatura's markdown
+            text = markdown_link_pattern.sub(r"\1", text)
         self.content = {
             "url": url,
             "text": text,
@@ -200,17 +305,38 @@ class TrafilaturaExtractor(AbstractExtractor):
             "authors": results.author.split(",") if results.author else None,
             "extraction_method": METHOD_TRAFILATURA,
         }
+        if include_links:
+            # links are <ref target="..."> nodes in the parsed body, already made absolute against `url`.
+            # Note this is the same body the `text` above came from - asking trafilatura for links changes
+            # which blocks it keeps (link-dense boilerplate it would otherwise prune survives), so the text
+            # here will not always match what you get with `include_links` off.
+            body = results.body
+            refs = (
+                body.xpath("descendant-or-self::ref[@target]")
+                if body is not None
+                else []
+            )
+            self.content["links"] = _to_content_links(
+                _anchors_from_elements(refs, "target"), url
+            )
 
 
 class ReadabilityExtractor(AbstractExtractor):
 
-    def extract(self, url: str, html_text: str, include_metadata: bool = False):
+    def extract(
+        self,
+        url: str,
+        html_text: str,
+        include_metadata: bool = False,
+        include_links: bool = False,
+    ):
         try:
             doc = readability.Document(html_text)
+            summary = doc.summary()
             self.content = {
                 "url": url,
                 "text": strip_tags(
-                    doc.summary()
+                    summary
                 ),  # remove any tags that readability leaves in place (links)
                 "title": doc.title(),
                 "canonical_url": None,
@@ -219,12 +345,20 @@ class ReadabilityExtractor(AbstractExtractor):
                 "authors": None,
                 "extraction_method": METHOD_READABILITY,
             }
+            if include_links:
+                # grab the anchors off the summary before `strip_tags` above throws the markup away
+                self.content["links"] = _links_from_fragment(summary, url)
         except lxml.etree.ParserError:
             # getting "Document is empty" error, which means it didn't parse so let the next extractor try
             pass
 
 
 class RawHtmlExtractor(AbstractExtractor):
+    """
+    A whole-page fallback - it does no boilerplate removal, so with `include_links` the `links` it returns are
+    every link on the page (nav, footer, related stories and all), not just the ones in the story body.
+    """
+
     REMOVE_LIST = {
         "[document]",
         "noscript",
@@ -240,7 +374,13 @@ class RawHtmlExtractor(AbstractExtractor):
     def __init__(self):
         super(RawHtmlExtractor, self).__init__()
 
-    def extract(self, url: str, html_text: str, include_metadata: bool = False):
+    def extract(
+        self,
+        url: str,
+        html_text: str,
+        include_metadata: bool = False,
+        include_links: bool = False,
+    ):
         soup = BeautifulSoup(html_text, "lxml")
         text = soup.find_all(string=True)
         output = ""
@@ -264,14 +404,26 @@ class RawHtmlExtractor(AbstractExtractor):
             "authors": None,
             "extraction_method": METHOD_BEAUTIFUL_SOUP_4,
         }
+        if include_links:
+            self.content["links"] = _to_content_links(
+                ((a.get_text(), a.get("href")) for a in soup.find_all("a", href=True)),
+                url,
+            )
 
 
 class LxmlExtractor(AbstractExtractor):
     """
-    An inefficient fallback extractor that should work in all contexts
+    An inefficient fallback extractor that should work in all contexts. Like `RawHtmlExtractor` it keeps the whole
+    page, so with `include_links` the `links` it returns cover the page chrome too, not just the story body.
     """
 
-    def extract(self, url: str, html_text: str, include_metadata: bool = False):
+    def extract(
+        self,
+        url: str,
+        html_text: str,
+        include_metadata: bool = False,
+        include_links: bool = False,
+    ):
         cleaner = Cleaner(
             scripts=True,
             javascript=True,
@@ -313,6 +465,11 @@ class LxmlExtractor(AbstractExtractor):
             "authors": None,
             "extraction_method": METHOD_LXML,
         }
+        if include_links:
+            # read the anchors off the pre-cleaner tree, since the cleaner above strips all the tags out
+            self.content["links"] = _to_content_links(
+                _anchors_from_elements(parsed.xpath("//a[@href]")), url
+            )
 
 
 # based by findings from trafilatura paper, but customized to performance on EN and ES sources (see tests)

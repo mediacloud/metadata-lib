@@ -178,5 +178,93 @@ class TestContentFromUrl(unittest.TestCase):
             assert True
 
 
+class TestContentLinks(unittest.TestCase):
+    """The `include_links` flag on each extractor's `extract` method."""
+
+    URL = "https://www.cnn.com/2023/12/12/politics/takeaways-volodymyr-zelensky-washington/index.html"
+    # the hyperlinks inside the story body - the page itself has ~350 <a> tags
+    EXPECTED_LINKS = [
+        {
+            "text": "Volodymyr Zelensky",
+            "href": "https://www.cnn.com/2022/03/29/europe/volodymyr-zelensky-fast-facts/index.html",
+        },
+        {
+            "text": "Washington on Tuesday",
+            "href": "https://www.cnn.com/politics/live-news/zelensky-biden-visit-12-12-23/index.html",
+        },
+        {
+            "text": "members of Congress Tuesday morning",
+            "href": "https://www.cnn.com/2023/12/12/politics/ukraine-zelensky-washington-trip/index.html",
+        },
+        {
+            "text": "the US declassified new intelligenc",
+            "href": "https://www.cnn.com/politics/live-news/zelensky-biden-visit-12-12-23#h_80a87d6b200a0b6b4ffbb29a1f0871cb",
+        },
+        {
+            "text": "a July speech.",
+            "href": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2023/07/12/remarks-by-president-biden-on-supporting-ukraine-defending-democratic-values-and-taking-action-to-address-global-challenges-vilnius-lithuania/",
+        },
+    ]
+
+    def setUp(self) -> None:
+        self.html_content, _ = mock_fetch(self.URL)
+
+    def test_link_items_have_text_and_href(self):
+        extractor = content.TrafilaturaExtractor()
+        extractor.extract(self.URL, self.html_content, include_links=True)
+        for link in extractor.content["links"]:
+            assert set(link.keys()) == {"text", "href"}
+
+    def test_no_links_key_unless_asked(self):
+        for extractor_info in content.extractors:
+            extractor = extractor_info["instance"]
+            extractor.extract(self.URL, self.html_content)
+            assert "links" not in extractor.content, extractor_info["method"]
+
+    def test_trafilatura_text_has_no_markdown_link_syntax(self):
+        # asking trafilatura for links can change the text it returns, but the "(url)" half of its markdown
+        # should never survive into the text we hand back
+        extractor = content.TrafilaturaExtractor()
+        extractor.extract(self.URL, self.html_content, include_links=True)
+        text = extractor.content["text"]
+        assert len(extractor.content["links"]) > 0
+        for link in extractor.content["links"]:
+            assert f"]({link['href']})" not in text
+
+    def test_from_html_passes_the_flag_through(self):
+        meta = content.from_html(self.URL, self.html_content, include_links=True)
+        assert meta["extraction_method"] == content.METHOD_TRAFILATURA
+        assert meta["links"] == self.EXPECTED_LINKS
+
+    def test_links_are_absolute_in_order_and_not_deduplicated(self):
+        base = "https://news.example.com/2026/01/story.html"
+        body = (
+            "<p>"
+            + ("Filler sentence to clear the minimum length. " * 20)
+            + (
+                "<a href='/local/one.html'>relative</a> "
+                "<a href='/local/one.html'>the very same link again</a> "
+                "<a href='https://example.org/abs'>absolute</a> "
+                "<a href='#section'>same page anchor</a> "
+                "<a href='mailto:news@example.com'>email</a></p>"
+            )
+        )
+        extractor = content.ReadabilityExtractor()
+        extractor.extract(
+            base,
+            f"<html><body><article>{body}</article></body></html>",
+            include_links=True,
+        )
+        # repeats stay in, and the order matches the story
+        assert extractor.content["links"] == [
+            {"text": "relative", "href": "https://news.example.com/local/one.html"},
+            {
+                "text": "the very same link again",
+                "href": "https://news.example.com/local/one.html",
+            },
+            {"text": "absolute", "href": "https://example.org/abs"},
+        ]
+
+
 if __name__ == "__main__":
     unittest.main()

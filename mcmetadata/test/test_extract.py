@@ -188,6 +188,65 @@ class TestExtract(unittest.TestCase):
         assert results["canonical_url"] == canonical_url
 
 
+class TestExtractLinks(unittest.TestCase):
+    """The `include_links` argument on the top-level `extract` method."""
+
+    URL = "https://www.cnn.com/2023/12/12/politics/takeaways-volodymyr-zelensky-washington/index.html"
+    EXPECTED_LINKS = [
+        {
+            "text": "Volodymyr Zelensky",
+            "href": "https://www.cnn.com/2022/03/29/europe/volodymyr-zelensky-fast-facts/index.html",
+        },
+        {
+            "text": "Washington on Tuesday",
+            "href": "https://www.cnn.com/politics/live-news/zelensky-biden-visit-12-12-23/index.html",
+        },
+        {
+            "text": "members of Congress Tuesday morning",
+            "href": "https://www.cnn.com/2023/12/12/politics/ukraine-zelensky-washington-trip/index.html",
+        },
+        {
+            "text": "the US declassified new intelligenc",
+            "href": "https://www.cnn.com/politics/live-news/zelensky-biden-visit-12-12-23#h_80a87d6b200a0b6b4ffbb29a1f0871cb",
+        },
+        {
+            "text": "a July speech.",
+            "href": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2023/07/12/remarks-by-president-biden-on-supporting-ukraine-defending-democratic-values-and-taking-action-to-address-global-challenges-vilnius-lithuania/",
+        },
+    ]
+
+    def setUp(self) -> None:
+        self.raw_html, _ = mock_fetch(self.URL)
+
+    def test_links(self):
+        results = extract(self.URL, self.raw_html, include_links=True)
+        assert results["links"] == self.EXPECTED_LINKS
+
+    def test_no_links_key_by_default(self):
+        results = extract(self.URL, self.raw_html)
+        assert "links" not in results
+
+    def test_text_content_has_no_markdown_link_syntax(self):
+        # trafilatura can return different text when asked for links, but never raw markdown link syntax
+        results = extract(self.URL, self.raw_html, include_links=True)
+        for link in results["links"]:
+            assert f"]({link['href']})" not in results["text_content"]
+
+    def test_links_none_when_text_content_overridden(self):
+        # there is no HTML extraction in this path, so we can't know what the story linked to
+        results = extract(
+            self.URL,
+            self.raw_html,
+            # article_title is overridden too only to dodge an unrelated KeyError on the override path
+            overrides=dict(
+                text_content="Some text supplied by the caller.",
+                article_title="A title supplied by the caller",
+            ),
+            include_links=True,
+        )
+        assert results["links"] is None
+
+
 class TestStats(unittest.TestCase):
 
     def test_reset(self):
