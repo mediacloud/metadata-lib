@@ -1,8 +1,11 @@
 import datetime as dt
+import os
 import unittest
 
+import requests_mock
+
 import mcmetadata
-from mcmetadata.test import mock_fetch
+from mcmetadata.test import cached_url_file_name, fixtures_dir, mock_fetch
 
 from .. import content, extract
 
@@ -82,10 +85,18 @@ class TestExtract(unittest.TestCase):
         assert "pt-br" == results["full_language"]
 
     def test_redirected_url(self):
-        url = "https://redirect.me/r/qhw3yh"
-        results = extract(url)  # need to fetch live so the redirect happens
-        assert url == results["original_url"]
+        # do a mock'd request so we aren't dependent on a 3rd party redirect (cause that keeps failing)
+        url = "https://short.example/abc123"  # just a placeholder becuase of mock below
         final_url = "https://www.trussvilletribune.com/2022/03/02/three-students-from-center-point-receive-academic-scholarships/"
+        with open(os.path.join(fixtures_dir, cached_url_file_name(final_url))) as f:
+            final_html = f.read()
+        # mock a 301 so the real fetch code has to follow the redirect
+        with requests_mock.Mocker() as m:
+            m.get(url, status_code=301, headers={"Location": final_url})
+            m.get(final_url, text=final_html, headers={"Content-Type": "text/html"})
+            results = extract(url)
+        assert m.call_count == 2
+        assert url == results["original_url"]
         assert final_url == results["url"]
         assert "trussvilletribune.com" == results["canonical_domain"]
         assert (
