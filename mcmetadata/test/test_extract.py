@@ -156,8 +156,9 @@ class TestExtract(unittest.TestCase):
         assert results["canonical_url"] == overrides["canonical_url"]
 
     def test_each_override_works_on_its_own(self):
-        # the combined test above passes every override at once, which can hide a key only reachable when
-        # one of them is used alone
+        # This test crafted for a very specific bug related to overrides not being respected. Could be deleted
+        # if annoying to maintain. This is because the combined test above passes every override at once,
+        # which can hide a key only reachable when one of them is used alone.
         url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
         html_content, _ = mock_fetch(url)
         overrides = dict(
