@@ -114,8 +114,17 @@ def extract(
     # content
     t1 = time.monotonic()
     if "text_content" in overrides:
+        # fill in the same keys a real extraction returns, so everything downstream can read `article` the
+        # same way whether the text was overridden or parsed out of the HTML
         article = dict(
-            extraction_method=content.METHOD_OVERRIDEN, text=overrides["text_content"]
+            url=final_url,
+            text=overrides["text_content"],
+            title=None,
+            canonical_url=None,
+            potential_publish_date=None,
+            top_image_url=None,
+            authors=None,
+            extraction_method=content.METHOD_OVERRIDEN,
         )
     else:
         article = content.from_html(final_url, raw_html, include_other_metadata)

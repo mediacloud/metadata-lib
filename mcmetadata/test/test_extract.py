@@ -1,8 +1,11 @@
 import datetime as dt
+import os
 import unittest
 
+import requests_mock
+
 import mcmetadata
-from mcmetadata.test import mock_fetch
+from mcmetadata.test import cached_url_file_name, fixtures_dir, mock_fetch
 
 from .. import content, extract
 
@@ -82,10 +85,18 @@ class TestExtract(unittest.TestCase):
         assert "pt-br" == results["full_language"]
 
     def test_redirected_url(self):
-        url = "https://redirect.me/r/qhw3yh"
-        results = extract(url)  # need to fetch live so the redirect happens
-        assert url == results["original_url"]
+        # do a mock'd request so we aren't dependent on a 3rd party redirect (cause that keeps failing)
+        url = "https://short.example/abc123"  # just a placeholder becuase of mock below
         final_url = "https://www.trussvilletribune.com/2022/03/02/three-students-from-center-point-receive-academic-scholarships/"
+        with open(os.path.join(fixtures_dir, cached_url_file_name(final_url))) as f:
+            final_html = f.read()
+        # mock a 301 so the real fetch code has to follow the redirect
+        with requests_mock.Mocker() as m:
+            m.get(url, status_code=301, headers={"Location": final_url})
+            m.get(final_url, text=final_html, headers={"Content-Type": "text/html"})
+            results = extract(url)
+        assert m.call_count == 2
+        assert url == results["original_url"]
         assert final_url == results["url"]
         assert "trussvilletribune.com" == results["canonical_domain"]
         assert (
@@ -154,6 +165,50 @@ class TestExtract(unittest.TestCase):
         assert results["language"] == overrides["language"]
         assert results["publication_date"] == overrides["publication_date"]
         assert results["canonical_url"] == overrides["canonical_url"]
+
+    def test_each_override_works_on_its_own(self):
+        # This test crafted for a very specific bug related to overrides not being respected. Could be deleted
+        # if annoying to maintain. This is because the combined test above passes every override at once,
+        # which can hide a key only reachable when one of them is used alone.
+        url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
+        html_content, _ = mock_fetch(url)
+        overrides = dict(
+            text_content="This is some text",
+            article_title="This is a title",
+            canonical_url="https://www.example.com/",
+            canonical_domain="example.com",
+            language="pt",
+            publication_date=dt.date(2023, 1, 1),
+        )
+        for key, value in overrides.items():
+            results = extract(url, html_content, overrides={key: value})
+            assert results is not None, key
+
+    def test_text_content_override_alone(self):
+        # a text_content override used to blow up looking for a title key that path never set
+        url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
+        html_content, _ = mock_fetch(url)
+        results = extract(
+            url, html_content, overrides=dict(text_content="This is some text")
+        )
+        assert results["text_content"] == "This is some text"
+        assert results["text_extraction_method"] == content.METHOD_OVERRIDEN
+        # the other fields still get parsed out of the HTML, since they weren't overridden
+        assert results["article_title"] == extract(url, html_content)["article_title"]
+
+    def test_text_content_override_with_other_metadata(self):
+        url = "https://www.indiatimes.com/news/india/75th-independence-day-india-august-15-576959.html"
+        html_content, _ = mock_fetch(url)
+        results = extract(
+            url,
+            html_content,
+            include_other_metadata=True,
+            overrides=dict(text_content="This is some text"),
+        )
+        # nothing was extracted from the HTML, so these have nothing to report
+        assert results["other"] == dict(
+            raw_title=None, raw_publish_date=None, top_image_url=None, authors=None
+        )
 
     def test_default_title(self):
         # throws too short error if no default
