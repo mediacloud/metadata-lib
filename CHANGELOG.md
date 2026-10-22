@@ -4,6 +4,11 @@ Version History
 Version 2
 ---------
 
+### V2.1.0
+* Add new `include_links` option that lets you see linked-to URLs as `results["links"]`
+* Fix edge-case bug related using only some overrides in extract call
+* Small internal code fixes
+
 ### V2.0.0
 A major release that significantly updates the extraction libraries we depend on. We validated performance
 accuracy  reasonably with new scripts that compared new performance to past across thousands of stories, but
