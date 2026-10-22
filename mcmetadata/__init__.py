@@ -40,11 +40,11 @@ SENTRY_LOGGERS_TO_IGNORE = [
 def extract(
     url: str,
     html_text: Optional[str] = None,
-    include_other_metadata: Optional[bool] = False,
+    include_other_metadata: bool = False,
     defaults: Mapping[str, Any] = {},
     overrides: Mapping[str, Any] = {},
     stats_accumulator: Mapping[str, int] = None,
-    include_links: Optional[bool] = False,
+    include_links: bool = False,
 ) -> Dict:
     """
     The core method of this library - returns all the useful information extracted from the HTML of the next

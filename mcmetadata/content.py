@@ -2,7 +2,7 @@ import collections
 import logging
 import re
 from abc import ABC, abstractmethod
-from typing import Dict, Iterable, Iterator, List, Optional, Tuple
+from typing import Iterable, Iterator, Optional
 from urllib.parse import urljoin
 
 import dateparser
@@ -59,8 +59,8 @@ method_success_stats = collections.Counter()
 
 
 def _to_content_links(
-    anchors: Iterable[Tuple[Optional[str], Optional[str]]], base_url: Optional[str]
-) -> List[Dict[str, str]]:
+    anchors: Iterable[tuple[Optional[str], Optional[str]]], base_url: Optional[str]
+) -> list[dict[str, str]]:
     """
     Turn (visible text, href) pairs found in an extracted article body into a list of dicts with `text` and
     `href` keys, in the order they appear in the story. Hrefs are made absolute against `base_url` and the
@@ -68,7 +68,7 @@ def _to_content_links(
     get dropped because they don't point at another document. Repeats are kept, so a URL linked twice shows
     up twice.
     """
-    links: List[Dict[str, str]] = []
+    links: list[dict[str, str]] = []
     for anchor_text, href in anchors:
         if not href:
             continue
@@ -84,7 +84,7 @@ def _to_content_links(
 
 def _anchors_from_elements(
     elements: Iterable, href_attribute: str = "href"
-) -> Iterator[Tuple[str, Optional[str]]]:
+) -> Iterator[tuple[str, Optional[str]]]:
     """Yield (visible text, href) pairs for lxml link elements, flattening any markup nested inside them."""
     for element in elements:
         yield "".join(element.itertext()), element.get(href_attribute)
@@ -92,7 +92,7 @@ def _anchors_from_elements(
 
 def _links_from_fragment(
     fragment: Optional[str], base_url: Optional[str]
-) -> List[Dict[str, str]]:
+) -> list[dict[str, str]]:
     """Pull the links out of an HTML fragment holding just the extracted article body."""
     if not fragment:
         return []
@@ -108,7 +108,7 @@ def from_html(
     html_text: str,
     include_metadata: bool = False,
     include_links: bool = False,
-) -> Dict:
+) -> dict:
     """
     Try a series of extractors to pull content out of HTML. The idea is to try as hard as can to get
     good content, but fallback to at least get something useful. The writeup at this site was very helpful:
